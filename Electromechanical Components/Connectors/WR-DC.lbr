@@ -1,0 +1,3514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - DC Power Jacks - WR-DC &lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2021a, 2021-09-30&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="694102303002" urn="urn:adsk.eagle:footprint:14886045/2">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (4.2)</description>
+<wire x1="5.2" y1="1.9" x2="5.2" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-2.6" x2="0.6" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="5.2" y1="-2.6" x2="5.2" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-2.6" x2="-6.1" y2="2.6" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-2.6" x2="5.2" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="2.6" x2="5.2" y2="2.6" width="0.2" layer="21"/>
+<wire x1="1.546" y1="-3.298" x2="1.548" y2="-3.3" width="0.01" layer="46"/>
+<wire x1="5.1" y1="2.5" x2="-6" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-6" y1="2.5" x2="-6" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-6" y1="-2.5" x2="5.1" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="5.1" y1="-2.5" x2="5.1" y2="2.5" width="0.1" layer="51"/>
+<wire x1="6.9" y1="-0.3" x2="5.9" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="5.9" y1="-0.3" x2="5.6" y2="0" width="0.1" layer="51"/>
+<wire x1="5.6" y1="0" x2="5.8" y2="0" width="0.1" layer="51"/>
+<wire x1="5.6" y1="0" x2="5.6" y2="-0.2" width="0.1" layer="51"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.5" shape="long" rot="R270"/>
+<pad name="1" x="4.9" y="0" drill="1" diameter="1.5" shape="long" rot="R270"/>
+<pad name="3" x="2.3" y="-2.8" drill="1" diameter="1.5" shape="long"/>
+<text x="0" y="3.5" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-5.52" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-1.72" y="-0.35" size="0.8128" layer="21">2</text>
+<text x="3.15" y="-0.37" size="0.8128" layer="21">1</text>
+<text x="2.02" y="-1.73" size="0.8128" layer="21">3</text>
+<text x="5" y="-0.1" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="7.1" y="-1.4" size="0.3048" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer
+</text>
+<text x="5" y="-0.1" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-0.1" y="0" size="0.254" layer="46" rot="R270" align="bottom-center">PCB Cutout Area</text>
+<text x="-0.1" y="0" size="0.254" layer="48" rot="R270" align="bottom-center">PCB Cutout Area</text>
+<text x="2.3" y="-2.9" size="0.254" layer="46" align="bottom-center">PCB Cutout Area</text>
+<text x="2.3" y="-2.9" size="0.254" layer="48" align="bottom-center">PCB Cutout Area</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.3" y="2.8"/>
+<vertex x="5.8" y="2.8"/>
+<vertex x="5.8" y="-3.8"/>
+<vertex x="-6.3" y="-3.8"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="0.5" y="-0.25" curve="-181.145419"/>
+<vertex x="-0.5" y="-0.25"/>
+<vertex x="-0.5" y="0.25" curve="-181.145419"/>
+<vertex x="0.5" y="0.25"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="2.059" y="-3.3" curve="-181.145419"/>
+<vertex x="2.039" y="-2.3"/>
+<vertex x="2.534" y="-2.3" curve="-181.145419"/>
+<vertex x="2.554" y="-3.3"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="5.4" y="-0.25" curve="-181.145419"/>
+<vertex x="4.4" y="-0.25"/>
+<vertex x="4.4" y="0.25" curve="-181.145419"/>
+<vertex x="5.4" y="0.25"/>
+</polygon>
+</package>
+<package name="694108105102" urn="urn:adsk.eagle:footprint:14886037/1">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled SMT Ø 6.4 with pegs</description>
+<wire x1="-6.75" y1="-4.5" x2="-6.75" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-6.75" y1="4.5" x2="7.75" y2="4.5" width="0.1" layer="51"/>
+<wire x1="7.75" y1="-4.5" x2="-6.75" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="7.75" y1="4.5" x2="7.75" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="3.8" y1="4.6" x2="7.85" y2="4.6" width="0.2" layer="21"/>
+<wire x1="7.85" y1="4.6" x2="7.85" y2="1" width="0.2" layer="21"/>
+<wire x1="3.8" y1="-4.6" x2="7.85" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="7.85" y1="-4.6" x2="7.85" y2="-2.2" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="4.6" x2="-6.85" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="4.6" x2="-6.85" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-4.6" x2="-3.8" y2="-4.6" width="0.2" layer="21"/>
+<smd name="1" x="8.75" y="-0.6" dx="4" dy="2.5" layer="1"/>
+<smd name="2" x="0" y="6.5" dx="7" dy="4" layer="1"/>
+<smd name="3" x="0" y="-6.5" dx="7" dy="4" layer="1"/>
+<text x="0" y="9.5" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-11" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-0.75" y="2.75" size="1.27" layer="48">2</text>
+<text x="5.25" y="-1.25" size="1.27" layer="48">1</text>
+<text x="-0.5" y="-3.75" size="1.27" layer="48">3</text>
+<hole x="-3.25" y="2.5" drill="1.8"/>
+<hole x="-3.25" y="-2.5" drill="1.8"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.1" y="8.75"/>
+<vertex x="11" y="8.75"/>
+<vertex x="11" y="-8.75"/>
+<vertex x="-7.1" y="-8.75"/>
+</polygon>
+</package>
+<package name="694108402002" urn="urn:adsk.eagle:footprint:14886030/2">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical THT Ø 6.4</description>
+<wire x1="-4.5" y1="-6.5" x2="4.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-6.5" x2="4.5" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="4.2" x2="4.5" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-6.5" x2="-4.5" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="1.9" x2="-4.6" y2="4.3" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="4.3" x2="4.6" y2="4.3" width="0.2" layer="21"/>
+<wire x1="4.6" y1="4.3" x2="4.6" y2="-2" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-1.9" x2="-4.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-6.6" x2="-2.8" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-6.6" x2="4.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-6.6" x2="4.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-5.3" y1="-0.2" x2="-4.3" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="-4.3" y1="-0.2" x2="-4" y2="0.1" width="0.1" layer="51"/>
+<wire x1="-4" y1="0.1" x2="-4.2" y2="0.1" width="0.1" layer="51"/>
+<wire x1="-4" y1="0.1" x2="-4" y2="-0.1" width="0.1" layer="51"/>
+<pad name="1" x="-3.5" y="0" drill="0.8" diameter="2.1" shape="long" rot="R90"/>
+<pad name="2" x="-1.2" y="-5.3" drill="0.6" diameter="2" shape="long" rot="R180"/>
+<pad name="3" x="2.5" y="-2.8" drill="0.6" diameter="2" shape="long"/>
+<text x="0" y="5" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.5" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-2.25" y="-0.74" size="1.27" layer="21">1</text>
+<text x="1.88" y="-1.39" size="1.27" layer="21">3</text>
+<text x="-1.77" y="-3.97" size="1.27" layer="21">2</text>
+<text x="-3.4" y="0" size="0.3048" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="2.5" y="-3" size="0.3048" layer="46" align="bottom-center">PCB Cutout Area</text>
+<text x="-5.4" y="-1.2" size="0.3048" layer="48" align="bottom-right">Milling Layer
+the hole size should 
+follow the Milling Layer
+</text>
+<text x="-3.4" y="0" size="0.3048" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="2.5" y="-3" size="0.3048" layer="48" align="bottom-center">PCB Cutout Area</text>
+<text x="-1.1" y="-5.4" size="0.3048" layer="48" align="bottom-center">PCB Cutout Area</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5" y="4.5"/>
+<vertex x="5" y="4.5"/>
+<vertex x="5" y="-6.8"/>
+<vertex x="-5" y="-6.8"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-0.2" y="-5.6"/>
+<vertex x="-2.2" y="-5.6" curve="-180"/>
+<vertex x="-2.2" y="-5"/>
+<vertex x="-0.2" y="-5" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="3.6" y="-3.1"/>
+<vertex x="1.4" y="-3.1" curve="-180"/>
+<vertex x="1.4" y="-2.5"/>
+<vertex x="3.6" y="-2.5" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-3.1" y="-1.35" curve="-180"/>
+<vertex x="-3.9" y="-1.35"/>
+<vertex x="-3.9" y="1.35" curve="-180"/>
+<vertex x="-3.1" y="1.35"/>
+</polygon>
+</package>
+<package name="694103107102" urn="urn:adsk.eagle:footprint:14886035/1">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled Low Profile SMT Ø 3.9 with 4 soldering pads &amp; pegs</description>
+<smd name="3" x="-4.3" y="4" dx="2.2" dy="2.2" layer="1" rot="R180"/>
+<smd name="2" x="-4.3" y="-0.5" dx="2.2" dy="2.2" layer="1" rot="R180"/>
+<smd name="A1" x="4.3" y="-0.5" dx="2.2" dy="2.2" layer="1" rot="R180"/>
+<smd name="1" x="4.3" y="4" dx="2.2" dy="2.2" layer="1" rot="R180"/>
+<text x="0" y="6" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-6" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="2.08" y="-1.19" size="1.27" layer="48">1</text>
+<text x="2.02" y="3.27" size="1.27" layer="48">1</text>
+<text x="-2.64" y="3.34" size="1.27" layer="48">3</text>
+<text x="-2.53" y="-1.07" size="1.27" layer="48">2</text>
+<text x="2.02" y="3.27" size="1.27" layer="21">1</text>
+<text x="2.02" y="3.27" size="1.27" layer="21">1</text>
+<hole x="0" y="-2.5" drill="1"/>
+<hole x="0" y="2.5" drill="1"/>
+<wire x1="4" y1="-4" x2="-4" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="-4" x2="-4" y2="5.3" width="0.1" layer="51"/>
+<wire x1="-4" y1="5.3" x2="4" y2="5.3" width="0.1" layer="51"/>
+<wire x1="4" y1="5.3" x2="4" y2="-4" width="0.1" layer="51"/>
+<wire x1="-2.9" y1="5.4" x2="2.9" y2="5.4" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-1.9" x2="-4.1" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="4.1" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-4.1" x2="4.1" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="4.1" y1="2.6" x2="4.1" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="2.6" x2="-4.1" y2="0.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.6" y="-4.3"/>
+<vertex x="-5.6" y="5.6"/>
+<vertex x="5.6" y="5.6"/>
+<vertex x="5.6" y="-4.3"/>
+</polygon>
+</package>
+<package name="694102304002" urn="urn:adsk.eagle:footprint:14886044/2">
+<description>&lt;b&gt;WR-DC DC Power Jack THT Right Angled Low Profile (3.8)</description>
+<wire x1="3.25" y1="7.1" x2="2.6" y2="7.1" width="0.2" layer="21"/>
+<wire x1="3.25" y1="-2.1" x2="3.25" y2="7.1" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="-2.1" x2="-3.25" y2="7.1" width="0.2" layer="21"/>
+<wire x1="-2.56" y1="7.1" x2="-3.25" y2="7.1" width="0.2" layer="21"/>
+<wire x1="3.25" y1="-2.1" x2="-3.25" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-3.15" y1="7" x2="3.15" y2="7" width="0.1" layer="51"/>
+<wire x1="3.15" y1="7" x2="3.15" y2="-2" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-2" x2="-3.15" y2="-2" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="7" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="7.1" x2="-1.4" y2="7.1" width="0.2" layer="21"/>
+<wire x1="1.4" y1="7.1" x2="0.6" y2="7.1" width="0.2" layer="21"/>
+<wire x1="4" y1="5.8" x2="2.7" y2="5.8" width="0.1" layer="51"/>
+<wire x1="2.7" y1="5.8" x2="2.4" y2="6.1" width="0.1" layer="51"/>
+<wire x1="2.4" y1="6.1" x2="2.6" y2="6.1" width="0.1" layer="51"/>
+<wire x1="2.4" y1="6.1" x2="2.4" y2="5.9" width="0.1" layer="51"/>
+<pad name="3" x="-2" y="6" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<pad name="1" x="0" y="6" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<pad name="2" x="2" y="6" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<text x="0" y="7.744" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-4" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-2.28" y="3.9" size="0.8128" layer="21">3</text>
+<text x="-0.28" y="3.9" size="0.8128" layer="21">1</text>
+<text x="1.72" y="3.9" size="0.8128" layer="21">2</text>
+<text x="2.1" y="6" size="0.15" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="4.2" y="4.7" size="0.3048" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer
+</text>
+<text x="2.1" y="6" size="0.15" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="6" size="0.15" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="6" size="0.15" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-1.9" y="6" size="0.15" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-1.9" y="6" size="0.15" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<hole x="-2" y="0" drill="1.3"/>
+<hole x="2" y="0" drill="1.3"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.45" y="-2.3"/>
+<vertex x="-3.45" y="7.3"/>
+<vertex x="3.45" y="7.3"/>
+<vertex x="3.45" y="-2.3"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-1.75" y="5.4"/>
+<vertex x="-2.25" y="5.4"/>
+<vertex x="-2.25" y="6.6"/>
+<vertex x="-1.75" y="6.6"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="0.25" y="5.4"/>
+<vertex x="-0.25" y="5.4"/>
+<vertex x="-0.25" y="6.6"/>
+<vertex x="0.25" y="6.6"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="1.75" y="6.6"/>
+<vertex x="1.75" y="5.4"/>
+<vertex x="2.25" y="5.4"/>
+<vertex x="2.25" y="6.6"/>
+</polygon>
+</package>
+<package name="694108301002" urn="urn:adsk.eagle:footprint:14886033/2">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (6.4)</description>
+<wire x1="6.8" y1="4.6" x2="-7.9" y2="4.6" width="0.2" layer="21"/>
+<wire x1="6.8" y1="-4.6" x2="5.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="6.8" y1="4.6" x2="6.8" y2="1.9" width="0.2" layer="21"/>
+<wire x1="-7.9" y1="4.6" x2="-7.9" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="0.5" y1="-4.6" x2="-7.9" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="6.8" y1="-1.9" x2="6.8" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="0.4" y1="-1.5" x2="0.4" y2="-1.6" width="0.01" layer="46"/>
+<wire x1="-7.8" y1="4.5" x2="6.7" y2="4.5" width="0.1" layer="51"/>
+<wire x1="6.7" y1="4.5" x2="6.7" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="6.7" y1="-4.5" x2="-7.8" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-7.8" y1="-4.5" x2="-7.8" y2="4.5" width="0.1" layer="51"/>
+<wire x1="8" y1="-0.5" x2="7" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="7" y1="-0.5" x2="6.4" y2="0" width="0.1" layer="51"/>
+<wire x1="6.4" y1="0" x2="6.6" y2="0" width="0.1" layer="51"/>
+<wire x1="6.4" y1="0" x2="6.4" y2="-0.2" width="0.1" layer="51"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="2" shape="long" rot="R270"/>
+<pad name="1" x="5.8" y="0" drill="0.8" diameter="2" shape="long" rot="R90"/>
+<pad name="3" x="2.8" y="-4.8" drill="0.8" diameter="2" shape="long" rot="R180"/>
+<text x="0" y="5.5" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8" size="1.27" layer="27" rot="SR0">&gt;VALUE</text>
+<text x="2.3" y="-3.5" size="1.27" layer="21">3</text>
+<text x="3.6" y="-0.7" size="1.27" layer="21">1</text>
+<text x="-2.1" y="-0.6" size="1.27" layer="21">2</text>
+<text x="5.9" y="0" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="8.1" y="-0.9" size="0.3048" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="5.9" y="0" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="0" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="0" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="2.9" y="-5" size="0.254" layer="48" align="bottom-center">PCB Cutout Area</text>
+<text x="2.9" y="-5" size="0.254" layer="46" align="bottom-center">PCB Cutout Area</text>
+<polygon width="0.1" layer="39">
+<vertex x="7.1" y="-6"/>
+<vertex x="-8.2" y="-6"/>
+<vertex x="-8.2" y="4.8"/>
+<vertex x="7.1" y="4.8"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-0.4" y="1.5"/>
+<vertex x="-0.4" y="-1.5"/>
+<vertex x="0.4" y="-1.5"/>
+<vertex x="0.4" y="1.5"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="5.4" y="1.5"/>
+<vertex x="5.4" y="-1.5"/>
+<vertex x="6.2" y="-1.5"/>
+<vertex x="6.2" y="1.5"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="4.3" y="-5.2"/>
+<vertex x="1.3" y="-5.2"/>
+<vertex x="1.3" y="-4.4"/>
+<vertex x="4.3" y="-4.4"/>
+</polygon>
+</package>
+<package name="694106402002" urn="urn:adsk.eagle:footprint:14886039/2">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical THT Ø 6.4</description>
+<wire x1="-4.5" y1="-6.5" x2="4.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-6.5" x2="4.5" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="4.2" x2="4.5" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-6.5" x2="-4.5" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="1.9" x2="-4.6" y2="4.3" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="4.3" x2="4.6" y2="4.3" width="0.2" layer="21"/>
+<wire x1="4.6" y1="4.3" x2="4.6" y2="-2" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-1.9" x2="-4.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-6.6" x2="-2.8" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-6.6" x2="4.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-6.6" x2="4.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-5.3" y1="-0.2" x2="-4.3" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="-4.3" y1="-0.2" x2="-4" y2="0.1" width="0.1" layer="51"/>
+<wire x1="-4" y1="0.1" x2="-4.2" y2="0.1" width="0.1" layer="51"/>
+<wire x1="-4" y1="0.1" x2="-4" y2="-0.1" width="0.1" layer="51"/>
+<pad name="1" x="-3.5" y="0" drill="0.8" diameter="2.1" shape="long" rot="R90"/>
+<pad name="2" x="-1.2" y="-5.3" drill="0.6" diameter="2" shape="long" rot="R180"/>
+<pad name="3" x="2.5" y="-2.8" drill="0.6" diameter="2" shape="long"/>
+<text x="0" y="5" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.5" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-2.25" y="-0.74" size="1.27" layer="21">1</text>
+<text x="1.88" y="-1.39" size="1.27" layer="21">3</text>
+<text x="-1.77" y="-3.97" size="1.27" layer="21">2</text>
+<text x="-3.4" y="0" size="0.3048" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="2.5" y="-3" size="0.3048" layer="46" align="bottom-center">PCB Cutout Area</text>
+<text x="-1.1" y="-5.4" size="0.3048" layer="46" align="bottom-center">PCB Cutout Area</text>
+<text x="-5.4" y="-1.2" size="0.3048" layer="48" align="bottom-right">Milling Layer
+the hole size should 
+follow the Milling Layer
+</text>
+<text x="-3.4" y="0" size="0.3048" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="2.5" y="-3" size="0.3048" layer="48" align="bottom-center">PCB Cutout Area</text>
+<text x="-1.1" y="-5.4" size="0.3048" layer="48" align="bottom-center">PCB Cutout Area</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5" y="4.5"/>
+<vertex x="5" y="4.5"/>
+<vertex x="5" y="-6.8"/>
+<vertex x="-5" y="-6.8"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="1.4" y="-2.5" curve="180"/>
+<vertex x="1.4" y="-3.1"/>
+<vertex x="3.6" y="-3.1" curve="180"/>
+<vertex x="3.6" y="-2.5"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-3.1" y="-1.35" curve="-180"/>
+<vertex x="-3.9" y="-1.35"/>
+<vertex x="-3.9" y="1.35" curve="-180"/>
+<vertex x="-3.1" y="1.35"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-2.2" y="-5" curve="180"/>
+<vertex x="-2.2" y="-5.6"/>
+<vertex x="-0.2" y="-5.6" curve="180"/>
+<vertex x="-0.2" y="-5"/>
+</polygon>
+</package>
+<package name="694102107102" urn="urn:adsk.eagle:footprint:14886046/2">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled Low Profile SMT Ø 3.9 with 4 soldering pads &amp; pegs</description>
+<smd name="3" x="-4.3" y="4" dx="2.2" dy="2.2" layer="1" rot="R180"/>
+<smd name="2" x="-4.3" y="-0.5" dx="2.2" dy="2.2" layer="1" rot="R180"/>
+<smd name="A1" x="4.3" y="-0.5" dx="2.2" dy="2.2" layer="1" rot="R180"/>
+<smd name="1" x="4.3" y="4" dx="2.2" dy="2.2" layer="1" rot="R180"/>
+<text x="0" y="6" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-6" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="2.08" y="-1.19" size="1.27" layer="48">1</text>
+<text x="2.02" y="3.27" size="1.27" layer="48">1</text>
+<text x="-2.64" y="3.34" size="1.27" layer="48">3</text>
+<text x="-2.53" y="-1.07" size="1.27" layer="48">2</text>
+<text x="2.02" y="3.27" size="1.27" layer="21">1</text>
+<text x="2.02" y="3.27" size="1.27" layer="21">1</text>
+<hole x="0" y="-2.5" drill="1"/>
+<hole x="0" y="2.5" drill="1"/>
+<wire x1="4" y1="-4" x2="-4" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="-4" x2="-4" y2="5.3" width="0.1" layer="51"/>
+<wire x1="-4" y1="5.3" x2="4" y2="5.3" width="0.1" layer="51"/>
+<wire x1="4" y1="5.3" x2="4" y2="-4" width="0.1" layer="51"/>
+<wire x1="-2.9" y1="5.4" x2="2.9" y2="5.4" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-1.9" x2="-4.1" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="4.1" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-4.1" x2="4.1" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="4.1" y1="2.6" x2="4.1" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="2.6" x2="-4.1" y2="0.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.6" y="-4.3"/>
+<vertex x="-5.6" y="5.6"/>
+<vertex x="5.6" y="5.6"/>
+<vertex x="5.6" y="-4.3"/>
+</polygon>
+</package>
+<package name="694103304002" urn="urn:adsk.eagle:footprint:14886032/2">
+<description>&lt;b&gt;WR-DC DC Power Jack THT Right Angled Low Profile (3.8)</description>
+<wire x1="3.25" y1="7.1" x2="2.6" y2="7.1" width="0.2" layer="21"/>
+<wire x1="3.25" y1="-2.1" x2="3.25" y2="7.1" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="-2.1" x2="-3.25" y2="7.1" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="7.1" x2="-3.25" y2="7.1" width="0.2" layer="21"/>
+<wire x1="3.25" y1="-2.1" x2="-3.25" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-3.15" y1="7" x2="3.15" y2="7" width="0.1" layer="51"/>
+<wire x1="3.15" y1="7" x2="3.15" y2="-2" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-2" x2="-3.15" y2="-2" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="7" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="7.1" x2="-1.4" y2="7.1" width="0.2" layer="21"/>
+<wire x1="1.4" y1="7.1" x2="0.6" y2="7.1" width="0.2" layer="21"/>
+<wire x1="4" y1="5.8" x2="2.7" y2="5.8" width="0.1" layer="51"/>
+<wire x1="2.7" y1="5.8" x2="2.4" y2="6.1" width="0.1" layer="51"/>
+<wire x1="2.4" y1="6.1" x2="2.6" y2="6.1" width="0.1" layer="51"/>
+<wire x1="2.4" y1="6.1" x2="2.4" y2="5.9" width="0.1" layer="51"/>
+<pad name="3" x="-2" y="6" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<pad name="1" x="0" y="6" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<pad name="2" x="2" y="6" drill="0.5" diameter="1" shape="long" rot="R90"/>
+<text x="0" y="7.744" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-4" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-2.28" y="3.9" size="0.8128" layer="21">3</text>
+<text x="-0.28" y="3.9" size="0.8128" layer="21">1</text>
+<text x="1.72" y="3.9" size="0.8128" layer="21">2</text>
+<text x="2.1" y="6" size="0.15" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="4.1" y="5.2" size="0.3048" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="2.1" y="6" size="0.15" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="6" size="0.15" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="6" size="0.15" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-1.9" y="6" size="0.15" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-1.9" y="6" size="0.15" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<hole x="-2" y="0" drill="1.3"/>
+<hole x="2" y="0" drill="1.3"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.45" y="-2.3"/>
+<vertex x="-3.45" y="7.3"/>
+<vertex x="3.45" y="7.3"/>
+<vertex x="3.45" y="-2.3"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="0.25" y="5.4"/>
+<vertex x="-0.25" y="5.4"/>
+<vertex x="-0.25" y="6.6"/>
+<vertex x="0.25" y="6.6"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="1.75" y="6.6"/>
+<vertex x="1.75" y="5.4"/>
+<vertex x="2.25" y="5.4"/>
+<vertex x="2.25" y="6.6"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-1.75" y="5.4"/>
+<vertex x="-2.25" y="5.4"/>
+<vertex x="-2.25" y="6.6"/>
+<vertex x="-1.75" y="6.6"/>
+</polygon>
+</package>
+<package name="694105309102" urn="urn:adsk.eagle:footprint:14886043/2">
+<description>&lt;b&gt;WR-DC Power Jack Right Angled Shielded THT Ø 4.93</description>
+<pad name="1" x="0" y="0" drill="1.4" diameter="2.4"/>
+<pad name="2" x="-7.15" y="-2.8" drill="0.7" diameter="1.7" shape="long" rot="R90"/>
+<pad name="3" x="5.45" y="-2.6" drill="0.7" diameter="1.7" shape="long" rot="R270"/>
+<pad name="4" x="5.53" y="-9.45" drill="1" diameter="2" shape="long" rot="R270"/>
+<pad name="5" x="-7.22" y="-9.45" drill="1" diameter="2" shape="long" rot="R270"/>
+<text x="-4.005" y="-7.93" size="0.6096" layer="46" ratio="13" rot="SR0">PCB Cutout Area</text>
+<text x="-1.2" y="2" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-4.35" y="-15.9" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-2.15" y="-0.64" size="1.016" layer="21">1</text>
+<text x="5.06" y="-5.82" size="1.016" layer="21">3</text>
+<text x="-7.62" y="-5.94" size="1.016" layer="21">2</text>
+<text x="-1.6" y="-13.4" size="0.6096" layer="48">PCB EDGE</text>
+<text x="7.4" y="-10.4" size="0.3048" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="5.6" y="-9.5" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="5.6" y="-9.5" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-7.1" y="-9.5" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-7.1" y="-9.5" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-7.1" y="-2.8" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-7.1" y="-2.8" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="5.6" y="-2.6" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="5.6" y="-2.6" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-1.1" y="-7.5" size="0.6096" layer="48" align="bottom-center">PCB Cutout Area</text>
+<text x="-1.1" y="-7.5" size="0.6096" layer="46" align="bottom-center">PCB Cutout Area</text>
+<wire x1="-5.85" y1="-2" x2="4.15" y2="-2" width="0.1" layer="51"/>
+<wire x1="4.15" y1="-2" x2="4.15" y2="-13.7" width="0.1" layer="51"/>
+<wire x1="4.15" y1="-13.7" x2="-5.85" y2="-13.7" width="0.1" layer="51"/>
+<wire x1="-5.85" y1="-13.7" x2="-5.85" y2="-2" width="0.1" layer="51"/>
+<wire x1="-1.65" y1="-13.35" x2="-2.55" y2="-13.35" width="0.05" layer="51"/>
+<wire x1="-2.55" y1="-13.35" x2="-3" y2="-12.7" width="0.05" layer="51"/>
+<wire x1="-3" y1="-12.7" x2="-3" y2="-12.85" width="0.05" layer="51"/>
+<wire x1="-3" y1="-12.7" x2="-2.85" y2="-12.75" width="0.05" layer="51"/>
+<wire x1="-5.95" y1="-1.9" x2="4.25" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="4.25" y1="-1.9" x2="4.25" y2="-13.8" width="0.2" layer="21"/>
+<wire x1="4.25" y1="-13.8" x2="-5.95" y2="-13.8" width="0.2" layer="21"/>
+<wire x1="-5.95" y1="-13.8" x2="-5.95" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="5.5" y1="-12.6" x2="-7" y2="-12.6" width="0.1" layer="51"/>
+<wire x1="7.2" y1="-9.8" x2="6.5" y2="-9.8" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-9.8" x2="6.2" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="6.2" y1="-9.5" x2="6.4" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="6.2" y1="-9.5" x2="6.2" y2="-9.7" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-8.5" y="1.4"/>
+<vertex x="6.8" y="1.4"/>
+<vertex x="6.8" y="-14"/>
+<vertex x="-8.5" y="-14"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-6.8" y="-3.61" curve="-176.726846"/>
+<vertex x="-7.5" y="-3.61"/>
+<vertex x="-7.5" y="-1.99" curve="-176.726846"/>
+<vertex x="-6.8" y="-1.99"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-6.72" y="-10.35" curve="-182.268621"/>
+<vertex x="-7.72" y="-10.35"/>
+<vertex x="-7.72" y="-8.55" curve="-180"/>
+<vertex x="-6.72" y="-8.55"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="5.1" y="-2"/>
+<vertex x="5.1" y="-3.2" curve="180"/>
+<vertex x="5.8" y="-3.2"/>
+<vertex x="5.8" y="-2" curve="180"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="5.03" y="-8.55"/>
+<vertex x="5.03" y="-10.35" curve="182.268621"/>
+<vertex x="6.03" y="-10.35"/>
+<vertex x="6.03" y="-8.55" curve="180"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="4.25" y="-12.6"/>
+<vertex x="-6.05" y="-12.6"/>
+<vertex x="-6.05" y="-2" curve="-180"/>
+<vertex x="-4.85" y="-2"/>
+<vertex x="3.05" y="-2" curve="-180"/>
+<vertex x="4.25" y="-2"/>
+</polygon>
+</package>
+<package name="694106106102" urn="urn:adsk.eagle:footprint:14886041/1">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled SMT Ø 6.4 with 4 soldering pads &amp; pegs</description>
+<wire x1="-7.25" y1="-4.5" x2="-7.25" y2="4.5" width="0.1" layer="51"/>
+<wire x1="7.45" y1="-4.5" x2="7.45" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-7.25" y1="4.5" x2="7.45" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-7.25" y1="-4.5" x2="7.45" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="5.2" y1="4.6" x2="7.55" y2="4.6" width="0.2" layer="21"/>
+<wire x1="7.55" y1="4.6" x2="7.55" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="7.55" y1="-4.6" x2="5.2" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="4.6" x2="-7.35" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="4.6" x2="-7.35" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="-4.6" x2="-3.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-0.9" y1="-4.6" x2="2.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-0.9" y1="4.6" x2="2.6" y2="4.6" width="0.2" layer="21"/>
+<smd name="1" x="-2.25" y="5.5" dx="2" dy="2" layer="1"/>
+<smd name="A1" x="3.9" y="5.5" dx="2" dy="2" layer="1"/>
+<smd name="2" x="-2.25" y="-5.5" dx="2" dy="2" layer="1"/>
+<smd name="3" x="3.9" y="-5.5" dx="2" dy="2" layer="1"/>
+<text x="0" y="7.5" size="1.27" layer="25" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-9" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-2.75" y="2.8" size="1.27" layer="48">1</text>
+<text x="3.35" y="2.8" size="1.27" layer="48">1</text>
+<text x="3.55" y="-3.9" size="1.27" layer="48">3</text>
+<text x="-2.75" y="-3.7" size="1.27" layer="48">2</text>
+<text x="-2.75" y="2.8" size="1.27" layer="21">1</text>
+<hole x="-2.25" y="0" drill="1.6"/>
+<hole x="2.25" y="0" drill="1.8"/>
+<polygon width="0.127" layer="39">
+<vertex x="-7.55" y="6.75"/>
+<vertex x="7.75" y="6.75"/>
+<vertex x="7.75" y="-6.75"/>
+<vertex x="-7.55" y="-6.75"/>
+</polygon>
+</package>
+<package name="694106301002" urn="urn:adsk.eagle:footprint:14886040/2">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (6.4)</description>
+<wire x1="6.8" y1="4.6" x2="-7.9" y2="4.6" width="0.2" layer="21"/>
+<wire x1="6.8" y1="-4.6" x2="5.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="6.8" y1="4.6" x2="6.8" y2="1.89" width="0.2" layer="21"/>
+<wire x1="-7.9" y1="4.6" x2="-7.9" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="0.5" y1="-4.6" x2="-7.9" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="6.8" y1="-1.9" x2="6.8" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="0.4" y1="-1.5" x2="0.4" y2="-1.6" width="0.01" layer="46"/>
+<wire x1="-7.8" y1="4.5" x2="6.7" y2="4.5" width="0.1" layer="51"/>
+<wire x1="6.7" y1="4.5" x2="6.7" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="6.7" y1="-4.5" x2="-7.8" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-7.8" y1="-4.5" x2="-7.8" y2="4.5" width="0.1" layer="51"/>
+<wire x1="8" y1="-0.5" x2="7" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="7" y1="-0.5" x2="6.4" y2="0" width="0.1" layer="51"/>
+<wire x1="6.4" y1="0" x2="6.6" y2="0" width="0.1" layer="51"/>
+<wire x1="6.4" y1="0" x2="6.4" y2="-0.2" width="0.1" layer="51"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="2" shape="long" rot="R270"/>
+<pad name="1" x="5.8" y="0" drill="0.8" diameter="2" shape="long" rot="R90"/>
+<pad name="3" x="2.8" y="-4.8" drill="0.8" diameter="2" shape="long" rot="R180"/>
+<text x="0" y="5.5" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8" size="1.27" layer="27" rot="SR0">&gt;VALUE</text>
+<text x="2.3" y="-3.5" size="1.27" layer="21">3</text>
+<text x="4.2" y="-0.7" size="1.27" layer="21" align="bottom-right">1</text>
+<text x="-1.7" y="-0.6" size="1.27" layer="21" align="bottom-right">2</text>
+<text x="5.9" y="0" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="8.1" y="-0.9" size="0.3048" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="5.9" y="0" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="0" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="0" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="2.9" y="-5" size="0.254" layer="48" align="bottom-center">PCB Cutout Area</text>
+<text x="2.9" y="-5" size="0.254" layer="46" align="bottom-center">PCB Cutout Area</text>
+<polygon width="0.1" layer="39">
+<vertex x="7.1" y="-6"/>
+<vertex x="-8.2" y="-6"/>
+<vertex x="-8.2" y="4.8"/>
+<vertex x="7.1" y="4.8"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="6.2" y="-1.5"/>
+<vertex x="5.4" y="-1.5"/>
+<vertex x="5.4" y="1.5"/>
+<vertex x="6.2" y="1.5"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="0.4" y="-1.5"/>
+<vertex x="-0.4" y="-1.5"/>
+<vertex x="-0.4" y="1.5"/>
+<vertex x="0.4" y="1.5"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="4.3" y="-5.2"/>
+<vertex x="1.3" y="-5.2"/>
+<vertex x="1.3" y="-4.4"/>
+<vertex x="4.3" y="-4.4"/>
+</polygon>
+</package>
+<package name="694106105102" urn="urn:adsk.eagle:footprint:14886042/1">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled SMT Ø 6.4 with pegs</description>
+<wire x1="-6.75" y1="-4.5" x2="-6.75" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-6.75" y1="4.5" x2="7.75" y2="4.5" width="0.1" layer="51"/>
+<wire x1="7.75" y1="-4.5" x2="-6.75" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="7.75" y1="4.5" x2="7.75" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="3.8" y1="4.6" x2="7.85" y2="4.6" width="0.2" layer="21"/>
+<wire x1="7.85" y1="4.6" x2="7.85" y2="1" width="0.2" layer="21"/>
+<wire x1="3.8" y1="-4.6" x2="7.85" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="7.85" y1="-4.6" x2="7.85" y2="-2.2" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="4.6" x2="-6.85" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="4.6" x2="-6.85" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-4.6" x2="-3.8" y2="-4.6" width="0.2" layer="21"/>
+<smd name="1" x="8.75" y="-0.6" dx="4" dy="2.5" layer="1"/>
+<smd name="2" x="0" y="6.5" dx="7" dy="4" layer="1"/>
+<smd name="3" x="0" y="-6.5" dx="7" dy="4" layer="1"/>
+<text x="0" y="9.5" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-11" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-0.75" y="2.75" size="1.27" layer="48">2</text>
+<text x="5.25" y="-1.25" size="1.27" layer="48">1</text>
+<text x="-0.5" y="-3.75" size="1.27" layer="48">3</text>
+<hole x="-3.25" y="2.5" drill="1.8"/>
+<hole x="-3.25" y="-2.5" drill="1.8"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.1" y="8.75"/>
+<vertex x="11" y="8.75"/>
+<vertex x="11" y="-8.75"/>
+<vertex x="-7.1" y="-8.75"/>
+</polygon>
+</package>
+<package name="694103303002" urn="urn:adsk.eagle:footprint:14886034/2">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (4.2)</description>
+<wire x1="5.2" y1="1.9" x2="5.2" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-2.6" x2="0.6" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="5.2" y1="-2.6" x2="5.2" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-2.6" x2="-6.1" y2="2.6" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-2.6" x2="5.2" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="2.6" x2="5.2" y2="2.6" width="0.2" layer="21"/>
+<wire x1="1.546" y1="-3.298" x2="1.548" y2="-3.3" width="0.01" layer="46"/>
+<wire x1="5.1" y1="2.5" x2="-6" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-6" y1="2.5" x2="-6" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-6" y1="-2.5" x2="5.1" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="5.1" y1="-2.5" x2="5.1" y2="2.5" width="0.1" layer="51"/>
+<wire x1="6.9" y1="-0.3" x2="5.9" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="5.9" y1="-0.3" x2="5.6" y2="0" width="0.1" layer="51"/>
+<wire x1="5.6" y1="0" x2="5.8" y2="0" width="0.1" layer="51"/>
+<wire x1="5.6" y1="0" x2="5.6" y2="-0.2" width="0.1" layer="51"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.5" shape="long" rot="R270"/>
+<pad name="1" x="4.9" y="0" drill="1" diameter="1.5" shape="long" rot="R270"/>
+<pad name="3" x="2.3" y="-2.8" drill="1" diameter="1.5" shape="long"/>
+<text x="0" y="3.5" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-5.52" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-1.72" y="-0.35" size="0.8128" layer="21">2</text>
+<text x="3.15" y="-0.37" size="0.8128" layer="21">1</text>
+<text x="2.02" y="-1.73" size="0.8128" layer="21">3</text>
+<text x="5" y="-0.1" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="7.1" y="-1.4" size="0.3048" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer
+</text>
+<text x="5" y="-0.1" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-0.1" y="0" size="0.254" layer="46" rot="R270" align="bottom-center">PCB Cutout Area</text>
+<text x="-0.1" y="0" size="0.254" layer="48" rot="R270" align="bottom-center">PCB Cutout Area</text>
+<text x="2.3" y="-2.9" size="0.254" layer="46" align="bottom-center">PCB Cutout Area</text>
+<text x="2.3" y="-2.9" size="0.254" layer="48" align="bottom-center">PCB Cutout Area</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.3" y="2.8"/>
+<vertex x="5.9" y="2.8"/>
+<vertex x="5.9" y="-3.8"/>
+<vertex x="-6.3" y="-3.8"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="0.5" y="-0.23" curve="-181.145419"/>
+<vertex x="-0.5" y="-0.25"/>
+<vertex x="-0.5" y="0.24" curve="-181.145419"/>
+<vertex x="0.5" y="0.26"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="5.4" y="-0.235" curve="-181.145419"/>
+<vertex x="4.4" y="-0.255"/>
+<vertex x="4.4" y="0.238" curve="-181.145419"/>
+<vertex x="5.4" y="0.258"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="2.059" y="-3.3" curve="-181.145419"/>
+<vertex x="2.039" y="-2.3"/>
+<vertex x="2.534" y="-2.3" curve="-181.145419"/>
+<vertex x="2.554" y="-3.3"/>
+</polygon>
+</package>
+<package name="694101308002" urn="urn:adsk.eagle:footprint:14886047/2">
+<description>&lt;b&gt;WR-DC DC Power Jack THT Right Angled Low Profile (2.8)</description>
+<wire x1="-2.5" y1="5.75" x2="2.5" y2="5.75" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-6.25" x2="-2.5" y2="5.75" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-6.25" x2="2.5" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-6.25" x2="2.5" y2="5.75" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="5.85" x2="2.6" y2="5.85" width="0.2" layer="21"/>
+<wire x1="2.6" y1="5.85" x2="2.6" y2="-2.2" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="5.85" x2="-2.6" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-5.1" x2="-2.6" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="2.6" y1="-6.35" x2="2.6" y2="-5.9" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-6.35" x2="-1.2" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="2.6" y1="-6.35" x2="1.2" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="-4.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.2" y2="-3.2" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-3.2" x2="-3.4" y2="-3.2" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-3.2" x2="-3.2" y2="-3.4" width="0.1" layer="51"/>
+<pad name="1" x="0" y="-5.45" drill="0.8" diameter="1.3" shape="long" rot="R180"/>
+<pad name="2" x="-2.75" y="-3.25" drill="0.8" diameter="1.5" shape="long" rot="R270"/>
+<pad name="3" x="2.75" y="-4.05" drill="0.8" diameter="1.5" shape="long" rot="R270"/>
+<text x="0" y="6.5" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.3" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-0.23" y="-4.49" size="0.6096" layer="21">1</text>
+<text x="-1.74" y="-3.46" size="0.6096" layer="21">2</text>
+<text x="1.31" y="-4.25" size="0.6096" layer="21">3</text>
+<text x="-2.6" y="-3.3" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="-4.6" y="-4.5" size="0.3048" layer="48" align="bottom-right">Milling Layer
+the hole size should 
+follow the Milling Layer
+</text>
+<text x="-2.6" y="-3.3" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="-5.6" size="0.254" layer="46" align="bottom-center">PCB Cutout Area</text>
+<text x="0.1" y="-5.6" size="0.254" layer="48" align="bottom-center">PCB Cutout Area</text>
+<text x="2.9" y="-4" size="0.254" layer="46" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<text x="2.9" y="-4" size="0.254" layer="48" rot="R90" align="bottom-center">PCB Cutout Area</text>
+<hole x="0" y="2.75" drill="1.7"/>
+<hole x="0" y="-2.75" drill="1.7"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.7" y="6.05"/>
+<vertex x="3.7" y="6.05"/>
+<vertex x="3.7" y="-6.55"/>
+<vertex x="-3.7" y="-6.55"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="3.15" y="-5.05"/>
+<vertex x="2.35" y="-5.05"/>
+<vertex x="2.35" y="-3.05"/>
+<vertex x="3.15" y="-3.05"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-0.75" y="-5.05"/>
+<vertex x="-0.75" y="-5.85"/>
+<vertex x="0.75" y="-5.85"/>
+<vertex x="0.75" y="-5.05"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="-3.15" y="-2.25"/>
+<vertex x="-3.15" y="-4.25"/>
+<vertex x="-2.35" y="-4.25"/>
+<vertex x="-2.35" y="-2.25"/>
+</polygon>
+</package>
+<package name="694106210102" urn="urn:adsk.eagle:footprint:14886038/1">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical SMT Ø 2.0 &amp; Ø 2.5</description>
+<smd name="1" x="-6.365" y="0" dx="2" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-1.25" y="-6.025" dx="2" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="3" x="4.8" y="-4.7" dx="2" dy="2" layer="1" stop="no" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="-6.758" y="2.3"/>
+<vertex x="-6.822" y="2.298"/>
+<vertex x="-6.884" y="2.296"/>
+<vertex x="-6.946" y="2.289"/>
+<vertex x="-7.013" y="2.283"/>
+<vertex x="-7.092" y="2.272"/>
+<vertex x="-7.181" y="2.257"/>
+<vertex x="-7.257" y="2.24"/>
+<vertex x="-7.33" y="2.221"/>
+<vertex x="-7.391" y="2.203"/>
+<vertex x="-7.463" y="2.181"/>
+<vertex x="-7.525" y="2.16"/>
+<vertex x="-7.595" y="2.132"/>
+<vertex x="-7.671" y="2.1"/>
+<vertex x="-7.823" y="2.024"/>
+<vertex x="-7.91" y="1.975"/>
+<vertex x="-7.994" y="1.922"/>
+<vertex x="-8.072" y="1.869"/>
+<vertex x="-8.161" y="1.801"/>
+<vertex x="-8.229" y="1.745"/>
+<vertex x="-8.297" y="1.683"/>
+<vertex x="-8.349" y="1.633"/>
+<vertex x="-8.4" y="1.582"/>
+<vertex x="-8.459" y="1.516"/>
+<vertex x="-8.508" y="1.459"/>
+<vertex x="-8.561" y="1.391"/>
+<vertex x="-8.615" y="1.318"/>
+<vertex x="-8.665" y="1.244"/>
+<vertex x="-8.717" y="1.156"/>
+<vertex x="-8.762" y="1.077"/>
+<vertex x="-8.801" y="1.001"/>
+<vertex x="-8.836" y="0.923"/>
+<vertex x="-8.886" y="0.799"/>
+<vertex x="-8.921" y="0.7"/>
+<vertex x="-8.959" y="0.569"/>
+<vertex x="-8.98" y="0.476"/>
+<vertex x="-9.009" y="0.316"/>
+<vertex x="-9.022" y="0.19"/>
+<vertex x="-9.03" y="0.091"/>
+<vertex x="-9.03" y="-0.026"/>
+<vertex x="-9.025" y="-0.151"/>
+<vertex x="-9.013" y="-0.293"/>
+<vertex x="-8.993" y="-0.409"/>
+<vertex x="-8.957" y="-0.581"/>
+<vertex x="-8.882" y="-0.816"/>
+<vertex x="-8.803" y="-1.001"/>
+<vertex x="-8.698" y="-1.192"/>
+<vertex x="-8.593" y="-1.351"/>
+<vertex x="-8.416" y="-1.567"/>
+<vertex x="-8.219" y="-1.757"/>
+<vertex x="-8.131" y="-1.824"/>
+<vertex x="-7.879" y="-1.994"/>
+<vertex x="-7.737" y="-2.069"/>
+<vertex x="-7.625" y="-2.118"/>
+<vertex x="-7.527" y="-2.158"/>
+<vertex x="-7.418" y="-2.195"/>
+<vertex x="-7.285" y="-2.232"/>
+<vertex x="-7.167" y="-2.259"/>
+<vertex x="-7.061" y="-2.276"/>
+<vertex x="-6.73" y="-2.3"/>
+<vertex x="-3.7" y="-2.3"/>
+<vertex x="-3.7" y="2.3"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-6.73" y="2.3"/>
+<vertex x="-3.7" y="2.3"/>
+<vertex x="-3.7" y="-2.3"/>
+<vertex x="-6.73" y="-2.3"/>
+<vertex x="-6.843" y="-2.297"/>
+<vertex x="-6.974" y="-2.287"/>
+<vertex x="-7.089" y="-2.271"/>
+<vertex x="-7.222" y="-2.247"/>
+<vertex x="-7.335" y="-2.218"/>
+<vertex x="-7.454" y="-2.182"/>
+<vertex x="-7.555" y="-2.147"/>
+<vertex x="-7.671" y="-2.099"/>
+<vertex x="-7.783" y="-2.045"/>
+<vertex x="-7.889" y="-1.986"/>
+<vertex x="-7.986" y="-1.926"/>
+<vertex x="-8.091" y="-1.854"/>
+<vertex x="-8.186" y="-1.781"/>
+<vertex x="-8.257" y="-1.719"/>
+<vertex x="-8.347" y="-1.635"/>
+<vertex x="-8.421" y="-1.559"/>
+<vertex x="-8.487" y="-1.485"/>
+<vertex x="-8.551" y="-1.406"/>
+<vertex x="-8.613" y="-1.321"/>
+<vertex x="-8.672" y="-1.231"/>
+<vertex x="-8.722" y="-1.15"/>
+<vertex x="-8.775" y="-1.052"/>
+<vertex x="-8.819" y="-0.963"/>
+<vertex x="-8.878" y="-0.826"/>
+<vertex x="-8.926" y="-0.69"/>
+<vertex x="-8.963" y="-0.552"/>
+<vertex x="-8.988" y="-0.436"/>
+<vertex x="-9.01" y="-0.306"/>
+<vertex x="-9.023" y="-0.19"/>
+<vertex x="-9.03" y="-0.037"/>
+<vertex x="-9.03" y="0.083"/>
+<vertex x="-9.016" y="0.264"/>
+<vertex x="-8.996" y="0.397"/>
+<vertex x="-8.959" y="0.574"/>
+<vertex x="-8.923" y="0.696"/>
+<vertex x="-8.849" y="0.898"/>
+<vertex x="-8.794" y="1.016"/>
+<vertex x="-8.741" y="1.118"/>
+<vertex x="-8.675" y="1.229"/>
+<vertex x="-8.619" y="1.315"/>
+<vertex x="-8.556" y="1.399"/>
+<vertex x="-8.492" y="1.479"/>
+<vertex x="-8.433" y="1.547"/>
+<vertex x="-8.37" y="1.613"/>
+<vertex x="-8.276" y="1.703"/>
+<vertex x="-8.196" y="1.774"/>
+<vertex x="-8.106" y="1.844"/>
+<vertex x="-7.948" y="1.953"/>
+<vertex x="-7.835" y="2.02"/>
+<vertex x="-7.648" y="2.11"/>
+<vertex x="-7.527" y="2.16"/>
+<vertex x="-7.326" y="2.224"/>
+<vertex x="-7.216" y="2.25"/>
+<vertex x="-7.123" y="2.269"/>
+<vertex x="-7.019" y="2.282"/>
+<vertex x="-6.88" y="2.296"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-6.777" y="2.4"/>
+<vertex x="-3.6" y="2.4"/>
+<vertex x="-3.6" y="-2.4"/>
+<vertex x="-6.829" y="-2.4"/>
+<vertex x="-6.913" y="-2.394"/>
+<vertex x="-7.014" y="-2.384"/>
+<vertex x="-7.113" y="-2.37"/>
+<vertex x="-7.205" y="-2.354"/>
+<vertex x="-7.337" y="-2.322"/>
+<vertex x="-7.451" y="-2.292"/>
+<vertex x="-7.551" y="-2.257"/>
+<vertex x="-7.641" y="-2.222"/>
+<vertex x="-7.752" y="-2.174"/>
+<vertex x="-7.88" y="-2.108"/>
+<vertex x="-7.966" y="-2.059"/>
+<vertex x="-8.053" y="-2.004"/>
+<vertex x="-8.134" y="-1.948"/>
+<vertex x="-8.235" y="-1.871"/>
+<vertex x="-8.314" y="-1.805"/>
+<vertex x="-8.387" y="-1.738"/>
+<vertex x="-8.455" y="-1.671"/>
+<vertex x="-8.545" y="-1.573"/>
+<vertex x="-8.633" y="-1.466"/>
+<vertex x="-8.71" y="-1.359"/>
+<vertex x="-8.783" y="-1.247"/>
+<vertex x="-8.845" y="-1.136"/>
+<vertex x="-8.889" y="-1.05"/>
+<vertex x="-8.931" y="-0.96"/>
+<vertex x="-8.963" y="-0.884"/>
+<vertex x="-9.009" y="-0.758"/>
+<vertex x="-9.055" y="-0.603"/>
+<vertex x="-9.095" y="-0.418"/>
+<vertex x="-9.13" y="-0.209"/>
+<vertex x="-9.13" y="0.024"/>
+<vertex x="-9.125" y="0.187"/>
+<vertex x="-9.098" y="0.398"/>
+<vertex x="-9.073" y="0.531"/>
+<vertex x="-9.024" y="0.715"/>
+<vertex x="-8.975" y="0.856"/>
+<vertex x="-8.9" y="1.032"/>
+<vertex x="-8.808" y="1.206"/>
+<vertex x="-8.71" y="1.361"/>
+<vertex x="-8.619" y="1.485"/>
+<vertex x="-8.51" y="1.616"/>
+<vertex x="-8.415" y="1.713"/>
+<vertex x="-8.253" y="1.86"/>
+<vertex x="-8.088" y="1.983"/>
+<vertex x="-7.866" y="2.119"/>
+<vertex x="-7.676" y="2.209"/>
+<vertex x="-7.459" y="2.29"/>
+<vertex x="-7.272" y="2.34"/>
+<vertex x="-7.054" y="2.381"/>
+<vertex x="-6.912" y="2.395"/>
+<vertex x="-6.769" y="2.403"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-3.25" y="-4.4"/>
+<vertex x="0.75" y="-4.4"/>
+<vertex x="0.75" y="-7.65"/>
+<vertex x="0.743" y="-7.827"/>
+<vertex x="0.732" y="-7.913"/>
+<vertex x="0.711" y="-8.046"/>
+<vertex x="0.686" y="-8.158"/>
+<vertex x="0.657" y="-8.256"/>
+<vertex x="0.595" y="-8.425"/>
+<vertex x="0.54" y="-8.545"/>
+<vertex x="0.479" y="-8.657"/>
+<vertex x="0.42" y="-8.754"/>
+<vertex x="0.347" y="-8.854"/>
+<vertex x="0.219" y="-9.011"/>
+<vertex x="0.088" y="-9.138"/>
+<vertex x="-0.017" y="-9.225"/>
+<vertex x="-0.197" y="-9.352"/>
+<vertex x="-0.313" y="-9.418"/>
+<vertex x="-0.479" y="-9.497"/>
+<vertex x="-0.637" y="-9.554"/>
+<vertex x="-0.794" y="-9.599"/>
+<vertex x="-0.948" y="-9.627"/>
+<vertex x="-1.152" y="-9.65"/>
+<vertex x="-1.349" y="-9.648"/>
+<vertex x="-1.489" y="-9.636"/>
+<vertex x="-1.616" y="-9.616"/>
+<vertex x="-1.749" y="-9.588"/>
+<vertex x="-1.912" y="-9.537"/>
+<vertex x="-2.043" y="-9.487"/>
+<vertex x="-2.203" y="-9.409"/>
+<vertex x="-2.329" y="-9.334"/>
+<vertex x="-2.5" y="-9.213"/>
+<vertex x="-2.605" y="-9.12"/>
+<vertex x="-2.69" y="-9.039"/>
+<vertex x="-2.789" y="-8.929"/>
+<vertex x="-2.885" y="-8.803"/>
+<vertex x="-2.964" y="-8.681"/>
+<vertex x="-3.022" y="-8.576"/>
+<vertex x="-3.093" y="-8.432"/>
+<vertex x="-3.131" y="-8.332"/>
+<vertex x="-3.188" y="-8.152"/>
+<vertex x="-3.218" y="-8.008"/>
+<vertex x="-3.239" y="-7.854"/>
+<vertex x="-3.248" y="-7.736"/>
+<vertex x="-3.25" y="-7.65"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-3.25" y="-4.4"/>
+<vertex x="0.75" y="-4.4"/>
+<vertex x="0.75" y="-7.478"/>
+<vertex x="0.749" y="-7.567"/>
+<vertex x="0.749" y="-7.658"/>
+<vertex x="0.746" y="-7.785"/>
+<vertex x="0.732" y="-7.917"/>
+<vertex x="0.709" y="-8.054"/>
+<vertex x="0.683" y="-8.162"/>
+<vertex x="0.65" y="-8.274"/>
+<vertex x="0.593" y="-8.43"/>
+<vertex x="0.549" y="-8.521"/>
+<vertex x="0.498" y="-8.624"/>
+<vertex x="0.454" y="-8.694"/>
+<vertex x="0.386" y="-8.804"/>
+<vertex x="0.326" y="-8.885"/>
+<vertex x="0.16" y="-9.073"/>
+<vertex x="0.041" y="-9.178"/>
+<vertex x="-0.072" y="-9.267"/>
+<vertex x="-0.224" y="-9.367"/>
+<vertex x="-0.362" y="-9.444"/>
+<vertex x="-0.543" y="-9.522"/>
+<vertex x="-0.69" y="-9.57"/>
+<vertex x="-0.856" y="-9.612"/>
+<vertex x="-1.034" y="-9.639"/>
+<vertex x="-1.171" y="-9.65"/>
+<vertex x="-1.379" y="-9.647"/>
+<vertex x="-1.536" y="-9.629"/>
+<vertex x="-1.65" y="-9.609"/>
+<vertex x="-1.757" y="-9.585"/>
+<vertex x="-1.862" y="-9.553"/>
+<vertex x="-2.006" y="-9.503"/>
+<vertex x="-2.113" y="-9.454"/>
+<vertex x="-2.217" y="-9.402"/>
+<vertex x="-2.326" y="-9.335"/>
+<vertex x="-2.468" y="-9.238"/>
+<vertex x="-2.558" y="-9.164"/>
+<vertex x="-2.652" y="-9.076"/>
+<vertex x="-2.729" y="-8.998"/>
+<vertex x="-2.825" y="-8.883"/>
+<vertex x="-2.907" y="-8.773"/>
+<vertex x="-2.979" y="-8.655"/>
+<vertex x="-3.058" y="-8.507"/>
+<vertex x="-3.117" y="-8.374"/>
+<vertex x="-3.191" y="-8.143"/>
+<vertex x="-3.219" y="-8.01"/>
+<vertex x="-3.242" y="-7.836"/>
+<vertex x="-3.25" y="-7.722"/>
+<vertex x="-3.251" y="-7.65"/>
+<vertex x="-3.25" y="-7.65"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-3.35" y="-4.3"/>
+<vertex x="0.85" y="-4.3"/>
+<vertex x="0.85" y="-7.542"/>
+<vertex x="0.851" y="-7.676"/>
+<vertex x="0.849" y="-7.792"/>
+<vertex x="0.837" y="-7.893"/>
+<vertex x="0.823" y="-7.995"/>
+<vertex x="0.801" y="-8.108"/>
+<vertex x="0.771" y="-8.228"/>
+<vertex x="0.708" y="-8.416"/>
+<vertex x="0.641" y="-8.568"/>
+<vertex x="0.525" y="-8.779"/>
+<vertex x="0.427" y="-8.917"/>
+<vertex x="0.248" y="-9.126"/>
+<vertex x="0.126" y="-9.243"/>
+<vertex x="-0.011" y="-9.351"/>
+<vertex x="-0.1" y="-9.407"/>
+<vertex x="-0.191" y="-9.467"/>
+<vertex x="-0.315" y="-9.531"/>
+<vertex x="-0.468" y="-9.602"/>
+<vertex x="-0.607" y="-9.65"/>
+<vertex x="-0.796" y="-9.703"/>
+<vertex x="-0.993" y="-9.737"/>
+<vertex x="-1.235" y="-9.753"/>
+<vertex x="-1.444" y="-9.744"/>
+<vertex x="-1.61" y="-9.721"/>
+<vertex x="-1.772" y="-9.686"/>
+<vertex x="-1.945" y="-9.634"/>
+<vertex x="-2.09" y="-9.576"/>
+<vertex x="-2.215" y="-9.516"/>
+<vertex x="-2.342" y="-9.445"/>
+<vertex x="-2.437" y="-9.384"/>
+<vertex x="-2.518" y="-9.325"/>
+<vertex x="-2.606" y="-9.254"/>
+<vertex x="-2.685" y="-9.185"/>
+<vertex x="-2.759" y="-9.113"/>
+<vertex x="-2.83" y="-9.035"/>
+<vertex x="-2.932" y="-8.912"/>
+<vertex x="-3.016" y="-8.79"/>
+<vertex x="-3.08" y="-8.683"/>
+<vertex x="-3.15" y="-8.548"/>
+<vertex x="-3.204" y="-8.422"/>
+<vertex x="-3.256" y="-8.279"/>
+<vertex x="-3.286" y="-8.168"/>
+<vertex x="-3.309" y="-8.081"/>
+<vertex x="-3.333" y="-7.938"/>
+<vertex x="-3.351" y="-7.745"/>
+<vertex x="-3.35" y="-7.745"/>
+<vertex x="-3.35" y="-4.299"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="2.8" y="-1.65"/>
+<vertex x="6.8" y="-1.65"/>
+<vertex x="6.8" y="-7.75"/>
+<vertex x="6.799" y="-7.84"/>
+<vertex x="6.792" y="-7.933"/>
+<vertex x="6.782" y="-8.023"/>
+<vertex x="6.753" y="-8.183"/>
+<vertex x="6.726" y="-8.291"/>
+<vertex x="6.669" y="-8.464"/>
+<vertex x="6.616" y="-8.59"/>
+<vertex x="6.543" y="-8.732"/>
+<vertex x="6.486" y="-8.828"/>
+<vertex x="6.432" y="-8.907"/>
+<vertex x="6.362" y="-8.998"/>
+<vertex x="6.285" y="-9.089"/>
+<vertex x="6.22" y="-9.159"/>
+<vertex x="6.144" y="-9.232"/>
+<vertex x="6.012" y="-9.342"/>
+<vertex x="5.888" y="-9.427"/>
+<vertex x="5.766" y="-9.503"/>
+<vertex x="5.639" y="-9.566"/>
+<vertex x="5.5" y="-9.624"/>
+<vertex x="5.354" y="-9.672"/>
+<vertex x="5.205" y="-9.709"/>
+<vertex x="5.088" y="-9.729"/>
+<vertex x="4.97" y="-9.743"/>
+<vertex x="4.848" y="-9.749"/>
+<vertex x="4.708" y="-9.749"/>
+<vertex x="4.521" y="-9.733"/>
+<vertex x="4.406" y="-9.711"/>
+<vertex x="4.278" y="-9.681"/>
+<vertex x="4.157" y="-9.645"/>
+<vertex x="3.99" y="-9.58"/>
+<vertex x="3.871" y="-9.523"/>
+<vertex x="3.725" y="-9.437"/>
+<vertex x="3.624" y="-9.369"/>
+<vertex x="3.516" y="-9.285"/>
+<vertex x="3.428" y="-9.204"/>
+<vertex x="3.339" y="-9.115"/>
+<vertex x="3.26" y="-9.027"/>
+<vertex x="3.177" y="-8.919"/>
+<vertex x="3.118" y="-8.831"/>
+<vertex x="3.053" y="-8.724"/>
+<vertex x="2.997" y="-8.613"/>
+<vertex x="2.948" y="-8.507"/>
+<vertex x="2.9" y="-8.374"/>
+<vertex x="2.865" y="-8.253"/>
+<vertex x="2.834" y="-8.119"/>
+<vertex x="2.813" y="-7.986"/>
+<vertex x="2.8" y="-7.83"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="2.8" y="-1.65"/>
+<vertex x="6.8" y="-1.65"/>
+<vertex x="6.8" y="-7.802"/>
+<vertex x="6.797" y="-7.874"/>
+<vertex x="6.785" y="-7.99"/>
+<vertex x="6.769" y="-8.097"/>
+<vertex x="6.748" y="-8.202"/>
+<vertex x="6.724" y="-8.293"/>
+<vertex x="6.683" y="-8.424"/>
+<vertex x="6.634" y="-8.545"/>
+<vertex x="6.586" y="-8.65"/>
+<vertex x="6.515" y="-8.78"/>
+<vertex x="6.435" y="-8.904"/>
+<vertex x="6.285" y="-9.09"/>
+<vertex x="6.184" y="-9.196"/>
+<vertex x="6.039" y="-9.318"/>
+<vertex x="5.927" y="-9.4"/>
+<vertex x="5.783" y="-9.492"/>
+<vertex x="5.674" y="-9.548"/>
+<vertex x="5.543" y="-9.605"/>
+<vertex x="5.413" y="-9.653"/>
+<vertex x="5.247" y="-9.698"/>
+<vertex x="5.144" y="-9.72"/>
+<vertex x="5.018" y="-9.738"/>
+<vertex x="4.871" y="-9.749"/>
+<vertex x="4.748" y="-9.75"/>
+<vertex x="4.604" y="-9.74"/>
+<vertex x="4.478" y="-9.726"/>
+<vertex x="4.353" y="-9.699"/>
+<vertex x="4.243" y="-9.672"/>
+<vertex x="4.161" y="-9.646"/>
+<vertex x="4.012" y="-9.588"/>
+<vertex x="3.918" y="-9.547"/>
+<vertex x="3.853" y="-9.511"/>
+<vertex x="3.756" y="-9.455"/>
+<vertex x="3.696" y="-9.419"/>
+<vertex x="3.574" y="-9.331"/>
+<vertex x="3.468" y="-9.243"/>
+<vertex x="3.324" y="-9.1"/>
+<vertex x="3.237" y="-8.999"/>
+<vertex x="3.141" y="-8.866"/>
+<vertex x="3.077" y="-8.765"/>
+<vertex x="3.033" y="-8.683"/>
+<vertex x="2.958" y="-8.532"/>
+<vertex x="2.914" y="-8.416"/>
+<vertex x="2.883" y="-8.32"/>
+<vertex x="2.841" y="-8.156"/>
+<vertex x="2.825" y="-8.068"/>
+<vertex x="2.807" y="-7.937"/>
+<vertex x="2.801" y="-7.839"/>
+<vertex x="2.799" y="-7.75"/>
+<vertex x="2.8" y="-7.75"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="2.7" y="-1.55"/>
+<vertex x="6.9" y="-1.55"/>
+<vertex x="6.9" y="-7.576"/>
+<vertex x="6.902" y="-7.774"/>
+<vertex x="6.896" y="-7.888"/>
+<vertex x="6.885" y="-8.018"/>
+<vertex x="6.862" y="-8.154"/>
+<vertex x="6.822" y="-8.332"/>
+<vertex x="6.779" y="-8.456"/>
+<vertex x="6.705" y="-8.643"/>
+<vertex x="6.659" y="-8.73"/>
+<vertex x="6.578" y="-8.872"/>
+<vertex x="6.508" y="-8.976"/>
+<vertex x="6.404" y="-9.11"/>
+<vertex x="6.32" y="-9.201"/>
+<vertex x="6.229" y="-9.294"/>
+<vertex x="6.091" y="-9.41"/>
+<vertex x="5.947" y="-9.512"/>
+<vertex x="5.813" y="-9.593"/>
+<vertex x="5.62" y="-9.687"/>
+<vertex x="5.411" y="-9.764"/>
+<vertex x="5.214" y="-9.812"/>
+<vertex x="5.074" y="-9.835"/>
+<vertex x="4.9" y="-9.85"/>
+<vertex x="4.699" y="-9.85"/>
+<vertex x="4.519" y="-9.833"/>
+<vertex x="4.328" y="-9.798"/>
+<vertex x="4.192" y="-9.762"/>
+<vertex x="4.059" y="-9.717"/>
+<vertex x="3.941" y="-9.668"/>
+<vertex x="3.814" y="-9.608"/>
+<vertex x="3.697" y="-9.54"/>
+<vertex x="3.579" y="-9.461"/>
+<vertex x="3.462" y="-9.371"/>
+<vertex x="3.338" y="-9.26"/>
+<vertex x="3.216" y="-9.133"/>
+<vertex x="3.135" y="-9.033"/>
+<vertex x="3.047" y="-8.91"/>
+<vertex x="2.952" y="-8.755"/>
+<vertex x="2.897" y="-8.64"/>
+<vertex x="2.832" y="-8.491"/>
+<vertex x="2.79" y="-8.361"/>
+<vertex x="2.763" y="-8.266"/>
+<vertex x="2.736" y="-8.144"/>
+<vertex x="2.715" y="-8.02"/>
+<vertex x="2.701" y="-7.85"/>
+<vertex x="2.7" y="-7.85"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="4.8"/>
+<vertex x="7.3" y="4.8"/>
+<vertex x="7.3" y="-10"/>
+<vertex x="-9.3" y="-10"/>
+</polygon>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-2.25" x2="4.5" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-6.25" x2="-4.5" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-1.75" x2="-4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="2.25" x2="4.5" y2="-2.25" width="0.1" layer="51" curve="-180"/>
+<wire x1="-4.5" y1="-6.25" x2="-4.5" y2="-1.75" width="0.1" layer="51" curve="-180"/>
+<wire x1="-4.6" y1="2.7" x2="-4.6" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="4.6" x2="4.6" y2="4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="4.6" x2="4.6" y2="2.35" width="0.2" layer="21"/>
+<wire x1="4.6" y1="2.35" x2="6.5" y2="-1.2" width="0.2" layer="21" curve="-116.766915"/>
+<wire x1="1.1" y1="-6.35" x2="2.4" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-6.35" x2="-4.7" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="-4.7" y1="-6.35" x2="-6.45" y2="-2.7" width="0.2" layer="21" curve="-116.588456"/>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-12" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.9" y="-0.5" size="1.27" layer="48">1</text>
+<text x="-1.7" y="-3.9" size="1.27" layer="48">2</text>
+<text x="2.9" y="-1.2" size="1.27" layer="48">3</text>
+</package>
+<package name="694108106102" urn="urn:adsk.eagle:footprint:14886036/1">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled SMT Ø 6.4 with 4 soldering pads &amp; pegs</description>
+<wire x1="-7.25" y1="-4.5" x2="-7.25" y2="4.5" width="0.1" layer="51"/>
+<wire x1="7.45" y1="-4.5" x2="7.45" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-7.25" y1="4.5" x2="7.45" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-7.25" y1="-4.5" x2="7.45" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="5.2" y1="4.6" x2="7.55" y2="4.6" width="0.2" layer="21"/>
+<wire x1="7.55" y1="4.6" x2="7.55" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="7.55" y1="-4.6" x2="5.2" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="4.6" x2="-7.35" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="4.6" x2="-7.35" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="-4.6" x2="-3.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-0.9" y1="-4.6" x2="2.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-0.9" y1="4.6" x2="2.6" y2="4.6" width="0.2" layer="21"/>
+<smd name="1" x="-2.25" y="5.5" dx="2" dy="2" layer="1"/>
+<smd name="A1" x="3.9" y="5.5" dx="2" dy="2" layer="1"/>
+<smd name="2" x="-2.25" y="-5.5" dx="2" dy="2" layer="1"/>
+<smd name="3" x="3.9" y="-5.5" dx="2" dy="2" layer="1"/>
+<text x="0" y="7.5" size="1.27" layer="25" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-9" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-2.75" y="2.8" size="1.27" layer="48">1</text>
+<text x="3.35" y="2.8" size="1.27" layer="48">1</text>
+<text x="3.55" y="-3.9" size="1.27" layer="48">3</text>
+<text x="-2.75" y="-3.7" size="1.27" layer="48">2</text>
+<text x="-2.75" y="2.8" size="1.27" layer="21">1</text>
+<hole x="-2.25" y="0" drill="1.6"/>
+<hole x="2.25" y="0" drill="1.8"/>
+<polygon width="0.127" layer="39">
+<vertex x="-7.55" y="6.75"/>
+<vertex x="7.75" y="6.75"/>
+<vertex x="7.75" y="-6.75"/>
+<vertex x="-7.55" y="-6.75"/>
+</polygon>
+</package>
+<package name="694108210102" urn="urn:adsk.eagle:footprint:14886031/1">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical SMT Ø 2.0 &amp; Ø 2.5</description>
+<smd name="1" x="-6.365" y="0" dx="2" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-1.25" y="-6.025" dx="2" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="3" x="4.8" y="-4.7" dx="2" dy="2" layer="1" stop="no" cream="no"/>
+<polygon width="0.1" layer="1">
+<vertex x="-6.758" y="2.3"/>
+<vertex x="-6.822" y="2.298"/>
+<vertex x="-6.884" y="2.296"/>
+<vertex x="-6.946" y="2.289"/>
+<vertex x="-7.013" y="2.283"/>
+<vertex x="-7.092" y="2.272"/>
+<vertex x="-7.181" y="2.257"/>
+<vertex x="-7.257" y="2.24"/>
+<vertex x="-7.33" y="2.221"/>
+<vertex x="-7.391" y="2.203"/>
+<vertex x="-7.463" y="2.181"/>
+<vertex x="-7.525" y="2.16"/>
+<vertex x="-7.595" y="2.132"/>
+<vertex x="-7.671" y="2.1"/>
+<vertex x="-7.823" y="2.024"/>
+<vertex x="-7.91" y="1.975"/>
+<vertex x="-7.994" y="1.922"/>
+<vertex x="-8.072" y="1.869"/>
+<vertex x="-8.161" y="1.801"/>
+<vertex x="-8.229" y="1.745"/>
+<vertex x="-8.297" y="1.683"/>
+<vertex x="-8.349" y="1.633"/>
+<vertex x="-8.4" y="1.582"/>
+<vertex x="-8.459" y="1.516"/>
+<vertex x="-8.508" y="1.459"/>
+<vertex x="-8.561" y="1.391"/>
+<vertex x="-8.615" y="1.318"/>
+<vertex x="-8.665" y="1.244"/>
+<vertex x="-8.717" y="1.156"/>
+<vertex x="-8.762" y="1.077"/>
+<vertex x="-8.801" y="1.001"/>
+<vertex x="-8.836" y="0.923"/>
+<vertex x="-8.886" y="0.799"/>
+<vertex x="-8.921" y="0.7"/>
+<vertex x="-8.959" y="0.569"/>
+<vertex x="-8.98" y="0.476"/>
+<vertex x="-9.009" y="0.316"/>
+<vertex x="-9.022" y="0.19"/>
+<vertex x="-9.03" y="0.091"/>
+<vertex x="-9.03" y="-0.026"/>
+<vertex x="-9.025" y="-0.151"/>
+<vertex x="-9.013" y="-0.293"/>
+<vertex x="-8.993" y="-0.409"/>
+<vertex x="-8.957" y="-0.581"/>
+<vertex x="-8.882" y="-0.816"/>
+<vertex x="-8.803" y="-1.001"/>
+<vertex x="-8.698" y="-1.192"/>
+<vertex x="-8.593" y="-1.351"/>
+<vertex x="-8.416" y="-1.567"/>
+<vertex x="-8.219" y="-1.757"/>
+<vertex x="-8.131" y="-1.824"/>
+<vertex x="-7.879" y="-1.994"/>
+<vertex x="-7.737" y="-2.069"/>
+<vertex x="-7.625" y="-2.118"/>
+<vertex x="-7.527" y="-2.158"/>
+<vertex x="-7.418" y="-2.195"/>
+<vertex x="-7.285" y="-2.232"/>
+<vertex x="-7.167" y="-2.259"/>
+<vertex x="-7.061" y="-2.276"/>
+<vertex x="-6.73" y="-2.3"/>
+<vertex x="-3.7" y="-2.3"/>
+<vertex x="-3.7" y="2.3"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-6.73" y="2.3"/>
+<vertex x="-3.7" y="2.3"/>
+<vertex x="-3.7" y="-2.3"/>
+<vertex x="-6.73" y="-2.3"/>
+<vertex x="-6.843" y="-2.297"/>
+<vertex x="-6.974" y="-2.287"/>
+<vertex x="-7.089" y="-2.271"/>
+<vertex x="-7.222" y="-2.247"/>
+<vertex x="-7.335" y="-2.218"/>
+<vertex x="-7.454" y="-2.182"/>
+<vertex x="-7.555" y="-2.147"/>
+<vertex x="-7.671" y="-2.099"/>
+<vertex x="-7.783" y="-2.045"/>
+<vertex x="-7.889" y="-1.986"/>
+<vertex x="-7.986" y="-1.926"/>
+<vertex x="-8.091" y="-1.854"/>
+<vertex x="-8.186" y="-1.781"/>
+<vertex x="-8.257" y="-1.719"/>
+<vertex x="-8.347" y="-1.635"/>
+<vertex x="-8.421" y="-1.559"/>
+<vertex x="-8.487" y="-1.485"/>
+<vertex x="-8.551" y="-1.406"/>
+<vertex x="-8.613" y="-1.321"/>
+<vertex x="-8.672" y="-1.231"/>
+<vertex x="-8.722" y="-1.15"/>
+<vertex x="-8.775" y="-1.052"/>
+<vertex x="-8.819" y="-0.963"/>
+<vertex x="-8.878" y="-0.826"/>
+<vertex x="-8.926" y="-0.69"/>
+<vertex x="-8.963" y="-0.552"/>
+<vertex x="-8.988" y="-0.436"/>
+<vertex x="-9.01" y="-0.306"/>
+<vertex x="-9.023" y="-0.19"/>
+<vertex x="-9.03" y="-0.037"/>
+<vertex x="-9.03" y="0.083"/>
+<vertex x="-9.016" y="0.264"/>
+<vertex x="-8.996" y="0.397"/>
+<vertex x="-8.959" y="0.574"/>
+<vertex x="-8.923" y="0.696"/>
+<vertex x="-8.849" y="0.898"/>
+<vertex x="-8.794" y="1.016"/>
+<vertex x="-8.741" y="1.118"/>
+<vertex x="-8.675" y="1.229"/>
+<vertex x="-8.619" y="1.315"/>
+<vertex x="-8.556" y="1.399"/>
+<vertex x="-8.492" y="1.479"/>
+<vertex x="-8.433" y="1.547"/>
+<vertex x="-8.37" y="1.613"/>
+<vertex x="-8.276" y="1.703"/>
+<vertex x="-8.196" y="1.774"/>
+<vertex x="-8.106" y="1.844"/>
+<vertex x="-7.948" y="1.953"/>
+<vertex x="-7.835" y="2.02"/>
+<vertex x="-7.648" y="2.11"/>
+<vertex x="-7.527" y="2.16"/>
+<vertex x="-7.326" y="2.224"/>
+<vertex x="-7.216" y="2.25"/>
+<vertex x="-7.123" y="2.269"/>
+<vertex x="-7.019" y="2.282"/>
+<vertex x="-6.88" y="2.296"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-6.777" y="2.4"/>
+<vertex x="-3.6" y="2.4"/>
+<vertex x="-3.6" y="-2.4"/>
+<vertex x="-6.829" y="-2.4"/>
+<vertex x="-6.913" y="-2.394"/>
+<vertex x="-7.014" y="-2.384"/>
+<vertex x="-7.113" y="-2.37"/>
+<vertex x="-7.205" y="-2.354"/>
+<vertex x="-7.337" y="-2.322"/>
+<vertex x="-7.451" y="-2.292"/>
+<vertex x="-7.551" y="-2.257"/>
+<vertex x="-7.641" y="-2.222"/>
+<vertex x="-7.752" y="-2.174"/>
+<vertex x="-7.88" y="-2.108"/>
+<vertex x="-7.966" y="-2.059"/>
+<vertex x="-8.053" y="-2.004"/>
+<vertex x="-8.134" y="-1.948"/>
+<vertex x="-8.235" y="-1.871"/>
+<vertex x="-8.314" y="-1.805"/>
+<vertex x="-8.387" y="-1.738"/>
+<vertex x="-8.455" y="-1.671"/>
+<vertex x="-8.545" y="-1.573"/>
+<vertex x="-8.633" y="-1.466"/>
+<vertex x="-8.71" y="-1.359"/>
+<vertex x="-8.783" y="-1.247"/>
+<vertex x="-8.845" y="-1.136"/>
+<vertex x="-8.889" y="-1.05"/>
+<vertex x="-8.931" y="-0.96"/>
+<vertex x="-8.963" y="-0.884"/>
+<vertex x="-9.009" y="-0.758"/>
+<vertex x="-9.055" y="-0.603"/>
+<vertex x="-9.095" y="-0.418"/>
+<vertex x="-9.13" y="-0.209"/>
+<vertex x="-9.13" y="0.024"/>
+<vertex x="-9.125" y="0.187"/>
+<vertex x="-9.098" y="0.398"/>
+<vertex x="-9.073" y="0.531"/>
+<vertex x="-9.024" y="0.715"/>
+<vertex x="-8.975" y="0.856"/>
+<vertex x="-8.9" y="1.032"/>
+<vertex x="-8.808" y="1.206"/>
+<vertex x="-8.71" y="1.361"/>
+<vertex x="-8.619" y="1.485"/>
+<vertex x="-8.51" y="1.616"/>
+<vertex x="-8.415" y="1.713"/>
+<vertex x="-8.253" y="1.86"/>
+<vertex x="-8.088" y="1.983"/>
+<vertex x="-7.866" y="2.119"/>
+<vertex x="-7.676" y="2.209"/>
+<vertex x="-7.459" y="2.29"/>
+<vertex x="-7.272" y="2.34"/>
+<vertex x="-7.054" y="2.381"/>
+<vertex x="-6.912" y="2.395"/>
+<vertex x="-6.769" y="2.403"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-3.25" y="-4.4"/>
+<vertex x="0.75" y="-4.4"/>
+<vertex x="0.75" y="-7.65"/>
+<vertex x="0.743" y="-7.827"/>
+<vertex x="0.732" y="-7.913"/>
+<vertex x="0.711" y="-8.046"/>
+<vertex x="0.686" y="-8.158"/>
+<vertex x="0.657" y="-8.256"/>
+<vertex x="0.595" y="-8.425"/>
+<vertex x="0.54" y="-8.545"/>
+<vertex x="0.479" y="-8.657"/>
+<vertex x="0.42" y="-8.754"/>
+<vertex x="0.347" y="-8.854"/>
+<vertex x="0.219" y="-9.011"/>
+<vertex x="0.088" y="-9.138"/>
+<vertex x="-0.017" y="-9.225"/>
+<vertex x="-0.197" y="-9.352"/>
+<vertex x="-0.313" y="-9.418"/>
+<vertex x="-0.479" y="-9.497"/>
+<vertex x="-0.637" y="-9.554"/>
+<vertex x="-0.794" y="-9.599"/>
+<vertex x="-0.948" y="-9.627"/>
+<vertex x="-1.152" y="-9.65"/>
+<vertex x="-1.349" y="-9.648"/>
+<vertex x="-1.489" y="-9.636"/>
+<vertex x="-1.616" y="-9.616"/>
+<vertex x="-1.749" y="-9.588"/>
+<vertex x="-1.912" y="-9.537"/>
+<vertex x="-2.043" y="-9.487"/>
+<vertex x="-2.203" y="-9.409"/>
+<vertex x="-2.329" y="-9.334"/>
+<vertex x="-2.5" y="-9.213"/>
+<vertex x="-2.605" y="-9.12"/>
+<vertex x="-2.69" y="-9.039"/>
+<vertex x="-2.789" y="-8.929"/>
+<vertex x="-2.885" y="-8.803"/>
+<vertex x="-2.964" y="-8.681"/>
+<vertex x="-3.022" y="-8.576"/>
+<vertex x="-3.093" y="-8.432"/>
+<vertex x="-3.131" y="-8.332"/>
+<vertex x="-3.188" y="-8.152"/>
+<vertex x="-3.218" y="-8.008"/>
+<vertex x="-3.239" y="-7.854"/>
+<vertex x="-3.248" y="-7.736"/>
+<vertex x="-3.25" y="-7.65"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-3.25" y="-4.4"/>
+<vertex x="0.75" y="-4.4"/>
+<vertex x="0.75" y="-7.478"/>
+<vertex x="0.749" y="-7.567"/>
+<vertex x="0.749" y="-7.658"/>
+<vertex x="0.746" y="-7.785"/>
+<vertex x="0.732" y="-7.917"/>
+<vertex x="0.709" y="-8.054"/>
+<vertex x="0.683" y="-8.162"/>
+<vertex x="0.65" y="-8.274"/>
+<vertex x="0.593" y="-8.43"/>
+<vertex x="0.549" y="-8.521"/>
+<vertex x="0.498" y="-8.624"/>
+<vertex x="0.454" y="-8.694"/>
+<vertex x="0.386" y="-8.804"/>
+<vertex x="0.326" y="-8.885"/>
+<vertex x="0.16" y="-9.073"/>
+<vertex x="0.041" y="-9.178"/>
+<vertex x="-0.072" y="-9.267"/>
+<vertex x="-0.224" y="-9.367"/>
+<vertex x="-0.362" y="-9.444"/>
+<vertex x="-0.543" y="-9.522"/>
+<vertex x="-0.69" y="-9.57"/>
+<vertex x="-0.856" y="-9.612"/>
+<vertex x="-1.034" y="-9.639"/>
+<vertex x="-1.171" y="-9.65"/>
+<vertex x="-1.379" y="-9.647"/>
+<vertex x="-1.536" y="-9.629"/>
+<vertex x="-1.65" y="-9.609"/>
+<vertex x="-1.757" y="-9.585"/>
+<vertex x="-1.862" y="-9.553"/>
+<vertex x="-2.006" y="-9.503"/>
+<vertex x="-2.113" y="-9.454"/>
+<vertex x="-2.217" y="-9.402"/>
+<vertex x="-2.326" y="-9.335"/>
+<vertex x="-2.468" y="-9.238"/>
+<vertex x="-2.558" y="-9.164"/>
+<vertex x="-2.652" y="-9.076"/>
+<vertex x="-2.729" y="-8.998"/>
+<vertex x="-2.825" y="-8.883"/>
+<vertex x="-2.907" y="-8.773"/>
+<vertex x="-2.979" y="-8.655"/>
+<vertex x="-3.058" y="-8.507"/>
+<vertex x="-3.117" y="-8.374"/>
+<vertex x="-3.191" y="-8.143"/>
+<vertex x="-3.219" y="-8.01"/>
+<vertex x="-3.242" y="-7.836"/>
+<vertex x="-3.25" y="-7.722"/>
+<vertex x="-3.251" y="-7.65"/>
+<vertex x="-3.25" y="-7.65"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-3.35" y="-4.3"/>
+<vertex x="0.85" y="-4.3"/>
+<vertex x="0.85" y="-7.542"/>
+<vertex x="0.851" y="-7.676"/>
+<vertex x="0.849" y="-7.792"/>
+<vertex x="0.837" y="-7.893"/>
+<vertex x="0.823" y="-7.995"/>
+<vertex x="0.801" y="-8.108"/>
+<vertex x="0.771" y="-8.228"/>
+<vertex x="0.708" y="-8.416"/>
+<vertex x="0.641" y="-8.568"/>
+<vertex x="0.525" y="-8.779"/>
+<vertex x="0.427" y="-8.917"/>
+<vertex x="0.248" y="-9.126"/>
+<vertex x="0.126" y="-9.243"/>
+<vertex x="-0.011" y="-9.351"/>
+<vertex x="-0.1" y="-9.407"/>
+<vertex x="-0.191" y="-9.467"/>
+<vertex x="-0.315" y="-9.531"/>
+<vertex x="-0.468" y="-9.602"/>
+<vertex x="-0.607" y="-9.65"/>
+<vertex x="-0.796" y="-9.703"/>
+<vertex x="-0.993" y="-9.737"/>
+<vertex x="-1.235" y="-9.753"/>
+<vertex x="-1.444" y="-9.744"/>
+<vertex x="-1.61" y="-9.721"/>
+<vertex x="-1.772" y="-9.686"/>
+<vertex x="-1.945" y="-9.634"/>
+<vertex x="-2.09" y="-9.576"/>
+<vertex x="-2.215" y="-9.516"/>
+<vertex x="-2.342" y="-9.445"/>
+<vertex x="-2.437" y="-9.384"/>
+<vertex x="-2.518" y="-9.325"/>
+<vertex x="-2.606" y="-9.254"/>
+<vertex x="-2.685" y="-9.185"/>
+<vertex x="-2.759" y="-9.113"/>
+<vertex x="-2.83" y="-9.035"/>
+<vertex x="-2.932" y="-8.912"/>
+<vertex x="-3.016" y="-8.79"/>
+<vertex x="-3.08" y="-8.683"/>
+<vertex x="-3.15" y="-8.548"/>
+<vertex x="-3.204" y="-8.422"/>
+<vertex x="-3.256" y="-8.279"/>
+<vertex x="-3.286" y="-8.168"/>
+<vertex x="-3.309" y="-8.081"/>
+<vertex x="-3.333" y="-7.938"/>
+<vertex x="-3.351" y="-7.745"/>
+<vertex x="-3.35" y="-7.745"/>
+<vertex x="-3.35" y="-4.299"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="2.8" y="-1.65"/>
+<vertex x="6.8" y="-1.65"/>
+<vertex x="6.8" y="-7.75"/>
+<vertex x="6.799" y="-7.84"/>
+<vertex x="6.792" y="-7.933"/>
+<vertex x="6.782" y="-8.023"/>
+<vertex x="6.753" y="-8.183"/>
+<vertex x="6.726" y="-8.291"/>
+<vertex x="6.669" y="-8.464"/>
+<vertex x="6.616" y="-8.59"/>
+<vertex x="6.543" y="-8.732"/>
+<vertex x="6.486" y="-8.828"/>
+<vertex x="6.432" y="-8.907"/>
+<vertex x="6.362" y="-8.998"/>
+<vertex x="6.285" y="-9.089"/>
+<vertex x="6.22" y="-9.159"/>
+<vertex x="6.144" y="-9.232"/>
+<vertex x="6.012" y="-9.342"/>
+<vertex x="5.888" y="-9.427"/>
+<vertex x="5.766" y="-9.503"/>
+<vertex x="5.639" y="-9.566"/>
+<vertex x="5.5" y="-9.624"/>
+<vertex x="5.354" y="-9.672"/>
+<vertex x="5.205" y="-9.709"/>
+<vertex x="5.088" y="-9.729"/>
+<vertex x="4.97" y="-9.743"/>
+<vertex x="4.848" y="-9.749"/>
+<vertex x="4.708" y="-9.749"/>
+<vertex x="4.521" y="-9.733"/>
+<vertex x="4.406" y="-9.711"/>
+<vertex x="4.278" y="-9.681"/>
+<vertex x="4.157" y="-9.645"/>
+<vertex x="3.99" y="-9.58"/>
+<vertex x="3.871" y="-9.523"/>
+<vertex x="3.725" y="-9.437"/>
+<vertex x="3.624" y="-9.369"/>
+<vertex x="3.516" y="-9.285"/>
+<vertex x="3.428" y="-9.204"/>
+<vertex x="3.339" y="-9.115"/>
+<vertex x="3.26" y="-9.027"/>
+<vertex x="3.177" y="-8.919"/>
+<vertex x="3.118" y="-8.831"/>
+<vertex x="3.053" y="-8.724"/>
+<vertex x="2.997" y="-8.613"/>
+<vertex x="2.948" y="-8.507"/>
+<vertex x="2.9" y="-8.374"/>
+<vertex x="2.865" y="-8.253"/>
+<vertex x="2.834" y="-8.119"/>
+<vertex x="2.813" y="-7.986"/>
+<vertex x="2.8" y="-7.83"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="2.8" y="-1.65"/>
+<vertex x="6.8" y="-1.65"/>
+<vertex x="6.8" y="-7.802"/>
+<vertex x="6.797" y="-7.874"/>
+<vertex x="6.785" y="-7.99"/>
+<vertex x="6.769" y="-8.097"/>
+<vertex x="6.748" y="-8.202"/>
+<vertex x="6.724" y="-8.293"/>
+<vertex x="6.683" y="-8.424"/>
+<vertex x="6.634" y="-8.545"/>
+<vertex x="6.586" y="-8.65"/>
+<vertex x="6.515" y="-8.78"/>
+<vertex x="6.435" y="-8.904"/>
+<vertex x="6.285" y="-9.09"/>
+<vertex x="6.184" y="-9.196"/>
+<vertex x="6.039" y="-9.318"/>
+<vertex x="5.927" y="-9.4"/>
+<vertex x="5.783" y="-9.492"/>
+<vertex x="5.674" y="-9.548"/>
+<vertex x="5.543" y="-9.605"/>
+<vertex x="5.413" y="-9.653"/>
+<vertex x="5.247" y="-9.698"/>
+<vertex x="5.144" y="-9.72"/>
+<vertex x="5.018" y="-9.738"/>
+<vertex x="4.871" y="-9.749"/>
+<vertex x="4.748" y="-9.75"/>
+<vertex x="4.604" y="-9.74"/>
+<vertex x="4.478" y="-9.726"/>
+<vertex x="4.353" y="-9.699"/>
+<vertex x="4.243" y="-9.672"/>
+<vertex x="4.161" y="-9.646"/>
+<vertex x="4.012" y="-9.588"/>
+<vertex x="3.918" y="-9.547"/>
+<vertex x="3.853" y="-9.511"/>
+<vertex x="3.756" y="-9.455"/>
+<vertex x="3.696" y="-9.419"/>
+<vertex x="3.574" y="-9.331"/>
+<vertex x="3.468" y="-9.243"/>
+<vertex x="3.324" y="-9.1"/>
+<vertex x="3.237" y="-8.999"/>
+<vertex x="3.141" y="-8.866"/>
+<vertex x="3.077" y="-8.765"/>
+<vertex x="3.033" y="-8.683"/>
+<vertex x="2.958" y="-8.532"/>
+<vertex x="2.914" y="-8.416"/>
+<vertex x="2.883" y="-8.32"/>
+<vertex x="2.841" y="-8.156"/>
+<vertex x="2.825" y="-8.068"/>
+<vertex x="2.807" y="-7.937"/>
+<vertex x="2.801" y="-7.839"/>
+<vertex x="2.799" y="-7.75"/>
+<vertex x="2.8" y="-7.75"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="2.7" y="-1.55"/>
+<vertex x="6.9" y="-1.55"/>
+<vertex x="6.9" y="-7.576"/>
+<vertex x="6.902" y="-7.774"/>
+<vertex x="6.896" y="-7.888"/>
+<vertex x="6.885" y="-8.018"/>
+<vertex x="6.862" y="-8.154"/>
+<vertex x="6.822" y="-8.332"/>
+<vertex x="6.779" y="-8.456"/>
+<vertex x="6.705" y="-8.643"/>
+<vertex x="6.659" y="-8.73"/>
+<vertex x="6.578" y="-8.872"/>
+<vertex x="6.508" y="-8.976"/>
+<vertex x="6.404" y="-9.11"/>
+<vertex x="6.32" y="-9.201"/>
+<vertex x="6.229" y="-9.294"/>
+<vertex x="6.091" y="-9.41"/>
+<vertex x="5.947" y="-9.512"/>
+<vertex x="5.813" y="-9.593"/>
+<vertex x="5.62" y="-9.687"/>
+<vertex x="5.411" y="-9.764"/>
+<vertex x="5.214" y="-9.812"/>
+<vertex x="5.074" y="-9.835"/>
+<vertex x="4.9" y="-9.85"/>
+<vertex x="4.699" y="-9.85"/>
+<vertex x="4.519" y="-9.833"/>
+<vertex x="4.328" y="-9.798"/>
+<vertex x="4.192" y="-9.762"/>
+<vertex x="4.059" y="-9.717"/>
+<vertex x="3.941" y="-9.668"/>
+<vertex x="3.814" y="-9.608"/>
+<vertex x="3.697" y="-9.54"/>
+<vertex x="3.579" y="-9.461"/>
+<vertex x="3.462" y="-9.371"/>
+<vertex x="3.338" y="-9.26"/>
+<vertex x="3.216" y="-9.133"/>
+<vertex x="3.135" y="-9.033"/>
+<vertex x="3.047" y="-8.91"/>
+<vertex x="2.952" y="-8.755"/>
+<vertex x="2.897" y="-8.64"/>
+<vertex x="2.832" y="-8.491"/>
+<vertex x="2.79" y="-8.361"/>
+<vertex x="2.763" y="-8.266"/>
+<vertex x="2.736" y="-8.144"/>
+<vertex x="2.715" y="-8.02"/>
+<vertex x="2.701" y="-7.85"/>
+<vertex x="2.7" y="-7.85"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="4.8"/>
+<vertex x="7.3" y="4.8"/>
+<vertex x="7.3" y="-10"/>
+<vertex x="-9.3" y="-10"/>
+</polygon>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-2.25" x2="4.5" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-6.25" x2="-4.5" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-1.75" x2="-4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="2.25" x2="4.5" y2="-2.25" width="0.1" layer="51" curve="-180"/>
+<wire x1="-4.5" y1="-6.25" x2="-4.5" y2="-1.75" width="0.1" layer="51" curve="-180"/>
+<wire x1="-4.6" y1="2.7" x2="-4.6" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="4.6" x2="4.6" y2="4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="4.6" x2="4.6" y2="2.35" width="0.2" layer="21"/>
+<wire x1="4.6" y1="2.35" x2="6.5" y2="-1.2" width="0.2" layer="21" curve="-116.766915"/>
+<wire x1="1.1" y1="-6.35" x2="2.4" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-6.35" x2="-4.7" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="-4.7" y1="-6.35" x2="-6.45" y2="-2.7" width="0.2" layer="21" curve="-116.588456"/>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-12" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.9" y="-0.5" size="1.27" layer="48">1</text>
+<text x="-1.7" y="-3.9" size="1.27" layer="48">2</text>
+<text x="2.9" y="-1.2" size="1.27" layer="48">3</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="694108105102" urn="urn:adsk.eagle:package:14886056/2" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled SMT Ø 6.4 with pegs</description>
+<packageinstances>
+<packageinstance name="694108105102"/>
+</packageinstances>
+</package3d>
+<package3d name="694102303002" urn="urn:adsk.eagle:package:14886064/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (4.2)</description>
+<packageinstances>
+<packageinstance name="694102303002"/>
+</packageinstances>
+</package3d>
+<package3d name="694108402002" urn="urn:adsk.eagle:package:14886049/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical THT Ø 6.4</description>
+<packageinstances>
+<packageinstance name="694108402002"/>
+</packageinstances>
+</package3d>
+<package3d name="694103107102" urn="urn:adsk.eagle:package:14886054/2" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled Low Profile SMT Ø 3.9 with 4 soldering pads &amp; pegs</description>
+<packageinstances>
+<packageinstance name="694103107102"/>
+</packageinstances>
+</package3d>
+<package3d name="694102304002" urn="urn:adsk.eagle:package:14886063/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack THT Right Angled Low Profile (3.8)</description>
+<packageinstances>
+<packageinstance name="694102304002"/>
+</packageinstances>
+</package3d>
+<package3d name="694102107102" urn="urn:adsk.eagle:package:14886065/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled Low Profile SMT Ø 3.9 with 4 soldering pads &amp; pegs</description>
+<packageinstances>
+<packageinstance name="694102107102"/>
+</packageinstances>
+</package3d>
+<package3d name="694103304002" urn="urn:adsk.eagle:package:14886051/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack THT Right Angled Low Profile (3.8)</description>
+<packageinstances>
+<packageinstance name="694103304002"/>
+</packageinstances>
+</package3d>
+<package3d name="694108301002" urn="urn:adsk.eagle:package:14886052/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (6.4)</description>
+<packageinstances>
+<packageinstance name="694108301002"/>
+</packageinstances>
+</package3d>
+<package3d name="694106402002" urn="urn:adsk.eagle:package:14886058/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical THT Ø 6.4</description>
+<packageinstances>
+<packageinstance name="694106402002"/>
+</packageinstances>
+</package3d>
+<package3d name="694106106102" urn="urn:adsk.eagle:package:14886060/2" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled SMT Ø 6.4 with 4 soldering pads &amp; pegs</description>
+<packageinstances>
+<packageinstance name="694106106102"/>
+</packageinstances>
+</package3d>
+<package3d name="694106105102" urn="urn:adsk.eagle:package:14886061/2" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled SMT Ø 6.4 with pegs</description>
+<packageinstances>
+<packageinstance name="694106105102"/>
+</packageinstances>
+</package3d>
+<package3d name="694105309102" urn="urn:adsk.eagle:package:14886062/3" type="model">
+<description>&lt;b&gt;WR-DC Power Jack Right Angled Shielded THT Ø 4.93</description>
+<packageinstances>
+<packageinstance name="694105309102"/>
+</packageinstances>
+</package3d>
+<package3d name="694106301002" urn="urn:adsk.eagle:package:14886059/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (6.4)</description>
+<packageinstances>
+<packageinstance name="694106301002"/>
+</packageinstances>
+</package3d>
+<package3d name="694106210102" urn="urn:adsk.eagle:package:14886057/2" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical SMT Ø 2.0 &amp; Ø 2.5</description>
+<packageinstances>
+<packageinstance name="694106210102"/>
+</packageinstances>
+</package3d>
+<package3d name="694103303002" urn="urn:adsk.eagle:package:14886053/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (4.2)</description>
+<packageinstances>
+<packageinstance name="694103303002"/>
+</packageinstances>
+</package3d>
+<package3d name="694108210102" urn="urn:adsk.eagle:package:14886050/2" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical SMT Ø 2.0 &amp; Ø 2.5</description>
+<packageinstances>
+<packageinstance name="694108210102"/>
+</packageinstances>
+</package3d>
+<package3d name="694101308002" urn="urn:adsk.eagle:package:14886066/3" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack THT Right Angled Low Profile (2.8)</description>
+<packageinstances>
+<packageinstance name="694101308002"/>
+</packageinstances>
+</package3d>
+<package3d name="694108106102" urn="urn:adsk.eagle:package:14886055/2" type="model">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled SMT Ø 6.4 with 4 soldering pads &amp; pegs</description>
+<packageinstances>
+<packageinstance name="694108106102"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WR-DC">
+<pin name="1" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-3.175" y1="-1.27" x2="-3.175" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-3.175" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="1.27" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-3.175" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-5.08" x2="-3.81" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="-4.445" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="-5.08"/>
+<vertex x="-0.508" y="-3.81"/>
+<vertex x="0.508" y="-3.81"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="694102303002" prefix="J">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (4.2)
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 2 A 
+&lt;br&gt;Working Voltage 30 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Bag 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o64601v209%20Family_WR-DC_THT_6941xx303002.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o64601v209%20Family_WR-DC_THT_6941xx303002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_RIGHT_ANGLED_4_2_69410X303002"&gt;https://www.we-online.com/catalog/en/DC_RIGHT_ANGLED_4_2_69410X303002&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694102303002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886064/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694102303002.pdf"/>
+<attribute name="IR" value="2A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694102303002 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694102303002 "/>
+<attribute name="WORKING-VOLTAGE" value="30V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694108105102" prefix="J">
+<description>&lt;b&gt; WR-DC DC Power Jack Right Angled SMT Ø 6.4 with pegs
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA9T 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Shielding Material Plastic 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 5 A 
+&lt;br&gt;Working Voltage 24 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tape and Reel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o58992v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_SMT_694106105102.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o58992v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_SMT_694106105102.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_6_4_WITH_PEGS_69410X105102"&gt;https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_6_4_WITH_PEGS_69410X105102&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-11-01&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694108105102">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886056/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694108105102.pdf"/>
+<attribute name="IR" value="5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 694108105102 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694108105102 "/>
+<attribute name="WORKING-VOLTAGE" value="24V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694108402002" prefix="J">
+<description>&lt;b&gt; WR-DC DC Power Jack Vertical THT Ø 6.4
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Vertical 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 3 A 
+&lt;br&gt;Working Voltage 20 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Bag 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o64599v209%20Family_WR-DC_THT_6941xx402002_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o64599v209%20Family_WR-DC_THT_6941xx402002_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_THT_VERTICAL_6_4_69410X402002"&gt;https://www.we-online.com/catalog/en/DC_THT_VERTICAL_6_4_69410X402002&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694108402002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886049/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694108402002.pdf"/>
+<attribute name="IR" value="3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694108402002 "/>
+<attribute name="TYPE" value="Vertical"/>
+<attribute name="VALUE" value=" 694108402002 "/>
+<attribute name="WORKING-VOLTAGE" value="20V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694103107102" prefix="J">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled Low Profile SMT Ø 3.9 with 4 soldering pads &amp; pegs
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA9T 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 5 A 
+&lt;br&gt;Working Voltage 18 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tape and Reel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o59004v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_Low_SMT_694102107102.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o59004v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_Low_SMT_694102107102.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_LOW_PROFILE_3_9_WITH_4_SOLDER_PADS_PEGS_69410X107102"&gt;https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_LOW_PROFILE_3_9_WITH_4_SOLDER_PADS_PEGS_69410X107102&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-11-01&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694103107102">
+<connects>
+<connect gate="G$1" pin="1" pad="1 A1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886054/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694103107102.pdf"/>
+<attribute name="IR" value="5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 694103107102 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694103107102 "/>
+<attribute name="WORKING-VOLTAGE" value="18V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694102304002" prefix="J">
+<description>&lt;b&gt;WR-DC DC Power Jack THT Right Angled Low Profile (3.8)
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;
+&lt;/b&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Tip Spring Plating Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Working Voltage 24 V (DC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 30 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o60887v209%20Family_Con_WR-DC_THT_6941xx304002_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o60887v209%20Family_Con_WR-DC_THT_6941xx304002_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_THT_RIGHT_ANGLED_LOW_PROFILE_3_8_69410X304002"&gt;https://www.we-online.com/catalog/en/DC_THT_RIGHT_ANGLED_LOW_PROFILE_3_8_69410X304002&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694102304002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886063/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694102304002.pdf"/>
+<attribute name="IR" value="2A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694102304002 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694102304002 "/>
+<attribute name="WORKING-VOLTAGE" value="24V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694108301002" prefix="J">
+<description>&lt;b&gt; WR-DC DC Power Jack Right Angled (6.4)
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 5 A 
+&lt;br&gt;Working Voltage 30 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Bag 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o59009v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_THT_69410x301002.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o59009v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_THT_69410x301002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_RIGHT_ANGLED_6_4_69410X301002"&gt;https://www.we-online.com/catalog/en/DC_RIGHT_ANGLED_6_4_69410X301002&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694108301002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886052/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694108301002.pdf"/>
+<attribute name="IR" value="5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694108301002 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694108301002 "/>
+<attribute name="WORKING-VOLTAGE" value="30V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694106402002" prefix="J">
+<description>&lt;b&gt; WR-DC DC Power Jack Vertical THT Ø 6.4
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Vertical 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 3 A 
+&lt;br&gt;Working Voltage 20 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Bag 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o64599v209%20Family_WR-DC_THT_6941xx402002_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o64599v209%20Family_WR-DC_THT_6941xx402002_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_THT_VERTICAL_6_4_69410X402002"&gt;https://www.we-online.com/catalog/en/DC_THT_VERTICAL_6_4_69410X402002&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694106402002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886058/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694106402002.pdf"/>
+<attribute name="IR" value="3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694106402002 "/>
+<attribute name="TYPE" value="Vertical"/>
+<attribute name="VALUE" value=" 694106402002 "/>
+<attribute name="WORKING-VOLTAGE" value="20V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694103304002" prefix="J">
+<description>&lt;b&gt;WR-DC DC Power Jack THT Right Angled Low Profile (3.8)
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;
+&lt;/b&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Tip Spring Plating Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Working Voltage 24 V (DC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 30 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o60887v209%20Family_Con_WR-DC_THT_6941xx304002_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o60887v209%20Family_Con_WR-DC_THT_6941xx304002_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_THT_RIGHT_ANGLED_LOW_PROFILE_3_8_69410X304002"&gt;https://www.we-online.com/catalog/en/DC_THT_RIGHT_ANGLED_LOW_PROFILE_3_8_69410X304002&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694103304002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886051/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694103304002.pdf"/>
+<attribute name="IR" value="2A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694103304002 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694103304002 "/>
+<attribute name="WORKING-VOLTAGE" value="24V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694102107102" prefix="J">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled Low Profile SMT Ø 3.9 with 4 soldering pads &amp; pegs
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA9T 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 5 A 
+&lt;br&gt;Working Voltage 18 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tape and Reel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o59004v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_Low_SMT_694102107102.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o59004v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_Low_SMT_694102107102.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_LOW_PROFILE_3_9_WITH_4_SOLDER_PADS_PEGS_69410X107102"&gt;https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_LOW_PROFILE_3_9_WITH_4_SOLDER_PADS_PEGS_69410X107102&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-11-01&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694102107102">
+<connects>
+<connect gate="G$1" pin="1" pad="1 A1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886065/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694102107102.pdf"/>
+<attribute name="IR" value="5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 694102107102 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694102107102 "/>
+<attribute name="WORKING-VOLTAGE" value="18V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694105309102" prefix="J">
+<description>&lt;b&gt;WR-DC Power Jack Right Angled Shielded THT Ø 4.93
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA9T 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Shielding Material Brass 
+&lt;br&gt;Shielding Plating Nickel 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 5.5 A 
+&lt;br&gt;Working Voltage 20 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 30 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tape and Reel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o60613v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_THT_694105309102.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o60613v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_THT_694105309102.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_THT_RIGHT_ANGLED_SHIELDED_4_93_694105309102"&gt;https://www.we-online.com/catalog/en/DC_THT_RIGHT_ANGLED_SHIELDED_4_93_694105309102&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694105309102">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886062/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694105309102.pdf"/>
+<attribute name="IR" value="5.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694105309102 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694105309102 "/>
+<attribute name="WORKING-VOLTAGE" value="20V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694106106102" prefix="J">
+<description>&lt;b&gt; WR-DC DC Power Jack Right Angled SMT Ø 6.4 with 4 soldering pads &amp; pegs
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA9T 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;
+&lt;/b&gt;IR 1 5 A 
+&lt;br&gt;Working Voltage 24 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tape and Reel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o58999v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_SMT_694108106102.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o58999v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_SMT_694108106102.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_6_4_WITH_4_SOLDER_PADS_PEGS_69410X106102"&gt;https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_6_4_WITH_4_SOLDER_PADS_PEGS_69410X106102&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-11-01&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694106106102">
+<connects>
+<connect gate="G$1" pin="1" pad="1 A1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886060/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694106106102.pdf"/>
+<attribute name="IR" value="5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 694106106102 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694106106102 "/>
+<attribute name="WORKING-VOLTAGE" value="24V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694106105102" prefix="J">
+<description>&lt;b&gt; WR-DC DC Power Jack Right Angled SMT Ø 6.4 with pegs
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA9T 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Shielding Material Plastic 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 5 A 
+&lt;br&gt;Working Voltage 24 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tape and Reel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o58992v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_SMT_694106105102.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o58992v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_SMT_694106105102.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_6_4_WITH_PEGS_69410X105102"&gt;https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_6_4_WITH_PEGS_69410X105102&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-11-01&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694106105102">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886061/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694106105102.pdf"/>
+<attribute name="IR" value="5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 694106105102 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694106105102 "/>
+<attribute name="WORKING-VOLTAGE" value="24V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694106301002" prefix="J">
+<description>&lt;b&gt; WR-DC DC Power Jack Right Angled (6.4)
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 5 A 
+&lt;br&gt;Working Voltage 30 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Bag 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o59009v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_THT_69410x301002.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o59009v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_THT_69410x301002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_RIGHT_ANGLED_6_4_69410X301002"&gt;https://www.we-online.com/catalog/en/DC_RIGHT_ANGLED_6_4_69410X301002&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694106301002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886059/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694106301002.pdf"/>
+<attribute name="IR" value="5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694106301002 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694106301002 "/>
+<attribute name="WORKING-VOLTAGE" value="30V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694103303002" prefix="J">
+<description>&lt;b&gt;WR-DC DC Power Jack Right Angled (4.2)
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 2 A 
+&lt;br&gt;Working Voltage 30 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Bag 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o64601v209%20Family_WR-DC_THT_6941xx303002.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o64601v209%20Family_WR-DC_THT_6941xx303002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_RIGHT_ANGLED_4_2_69410X303002"&gt;https://www.we-online.com/catalog/en/DC_RIGHT_ANGLED_4_2_69410X303002&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694103303002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886053/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694103303002.pdf"/>
+<attribute name="IR" value="2A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694103303002 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694103303002 "/>
+<attribute name="WORKING-VOLTAGE" value="30V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694101308002" prefix="J">
+<description>&lt;b&gt;WR-DC DC Power Jack THT Right Angled Low Profile (2.8)
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 2 A 
+&lt;br&gt;Working Voltage 12 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 30 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Bag 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o60624v209%20Family_WR-DC_THT_694101308002_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o60624v209%20Family_WR-DC_THT_694101308002_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/DC_THT_RIGHT_ANGLED_LOW_PROFILE_2_8_694101308002"&gt;https://www.we-online.com/catalog/en/DC_THT_RIGHT_ANGLED_LOW_PROFILE_2_8_694101308002&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2021-09-30&lt;br&gt;
+&lt;/b&gt;2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694101308002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886066/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694101308002.pdf"/>
+<attribute name="IR" value="2A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 694101308002 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694101308002 "/>
+<attribute name="WORKING-VOLTAGE" value="12V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694106210102" prefix="J">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical SMT Ø 2.0 &amp; Ø 2.5
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Vertical 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA 9T 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold over Nickel 
+&lt;br&gt;Center Pin Terminal Plating Tin over Nickel 
+&lt;br&gt;Tip Spring Plating Tin over Nickel 
+&lt;br&gt;Shunt Terminal Plating Tin over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance Lead free / RoHS 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 3.5 A 
+&lt;br&gt;Working Voltage 30 V (DC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 30 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;UL Approval E323964 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tape and Reel &amp; Mylar 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o79412v209%20WR-DC_6941xx210102_4C.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o79412v209%20WR-DC_6941xx210102_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/DC_SMT_VERTICAL_2_0-2_5_6941XX210102"&gt;https://katalog.we-online.com/en/em/DC_SMT_VERTICAL_2_0-2_5_6941XX210102&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-11-01&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694106210102">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886057/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694106210102.pdf"/>
+<attribute name="IR" value="3.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 694106210102 "/>
+<attribute name="TYPE" value="Vertical"/>
+<attribute name="VALUE" value=" 694106210102 "/>
+<attribute name="WORKING-VOLTAGE" value="30V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694108106102" prefix="J">
+<description>&lt;b&gt; WR-DC DC Power Jack Right Angled SMT Ø 6.4 with 4 soldering pads &amp; pegs
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Right Angled 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA9T 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold 
+&lt;br&gt;Center Pin Terminal Plating Tin 
+&lt;br&gt;Tip Spring Material Tin 
+&lt;br&gt;Shunt Terminal Plating Tin 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;
+&lt;/b&gt;IR 1 5 A 
+&lt;br&gt;Working Voltage 24 V (AC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 50 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tape and Reel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o58999v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_SMT_694108106102.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o58999v209%20Family_WR-DC_DC_Power_Jack_Right_Angled_SMT_694108106102.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_6_4_WITH_4_SOLDER_PADS_PEGS_69410X106102"&gt;https://katalog.we-online.com/en/em/DC_SMT_RIGHT_ANGLED_6_4_WITH_4_SOLDER_PADS_PEGS_69410X106102&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-11-01&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694108106102">
+<connects>
+<connect gate="G$1" pin="1" pad="1 A1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886055/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694108106102.pdf"/>
+<attribute name="IR" value="5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 694108106102 "/>
+<attribute name="TYPE" value="Right Angled"/>
+<attribute name="VALUE" value=" 694108106102 "/>
+<attribute name="WORKING-VOLTAGE" value="24V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="694108210102" prefix="D">
+<description>&lt;b&gt;WR-DC DC Power Jack Vertical SMT Ø 2.0 &amp; Ø 2.5
+&lt;br&gt;
+&lt;br&gt;
+KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Quality Class 5 000 Mating cycles 
+&lt;br&gt;Type Vertical 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA 9T 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Center Pin Plating Gold over Nickel 
+&lt;br&gt;Center Pin Terminal Plating Tin over Nickel 
+&lt;br&gt;Tip Spring Plating Tin over Nickel 
+&lt;br&gt;Shunt Terminal Plating Tin over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -40 up to +85 °C 
+&lt;br&gt;Compliance Lead free / RoHS 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR 1 3.5 A 
+&lt;br&gt;Working Voltage 30 V (DC) 
+&lt;br&gt;Withstanding Voltage 500 V (AC) 
+&lt;br&gt;Contact Resistance 30 mΩ 
+&lt;br&gt;RISO 100 MΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;UL Approval E323964 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tape and Reel &amp; Mylar 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o79412v209%20WR-DC_6941xx210102_4C.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o79412v209%20WR-DC_6941xx210102_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/DC_SMT_VERTICAL_2_0-2_5_6941XX210102"&gt;https://katalog.we-online.com/en/em/DC_SMT_VERTICAL_2_0-2_5_6941XX210102&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2019-11-01&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694108210102">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14886050/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/694108210102.pdf"/>
+<attribute name="IR" value="3.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 694108210102 "/>
+<attribute name="TYPE" value="Vertical"/>
+<attribute name="VALUE" value=" 694108210102 "/>
+<attribute name="WORKING-VOLTAGE" value="30V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

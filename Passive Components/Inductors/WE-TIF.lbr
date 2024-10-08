@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Single Coil Power Inductors - WE-TIF&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-TIF_1016" urn="urn:adsk.eagle:footprint:12988475/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TIF Radial Leaded Wire Wound Inductor with 4 Pins&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1016</description>
+<pad name="1" x="-2.5" y="-2" drill="1.2"/>
+<pad name="2" x="2.5" y="-2" drill="1.2"/>
+<pad name="3" x="-2.5" y="2" drill="1.2"/>
+<pad name="4" x="2.5" y="2" drill="1.2"/>
+<circle x="0" y="0" radius="5.6" width="0.2" layer="21"/>
+<circle x="-3.97" y="-2.21" radius="0.1" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="5.5" width="0.1" layer="51"/>
+<text x="-0.07" y="6.51" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.6" y="-7.43" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.09" y="-2.6" size="0.8128" layer="48">1</text>
+<text x="0.75" y="-2.52" size="0.8128" layer="48">2</text>
+<text x="0.73" y="1.39" size="0.8128" layer="48">4</text>
+<text x="-0.98" y="1.43" size="0.8128" layer="48">3</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.68" y="5.56"/>
+<vertex x="-1.41" y="5.62"/>
+<vertex x="-0.98" y="5.71"/>
+<vertex x="-0.52" y="5.79"/>
+<vertex x="0.13" y="5.81"/>
+<vertex x="0.87" y="5.74"/>
+<vertex x="1.67" y="5.56"/>
+<vertex x="2.12" y="5.41"/>
+<vertex x="2.58" y="5.19"/>
+<vertex x="2.99" y="4.98"/>
+<vertex x="3.45" y="4.67"/>
+<vertex x="3.84" y="4.34"/>
+<vertex x="4.25" y="3.96"/>
+<vertex x="4.51" y="3.65"/>
+<vertex x="4.82" y="3.24"/>
+<vertex x="5.17" y="2.64"/>
+<vertex x="5.46" y="1.97"/>
+<vertex x="5.67" y="1.27"/>
+<vertex x="5.76" y="0.64"/>
+<vertex x="5.8" y="0.19"/>
+<vertex x="5.78" y="-0.29"/>
+<vertex x="5.77" y="-0.67"/>
+<vertex x="5.69" y="-1.13"/>
+<vertex x="5.59" y="-1.58"/>
+<vertex x="5.43" y="-2.08"/>
+<vertex x="5.19" y="-2.61"/>
+<vertex x="4.91" y="-3.1"/>
+<vertex x="4.55" y="-3.61"/>
+<vertex x="4.17" y="-4.05"/>
+<vertex x="3.59" y="-4.56"/>
+<vertex x="2.99" y="-4.97"/>
+<vertex x="2.2" y="-5.38"/>
+<vertex x="1.56" y="-5.58"/>
+<vertex x="0.54" y="-5.78"/>
+<vertex x="-0.55" y="-5.78"/>
+<vertex x="-1.28" y="-5.66"/>
+<vertex x="-1.83" y="-5.5"/>
+<vertex x="-2.26" y="-5.34"/>
+<vertex x="-2.65" y="-5.17"/>
+<vertex x="-3.08" y="-4.92"/>
+<vertex x="-3.53" y="-4.61"/>
+<vertex x="-3.87" y="-4.33"/>
+<vertex x="-4.17" y="-4.04"/>
+<vertex x="-4.49" y="-3.69"/>
+<vertex x="-4.8" y="-3.26"/>
+<vertex x="-5.11" y="-2.76"/>
+<vertex x="-5.33" y="-2.33"/>
+<vertex x="-5.53" y="-1.79"/>
+<vertex x="-5.67" y="-1.27"/>
+<vertex x="-5.76" y="-0.72"/>
+<vertex x="-5.8" y="-0.15"/>
+<vertex x="-5.79" y="0.48"/>
+<vertex x="-5.7" y="1.12"/>
+<vertex x="-5.59" y="1.56"/>
+<vertex x="-5.39" y="2.18"/>
+<vertex x="-5.2" y="2.58"/>
+<vertex x="-5.01" y="2.94"/>
+<vertex x="-4.76" y="3.33"/>
+<vertex x="-4.48" y="3.69"/>
+<vertex x="-4.18" y="4.03"/>
+<vertex x="-3.9" y="4.3"/>
+<vertex x="-3.55" y="4.59"/>
+<vertex x="-3.16" y="4.87"/>
+<vertex x="-2.71" y="5.13"/>
+<vertex x="-2.36" y="5.3"/>
+<vertex x="-2.07" y="5.42"/>
+</polygon>
+<wire x1="-2.5" y1="2" x2="2.5" y2="-2" width="0.1" layer="51"/>
+<rectangle x1="-0.285734375" y1="-0.6943375" x2="0.114265625" y2="0.8056625" layer="51" rot="R48.5"/>
+</package>
+<package name="WE-TIF_1018" urn="urn:adsk.eagle:footprint:12988474/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TIF Radial Leaded Wire Wound Inductor with 4 Pins&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1018</description>
+<pad name="1" x="-2.5" y="-2" drill="1.2"/>
+<pad name="2" x="2.5" y="-2" drill="1.2"/>
+<pad name="3" x="-2.5" y="2" drill="1.2"/>
+<pad name="4" x="2.5" y="2" drill="1.2"/>
+<circle x="0" y="0" radius="5.6" width="0.2" layer="21"/>
+<circle x="-3.97" y="-2.21" radius="0.1" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="5.5" width="0.1" layer="51"/>
+<text x="-0.07" y="6.51" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.6" y="-7.43" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.09" y="-2.6" size="0.8128" layer="48">1</text>
+<text x="0.75" y="-2.52" size="0.8128" layer="48">2</text>
+<text x="0.73" y="1.39" size="0.8128" layer="48">4</text>
+<text x="-0.98" y="1.43" size="0.8128" layer="48">3</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.68" y="5.56"/>
+<vertex x="-1.41" y="5.62"/>
+<vertex x="-0.98" y="5.71"/>
+<vertex x="-0.52" y="5.79"/>
+<vertex x="0.13" y="5.81"/>
+<vertex x="0.87" y="5.74"/>
+<vertex x="1.67" y="5.56"/>
+<vertex x="2.12" y="5.41"/>
+<vertex x="2.58" y="5.19"/>
+<vertex x="2.99" y="4.98"/>
+<vertex x="3.45" y="4.67"/>
+<vertex x="3.84" y="4.34"/>
+<vertex x="4.25" y="3.96"/>
+<vertex x="4.51" y="3.65"/>
+<vertex x="4.82" y="3.24"/>
+<vertex x="5.17" y="2.64"/>
+<vertex x="5.46" y="1.97"/>
+<vertex x="5.67" y="1.27"/>
+<vertex x="5.76" y="0.64"/>
+<vertex x="5.8" y="0.19"/>
+<vertex x="5.78" y="-0.29"/>
+<vertex x="5.77" y="-0.67"/>
+<vertex x="5.69" y="-1.13"/>
+<vertex x="5.59" y="-1.58"/>
+<vertex x="5.43" y="-2.08"/>
+<vertex x="5.19" y="-2.61"/>
+<vertex x="4.91" y="-3.1"/>
+<vertex x="4.55" y="-3.61"/>
+<vertex x="4.17" y="-4.05"/>
+<vertex x="3.59" y="-4.56"/>
+<vertex x="2.99" y="-4.97"/>
+<vertex x="2.2" y="-5.38"/>
+<vertex x="1.56" y="-5.58"/>
+<vertex x="0.54" y="-5.78"/>
+<vertex x="-0.55" y="-5.78"/>
+<vertex x="-1.28" y="-5.66"/>
+<vertex x="-1.83" y="-5.5"/>
+<vertex x="-2.26" y="-5.34"/>
+<vertex x="-2.65" y="-5.17"/>
+<vertex x="-3.08" y="-4.92"/>
+<vertex x="-3.53" y="-4.61"/>
+<vertex x="-3.87" y="-4.33"/>
+<vertex x="-4.17" y="-4.04"/>
+<vertex x="-4.49" y="-3.69"/>
+<vertex x="-4.8" y="-3.26"/>
+<vertex x="-5.11" y="-2.76"/>
+<vertex x="-5.33" y="-2.33"/>
+<vertex x="-5.53" y="-1.79"/>
+<vertex x="-5.67" y="-1.27"/>
+<vertex x="-5.76" y="-0.72"/>
+<vertex x="-5.8" y="-0.15"/>
+<vertex x="-5.79" y="0.48"/>
+<vertex x="-5.7" y="1.12"/>
+<vertex x="-5.59" y="1.56"/>
+<vertex x="-5.39" y="2.18"/>
+<vertex x="-5.2" y="2.58"/>
+<vertex x="-5.01" y="2.94"/>
+<vertex x="-4.76" y="3.33"/>
+<vertex x="-4.48" y="3.69"/>
+<vertex x="-4.18" y="4.03"/>
+<vertex x="-3.9" y="4.3"/>
+<vertex x="-3.55" y="4.59"/>
+<vertex x="-3.16" y="4.87"/>
+<vertex x="-2.71" y="5.13"/>
+<vertex x="-2.36" y="5.3"/>
+<vertex x="-2.07" y="5.42"/>
+</polygon>
+<wire x1="-2.5" y1="2" x2="2.5" y2="-2" width="0.1" layer="51"/>
+<rectangle x1="-0.285734375" y1="-0.6943375" x2="0.114265625" y2="0.8056625" layer="51" rot="R48.5"/>
+</package>
+<package name="WE-TIF_1014" urn="urn:adsk.eagle:footprint:12988476/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TIF Radial Leaded Wire Wound Inductor with 4 Pins&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1014</description>
+<pad name="4" x="2.5" y="2" drill="1.2"/>
+<pad name="2" x="2.5" y="-2" drill="1.2"/>
+<pad name="1" x="-2.5" y="-2" drill="1.2"/>
+<pad name="3" x="-2.5" y="2" drill="1.2"/>
+<circle x="0" y="0" radius="5.6" width="0.2" layer="21"/>
+<circle x="-3.97" y="-2.21" radius="0.1" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="5.5" width="0.1" layer="51"/>
+<text x="-0.07" y="6.51" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.6" y="-7.43" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.09" y="-2.6" size="0.8128" layer="48">1</text>
+<text x="0.75" y="-2.52" size="0.8128" layer="48">2</text>
+<text x="0.73" y="1.39" size="0.8128" layer="48">4</text>
+<text x="-0.98" y="1.43" size="0.8128" layer="48">3</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.68" y="5.56"/>
+<vertex x="-1.41" y="5.62"/>
+<vertex x="-0.98" y="5.71"/>
+<vertex x="-0.52" y="5.79"/>
+<vertex x="0.13" y="5.81"/>
+<vertex x="0.87" y="5.74"/>
+<vertex x="1.67" y="5.56"/>
+<vertex x="2.12" y="5.41"/>
+<vertex x="2.58" y="5.19"/>
+<vertex x="2.99" y="4.98"/>
+<vertex x="3.45" y="4.67"/>
+<vertex x="3.84" y="4.34"/>
+<vertex x="4.25" y="3.96"/>
+<vertex x="4.51" y="3.65"/>
+<vertex x="4.82" y="3.24"/>
+<vertex x="5.17" y="2.64"/>
+<vertex x="5.46" y="1.97"/>
+<vertex x="5.67" y="1.27"/>
+<vertex x="5.76" y="0.64"/>
+<vertex x="5.8" y="0.19"/>
+<vertex x="5.78" y="-0.29"/>
+<vertex x="5.77" y="-0.67"/>
+<vertex x="5.69" y="-1.13"/>
+<vertex x="5.59" y="-1.58"/>
+<vertex x="5.43" y="-2.08"/>
+<vertex x="5.19" y="-2.61"/>
+<vertex x="4.91" y="-3.1"/>
+<vertex x="4.55" y="-3.61"/>
+<vertex x="4.17" y="-4.05"/>
+<vertex x="3.59" y="-4.56"/>
+<vertex x="2.99" y="-4.97"/>
+<vertex x="2.2" y="-5.38"/>
+<vertex x="1.56" y="-5.58"/>
+<vertex x="0.54" y="-5.78"/>
+<vertex x="-0.55" y="-5.78"/>
+<vertex x="-1.28" y="-5.66"/>
+<vertex x="-1.83" y="-5.5"/>
+<vertex x="-2.26" y="-5.34"/>
+<vertex x="-2.65" y="-5.17"/>
+<vertex x="-3.08" y="-4.92"/>
+<vertex x="-3.53" y="-4.61"/>
+<vertex x="-3.87" y="-4.33"/>
+<vertex x="-4.17" y="-4.04"/>
+<vertex x="-4.49" y="-3.69"/>
+<vertex x="-4.8" y="-3.26"/>
+<vertex x="-5.11" y="-2.76"/>
+<vertex x="-5.33" y="-2.33"/>
+<vertex x="-5.53" y="-1.79"/>
+<vertex x="-5.67" y="-1.27"/>
+<vertex x="-5.76" y="-0.72"/>
+<vertex x="-5.8" y="-0.15"/>
+<vertex x="-5.79" y="0.48"/>
+<vertex x="-5.7" y="1.12"/>
+<vertex x="-5.59" y="1.56"/>
+<vertex x="-5.39" y="2.18"/>
+<vertex x="-5.2" y="2.58"/>
+<vertex x="-5.01" y="2.94"/>
+<vertex x="-4.76" y="3.33"/>
+<vertex x="-4.48" y="3.69"/>
+<vertex x="-4.18" y="4.03"/>
+<vertex x="-3.9" y="4.3"/>
+<vertex x="-3.55" y="4.59"/>
+<vertex x="-3.16" y="4.87"/>
+<vertex x="-2.71" y="5.13"/>
+<vertex x="-2.36" y="5.3"/>
+<vertex x="-2.07" y="5.42"/>
+</polygon>
+<wire x1="-2.5" y1="2" x2="2.5" y2="-2" width="0.1" layer="51"/>
+<rectangle x1="-0.285734375" y1="-0.6943375" x2="0.114265625" y2="0.8056625" layer="51" rot="R48.5"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-TIF_1016" urn="urn:adsk.eagle:package:12988479/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TIF Radial Leaded Wire Wound Inductor with 4 Pins&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1016</description>
+<packageinstances>
+<packageinstance name="WE-TIF_1016"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-TIF_1014" urn="urn:adsk.eagle:package:12988480/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TIF Radial Leaded Wire Wound Inductor with 4 Pins&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1014</description>
+<packageinstances>
+<packageinstance name="WE-TIF_1014"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-TIF_1018" urn="urn:adsk.eagle:package:12988478/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TIF Radial Leaded Wire Wound Inductor with 4 Pins&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1018</description>
+<packageinstances>
+<packageinstance name="WE-TIF_1018"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L-POINT">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+<circle x="-7" y="1.4" radius="0.1" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-TIF_1016" prefix="L">
+<description>&lt;B&gt;WE-TIF Radial Leaded Wire Wound Inductor with 4 Pins&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Radial through-hole inductor &lt;br&gt;
+High saturation core material&lt;br&gt;
+ Maximum current up to 3.1 A &lt;br&gt;
+2 additional pins for high mechanical stability&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Application&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Signal filtering &lt;br&gt;
+EMI and power supply filter&lt;br&gt;
+ DC/DC converters &lt;br&gt;
+Switching power&lt;br&gt;
+ Supplies for small and medium voltage&lt;br&gt; 
+Power supply for LED &lt;br&gt;
+Nearfield applications &lt;br&gt;
+
+
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14866v209%20Family_WE-TIF_E.jpgg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14866v209%20Family_WE-TIF_E.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-TIF"&gt;https://katalog.we-online.com/en/pbs/WE-TIF&lt;/a&gt;&lt;p&gt;
+
+Updated by  Yingchun,Shan 2019-08-13&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TIF_1016">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12988479/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7447221101">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="4MHz" constant="no"/>
+<attribute name="IR" value="2.45A" constant="no"/>
+<attribute name="ISAT" value="2.75A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221101 " constant="no"/>
+<attribute name="RDC-MAX" value="100Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="85mOhm" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+<technology name="_7447221102">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1MHz" constant="no"/>
+<attribute name="IR" value="0.75A" constant="no"/>
+<attribute name="ISAT" value="0.9A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221102 " constant="no"/>
+<attribute name="RDC-MAX" value="980Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="850mOhm" constant="no"/>
+<attribute name="VALUE" value="1000uH" constant="no"/>
+</technology>
+<technology name="_7447221103">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.26MHz" constant="no"/>
+<attribute name="IR" value="0.23A" constant="no"/>
+<attribute name="ISAT" value="0.29A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221103 " constant="no"/>
+<attribute name="RDC-MAX" value="9700Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="8400mOhm" constant="no"/>
+<attribute name="VALUE" value="10000uH" constant="no"/>
+</technology>
+<technology name="_7447221221">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="2.5MHz" constant="no"/>
+<attribute name="IR" value="1.65A" constant="no"/>
+<attribute name="ISAT" value="1.9A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221221 " constant="no"/>
+<attribute name="RDC-MAX" value="220Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="190mOhm" constant="no"/>
+<attribute name="VALUE" value="220uH" constant="no"/>
+</technology>
+<technology name="_7447221222">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.65MHz" constant="no"/>
+<attribute name="IR" value="0.5A" constant="no"/>
+<attribute name="ISAT" value="0.61A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221222 " constant="no"/>
+<attribute name="RDC-MAX" value="2100Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1850mOhm" constant="no"/>
+<attribute name="VALUE" value="2200uH" constant="no"/>
+</technology>
+<technology name="_7447221331">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="2MHz" constant="no"/>
+<attribute name="IR" value="1.35A" constant="no"/>
+<attribute name="ISAT" value="1.55A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221331 " constant="no"/>
+<attribute name="RDC-MAX" value="320Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="280mOhm" constant="no"/>
+<attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+<technology name="_7447221332">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.5MHz" constant="no"/>
+<attribute name="IR" value="0.4A" constant="no"/>
+<attribute name="ISAT" value="0.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221332 " constant="no"/>
+<attribute name="RDC-MAX" value="3200Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="2800mOhm" constant="no"/>
+<attribute name="VALUE" value="3300uH" constant="no"/>
+</technology>
+<technology name="_7447221471">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1.6MHz" constant="no"/>
+<attribute name="IR" value="1.1A" constant="no"/>
+<attribute name="ISAT" value="1.3A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221471 " constant="no"/>
+<attribute name="RDC-MAX" value="460Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="400mOhm" constant="no"/>
+<attribute name="VALUE" value="470uH" constant="no"/>
+</technology>
+<technology name="_7447221472">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.41MHz" constant="no"/>
+<attribute name="IR" value="0.34A" constant="no"/>
+<attribute name="ISAT" value="0.42A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221472 " constant="no"/>
+<attribute name="RDC-MAX" value="4600Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="4000mOhm" constant="no"/>
+<attribute name="VALUE" value="4700uH" constant="no"/>
+</technology>
+<technology name="_7447221681">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1.3MHz" constant="no"/>
+<attribute name="IR" value="0.9A" constant="no"/>
+<attribute name="ISAT" value="1.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221681 " constant="no"/>
+<attribute name="RDC-MAX" value="670Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="580mOhm" constant="no"/>
+<attribute name="VALUE" value="680uH" constant="no"/>
+</technology>
+<technology name="_7447221682">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.33MHz" constant="no"/>
+<attribute name="IR" value="0.28A" constant="no"/>
+<attribute name="ISAT" value="0.35A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447221682 " constant="no"/>
+<attribute name="RDC-MAX" value="6600Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="5700mOhm" constant="no"/>
+<attribute name="VALUE" value="6800uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-TIF_1018" prefix="L">
+<description>&lt;B&gt;WE-TIF Radial Leaded Wire Wound Inductor with 4 Pins&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Radial through-hole inductor &lt;br&gt;
+High saturation core material&lt;br&gt;
+ Maximum current up to 3.1 A &lt;br&gt;
+2 additional pins for high mechanical stability&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Application&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Signal filtering &lt;br&gt;
+EMI and power supply filter&lt;br&gt;
+ DC/DC converters &lt;br&gt;
+Switching power&lt;br&gt;
+ Supplies for small and medium voltage&lt;br&gt; 
+Power supply for LED &lt;br&gt;
+Nearfield applications &lt;br&gt;
+
+
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14866v209%20Family_WE-TIF_E.jpgg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14866v209%20Family_WE-TIF_E.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-TIF"&gt;https://katalog.we-online.com/en/pbs/WE-TIF&lt;/a&gt;&lt;p&gt;
+
+Updated by  Yingchun,Shan 2019-08-13&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TIF_1018">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12988478/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7447231101">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="3.6MHz" constant="no"/>
+<attribute name="IR" value="2.6A" constant="no"/>
+<attribute name="ISAT" value="3.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231101 " constant="no"/>
+<attribute name="RDC-MAX" value="90Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="75mOhm" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+<technology name="_7447231102">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1.1MHz" constant="no"/>
+<attribute name="IR" value="0.8A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231102 " constant="no"/>
+<attribute name="RDC-MAX" value="860Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="750mOhm" constant="no"/>
+<attribute name="VALUE" value="1000uH" constant="no"/>
+</technology>
+<technology name="_7447231103">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.32MHz" constant="no"/>
+<attribute name="IR" value="0.25A" constant="no"/>
+<attribute name="ISAT" value="0.32A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231103 " constant="no"/>
+<attribute name="RDC-MAX" value="8500Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="7400mOhm" constant="no"/>
+<attribute name="VALUE" value="10000uH" constant="no"/>
+</technology>
+<technology name="_7447231221">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="2.4MHz" constant="no"/>
+<attribute name="IR" value="1.75A" constant="no"/>
+<attribute name="ISAT" value="2.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231221 " constant="no"/>
+<attribute name="RDC-MAX" value="200mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="170mOhm" constant="no"/>
+<attribute name="VALUE" value="220uH" constant="no"/>
+</technology>
+<technology name="_7447231222">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.72MHz" constant="no"/>
+<attribute name="IR" value="0.54A" constant="no"/>
+<attribute name="ISAT" value="0.7A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231222 " constant="no"/>
+<attribute name="RDC-MAX" value="1900Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1650mOhm" constant="no"/>
+<attribute name="VALUE" value="2200uH" constant="no"/>
+</technology>
+<technology name="_7447231331">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1.9MHz" constant="no"/>
+<attribute name="IR" value="1.4A" constant="no"/>
+<attribute name="ISAT" value="1.75A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231331 " constant="no"/>
+<attribute name="RDC-MAX" value="290mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="250mOhm" constant="no"/>
+<attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+<technology name="_7447231332">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.58MHz" constant="no"/>
+<attribute name="IR" value="0.43A" constant="no"/>
+<attribute name="ISAT" value="0.55A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231332 " constant="no"/>
+<attribute name="RDC-MAX" value="2800Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="2450mOhm" constant="no"/>
+<attribute name="VALUE" value="3300uH" constant="no"/>
+</technology>
+<technology name="_7447231471">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1.6MHz" constant="no"/>
+<attribute name="IR" value="1.2A" constant="no"/>
+<attribute name="ISAT" value="1.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231471 " constant="no"/>
+<attribute name="RDC-MAX" value="410mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="360mOhm" constant="no"/>
+<attribute name="VALUE" value="470uH" constant="no"/>
+</technology>
+<technology name="_7447231472">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.48MHz" constant="no"/>
+<attribute name="IR" value="0.36A" constant="no"/>
+<attribute name="ISAT" value="0.47A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231472 " constant="no"/>
+<attribute name="RDC-MAX" value="4000Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="3500mOhm" constant="no"/>
+<attribute name="VALUE" value="4700uH" constant="no"/>
+</technology>
+<technology name="_7447231681">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1.3MHz" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="ISAT" value=" 1.2 " constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231681 " constant="no"/>
+<attribute name="RDC-MAX" value="590mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="510mOhm" constant="no"/>
+<attribute name="VALUE" value="680uH" constant="no"/>
+</technology>
+<technology name="_7447231682">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.4MHz" constant="no"/>
+<attribute name="IR" value="0.3A" constant="no"/>
+<attribute name="ISAT" value="0.39A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447231682 " constant="no"/>
+<attribute name="RDC-MAX" value="5750Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="5000mOhm" constant="no"/>
+<attribute name="VALUE" value="6800uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-TIF_1014" prefix="L">
+<description>&lt;B&gt;WE-TIF Radial Leaded Wire Wound Inductor with 4 Pins&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Radial through-hole inductor &lt;br&gt;
+High saturation core material&lt;br&gt;
+ Maximum current up to 3.1 A &lt;br&gt;
+2 additional pins for high mechanical stability&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Application&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Signal filtering &lt;br&gt;
+EMI and power supply filter&lt;br&gt;
+ DC/DC converters &lt;br&gt;
+Switching power&lt;br&gt;
+ Supplies for small and medium voltage&lt;br&gt; 
+Power supply for LED &lt;br&gt;
+Nearfield applications &lt;br&gt;
+
+
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14866v209%20Family_WE-TIF_E.jpgg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14866v209%20Family_WE-TIF_E.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-TIF"&gt;https://katalog.we-online.com/en/pbs/WE-TIF&lt;/a&gt;&lt;p&gt;
+
+Updated by  Yingchun,Shan 2019-08-13&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TIF_1014">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12988480/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7447211101">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="4MHz" constant="no"/>
+<attribute name="IR" value="2.2A" constant="no"/>
+<attribute name="ISAT" value="2.8A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211101 " constant="no"/>
+<attribute name="RDC-MAX" value="115Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="100mOhm" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+<technology name="_7447211102">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1MHz" constant="no"/>
+<attribute name="IR" value="0.68A" constant="no"/>
+<attribute name="ISAT" value="0.92A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211102 " constant="no"/>
+<attribute name="RDC-MAX" value="1100Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="960mOhm" constant="no"/>
+<attribute name="VALUE" value="1000uH" constant="no"/>
+</technology>
+<technology name="_7447211103">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.26MHz" constant="no"/>
+<attribute name="IR" value="0.21A" constant="no"/>
+<attribute name="ISAT" value="0.3A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211103 " constant="no"/>
+<attribute name="RDC-MAX" value="10700Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="9300mOhm" constant="no"/>
+<attribute name="VALUE" value="10000uH" constant="no"/>
+</technology>
+<technology name="_7447211221">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="2.5MHz" constant="no"/>
+<attribute name="IR" value="1.47A" constant="no"/>
+<attribute name="ISAT" value="1.9A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211221 " constant="no"/>
+<attribute name="RDC-MAX" value="250Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="220mOhm" constant="no"/>
+<attribute name="VALUE" value="220uH" constant="no"/>
+</technology>
+<technology name="_7447211222">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.65MHz" constant="no"/>
+<attribute name="IR" value="0.46A" constant="no"/>
+<attribute name="ISAT" value="0.63A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211222 " constant="no"/>
+<attribute name="RDC-MAX" value="2400Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="2100mOhm" constant="no"/>
+<attribute name="VALUE" value="2200uH" constant="no"/>
+</technology>
+<technology name="_7447211331">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="2MHz" constant="no"/>
+<attribute name="IR" value="1.2A" constant="no"/>
+<attribute name="ISAT" value="1.55A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211331 " constant="no"/>
+<attribute name="RDC-MAX" value="370Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="320mOhm" constant="no"/>
+<attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+<technology name="_7447211332">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.5MHz" constant="no"/>
+<attribute name="IR" value="0.37A" constant="no"/>
+<attribute name="ISAT" value="0.52A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211332 " constant="no"/>
+<attribute name="RDC-MAX" value="3600Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="3100mOhm" constant="no"/>
+<attribute name="VALUE" value="3300uH" constant="no"/>
+</technology>
+<technology name="_7447211471">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1.6MHz" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="ISAT" value="1.35A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211471 " constant="no"/>
+<attribute name="RDC-MAX" value="530Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="460mOhm" constant="no"/>
+<attribute name="VALUE" value="470uH" constant="no"/>
+</technology>
+<technology name="_7447211472">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.41MHz" constant="no"/>
+<attribute name="IR" value="0.31A" constant="no"/>
+<attribute name="ISAT" value="0.43A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211472 " constant="no"/>
+<attribute name="RDC-MAX" value="5100Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="4400mOhm" constant="no"/>
+<attribute name="VALUE" value="4700uH" constant="no"/>
+</technology>
+<technology name="_7447211681">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="1.3MHz" constant="no"/>
+<attribute name="IR" value="0.83A" constant="no"/>
+<attribute name="ISAT" value="1.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211681 " constant="no"/>
+<attribute name="RDC-MAX" value="760Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="660mOhm" constant="no"/>
+<attribute name="VALUE" value="680uH" constant="no"/>
+</technology>
+<technology name="_7447211682">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/.pdf" constant="no"/>
+<attribute name="FRES" value="0.33MHz" constant="no"/>
+<attribute name="IR" value="0.26A" constant="no"/>
+<attribute name="ISAT" value="0.36A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7447211682 " constant="no"/>
+<attribute name="RDC-MAX" value="7400Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="6400mOhm" constant="no"/>
+<attribute name="VALUE" value="6800uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

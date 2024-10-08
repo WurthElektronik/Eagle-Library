@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - EMC Components - EMI Shielding Material - WE-SMGS&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-SMGS_3029040030025" urn="urn:adsk.eagle:footprint:12135474/1">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;3X4X2.5mm</description>
+<smd name="2" x="0" y="-1.5" dx="1.5" dy="3.2" layer="1" rot="R90"/>
+<smd name="1" x="0" y="1.5" dx="1.5" dy="3.2" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="51"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.4" x2="1.6" y2="-0.4" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="0.4" x2="-1.6" y2="-0.4" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.8" y="2.45"/>
+<vertex x="1.8" y="2.45"/>
+<vertex x="1.8" y="-2.45"/>
+<vertex x="-1.8" y="-2.45"/>
+</polygon>
+<text x="0" y="2.7" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.5" y="-3.6" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-SMGS_3029060080100" urn="urn:adsk.eagle:footprint:12135469/1">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;8X6X10mm</description>
+<smd name="2" x="0" y="-2.25" dx="2" dy="8.2" layer="1" rot="R90"/>
+<smd name="1" x="0" y="2.25" dx="2" dy="8.2" layer="1" rot="R90"/>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.127" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-3" width="0.127" layer="51"/>
+<wire x1="4" y1="-3" x2="-4" y2="-3" width="0.127" layer="51"/>
+<wire x1="-4" y1="-3" x2="-4" y2="3" width="0.127" layer="51"/>
+<wire x1="4.1" y1="0.9" x2="4.1" y2="-0.9" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="0.9" x2="-4.1" y2="-0.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="3.45"/>
+<vertex x="4.3" y="3.45"/>
+<vertex x="4.3" y="-3.45"/>
+<vertex x="-4.3" y="-3.45"/>
+</polygon>
+<text x="0" y="3.8" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.3" y="-4.7" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-SMGS_3029050030050" urn="urn:adsk.eagle:footprint:12135471/1">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;3X5X5mm</description>
+<smd name="2" x="0" y="-1.75" dx="2" dy="3.2" layer="1" rot="R90"/>
+<smd name="1" x="0" y="1.75" dx="2" dy="3.2" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.4" x2="1.6" y2="-0.4" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="0.4" x2="-1.6" y2="-0.4" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.8" y="2.95"/>
+<vertex x="1.8" y="2.95"/>
+<vertex x="1.8" y="-2.95"/>
+<vertex x="-1.8" y="-2.95"/>
+</polygon>
+<text x="-0.1" y="3.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.3" y="-4" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-SMGS_3029040030035" urn="urn:adsk.eagle:footprint:12135472/1">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;3X4X3.5mm</description>
+<smd name="2" x="0" y="-1.5" dx="1.5" dy="3.2" layer="1" rot="R90"/>
+<smd name="1" x="0" y="1.5" dx="1.5" dy="3.2" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="51"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.4" x2="1.6" y2="-0.4" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="0.4" x2="-1.6" y2="-0.4" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.8" y="2.45"/>
+<vertex x="1.8" y="2.45"/>
+<vertex x="1.8" y="-2.45"/>
+<vertex x="-1.8" y="-2.45"/>
+</polygon>
+<text x="0" y="2.7" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.5" y="-3.6" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-SMGS_3029080080100" urn="urn:adsk.eagle:footprint:12135468/1">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;8X8X10mm</description>
+<smd name="2" x="0" y="-2.75" dx="3" dy="8.2" layer="1" rot="R90"/>
+<smd name="1" x="0" y="2.75" dx="3" dy="8.2" layer="1" rot="R90"/>
+<wire x1="-4" y1="4" x2="4" y2="4" width="0.127" layer="51"/>
+<wire x1="4" y1="4" x2="4" y2="-4" width="0.127" layer="51"/>
+<wire x1="4" y1="-4" x2="-4" y2="-4" width="0.127" layer="51"/>
+<wire x1="-4" y1="-4" x2="-4" y2="4" width="0.127" layer="51"/>
+<wire x1="4.1" y1="0.9" x2="4.1" y2="-0.9" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="0.9" x2="-4.1" y2="-0.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="4.45"/>
+<vertex x="4.3" y="4.45"/>
+<vertex x="4.3" y="-4.45"/>
+<vertex x="-4.3" y="-4.45"/>
+</polygon>
+<text x="0" y="4.9" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.4" y="-5.8" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-SMGS_3029040030030" urn="urn:adsk.eagle:footprint:12135473/1">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;3X4X3mm</description>
+<smd name="2" x="0" y="-1.5" dx="1.5" dy="3.2" layer="1" rot="R90"/>
+<smd name="1" x="0" y="1.5" dx="1.5" dy="3.2" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="51"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.4" x2="1.6" y2="-0.4" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="0.4" x2="-1.6" y2="-0.4" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.8" y="2.45"/>
+<vertex x="1.8" y="2.45"/>
+<vertex x="1.8" y="-2.45"/>
+<vertex x="-1.8" y="-2.45"/>
+</polygon>
+<text x="0" y="2.7" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.5" y="-3.6" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-SMGS_3029100100150" urn="urn:adsk.eagle:footprint:12135467/1">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;10X10X15mm</description>
+<smd name="2" x="0" y="-3.5" dx="3.5" dy="10.2" layer="1" rot="R90"/>
+<smd name="1" x="0" y="3.5" dx="3.5" dy="10.2" layer="1" rot="R90"/>
+<wire x1="-5" y1="5" x2="5" y2="5" width="0.127" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.127" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.127" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="5" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="1.4" x2="-5.1" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="5.1" y1="1.4" x2="5.1" y2="-1.4" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="5.45"/>
+<vertex x="5.3" y="5.45"/>
+<vertex x="5.3" y="-5.45"/>
+<vertex x="-5.3" y="-5.45"/>
+</polygon>
+<text x="0" y="5.9" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.4" y="-6.8" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-SMGS_3029060060050" urn="urn:adsk.eagle:footprint:12135470/1">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;6X6X5mm</description>
+<smd name="2" x="0" y="-2.25" dx="2" dy="6.2" layer="1" rot="R90"/>
+<smd name="1" x="0" y="2.25" dx="2" dy="6.2" layer="1" rot="R90"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.127" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.127" layer="51"/>
+<wire x1="3.1" y1="0.9" x2="3.1" y2="-0.9" width="0.2" layer="21"/>
+<wire x1="-3.1" y1="0.9" x2="-3.1" y2="-0.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.3" y="3.45"/>
+<vertex x="3.3" y="3.45"/>
+<vertex x="3.3" y="-3.45"/>
+<vertex x="-3.3" y="-3.45"/>
+</polygon>
+<text x="0" y="3.8" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.3" y="-4.7" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-SMGS_3029040030025" urn="urn:adsk.eagle:package:12135483/2" type="model">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;3X4X2.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SMGS_3029040030025"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SMGS_3029040030035" urn="urn:adsk.eagle:package:12135481/2" type="model">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;3X4X3.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SMGS_3029040030035"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SMGS_3029050030050" urn="urn:adsk.eagle:package:12135480/2" type="model">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;3X5X5mm</description>
+<packageinstances>
+<packageinstance name="WE-SMGS_3029050030050"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SMGS_3029060080100" urn="urn:adsk.eagle:package:12135478/2" type="model">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;8X6X10mm</description>
+<packageinstances>
+<packageinstance name="WE-SMGS_3029060080100"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SMGS_3029080080100" urn="urn:adsk.eagle:package:12135477/2" type="model">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;8X8X10mm</description>
+<packageinstances>
+<packageinstance name="WE-SMGS_3029080080100"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SMGS_3029040030030" urn="urn:adsk.eagle:package:12135482/2" type="model">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;3X4X3mm</description>
+<packageinstances>
+<packageinstance name="WE-SMGS_3029040030030"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SMGS_3029100100150" urn="urn:adsk.eagle:package:12135476/2" type="model">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;10X10X15mm</description>
+<packageinstances>
+<packageinstance name="WE-SMGS_3029100100150"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SMGS_3029060060050" urn="urn:adsk.eagle:package:12135479/2" type="model">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;BR&gt;&lt;/B&gt;6X6X5mm</description>
+<packageinstances>
+<packageinstance name="WE-SMGS_3029060060050"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-SMGS">
+<pin name="1" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
+<text x="0" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-SMGS" prefix="H" uservalue="yes">
+<description>&lt;b&gt;WE-SMGS Surface Mount Solderable Gasket
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Designed for Pick &amp; Place assembling
+&lt;br&gt;Wide contact surface
+&lt;br&gt;High temperatures and mechanical weight have no influence on the excellent connection properties
+&lt;br&gt;Reliable solderability
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Contact between PCB's earth and housing
+&lt;br&gt;Low Ω HF connection between earthing points of two PCB's lying upon each other
+&lt;br&gt;Connection between PCB's and extern elements
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o149187v209%20Family_302905003050.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o149187v209%20Family_302905003050.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-SMGS"&gt;https://katalog.we-online.com/en/pbs/WE-SMGS&lt;/a&gt;&lt;p&gt;
+
+Created By Ella Wu  2019-07-09&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-SMGS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_3029040030025" package="WE-SMGS_3029040030025">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12135483/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/3029040030025.pdf" constant="no"/>
+<attribute name="HEIGHT" value="2.5mm" constant="no"/>
+<attribute name="LENGTH" value="4mm" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value="3029040030025" constant="no"/>
+<attribute name="RS" value="0.1Ohm/ square" constant="no"/>
+<attribute name="WIDTH" value="3mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3029040030030" package="WE-SMGS_3029040030030">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12135482/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/3029040030030.pdf" constant="no"/>
+<attribute name="HEIGHT" value="3mm" constant="no"/>
+<attribute name="LENGTH" value="4mm" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value="3029040030030" constant="no"/>
+<attribute name="RS" value="0.1Ohm/ square" constant="no"/>
+<attribute name="WIDTH" value="3mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3029040030035" package="WE-SMGS_3029040030035">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12135481/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/3029040030035.pdf" constant="no"/>
+<attribute name="HEIGHT" value="3.5mm" constant="no"/>
+<attribute name="LENGTH" value="4mm" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value="3029040030035" constant="no"/>
+<attribute name="RS" value="0.1Ohm/ square" constant="no"/>
+<attribute name="WIDTH" value="3mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3029050030050" package="WE-SMGS_3029050030050">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12135480/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/3029050030050.pdf" constant="no"/>
+<attribute name="HEIGHT" value="5mm" constant="no"/>
+<attribute name="LENGTH" value="5mm" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value="3029050030050" constant="no"/>
+<attribute name="RS" value="0.1Ohm/ square" constant="no"/>
+<attribute name="WIDTH" value="3mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3029060060050" package="WE-SMGS_3029060060050">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12135479/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/3029060060050.pdf" constant="no"/>
+<attribute name="HEIGHT" value="5mm" constant="no"/>
+<attribute name="LENGTH" value="6mm" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value="3029060060050" constant="no"/>
+<attribute name="RS" value="0.1Ohm/ square" constant="no"/>
+<attribute name="WIDTH" value="6mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3029060080100" package="WE-SMGS_3029060080100">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12135478/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/3029060080100.pdf" constant="no"/>
+<attribute name="HEIGHT" value="10mm" constant="no"/>
+<attribute name="LENGTH" value="6mm" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value="3029060080100" constant="no"/>
+<attribute name="RS" value="0.1Ohm/ square" constant="no"/>
+<attribute name="WIDTH" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3029080080100" package="WE-SMGS_3029080080100">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12135477/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/3029080080100.pdf" constant="no"/>
+<attribute name="HEIGHT" value="10mm" constant="no"/>
+<attribute name="LENGTH" value="8mm" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value="3029080080100" constant="no"/>
+<attribute name="RS" value="0.1Ohm/ square" constant="no"/>
+<attribute name="WIDTH" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3029100100150" package="WE-SMGS_3029100100150">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12135476/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/3029100100150.pdf" constant="no"/>
+<attribute name="HEIGHT" value="15mm" constant="no"/>
+<attribute name="LENGTH" value="10mm" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value="3029100100150" constant="no"/>
+<attribute name="RS" value="0.1Ohm/ square" constant="no"/>
+<attribute name="WIDTH" value="10mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

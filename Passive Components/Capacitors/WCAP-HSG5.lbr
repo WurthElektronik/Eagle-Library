@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Capacitors - Aluminium Hybrid Polymer Capacitors - WCAP-HSG5&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-04-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WCAP-HSG5_D6.3H7.7P2.2" urn="urn:adsk.eagle:footprint:32851559/2">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 6.3mmX7.7mmX2.2mm, SMT, 2pins</description>
+<smd name="1" x="-2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="2" x="2.85" y="0" dx="3.5" dy="1.6" layer="1"/>
+<text x="5.5" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="5.5" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="4.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.2" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="1.7" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-1.75" x2="3.3" y2="1.7" width="0.1" layer="51"/>
+<wire x1="1.7" y1="3.3" x2="-3.3" y2="3.3" width="0.1" layer="51"/>
+<wire x1="1.7" y1="3.3" x2="3.3" y2="1.7" width="0.1" layer="51"/>
+<wire x1="1.7" y1="-3.3" x2="3.3" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="3.4" x2="1.75" y2="3.4" width="0.2" layer="21"/>
+<wire x1="1.75" y1="3.4" x2="3.4" y2="1.75" width="0.2" layer="21"/>
+<wire x1="3.4" y1="1.75" x2="3.4" y2="1.2" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-1.2" x2="3.4" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-1.8" x2="1.75" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-3.4" x2="-3.4" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="3.4" x2="-3.4" y2="1.2" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="3.15" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.8" y="3.6"/>
+<vertex x="4.2" y="3.6"/>
+<vertex x="4.2" y="-3.6"/>
+<vertex x="-4.8" y="-3.6"/>
+</polygon>
+</package>
+<package name="WCAP-HSG5_D6.3H5.8P2.2" urn="urn:adsk.eagle:footprint:32851560/2">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 6.3mmX5.8mmX2.2mm, SMT, 2pins</description>
+<smd name="1" x="-2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="2" x="2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<text x="5.5" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="5.5" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="4.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.2" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="1.75" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-1.7" x2="3.3" y2="1.7" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.3" x2="-3.3" y2="3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.3" x2="3.3" y2="1.7" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.3" x2="3.3" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="3.4" x2="1.8" y2="3.4" width="0.2" layer="21"/>
+<wire x1="1.8" y1="3.4" x2="3.4" y2="1.75" width="0.2" layer="21"/>
+<wire x1="3.4" y1="1.75" x2="3.4" y2="1.2" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-1.2" x2="3.4" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-1.75" x2="1.8" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="1.8" y1="-3.4" x2="-3.4" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="3.4" x2="-3.4" y2="1.2" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="3.15" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.8" y="3.6"/>
+<vertex x="4.2" y="3.6"/>
+<vertex x="4.2" y="-3.6"/>
+<vertex x="-4.8" y="-3.6"/>
+</polygon>
+</package>
+<package name="WCAP-HSG5_D10H10.5P4.5" urn="urn:adsk.eagle:footprint:32851556/1">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 10mmX10.5mmX4.5mm, SMT, 2pins</description>
+<smd name="1" x="-4.35" y="0" dx="4.4" dy="1.9" layer="1"/>
+<smd name="2" x="4.35" y="0" dx="4.4" dy="1.9" layer="1"/>
+<text x="7.5" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="7.5" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.1" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-5.15" y1="5.15" x2="-5.15" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="-5.15" y1="-5.15" x2="3.15" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="5.15" y1="-3.15" x2="5.15" y2="3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="5.15" x2="-5.15" y2="5.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="5.15" x2="5.15" y2="3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-5.15" x2="5.15" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="-5.25" y1="5.25" x2="3.2" y2="5.25" width="0.2" layer="21"/>
+<wire x1="3.2" y1="5.25" x2="5.25" y2="3.2" width="0.2" layer="21"/>
+<wire x1="5.25" y1="3.2" x2="5.25" y2="1.2" width="0.2" layer="21"/>
+<wire x1="5.25" y1="-1.2" x2="5.25" y2="-3.2" width="0.2" layer="21"/>
+<wire x1="5.25" y1="-3.2" x2="3.2" y2="-5.25" width="0.2" layer="21"/>
+<wire x1="3.2" y1="-5.25" x2="-5.25" y2="-5.25" width="0.2" layer="21"/>
+<wire x1="-5.25" y1="-5.25" x2="-5.25" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-5.25" y1="5.25" x2="-5.25" y2="1.2" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="5.45"/>
+<vertex x="6.8" y="5.45"/>
+<vertex x="6.8" y="-5.45"/>
+<vertex x="-6.8" y="-5.45"/>
+</polygon>
+</package>
+<package name="WCAP-HSG5_D10H12.4P4.5" urn="urn:adsk.eagle:footprint:32851555/1">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 10mmX12.4mmX4.5mm, SMT, 2pins</description>
+<smd name="1" x="-4.35" y="0" dx="4.4" dy="1.9" layer="1"/>
+<smd name="2" x="4.35" y="0" dx="4.4" dy="1.9" layer="1"/>
+<text x="7.5" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="7.5" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.1" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-5.15" y1="5.15" x2="-5.15" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="-5.15" y1="-5.15" x2="3.15" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="5.15" y1="-3.15" x2="5.15" y2="3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="5.15" x2="-5.15" y2="5.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="5.15" x2="5.15" y2="3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-5.15" x2="5.15" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="-5.25" y1="5.25" x2="3.2" y2="5.25" width="0.2" layer="21"/>
+<wire x1="3.2" y1="5.25" x2="5.25" y2="3.2" width="0.2" layer="21"/>
+<wire x1="5.25" y1="3.2" x2="5.25" y2="1.2" width="0.2" layer="21"/>
+<wire x1="5.25" y1="-1.2" x2="5.25" y2="-3.2" width="0.2" layer="21"/>
+<wire x1="5.25" y1="-3.2" x2="3.2" y2="-5.25" width="0.2" layer="21"/>
+<wire x1="3.2" y1="-5.25" x2="-5.25" y2="-5.25" width="0.2" layer="21"/>
+<wire x1="-5.25" y1="-5.25" x2="-5.25" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-5.25" y1="5.25" x2="-5.25" y2="1.2" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="5.45"/>
+<vertex x="6.8" y="5.45"/>
+<vertex x="6.8" y="-5.45"/>
+<vertex x="-6.8" y="-5.45"/>
+</polygon>
+</package>
+<package name="WCAP-HSG5_D8H10.5P3.1" urn="urn:adsk.eagle:footprint:32851558/1">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 8mmX10.5mmX3.1mm, SMT, 2pins</description>
+<smd name="1" x="-3.5" y="0" dx="4.2" dy="1.9" layer="1"/>
+<smd name="2" x="3.5" y="0" dx="4.2" dy="1.9" layer="1"/>
+<text x="6.5" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="6.5" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.1" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-4.15" y1="4.15" x2="-4.15" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-4.15" y1="-4.15" x2="2.35" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="4.15" y1="-2.35" x2="4.15" y2="2.35" width="0.1" layer="51"/>
+<wire x1="2.35" y1="4.15" x2="-4.15" y2="4.15" width="0.1" layer="51"/>
+<wire x1="2.35" y1="4.15" x2="4.15" y2="2.35" width="0.1" layer="51"/>
+<wire x1="2.35" y1="-4.15" x2="4.15" y2="-2.35" width="0.1" layer="51"/>
+<wire x1="-4.25" y1="4.25" x2="2.4" y2="4.25" width="0.2" layer="21"/>
+<wire x1="2.4" y1="4.25" x2="4.25" y2="2.4" width="0.2" layer="21"/>
+<wire x1="4.25" y1="2.4" x2="4.25" y2="1.2" width="0.2" layer="21"/>
+<wire x1="4.25" y1="-1.2" x2="4.25" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="4.25" y1="-2.4" x2="2.4" y2="-4.25" width="0.2" layer="21"/>
+<wire x1="2.4" y1="-4.25" x2="-4.25" y2="-4.25" width="0.2" layer="21"/>
+<wire x1="-4.25" y1="-4.25" x2="-4.25" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-4.25" y1="4.25" x2="-4.25" y2="1.2" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="4" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.8" y="4.45"/>
+<vertex x="5.8" y="4.45"/>
+<vertex x="5.8" y="-4.45"/>
+<vertex x="-5.8" y="-4.45"/>
+</polygon>
+</package>
+<package name="WCAP-HSG5_D5H5.8P1.4" urn="urn:adsk.eagle:footprint:32851561/1">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 5mmX5.8mmX1.4mm, SMT, 2pins</description>
+<smd name="1" x="-2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<smd name="2" x="2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<text x="4.6" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="4.6" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.65" y1="2.65" x2="-2.65" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="-2.65" y1="-2.65" x2="1.65" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="2.65" y1="-1.65" x2="2.65" y2="1.65" width="0.1" layer="51"/>
+<wire x1="1.65" y1="2.65" x2="-2.65" y2="2.65" width="0.1" layer="51"/>
+<wire x1="1.65" y1="2.65" x2="2.65" y2="1.65" width="0.1" layer="51"/>
+<wire x1="1.65" y1="-2.65" x2="2.65" y2="-1.65" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="2.75" x2="1.7" y2="2.75" width="0.2" layer="21"/>
+<wire x1="1.7" y1="2.75" x2="2.75" y2="1.7" width="0.2" layer="21"/>
+<wire x1="2.75" y1="1.7" x2="2.75" y2="1.2" width="0.2" layer="21"/>
+<wire x1="2.75" y1="-1.2" x2="2.75" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="2.75" y1="-1.7" x2="1.7" y2="-2.75" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-2.75" x2="-2.75" y2="-2.75" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="-2.75" x2="-2.75" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="2.75" x2="-2.75" y2="1.2" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="2.5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.9" y="2.95"/>
+<vertex x="3.9" y="2.95"/>
+<vertex x="3.9" y="-2.95"/>
+<vertex x="-3.9" y="-2.95"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WCAP-HSG5_D6.3H5.8P2.2" urn="urn:adsk.eagle:package:32851568/3" type="model">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 6.3mmX5.8mmX2.2mm, SMT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HSG5_D6.3H5.8P2.2"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-HSG5_D6.3H7.7P2.2" urn="urn:adsk.eagle:package:32851567/3" type="model">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 6.3mmX7.7mmX2.2mm, SMT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HSG5_D6.3H7.7P2.2"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-HSG5_D10H12.4P4.5" urn="urn:adsk.eagle:package:32851563/2" type="model">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 10mmX12.4mmX4.5mm, SMT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HSG5_D10H12.4P4.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-HSG5_D10H10.5P4.5" urn="urn:adsk.eagle:package:32851564/2" type="model">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 10mmX10.5mmX4.5mm, SMT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HSG5_D10H10.5P4.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-HSG5_D8H10.5P3.1" urn="urn:adsk.eagle:package:32851566/2" type="model">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 8mmX10.5mmX3.1mm, SMT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HSG5_D8H10.5P3.1"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-HSG5_D5H5.8P1.4" urn="urn:adsk.eagle:package:32851569/2" type="model">
+<description>&lt;b&gt;WCAP-HSG5 Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch = 5mmX5.8mmX1.4mm, SMT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HSG5_D5H5.8P1.4"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C_POLAR">
+<description>C_POLARIZED</description>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<text x="1.175" y="3.38" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0.915" y="-5.075" size="1.4224" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="2.54" y="-1.905" size="1.4224" layer="94">+</text>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.64261875" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.927859375" y1="0" x2="2.57048125" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WCAP-HSG5_D10H10.5P4.5" prefix="C">
+<description>&lt;b&gt;WCAP-HSG5 General Purpose 105°C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Endurance: 10000h @ +105 °C
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HSG5"&gt;https://www.we-online.com/en/components/products/WCAP-HSG5&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HSG5_D10H10.5P4.5">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851564/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_875575357006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575357006?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="52.8uA"/>
+<attribute name="I-RIPPLE" value="2500mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575357006 "/>
+<attribute name="RESR" value="20mohm"/>
+<attribute name="VALUE" value="330 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875575357008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575357008?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="75.2uA"/>
+<attribute name="I-RIPPLE" value="2500mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575357008 "/>
+<attribute name="RESR" value="20mohm"/>
+<attribute name="VALUE" value="470 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875575357010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575357010?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="89.6uA"/>
+<attribute name="I-RIPPLE" value="2500mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575357010 "/>
+<attribute name="RESR" value="20mohm"/>
+<attribute name="VALUE" value="560 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875575557006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575557006?ae"/>
+<attribute name="DF" value="14%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="82.5uA"/>
+<attribute name="I-RIPPLE" value="2500mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575557006 "/>
+<attribute name="RESR" value="20mohm"/>
+<attribute name="VALUE" value="330 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875575757004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575757004?ae"/>
+<attribute name="DF" value="10%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="28uA"/>
+<attribute name="I-RIPPLE" value="2000mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575757004 "/>
+<attribute name="RESR" value="28mohm"/>
+<attribute name="VALUE" value="56 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_875575757007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575757007?ae"/>
+<attribute name="DF" value="10%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="50uA"/>
+<attribute name="I-RIPPLE" value="2000mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575757007 "/>
+<attribute name="RESR" value="28mohm"/>
+<attribute name="VALUE" value="100 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_875575857006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575857006?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="35.3uA"/>
+<attribute name="I-RIPPLE" value="1800mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575857006 "/>
+<attribute name="RESR" value="30mohm"/>
+<attribute name="VALUE" value="56 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+<technology name="_875575857007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575857007?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="42.8uA"/>
+<attribute name="I-RIPPLE" value="1800mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575857007 "/>
+<attribute name="RESR" value="30mohm"/>
+<attribute name="VALUE" value="68 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+<technology name="_875575957003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575957003?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="22uA"/>
+<attribute name="I-RIPPLE" value="1500mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575957003 "/>
+<attribute name="RESR" value="45mohm"/>
+<attribute name="VALUE" value="22 µF"/>
+<attribute name="VR" value="100V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-HSG5_D6.3H7.7P2.2" prefix="C">
+<description>&lt;b&gt;WCAP-HSG5 General Purpose 105°C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Endurance: 10000h @ +105 °C
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HSG5"&gt;https://www.we-online.com/en/components/products/WCAP-HSG5&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HSG5_D6.3H7.7P2.2">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851567/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_875575345004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575345004?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="I-LEAK" value="35.2uA"/>
+<attribute name="I-RIPPLE" value="2000mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="PART-NUMBER" value=" 875575345004 "/>
+<attribute name="RESR" value="30mohm"/>
+<attribute name="VALUE" value="220 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875575545003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575545003?ae"/>
+<attribute name="DF" value="14%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="I-LEAK" value="25uA"/>
+<attribute name="I-RIPPLE" value="2000mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="PART-NUMBER" value=" 875575545003 "/>
+<attribute name="RESR" value="30mohm"/>
+<attribute name="VALUE" value="100 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875575745003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575745003?ae"/>
+<attribute name="DF" value="10%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="I-LEAK" value="16.5uA"/>
+<attribute name="I-RIPPLE" value="1600mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="PART-NUMBER" value=" 875575745003 "/>
+<attribute name="RESR" value="40mohm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_875575845002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575845002?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="I-LEAK" value="13.9uA"/>
+<attribute name="I-RIPPLE" value="1500mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="PART-NUMBER" value=" 875575845002 "/>
+<attribute name="RESR" value="80mohm"/>
+<attribute name="VALUE" value="22 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-HSG5_D10H12.4P4.5" prefix="C">
+<description>&lt;b&gt;WCAP-HSG5 General Purpose 105°C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Endurance: 10000h @ +105 °C
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HSG5"&gt;https://www.we-online.com/en/components/products/WCAP-HSG5&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HSG5_D10H12.4P4.5">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851563/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_875575561007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575561007?ae"/>
+<attribute name="DF" value="14%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="117.5uA"/>
+<attribute name="I-RIPPLE" value="2800mA"/>
+<attribute name="LENGTH" value="12.4mm"/>
+<attribute name="PART-NUMBER" value=" 875575561007 "/>
+<attribute name="RESR" value="16mohm"/>
+<attribute name="VALUE" value="470 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875575961005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575961005?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="I-LEAK" value="33uA"/>
+<attribute name="I-RIPPLE" value="1600mA"/>
+<attribute name="LENGTH" value="12.4mm"/>
+<attribute name="PART-NUMBER" value=" 875575961005 "/>
+<attribute name="RESR" value="40mohm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="100V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-HSG5_D8H10.5P3.1" prefix="C">
+<description>&lt;b&gt;WCAP-HSG5 General Purpose 105°C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Endurance: 10000h @ +105 °C
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HSG5"&gt;https://www.we-online.com/en/components/products/WCAP-HSG5&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HSG5_D8H10.5P3.1">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851566/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_875575553004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575553004?ae"/>
+<attribute name="DF" value="14%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="I-LEAK" value="55uA"/>
+<attribute name="I-RIPPLE" value="2300mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575553004 "/>
+<attribute name="RESR" value="27mohm"/>
+<attribute name="VALUE" value="220 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875575753005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575753005?ae"/>
+<attribute name="DF" value="10%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="I-LEAK" value="34uA"/>
+<attribute name="I-RIPPLE" value="1800mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575753005 "/>
+<attribute name="RESR" value="30mohm"/>
+<attribute name="VALUE" value="68 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_875575853003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575853003?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="I-LEAK" value="20.8uA"/>
+<attribute name="I-RIPPLE" value="1700mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575853003 "/>
+<attribute name="RESR" value="40mohm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+<technology name="_875575853004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575853004?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="I-LEAK" value="29.6uA"/>
+<attribute name="I-RIPPLE" value="1700mA"/>
+<attribute name="LENGTH" value="10.5mm"/>
+<attribute name="PART-NUMBER" value=" 875575853004 "/>
+<attribute name="RESR" value="40mohm"/>
+<attribute name="VALUE" value="47 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-HSG5_D6.3H5.8P2.2" prefix="C">
+<description>&lt;b&gt;WCAP-HSG5 General Purpose 105°C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Endurance: 10000h @ +105 °C
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HSG5"&gt;https://www.we-online.com/en/components/products/WCAP-HSG5&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HSG5_D6.3H5.8P2.2">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851568/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_875575344001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575344001?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="I-LEAK" value="16uA"/>
+<attribute name="I-RIPPLE" value="1300mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="PART-NUMBER" value=" 875575344001 "/>
+<attribute name="RESR" value="50mohm"/>
+<attribute name="VALUE" value="100 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875575344003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575344003?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="I-LEAK" value="24uA"/>
+<attribute name="I-RIPPLE" value="1300mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="PART-NUMBER" value=" 875575344003 "/>
+<attribute name="RESR" value="50mohm"/>
+<attribute name="VALUE" value="150 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875575544002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575544002?ae"/>
+<attribute name="DF" value="14%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="I-LEAK" value="14uA"/>
+<attribute name="I-RIPPLE" value="1300mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="PART-NUMBER" value=" 875575544002 "/>
+<attribute name="RESR" value="50mohm"/>
+<attribute name="VALUE" value="56 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875575744002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575744002?ae"/>
+<attribute name="DF" value="10%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="I-LEAK" value="11uA"/>
+<attribute name="I-RIPPLE" value="1100mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="PART-NUMBER" value=" 875575744002 "/>
+<attribute name="RESR" value="80mohm"/>
+<attribute name="VALUE" value="22 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_875575844001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575844001?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="I-LEAK" value="6.3uA"/>
+<attribute name="I-RIPPLE" value="1000mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="PART-NUMBER" value=" 875575844001 "/>
+<attribute name="RESR" value="120mohm"/>
+<attribute name="VALUE" value="10 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-HSG5_D5H5.8P1.4" prefix="C">
+<description>&lt;b&gt;WCAP-HSG5 General Purpose 105°C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;General purpose product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Endurance: 10000h @ +105 °C
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696140v209%20multi-WCAP-HSG5-875575344001.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HSG5"&gt;https://www.we-online.com/en/components/products/WCAP-HSG5&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HSG5_D5H5.8P1.4">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851569/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_875575559001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575559001?ae"/>
+<attribute name="DF" value="14%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="I-LEAK" value="8.3uA"/>
+<attribute name="I-RIPPLE" value="900mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="PART-NUMBER" value=" 875575559001 "/>
+<attribute name="RESR" value="80mohm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875575759001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875575759001?ae"/>
+<attribute name="DF" value="10%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="I-LEAK" value="5uA"/>
+<attribute name="I-RIPPLE" value="750mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="PART-NUMBER" value=" 875575759001 "/>
+<attribute name="RESR" value="120mohm"/>
+<attribute name="VALUE" value="10 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

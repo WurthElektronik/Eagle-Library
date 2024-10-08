@@ -1,0 +1,2055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Single Coil Power Inductors - WE-SI&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-SI_744101" urn="urn:adsk.eagle:footprint:13127429/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<pad name="1" x="-3.5" y="0" drill="0.5"/>
+<pad name="2" x="3.5" y="0" drill="0.5"/>
+<wire x1="-4" y1="7.5" x2="-4" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-4" y1="-7.5" x2="4" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="4" y1="-7.5" x2="4" y2="7.5" width="0.1" layer="51"/>
+<wire x1="4" y1="7.5" x2="-4" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="7.6" x2="4.1" y2="7.6" width="0.2" layer="21"/>
+<wire x1="4.1" y1="7.6" x2="4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="7.6" x2="-4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-0.65" x2="-4.1" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-7.6" x2="4.1" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-7.6" x2="4.1" y2="-0.65" width="0.2" layer="21"/>
+<text x="0.12" y="8.39" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.28" y="-9.16" size="1.016" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="7.8"/>
+<vertex x="4.3" y="7.8"/>
+<vertex x="4.3" y="-7.8"/>
+<vertex x="-4.3" y="-7.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744131" urn="urn:adsk.eagle:footprint:13127412/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=8mm;Diameter of Pin=0.8mm</description>
+<pad name="1" x="-4" y="0" drill="1"/>
+<pad name="2" x="4" y="0" drill="1"/>
+<wire x1="-5.5" y1="8.5" x2="-5.5" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-5.5" y1="-8.5" x2="5.5" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="5.5" y1="-8.5" x2="5.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="5.5" y1="8.5" x2="-5.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-5.6" y1="8.6" x2="5.6" y2="8.6" width="0.2" layer="21"/>
+<wire x1="5.6" y1="8.6" x2="5.6" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="5.6" y1="-8.6" x2="-5.6" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="-5.6" y1="-8.6" x2="-5.6" y2="8.6" width="0.2" layer="21"/>
+<text x="-0.1" y="9.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.6" y="-10.68" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="5.8" y="8.8"/>
+<vertex x="5.8" y="-8.8"/>
+<vertex x="-5.8" y="-8.8"/>
+<vertex x="-5.8" y="8.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744103" urn="urn:adsk.eagle:footprint:13127427/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<pad name="1" x="-3.5" y="0" drill="0.5"/>
+<pad name="2" x="3.5" y="0" drill="0.5"/>
+<text x="-0.08" y="8.49" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.28" y="-9.46" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4" y1="7.5" x2="-4" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-4" y1="-7.5" x2="4" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="4" y1="-7.5" x2="4" y2="7.5" width="0.1" layer="51"/>
+<wire x1="4" y1="7.5" x2="-4" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="7.6" x2="4.1" y2="7.6" width="0.2" layer="21"/>
+<wire x1="4.1" y1="7.6" x2="4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="7.6" x2="-4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-0.65" x2="-4.1" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-7.6" x2="4.1" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-7.6" x2="4.1" y2="-0.65" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="7.8"/>
+<vertex x="4.3" y="7.8"/>
+<vertex x="4.3" y="-7.8"/>
+<vertex x="-4.3" y="-7.8"/>
+</polygon>
+</package>
+<package name="WE-SI_7441110" urn="urn:adsk.eagle:footprint:13127421/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=12.5mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-6.25" y="0" drill="0.7"/>
+<pad name="2" x="6.25" y="0" drill="0.7"/>
+<text x="-0.37" y="15.86" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.62" y="-17.03" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7.25" y1="15" x2="-7.25" y2="-15" width="0.1" layer="51"/>
+<wire x1="-7.25" y1="-15" x2="7.25" y2="-15" width="0.1" layer="51"/>
+<wire x1="7.25" y1="-15" x2="7.25" y2="15" width="0.1" layer="51"/>
+<wire x1="7.25" y1="15" x2="-7.25" y2="15" width="0.1" layer="51"/>
+<wire x1="-7.35" y1="15.1" x2="7.35" y2="15.1" width="0.2" layer="21"/>
+<wire x1="7.35" y1="15.1" x2="7.35" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="7.35" y1="-15.1" x2="-7.35" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="-15.1" x2="-7.35" y2="15.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.55" y="15.3"/>
+<vertex x="7.55" y="15.3"/>
+<vertex x="7.55" y="-15.3"/>
+<vertex x="-7.55" y="-15.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744136" urn="urn:adsk.eagle:footprint:13127407/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13.0mm;Diameter of Pin=0.7mm</description>
+<pad name="1" x="-6.5" y="0" drill="0.9"/>
+<pad name="2" x="6.5" y="0" drill="0.9"/>
+<text x="-0.37" y="16.51" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.62" y="-17.53" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7.5" y1="15.5" x2="-7.5" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-15.5" x2="7.5" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-15.5" x2="7.5" y2="15.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="15.5" x2="-7.5" y2="15.5" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="15.6" x2="7.6" y2="15.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="15.6" x2="7.6" y2="-15.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-15.6" x2="-7.6" y2="-15.6" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-15.6" x2="-7.6" y2="15.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="15.8"/>
+<vertex x="7.8" y="15.8"/>
+<vertex x="7.8" y="-15.8"/>
+<vertex x="-7.8" y="-15.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744107" urn="urn:adsk.eagle:footprint:13127423/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10.5mm;Diameter of Pin=0.3mm</description>
+<pad name="1" x="-5.25" y="0" drill="0.5"/>
+<pad name="2" x="5.25" y="0" drill="0.5"/>
+<wire x1="-6" y1="11.25" x2="-6" y2="-11.25" width="0.1" layer="51"/>
+<wire x1="-6" y1="-11.25" x2="6" y2="-11.25" width="0.1" layer="51"/>
+<wire x1="6" y1="-11.25" x2="6" y2="11.25" width="0.1" layer="51"/>
+<wire x1="6" y1="11.25" x2="-6" y2="11.25" width="0.1" layer="51"/>
+<wire x1="-6.1" y1="11.35" x2="6.1" y2="11.35" width="0.2" layer="21"/>
+<wire x1="6.1" y1="11.35" x2="6.1" y2="-11.35" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-11.35" x2="-6.1" y2="-11.35" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-11.35" x2="-6.1" y2="11.35" width="0.2" layer="21"/>
+<text x="-0.02" y="12.37" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.08" y="-13.33" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.3" y="11.55"/>
+<vertex x="6.3" y="11.55"/>
+<vertex x="6.3" y="-11.55"/>
+<vertex x="-6.3" y="-11.55"/>
+</polygon>
+</package>
+<package name="WE-SI_744106" urn="urn:adsk.eagle:footprint:13127424/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<pad name="1" x="-3.5" y="0" drill="0.5"/>
+<pad name="2" x="3.5" y="0" drill="0.5"/>
+<text x="-0.63" y="9.75" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.26" y="-10.83" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4" y1="-8.75" x2="-3.99" y2="-8.75" width="0.127" layer="21"/>
+<wire x1="-4" y1="8.75" x2="-4" y2="-8.75" width="0.1" layer="51"/>
+<wire x1="-4" y1="-8.75" x2="4" y2="-8.75" width="0.1" layer="51"/>
+<wire x1="4" y1="-8.75" x2="4" y2="8.75" width="0.1" layer="51"/>
+<wire x1="4" y1="8.75" x2="-4" y2="8.75" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="8.85" x2="4.1" y2="8.85" width="0.2" layer="21"/>
+<wire x1="4.1" y1="8.85" x2="4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="8.85" x2="-4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-0.65" x2="-4.1" y2="-8.85" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-8.85" x2="4.1" y2="-8.85" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-8.85" x2="4.1" y2="-0.65" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="9.05"/>
+<vertex x="4.3" y="9.05"/>
+<vertex x="4.3" y="-9.05"/>
+<vertex x="-4.3" y="-9.05"/>
+</polygon>
+</package>
+<package name="WE-SI_744156" urn="urn:adsk.eagle:footprint:13127435/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13.5mm;Diameter of Pin=1.0mm</description>
+<pad name="1" x="-6.75" y="0" drill="1.2"/>
+<pad name="2" x="6.75" y="0" drill="1.2"/>
+<wire x1="-7.75" y1="22" x2="-7.75" y2="-22" width="0.1" layer="51"/>
+<wire x1="-7.75" y1="-22" x2="7.75" y2="-22" width="0.1" layer="51"/>
+<wire x1="7.75" y1="-22" x2="7.75" y2="22" width="0.1" layer="51"/>
+<wire x1="7.75" y1="22" x2="-7.75" y2="22" width="0.1" layer="51"/>
+<wire x1="-7.85" y1="0.6" x2="-7.85" y2="22.1" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="22.1" x2="7.85" y2="22.1" width="0.2" layer="21"/>
+<wire x1="7.85" y1="22.1" x2="7.85" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="-0.6" x2="-7.85" y2="-22.1" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="-22.1" x2="7.85" y2="-22.1" width="0.2" layer="21"/>
+<wire x1="7.85" y1="-22.1" x2="7.85" y2="-0.6" width="0.2" layer="21"/>
+<text x="0.03" y="22.98" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.37" y="-24.38" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.05" y="22.3"/>
+<vertex x="8.05" y="22.3"/>
+<vertex x="8.05" y="-22.3"/>
+<vertex x="-8.05" y="-22.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744102" urn="urn:adsk.eagle:footprint:13127428/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<pad name="1" x="-3.5" y="0" drill="0.5"/>
+<pad name="2" x="3.5" y="0" drill="0.5"/>
+<text x="0.02" y="8.49" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.28" y="-9.46" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4" y1="7.5" x2="-4" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-4" y1="-7.5" x2="4" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="4" y1="-7.5" x2="4" y2="7.5" width="0.1" layer="51"/>
+<wire x1="4" y1="7.5" x2="-4" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="7.6" x2="4.1" y2="7.6" width="0.2" layer="21"/>
+<wire x1="4.1" y1="7.6" x2="4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="7.6" x2="-4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-0.65" x2="-4.1" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-7.6" x2="4.1" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-7.6" x2="4.1" y2="-0.65" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="7.8"/>
+<vertex x="4.3" y="7.8"/>
+<vertex x="4.3" y="-7.8"/>
+<vertex x="-4.3" y="-7.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744134" urn="urn:adsk.eagle:footprint:13127409/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10mm;Diameter of Pin=0.9mm</description>
+<pad name="1" x="-5" y="0" drill="1.1"/>
+<pad name="2" x="5" y="0" drill="1.1"/>
+<wire x1="-6.75" y1="15.5" x2="-6.75" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="-6.75" y1="-15.5" x2="6.75" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="6.75" y1="-15.5" x2="6.75" y2="15.5" width="0.1" layer="51"/>
+<wire x1="6.75" y1="15.5" x2="-6.75" y2="15.5" width="0.1" layer="51"/>
+<wire x1="-6.85" y1="15.6" x2="6.85" y2="15.6" width="0.2" layer="21"/>
+<wire x1="6.85" y1="15.6" x2="6.85" y2="-15.6" width="0.2" layer="21"/>
+<wire x1="6.85" y1="-15.6" x2="-6.85" y2="-15.6" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-15.6" x2="-6.85" y2="15.6" width="0.2" layer="21"/>
+<text x="0.13" y="16.51" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.37" y="-17.78" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.05" y="15.8"/>
+<vertex x="7.05" y="15.8"/>
+<vertex x="7.05" y="-15.8"/>
+<vertex x="-7.05" y="-15.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744139" urn="urn:adsk.eagle:footprint:13127404/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=16mm;Diameter of Pin=0.7mm</description>
+<pad name="1" x="-8" y="0" drill="0.9"/>
+<pad name="2" x="8" y="0" drill="0.9"/>
+<wire x1="-9.25" y1="22" x2="-9.25" y2="-22" width="0.1" layer="51"/>
+<wire x1="-9.25" y1="-22" x2="9.25" y2="-22" width="0.1" layer="51"/>
+<wire x1="9.25" y1="-22" x2="9.25" y2="22" width="0.1" layer="51"/>
+<wire x1="9.25" y1="22" x2="-9.25" y2="22" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="22.1" x2="9.35" y2="22.1" width="0.2" layer="21"/>
+<wire x1="9.35" y1="22.1" x2="9.35" y2="-22.1" width="0.2" layer="21"/>
+<wire x1="9.35" y1="-22.1" x2="-9.35" y2="-22.1" width="0.2" layer="21"/>
+<wire x1="-9.35" y1="-22.1" x2="-9.35" y2="22.1" width="0.2" layer="21"/>
+<text x="0.18" y="23.16" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.87" y="-24.13" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="9.55" y="22.3"/>
+<vertex x="9.55" y="-22.3"/>
+<vertex x="-9.55" y="-22.3"/>
+<vertex x="-9.55" y="22.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744115" urn="urn:adsk.eagle:footprint:13127417/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-3.75" y="0" drill="0.7"/>
+<pad name="2" x="3.75" y="0" drill="0.7"/>
+<text x="0.09" y="10.07" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.51" y="-11.15" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.5" y1="9" x2="-4.5" y2="-9" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-9" x2="4.5" y2="-9" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-9" x2="4.5" y2="9" width="0.1" layer="51"/>
+<wire x1="4.5" y1="9" x2="-4.5" y2="9" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="9.1" x2="4.6" y2="9.1" width="0.2" layer="51"/>
+<wire x1="4.6" y1="9.1" x2="4.6" y2="0.35" width="0.2" layer="51"/>
+<wire x1="-4.6" y1="9.1" x2="-4.6" y2="0.35" width="0.2" layer="51"/>
+<wire x1="-4.6" y1="-0.35" x2="-4.6" y2="-9.1" width="0.2" layer="51"/>
+<wire x1="-4.6" y1="-9.1" x2="4.6" y2="-9.1" width="0.2" layer="51"/>
+<wire x1="4.6" y1="-9.1" x2="4.6" y2="-0.35" width="0.2" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="4.8" y="9.3"/>
+<vertex x="4.8" y="-9.3"/>
+<vertex x="-4.8" y="-9.3"/>
+<vertex x="-4.8" y="9.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744119" urn="urn:adsk.eagle:footprint:13127413/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-6.5" y="0" drill="0.7"/>
+<pad name="2" x="6.5" y="0" drill="0.7"/>
+<text x="-0.12" y="16.06" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.67" y="-17.13" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7" y1="15" x2="-7" y2="-15" width="0.1" layer="51"/>
+<wire x1="-7" y1="-15" x2="7" y2="-15" width="0.1" layer="51"/>
+<wire x1="7" y1="-15" x2="7" y2="15" width="0.1" layer="51"/>
+<wire x1="7" y1="15" x2="-7" y2="15" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="0.7" x2="-7.1" y2="15.1" width="0.2" layer="21"/>
+<wire x1="-7.1" y1="15.1" x2="7.1" y2="15.1" width="0.2" layer="21"/>
+<wire x1="7.1" y1="15.1" x2="7.1" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-7.1" y1="-0.6" x2="-7.1" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="-7.1" y1="-15.1" x2="7.1" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="7.1" y1="-15.1" x2="7.1" y2="-0.7" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.3" y="15.3"/>
+<vertex x="7.3" y="15.3"/>
+<vertex x="7.3" y="-15.3"/>
+<vertex x="-7.3" y="-15.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744117" urn="urn:adsk.eagle:footprint:13127415/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=11mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-5.5" y="0" drill="0.7"/>
+<pad name="2" x="5.5" y="0" drill="0.7"/>
+<text x="0.05" y="12.65" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.1" y="-13.72" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.25" y1="11.5" x2="-6.25" y2="-11.5" width="0.1" layer="51"/>
+<wire x1="-6.25" y1="-11.5" x2="6.25" y2="-11.5" width="0.1" layer="51"/>
+<wire x1="6.25" y1="-11.5" x2="6.25" y2="11.5" width="0.1" layer="51"/>
+<wire x1="6.25" y1="11.5" x2="-6.25" y2="11.5" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="0.4" x2="-6.35" y2="11.6" width="0.2" layer="21"/>
+<wire x1="-6.35" y1="11.6" x2="6.35" y2="11.6" width="0.2" layer="21"/>
+<wire x1="6.35" y1="11.6" x2="6.35" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-6.35" y1="-0.5" x2="-6.35" y2="-11.6" width="0.2" layer="21"/>
+<wire x1="-6.35" y1="-11.6" x2="6.35" y2="-11.6" width="0.2" layer="21"/>
+<wire x1="6.35" y1="-11.6" x2="6.35" y2="-0.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="6.55" y="11.8"/>
+<vertex x="6.55" y="-11.8"/>
+<vertex x="-6.55" y="-11.8"/>
+<vertex x="-6.55" y="11.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744153" urn="urn:adsk.eagle:footprint:13127432/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=1.0mm</description>
+<pad name="1" x="-6.5" y="0" drill="1.2"/>
+<pad name="2" x="6.5" y="0" drill="1.2"/>
+<wire x1="-7.75" y1="16" x2="-7.75" y2="-16" width="0.1" layer="51"/>
+<wire x1="-7.75" y1="-16" x2="7.75" y2="-16" width="0.1" layer="51"/>
+<wire x1="7.75" y1="-16" x2="7.75" y2="16" width="0.1" layer="51"/>
+<wire x1="7.75" y1="16" x2="-7.75" y2="16" width="0.1" layer="51"/>
+<wire x1="-7.85" y1="16.1" x2="7.85" y2="16.1" width="0.2" layer="21"/>
+<wire x1="7.85" y1="16.1" x2="7.85" y2="-16.1" width="0.2" layer="21"/>
+<wire x1="7.85" y1="-16.1" x2="-7.85" y2="-16.1" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="-16.1" x2="-7.85" y2="16.1" width="0.2" layer="21"/>
+<text x="0.28" y="16.83" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.87" y="-18.05" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.05" y="16.3"/>
+<vertex x="8.05" y="16.3"/>
+<vertex x="8.05" y="-16.3"/>
+<vertex x="-8.05" y="-16.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744133" urn="urn:adsk.eagle:footprint:13127410/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=11.5mm;Diameter of Pin=0.8mm</description>
+<pad name="1" x="-5.75" y="0" drill="1"/>
+<pad name="2" x="5.75" y="0" drill="1"/>
+<wire x1="-6.5" y1="-12" x2="6.5" y2="-12" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-12" x2="6.5" y2="12" width="0.1" layer="51"/>
+<wire x1="6.5" y1="12" x2="-6.5" y2="12" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="12" x2="-6.5" y2="-12" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="12.1" x2="6.6" y2="12.1" width="0.2" layer="21"/>
+<wire x1="6.6" y1="12.1" x2="6.6" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="0.65" x2="-6.6" y2="12.1" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-0.65" x2="-6.6" y2="-12.1" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-12.1" x2="6.6" y2="-12.1" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-12.1" x2="6.6" y2="-0.65" width="0.2" layer="21"/>
+<text x="-0.05" y="12.95" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.6" y="-14.22" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="6.8" y="12.3"/>
+<vertex x="6.8" y="-12.3"/>
+<vertex x="-6.8" y="-12.3"/>
+<vertex x="-6.8" y="12.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744152" urn="urn:adsk.eagle:footprint:13127431/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10mm;Diameter of Pin=1.0mm</description>
+<pad name="1" x="-5" y="0" drill="1.2"/>
+<pad name="2" x="5" y="0" drill="1.2"/>
+<text x="-0.35" y="14.99" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.1" y="-16.01" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6" y1="14" x2="-6" y2="-14" width="0.1" layer="51"/>
+<wire x1="-6" y1="-14" x2="6" y2="-14" width="0.1" layer="51"/>
+<wire x1="6" y1="-14" x2="6" y2="14" width="0.1" layer="51"/>
+<wire x1="6" y1="14" x2="-6" y2="14" width="0.1" layer="51"/>
+<wire x1="-6.1" y1="0.6" x2="-6.1" y2="14.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="14.1" x2="6.1" y2="14.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="14.1" x2="6.1" y2="0.6" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-0.6" x2="-6.1" y2="-14.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-14.1" x2="6.1" y2="-14.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-14.1" x2="6.1" y2="-0.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.3" y="14.3"/>
+<vertex x="6.3" y="14.3"/>
+<vertex x="6.3" y="-14.3"/>
+<vertex x="-6.3" y="-14.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744105" urn="urn:adsk.eagle:footprint:13127425/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.0mm;Diameter of Pin=0.3mm</description>
+<pad name="1" x="-3.5" y="0" drill="0.5"/>
+<pad name="2" x="3.5" y="0" drill="0.5"/>
+<wire x1="-4" y1="-8.75" x2="-3.99" y2="-8.75" width="0.127" layer="21"/>
+<wire x1="-4" y1="8.75" x2="-4" y2="-8.75" width="0.1" layer="51"/>
+<wire x1="-4" y1="-8.75" x2="4" y2="-8.75" width="0.1" layer="51"/>
+<wire x1="4" y1="-8.75" x2="4" y2="8.75" width="0.1" layer="51"/>
+<wire x1="4" y1="8.75" x2="-4" y2="8.75" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="8.85" x2="4.1" y2="8.85" width="0.2" layer="21"/>
+<wire x1="4.1" y1="8.85" x2="4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="8.85" x2="-4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-0.65" x2="-4.1" y2="-8.85" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-8.85" x2="4.1" y2="-8.85" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-8.85" x2="4.1" y2="-0.65" width="0.2" layer="21"/>
+<text x="-0.01" y="9.87" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.18" y="-10.71" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="9.05"/>
+<vertex x="4.3" y="9.05"/>
+<vertex x="4.3" y="-9.05"/>
+<vertex x="-4.3" y="-9.05"/>
+</polygon>
+</package>
+<package name="WE-SI_744155" urn="urn:adsk.eagle:footprint:13127434/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=1.1mm</description>
+<pad name="1" x="-6.5" y="0" drill="1.3"/>
+<pad name="2" x="6.5" y="0" drill="1.3"/>
+<wire x1="-7.5" y1="21.5" x2="-7.5" y2="-21.5" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-21.5" x2="7.5" y2="-21.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-21.5" x2="7.5" y2="21.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="21.5" x2="-7.5" y2="21.5" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="0.7" x2="-7.6" y2="21.6" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="21.6" x2="7.6" y2="21.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="21.6" x2="7.6" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-0.7" x2="-7.6" y2="-21.6" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-21.6" x2="7.6" y2="-21.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-21.6" x2="7.6" y2="-0.7" width="0.2" layer="21"/>
+<text x="0.31" y="22.56" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.87" y="-23.63" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="21.8"/>
+<vertex x="7.8" y="21.8"/>
+<vertex x="7.8" y="-21.8"/>
+<vertex x="-7.8" y="-21.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744111" urn="urn:adsk.eagle:footprint:13127422/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-3.75" y="0" drill="0.7"/>
+<pad name="2" x="3.75" y="0" drill="0.7"/>
+<wire x1="-4.25" y1="7.75" x2="-4.25" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="-4.24" y1="-7.75" x2="4.25" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="4.25" y1="7.75" x2="-4.25" y2="7.75" width="0.1" layer="51"/>
+<wire x1="4.26" y1="7.75" x2="4.26" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="-4.35" y1="7.85" x2="4.35" y2="7.85" width="0.2" layer="21"/>
+<wire x1="4.35" y1="7.85" x2="4.35" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-4.35" y1="7.85" x2="-4.35" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-4.35" y1="-0.7" x2="-4.35" y2="-7.85" width="0.2" layer="21"/>
+<wire x1="-4.35" y1="-7.85" x2="4.35" y2="-7.85" width="0.2" layer="21"/>
+<wire x1="4.35" y1="-7.85" x2="4.35" y2="-0.7" width="0.2" layer="21"/>
+<text x="-0.1" y="9.18" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.35" y="-9.7" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.55" y="8.05"/>
+<vertex x="4.55" y="8.05"/>
+<vertex x="4.55" y="-8.05"/>
+<vertex x="-4.55" y="-8.05"/>
+</polygon>
+</package>
+<package name="WE-SI_744118" urn="urn:adsk.eagle:footprint:13127414/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=12.5mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-6.25" y="0" drill="0.7"/>
+<pad name="2" x="6.25" y="0" drill="0.7"/>
+<text x="-0.42" y="16.06" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.12" y="-17.28" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7" y1="15" x2="-7" y2="-15" width="0.1" layer="51"/>
+<wire x1="-7" y1="-15" x2="7" y2="-15" width="0.1" layer="51"/>
+<wire x1="7" y1="-15" x2="7" y2="15" width="0.1" layer="51"/>
+<wire x1="7" y1="15" x2="-7" y2="15" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="15.1" x2="7.1" y2="15.1" width="0.2" layer="21"/>
+<wire x1="7.1" y1="15.1" x2="7.1" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="7.1" y1="-15.1" x2="-7.1" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="-7.1" y1="-15.1" x2="-7.1" y2="15.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.3" y="15.3"/>
+<vertex x="7.3" y="15.3"/>
+<vertex x="7.3" y="-15.3"/>
+<vertex x="-7.3" y="-15.3"/>
+</polygon>
+</package>
+<package name="WE-SI_7441501" urn="urn:adsk.eagle:footprint:13127402/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=12mm;Diameter of Pin=1.2mm</description>
+<pad name="1" x="-6" y="0" drill="1.4"/>
+<pad name="2" x="6" y="0" drill="1.4"/>
+<wire x1="-7.25" y1="14.25" x2="-7.25" y2="-14.25" width="0.1" layer="51"/>
+<wire x1="-7.25" y1="-14.25" x2="7.25" y2="-14.25" width="0.1" layer="21"/>
+<wire x1="7.25" y1="-14.25" x2="7.25" y2="14.25" width="0.1" layer="51"/>
+<wire x1="7.25" y1="14.25" x2="-7.25" y2="14.25" width="0.127" layer="21"/>
+<wire x1="-7.35" y1="0.3" x2="-7.35" y2="14.35" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="14.35" x2="7.35" y2="14.35" width="0.2" layer="21"/>
+<wire x1="7.35" y1="14.35" x2="7.35" y2="0.3" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="-0.3" x2="-7.35" y2="-14.35" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="-14.35" x2="7.35" y2="-14.35" width="0.2" layer="21"/>
+<wire x1="7.35" y1="-14.35" x2="7.35" y2="-0.3" width="0.2" layer="21"/>
+<text x="0.08" y="15.24" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.97" y="-16.26" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.55" y="14.55"/>
+<vertex x="7.55" y="14.55"/>
+<vertex x="7.55" y="-14.55"/>
+<vertex x="-7.55" y="-14.55"/>
+</polygon>
+</package>
+<package name="WE-SI_744104" urn="urn:adsk.eagle:footprint:13127426/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<pad name="1" x="-3.5" y="0" drill="0.5"/>
+<pad name="2" x="3.5" y="0" drill="0.5"/>
+<text x="0.12" y="9.86" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.28" y="-10.73" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4" y1="8.75" x2="-4" y2="-8.75" width="0.1" layer="51"/>
+<wire x1="-4" y1="-8.75" x2="4" y2="-8.75" width="0.1" layer="51"/>
+<wire x1="4" y1="-8.75" x2="4" y2="8.75" width="0.1" layer="51"/>
+<wire x1="4" y1="8.75" x2="-4" y2="8.75" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="8.85" x2="4.1" y2="8.85" width="0.2" layer="21"/>
+<wire x1="4.1" y1="8.85" x2="4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="8.85" x2="-4.1" y2="0.65" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-0.65" x2="-4.1" y2="-8.85" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-8.85" x2="4.1" y2="-8.85" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-8.85" x2="4.1" y2="-0.65" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="9.05"/>
+<vertex x="4.3" y="9.05"/>
+<vertex x="4.3" y="-9.05"/>
+<vertex x="-4.3" y="-9.05"/>
+</polygon>
+</package>
+<package name="WE-SI_744112" urn="urn:adsk.eagle:footprint:13127420/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-3.75" y="0" drill="0.7"/>
+<pad name="2" x="3.75" y="0" drill="0.7"/>
+<wire x1="-4.75" y1="8.5" x2="-4.75" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-4.75" y1="-8.5" x2="4.75" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="4.75" y1="-8.5" x2="4.75" y2="8.5" width="0.1" layer="51"/>
+<wire x1="4.75" y1="8.5" x2="-4.75" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-4.85" y1="8.6" x2="4.85" y2="8.6" width="0.2" layer="21"/>
+<wire x1="4.85" y1="8.6" x2="4.85" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="4.85" y1="-8.6" x2="-4.85" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="-4.85" y1="-8.6" x2="-4.85" y2="8.6" width="0.2" layer="21"/>
+<text x="-0.82" y="9.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.09" y="-10.76" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5.05" y="8.8"/>
+<vertex x="5.05" y="8.8"/>
+<vertex x="5.05" y="-8.8"/>
+<vertex x="-5.05" y="-8.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744151" urn="urn:adsk.eagle:footprint:13127401/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10mm;Diameter of Pin=1.0mm</description>
+<pad name="1" x="-5" y="0" drill="1.2"/>
+<pad name="2" x="5" y="0" drill="1.2"/>
+<wire x1="-6" y1="15" x2="-6" y2="-15" width="0.1" layer="51"/>
+<wire x1="-6" y1="-15" x2="6" y2="-15" width="0.1" layer="51"/>
+<wire x1="6" y1="-15" x2="6" y2="15" width="0.1" layer="51"/>
+<wire x1="6" y1="15" x2="-6" y2="15" width="0.1" layer="51"/>
+<wire x1="-6.1" y1="0.6" x2="-6.1" y2="15.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="15.1" x2="6.1" y2="15.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="15.1" x2="6.1" y2="0.6" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-0.6" x2="-6.1" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-15.1" x2="6.1" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-15.1" x2="6.1" y2="-0.6" width="0.2" layer="21"/>
+<text x="-0.6" y="16.11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.85" y="-17.03" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.3" y="15.3"/>
+<vertex x="6.3" y="15.3"/>
+<vertex x="6.3" y="-15.3"/>
+<vertex x="-6.3" y="-15.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744132" urn="urn:adsk.eagle:footprint:13127411/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=8.5mm;Diameter of Pin=0.8mm</description>
+<pad name="1" x="-4.25" y="0" drill="1"/>
+<pad name="2" x="4.25" y="0" drill="1"/>
+<wire x1="-4.75" y1="10.5" x2="-4.75" y2="-10.5" width="0.1" layer="51"/>
+<wire x1="-4.75" y1="-10.5" x2="4.75" y2="-10.5" width="0.1" layer="51"/>
+<wire x1="4.75" y1="-10.5" x2="4.75" y2="10.5" width="0.1" layer="51"/>
+<wire x1="4.75" y1="10.5" x2="-4.75" y2="10.5" width="0.1" layer="51"/>
+<wire x1="-4.85" y1="0.9" x2="-4.85" y2="10.6" width="0.2" layer="21"/>
+<wire x1="-4.85" y1="10.6" x2="4.85" y2="10.6" width="0.2" layer="21"/>
+<wire x1="4.85" y1="10.6" x2="4.85" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-4.85" y1="-0.9" x2="-4.85" y2="-10.6" width="0.2" layer="21"/>
+<wire x1="-4.85" y1="-10.6" x2="4.85" y2="-10.6" width="0.2" layer="21"/>
+<wire x1="4.85" y1="-10.6" x2="4.85" y2="-0.9" width="0.2" layer="21"/>
+<text x="-0.29" y="11.68" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.58" y="-12.45" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5.25" y="10.8"/>
+<vertex x="5.25" y="10.8"/>
+<vertex x="5.25" y="-10.8"/>
+<vertex x="-5.25" y="-10.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744114" urn="urn:adsk.eagle:footprint:13127418/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-3.75" y="0" drill="0.7"/>
+<pad name="2" x="3.75" y="0" drill="0.7"/>
+<text x="-0.07" y="10.04" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.58" y="-11.12" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.5" y1="9" x2="-4.5" y2="-9" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-9" x2="4.5" y2="-9" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-9" x2="4.5" y2="9" width="0.1" layer="51"/>
+<wire x1="4.5" y1="9" x2="-4.5" y2="9" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="9.1" x2="4.6" y2="9.1" width="0.2" layer="51"/>
+<wire x1="4.6" y1="9.1" x2="4.6" y2="0.35" width="0.2" layer="51"/>
+<wire x1="-4.6" y1="9.1" x2="-4.6" y2="0.35" width="0.2" layer="51"/>
+<wire x1="-4.6" y1="-0.35" x2="-4.6" y2="-9.1" width="0.2" layer="51"/>
+<wire x1="-4.6" y1="-9.1" x2="4.6" y2="-9.1" width="0.2" layer="51"/>
+<wire x1="4.6" y1="-9.1" x2="4.6" y2="-0.35" width="0.2" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="4.8" y="9.3"/>
+<vertex x="4.8" y="-9.3"/>
+<vertex x="-4.8" y="-9.3"/>
+<vertex x="-4.8" y="9.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744135" urn="urn:adsk.eagle:footprint:13127408/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10mm;Diameter of Pin=0.9mm</description>
+<pad name="1" x="-5" y="0" drill="1.1"/>
+<pad name="2" x="5" y="0" drill="1.1"/>
+<text x="-3.37" y="-17.53" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0.13" y="16.51" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<wire x1="-6.75" y1="15.5" x2="-6.75" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="-6.75" y1="-15.5" x2="6.75" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="6.75" y1="-15.5" x2="6.75" y2="15.5" width="0.1" layer="51"/>
+<wire x1="6.75" y1="15.5" x2="-6.75" y2="15.5" width="0.1" layer="51"/>
+<wire x1="-6.85" y1="15.6" x2="6.85" y2="15.6" width="0.2" layer="21"/>
+<wire x1="6.85" y1="15.6" x2="6.85" y2="-15.6" width="0.2" layer="21"/>
+<wire x1="6.85" y1="-15.6" x2="-6.85" y2="-15.6" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-15.6" x2="-6.85" y2="15.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.05" y="15.8"/>
+<vertex x="7.05" y="15.8"/>
+<vertex x="7.05" y="-15.8"/>
+<vertex x="-7.05" y="-15.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744150" urn="urn:adsk.eagle:footprint:13127403/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=11.5mm;Diameter of Pin=1.2mm</description>
+<pad name="1" x="-5.75" y="0" drill="1.4"/>
+<pad name="2" x="5.75" y="0" drill="1.4"/>
+<text x="0.38" y="15.29" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.37" y="-16.51" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7.25" y1="14.25" x2="-7.25" y2="-14.25" width="0.1" layer="51"/>
+<wire x1="-7.25" y1="-14.25" x2="7.25" y2="-14.25" width="0.1" layer="21"/>
+<wire x1="7.25" y1="-14.25" x2="7.25" y2="14.25" width="0.1" layer="51"/>
+<wire x1="7.25" y1="14.25" x2="-7.25" y2="14.25" width="0.127" layer="21"/>
+<wire x1="-7.35" y1="-14.35" x2="-7.35" y2="14.35" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="14.35" x2="7.35" y2="14.35" width="0.2" layer="21"/>
+<wire x1="7.35" y1="14.35" x2="7.35" y2="-14.35" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="-14.35" x2="7.35" y2="-14.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.55" y="14.55"/>
+<vertex x="7.55" y="14.55"/>
+<vertex x="7.55" y="-14.55"/>
+<vertex x="-7.55" y="-14.55"/>
+</polygon>
+</package>
+<package name="WE-SI_744113" urn="urn:adsk.eagle:footprint:13127419/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-3.75" y="0" drill="0.7"/>
+<pad name="2" x="3.75" y="0" drill="0.7"/>
+<text x="-0.46" y="9.75" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.13" y="-10.5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.75" y1="8.5" x2="-4.75" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-4.75" y1="-8.5" x2="4.75" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="4.75" y1="-8.5" x2="4.75" y2="8.5" width="0.1" layer="51"/>
+<wire x1="4.75" y1="8.5" x2="-4.75" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-4.85" y1="8.6" x2="4.85" y2="8.6" width="0.2" layer="21"/>
+<wire x1="4.85" y1="8.6" x2="4.85" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="4.85" y1="-8.6" x2="-4.85" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="-4.85" y1="-8.6" x2="-4.85" y2="8.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.05" y="8.8"/>
+<vertex x="5.05" y="8.8"/>
+<vertex x="5.05" y="-8.8"/>
+<vertex x="-5.05" y="-8.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744138" urn="urn:adsk.eagle:footprint:13127405/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=0.7mm</description>
+<pad name="1" x="-6.5" y="0" drill="0.9"/>
+<pad name="2" x="6.5" y="0" drill="0.9"/>
+<wire x1="-7.5" y1="21.5" x2="-7.5" y2="-21.5" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-21.5" x2="7.5" y2="-21.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-21.5" x2="7.5" y2="21.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="21.5" x2="-7.5" y2="21.5" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="21.6" x2="7.6" y2="21.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="21.6" x2="7.6" y2="-21.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-21.6" x2="-7.6" y2="-21.6" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-21.6" x2="-7.6" y2="21.6" width="0.2" layer="21"/>
+<text x="-0.02" y="22.51" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.12" y="-23.63" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="21.8"/>
+<vertex x="7.8" y="21.8"/>
+<vertex x="7.8" y="-21.8"/>
+<vertex x="-7.8" y="-21.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744154" urn="urn:adsk.eagle:footprint:13127433/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=1mm</description>
+<pad name="1" x="-6.5" y="0" drill="1.2"/>
+<pad name="2" x="6.5" y="0" drill="1.2"/>
+<wire x1="-8.25" y1="16" x2="-8.25" y2="-16" width="0.1" layer="51"/>
+<wire x1="-8.25" y1="-16" x2="8.25" y2="-16" width="0.1" layer="51"/>
+<wire x1="8.25" y1="-16" x2="8.25" y2="16" width="0.1" layer="51"/>
+<wire x1="8.25" y1="16" x2="-8.25" y2="16" width="0.1" layer="51"/>
+<wire x1="-8.35" y1="16.1" x2="8.35" y2="16.1" width="0.2" layer="21"/>
+<wire x1="8.35" y1="16.1" x2="8.35" y2="-16.1" width="0.2" layer="21"/>
+<wire x1="8.35" y1="-16.1" x2="-8.35" y2="-16.1" width="0.2" layer="21"/>
+<wire x1="-8.35" y1="-16.1" x2="-8.35" y2="16.1" width="0.2" layer="21"/>
+<text x="0.53" y="17.18" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.37" y="-18.05" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.55" y="16.3"/>
+<vertex x="8.55" y="16.3"/>
+<vertex x="8.55" y="-16.3"/>
+<vertex x="-8.55" y="-16.3"/>
+</polygon>
+</package>
+<package name="WE-SI_744137" urn="urn:adsk.eagle:footprint:13127406/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=0.7mm</description>
+<pad name="1" x="-6.5" y="0" drill="0.9"/>
+<pad name="2" x="6.5" y="0" drill="0.9"/>
+<wire x1="-7.5" y1="15.5" x2="-7.5" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-15.5" x2="7.5" y2="-15.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-15.5" x2="7.5" y2="15.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="15.5" x2="-7.5" y2="15.5" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="15.6" x2="7.6" y2="15.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="15.6" x2="7.6" y2="-15.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-15.6" x2="-7.6" y2="-15.6" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-15.6" x2="-7.6" y2="15.6" width="0.2" layer="21"/>
+<text x="0.13" y="16.46" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.62" y="-17.53" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="15.8"/>
+<vertex x="7.8" y="15.8"/>
+<vertex x="7.8" y="-15.8"/>
+<vertex x="-7.8" y="-15.8"/>
+</polygon>
+</package>
+<package name="WE-SI_744116" urn="urn:adsk.eagle:footprint:13127416/1">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=8.0mm;Diameter of Pin=0.5mm</description>
+<pad name="1" x="-4" y="0" drill="0.7"/>
+<pad name="2" x="4" y="0" drill="0.7"/>
+<text x="-0.13" y="9.98" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.37" y="-11.37" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.5" y1="9" x2="-4.5" y2="-9" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-9" x2="4.5" y2="-9" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-9" x2="4.5" y2="9" width="0.1" layer="51"/>
+<wire x1="4.5" y1="9" x2="-4.5" y2="9" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="9.1" x2="4.6" y2="9.1" width="0.2" layer="51"/>
+<wire x1="4.6" y1="9.1" x2="4.6" y2="0.7" width="0.2" layer="51"/>
+<wire x1="-4.6" y1="9.1" x2="-4.6" y2="0.7" width="0.2" layer="51"/>
+<wire x1="-4.6" y1="-0.7" x2="-4.6" y2="-9.1" width="0.2" layer="51"/>
+<wire x1="-4.6" y1="-9.1" x2="4.6" y2="-9.1" width="0.2" layer="51"/>
+<wire x1="4.6" y1="-9.1" x2="4.6" y2="-0.7" width="0.2" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="4.8" y="9.3"/>
+<vertex x="4.8" y="-9.3"/>
+<vertex x="-4.8" y="-9.3"/>
+<vertex x="-4.8" y="9.3"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-SI_744101" urn="urn:adsk.eagle:package:13127465/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744101"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744103" urn="urn:adsk.eagle:package:13127463/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744103"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744131" urn="urn:adsk.eagle:package:13127448/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=8mm;Diameter of Pin=0.8mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744131"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_7441110" urn="urn:adsk.eagle:package:13127457/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=12.5mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_7441110"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744136" urn="urn:adsk.eagle:package:13127443/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13.0mm;Diameter of Pin=0.7mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744136"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744107" urn="urn:adsk.eagle:package:13127459/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10.5mm;Diameter of Pin=0.3mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744107"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744156" urn="urn:adsk.eagle:package:13127469/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13.5mm;Diameter of Pin=1.0mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744156"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744106" urn="urn:adsk.eagle:package:13127460/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744106"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744102" urn="urn:adsk.eagle:package:13127464/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744102"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744139" urn="urn:adsk.eagle:package:13127440/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=16mm;Diameter of Pin=0.7mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744139"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744115" urn="urn:adsk.eagle:package:13127453/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744115"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744134" urn="urn:adsk.eagle:package:13127445/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10mm;Diameter of Pin=0.9mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744134"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744119" urn="urn:adsk.eagle:package:13127449/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744119"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744153" urn="urn:adsk.eagle:package:13127466/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=1.0mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744153"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744117" urn="urn:adsk.eagle:package:13127451/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=11mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744117"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744152" urn="urn:adsk.eagle:package:13127436/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10mm;Diameter of Pin=1.0mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744152"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744133" urn="urn:adsk.eagle:package:13127446/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=11.5mm;Diameter of Pin=0.8mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744133"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744105" urn="urn:adsk.eagle:package:13127461/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.0mm;Diameter of Pin=0.3mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744105"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744155" urn="urn:adsk.eagle:package:13127468/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=1.1mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744155"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744111" urn="urn:adsk.eagle:package:13127458/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744111"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744118" urn="urn:adsk.eagle:package:13127450/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=12.5mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744118"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744104" urn="urn:adsk.eagle:package:13127462/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7mm;Diameter of Pin=0.3mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744104"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744112" urn="urn:adsk.eagle:package:13127456/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744112"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_7441501" urn="urn:adsk.eagle:package:13127438/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=12mm;Diameter of Pin=1.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_7441501"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744151" urn="urn:adsk.eagle:package:13127437/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10mm;Diameter of Pin=1.0mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744151"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744132" urn="urn:adsk.eagle:package:13127447/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=8.5mm;Diameter of Pin=0.8mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744132"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744114" urn="urn:adsk.eagle:package:13127454/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744114"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744135" urn="urn:adsk.eagle:package:13127444/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=10mm;Diameter of Pin=0.9mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744135"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744138" urn="urn:adsk.eagle:package:13127441/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=0.7mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744138"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744113" urn="urn:adsk.eagle:package:13127455/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=7.5mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744113"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744150" urn="urn:adsk.eagle:package:13127439/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=11.5mm;Diameter of Pin=1.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744150"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744154" urn="urn:adsk.eagle:package:13127467/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=1mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744154"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744116" urn="urn:adsk.eagle:package:13127452/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=8.0mm;Diameter of Pin=0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744116"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SI_744137" urn="urn:adsk.eagle:package:13127442/2" type="model">
+<description>&lt;B&gt;WE-SI&lt;B&gt;Leaded Toroidal Storage Choke
+&lt;BR&gt; Pitch=13mm;Diameter of Pin=0.7mm</description>
+<packageinstances>
+<packageinstance name="WE-SI_744137"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-SI" prefix="L">
+<description>&lt;b&gt;WE-SI Leaded Toroidal Storage Choke
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Low magnetic stray field
+&lt;br&gt;Low core loss due to iron powder materials
+&lt;br&gt;Available for rated current 1,1 A to 14,5 A
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Perfectly suitable for switching regulators from 
+&lt;br&gt;National Semiconductor (LM) 
+&lt;br&gt; Maxim
+&lt;br&gt;Used for example in switching power supplies and voltage transformers
+&lt;br&gt;Switching regulators up to 100 kHz
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14849v209%20Family_WE-SI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14849v209%20Family_WE-SI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-SI"&gt;https://katalog.we-online.com/en/pbs/WE-SI&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated  by  Yingchun,Shan 2019-09-03&lt;br&gt;
+&lt;/b&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_744101" package="WE-SI_744101">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127465/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744101pdf" constant="no"/>
+<attribute name="FRES" value="19.1MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="1.7A" constant="no"/>
+<attribute name="ISAT" value="1.5A" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="LR" value="40uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744101 " constant="no"/>
+<attribute name="RDC-MAX" value="0.18Ohm" constant="no"/>
+<attribute name="VALUE" value="50uH" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744102" package="WE-SI_744102">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127464/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744102pdf" constant="no"/>
+<attribute name="FRES" value="14MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="1.4A" constant="no"/>
+<attribute name="ISAT" value="1.2A" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="LR" value="65uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744102 " constant="no"/>
+<attribute name="RDC-MAX" value="0.23Ohm" constant="no"/>
+<attribute name="VALUE" value="73uH" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744103" package="WE-SI_744103">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127463/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744103pdf" constant="no"/>
+<attribute name="FRES" value="9.2MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="1.3A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="L" value="15mm" constant="no"/>
+<attribute name="LR" value="99uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744103 " constant="no"/>
+<attribute name="RDC-MAX" value="0.3Ohm" constant="no"/>
+<attribute name="VALUE" value="109uH" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744104" package="WE-SI_744104">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127462/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744104pdf" constant="no"/>
+<attribute name="FRES" value="4.1MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="1.35A" constant="no"/>
+<attribute name="ISAT" value="0.72A" constant="no"/>
+<attribute name="L" value="17.5mm" constant="no"/>
+<attribute name="LR" value="135uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744104 " constant="no"/>
+<attribute name="RDC-MAX" value="0.4Ohm" constant="no"/>
+<attribute name="VALUE" value="167uH" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744105" package="WE-SI_744105">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127461/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744105pdf" constant="no"/>
+<attribute name="FRES" value="3MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="1.2A" constant="no"/>
+<attribute name="ISAT" value="0.6A" constant="no"/>
+<attribute name="L" value="17.5mm" constant="no"/>
+<attribute name="LR" value="200uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744105 " constant="no"/>
+<attribute name="RDC-MAX" value="0.4Ohm" constant="no"/>
+<attribute name="VALUE" value="258uH" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744106" package="WE-SI_744106">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127460/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744106pdf" constant="no"/>
+<attribute name="FRES" value="2.1MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="1.1A" constant="no"/>
+<attribute name="ISAT" value="0.5A" constant="no"/>
+<attribute name="L" value="17.5mm" constant="no"/>
+<attribute name="LR" value="290uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744106 " constant="no"/>
+<attribute name="RDC-MAX" value="0.7Ohm" constant="no"/>
+<attribute name="VALUE" value="393uH" constant="no"/>
+<attribute name="W" value="8mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744107" package="WE-SI_744107">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127459/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744107pdf" constant="no"/>
+<attribute name="FRES" value="2.5MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="1.1A" constant="no"/>
+<attribute name="ISAT" value="0.7A" constant="no"/>
+<attribute name="L" value="22.5mm" constant="no"/>
+<attribute name="LR" value="450uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744107 " constant="no"/>
+<attribute name="RDC-MAX" value="0.7Ohm" constant="no"/>
+<attribute name="VALUE" value="557uH" constant="no"/>
+<attribute name="W" value="12mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744111" package="WE-SI_744111">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127458/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744111pdf" constant="no"/>
+<attribute name="FRES" value="23MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="3.1A" constant="no"/>
+<attribute name="ISAT" value="1.8A" constant="no"/>
+<attribute name="L" value="15.5mm" constant="no"/>
+<attribute name="LR" value="31uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744111 " constant="no"/>
+<attribute name="RDC-MAX" value="0.06Ohm" constant="no"/>
+<attribute name="VALUE" value="37uH" constant="no"/>
+<attribute name="W" value="8.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_7441110" package="WE-SI_7441110">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127457/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7441110pdf" constant="no"/>
+<attribute name="FRES" value="0.5MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="1.8A" constant="no"/>
+<attribute name="ISAT" value="0.7A" constant="no"/>
+<attribute name="L" value="30mm" constant="no"/>
+<attribute name="LR" value="1020uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7441110 " constant="no"/>
+<attribute name="RDC-MAX" value="0.48Ohm" constant="no"/>
+<attribute name="VALUE" value="1619uH" constant="no"/>
+<attribute name="W" value="14.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744112" package="WE-SI_744112">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127456/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744112pdf" constant="no"/>
+<attribute name="FRES" value="16.8MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="ISAT" value="1.4A" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="LR" value="38uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744112 " constant="no"/>
+<attribute name="RDC-MAX" value="0.08Ohm" constant="no"/>
+<attribute name="VALUE" value="53uH" constant="no"/>
+<attribute name="W" value="9.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744113" package="WE-SI_744113">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127455/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744113pdf" constant="no"/>
+<attribute name="FRES" value="6.5MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="2.5A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="LR" value="56uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744113 " constant="no"/>
+<attribute name="RDC-MAX" value="0.1Ohm" constant="no"/>
+<attribute name="VALUE" value="80uH" constant="no"/>
+<attribute name="W" value="9.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744114" package="WE-SI_744114">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127454/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744114pdf" constant="no"/>
+<attribute name="FRES" value="4.8MHz" constant="no"/>
+<attribute name="H" value="20mm" constant="no"/>
+<attribute name="IR" value="2.3A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="LR" value="80uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744114 " constant="no"/>
+<attribute name="RDC-MAX" value="0.12Ohm" constant="no"/>
+<attribute name="VALUE" value="127uH" constant="no"/>
+<attribute name="W" value="9mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744115" package="WE-SI_744115">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127453/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744115pdf" constant="no"/>
+<attribute name="FRES" value="3MHz" constant="no"/>
+<attribute name="H" value="20mm" constant="no"/>
+<attribute name="IR" value="2.2A" constant="no"/>
+<attribute name="ISAT" value="0.9A" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="LR" value="110uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744115 " constant="no"/>
+<attribute name="RDC-MAX" value="0.18Ohm" constant="no"/>
+<attribute name="VALUE" value="200uH" constant="no"/>
+<attribute name="W" value="9mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744116" package="WE-SI_744116">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127452/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744116pdf" constant="no"/>
+<attribute name="FRES" value="1.8MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="2.1A" constant="no"/>
+<attribute name="ISAT" value="0.5A" constant="no"/>
+<attribute name="L" value="18mm" constant="no"/>
+<attribute name="LR" value="170uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744116 " constant="no"/>
+<attribute name="RDC-MAX" value="0.2Ohm" constant="no"/>
+<attribute name="VALUE" value="345uH" constant="no"/>
+<attribute name="W" value="9mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744117" package="WE-SI_744117">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127451/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744117pdf" constant="no"/>
+<attribute name="FRES" value="1.8MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="2A" constant="no"/>
+<attribute name="ISAT" value="0.8A" constant="no"/>
+<attribute name="L" value="23mm" constant="no"/>
+<attribute name="LR" value="365uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744117 " constant="no"/>
+<attribute name="RDC-MAX" value="0.25Ohm" constant="no"/>
+<attribute name="VALUE" value="390uH" constant="no"/>
+<attribute name="W" value="12.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744118" package="WE-SI_744118">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127450/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744118pdf" constant="no"/>
+<attribute name="FRES" value="1.3MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="2.2A" constant="no"/>
+<attribute name="ISAT" value="1.1A" constant="no"/>
+<attribute name="L" value="30mm" constant="no"/>
+<attribute name="LR" value="440uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744118 " constant="no"/>
+<attribute name="RDC-MAX" value="0.33Ohm" constant="no"/>
+<attribute name="VALUE" value="600uH" constant="no"/>
+<attribute name="W" value="14mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744119" package="WE-SI_744119">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127449/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744119pdf" constant="no"/>
+<attribute name="FRES" value="0.85MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="2A" constant="no"/>
+<attribute name="ISAT" value="0.9A" constant="no"/>
+<attribute name="L" value="30mm" constant="no"/>
+<attribute name="LR" value="620uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744119 " constant="no"/>
+<attribute name="RDC-MAX" value="0.4Ohm" constant="no"/>
+<attribute name="VALUE" value="890uH" constant="no"/>
+<attribute name="W" value="14mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744131" package="WE-SI_744131">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127448/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744131pdf" constant="no"/>
+<attribute name="FRES" value="11MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="5.2A" constant="no"/>
+<attribute name="ISAT" value="1.8A" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="LR" value="19uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744131 " constant="no"/>
+<attribute name="RDC-MAX" value="0.038Ohm" constant="no"/>
+<attribute name="VALUE" value="34uH" constant="no"/>
+<attribute name="W" value="11mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744132" package="WE-SI_744132">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127447/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744132pdf" constant="no"/>
+<attribute name="FRES" value="16MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="5.8A" constant="no"/>
+<attribute name="ISAT" value="2.2A" constant="no"/>
+<attribute name="L" value="21mm" constant="no"/>
+<attribute name="LR" value="30uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744132 " constant="no"/>
+<attribute name="RDC-MAX" value="0.05Ohm" constant="no"/>
+<attribute name="VALUE" value="49uH" constant="no"/>
+<attribute name="W" value="9.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744133" package="WE-SI_744133">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127446/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744133pdf" constant="no"/>
+<attribute name="FRES" value="15MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="5.8A" constant="no"/>
+<attribute name="ISAT" value="2A" constant="no"/>
+<attribute name="L" value="24mm" constant="no"/>
+<attribute name="LR" value="40uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744133 " constant="no"/>
+<attribute name="RDC-MAX" value="0.04Ohm" constant="no"/>
+<attribute name="VALUE" value="75uH" constant="no"/>
+<attribute name="W" value="13mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744134" package="WE-SI_744134">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127445/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744134pdf" constant="no"/>
+<attribute name="FRES" value="9MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="5.4A" constant="no"/>
+<attribute name="ISAT" value="2.3A" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="LR" value="59uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744134 " constant="no"/>
+<attribute name="RDC-MAX" value="0.05Ohm" constant="no"/>
+<attribute name="VALUE" value="92uH" constant="no"/>
+<attribute name="W" value="13.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744135" package="WE-SI_744135">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127444/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744135pdf" constant="no"/>
+<attribute name="FRES" value="3MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="5.1A" constant="no"/>
+<attribute name="ISAT" value="1.5A" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="LR" value="95uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744135 " constant="no"/>
+<attribute name="RDC-MAX" value="0.063Ohm" constant="no"/>
+<attribute name="VALUE" value="157uH" constant="no"/>
+<attribute name="W" value="13.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744136" package="WE-SI_744136">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127443/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744136pdf" constant="no"/>
+<attribute name="FRES" value="3.3MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="3.8A" constant="no"/>
+<attribute name="ISAT" value="1.5A" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="LR" value="215uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744136 " constant="no"/>
+<attribute name="RDC-MAX" value="0.14Ohm" constant="no"/>
+<attribute name="VALUE" value="346uH" constant="no"/>
+<attribute name="W" value="15mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744137" package="WE-SI_744137">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127442/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744137pdf" constant="no"/>
+<attribute name="FRES" value="1.5MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="3.1A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="L" value="31mm" constant="no"/>
+<attribute name="LR" value="380uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744137 " constant="no"/>
+<attribute name="RDC-MAX" value="0.175Ohm" constant="no"/>
+<attribute name="VALUE" value="630uH" constant="no"/>
+<attribute name="W" value="15mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744138" package="WE-SI_744138">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127441/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744138pdf" constant="no"/>
+<attribute name="FRES" value="1.8MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="3.5A" constant="no"/>
+<attribute name="ISAT" value="1.4A" constant="no"/>
+<attribute name="L" value="43mm" constant="no"/>
+<attribute name="LR" value="440uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744138 " constant="no"/>
+<attribute name="RDC-MAX" value="0.24Ohm" constant="no"/>
+<attribute name="VALUE" value="727uH" constant="no"/>
+<attribute name="W" value="15mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744139" package="WE-SI_744139">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127440/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744139pdf" constant="no"/>
+<attribute name="FRES" value="0.65MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="3.4A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="L" value="44mm" constant="no"/>
+<attribute name="LR" value="680uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744139 " constant="no"/>
+<attribute name="RDC-MAX" value="0.28Ohm" constant="no"/>
+<attribute name="VALUE" value="1124uH" constant="no"/>
+<attribute name="W" value="18.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744150" package="WE-SI_744150">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127439/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744150pdf" constant="no"/>
+<attribute name="FRES" value="25MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="10.3A" constant="no"/>
+<attribute name="ISAT" value="4A" constant="no"/>
+<attribute name="L" value="28.5mm" constant="no"/>
+<attribute name="LR" value="16uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744150 " constant="no"/>
+<attribute name="RDC-MAX" value="0.015Ohm" constant="no"/>
+<attribute name="VALUE" value="26uH" constant="no"/>
+<attribute name="W" value="14.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_7441501" package="WE-SI_7441501">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127438/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7441501pdf" constant="no"/>
+<attribute name="FRES" value="44.6MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="14.5A" constant="no"/>
+<attribute name="ISAT" value="6.9A" constant="no"/>
+<attribute name="L" value="28.5mm" constant="no"/>
+<attribute name="LR" value="7uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7441501 " constant="no"/>
+<attribute name="RDC-MAX" value="0.008Ohm" constant="no"/>
+<attribute name="VALUE" value="12uH" constant="no"/>
+<attribute name="W" value="14.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744151" package="WE-SI_744151">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127437/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744151pdf" constant="no"/>
+<attribute name="FRES" value="13.6MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="8.1A" constant="no"/>
+<attribute name="ISAT" value="3A" constant="no"/>
+<attribute name="L" value="30mm" constant="no"/>
+<attribute name="LR" value="32uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744151 " constant="no"/>
+<attribute name="RDC-MAX" value="0.025Ohm" constant="no"/>
+<attribute name="VALUE" value="48uH" constant="no"/>
+<attribute name="W" value="12mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744152" package="WE-SI_744152">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127436/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744152pdf" constant="no"/>
+<attribute name="FRES" value="5.4MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="7.7A" constant="no"/>
+<attribute name="ISAT" value="1.7A" constant="no"/>
+<attribute name="L" value="28mm" constant="no"/>
+<attribute name="LR" value="39uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744152 " constant="no"/>
+<attribute name="RDC-MAX" value="0.03Ohm" constant="no"/>
+<attribute name="VALUE" value="82uH" constant="no"/>
+<attribute name="W" value="12mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744153" package="WE-SI_744153">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127466/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744153pdf" constant="no"/>
+<attribute name="FRES" value="6.4MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="7A" constant="no"/>
+<attribute name="ISAT" value="2A" constant="no"/>
+<attribute name="L" value="32mm" constant="no"/>
+<attribute name="LR" value="78uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744153 " constant="no"/>
+<attribute name="RDC-MAX" value="0.05Ohm" constant="no"/>
+<attribute name="VALUE" value="137uH" constant="no"/>
+<attribute name="W" value="15.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744154" package="WE-SI_744154">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127467/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744154pdf" constant="no"/>
+<attribute name="FRES" value="3.1MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="6.5A" constant="no"/>
+<attribute name="ISAT" value="2A" constant="no"/>
+<attribute name="L" value="32mm" constant="no"/>
+<attribute name="LR" value="85uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744154 " constant="no"/>
+<attribute name="RDC-MAX" value="0.055Ohm" constant="no"/>
+<attribute name="VALUE" value="172uH" constant="no"/>
+<attribute name="W" value="16.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744155" package="WE-SI_744155">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127468/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744155pdf" constant="no"/>
+<attribute name="FRES" value="4.7MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="7.1A" constant="no"/>
+<attribute name="ISAT" value="2A" constant="no"/>
+<attribute name="L" value="43mm" constant="no"/>
+<attribute name="LR" value="120uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744155 " constant="no"/>
+<attribute name="RDC-MAX" value="0.06Ohm" constant="no"/>
+<attribute name="VALUE" value="220uH" constant="no"/>
+<attribute name="W" value="15mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_744156" package="WE-SI_744156">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13127469/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744156pdf" constant="no"/>
+<attribute name="FRES" value="1.5MHz" constant="no"/>
+<attribute name="H" value="12mm" constant="no"/>
+<attribute name="IR" value="6.2A" constant="no"/>
+<attribute name="ISAT" value="2A" constant="no"/>
+<attribute name="L" value="44mm" constant="no"/>
+<attribute name="LR" value="200uH" constant="no"/>
+<attribute name="PART-NUMBER" value=" 744156 " constant="no"/>
+<attribute name="RDC-MAX" value="0.07Ohm" constant="no"/>
+<attribute name="VALUE" value="380uH" constant="no"/>
+<attribute name="W" value="15.5mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

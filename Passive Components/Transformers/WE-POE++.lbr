@@ -1,0 +1,2617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Transformers For DC/DC Converter - WE-POE++&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-03-05&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-POE++_EFD20_L29.65W21.8H11.43" urn="urn:adsk.eagle:footprint:43118336/1">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: EFD20, SMT, 12Pins
+&lt;br&gt;LXWXH=29.65X21.8X11.43mm</description>
+<wire x1="-11" y1="11.555" x2="11" y2="11.555" width="0.1" layer="51"/>
+<wire x1="-11" y1="-11.555" x2="11" y2="-11.555" width="0.1" layer="51"/>
+<wire x1="-11" y1="11.555" x2="-11" y2="7.85" width="0.1" layer="51"/>
+<wire x1="-11" y1="7.85" x2="-11" y2="7.15" width="0.1" layer="51"/>
+<wire x1="-11" y1="7.15" x2="-11" y2="-11.555" width="0.1" layer="51"/>
+<wire x1="11" y1="11.555" x2="11" y2="-11.555" width="0.1" layer="51"/>
+<wire x1="-11.1" y1="11.655" x2="11.1" y2="11.655" width="0.2" layer="21"/>
+<wire x1="11.1" y1="11.655" x2="11.1" y2="-11.655" width="0.2" layer="21"/>
+<wire x1="11.1" y1="-11.655" x2="-11.1" y2="-11.655" width="0.2" layer="21"/>
+<wire x1="-11.1" y1="-11.655" x2="-11.1" y2="11.655" width="0.2" layer="21"/>
+<wire x1="-11" y1="7.85" x2="-14.54" y2="7.85" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="7.85" x2="-14.54" y2="7.15" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="7.15" x2="-11" y2="7.15" width="0.1" layer="51"/>
+<wire x1="-11" y1="4.85" x2="-14.54" y2="4.85" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="4.85" x2="-14.54" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="4.15" x2="-11" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-11" y1="1.85" x2="-14.54" y2="1.85" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="1.85" x2="-14.54" y2="1.15" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="1.15" x2="-11" y2="1.15" width="0.1" layer="51"/>
+<wire x1="-11" y1="-1.15" x2="-14.54" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="-1.15" x2="-14.54" y2="-1.85" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="-1.85" x2="-11" y2="-1.85" width="0.1" layer="51"/>
+<wire x1="-11" y1="-4.15" x2="-14.54" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="-4.15" x2="-14.54" y2="-4.85" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="-4.85" x2="-11" y2="-4.85" width="0.1" layer="51"/>
+<wire x1="-11" y1="-7.15" x2="-14.54" y2="-7.15" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="-7.15" x2="-14.54" y2="-7.85" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="-7.85" x2="-11" y2="-7.85" width="0.1" layer="51"/>
+<wire x1="11" y1="7.15" x2="14.54" y2="7.15" width="0.1" layer="51"/>
+<wire x1="14.54" y1="7.15" x2="14.54" y2="7.85" width="0.1" layer="51"/>
+<wire x1="14.54" y1="7.85" x2="11" y2="7.85" width="0.1" layer="51"/>
+<wire x1="11" y1="4.15" x2="14.54" y2="4.15" width="0.1" layer="51"/>
+<wire x1="14.54" y1="4.15" x2="14.54" y2="4.85" width="0.1" layer="51"/>
+<wire x1="14.54" y1="4.85" x2="11" y2="4.85" width="0.1" layer="51"/>
+<wire x1="11" y1="1.15" x2="14.54" y2="1.15" width="0.1" layer="51"/>
+<wire x1="14.54" y1="1.15" x2="14.54" y2="1.85" width="0.1" layer="51"/>
+<wire x1="14.54" y1="1.85" x2="11" y2="1.85" width="0.1" layer="51"/>
+<wire x1="11" y1="-1.85" x2="14.54" y2="-1.85" width="0.1" layer="51"/>
+<wire x1="14.54" y1="-1.85" x2="14.54" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="14.54" y1="-1.15" x2="11" y2="-1.15" width="0.1" layer="51"/>
+<wire x1="11" y1="-4.85" x2="14.54" y2="-4.85" width="0.1" layer="51"/>
+<wire x1="14.54" y1="-4.85" x2="14.54" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="14.54" y1="-4.15" x2="11" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="11" y1="-7.85" x2="14.54" y2="-7.85" width="0.1" layer="51"/>
+<wire x1="14.54" y1="-7.85" x2="14.54" y2="-7.15" width="0.1" layer="51"/>
+<wire x1="14.54" y1="-7.15" x2="11" y2="-7.15" width="0.1" layer="51"/>
+<smd name="12" x="13.26" y="7.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="7" x="13.26" y="-7.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="6" x="-13.26" y="-7.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="1" x="-13.26" y="7.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="11" x="13.26" y="4.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="2" x="-13.26" y="4.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="5" x="-13.26" y="-4.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="8" x="13.26" y="-4.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="10" x="13.26" y="1.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="3" x="-13.26" y="1.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="4" x="-13.26" y="-1.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="9" x="13.26" y="-1.5" dx="3.05" dy="1.27" layer="1"/>
+<text x="0" y="12.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-14" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-14.985" y="11.855"/>
+<vertex x="14.985" y="11.855"/>
+<vertex x="14.985" y="-11.855"/>
+<vertex x="-14.985" y="-11.855"/>
+</polygon>
+<circle x="-8.5" y="9.3" radius="0.3" width="0.6" layer="51"/>
+<circle x="-12.5" y="9.3" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-POE++_EPW15_L21.89H15.5H13.5" urn="urn:adsk.eagle:footprint:43118333/1">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;EPPW15, SMT, 9Pins
+&lt;br&gt;LXWXH=21.69X15.5X13.5mm</description>
+<wire x1="-7.5" y1="-7.75" x2="7.5" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="7.75" x2="7.5" y2="7.75" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="7.75" x2="-7.5" y2="-5.04" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-5.04" x2="-7.5" y2="-5.84" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-5.84" x2="-7.5" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="7.5" y1="7.75" x2="7.5" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="7.85" x2="7.6" y2="7.85" width="0.2" layer="21"/>
+<wire x1="7.6" y1="7.85" x2="7.6" y2="-7.85" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-7.85" x2="-7.6" y2="-7.85" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-7.85" x2="-7.6" y2="7.85" width="0.2" layer="21"/>
+<wire x1="-7.5" y1="-5.04" x2="-10.495" y2="-5.04" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="-5.04" x2="-10.495" y2="-5.84" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="-5.84" x2="-7.5" y2="-5.84" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-2.32" x2="-10.495" y2="-2.32" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="-2.32" x2="-10.495" y2="-3.12" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="-3.12" x2="-7.5" y2="-3.12" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="0.4" x2="-10.495" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="0.4" x2="-10.495" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="-0.4" x2="-7.5" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="3.12" x2="-10.495" y2="3.12" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="3.12" x2="-10.495" y2="2.32" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="2.32" x2="-7.5" y2="2.32" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="5.84" x2="-10.495" y2="5.84" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="5.84" x2="-10.495" y2="5.04" width="0.1" layer="51"/>
+<wire x1="-10.495" y1="5.04" x2="-7.5" y2="5.04" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-6.46" x2="10.495" y2="-6.46" width="0.1" layer="51"/>
+<wire x1="10.495" y1="-6.46" x2="10.495" y2="-5.66" width="0.1" layer="51"/>
+<wire x1="10.495" y1="-5.66" x2="7.5" y2="-5.66" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-2.42" x2="10.495" y2="-2.42" width="0.1" layer="51"/>
+<wire x1="10.495" y1="-2.42" x2="10.495" y2="-1.62" width="0.1" layer="51"/>
+<wire x1="10.495" y1="-1.62" x2="7.5" y2="-1.62" width="0.1" layer="51"/>
+<wire x1="7.5" y1="1.62" x2="10.495" y2="1.62" width="0.1" layer="51"/>
+<wire x1="10.495" y1="1.62" x2="10.495" y2="2.42" width="0.1" layer="51"/>
+<wire x1="10.495" y1="2.42" x2="7.5" y2="2.42" width="0.1" layer="51"/>
+<wire x1="7.5" y1="5.66" x2="10.495" y2="5.66" width="0.1" layer="51"/>
+<wire x1="10.495" y1="5.66" x2="10.495" y2="6.46" width="0.1" layer="51"/>
+<wire x1="10.495" y1="6.46" x2="7.5" y2="6.46" width="0.1" layer="51"/>
+<circle x="-9" y="7" radius="0.2" width="0.4" layer="21"/>
+<circle x="-5.32" y="6" radius="0.3" width="0.6" layer="51"/>
+<smd name="1" x="-9.84" y="5.44" dx="2.38" dy="1.41" layer="1"/>
+<smd name="2" x="-9.84" y="2.72" dx="2.38" dy="1.41" layer="1"/>
+<smd name="3" x="-9.84" y="0" dx="2.38" dy="1.41" layer="1"/>
+<smd name="4" x="-9.84" y="-2.72" dx="2.38" dy="1.41" layer="1"/>
+<smd name="5" x="-9.84" y="-5.44" dx="2.38" dy="1.41" layer="1"/>
+<smd name="6" x="9.84" y="-6.06" dx="2.38" dy="1.41" layer="1" rot="R180"/>
+<smd name="7" x="9.84" y="-2.02" dx="2.38" dy="1.41" layer="1" rot="R180"/>
+<smd name="8" x="9.84" y="2.02" dx="2.38" dy="1.41" layer="1" rot="R180"/>
+<smd name="9" x="9.84" y="6.06" dx="2.38" dy="1.41" layer="1" rot="R180"/>
+<text x="0" y="9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-11.33" y="8.05"/>
+<vertex x="11.33" y="8.05"/>
+<vertex x="11.33" y="-8.05"/>
+<vertex x="-11.33" y="-8.05"/>
+</polygon>
+</package>
+<package name="WE-POE++_ER19_L23.37W21.08H10.5" urn="urn:adsk.eagle:footprint:43118332/3">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ER19/4.8/15, SMT, 10Pins
+&lt;br&gt;LXWXH=23.37X21.08X10.5mm</description>
+<wire x1="-11.685" y1="10.54" x2="11.685" y2="10.54" width="0.1" layer="51"/>
+<wire x1="-11.685" y1="-10.54" x2="11.685" y2="-10.54" width="0.1" layer="51"/>
+<wire x1="-11.685" y1="10.54" x2="-11.685" y2="-10.54" width="0.1" layer="51"/>
+<wire x1="11.685" y1="10.54" x2="11.685" y2="-10.54" width="0.1" layer="51"/>
+<wire x1="-11.785" y1="10.64" x2="11.785" y2="10.64" width="0.2" layer="21"/>
+<wire x1="11.785" y1="10.64" x2="11.785" y2="7.7" width="0.2" layer="21"/>
+<wire x1="11.785" y1="1.8" x2="11.785" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="11.785" y1="-7.7" x2="11.785" y2="-10.64" width="0.2" layer="21"/>
+<wire x1="11.785" y1="-10.64" x2="-11.785" y2="-10.64" width="0.2" layer="21"/>
+<wire x1="-11.785" y1="-10.64" x2="-11.785" y2="-9.2" width="0.2" layer="21"/>
+<wire x1="-11.785" y1="-1" x2="-11.785" y2="1" width="0.2" layer="21"/>
+<wire x1="-11.785" y1="9.2" x2="-11.785" y2="10.64" width="0.2" layer="21"/>
+<text x="0" y="11.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-11.985" y="10.84"/>
+<vertex x="11.985" y="10.84"/>
+<vertex x="11.985" y="-10.84"/>
+<vertex x="-11.985" y="-10.84"/>
+</polygon>
+<circle x="-7" y="9" radius="0.3" width="0.6" layer="51"/>
+<circle x="-12.645" y="7.885" radius="0.2" width="0.4" layer="21"/>
+<smd name="1" x="-10.165" y="7.885" dx="3.13" dy="1.89" layer="1"/>
+<smd name="2" x="-10.165" y="5.085" dx="3.13" dy="1.89" layer="1"/>
+<smd name="3" x="-10.165" y="2.285" dx="3.13" dy="1.89" layer="1"/>
+<smd name="4" x="-10.165" y="-2.285" dx="3.13" dy="1.89" layer="1"/>
+<smd name="5" x="-10.165" y="-5.085" dx="3.13" dy="1.89" layer="1"/>
+<smd name="6" x="-10.165" y="-7.885" dx="3.13" dy="1.89" layer="1"/>
+<smd name="7" x="10.165" y="-6.36" dx="3.13" dy="1.89" layer="1"/>
+<smd name="8" x="10.165" y="-3.18" dx="3.13" dy="1.89" layer="1"/>
+<smd name="10" x="10.165" y="3.18" dx="3.13" dy="1.89" layer="1"/>
+<smd name="11" x="10.165" y="6.36" dx="3.13" dy="1.89" layer="1"/>
+</package>
+<package name="WE-POE++_EFD20_L21.08W21.08H10.8" urn="urn:adsk.eagle:footprint:43118335/1">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: EFD20, THT, 10Pins
+&lt;br&gt;LXWXH=29.65X21.8X11.43mm</description>
+<wire x1="-10.54" y1="10.54" x2="10.54" y2="10.54" width="0.1" layer="51"/>
+<wire x1="-10.54" y1="-10.54" x2="10.54" y2="-10.54" width="0.1" layer="51"/>
+<wire x1="-10.54" y1="10.54" x2="-10.54" y2="-10.54" width="0.1" layer="51"/>
+<wire x1="10.54" y1="10.54" x2="10.54" y2="-10.54" width="0.1" layer="51"/>
+<wire x1="-10.64" y1="10.64" x2="10.64" y2="10.64" width="0.2" layer="21"/>
+<wire x1="10.64" y1="10.64" x2="10.64" y2="-10.64" width="0.2" layer="21"/>
+<wire x1="10.64" y1="-10.64" x2="-10.64" y2="-10.64" width="0.2" layer="21"/>
+<wire x1="-10.64" y1="-10.64" x2="-10.64" y2="10.64" width="0.2" layer="21"/>
+<text x="0" y="11.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-10.84" y="10.84"/>
+<vertex x="10.84" y="10.84"/>
+<vertex x="10.84" y="-10.84"/>
+<vertex x="-10.84" y="-10.84"/>
+</polygon>
+<circle x="-6" y="9" radius="0.3" width="0.6" layer="51"/>
+<circle x="-11.5" y="7.5" radius="0.2" width="0.4" layer="21"/>
+<pad name="1" x="-8.75" y="7.5" drill="1.3"/>
+<pad name="2" x="-8.75" y="2.5" drill="1.3"/>
+<pad name="3" x="-8.75" y="-2.5" drill="1.3"/>
+<pad name="4" x="-8.75" y="-7.5" drill="1.3"/>
+<pad name="5" x="8.75" y="-7.5" drill="1.3"/>
+<pad name="6" x="8.75" y="-2.5" drill="1.3"/>
+<pad name="7" x="8.75" y="2.5" drill="1.3"/>
+<pad name="8" x="8.75" y="7.5" drill="1.3"/>
+</package>
+<package name="WE-POE++_EFD25_L32.45W27.03H13.97" urn="urn:adsk.eagle:footprint:43118334/1">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: EFD20, SMT, 12Pins
+&lt;br&gt;LXWXH=29.65X21.8X11.43mm</description>
+<wire x1="-14" y1="13.515" x2="14" y2="13.515" width="0.1" layer="51"/>
+<wire x1="-14" y1="-13.515" x2="14" y2="-13.515" width="0.1" layer="51"/>
+<wire x1="-14" y1="13.515" x2="-14" y2="9.9" width="0.1" layer="51"/>
+<wire x1="-14" y1="9.9" x2="-14" y2="8.9" width="0.1" layer="51"/>
+<wire x1="-14" y1="8.9" x2="-14" y2="-13.515" width="0.1" layer="51"/>
+<wire x1="14" y1="13.515" x2="14" y2="-13.515" width="0.1" layer="51"/>
+<wire x1="-14.1" y1="13.615" x2="14.1" y2="13.615" width="0.2" layer="21"/>
+<wire x1="14.1" y1="13.615" x2="14.1" y2="10.46" width="0.2" layer="21"/>
+<wire x1="14.1" y1="8.34" x2="14.1" y2="6.7" width="0.2" layer="21"/>
+<wire x1="14.1" y1="-13.615" x2="-14.1" y2="-13.615" width="0.2" layer="21"/>
+<wire x1="-14.1" y1="6.7" x2="-14.1" y2="8.34" width="0.2" layer="21"/>
+<wire x1="-14.1" y1="10.46" x2="-14.1" y2="13.615" width="0.2" layer="21"/>
+<wire x1="-14" y1="9.9" x2="-16.225" y2="9.9" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="9.9" x2="-16.225" y2="8.9" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="8.9" x2="-14" y2="8.9" width="0.1" layer="51"/>
+<wire x1="-14" y1="7.795" x2="-14" y2="6.14" width="0.1" layer="51"/>
+<wire x1="-14" y1="6.14" x2="-14" y2="5.14" width="0.1" layer="51"/>
+<wire x1="-14" y1="6.14" x2="-16.225" y2="6.14" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="6.14" x2="-16.225" y2="5.14" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="5.14" x2="-14" y2="5.14" width="0.1" layer="51"/>
+<wire x1="-14" y1="4.035" x2="-14" y2="2.38" width="0.1" layer="51"/>
+<wire x1="-14" y1="2.38" x2="-14" y2="1.38" width="0.1" layer="51"/>
+<wire x1="-14" y1="2.38" x2="-16.225" y2="2.38" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="2.38" x2="-16.225" y2="1.38" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="1.38" x2="-14" y2="1.38" width="0.1" layer="51"/>
+<wire x1="-14" y1="0.275" x2="-14" y2="-1.38" width="0.1" layer="51"/>
+<wire x1="-14" y1="-1.38" x2="-14" y2="-2.38" width="0.1" layer="51"/>
+<wire x1="-14" y1="-1.38" x2="-16.225" y2="-1.38" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="-1.38" x2="-16.225" y2="-2.38" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="-2.38" x2="-14" y2="-2.38" width="0.1" layer="51"/>
+<wire x1="-14" y1="-3.485" x2="-14" y2="-5.14" width="0.1" layer="51"/>
+<wire x1="-14" y1="-5.14" x2="-14" y2="-6.14" width="0.1" layer="51"/>
+<wire x1="-14" y1="-5.14" x2="-16.225" y2="-5.14" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="-5.14" x2="-16.225" y2="-6.14" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="-6.14" x2="-14" y2="-6.14" width="0.1" layer="51"/>
+<wire x1="-14" y1="-7.245" x2="-14" y2="-8.9" width="0.1" layer="51"/>
+<wire x1="-14" y1="-8.9" x2="-14" y2="-9.9" width="0.1" layer="51"/>
+<wire x1="-14" y1="-8.9" x2="-16.225" y2="-8.9" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="-8.9" x2="-16.225" y2="-9.9" width="0.1" layer="51"/>
+<wire x1="-16.225" y1="-9.9" x2="-14" y2="-9.9" width="0.1" layer="51"/>
+<wire x1="14" y1="-9.9" x2="16.225" y2="-9.9" width="0.1" layer="51"/>
+<wire x1="16.225" y1="-9.9" x2="16.225" y2="-8.9" width="0.1" layer="51"/>
+<wire x1="16.225" y1="-8.9" x2="14" y2="-8.9" width="0.1" layer="51"/>
+<wire x1="14" y1="-6.14" x2="16.225" y2="-6.14" width="0.1" layer="51"/>
+<wire x1="16.225" y1="-6.14" x2="16.225" y2="-5.14" width="0.1" layer="51"/>
+<wire x1="16.225" y1="-5.14" x2="14" y2="-5.14" width="0.1" layer="51"/>
+<wire x1="14" y1="-2.38" x2="16.225" y2="-2.38" width="0.1" layer="51"/>
+<wire x1="16.225" y1="-2.38" x2="16.225" y2="-1.38" width="0.1" layer="51"/>
+<wire x1="16.225" y1="-1.38" x2="14" y2="-1.38" width="0.1" layer="51"/>
+<wire x1="14" y1="1.38" x2="16.225" y2="1.38" width="0.1" layer="51"/>
+<wire x1="16.225" y1="1.38" x2="16.225" y2="2.38" width="0.1" layer="51"/>
+<wire x1="16.225" y1="2.38" x2="14" y2="2.38" width="0.1" layer="51"/>
+<wire x1="14" y1="5.14" x2="16.225" y2="5.14" width="0.1" layer="51"/>
+<wire x1="16.225" y1="5.14" x2="16.225" y2="6.14" width="0.1" layer="51"/>
+<wire x1="16.225" y1="6.14" x2="14" y2="6.14" width="0.1" layer="51"/>
+<wire x1="14" y1="8.9" x2="16.225" y2="8.9" width="0.1" layer="51"/>
+<wire x1="16.225" y1="8.9" x2="16.225" y2="9.9" width="0.1" layer="51"/>
+<wire x1="16.225" y1="9.9" x2="14" y2="9.9" width="0.1" layer="51"/>
+<wire x1="14.1" y1="4.58" x2="14.1" y2="2.94" width="0.2" layer="21"/>
+<wire x1="-14.1" y1="2.94" x2="-14.1" y2="4.58" width="0.2" layer="21"/>
+<wire x1="14.1" y1="0.82" x2="14.1" y2="-0.82" width="0.2" layer="21"/>
+<wire x1="-14.1" y1="-0.82" x2="-14.1" y2="0.82" width="0.2" layer="21"/>
+<wire x1="14.1" y1="-2.94" x2="14.1" y2="-4.58" width="0.2" layer="21"/>
+<wire x1="-14.1" y1="-4.58" x2="-14.1" y2="-2.94" width="0.2" layer="21"/>
+<wire x1="14.1" y1="-6.7" x2="14.1" y2="-8.34" width="0.2" layer="21"/>
+<wire x1="-14.1" y1="-8.34" x2="-14.1" y2="-6.7" width="0.2" layer="21"/>
+<wire x1="14.1" y1="-10.46" x2="14.1" y2="-13.615" width="0.2" layer="21"/>
+<wire x1="-14.1" y1="-13.615" x2="-14.1" y2="-10.46" width="0.2" layer="21"/>
+<smd name="7" x="15.19" y="-9.4" dx="2.5" dy="1.52" layer="1"/>
+<smd name="1" x="-15.19" y="9.4" dx="2.5" dy="1.52" layer="1"/>
+<smd name="2" x="-15.19" y="5.64" dx="2.5" dy="1.52" layer="1"/>
+<smd name="3" x="-15.19" y="1.88" dx="2.5" dy="1.52" layer="1"/>
+<smd name="4" x="-15.19" y="-1.88" dx="2.5" dy="1.52" layer="1"/>
+<smd name="5" x="-15.19" y="-5.64" dx="2.5" dy="1.52" layer="1"/>
+<smd name="6" x="-15.19" y="-9.4" dx="2.5" dy="1.52" layer="1"/>
+<smd name="8" x="15.19" y="-5.64" dx="2.5" dy="1.52" layer="1"/>
+<smd name="9" x="15.19" y="-1.88" dx="2.5" dy="1.52" layer="1"/>
+<smd name="10" x="15.19" y="1.88" dx="2.5" dy="1.52" layer="1"/>
+<smd name="11" x="15.19" y="5.64" dx="2.5" dy="1.52" layer="1"/>
+<smd name="12" x="15.19" y="9.4" dx="2.5" dy="1.52" layer="1"/>
+<text x="0" y="14.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-16" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-16.74" y="13.815"/>
+<vertex x="16.74" y="13.815"/>
+<vertex x="16.74" y="-13.815"/>
+<vertex x="-16.74" y="-13.815"/>
+</polygon>
+<circle x="-11" y="9.3" radius="0.3" width="0.6" layer="51"/>
+<circle x="-15.5" y="11" radius="0.2" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-POE++_EFD20_L29.65W21.8H11.43" urn="urn:adsk.eagle:package:43118352/2" type="model">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: EFD20, SMT, 12Pins
+&lt;br&gt;LXWXH=29.65X21.8X11.43mm</description>
+<packageinstances>
+<packageinstance name="WE-POE++_EFD20_L29.65W21.8H11.43"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-POE++_ER19_L23.37W21.08H10.5" urn="urn:adsk.eagle:package:43118348/6" type="model">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ER19/4.8/15, SMT, 10Pins
+&lt;br&gt;LXWXH=23.37X21.08X10.5mm</description>
+<packageinstances>
+<packageinstance name="WE-POE++_ER19_L23.37W21.08H10.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-POE++_EPW15_L21.89H15.5H13.5" urn="urn:adsk.eagle:package:43118349/2" type="model">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;EPPW15, SMT, 9Pins
+&lt;br&gt;LXWXH=21.69X15.5X13.5mm</description>
+<packageinstances>
+<packageinstance name="WE-POE++_EPW15_L21.89H15.5H13.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-POE++_EFD25_L32.45W27.03H13.97" urn="urn:adsk.eagle:package:43118350/2" type="model">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: EFD20, SMT, 12Pins
+&lt;br&gt;LXWXH=29.65X21.8X11.43mm</description>
+<packageinstances>
+<packageinstance name="WE-POE++_EFD25_L32.45W27.03H13.97"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-POE++_EFD20_L21.08W21.08H10.8" urn="urn:adsk.eagle:package:43118351/2" type="model">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: EFD20, THT, 10Pins
+&lt;br&gt;LXWXH=29.65X21.8X11.43mm</description>
+<packageinstances>
+<packageinstance name="WE-POE++_EFD20_L21.08W21.08H10.8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-POE++_EFD20_3W:2W_PRI_PARALLEL">
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N4</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="-4.826" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WE-POE++_EFD20_3W:3W_PARALLELX2">
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N3</text>
+<text x="12.7" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-4.826" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="7.366" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="13.97" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="10.16" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="7.62" y="15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WE-POE++_EFD20_750320237">
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N3</text>
+<text x="12.7" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-4.826" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="7.366" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="13.97" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="7.62" y="-15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="10.16" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WE-POE++_EFD20_3W:2W_PARALLELX2">
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N3</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-4.826" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WE-POE++_EFD20_2W:2W_750319034">
+<pin name="6" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N4</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="WE-POE++_ER19_3W:2W">
+<text x="0" y="21.59" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-22.86" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="15.24" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-15.24" size="1.27" layer="94" align="center">N5</text>
+<wire x1="0" y1="20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-20.32" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-20.32" x2="-5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="-2.54" y2="17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="19.05" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="-7.62" y="-20.32" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="20.32" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="WE-POE++_EPW15_2W:2W_PARALLEL">
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WE-POE++_EFD20_2W:3W_PARALLEL">
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="11" x="10.16" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="7.62" y="15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="16.51" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="12.7" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="0" y1="15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="7.366" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="13.97" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="WE-POE++_EFD25_3W:3W_PARALLELX2">
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N3</text>
+<text x="12.7" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-4.826" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="7.366" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="13.97" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="10.16" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="7.62" y="15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WE-POE++_EFD20_3W:2W_SEC_PARALLEL">
+<text x="0" y="21.59" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-22.86" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-15.24" size="1.27" layer="94" align="center">N3</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="0" y1="20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="-20.32" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-20.32" x2="-5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="-2.54" y2="17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="19.05" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-7.62" y="20.32" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-7.62" y="-20.32" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="WE-POE++_EFD25_3W:2W_PARALLELX2">
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N3</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-4.826" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WE-POE++_EFD20_2W:2W">
+<pin name="2" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N4</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="750318962" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_3W:2W_PRI_PARALLEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750318962?ae"/>
+<attribute name="IO1" value="8A"/>
+<attribute name="L" value="66uH"/>
+<attribute name="N" value="1.6:1:1:1"/>
+<attribute name="PART-NUMBER" value=" 750318962 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750318962 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Active Clamp Forward"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319036" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_3W:3W_PARALLELX2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319036?ae"/>
+<attribute name="IO1" value="6A"/>
+<attribute name="ISAT" value="10.4A"/>
+<attribute name="L" value="16uH"/>
+<attribute name="N" value="2.33:1:1"/>
+<attribute name="PART-NUMBER" value=" 750319036 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750319036 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="CCM Flyback"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750320237" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-05&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_750320237" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750320237?ae"/>
+<attribute name="IO1" value="2.5A"/>
+<attribute name="ISAT" value="1.8A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="N" value="2:2:1"/>
+<attribute name="PART-NUMBER" value=" 750320237 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750320237 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="36 - 57 V (DC)"/>
+<attribute name="VO1" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750318961" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_3W:2W_PARALLELX2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750318961?ae"/>
+<attribute name="IO1" value="19A"/>
+<attribute name="L" value="66uH"/>
+<attribute name="N" value="4:1:2.5"/>
+<attribute name="PART-NUMBER" value=" 750318961 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750318961 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Active Clamp Forward"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319034" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_2W:2W_750319034" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319034?ae"/>
+<attribute name="IO1" value="6A"/>
+<attribute name="L" value="66uH"/>
+<attribute name="N" value="1.6:1:1:1"/>
+<attribute name="PART-NUMBER" value=" 750319034 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750319034 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Active Clamp Forward"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750313095" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_3W:2W_SEC_PARALLEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750313095?ae"/>
+<attribute name="IO1" value="17A"/>
+<attribute name="L" value="175uH"/>
+<attribute name="N" value="3.5:1:2.25"/>
+<attribute name="PART-NUMBER" value=" 750313095 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750313095 "/>
+<attribute name="VAUX" value="10.75V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="40 - 57 V (DC)"/>
+<attribute name="VO1" value="5V"/>
+<attribute name="VT" value="2400V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750313355" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_3W:3W_PARALLELX2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="7"/>
+<connect gate="G$1" pin="11" pad="8"/>
+<connect gate="G$1" pin="12" pad="9"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="6"/>
+<connect gate="G$1" pin="5" pad="4"/>
+<connect gate="G$1" pin="6" pad="3"/>
+<connect gate="G$1" pin="7" pad="10"/>
+<connect gate="G$1" pin="8" pad="11"/>
+<connect gate="G$1" pin="9" pad="12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750313355?ae"/>
+<attribute name="IO1" value="5A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="N" value="2:1:1"/>
+<attribute name="PART-NUMBER" value=" 750313355 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750313355 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="36 - 72 V (DC)"/>
+<attribute name="VO1" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319033" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_2W:3W_PARALLEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319033?ae"/>
+<attribute name="IO1" value="14.6A"/>
+<attribute name="L" value="66uH"/>
+<attribute name="N" value="4:1:2.5"/>
+<attribute name="PART-NUMBER" value=" 750319033 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750319033 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Active Clamp Forward"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319069" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_3W:2W_PARALLELX2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="6"/>
+<connect gate="G$1" pin="6" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319069?ae"/>
+<attribute name="IO1" value="3A"/>
+<attribute name="ISAT" value="10.4A"/>
+<attribute name="L" value="16uH"/>
+<attribute name="N" value="2:1.86:1"/>
+<attribute name="PART-NUMBER" value=" 750319069 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750319069 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="CCM Flyback"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319035" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_3W:2W_PARALLELX2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="6"/>
+<connect gate="G$1" pin="6" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319035?ae"/>
+<attribute name="IO1" value="14.6A"/>
+<attribute name="ISAT" value="10.4A"/>
+<attribute name="L" value="16uH"/>
+<attribute name="N" value="4.67:1:2.33"/>
+<attribute name="PART-NUMBER" value=" 750319035 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750319035 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="CCM Flyback"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750318938" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_3W:3W_PARALLELX2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L29.65W21.8H11.43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="7"/>
+<connect gate="G$1" pin="11" pad="8"/>
+<connect gate="G$1" pin="12" pad="9"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="6"/>
+<connect gate="G$1" pin="5" pad="4"/>
+<connect gate="G$1" pin="6" pad="3"/>
+<connect gate="G$1" pin="7" pad="10"/>
+<connect gate="G$1" pin="8" pad="11"/>
+<connect gate="G$1" pin="9" pad="12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750318938?ae"/>
+<attribute name="IO1" value="12A"/>
+<attribute name="L" value="150uH"/>
+<attribute name="N" value="4:1:2.6"/>
+<attribute name="PART-NUMBER" value=" 750318938 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750318938 "/>
+<attribute name="VAUX" value="13V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="36 - 72 V (DC)"/>
+<attribute name="VO1" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750316336" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EPW15_2W:2W_PARALLEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EPW15_L21.89H15.5H13.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118349/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750316336?ae"/>
+<attribute name="IO1" value="6A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="N" value="2:1:1"/>
+<attribute name="PART-NUMBER" value=" 750316336 "/>
+<attribute name="SIZE" value="EPW15"/>
+<attribute name="VALUE" value=" 750316336 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="36 - 57 V (DC)"/>
+<attribute name="VO1" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750316334" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EPW15_2W:2W_PARALLEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EPW15_L21.89H15.5H13.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118349/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750316334?ae"/>
+<attribute name="IO1" value="18A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="N" value="7:1:3.5"/>
+<attribute name="PART-NUMBER" value=" 750316334 "/>
+<attribute name="SIZE" value="EPW15"/>
+<attribute name="VALUE" value=" 750316334 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="36 - 57 V (DC)"/>
+<attribute name="VO1" value="3.3V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750316335" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EPW15_2W:2W_PARALLEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EPW15_L21.89H15.5H13.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118349/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750316335?ae"/>
+<attribute name="IO1" value="14A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="N" value="4:1:2.33"/>
+<attribute name="PART-NUMBER" value=" 750316335 "/>
+<attribute name="SIZE" value="EPW15"/>
+<attribute name="VALUE" value=" 750316335 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="36 - 57 V (DC)"/>
+<attribute name="VO1" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341794" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-05&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_ER19_3W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118348/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341794?ae"/>
+<attribute name="IO1" value="6A"/>
+<attribute name="L" value="153uH"/>
+<attribute name="N" value="4:4:2:2:4"/>
+<attribute name="PART-NUMBER" value=" 750341794 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341794 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="37 - 57 V (DC)"/>
+<attribute name="VO1" value="12V"/>
+<attribute name="VT" value="2250V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750343164" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_ER19_3W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118348/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750343164?ae"/>
+<attribute name="IO1" value="14A"/>
+<attribute name="L" value="153uH"/>
+<attribute name="N" value="4:4:1:1:5"/>
+<attribute name="PART-NUMBER" value=" 750343164 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750343164 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="40 - 57 V (DC)"/>
+<attribute name="VO1" value="5V"/>
+<attribute name="VT" value="2250V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750343576" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_ER19_3W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118348/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750343576?ae"/>
+<attribute name="IO1" value="3A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="N" value="4:4:4:4:4"/>
+<attribute name="PART-NUMBER" value=" 750343576 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750343576 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="40 - 57 V (DC)"/>
+<attribute name="VO1" value="24V"/>
+<attribute name="VT" value="2250V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750310042" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD20_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD20_L21.08W21.08H10.8">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118351/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750310042?ae"/>
+<attribute name="IO1" value="5A"/>
+<attribute name="IO2" value="1.6A"/>
+<attribute name="L" value="154uH"/>
+<attribute name="N" value="2:1:1:1"/>
+<attribute name="PART-NUMBER" value=" 750310042 "/>
+<attribute name="SIZE" value="EFD20"/>
+<attribute name="VALUE" value=" 750310042 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="Forward"/>
+<attribute name="VIN" value="30 - 57 V (DC)"/>
+<attribute name="VO1" value="12V"/>
+<attribute name="VO2" value="-12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319020" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD25_3W:2W_PARALLELX2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD25_L32.45W27.03H13.97">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118350/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319020?ae"/>
+<attribute name="IO1" value="19A"/>
+<attribute name="ISAT" value="11.4A"/>
+<attribute name="L" value="17uH"/>
+<attribute name="N" value="5:1:2.5"/>
+<attribute name="PART-NUMBER" value=" 750319020 "/>
+<attribute name="SIZE" value="EFD25"/>
+<attribute name="VALUE" value=" 750319020 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="CCM Flyback"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319032" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD25_3W:2W_PARALLELX2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD25_L32.45W27.03H13.97">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118350/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319032?ae"/>
+<attribute name="IO1" value="4A"/>
+<attribute name="ISAT" value="10.8A"/>
+<attribute name="L" value="22uH"/>
+<attribute name="N" value="2.4:2:1"/>
+<attribute name="PART-NUMBER" value=" 750319032 "/>
+<attribute name="SIZE" value="EFD25"/>
+<attribute name="VALUE" value=" 750319032 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="CCM Flyback"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319021" prefix="T">
+<description>&lt;b&gt;WE-PoE++ Power over Ethernet Plus Plus Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Suitable for CCM Flyback or Active Clamp Forward
+&lt;br&gt;Different power levels up to 95W
+&lt;br&gt;Frequency range: 250-400 kHz
+&lt;br&gt;Different output voltages available
+&lt;br&gt;Custom designs available
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom
+&lt;br&gt;Industrial Applications
+&lt;br&gt;WLAN Access Point
+&lt;br&gt;Safety cameras
+&lt;br&gt;Intelligent LED Lighting Networks
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o721702v209%20FAMILY-MID-POE%2B%2B.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-POE-PLUS-PLUS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-POE-PLUS-PLUS&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-01-30&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-POE++_EFD25_3W:3W_PARALLELX2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-POE++_EFD25_L32.45W27.03H13.97">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43118350/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319021?ae"/>
+<attribute name="IO1" value="8A"/>
+<attribute name="ISAT" value="10.8A"/>
+<attribute name="L" value="22uH"/>
+<attribute name="N" value="2.4:1:1"/>
+<attribute name="PART-NUMBER" value=" 750319021 "/>
+<attribute name="SIZE" value="EFD25"/>
+<attribute name="VALUE" value=" 750319021 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VERSION" value="CCM Flyback"/>
+<attribute name="VIN" value="33 - 57 V (DC)"/>
+<attribute name="VO1" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

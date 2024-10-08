@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Automotive - Single Coil Power Inductors - WE-LQSA&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2022a, 2022-05-31&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-LQSA_5040" urn="urn:adsk.eagle:footprint:21690162/2">
+<description>&lt;B&gt;WE-LQSA SMD Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 5040, SMT, 2pins
+&lt;BR&gt;L X W X H = 5mm X 5mm X 4mm</description>
+<smd name="1" x="-1.9" y="0" dx="2.45" dy="5.2" layer="1"/>
+<smd name="2" x="1.9" y="0" dx="2.45" dy="5.2" layer="1"/>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.5" y1="1.6" x2="-2.3" y2="1.8" width="0.1" layer="51" curve="-90"/>
+<wire x1="-2.3" y1="1.8" x2="-1.9" y2="1.8" width="0.1" layer="51"/>
+<wire x1="-1.9" y1="1.8" x2="-1.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="2.3" y2="-1.8" width="0.1" layer="51" curve="-90"/>
+<wire x1="2.3" y1="-1.8" x2="1.9" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="1.9" y1="-1.8" x2="1.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="2.3" y2="1.8" width="0.1" layer="51" curve="90"/>
+<wire x1="2.3" y1="1.8" x2="1.9" y2="1.8" width="0.1" layer="51"/>
+<wire x1="1.9" y1="1.8" x2="1.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.3" y2="-1.8" width="0.1" layer="51" curve="90"/>
+<wire x1="-2.3" y1="-1.8" x2="-1.9" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-1.9" y1="-1.8" x2="-1.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="2.5" x2="1.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="-2.5" x2="1.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="2.6" x2="0.3" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-2.6" x2="0.3" y2="-2.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.3" y="2.9"/>
+<vertex x="3.4" y="2.9"/>
+<vertex x="3.4" y="-2.8"/>
+<vertex x="-3.3" y="-2.8"/>
+</polygon>
+</package>
+<package name="WE-LQSA_6045" urn="urn:adsk.eagle:footprint:21690160/2">
+<description>&lt;B&gt;WE-LQSA SMD Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 6045, SMT, 2pins
+&lt;BR&gt;L X W X H = 5mm X 6mm X 4.6mm</description>
+<smd name="1" x="-2.3" y="0" dx="2.7" dy="6.2" layer="1"/>
+<smd name="2" x="2.3" y="0" dx="2.7" dy="6.2" layer="1"/>
+<wire x1="-3" y1="2.2" x2="-2.8" y2="2.4" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.3" y1="3" x2="-1.5" y2="2.9" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="-2.2" y1="2.4" x2="-2" y2="2.5" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="-2" y1="2.5" x2="-1.5" y2="2.9" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="2.4" x2="-2.2" y2="2.4" width="0.1" layer="51"/>
+<wire x1="3" y1="-2.2" x2="2.8" y2="-2.4" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.3" y1="-3" x2="1.5" y2="-2.9" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="2.2" y1="-2.4" x2="2" y2="-2.5" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="2" y1="-2.5" x2="1.5" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="2.8" y1="-2.4" x2="2.2" y2="-2.4" width="0.1" layer="51"/>
+<wire x1="3" y1="2.2" x2="2.8" y2="2.4" width="0.1" layer="51" curve="90"/>
+<wire x1="1.3" y1="3" x2="1.5" y2="2.9" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="2.2" y1="2.4" x2="2" y2="2.5" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="2" y1="2.5" x2="1.5" y2="2.9" width="0.1" layer="51"/>
+<wire x1="2.8" y1="2.4" x2="2.2" y2="2.4" width="0.1" layer="51"/>
+<wire x1="-3" y1="-2.2" x2="-2.8" y2="-2.4" width="0.1" layer="51" curve="90"/>
+<wire x1="-1.3" y1="-3" x2="-1.5" y2="-2.9" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="-2.2" y1="-2.4" x2="-2" y2="-2.5" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="-2" y1="-2.5" x2="-1.5" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="-2.4" x2="-2.2" y2="-2.4" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="3" x2="1.3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="-3" x2="1.3" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-2.2" x2="-3" y2="2.2" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="3.1" x2="0.5" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-0.5" y1="-3.1" x2="0.5" y2="-3.1" width="0.2" layer="21"/>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.9" y="3.3"/>
+<vertex x="3.9" y="3.3"/>
+<vertex x="3.9" y="-3.3"/>
+<vertex x="-3.9" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-LQSA_8040" urn="urn:adsk.eagle:footprint:21690159/2">
+<description>&lt;B&gt;WE-LQSA SMD Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 8040, SMT, 2pins
+&lt;BR&gt;L X W X H = 8mm X 8mm X 4.2mm</description>
+<smd name="1" x="-3.1" y="0" dx="3.05" dy="8.2" layer="1"/>
+<smd name="2" x="3.1" y="0" dx="3.05" dy="8.2" layer="1"/>
+<text x="0" y="4.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-4" y1="2.8" x2="-3.8" y2="3" width="0.1" layer="51" curve="-90"/>
+<wire x1="-2.9" y1="3" x2="-2.7" y2="3.1" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="-3.8" y1="3" x2="-2.9" y2="3" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="4" x2="-1.9" y2="3.9" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="-2.7" y1="3.1" x2="-1.9" y2="3.9" width="0.1" layer="51"/>
+<wire x1="4" y1="-2.8" x2="3.8" y2="-3" width="0.1" layer="51" curve="-90"/>
+<wire x1="2.9" y1="-3" x2="2.7" y2="-3.1" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="3.8" y1="-3" x2="2.9" y2="-3" width="0.1" layer="51"/>
+<wire x1="1.7" y1="-4" x2="1.9" y2="-3.9" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="2.7" y1="-3.1" x2="1.9" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="4" y1="2.8" x2="3.8" y2="3" width="0.1" layer="51" curve="90"/>
+<wire x1="2.9" y1="3" x2="2.7" y2="3.1" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="3.8" y1="3" x2="2.9" y2="3" width="0.1" layer="51"/>
+<wire x1="1.7" y1="4" x2="1.9" y2="3.9" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="2.7" y1="3.1" x2="1.9" y2="3.9" width="0.1" layer="51"/>
+<wire x1="-4" y1="-2.8" x2="-3.8" y2="-3" width="0.1" layer="51" curve="90"/>
+<wire x1="-2.9" y1="-3" x2="-2.7" y2="-3.1" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="-3.8" y1="-3" x2="-2.9" y2="-3" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="-4" x2="-1.9" y2="-3.9" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="-2.7" y1="-3.1" x2="-1.9" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="4" x2="1.7" y2="4" width="0.1" layer="51"/>
+<wire x1="4" y1="2.8" x2="4" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="-4" x2="1.7" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="-2.8" x2="-4" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="4.1" x2="1.2" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="-4.1" x2="1.2" y2="-4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="4.3"/>
+<vertex x="4.9" y="4.3"/>
+<vertex x="4.9" y="-4.3"/>
+<vertex x="-4.9" y="-4.3"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-LQSA_5040" urn="urn:adsk.eagle:package:21690171/3" type="model">
+<description>&lt;B&gt;WE-LQSA SMD Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 5040, SMT, 2pins
+&lt;BR&gt;L X W X H = 5mm X 5mm X 4mm</description>
+<packageinstances>
+<packageinstance name="WE-LQSA_5040"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQSA_6045" urn="urn:adsk.eagle:package:21690167/3" type="model">
+<description>&lt;B&gt;WE-LQSA SMD Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 6045, SMT, 2pins
+&lt;BR&gt;L X W X H = 5mm X 6mm X 4.6mm</description>
+<packageinstances>
+<packageinstance name="WE-LQSA_6045"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQSA_8040" urn="urn:adsk.eagle:package:21690165/3" type="model">
+<description>&lt;B&gt;WE-LQSA SMD Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 8040, SMT, 2pins
+&lt;BR&gt;L X W X H = 8mm X 8mm X 4.2mm</description>
+<packageinstances>
+<packageinstance name="WE-LQSA_8040"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-LQSA">
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.842" y="0.508" radius="0.127" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-LQSA_5040" prefix="L">
+<description>&lt;b&gt;WE-LQSA SMD Semi-Shielded Power Inductor
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Shielded construction with magnetic glue
+&lt;br&gt;Compact design compared to standard power inductors for high density mounting
+&lt;br&gt;Similar sizes and land pattern as WE-LQS
+&lt;br&gt;Robust design qualified with AEC-Q200 Grade 0
+&lt;br&gt;Operating temperature: -50 °C up to +150 °C
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;BR&gt;
+&lt;br&gt;&lt;/b&gt;LED Headlights (DC/DC-Converter, Control system)
+&lt;br&gt;Electric Vehicle (Battery Management System, Inverter, DC/DC)
+&lt;br&gt;Car Navigation Systems
+&lt;br&gt;Keyless Entry Systems
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o686110v209%20family-we-lqsa-78404084xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o686110v209%20family-we-lqsa-78404084xxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQSA/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQSA&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu  2022-05-31&lt;br&gt;
+2022 (C) Wurth Elektronik&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="WE-LQSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQSA_5040">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21690171/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_78404054010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054010?ae"/>
+<attribute name="FRES" value="187MHz"/>
+<attribute name="IR" value="5.7A"/>
+<attribute name="ISAT" value="7.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054010 "/>
+<attribute name="RDC" value="12mohm"/>
+<attribute name="RDC-MAX" value="14mohm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_78404054015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054015?ae"/>
+<attribute name="FRES" value="137MHz"/>
+<attribute name="IR" value="5.22A"/>
+<attribute name="ISAT" value="6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054015 "/>
+<attribute name="RDC" value="15mohm"/>
+<attribute name="RDC-MAX" value="18mohm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_78404054022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054022?ae"/>
+<attribute name="FRES" value="77MHz"/>
+<attribute name="IR" value="4.54A"/>
+<attribute name="ISAT" value="5.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054022 "/>
+<attribute name="RDC" value="19mohm"/>
+<attribute name="RDC-MAX" value="23mohm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_78404054033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054033?ae"/>
+<attribute name="FRES" value="48MHz"/>
+<attribute name="IR" value="4.06A"/>
+<attribute name="ISAT" value="4.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054033 "/>
+<attribute name="RDC" value="24mohm"/>
+<attribute name="RDC-MAX" value="29mohm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_78404054047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054047?ae"/>
+<attribute name="FRES" value="43MHz"/>
+<attribute name="IR" value="3.64A"/>
+<attribute name="ISAT" value="3.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054047 "/>
+<attribute name="RDC" value="30mohm"/>
+<attribute name="RDC-MAX" value="36mohm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_78404054068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054068?ae"/>
+<attribute name="FRES" value="35MHz"/>
+<attribute name="IR" value="3.01A"/>
+<attribute name="ISAT" value="3.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054068 "/>
+<attribute name="RDC" value="43mohm"/>
+<attribute name="RDC-MAX" value="52mohm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_78404054100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054100?ae"/>
+<attribute name="FRES" value="26MHz"/>
+<attribute name="IR" value="2.45A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054100 "/>
+<attribute name="RDC" value="68mohm"/>
+<attribute name="RDC-MAX" value="82mohm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_78404054101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054101?ae"/>
+<attribute name="FRES" value="7MHz"/>
+<attribute name="IR" value="0.82A"/>
+<attribute name="ISAT" value="0.82A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054101 "/>
+<attribute name="RDC" value="600mohm"/>
+<attribute name="RDC-MAX" value="720mohm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_78404054150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054150?ae"/>
+<attribute name="FRES" value="22MHz"/>
+<attribute name="IR" value="2.01A"/>
+<attribute name="ISAT" value="2.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054150 "/>
+<attribute name="RDC" value="90mohm"/>
+<attribute name="RDC-MAX" value="108mohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_78404054470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054470?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="1.19A"/>
+<attribute name="ISAT" value="1.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054470 "/>
+<attribute name="RDC" value="290mohm"/>
+<attribute name="RDC-MAX" value="348mohm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_78404054680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404054680?ae"/>
+<attribute name="FRES" value="9MHz"/>
+<attribute name="IR" value="0.97A"/>
+<attribute name="ISAT" value="0.99A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404054680 "/>
+<attribute name="RDC" value="430mohm"/>
+<attribute name="RDC-MAX" value="516mohm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQSA_6045" prefix="L">
+<description>&lt;b&gt;WE-LQSA SMD Semi-Shielded Power Inductor
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Shielded construction with magnetic glue
+&lt;br&gt;Compact design compared to standard power inductors for high density mounting
+&lt;br&gt;Similar sizes and land pattern as WE-LQS
+&lt;br&gt;Robust design qualified with AEC-Q200 Grade 0
+&lt;br&gt;Operating temperature: -50 °C up to +150 °C
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;BR&gt;
+&lt;br&gt;&lt;/b&gt;LED Headlights (DC/DC-Converter, Control system)
+&lt;br&gt;Electric Vehicle (Battery Management System, Inverter, DC/DC)
+&lt;br&gt;Car Navigation Systems
+&lt;br&gt;Keyless Entry Systems
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o686110v209%20family-we-lqsa-78404084xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o686110v209%20family-we-lqsa-78404084xxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQSA/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQSA&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu  2022-05-31&lt;br&gt;
+2022 (C) Wurth Elektronik&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="WE-LQSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQSA_6045">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21690167/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_78404064010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064010?ae"/>
+<attribute name="FRES" value="159MHz"/>
+<attribute name="IR" value="6.7A"/>
+<attribute name="ISAT" value="11.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064010 "/>
+<attribute name="RDC" value="9mohm"/>
+<attribute name="RDC-MAX" value="11mohm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_78404064015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064015?ae"/>
+<attribute name="FRES" value="115MHz"/>
+<attribute name="IR" value="6.1A"/>
+<attribute name="ISAT" value="9.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064015 "/>
+<attribute name="RDC" value="11mohm"/>
+<attribute name="RDC-MAX" value="13mohm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_78404064022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064022?ae"/>
+<attribute name="FRES" value="60MHz"/>
+<attribute name="IR" value="5.3A"/>
+<attribute name="ISAT" value="8.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064022 "/>
+<attribute name="RDC" value="14mohm"/>
+<attribute name="RDC-MAX" value="17mohm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_78404064033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064033?ae"/>
+<attribute name="FRES" value="42MHz"/>
+<attribute name="IR" value="4.1A"/>
+<attribute name="ISAT" value="6.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064033 "/>
+<attribute name="RDC" value="23mohm"/>
+<attribute name="RDC-MAX" value="28mohm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_78404064047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064047?ae"/>
+<attribute name="FRES" value="36MHz"/>
+<attribute name="IR" value="3.7A"/>
+<attribute name="ISAT" value="5.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064047 "/>
+<attribute name="RDC" value="28mohm"/>
+<attribute name="RDC-MAX" value="34mohm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_78404064068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064068?ae"/>
+<attribute name="FRES" value="27MHz"/>
+<attribute name="IR" value="3.3A"/>
+<attribute name="ISAT" value="4.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064068 "/>
+<attribute name="RDC" value="35mohm"/>
+<attribute name="RDC-MAX" value="42mohm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_78404064100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064100?ae"/>
+<attribute name="FRES" value="22MHz"/>
+<attribute name="IR" value="2.8A"/>
+<attribute name="ISAT" value="3.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064100 "/>
+<attribute name="RDC" value="48mohm"/>
+<attribute name="RDC-MAX" value="58mohm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_78404064101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064101?ae"/>
+<attribute name="FRES" value="6MHz"/>
+<attribute name="IR" value="0.9A"/>
+<attribute name="ISAT" value="1.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064101 "/>
+<attribute name="RDC" value="443mohm"/>
+<attribute name="RDC-MAX" value="532mohm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_78404064150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064150?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="2.4A"/>
+<attribute name="ISAT" value="3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064150 "/>
+<attribute name="RDC" value="73mohm"/>
+<attribute name="RDC-MAX" value="88mohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_78404064220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064220?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="1.9A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064220 "/>
+<attribute name="RDC" value="100mohm"/>
+<attribute name="RDC-MAX" value="120mohm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_78404064330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064330?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="IR" value="1.7A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064330 "/>
+<attribute name="RDC" value="140mohm"/>
+<attribute name="RDC-MAX" value="168mohm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_78404064470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064470?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="1.4A"/>
+<attribute name="ISAT" value="1.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064470 "/>
+<attribute name="RDC" value="210mohm"/>
+<attribute name="RDC-MAX" value="252mohm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_78404064680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404064680?ae"/>
+<attribute name="FRES" value="8MHz"/>
+<attribute name="IR" value="1.1A"/>
+<attribute name="ISAT" value="1.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404064680 "/>
+<attribute name="RDC" value="306mohm"/>
+<attribute name="RDC-MAX" value="367mohm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQSA_8040" prefix="L">
+<description>&lt;b&gt;WE-LQSA SMD Semi-Shielded Power Inductor
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Shielded construction with magnetic glue
+&lt;br&gt;Compact design compared to standard power inductors for high density mounting
+&lt;br&gt;Similar sizes and land pattern as WE-LQS
+&lt;br&gt;Robust design qualified with AEC-Q200 Grade 0
+&lt;br&gt;Operating temperature: -50 °C up to +150 °C
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;BR&gt;
+&lt;br&gt;&lt;/b&gt;LED Headlights (DC/DC-Converter, Control system)
+&lt;br&gt;Electric Vehicle (Battery Management System, Inverter, DC/DC)
+&lt;br&gt;Car Navigation Systems
+&lt;br&gt;Keyless Entry Systems
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o686110v209%20family-we-lqsa-78404084xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o686110v209%20family-we-lqsa-78404084xxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQSA/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQSA&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu  2022-05-31&lt;br&gt;
+2022 (C) Wurth Elektronik&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="WE-LQSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQSA_8040">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21690165/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_78404084150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404084150?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="3.75A"/>
+<attribute name="ISAT" value="3.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404084150 "/>
+<attribute name="RDC" value="50mohm"/>
+<attribute name="RDC-MAX" value="60mohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_78404084220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404084220?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="3.2A"/>
+<attribute name="ISAT" value="3.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404084220 "/>
+<attribute name="RDC" value="71mohm"/>
+<attribute name="RDC-MAX" value="85mohm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_78404084470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404084470?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="2.23A"/>
+<attribute name="ISAT" value="2.18A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404084470 "/>
+<attribute name="RDC" value="140mohm"/>
+<attribute name="RDC-MAX" value="168mohm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_78404084680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78404084680?ae"/>
+<attribute name="FRES" value="8MHz"/>
+<attribute name="IR" value="1.8A"/>
+<attribute name="ISAT" value="1.82A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 78404084680 "/>
+<attribute name="RDC" value="204mohm"/>
+<attribute name="RDC-MAX" value="245mohm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

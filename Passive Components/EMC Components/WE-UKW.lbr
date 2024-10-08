@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - EMC Components - Ferrites For PCB Assembly - WE-UKW&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-UKW_7427501" urn="urn:adsk.eagle:footprint:7784256/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-7" y="0" drill="0.95" diameter="1.45"/>
+<pad name="2" x="7" y="0" drill="0.95" diameter="1.45"/>
+<wire x1="-5.1" y1="3.1" x2="-5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-3.1" x2="5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-3.1" x2="5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="3.1" x2="-5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="3" x2="5" y2="3" width="0.1" layer="51"/>
+<wire x1="5" y1="3" x2="5" y2="-3" width="0.1" layer="51"/>
+<wire x1="5" y1="-3" x2="-5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5" y1="-3" x2="-5" y2="3" width="0.1" layer="51"/>
+<text x="-0.02" y="3.71" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.42" y="-4.88" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8" y="3.3"/>
+<vertex x="8" y="3.3"/>
+<vertex x="8" y="-3.3"/>
+<vertex x="-8" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_7427502" urn="urn:adsk.eagle:footprint:7784257/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-7" y="0" drill="0.95" diameter="1.45"/>
+<pad name="2" x="7" y="0" drill="0.95" diameter="1.45"/>
+<wire x1="-5.1" y1="3.1" x2="-5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-3.1" x2="5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-3.1" x2="5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="3.1" x2="-5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="3" x2="5" y2="3" width="0.1" layer="51"/>
+<wire x1="5" y1="3" x2="5" y2="-3" width="0.1" layer="51"/>
+<wire x1="5" y1="-3" x2="-5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5" y1="-3" x2="-5" y2="3" width="0.1" layer="51"/>
+<text x="-0.02" y="3.71" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.42" y="-4.88" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8" y="3.3"/>
+<vertex x="8" y="3.3"/>
+<vertex x="8" y="-3.3"/>
+<vertex x="-8" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_7427504" urn="urn:adsk.eagle:footprint:7784254/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-7" y="0" drill="0.95" diameter="1.45"/>
+<pad name="2" x="7" y="0" drill="0.95" diameter="1.45"/>
+<wire x1="-5.1" y1="3.1" x2="-5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-3.1" x2="5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-3.1" x2="5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="3.1" x2="-5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="3" x2="5" y2="3" width="0.1" layer="51"/>
+<wire x1="5" y1="3" x2="5" y2="-3" width="0.1" layer="51"/>
+<wire x1="5" y1="-3" x2="-5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5" y1="-3" x2="-5" y2="3" width="0.1" layer="51"/>
+<text x="-0.02" y="3.71" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.42" y="-4.88" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8" y="3.3"/>
+<vertex x="8" y="3.3"/>
+<vertex x="8" y="-3.3"/>
+<vertex x="-8" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275043" urn="urn:adsk.eagle:footprint:7784287/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-1.19" y="1.265" drill="0.95" diameter="1.45"/>
+<pad name="2" x="1.19" y="-1.265" drill="0.95" diameter="1.45"/>
+<text x="0.06" y="3.71" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.44" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.1" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.3" y="3.3"/>
+<vertex x="3.3" y="3.3"/>
+<vertex x="3.3" y="-3.3"/>
+<vertex x="-3.3" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275013" urn="urn:adsk.eagle:footprint:7784285/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-1.19" y="1.265" drill="0.95" diameter="1.45"/>
+<pad name="2" x="1.19" y="-1.265" drill="0.95" diameter="1.45"/>
+<text x="0.06" y="3.61" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.34" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.1" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="3.3" y="3.3"/>
+<vertex x="3.3" y="-3.3"/>
+<vertex x="-3.3" y="-3.3"/>
+<vertex x="-3.3" y="3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275143" urn="urn:adsk.eagle:footprint:7784288/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-1.19" y="1.265" drill="0.95" diameter="1.45"/>
+<pad name="2" x="1.19" y="-1.265" drill="0.95" diameter="1.45"/>
+<text x="-0.04" y="3.61" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.44" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.1" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.3" y="3.3"/>
+<vertex x="3.3" y="3.3"/>
+<vertex x="3.3" y="-3.3"/>
+<vertex x="-3.3" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275010" urn="urn:adsk.eagle:footprint:7784253/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-3.81" y="1.265" drill="0.95" diameter="1.45"/>
+<pad name="2" x="1.19" y="1.265" drill="0.95" diameter="1.45"/>
+<text x="-0.636" y="3.8074" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.3002" y="-5.3167" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.85" y="3.35"/>
+<vertex x="3.3" y="3.35"/>
+<vertex x="3.3" y="-3.35"/>
+<vertex x="-4.85" y="-3.35"/>
+</polygon>
+<circle x="0" y="0" radius="3" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="1.7" x2="-3.1" y2="0.2" width="0.2" layer="21" curve="-330.512874"/>
+</package>
+<package name="WE-UKW_74275223" urn="urn:adsk.eagle:footprint:7784293/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-2.5" y="0" drill="0.9" diameter="1.4"/>
+<pad name="2" x="2.5" y="0" drill="0.9" diameter="1.4"/>
+<text x="-0.05" y="3.74" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.39" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.625" y1="1.145" x2="2.625" y2="1.145" width="0.1" layer="51"/>
+<wire x1="-2.625" y1="-1.145" x2="2.625" y2="-1.145" width="0.1" layer="51"/>
+<wire x1="-2.61" y1="1.14" x2="-2.61" y2="-1.14" width="0.1" layer="51" curve="172.506735"/>
+<wire x1="2.61" y1="-1.14" x2="2.61" y2="1.14" width="0.1" layer="51" curve="172.506735"/>
+<wire x1="-2.79" y1="1.12" x2="2.79" y2="1.12" width="0.1" layer="51" curve="-136.432702"/>
+<wire x1="2.79" y1="-1.12" x2="-2.79" y2="-1.12" width="0.1" layer="51" curve="-136.432702"/>
+<wire x1="-2.9" y1="1.2" x2="2.9" y2="1.2" width="0.2" layer="21" curve="-133.364583"/>
+<wire x1="-2.9" y1="1.2" x2="-2.8" y2="-1.2" width="0.2" layer="21" curve="151.971506"/>
+<wire x1="2.9" y1="-1.2" x2="2.8" y2="1.2" width="0.2" layer="21" curve="151.971506"/>
+<wire x1="2.9" y1="-1.2" x2="-2.9" y2="-1.2" width="0.2" layer="21" curve="-133.364583"/>
+<polygon width="0.127" layer="39">
+<vertex x="-4.1" y="3.36"/>
+<vertex x="4.1" y="3.36"/>
+<vertex x="4.1" y="-3.36"/>
+<vertex x="-4.1" y="-3.36"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275123" urn="urn:adsk.eagle:footprint:12134844/1">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-1.19" y="1.265" drill="0.95" diameter="1.45"/>
+<pad name="2" x="1.19" y="-1.265" drill="0.95" diameter="1.45"/>
+<text x="0.06" y="3.71" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.44" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="3" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.3" y="3.3"/>
+<vertex x="3.3" y="3.3"/>
+<vertex x="3.3" y="-3.3"/>
+<vertex x="-3.3" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275011" urn="urn:adsk.eagle:footprint:7784284/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-7.35" y="0" drill="1.05" diameter="1.6"/>
+<pad name="2" x="7.35" y="0" drill="1.05" diameter="1.6"/>
+<wire x1="-5.1" y1="3.1" x2="-5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-3.1" x2="5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-3.1" x2="5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="3.1" x2="-5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="3" x2="5" y2="3" width="0.1" layer="51"/>
+<wire x1="5" y1="3" x2="5" y2="-3" width="0.1" layer="51"/>
+<wire x1="5" y1="-3" x2="-5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5" y1="-3" x2="-5" y2="3" width="0.1" layer="51"/>
+<text x="0.06" y="3.71" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.34" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.35" y="3.3"/>
+<vertex x="8.35" y="3.3"/>
+<vertex x="8.35" y="-3.3"/>
+<vertex x="-8.35" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275046" urn="urn:adsk.eagle:footprint:7784289/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-7.35" y="0" drill="1.05" diameter="1.6"/>
+<pad name="2" x="7.35" y="0" drill="1.05" diameter="1.6"/>
+<wire x1="-5.1" y1="3.1" x2="-5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-3.1" x2="5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-3.1" x2="5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="3.1" x2="-5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="3" x2="5" y2="3" width="0.1" layer="51"/>
+<wire x1="5" y1="3" x2="5" y2="-3" width="0.1" layer="51"/>
+<wire x1="5" y1="-3" x2="-5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5" y1="-3" x2="-5" y2="3" width="0.1" layer="51"/>
+<text x="0.06" y="3.71" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.34" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.35" y="3.3"/>
+<vertex x="8.35" y="3.3"/>
+<vertex x="8.35" y="-3.3"/>
+<vertex x="-8.35" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275023" urn="urn:adsk.eagle:footprint:7784286/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-1.19" y="1.265" drill="0.95" diameter="1.45"/>
+<pad name="2" x="1.19" y="-1.265" drill="0.95" diameter="1.45"/>
+<text x="0.06" y="3.71" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.44" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="3" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.3" y="3.3"/>
+<vertex x="3.3" y="3.3"/>
+<vertex x="3.3" y="-3.3"/>
+<vertex x="-3.3" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275243" urn="urn:adsk.eagle:footprint:7784290/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-2.5" y="0" drill="0.9" diameter="1.4"/>
+<pad name="2" x="2.5" y="0" drill="0.9" diameter="1.4"/>
+<text x="-0.05" y="3.74" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.39" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.625" y1="1.145" x2="2.625" y2="1.145" width="0.1" layer="51"/>
+<wire x1="-2.625" y1="-1.145" x2="2.625" y2="-1.145" width="0.1" layer="51"/>
+<wire x1="-2.61" y1="1.14" x2="-2.61" y2="-1.14" width="0.1" layer="51" curve="172.506735"/>
+<wire x1="2.61" y1="-1.14" x2="2.61" y2="1.14" width="0.1" layer="51" curve="172.506735"/>
+<wire x1="-2.79" y1="1.12" x2="2.79" y2="1.12" width="0.1" layer="51" curve="-136.432702"/>
+<wire x1="2.79" y1="-1.12" x2="-2.79" y2="-1.12" width="0.1" layer="51" curve="-136.432702"/>
+<wire x1="-2.9" y1="1.2" x2="2.9" y2="1.2" width="0.2" layer="21" curve="-133.364583"/>
+<wire x1="-2.9" y1="1.2" x2="-2.8" y2="-1.2" width="0.2" layer="21" curve="151.971506"/>
+<wire x1="2.9" y1="-1.2" x2="2.8" y2="1.2" width="0.2" layer="21" curve="151.971506"/>
+<wire x1="2.9" y1="-1.2" x2="-2.9" y2="-1.2" width="0.2" layer="21" curve="-133.364583"/>
+<polygon width="0.127" layer="39">
+<vertex x="-4.1" y="3.36"/>
+<vertex x="4.1" y="3.36"/>
+<vertex x="4.1" y="-3.36"/>
+<vertex x="-4.1" y="-3.36"/>
+</polygon>
+</package>
+<package name="WE-UKW_74275022" urn="urn:adsk.eagle:footprint:8925298/1">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-7" y="1.25" drill="0.95" diameter="1.45"/>
+<pad name="4" x="7" y="1.25" drill="0.95" diameter="1.45"/>
+<pad name="3" x="7" y="-1.25" drill="0.95" diameter="1.45"/>
+<pad name="2" x="-7" y="-1.25" drill="0.95" diameter="1.45"/>
+<wire x1="-5" y1="-3" x2="5" y2="-3" width="0.1" layer="51"/>
+<wire x1="5" y1="-3" x2="5" y2="3" width="0.1" layer="51"/>
+<wire x1="5" y1="3" x2="-5" y2="3" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="3.1" x2="5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="3.1" x2="5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-3.1" x2="-5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-3.1" x2="-5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="-3" x2="-5" y2="3" width="0.1" layer="51"/>
+<text x="-0.04" y="3.61" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.64" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-5.8" y="2.7" radius="0.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-8" y="3.3"/>
+<vertex x="8" y="3.3"/>
+<vertex x="8" y="-3.3"/>
+<vertex x="-8" y="-3.3"/>
+</polygon>
+</package>
+<package name="WE-UKW_742750421" urn="urn:adsk.eagle:footprint:8925299/1">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-1.19" y="1.265" drill="0.7" diameter="1.2"/>
+<pad name="2" x="1.19" y="1.265" drill="0.7" diameter="1.2"/>
+<pad name="3" x="1.19" y="-1.265" drill="0.7" diameter="1.2"/>
+<pad name="4" x="-1.19" y="-1.265" drill="0.7" diameter="1.2"/>
+<circle x="0" y="0" radius="3" width="0.1" layer="51"/>
+<circle x="-2.68" y="2.29" radius="0.1" width="0.2" layer="21"/>
+<circle x="0" y="0" radius="3.1" width="0.2" layer="21"/>
+<text x="-0.01" y="3.61" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.41" y="-4.98" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.127" layer="39">
+<vertex x="-3.25" y="3.25"/>
+<vertex x="3.25" y="3.25"/>
+<vertex x="3.25" y="-3.25"/>
+<vertex x="-3.25" y="-3.25"/>
+</polygon>
+</package>
+<package name="WE-UKW_7427503" urn="urn:adsk.eagle:footprint:7784283/2">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<pad name="1" x="-7" y="0" drill="0.95" diameter="1.45"/>
+<pad name="2" x="7" y="0" drill="0.95" diameter="1.45"/>
+<wire x1="-5.1" y1="3.1" x2="-5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-3.1" x2="5.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-3.1" x2="5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="3.1" x2="-5.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="3" x2="5" y2="3" width="0.1" layer="51"/>
+<wire x1="5" y1="3" x2="5" y2="-3" width="0.1" layer="51"/>
+<wire x1="5" y1="-3" x2="-5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5" y1="-3" x2="-5" y2="3" width="0.1" layer="51"/>
+<text x="-0.02" y="3.71" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.42" y="-4.88" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8" y="3.3"/>
+<vertex x="8" y="3.3"/>
+<vertex x="8" y="-3.3"/>
+<vertex x="-8" y="-3.3"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-UKW_7427501" urn="urn:adsk.eagle:package:7784337/2" type="box">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_7427501"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_7427502" urn="urn:adsk.eagle:package:7784338/2" type="box">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_7427502"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_7427504" urn="urn:adsk.eagle:package:7784335/2" type="box">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_7427504"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275013" urn="urn:adsk.eagle:package:7784331/3" type="model">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275013"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275043" urn="urn:adsk.eagle:package:7784329/3" type="model">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275043"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275143" urn="urn:adsk.eagle:package:7784359/3" type="model">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275143"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275223" urn="urn:adsk.eagle:package:7784364/3" type="model">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275223"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275010" urn="urn:adsk.eagle:package:7784334/3" type="model">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275010"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275023" urn="urn:adsk.eagle:package:7784330/3" type="model">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275023"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275011" urn="urn:adsk.eagle:package:7784332/2" type="box">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275011"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275123" urn="urn:adsk.eagle:package:12134847/2" type="model">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275123"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275046" urn="urn:adsk.eagle:package:7784360/2" type="box">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275046"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_7427503" urn="urn:adsk.eagle:package:7784333/2" type="box">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_7427503"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275243" urn="urn:adsk.eagle:package:7784361/3" type="model">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275243"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_74275022" urn="urn:adsk.eagle:package:8925303/1" type="box">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_74275022"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-UKW_742750421" urn="urn:adsk.eagle:package:8925304/2" type="model">
+<description>&lt;B&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead</description>
+<packageinstances>
+<packageinstance name="WE-UKW_742750421"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CM2W-H">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-0.168" y="3.256" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-4.44" y="-5.12" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="0.635" x2="4.445" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-0.635" x2="4.445" y2="-0.635" width="0.254" layer="94"/>
+<circle x="-5.3" y="0.7" radius="0.1" width="0.254" layer="94"/>
+<circle x="-5.3" y="-0.6" radius="0.1" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-UKW_2SW" prefix="L">
+<description>&lt;b&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Impedance will increase with more turns, available in 1 to 3 turns
+&lt;br&gt; 4 different materials available for perfect interference suppression
+&lt;br&gt; Also available ready-bent or in individual length
+&lt;br&gt; Maximum current capability is 3 A / 5 A (short-time)
+&lt;br&gt; Operating temperature: –25 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Protection against radio frequency interferences
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-UKW/S"&gt;http://katalog.we-online.de/en/pbs/WE-UKW/S&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created  by Ella Wu  2019-01-02&lt;br&gt;
+&lt;/b&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_742750421" package="WE-UKW_742750421">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8925304/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/742750421.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742750421 " constant="no"/>
+<attribute name="TYPE" value="2x1 turn vertical" constant="no"/>
+<attribute name="VALUE" value="230Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="145Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275022" package="WE-UKW_74275022">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8925303/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275022.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275022 " constant="no"/>
+<attribute name="TYPE" value="2x1.5 turns horizontal" constant="no"/>
+<attribute name="VALUE" value="512Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="320Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-UKW_1SW" prefix="L">
+<description>&lt;b&gt;WE-UKW EMI Suppression 6-Hole Ferrite Bead
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Impedance will increase with more turns, available in 1 to 3 turns
+&lt;br&gt; 4 different materials available for perfect interference suppression
+&lt;br&gt; Also available ready-bent or in individual length
+&lt;br&gt; Maximum current capability is 3 A / 5 A (short-time)
+&lt;br&gt; Operating temperature: –25 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Protection against radio frequency interferences
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.de/media/images/v2/o14887v209%20Family_WE-UKW_6LOCH.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-UKW/S"&gt;http://katalog.we-online.de/en/pbs/WE-UKW/S&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created  by Ella Wu  2019-01-02&lt;br&gt;
+&lt;/b&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_7427501" package="WE-UKW_7427501">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784337/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/7427501.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7427501 " constant="no"/>
+<attribute name="TYPE" value="2.5 turns horizontal" constant="no"/>
+<attribute name="VALUE" value="800Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="598Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_7427502" package="WE-UKW_7427502">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784338/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/7427502.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7427502 " constant="no"/>
+<attribute name="TYPE" value="2.5 turns horizontal" constant="no"/>
+<attribute name="VALUE" value="976Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="670Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_7427503" package="WE-UKW_7427503">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784333/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/7427503.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7427503 " constant="no"/>
+<attribute name="TYPE" value="2.5 turns horizontal" constant="no"/>
+<attribute name="VALUE" value="938Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="489Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_7427504" package="WE-UKW_7427504">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784335/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/7427504.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7427504 " constant="no"/>
+<attribute name="TYPE" value="2.5 turns horizontal" constant="no"/>
+<attribute name="VALUE" value="773Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="702Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275010" package="WE-UKW_74275010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784334/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275010.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275010 " constant="no"/>
+<attribute name="TYPE" value="2.5 turns vertical" constant="no"/>
+<attribute name="VALUE" value="860Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="623Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275011" package="WE-UKW_74275011">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784332/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275011.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275011 " constant="no"/>
+<attribute name="TYPE" value="2.5 turns horizontal" constant="no"/>
+<attribute name="VALUE" value="800Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="598Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275013" package="WE-UKW_74275013">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784331/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275013.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275013 " constant="no"/>
+<attribute name="TYPE" value="3 turns vertical" constant="no"/>
+<attribute name="VALUE" value="950Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="650Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275023" package="WE-UKW_74275023">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784330/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275023.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275023 " constant="no"/>
+<attribute name="TYPE" value="3 turns vertical" constant="no"/>
+<attribute name="VALUE" value="1240Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="720Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275043" package="WE-UKW_74275043">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784329/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275043.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275043 " constant="no"/>
+<attribute name="TYPE" value="3 turns vertical" constant="no"/>
+<attribute name="VALUE" value="961Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="920Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275046" package="WE-UKW_74275046">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784360/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275046.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275046 " constant="no"/>
+<attribute name="TYPE" value="2.5 turns horizontal" constant="no"/>
+<attribute name="VALUE" value="773Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="702Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275143" package="WE-UKW_74275143">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784359/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275143.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275143 " constant="no"/>
+<attribute name="TYPE" value="3 turns vertical" constant="no"/>
+<attribute name="VALUE" value="961Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="920Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275223" package="WE-UKW_74275223">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784364/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275223.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275223 " constant="no"/>
+<attribute name="TYPE" value="3 turns vertical" constant="no"/>
+<attribute name="VALUE" value="1240Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="720Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275243" package="WE-UKW_74275243">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784361/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275243.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275243 " constant="no"/>
+<attribute name="TYPE" value="3 turns vertical" constant="no"/>
+<attribute name="VALUE" value="961Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="920Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_74275123" package="WE-UKW_74275123">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12134847/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/74275123.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="MOUNT" value="THT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74275123 " constant="no"/>
+<attribute name="TYPE" value="3 turns vertical" constant="no"/>
+<attribute name="VALUE" value="1240Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="720Ohm@25MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

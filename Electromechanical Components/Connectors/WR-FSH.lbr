@@ -1,0 +1,2150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Fuseholder - WR-FSH &lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-09-08&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="696315001002" urn="urn:adsk.eagle:footprint:14787551/1">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Turn and Lock Cover - THT</description>
+<pad name="1" x="0" y="-0.07463125" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="-0.07463125" drill="0.8" shape="square"/>
+<text x="0" y="8.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4" y="2" size="0.8128" layer="48">PCB Cutout Area</text>
+<circle x="0" y="0" radius="7.5" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="7.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="46">
+<vertex x="-2.905" y="-5.65"/>
+<vertex x="2.905" y="-5.65"/>
+<vertex x="3.07" y="-5.56"/>
+<vertex x="3.245" y="-5.46"/>
+<vertex x="3.43" y="-5.345"/>
+<vertex x="3.625" y="-5.215"/>
+<vertex x="3.785" y="-5.1"/>
+<vertex x="3.985" y="-4.945"/>
+<vertex x="4.165" y="-4.795"/>
+<vertex x="4.325" y="-4.65"/>
+<vertex x="4.455" y="-4.525"/>
+<vertex x="4.58" y="-4.4"/>
+<vertex x="4.705" y="-4.265"/>
+<vertex x="4.815" y="-4.14"/>
+<vertex x="4.94" y="-3.99"/>
+<vertex x="5.05" y="-3.85"/>
+<vertex x="5.155" y="-3.71"/>
+<vertex x="5.26" y="-3.56"/>
+<vertex x="5.355" y="-3.415"/>
+<vertex x="5.445" y="-3.27"/>
+<vertex x="5.555" y="-3.08"/>
+<vertex x="5.645" y="-2.91"/>
+<vertex x="5.72" y="-2.76"/>
+<vertex x="5.79" y="-2.61"/>
+<vertex x="5.885" y="-2.39"/>
+<vertex x="5.94" y="-2.25"/>
+<vertex x="5.995" y="-2.1"/>
+<vertex x="6.04" y="-1.97"/>
+<vertex x="6.085" y="-1.82"/>
+<vertex x="6.135" y="-1.645"/>
+<vertex x="6.18" y="-1.465"/>
+<vertex x="6.22" y="-1.285"/>
+<vertex x="6.25" y="-1.13"/>
+<vertex x="6.28" y="-0.95"/>
+<vertex x="6.305" y="-0.76"/>
+<vertex x="6.325" y="-0.565"/>
+<vertex x="6.34" y="-0.365"/>
+<vertex x="6.345" y="-0.25"/>
+<vertex x="6.35" y="-0.075"/>
+<vertex x="6.35" y="0" curve="90"/>
+<vertex x="0" y="6.35" curve="90"/>
+<vertex x="-6.35" y="0"/>
+<vertex x="-6.35" y="-0.12"/>
+<vertex x="-6.345" y="-0.265"/>
+<vertex x="-6.335" y="-0.435"/>
+<vertex x="-6.325" y="-0.575"/>
+<vertex x="-6.31" y="-0.725"/>
+<vertex x="-6.29" y="-0.88"/>
+<vertex x="-6.265" y="-1.045"/>
+<vertex x="-6.235" y="-1.21"/>
+<vertex x="-6.195" y="-1.4"/>
+<vertex x="-6.16" y="-1.55"/>
+<vertex x="-6.125" y="-1.68"/>
+<vertex x="-6.08" y="-1.84"/>
+<vertex x="-6.04" y="-1.965"/>
+<vertex x="-5.99" y="-2.115"/>
+<vertex x="-5.935" y="-2.265"/>
+<vertex x="-5.88" y="-2.405"/>
+<vertex x="-5.825" y="-2.535"/>
+<vertex x="-5.765" y="-2.665"/>
+<vertex x="-5.71" y="-2.785"/>
+<vertex x="-5.635" y="-2.93"/>
+<vertex x="-5.535" y="-3.115"/>
+<vertex x="-5.445" y="-3.27"/>
+<vertex x="-5.365" y="-3.4"/>
+<vertex x="-5.27" y="-3.545"/>
+<vertex x="-5.175" y="-3.68"/>
+<vertex x="-5.085" y="-3.805"/>
+<vertex x="-4.96" y="-3.965"/>
+<vertex x="-4.83" y="-4.125"/>
+<vertex x="-4.69" y="-4.28"/>
+<vertex x="-4.57" y="-4.41"/>
+<vertex x="-4.435" y="-4.545"/>
+<vertex x="-4.31" y="-4.665"/>
+<vertex x="-4.165" y="-4.795"/>
+<vertex x="-4.015" y="-4.92"/>
+<vertex x="-3.865" y="-5.04"/>
+<vertex x="-3.69" y="-5.17"/>
+<vertex x="-3.515" y="-5.29"/>
+<vertex x="-3.335" y="-5.405"/>
+<vertex x="-3.15" y="-5.515"/>
+<vertex x="-2.97" y="-5.615"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="7.8" curve="-90"/>
+<vertex x="7.8" y="0" curve="-90"/>
+<vertex x="0" y="-7.8" curve="-90"/>
+<vertex x="-7.8" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="696213001002" urn="urn:adsk.eagle:footprint:14787554/1">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Screw and Lock Cover - THT</description>
+<pad name="1" x="0" y="-0.07463125" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="-0.07463125" drill="0.8" shape="square"/>
+<text x="0" y="12" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.6" y="1.8" size="0.8128" layer="48">PCB Cutout Area</text>
+<text x="-3.5" y="-13.2" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="11" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="11.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="46">
+<vertex x="5.65" y="-2.905"/>
+<vertex x="5.65" y="2.905"/>
+<vertex x="5.56" y="3.07"/>
+<vertex x="5.46" y="3.245"/>
+<vertex x="5.345" y="3.43"/>
+<vertex x="5.215" y="3.625"/>
+<vertex x="5.1" y="3.785"/>
+<vertex x="4.945" y="3.985"/>
+<vertex x="4.795" y="4.165"/>
+<vertex x="4.65" y="4.325"/>
+<vertex x="4.525" y="4.455"/>
+<vertex x="4.4" y="4.58"/>
+<vertex x="4.265" y="4.705"/>
+<vertex x="4.14" y="4.815"/>
+<vertex x="3.99" y="4.94"/>
+<vertex x="3.85" y="5.05"/>
+<vertex x="3.71" y="5.155"/>
+<vertex x="3.56" y="5.26"/>
+<vertex x="3.415" y="5.355"/>
+<vertex x="3.27" y="5.445"/>
+<vertex x="3.08" y="5.555"/>
+<vertex x="2.91" y="5.645"/>
+<vertex x="2.76" y="5.72"/>
+<vertex x="2.61" y="5.79"/>
+<vertex x="2.39" y="5.885"/>
+<vertex x="2.25" y="5.94"/>
+<vertex x="2.1" y="5.995"/>
+<vertex x="1.97" y="6.04"/>
+<vertex x="1.82" y="6.085"/>
+<vertex x="1.645" y="6.135"/>
+<vertex x="1.465" y="6.18"/>
+<vertex x="1.285" y="6.22"/>
+<vertex x="1.13" y="6.25"/>
+<vertex x="0.95" y="6.28"/>
+<vertex x="0.76" y="6.305"/>
+<vertex x="0.565" y="6.325"/>
+<vertex x="0.365" y="6.34"/>
+<vertex x="0.25" y="6.345"/>
+<vertex x="0.075" y="6.35"/>
+<vertex x="0" y="6.35" curve="90"/>
+<vertex x="-6.35" y="0" curve="90"/>
+<vertex x="0" y="-6.35"/>
+<vertex x="0.12" y="-6.35"/>
+<vertex x="0.265" y="-6.345"/>
+<vertex x="0.435" y="-6.335"/>
+<vertex x="0.575" y="-6.325"/>
+<vertex x="0.725" y="-6.31"/>
+<vertex x="0.88" y="-6.29"/>
+<vertex x="1.045" y="-6.265"/>
+<vertex x="1.21" y="-6.235"/>
+<vertex x="1.4" y="-6.195"/>
+<vertex x="1.55" y="-6.16"/>
+<vertex x="1.68" y="-6.125"/>
+<vertex x="1.84" y="-6.08"/>
+<vertex x="1.965" y="-6.04"/>
+<vertex x="2.115" y="-5.99"/>
+<vertex x="2.265" y="-5.935"/>
+<vertex x="2.405" y="-5.88"/>
+<vertex x="2.535" y="-5.825"/>
+<vertex x="2.665" y="-5.765"/>
+<vertex x="2.785" y="-5.71"/>
+<vertex x="2.93" y="-5.635"/>
+<vertex x="3.115" y="-5.535"/>
+<vertex x="3.27" y="-5.445"/>
+<vertex x="3.4" y="-5.365"/>
+<vertex x="3.545" y="-5.27"/>
+<vertex x="3.68" y="-5.175"/>
+<vertex x="3.805" y="-5.085"/>
+<vertex x="3.965" y="-4.96"/>
+<vertex x="4.125" y="-4.83"/>
+<vertex x="4.28" y="-4.69"/>
+<vertex x="4.41" y="-4.57"/>
+<vertex x="4.545" y="-4.435"/>
+<vertex x="4.665" y="-4.31"/>
+<vertex x="4.795" y="-4.165"/>
+<vertex x="4.92" y="-4.015"/>
+<vertex x="5.04" y="-3.865"/>
+<vertex x="5.17" y="-3.69"/>
+<vertex x="5.29" y="-3.515"/>
+<vertex x="5.405" y="-3.335"/>
+<vertex x="5.515" y="-3.15"/>
+<vertex x="5.615" y="-2.97"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="11.3" curve="-90"/>
+<vertex x="11.3" y="0" curve="-90"/>
+<vertex x="0" y="-11.3" curve="-90"/>
+<vertex x="-11.3" y="0" curve="-90"/>
+</polygon>
+<wire x1="0" y1="7.5" x2="7.5" y2="0" width="0.1" layer="51" style="shortdash" curve="-90"/>
+<wire x1="7.5" y1="0" x2="0" y2="-7.5" width="0.1" layer="51" style="shortdash" curve="-90"/>
+<wire x1="0" y1="-7.5" x2="-7.5" y2="0" width="0.1" layer="51" style="shortdash" curve="-90"/>
+<wire x1="-7.5" y1="0" x2="0" y2="7.5" width="0.1" layer="51" style="shortdash" curve="-90"/>
+</package>
+<package name="696314001002" urn="urn:adsk.eagle:footprint:14787553/1">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Turn and Lock Cover - THT</description>
+<pad name="1" x="0" y="-0.07463125" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="-0.07463125" drill="0.8" shape="square"/>
+<text x="0" y="8.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4" y="2" size="0.8128" layer="48">PCB Cutout Area</text>
+<circle x="0" y="0" radius="7.5" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="7.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="46">
+<vertex x="-2.905" y="-5.65"/>
+<vertex x="2.905" y="-5.65"/>
+<vertex x="3.07" y="-5.56"/>
+<vertex x="3.245" y="-5.46"/>
+<vertex x="3.43" y="-5.345"/>
+<vertex x="3.625" y="-5.215"/>
+<vertex x="3.785" y="-5.1"/>
+<vertex x="3.985" y="-4.945"/>
+<vertex x="4.165" y="-4.795"/>
+<vertex x="4.325" y="-4.65"/>
+<vertex x="4.455" y="-4.525"/>
+<vertex x="4.58" y="-4.4"/>
+<vertex x="4.705" y="-4.265"/>
+<vertex x="4.815" y="-4.14"/>
+<vertex x="4.94" y="-3.99"/>
+<vertex x="5.05" y="-3.85"/>
+<vertex x="5.155" y="-3.71"/>
+<vertex x="5.26" y="-3.56"/>
+<vertex x="5.355" y="-3.415"/>
+<vertex x="5.445" y="-3.27"/>
+<vertex x="5.555" y="-3.08"/>
+<vertex x="5.645" y="-2.91"/>
+<vertex x="5.72" y="-2.76"/>
+<vertex x="5.79" y="-2.61"/>
+<vertex x="5.885" y="-2.39"/>
+<vertex x="5.94" y="-2.25"/>
+<vertex x="5.995" y="-2.1"/>
+<vertex x="6.04" y="-1.97"/>
+<vertex x="6.085" y="-1.82"/>
+<vertex x="6.135" y="-1.645"/>
+<vertex x="6.18" y="-1.465"/>
+<vertex x="6.22" y="-1.285"/>
+<vertex x="6.25" y="-1.13"/>
+<vertex x="6.28" y="-0.95"/>
+<vertex x="6.305" y="-0.76"/>
+<vertex x="6.325" y="-0.565"/>
+<vertex x="6.34" y="-0.365"/>
+<vertex x="6.345" y="-0.25"/>
+<vertex x="6.35" y="-0.075"/>
+<vertex x="6.35" y="0" curve="90"/>
+<vertex x="0" y="6.35" curve="90"/>
+<vertex x="-6.35" y="0"/>
+<vertex x="-6.35" y="-0.12"/>
+<vertex x="-6.345" y="-0.265"/>
+<vertex x="-6.335" y="-0.435"/>
+<vertex x="-6.325" y="-0.575"/>
+<vertex x="-6.31" y="-0.725"/>
+<vertex x="-6.29" y="-0.88"/>
+<vertex x="-6.265" y="-1.045"/>
+<vertex x="-6.235" y="-1.21"/>
+<vertex x="-6.195" y="-1.4"/>
+<vertex x="-6.16" y="-1.55"/>
+<vertex x="-6.125" y="-1.68"/>
+<vertex x="-6.08" y="-1.84"/>
+<vertex x="-6.04" y="-1.965"/>
+<vertex x="-5.99" y="-2.115"/>
+<vertex x="-5.935" y="-2.265"/>
+<vertex x="-5.88" y="-2.405"/>
+<vertex x="-5.825" y="-2.535"/>
+<vertex x="-5.765" y="-2.665"/>
+<vertex x="-5.71" y="-2.785"/>
+<vertex x="-5.635" y="-2.93"/>
+<vertex x="-5.535" y="-3.115"/>
+<vertex x="-5.445" y="-3.27"/>
+<vertex x="-5.365" y="-3.4"/>
+<vertex x="-5.27" y="-3.545"/>
+<vertex x="-5.175" y="-3.68"/>
+<vertex x="-5.085" y="-3.805"/>
+<vertex x="-4.96" y="-3.965"/>
+<vertex x="-4.83" y="-4.125"/>
+<vertex x="-4.69" y="-4.28"/>
+<vertex x="-4.57" y="-4.41"/>
+<vertex x="-4.435" y="-4.545"/>
+<vertex x="-4.31" y="-4.665"/>
+<vertex x="-4.165" y="-4.795"/>
+<vertex x="-4.015" y="-4.92"/>
+<vertex x="-3.865" y="-5.04"/>
+<vertex x="-3.69" y="-5.17"/>
+<vertex x="-3.515" y="-5.29"/>
+<vertex x="-3.335" y="-5.405"/>
+<vertex x="-3.15" y="-5.515"/>
+<vertex x="-2.97" y="-5.615"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="7.8" curve="-90"/>
+<vertex x="7.8" y="0" curve="-90"/>
+<vertex x="0" y="-7.8" curve="-90"/>
+<vertex x="-7.8" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="696103201002" urn="urn:adsk.eagle:footprint:14787556/1">
+<description>&lt;b&gt;WR-FSH Fuseholder THR Blocks PCB Clip Cover</description>
+<pad name="1" x="-11.25" y="0" drill="1.3"/>
+<pad name="2" x="11.25" y="0" drill="1.3"/>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.127" layer="39">
+<vertex x="-12.7" y="5"/>
+<vertex x="12.7" y="5"/>
+<vertex x="12.7" y="-5"/>
+<vertex x="-12.7" y="-5"/>
+</polygon>
+<wire x1="-12.4" y1="4.7" x2="12.4" y2="4.7" width="0.1" layer="51"/>
+<wire x1="12.4" y1="4.7" x2="12.4" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="12.4" y1="-4.7" x2="-12.4" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="-12.4" y1="-4.7" x2="-12.4" y2="4.7" width="0.1" layer="51"/>
+<wire x1="-12.5" y1="4.8" x2="12.5" y2="4.8" width="0.2" layer="21"/>
+<wire x1="12.5" y1="-4.8" x2="-12.5" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="-12.5" y1="4.8" x2="-12.5" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-12.5" y1="-4.8" x2="-12.5" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="12.5" y1="4.8" x2="12.5" y2="0.5" width="0.2" layer="21"/>
+<wire x1="12.5" y1="-4.8" x2="12.5" y2="-0.5" width="0.2" layer="21"/>
+</package>
+<package name="696212001002" urn="urn:adsk.eagle:footprint:14787555/1">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Screw and Lock Cover - THT</description>
+<pad name="1" x="0" y="-0.07463125" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="-0.07463125" drill="0.8" shape="square"/>
+<text x="0" y="8.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4" y="2" size="0.8128" layer="48">PCB Cutout Area</text>
+<circle x="0" y="0" radius="7.5" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="7.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="46">
+<vertex x="-2.905" y="-5.65"/>
+<vertex x="2.905" y="-5.65"/>
+<vertex x="3.07" y="-5.56"/>
+<vertex x="3.245" y="-5.46"/>
+<vertex x="3.43" y="-5.345"/>
+<vertex x="3.625" y="-5.215"/>
+<vertex x="3.785" y="-5.1"/>
+<vertex x="3.985" y="-4.945"/>
+<vertex x="4.165" y="-4.795"/>
+<vertex x="4.325" y="-4.65"/>
+<vertex x="4.455" y="-4.525"/>
+<vertex x="4.58" y="-4.4"/>
+<vertex x="4.705" y="-4.265"/>
+<vertex x="4.815" y="-4.14"/>
+<vertex x="4.94" y="-3.99"/>
+<vertex x="5.05" y="-3.85"/>
+<vertex x="5.155" y="-3.71"/>
+<vertex x="5.26" y="-3.56"/>
+<vertex x="5.355" y="-3.415"/>
+<vertex x="5.445" y="-3.27"/>
+<vertex x="5.555" y="-3.08"/>
+<vertex x="5.645" y="-2.91"/>
+<vertex x="5.72" y="-2.76"/>
+<vertex x="5.79" y="-2.61"/>
+<vertex x="5.885" y="-2.39"/>
+<vertex x="5.94" y="-2.25"/>
+<vertex x="5.995" y="-2.1"/>
+<vertex x="6.04" y="-1.97"/>
+<vertex x="6.085" y="-1.82"/>
+<vertex x="6.135" y="-1.645"/>
+<vertex x="6.18" y="-1.465"/>
+<vertex x="6.22" y="-1.285"/>
+<vertex x="6.25" y="-1.13"/>
+<vertex x="6.28" y="-0.95"/>
+<vertex x="6.305" y="-0.76"/>
+<vertex x="6.325" y="-0.565"/>
+<vertex x="6.34" y="-0.365"/>
+<vertex x="6.345" y="-0.25"/>
+<vertex x="6.35" y="-0.075"/>
+<vertex x="6.35" y="0" curve="90"/>
+<vertex x="0" y="6.35" curve="90"/>
+<vertex x="-6.35" y="0"/>
+<vertex x="-6.35" y="-0.12"/>
+<vertex x="-6.345" y="-0.265"/>
+<vertex x="-6.335" y="-0.435"/>
+<vertex x="-6.325" y="-0.575"/>
+<vertex x="-6.31" y="-0.725"/>
+<vertex x="-6.29" y="-0.88"/>
+<vertex x="-6.265" y="-1.045"/>
+<vertex x="-6.235" y="-1.21"/>
+<vertex x="-6.195" y="-1.4"/>
+<vertex x="-6.16" y="-1.55"/>
+<vertex x="-6.125" y="-1.68"/>
+<vertex x="-6.08" y="-1.84"/>
+<vertex x="-6.04" y="-1.965"/>
+<vertex x="-5.99" y="-2.115"/>
+<vertex x="-5.935" y="-2.265"/>
+<vertex x="-5.88" y="-2.405"/>
+<vertex x="-5.825" y="-2.535"/>
+<vertex x="-5.765" y="-2.665"/>
+<vertex x="-5.71" y="-2.785"/>
+<vertex x="-5.635" y="-2.93"/>
+<vertex x="-5.535" y="-3.115"/>
+<vertex x="-5.445" y="-3.27"/>
+<vertex x="-5.365" y="-3.4"/>
+<vertex x="-5.27" y="-3.545"/>
+<vertex x="-5.175" y="-3.68"/>
+<vertex x="-5.085" y="-3.805"/>
+<vertex x="-4.96" y="-3.965"/>
+<vertex x="-4.83" y="-4.125"/>
+<vertex x="-4.69" y="-4.28"/>
+<vertex x="-4.57" y="-4.41"/>
+<vertex x="-4.435" y="-4.545"/>
+<vertex x="-4.31" y="-4.665"/>
+<vertex x="-4.165" y="-4.795"/>
+<vertex x="-4.015" y="-4.92"/>
+<vertex x="-3.865" y="-5.04"/>
+<vertex x="-3.69" y="-5.17"/>
+<vertex x="-3.515" y="-5.29"/>
+<vertex x="-3.335" y="-5.405"/>
+<vertex x="-3.15" y="-5.515"/>
+<vertex x="-2.97" y="-5.615"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="7.8" curve="-90"/>
+<vertex x="7.8" y="0" curve="-90"/>
+<vertex x="0" y="-7.8" curve="-90"/>
+<vertex x="-7.8" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="696310001002" urn="urn:adsk.eagle:footprint:14787558/2">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - PCB - Turn and Lock Cover - THT</description>
+<pad name="1" x="-5" y="0" drill="1.5"/>
+<pad name="2" x="5" y="0" drill="1.5"/>
+<wire x1="-21.5" y1="6.5" x2="6.6" y2="6.5" width="0.1" layer="51"/>
+<wire x1="6.6" y1="-6.5" x2="-21.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-26.5" y1="-5" x2="-26.5" y2="5" width="0.1" layer="51"/>
+<wire x1="-22.25" y1="-4.25" x2="-21.5" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-22.25" y1="-5" x2="-22.25" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-26.5" y1="-5" x2="-22.25" y2="-5" width="0.1" layer="51"/>
+<wire x1="6.6" y1="-6.5" x2="6.6" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-21.5" y1="-6.5" x2="-21.5" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-21.5" y1="4.25" x2="-21.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-22.25" y1="4.25" x2="-22.25" y2="5" width="0.1" layer="51"/>
+<wire x1="-26.5" y1="5" x2="-22.25" y2="5" width="0.1" layer="51"/>
+<wire x1="-22.25" y1="4.25" x2="-21.5" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-21.6" y1="4.35" x2="-21.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="-21.6" y1="6.6" x2="6.7" y2="6.6" width="0.2" layer="21"/>
+<wire x1="6.7" y1="6.6" x2="6.7" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="6.7" y1="-6.6" x2="-21.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-21.6" y1="-6.6" x2="-21.6" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="-21.6" y1="-4.35" x2="-22.15" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="-22.15" y1="-4.35" x2="-22.15" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-22.15" y1="-5.1" x2="-26.6" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-26.6" y1="-5.1" x2="-26.6" y2="5.1" width="0.2" layer="21"/>
+<wire x1="-26.6" y1="5.1" x2="-22.15" y2="5.1" width="0.2" layer="21"/>
+<wire x1="-22.15" y1="5.1" x2="-22.15" y2="4.35" width="0.2" layer="21"/>
+<wire x1="-22.15" y1="4.35" x2="-21.6" y2="4.35" width="0.2" layer="21"/>
+<text x="-12.5" y="-8.578" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-8" y="7.308" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-26.8" y="6.8"/>
+<vertex x="6.9" y="6.8"/>
+<vertex x="6.9" y="-6.8"/>
+<vertex x="-26.8" y="-6.8"/>
+</polygon>
+</package>
+<package name="696108003002" urn="urn:adsk.eagle:footprint:14787560/1">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696122003001</description>
+<pad name="1" x="-11.3" y="0" drill="1.5"/>
+<pad name="2" x="11.3" y="0" drill="1.5"/>
+<wire x1="-12.2" y1="-4.7" x2="-12.2" y2="4.7" width="0.1" layer="51"/>
+<wire x1="-12.2" y1="4.7" x2="12.2" y2="4.7" width="0.1" layer="51"/>
+<wire x1="12.2" y1="4.7" x2="12.2" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="12.2" y1="-4.7" x2="-12.2" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="-12.3" y1="4.8" x2="12.3" y2="4.8" width="0.2" layer="21"/>
+<wire x1="12.3" y1="-4.8" x2="-12.3" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="-12.3" y1="4.8" x2="-12.3" y2="1" width="0.2" layer="21"/>
+<wire x1="-12.3" y1="-4.8" x2="-12.3" y2="-1" width="0.2" layer="21"/>
+<wire x1="12.3" y1="4.8" x2="12.3" y2="1" width="0.2" layer="21"/>
+<wire x1="12.3" y1="-4.8" x2="12.3" y2="-1" width="0.2" layer="21"/>
+<text x="-3" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-12.5" y="5"/>
+<vertex x="12.5" y="5"/>
+<vertex x="12.5" y="-5"/>
+<vertex x="-12.5" y="-5"/>
+</polygon>
+</package>
+<package name="696211001102" urn="urn:adsk.eagle:footprint:14787552/1">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Screw and Lock Cover - THT - Glow wire Plastic</description>
+<circle x="0" y="0" radius="8" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="8.1" width="0.2" layer="21"/>
+<text x="0" y="9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-10" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.5" y="1.8" size="0.8128" layer="48">PCB Cutout Area</text>
+<pad name="1" x="0" y="0" drill="0.8"/>
+<pad name="2" x="0" y="0" drill="0.8"/>
+<wire x1="-6.5" y1="0" x2="-6.5" y2="0.005" width="0.01" layer="46"/>
+<polygon width="0.1" layer="46">
+<vertex x="-0.9" y="6.44"/>
+<vertex x="-0.9" y="7"/>
+<vertex x="0.9" y="7"/>
+<vertex x="0.9" y="6.44"/>
+<vertex x="1.145" y="6.4"/>
+<vertex x="1.395" y="6.35"/>
+<vertex x="1.65" y="6.29"/>
+<vertex x="1.895" y="6.22"/>
+<vertex x="2.155" y="6.135"/>
+<vertex x="2.42" y="6.035"/>
+<vertex x="2.645" y="5.94"/>
+<vertex x="2.88" y="5.83"/>
+<vertex x="3.1" y="5.715"/>
+<vertex x="3.295" y="5.605"/>
+<vertex x="3.48" y="5.49"/>
+<vertex x="3.635" y="5.39"/>
+<vertex x="3.785" y="5.285"/>
+<vertex x="3.935" y="5.175"/>
+<vertex x="4.08" y="5.06"/>
+<vertex x="4.23" y="4.935"/>
+<vertex x="4.35" y="4.83"/>
+<vertex x="4.49" y="4.7"/>
+<vertex x="4.55" y="4.64"/>
+<vertex x="4.68" y="4.51"/>
+<vertex x="4.8" y="4.385"/>
+<vertex x="4.91" y="4.26"/>
+<vertex x="5.035" y="4.11"/>
+<vertex x="5.185" y="3.92"/>
+<vertex x="5.31" y="3.75"/>
+<vertex x="5.445" y="3.55"/>
+<vertex x="5.54" y="3.4"/>
+<vertex x="5.6" y="3.3"/>
+<vertex x="5.685" y="3.155"/>
+<vertex x="5.765" y="3.005"/>
+<vertex x="5.835" y="2.865"/>
+<vertex x="5.895" y="2.74"/>
+<vertex x="5.955" y="2.61"/>
+<vertex x="6" y="2.505"/>
+<vertex x="6.05" y="2.38"/>
+<vertex x="6.095" y="2.26"/>
+<vertex x="6.145" y="2.125"/>
+<vertex x="6.195" y="1.97"/>
+<vertex x="6.235" y="1.84"/>
+<vertex x="6.27" y="1.715"/>
+<vertex x="6.315" y="1.545"/>
+<vertex x="6.35" y="1.395"/>
+<vertex x="6.375" y="1.275"/>
+<vertex x="6.405" y="1.115"/>
+<vertex x="6.43" y="0.96"/>
+<vertex x="6.45" y="0.81"/>
+<vertex x="6.465" y="0.675"/>
+<vertex x="6.48" y="0.515"/>
+<vertex x="6.49" y="0.355"/>
+<vertex x="6.495" y="0.245"/>
+<vertex x="6.5" y="0.085"/>
+<vertex x="6.5" y="0" curve="-90"/>
+<vertex x="0" y="-6.5" curve="-90"/>
+<vertex x="-6.5" y="0"/>
+<vertex x="-6.5" y="0.075"/>
+<vertex x="-6.5" y="0.1"/>
+<vertex x="-6.5" y="0.13"/>
+<vertex x="-6.495" y="0.24"/>
+<vertex x="-6.49" y="0.38"/>
+<vertex x="-6.48" y="0.525"/>
+<vertex x="-6.465" y="0.675"/>
+<vertex x="-6.45" y="0.815"/>
+<vertex x="-6.425" y="0.99"/>
+<vertex x="-6.4" y="1.14"/>
+<vertex x="-6.37" y="1.3"/>
+<vertex x="-6.335" y="1.46"/>
+<vertex x="-6.3" y="1.605"/>
+<vertex x="-6.265" y="1.735"/>
+<vertex x="-6.225" y="1.875"/>
+<vertex x="-6.185" y="2.005"/>
+<vertex x="-6.155" y="2.095"/>
+<vertex x="-6.105" y="2.235"/>
+<vertex x="-6.055" y="2.37"/>
+<vertex x="-5.995" y="2.515"/>
+<vertex x="-5.935" y="2.655"/>
+<vertex x="-5.88" y="2.775"/>
+<vertex x="-5.805" y="2.93"/>
+<vertex x="-5.74" y="3.055"/>
+<vertex x="-5.67" y="3.18"/>
+<vertex x="-5.595" y="3.31"/>
+<vertex x="-5.525" y="3.425"/>
+<vertex x="-5.45" y="3.545"/>
+<vertex x="-5.365" y="3.67"/>
+<vertex x="-5.275" y="3.8"/>
+<vertex x="-5.18" y="3.925"/>
+<vertex x="-5.085" y="4.05"/>
+<vertex x="-4.97" y="4.19"/>
+<vertex x="-4.83" y="4.35"/>
+<vertex x="-4.695" y="4.495"/>
+<vertex x="-4.63" y="4.56"/>
+<vertex x="-4.53" y="4.66"/>
+<vertex x="-4.41" y="4.775"/>
+<vertex x="-4.295" y="4.88"/>
+<vertex x="-4.2" y="4.96"/>
+<vertex x="-4.075" y="5.065"/>
+<vertex x="-3.875" y="5.22"/>
+<vertex x="-3.7" y="5.345"/>
+<vertex x="-3.5" y="5.48"/>
+<vertex x="-3.335" y="5.58"/>
+<vertex x="-3.135" y="5.695"/>
+<vertex x="-2.93" y="5.805"/>
+<vertex x="-2.775" y="5.88"/>
+<vertex x="-2.54" y="5.985"/>
+<vertex x="-2.315" y="6.075"/>
+<vertex x="-2.095" y="6.155"/>
+<vertex x="-1.895" y="6.22"/>
+<vertex x="-1.685" y="6.28"/>
+<vertex x="-1.44" y="6.34"/>
+<vertex x="-1.225" y="6.385"/>
+<vertex x="-1.08" y="6.41"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="8.3" curve="-90"/>
+<vertex x="8.3" y="0" curve="-90"/>
+<vertex x="0" y="-8.3" curve="-90"/>
+<vertex x="-8.3" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="696101000002" urn="urn:adsk.eagle:footprint:14787564/1">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696120004001</description>
+<pad name="1" x="-11.3" y="0" drill="1.5"/>
+<pad name="2" x="11.3" y="0" drill="1.5"/>
+<wire x1="-11" y1="-4.5" x2="-11" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-11" y1="4.5" x2="11" y2="4.5" width="0.1" layer="51"/>
+<wire x1="11" y1="4.5" x2="11" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="11" y1="-4.5" x2="-11" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-11.1" y1="1.5" x2="-11.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-11.1" y1="4.6" x2="11.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="11.1" y1="4.6" x2="11.1" y2="1.5" width="0.2" layer="21"/>
+<wire x1="11.1" y1="-1.5" x2="11.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="11.1" y1="-4.6" x2="-11.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-11.1" y1="-4.6" x2="-11.1" y2="-1.5" width="0.2" layer="21"/>
+<text x="-3.65" y="-6.478" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="12.7" y="4.8"/>
+<vertex x="12.7" y="-4.8"/>
+<vertex x="-12.7" y="-4.8"/>
+<vertex x="-12.7" y="4.8"/>
+</polygon>
+</package>
+<package name="696107003002" urn="urn:adsk.eagle:footprint:14787561/1">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696122003001</description>
+<pad name="1" x="-11.3" y="0" drill="1.5"/>
+<pad name="2" x="11.3" y="0" drill="1.5"/>
+<hole x="0" y="0" drill="2.6"/>
+<hole x="0" y="0" drill="2.6"/>
+<wire x1="-12.2" y1="-4.7" x2="-12.2" y2="4.7" width="0.1" layer="51"/>
+<wire x1="-12.2" y1="4.7" x2="12.2" y2="4.7" width="0.1" layer="51"/>
+<wire x1="12.2" y1="4.7" x2="12.2" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="12.2" y1="-4.7" x2="-12.2" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="-12.3" y1="4.8" x2="12.3" y2="4.8" width="0.2" layer="21"/>
+<wire x1="12.3" y1="-4.8" x2="-12.3" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="-12.3" y1="4.8" x2="-12.3" y2="1" width="0.2" layer="21"/>
+<wire x1="-12.3" y1="-4.8" x2="-12.3" y2="-1" width="0.2" layer="21"/>
+<wire x1="12.3" y1="4.8" x2="12.3" y2="1" width="0.2" layer="21"/>
+<wire x1="12.3" y1="-4.8" x2="12.3" y2="-1" width="0.2" layer="21"/>
+<text x="-3" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-12.5" y="5"/>
+<vertex x="12.5" y="5"/>
+<vertex x="12.5" y="-5"/>
+<vertex x="-12.5" y="-5"/>
+</polygon>
+</package>
+<package name="696105003002" urn="urn:adsk.eagle:footprint:14787563/1">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696122003001</description>
+<pad name="1" x="-7.5" y="0" drill="1.5"/>
+<pad name="2" x="7.5" y="0" drill="1.5"/>
+<hole x="0" y="0" drill="2.6"/>
+<hole x="0" y="0" drill="2.6"/>
+<wire x1="-12.2" y1="-4.7" x2="-12.2" y2="4.7" width="0.1" layer="51"/>
+<wire x1="-12.2" y1="4.7" x2="12.2" y2="4.7" width="0.1" layer="51"/>
+<wire x1="12.2" y1="4.7" x2="12.2" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="12.2" y1="-4.7" x2="-12.2" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="-12.3" y1="4.8" x2="12.3" y2="4.8" width="0.2" layer="21"/>
+<wire x1="12.3" y1="4.8" x2="12.3" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="12.3" y1="-4.8" x2="-12.3" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="-12.3" y1="-4.8" x2="-12.3" y2="4.8" width="0.2" layer="21"/>
+<text x="-3" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-12.5" y="5"/>
+<vertex x="12.5" y="5"/>
+<vertex x="12.5" y="-5"/>
+<vertex x="-12.5" y="-5"/>
+</polygon>
+</package>
+<package name="696106003002" urn="urn:adsk.eagle:footprint:14787562/1">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696122003001</description>
+<pad name="1" x="-7.5" y="0" drill="1.5"/>
+<pad name="2" x="7.5" y="0" drill="1.5"/>
+<wire x1="-12.2" y1="-4.7" x2="-12.2" y2="4.7" width="0.1" layer="51"/>
+<wire x1="-12.2" y1="4.7" x2="12.2" y2="4.7" width="0.1" layer="51"/>
+<wire x1="12.2" y1="4.7" x2="12.2" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="12.2" y1="-4.7" x2="-12.2" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="-12.3" y1="4.8" x2="12.3" y2="4.8" width="0.2" layer="21"/>
+<wire x1="12.3" y1="4.8" x2="12.3" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="12.3" y1="-4.8" x2="-12.3" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="-12.3" y1="-4.8" x2="-12.3" y2="4.8" width="0.2" layer="21"/>
+<text x="-3" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-12.5" y="5"/>
+<vertex x="12.5" y="5"/>
+<vertex x="12.5" y="-5"/>
+<vertex x="-12.5" y="-5"/>
+</polygon>
+</package>
+<package name="696103101002" urn="urn:adsk.eagle:footprint:14787557/1">
+<description>&lt;b&gt;WR-FSH Fuseholder SMT Blocks PCB Clip Cover</description>
+<smd name="2" x="8.5" y="0" dx="6" dy="6" layer="1"/>
+<smd name="1" x="-8.5" y="0" dx="6" dy="6" layer="1"/>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.127" layer="39">
+<vertex x="-12.7" y="5"/>
+<vertex x="12.7" y="5"/>
+<vertex x="12.7" y="-5"/>
+<vertex x="-12.7" y="-5"/>
+</polygon>
+<wire x1="-12.4" y1="4.7" x2="12.4" y2="4.7" width="0.1" layer="51"/>
+<wire x1="12.4" y1="4.7" x2="12.4" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="12.4" y1="-4.7" x2="-12.4" y2="-4.7" width="0.1" layer="51"/>
+<wire x1="-12.4" y1="-4.7" x2="-12.4" y2="4.7" width="0.1" layer="51"/>
+<wire x1="-12.5" y1="4.8" x2="12.5" y2="4.8" width="0.2" layer="21"/>
+<wire x1="12.5" y1="4.8" x2="12.5" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="12.5" y1="-4.8" x2="-12.5" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="-12.5" y1="-4.8" x2="-12.5" y2="4.8" width="0.2" layer="21"/>
+</package>
+<package name="696309001002" urn="urn:adsk.eagle:footprint:14787559/2">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - PCB - Turn and Lock Cover - THT</description>
+<text x="-3.5" y="-8.678" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<pad name="1" x="-5" y="0" drill="1.5"/>
+<pad name="2" x="5" y="0" drill="1.5"/>
+<wire x1="-5.65" y1="4.65" x2="-5.65" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="-5.65" y1="-3.9" x2="-5.65" y2="-4.65" width="0.01" layer="51"/>
+<wire x1="-5.65" y1="4.65" x2="-4.992" y2="4.65" width="0.1" layer="51"/>
+<wire x1="-5.65" y1="-4.65" x2="-4.992" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="-4.992" y1="4.65" x2="-4.992" y2="-4.65" width="0.1" layer="51" curve="-268.628458"/>
+<wire x1="-5.75" y1="4.695" x2="-5.75" y2="1.3" width="0.2" layer="21"/>
+<wire x1="-5.75" y1="-1.4" x2="-5.75" y2="-4.695" width="0.2" layer="21"/>
+<wire x1="-5.75" y1="4.695" x2="-5.092" y2="4.695" width="0.2" layer="21"/>
+<wire x1="-5.092" y1="-4.695" x2="-5.75" y2="-4.695" width="0.2" layer="21"/>
+<wire x1="-5.092" y1="4.695" x2="6.1" y2="0.82" width="0.2" layer="21" curve="-127.526646"/>
+<wire x1="-5.092" y1="-4.695" x2="6.1" y2="-0.82" width="0.2" layer="21" curve="127.526646"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.292" y="-4.77"/>
+<vertex x="-6.35" y="-4.77"/>
+<vertex x="-6.35" y="4.77"/>
+<vertex x="-5.292" y="4.77" curve="-270.864263"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="696315001002" urn="urn:adsk.eagle:package:14787566/2" type="model">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Turn and Lock Cover - THT</description>
+<packageinstances>
+<packageinstance name="696315001002"/>
+</packageinstances>
+</package3d>
+<package3d name="696103201002" urn="urn:adsk.eagle:package:14787571/2" type="model">
+<description>&lt;b&gt;WR-FSH Fuseholder THR Blocks PCB Clip Cover</description>
+<packageinstances>
+<packageinstance name="696103201002"/>
+</packageinstances>
+</package3d>
+<package3d name="696212001002" urn="urn:adsk.eagle:package:14787570/2" type="model">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Screw and Lock Cover - THT</description>
+<packageinstances>
+<packageinstance name="696212001002"/>
+</packageinstances>
+</package3d>
+<package3d name="696213001002" urn="urn:adsk.eagle:package:14787569/2" type="model">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Screw and Lock Cover - THT</description>
+<packageinstances>
+<packageinstance name="696213001002"/>
+</packageinstances>
+</package3d>
+<package3d name="696314001002" urn="urn:adsk.eagle:package:14787568/2" type="model">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Turn and Lock Cover - THT</description>
+<packageinstances>
+<packageinstance name="696314001002"/>
+</packageinstances>
+</package3d>
+<package3d name="696310001002" urn="urn:adsk.eagle:package:14787573/3" type="model">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - PCB - Turn and Lock Cover - THT</description>
+<packageinstances>
+<packageinstance name="696310001002"/>
+</packageinstances>
+</package3d>
+<package3d name="696108003002" urn="urn:adsk.eagle:package:14787575/2" type="model">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696122003001</description>
+<packageinstances>
+<packageinstance name="696108003002"/>
+</packageinstances>
+</package3d>
+<package3d name="696101000002" urn="urn:adsk.eagle:package:14787579/2" type="model">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696120004001</description>
+<packageinstances>
+<packageinstance name="696101000002"/>
+</packageinstances>
+</package3d>
+<package3d name="696211001102" urn="urn:adsk.eagle:package:14787567/2" type="model">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Screw and Lock Cover - THT - Glow wire Plastic</description>
+<packageinstances>
+<packageinstance name="696211001102"/>
+</packageinstances>
+</package3d>
+<package3d name="696107003002" urn="urn:adsk.eagle:package:14787576/2" type="model">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696122003001</description>
+<packageinstances>
+<packageinstance name="696107003002"/>
+</packageinstances>
+</package3d>
+<package3d name="696105003002" urn="urn:adsk.eagle:package:14787578/2" type="model">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696122003001</description>
+<packageinstances>
+<packageinstance name="696105003002"/>
+</packageinstances>
+</package3d>
+<package3d name="696106003002" urn="urn:adsk.eagle:package:14787577/2" type="model">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Mates with 696122003001</description>
+<packageinstances>
+<packageinstance name="696106003002"/>
+</packageinstances>
+</package3d>
+<package3d name="696103101002" urn="urn:adsk.eagle:package:14787572/2" type="model">
+<description>&lt;b&gt;WR-FSH Fuseholder SMT Blocks PCB Clip Cover</description>
+<packageinstances>
+<packageinstance name="696103101002"/>
+</packageinstances>
+</package3d>
+<package3d name="696309001002" urn="urn:adsk.eagle:package:14787574/3" type="model">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - PCB - Turn and Lock Cover - THT</description>
+<packageinstances>
+<packageinstance name="696309001002"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WR-FSH">
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="-1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="696213001002" prefix="J">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Screw and Lock Cover - THT
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Spring Material INOX Steel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 10 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [cULus] 3 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 3000 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 133367 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+&lt;br&gt;
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o150743v209%20Family_WR-FUSE_696213001002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o150743v209%20Family_WR-FUSE_696213001002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/SHOCKSAFE_FUSEHOLDER_696213001002"&gt;https://katalog.we-online.com/en/em/SHOCKSAFE_FUSEHOLDER_696213001002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696213001002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787569/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696213001002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="10A"/>
+<attribute name="PART-NUMBER" value=" 696213001002 "/>
+<attribute name="VALUE" value=" 696213001002 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696315001002" prefix="J">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Turn and Lock Cover - THT
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Spring Material INOX Steel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 10 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [cULus] 3 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 3000 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 120170 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+&lt;br&gt;
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33111v209%20Family_WR-FSH_696315001002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33111v209%20Family_WR-FSH_696315001002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PANEL_TURN_AND_LOCK_COVER_69631X001002"&gt;https://katalog.we-online.com/en/em/FSH_THT_PANEL_TURN_AND_LOCK_COVER_69631X001002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696314001002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787568/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696315001002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="10A"/>
+<attribute name="PART-NUMBER" value=" 696315001002 "/>
+<attribute name="VALUE" value=" 696315001002 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696314001002" prefix="J">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Turn and Lock Cover - THT
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Spring Material INOX Steel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 10 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [cULus] 3 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 3000 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 120170 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+&lt;br&gt;
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33111v209%20Family_WR-FSH_696315001002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33111v209%20Family_WR-FSH_696315001002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PANEL_TURN_AND_LOCK_COVER_69631X001002"&gt;https://katalog.we-online.com/en/em/FSH_THT_PANEL_TURN_AND_LOCK_COVER_69631X001002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696314001002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787568/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696314001002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="10A"/>
+<attribute name="PART-NUMBER" value=" 696314001002 "/>
+<attribute name="VALUE" value=" 696314001002 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696310001002" prefix="J">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - PCB - Turn and Lock Cover - THT
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Spring Material INOX Steel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 10 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 3000 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 120170 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o150670v209%20Family_WR-FSH_696309001002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o150670v209%20Family_WR-FSH_696309001002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PCB_TURN_AND_LOCK_COVER_6963XX001002_2"&gt;https://katalog.we-online.com/en/em/FSH_THT_PCB_TURN_AND_LOCK_COVER_6963XX001002_2&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2020-07-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696310001002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787573/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696310001002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="10A"/>
+<attribute name="PART-NUMBER" value="696310001002"/>
+<attribute name="VALUE" value="696310001002"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696103201002" prefix="J">
+<description>&lt;b&gt;WR-FSH Fuseholder THR Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PETG35 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 10 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 1500 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 120170 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o58927v209%20Family_p748_WR-FUSE_6961032010xx_4C.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o58927v209%20Family_p748_WR-FUSE_6961032010xx_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THR_PCB_CLIP_COVER_696103201002"&gt;https://katalog.we-online.com/en/em/FSH_THR_PCB_CLIP_COVER_696103201002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696103201002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787571/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696103201002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="10A"/>
+<attribute name="PART-NUMBER" value="696103201002"/>
+<attribute name="VALUE" value="696103201002"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696212001002" prefix="J">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Screw and Lock Cover - THT
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PBT 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Spring Material INOX Steel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 10 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [cULus] 3 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 3000 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 133367 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o58923v209%20Family_FSH_Shocksafe_696212001002_pf2.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o58923v209%20Family_FSH_Shocksafe_696212001002_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PANEL_SCREW_AND_LOCK_COVER_69621X001002"&gt;https://katalog.we-online.com/en/em/FSH_THT_PANEL_SCREW_AND_LOCK_COVER_69621X001002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696212001002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787570/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696212001002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="10A"/>
+<attribute name="PART-NUMBER" value=" 696212001002 "/>
+<attribute name="VALUE" value=" 696212001002 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696108003002" prefix="J">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Green 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 6.3 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [cULus] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 1500 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 129302 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+&lt;br&gt;
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33102v209%20Family_WR-FSH_69610X003002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33102v209%20Family_WR-FSH_69610X003002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_69610X003002"&gt;https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_69610X003002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696108003002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787575/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696108003002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="6.3A"/>
+<attribute name="MATES" value="696122003001 "/>
+<attribute name="PART-NUMBER" value="696108003002"/>
+<attribute name="VALUE" value="696108003002"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696211001102" prefix="J">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - Panel - Screw and Lock Cover - THT - Glow wire Plastic
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Spring Material INOX Steel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 10 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [cULus] 3 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 3000 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 133366 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+&lt;br&gt;
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33107v209%20Family_WR-FSH_696211001102.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33107v209%20Family_WR-FSH_696211001102.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PANEL_SCREW_AND_LOCK_COVER_696211001102"&gt;https://katalog.we-online.com/en/em/FSH_THT_PANEL_SCREW_AND_LOCK_COVER_696211001102&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696211001102">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787567/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696211001102.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="10A"/>
+<attribute name="PART-NUMBER" value=" 696211001102 "/>
+<attribute name="VALUE" value=" 696211001102 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696101000002" prefix="J">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PPO (PPE+PS) 
+&lt;br&gt;Insulator Flammability Rating UL94 V-1 
+&lt;br&gt;Insulator Color Beige 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 18 A 
+&lt;br&gt;IR VDE 6.3 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 1500 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 129300 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33101v209%20Family_WR-FSH_696101000002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33101v209%20Family_WR-FSH_696101000002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_696101000002"&gt;https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_696101000002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696101000002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787579/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696101000002.pdf"/>
+<attribute name="IR-UL" value="18A"/>
+<attribute name="IR-VDE" value="6.3A"/>
+<attribute name="MATES" value="696120004001"/>
+<attribute name="PART-NUMBER" value="696101000002"/>
+<attribute name="VALUE" value="696101000002"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696107003002" prefix="J">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Green 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 6.3 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [cULus] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 1500 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 129302 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+&lt;br&gt;
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33102v209%20Family_WR-FSH_69610X003002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33102v209%20Family_WR-FSH_69610X003002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_69610X003002"&gt;https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_69610X003002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696107003002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787576/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696107003002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="6.3A"/>
+<attribute name="MATES" value="696122003001 "/>
+<attribute name="PART-NUMBER" value="696107003002"/>
+<attribute name="VALUE" value="696107003002"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696105003002" prefix="J">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Green 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 6.3 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [cULus] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 1500 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 129302 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+&lt;br&gt;
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33102v209%20Family_WR-FSH_69610X003002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33102v209%20Family_WR-FSH_69610X003002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_69610X003002"&gt;https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_69610X003002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696105003002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787578/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696105003002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="6.3A"/>
+<attribute name="MATES" value="696122003001 "/>
+<attribute name="PART-NUMBER" value="696105003002"/>
+<attribute name="VALUE" value="696105003002"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696106003002" prefix="J">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Green 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 6.3 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [cULus] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 1500 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 129302 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+&lt;br&gt;
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33102v209%20Family_WR-FSH_69610X003002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33102v209%20Family_WR-FSH_69610X003002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_69610X003002"&gt;https://katalog.we-online.com/en/em/FSH_THT_PCB_CLIP_COVER_69610X003002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696106003002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787577/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696106003002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="6.3A"/>
+<attribute name="MATES" value="696122003001 "/>
+<attribute name="PART-NUMBER" value="696106003002"/>
+<attribute name="VALUE" value="696106003002"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696309001002" prefix="J">
+<description>&lt;b&gt;WR-FSH Shocksafe Fuseholder - PCB - Turn and Lock Cover - THT
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PA66 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;Spring Material INOX Steel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 10 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 3000 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 120170 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o150670v209%20Family_WR-FSH_696309001002.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o150670v209%20Family_WR-FSH_696309001002.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_THT_PCB_TURN_AND_LOCK_COVER_6963XX001002_2"&gt;https://katalog.we-online.com/en/em/FSH_THT_PCB_TURN_AND_LOCK_COVER_6963XX001002_2&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2020-07-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696309001002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787574/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696309001002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="10A"/>
+<attribute name="PART-NUMBER" value="696309001002"/>
+<attribute name="VALUE" value="696309001002"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="696103101002" prefix="J">
+<description>&lt;b&gt;WR-FSH Fuseholder THT Blocks PCB Clip Cover
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PETG35 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color Black 
+&lt;br&gt;Contact Material Copper Alloy 
+&lt;br&gt;Contact Plating Tin over Nickel 
+&lt;br&gt;Contact Type Stamped 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION  
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -30 up to +120 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;IR UL 20 A 
+&lt;br&gt;IR VDE 10 A 
+&lt;br&gt;Working Voltage [UL] 250 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 250 V (AC) 
+&lt;br&gt;Withstanding Voltage [UL] 1500 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 1500 V (AC) 
+&lt;br&gt;Contact Resistance 10 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 10 mΩ 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Protection Class I &amp; II 
+&lt;br&gt;Fuse Size 5x20 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;CERTIFICATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;cULus Approval E157417 
+&lt;br&gt;VDE Approval 40038367 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Box 
+
+&lt;p&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o72897v209%20Family_WR-FUSE_696103101002_4C.jpg"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o72897v209%20Family_WR-FUSE_696103101002_4C.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/FSH_SMT_PCB_CLIP_COVER_696103101002"&gt;https://katalog.we-online.com/en/em/FSH_SMT_PCB_CLIP_COVER_696103101002&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-10-25&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WR-FSH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="696103101002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14787572/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696103101002.pdf"/>
+<attribute name="IR-UL" value="20A"/>
+<attribute name="IR-VDE" value="10A"/>
+<attribute name="PART-NUMBER" value="696103101002"/>
+<attribute name="VALUE" value="696103101002"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

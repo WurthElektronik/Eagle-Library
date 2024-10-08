@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Automotive - Single Coil Power Inductors - WE-PD2SA&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-PD2SA_7850" urn="urn:adsk.eagle:footprint:13154368/1">
+<description>&lt;B&gt;WE-PD2SA SMD Power Inductor
+&lt;BR&gt;&lt;/B&gt;Size : 7850
+&lt;BR&gt;L X W X H = 7.8mm X 7mm X 5mm</description>
+<smd name="1" x="-2.5" y="0" dx="7.5" dy="3" layer="1" rot="R90"/>
+<smd name="2" x="2.5" y="0" dx="7.5" dy="3" layer="1" rot="R90"/>
+<wire x1="-3.9" y1="3.5" x2="3.9" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.9" y1="3.5" x2="3.9" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.9" y1="-3.5" x2="-3.9" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.9" y1="-3.5" x2="-3.9" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="3.6" x2="0.7" y2="3.6" width="0.2" layer="21"/>
+<wire x1="0.7" y1="-3.6" x2="-0.7" y2="-3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.2" y="3.95"/>
+<vertex x="4.2" y="3.95"/>
+<vertex x="4.2" y="-3.95"/>
+<vertex x="-4.2" y="-3.95"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-0.8" y="3.8"/>
+<vertex x="0.8" y="3.8"/>
+<vertex x="0.8" y="-3.8"/>
+<vertex x="-0.8" y="-3.8"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-0.8" y="3.8"/>
+<vertex x="0.8" y="3.8"/>
+<vertex x="0.8" y="-3.8"/>
+<vertex x="-0.8" y="-3.8"/>
+</polygon>
+<text x="0" y="4.35" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.3" y="-5.6" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-PD2SA_7850" urn="urn:adsk.eagle:package:13154373/2" type="model">
+<description>&lt;B&gt;WE-PD2SA SMD Power Inductor
+&lt;BR&gt;&lt;/B&gt;Size : 7850
+&lt;BR&gt;L X W X H = 7.8mm X 7mm X 5mm</description>
+<packageinstances>
+<packageinstance name="WE-PD2SA_7850"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-4.572" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-PD2SA_7850" prefix="L">
+<description>&lt;b&gt;WE-PD2SA SMD Power Inductor&lt;br&gt;
+&lt;br&gt;
+Characteristics 
+&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Magnetic shielded version from the WE-PD2A, which results in a low leakage field
+&lt;br&gt;Pad compatible with the WE-PD2A size 7850
+&lt;br&gt;High saturation current due to the self- centering shielding ring construction
+&lt;br&gt;Operating temperature: -40°C up to +125°C
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Applications 
+&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Switching regulators with low operating voltage
+&lt;br&gt;Multimedia applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.de/media/images/v2/o85064v209%20Family_WE-PD2SA.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.de/media/images/v2/o85064v209%20Family_WE-PD2SA.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.de/en/am/WE-PD2SA"&gt;https://katalog.we-online.de/en/am/WE-PD2SA&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2019-09-10&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD2SA_7850">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13154373/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_784787012">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787012.pdf" constant="no"/>
+<attribute name="FRES" value="110MHz" constant="no"/>
+<attribute name="IR" value="4.85A" constant="no"/>
+<attribute name="ISAT" value="6A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787012 " constant="no"/>
+<attribute name="RDC-MAX" value="13mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="8.5mOhm" constant="no"/>
+<attribute name="VALUE" value="1.2uH" constant="no"/>
+</technology>
+<technology name="_784787027">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787027.pdf" constant="no"/>
+<attribute name="FRES" value="60MHz" constant="no"/>
+<attribute name="IR" value="4.35A" constant="no"/>
+<attribute name="ISAT" value="4.5A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787027 " constant="no"/>
+<attribute name="RDC-MAX" value="17mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="13.5mOhm" constant="no"/>
+<attribute name="VALUE" value="2.7uH" constant="no"/>
+</technology>
+<technology name="_784787039">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787039.pdf" constant="no"/>
+<attribute name="FRES" value="45MHz" constant="no"/>
+<attribute name="IR" value="3.8A" constant="no"/>
+<attribute name="ISAT" value="4A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787039 " constant="no"/>
+<attribute name="RDC-MAX" value="20mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="16.7mOhm" constant="no"/>
+<attribute name="VALUE" value="3.9uH" constant="no"/>
+</technology>
+<technology name="_784787047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787047.pdf" constant="no"/>
+<attribute name="FRES" value="42MHz" constant="no"/>
+<attribute name="IR" value="3.3A" constant="no"/>
+<attribute name="ISAT" value="3.6A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787047 " constant="no"/>
+<attribute name="RDC-MAX" value="29mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="24.3mOhm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+<technology name="_784787068">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787068.pdf" constant="no"/>
+<attribute name="FRES" value="30MHz" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="ISAT" value="3A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787068 " constant="no"/>
+<attribute name="RDC-MAX" value="33mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="27mOhm" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+<technology name="_784787082">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787082.pdf" constant="no"/>
+<attribute name="FRES" value="28MHz" constant="no"/>
+<attribute name="IR" value="2.7A" constant="no"/>
+<attribute name="ISAT" value="2.8A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787082 " constant="no"/>
+<attribute name="RDC-MAX" value="39mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="33mOhm" constant="no"/>
+<attribute name="VALUE" value="8.2uH" constant="no"/>
+</technology>
+<technology name="_784787100">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787100.pdf" constant="no"/>
+<attribute name="FRES" value="24MHz" constant="no"/>
+<attribute name="IR" value="2.6A" constant="no"/>
+<attribute name="ISAT" value="2.6A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787100 " constant="no"/>
+<attribute name="RDC-MAX" value="43mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="36.5mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_784787101">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787101.pdf" constant="no"/>
+<attribute name="FRES" value="5MHz" constant="no"/>
+<attribute name="IR" value="0.95A" constant="no"/>
+<attribute name="ISAT" value="0.87A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787101 " constant="no"/>
+<attribute name="RDC-MAX" value="467mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="396mOhm" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+<technology name="_784787120">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787120.pdf" constant="no"/>
+<attribute name="FRES" value="20MHz" constant="no"/>
+<attribute name="IR" value="2.45A" constant="no"/>
+<attribute name="ISAT" value="2.4A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787120 " constant="no"/>
+<attribute name="RDC-MAX" value="52mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="45mOhm" constant="no"/>
+<attribute name="VALUE" value="12uH" constant="no"/>
+</technology>
+<technology name="_784787121">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787121.pdf" constant="no"/>
+<attribute name="FRES" value="4.5MHz" constant="no"/>
+<attribute name="IR" value="0.73A" constant="no"/>
+<attribute name="ISAT" value="0.8A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787121 " constant="no"/>
+<attribute name="RDC-MAX" value="643mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="545mOhm" constant="no"/>
+<attribute name="VALUE" value="120uH" constant="no"/>
+</technology>
+<technology name="_784787150">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787150.pdf" constant="no"/>
+<attribute name="FRES" value="18MHz" constant="no"/>
+<attribute name="IR" value="2.3A" constant="no"/>
+<attribute name="ISAT" value="2.1A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787150 " constant="no"/>
+<attribute name="RDC-MAX" value="60mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="52mOhm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+<technology name="_784787151">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787151.pdf" constant="no"/>
+<attribute name="FRES" value="4MHz" constant="no"/>
+<attribute name="IR" value="0.71A" constant="no"/>
+<attribute name="ISAT" value="0.7A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787151 " constant="no"/>
+<attribute name="RDC-MAX" value="719mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="610mOhm" constant="no"/>
+<attribute name="VALUE" value="150uH" constant="no"/>
+</technology>
+<technology name="_784787180">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787180.pdf" constant="no"/>
+<attribute name="FRES" value="15MHz" constant="no"/>
+<attribute name="IR" value="2.15A" constant="no"/>
+<attribute name="ISAT" value="1.9A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787180 " constant="no"/>
+<attribute name="RDC-MAX" value="78mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="67mOhm" constant="no"/>
+<attribute name="VALUE" value="18uH" constant="no"/>
+</technology>
+<technology name="_784787181">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787181.pdf" constant="no"/>
+<attribute name="FRES" value="3.8MHz" constant="no"/>
+<attribute name="IR" value="0.68A" constant="no"/>
+<attribute name="ISAT" value="0.62A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787181 " constant="no"/>
+<attribute name="RDC-MAX" value="794mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="673mOhm" constant="no"/>
+<attribute name="VALUE" value="180uH" constant="no"/>
+</technology>
+<technology name="_784787220">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787220.pdf" constant="no"/>
+<attribute name="FRES" value="13MHz" constant="no"/>
+<attribute name="IR" value="1.83A" constant="no"/>
+<attribute name="ISAT" value="1.7A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787220 " constant="no"/>
+<attribute name="RDC-MAX" value="103mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="88mOhm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+<technology name="_784787221">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787221.pdf" constant="no"/>
+<attribute name="FRES" value="3.5MHz" constant="no"/>
+<attribute name="IR" value="0.67A" constant="no"/>
+<attribute name="ISAT" value="0.58A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787221 " constant="no"/>
+<attribute name="RDC-MAX" value="876mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="743mOhm" constant="no"/>
+<attribute name="VALUE" value="220uH" constant="no"/>
+</technology>
+<technology name="_784787330">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787330.pdf" constant="no"/>
+<attribute name="FRES" value="10MHz" constant="no"/>
+<attribute name="IR" value="1.48A" constant="no"/>
+<attribute name="ISAT" value="1.3A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787330 " constant="no"/>
+<attribute name="RDC-MAX" value="161mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="137mOhm" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
+</technology>
+<technology name="_784787470">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787470.pdf" constant="no"/>
+<attribute name="FRES" value="8MHz" constant="no"/>
+<attribute name="IR" value="1.25A" constant="no"/>
+<attribute name="ISAT" value="1.15A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787470 " constant="no"/>
+<attribute name="RDC-MAX" value="243mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="206mOhm" constant="no"/>
+<attribute name="VALUE" value="47uH" constant="no"/>
+</technology>
+<technology name="_784787680">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787680.pdf" constant="no"/>
+<attribute name="FRES" value="7.5MHz" constant="no"/>
+<attribute name="IR" value="1.12A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787680 " constant="no"/>
+<attribute name="RDC-MAX" value="290mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="246mOhm" constant="no"/>
+<attribute name="VALUE" value="68uH" constant="no"/>
+</technology>
+<technology name="_784787820">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/am/datasheet/784787820.pdf" constant="no"/>
+<attribute name="FRES" value="6MHz" constant="no"/>
+<attribute name="IR" value="1.04A" constant="no"/>
+<attribute name="ISAT" value="0.9A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 784787820 " constant="no"/>
+<attribute name="RDC-MAX" value="328mOhm" constant="no"/>
+<attribute name="RDC-TYP" value="278mOhm" constant="no"/>
+<attribute name="VALUE" value="82uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

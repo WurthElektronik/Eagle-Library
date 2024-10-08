@@ -1,0 +1,3113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Single Coil Power Inductors - WE-LQS&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023c, 2023-05-15&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-LQS_2512" urn="urn:adsk.eagle:footprint:13009648/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 2512, SMT, 2pins
+&lt;br&gt;LxWxH= 2.5mmx2mmx1.2mm</description>
+<smd name="1" x="-0.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1" layer="51"/>
+<text x="0" y="1.5" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.5" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.7" y="1.2"/>
+<vertex x="1.7" y="1.2"/>
+<vertex x="1.7" y="-1.2"/>
+<vertex x="-1.7" y="-1.2"/>
+</polygon>
+</package>
+<package name="WE-LQS_3012" urn="urn:adsk.eagle:footprint:13009647/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductorr&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 3012, SMT, 2pins
+&lt;br&gt;LxWxH= 3mmx3mmx1.2mm</description>
+<smd name="1" x="-1.2" y="0" dx="3.3" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="1.2" y="0" dx="3.3" dy="1" layer="1" rot="R90"/>
+<text x="0" y="2.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-1.6" x2="0.4" y2="-1.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.9" y="1.85"/>
+<vertex x="1.9" y="1.85"/>
+<vertex x="1.9" y="-1.85"/>
+<vertex x="-1.9" y="-1.85"/>
+</polygon>
+</package>
+<package name="WE-LQS_2010" urn="urn:adsk.eagle:footprint:13009649/2">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 2010, SMT, 2pins
+&lt;br&gt;LxWxH= 2mmx1.6mmx1mm</description>
+<smd name="1" x="-0.775" y="0" dx="1.2" dy="0.85" layer="1" rot="R90"/>
+<smd name="2" x="0.775" y="0" dx="1.2" dy="0.85" layer="1" rot="R90"/>
+<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="0.9" x2="1.1" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-0.9" x2="1.1" y2="-0.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.4" y="-1.1"/>
+<vertex x="-1.4" y="1.1"/>
+<vertex x="1.4" y="1.1"/>
+<vertex x="1.4" y="-1.1"/>
+</polygon>
+<text x="0" y="1.4" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-LQS_6028" urn="urn:adsk.eagle:footprint:13009640/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 6028, SMT, 2pins
+&lt;br&gt;LxWxH= 6mmx6mmx2.8mm</description>
+<smd name="1" x="2.3" y="0" dx="1.8" dy="5.7" layer="1" rot="R180"/>
+<smd name="2" x="-2.3" y="0" dx="1.8" dy="5.7" layer="1" rot="R180"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="1.1" y1="-3.1" x2="-1.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="1.1" y1="3.1" x2="-1.1" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="3.4" y="-3.3"/>
+<vertex x="-3.4" y="-3.3"/>
+<vertex x="-3.4" y="3.3"/>
+<vertex x="3.4" y="3.3"/>
+</polygon>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="4" y="-2.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-LQS_5040" urn="urn:adsk.eagle:footprint:13009641/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 5040, SMT, 2pins
+&lt;br&gt;LxWxH= 5mmx5mmx4mm</description>
+<smd name="1" x="1.925" y="0" dx="1.55" dy="4.5" layer="1" rot="R180"/>
+<smd name="2" x="-1.925" y="0" dx="1.55" dy="4.5" layer="1" rot="R180"/>
+<wire x1="1.25" y1="-2.5" x2="-1.25" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="1.25" y1="2.5" x2="-1.25" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="2" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="2" width="0.1" layer="51"/>
+<wire x1="2.3" y1="-1.25" x2="2.3" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="-1.25" x2="-2.3" y2="1.25" width="0.1" layer="51"/>
+<wire x1="2.3" y1="-1.25" x2="1.25" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-2.48" x2="-2.3" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="2.3" y1="1.25" x2="1.26" y2="2.49" width="0.1" layer="51"/>
+<wire x1="-1.26" y1="2.5" x2="-2.29" y2="1.26" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2" x2="1.68" y2="-2" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2" x2="1.68" y2="2" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2" x2="-1.68" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2" x2="-1.68" y2="2" width="0.1" layer="51"/>
+<wire x1="1.35" y1="-2.6" x2="-1.35" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="1.35" y1="2.6" x2="-1.35" y2="2.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="2.9" y="-2.8"/>
+<vertex x="-2.9" y="-2.8"/>
+<vertex x="-2.9" y="2.8"/>
+<vertex x="2.9" y="2.8"/>
+</polygon>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="3.5" y="-2.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-LQS_3015" urn="urn:adsk.eagle:footprint:13009646/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductorr&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 3015, SMT, 2pins
+&lt;br&gt;LxWxH= 3mmx3mmx1.5mm</description>
+<smd name="1" x="-1.2" y="0" dx="1" dy="2.7" layer="1"/>
+<smd name="2" x="1.2" y="0" dx="1" dy="2.7" layer="1"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-1.6" x2="0.4" y2="-1.6" width="0.2" layer="21"/>
+<text x="0" y="2.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.9" y="1.8"/>
+<vertex x="1.9" y="1.8"/>
+<vertex x="1.9" y="-1.8"/>
+<vertex x="-1.9" y="-1.8"/>
+</polygon>
+</package>
+<package name="WE-LQS_8040" urn="urn:adsk.eagle:footprint:13009638/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 8040, SMT, 2pins
+&lt;br&gt;LxWxH= 8mmx8mmx4.2mm</description>
+<smd name="1" x="-3.1" y="0" dx="2.4" dy="7.5" layer="1"/>
+<smd name="2" x="3.1" y="0" dx="2.4" dy="7.5" layer="1"/>
+<wire x1="-4" y1="4" x2="4" y2="4" width="0.1" layer="51"/>
+<wire x1="-4" y1="-4" x2="4" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="4" x2="-4" y2="-4" width="0.1" layer="51"/>
+<wire x1="4" y1="4" x2="4" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="4.1" x2="4" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-4" y1="-4.1" x2="4" y2="-4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.5" y="4.3"/>
+<vertex x="4.5" y="4.3"/>
+<vertex x="4.5" y="-4.3"/>
+<vertex x="-4.5" y="-4.3"/>
+</polygon>
+<text x="0" y="4.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="5.2" y="-3.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-LQS_6045" urn="urn:adsk.eagle:footprint:13009639/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 6045, SMT, 2pins
+&lt;br&gt;LxWxH= 6mmx6mmx4.5mm</description>
+<smd name="1" x="2.3" y="0" dx="1.8" dy="5.7" layer="1" rot="R180"/>
+<smd name="2" x="-2.3" y="0" dx="1.8" dy="5.7" layer="1" rot="R180"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="1.1" y1="-3.1" x2="-1.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="1.1" y1="3.1" x2="-1.1" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="3.4" y="-3.3"/>
+<vertex x="-3.4" y="-3.3"/>
+<vertex x="-3.4" y="3.3"/>
+<vertex x="3.4" y="3.3"/>
+</polygon>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="4" y="-2.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-LQS_4025" urn="urn:adsk.eagle:footprint:13009643/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 4018, SMT, 2pins
+&lt;br&gt;LxWxH= 4mmx4mmx2.5mm</description>
+<smd name="1" x="-1.525" y="0" dx="3.6" dy="1.5" layer="1" rot="R90"/>
+<smd name="2" x="1.525" y="0" dx="3.6" dy="1.5" layer="1" rot="R90"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.1" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.1" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="2.1" x2="2.1" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="2.1" y2="-2.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.45" y="2.3"/>
+<vertex x="2.45" y="2.3"/>
+<vertex x="2.45" y="-2.3"/>
+<vertex x="-2.45" y="-2.3"/>
+</polygon>
+<text x="0" y="2.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-LQS_4018" urn="urn:adsk.eagle:footprint:13009644/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 4018, SMT, 2pins
+&lt;br&gt;LxWxH= 4mmx4mmx1.8mm</description>
+<smd name="1" x="-1.525" y="0" dx="1.5" dy="3.6" layer="1"/>
+<smd name="2" x="1.525" y="0" dx="1.5" dy="3.6" layer="1"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.1" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.1" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="2.1" x2="2.1" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="2.1" y2="-2.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.45" y="2.3"/>
+<vertex x="2.45" y="2.3"/>
+<vertex x="2.45" y="-2.3"/>
+<vertex x="-2.45" y="-2.3"/>
+</polygon>
+<text x="0" y="2.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-LQS_8065" urn="urn:adsk.eagle:footprint:13009637/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 8065, SMT, 2pins
+&lt;br&gt;LxWxH= 8mmx8mmx6.5mm</description>
+<smd name="1" x="-3.1" y="0" dx="7.5" dy="2.4" layer="1" rot="R90"/>
+<smd name="2" x="3.1" y="0" dx="7.5" dy="2.4" layer="1" rot="R90"/>
+<wire x1="-4" y1="4" x2="4" y2="4" width="0.1" layer="51"/>
+<wire x1="4" y1="4" x2="4" y2="-4" width="0.1" layer="51"/>
+<wire x1="4" y1="-4" x2="-4" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="-4" x2="-4" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="4.1" x2="4.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="4.1" y2="-4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.5" y="4.3"/>
+<vertex x="4.5" y="4.3"/>
+<vertex x="4.5" y="-4.3"/>
+<vertex x="-4.5" y="-4.3"/>
+</polygon>
+<text x="0" y="4.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="5.2" y="-3.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-LQS_4012" urn="urn:adsk.eagle:footprint:13009645/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 4012, SMT, 2pins
+&lt;br&gt;LxWxH= 4mmx4mmx1.2mm</description>
+<smd name="1" x="-1.525" y="0" dx="3.6" dy="1.5" layer="1" rot="R90"/>
+<smd name="2" x="1.525" y="0" dx="3.6" dy="1.5" layer="1" rot="R90"/>
+<text x="0" y="2.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.1" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.1" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="2.1" x2="2.1" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="2.1" y2="-2.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.45" y="2.3"/>
+<vertex x="2.45" y="2.3"/>
+<vertex x="2.45" y="-2.3"/>
+<vertex x="-2.45" y="-2.3"/>
+</polygon>
+</package>
+<package name="WE-LQS_5020" urn="urn:adsk.eagle:footprint:13009642/3">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 5020, SMT, 2pins
+&lt;br&gt;LxWxH= 5mmx5mmx2mm</description>
+<smd name="1" x="1.95" y="0" dx="4.5" dy="1.6" layer="1" rot="R270"/>
+<smd name="2" x="-1.95" y="0" dx="4.5" dy="1.6" layer="1" rot="R270"/>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="2.9" y="-2.8"/>
+<vertex x="-2.9" y="-2.8"/>
+<vertex x="-2.9" y="2.8"/>
+<vertex x="2.9" y="2.8"/>
+</polygon>
+<wire x1="1.25" y1="-2.5" x2="-1.25" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="1.25" y1="2.5" x2="-1.25" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="2" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="2" width="0.1" layer="51"/>
+<wire x1="2.3" y1="-1.25" x2="2.3" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="-1.25" x2="-2.3" y2="1.25" width="0.1" layer="51"/>
+<wire x1="2.3" y1="-1.25" x2="1.25" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-2.48" x2="-2.3" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="2.3" y1="1.25" x2="1.26" y2="2.49" width="0.1" layer="51"/>
+<wire x1="-1.26" y1="2.5" x2="-2.29" y2="1.26" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2" x2="1.68" y2="-2" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2" x2="1.68" y2="2" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2" x2="-1.68" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2" x2="-1.68" y2="2" width="0.1" layer="51"/>
+<wire x1="1.35" y1="-2.6" x2="-1.35" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="1.35" y1="2.6" x2="-1.35" y2="2.6" width="0.2" layer="21"/>
+<circle x="3.5" y="-2.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-LQS_3012" urn="urn:adsk.eagle:package:13009662/5" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductorr&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 3012, SMT, 2pins
+&lt;br&gt;LxWxH= 3mmx3mmx1.2mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_3012"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_2512" urn="urn:adsk.eagle:package:13009663/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 2512, SMT, 2pins
+&lt;br&gt;LxWxH= 2.5mmx2mmx1.2mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_2512"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_5040" urn="urn:adsk.eagle:package:13009656/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 5040, SMT, 2pins
+&lt;br&gt;LxWxH= 5mmx5mmx4mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_5040"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_2010" urn="urn:adsk.eagle:package:13009664/3" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 2010, SMT, 2pins
+&lt;br&gt;LxWxH= 2mmx1.6mmx1mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_2010"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_6028" urn="urn:adsk.eagle:package:13009655/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 6028, SMT, 2pins
+&lt;br&gt;LxWxH= 6mmx6mmx2.8mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_6028"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_8040" urn="urn:adsk.eagle:package:13009653/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 8040, SMT, 2pins
+&lt;br&gt;LxWxH= 8mmx8mmx4.2mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_8040"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_6045" urn="urn:adsk.eagle:package:13009654/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 6045, SMT, 2pins
+&lt;br&gt;LxWxH= 6mmx6mmx4.5mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_6045"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_3015" urn="urn:adsk.eagle:package:13009661/5" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductorr&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 3015, SMT, 2pins
+&lt;br&gt;LxWxH= 3mmx3mmx1.5mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_3015"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_8065" urn="urn:adsk.eagle:package:13009652/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 8065, SMT, 2pins
+&lt;br&gt;LxWxH= 8mmx8mmx6.5mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_8065"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_4025" urn="urn:adsk.eagle:package:13009658/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 4018, SMT, 2pins
+&lt;br&gt;LxWxH= 4mmx4mmx2.5mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_4025"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_4012" urn="urn:adsk.eagle:package:13009660/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 4012, SMT, 2pins
+&lt;br&gt;LxWxH= 4mmx4mmx1.2mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_4012"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_5020" urn="urn:adsk.eagle:package:13009657/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 5020, SMT, 2pins
+&lt;br&gt;LxWxH= 5mmx5mmx2mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_5020"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-LQS_4018" urn="urn:adsk.eagle:package:13009659/4" type="model">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;&lt;/b&gt;Size: 4018, SMT, 2pins
+&lt;br&gt;LxWxH= 4mmx4mmx1.8mm</description>
+<packageinstances>
+<packageinstance name="WE-LQS_4018"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L_GAP">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="L_GAP_POINT">
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-2.54" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="-5.842" y="0.508" radius="0.127" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-LQS_2010" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_2010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009664/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_744040200016">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040200016?ae"/>
+<attribute name="FRES" value="540MHz"/>
+<attribute name="IR" value="3A"/>
+<attribute name="ISAT" value="4.9A"/>
+<attribute name="PART-NUMBER" value=" 744040200016 "/>
+<attribute name="RDC" value="25mOhm"/>
+<attribute name="VALUE" value="0.16uH"/>
+</technology>
+<technology name="_744040200033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040200033?ae"/>
+<attribute name="FRES" value="363MHz"/>
+<attribute name="IR" value="2.5A"/>
+<attribute name="ISAT" value="3.4A"/>
+<attribute name="PART-NUMBER" value=" 744040200033 "/>
+<attribute name="RDC" value="34mOhm"/>
+<attribute name="VALUE" value="0.33uH"/>
+</technology>
+<technology name="_744040200047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040200047?ae"/>
+<attribute name="FRES" value="293MHz"/>
+<attribute name="IR" value="2.1A"/>
+<attribute name="ISAT" value="2.8A"/>
+<attribute name="PART-NUMBER" value=" 744040200047 "/>
+<attribute name="RDC" value="47mOhm"/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_744040200068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040200068?ae"/>
+<attribute name="FRES" value="196MHz"/>
+<attribute name="IR" value="1.8A"/>
+<attribute name="ISAT" value="2.4A"/>
+<attribute name="PART-NUMBER" value=" 744040200068 "/>
+<attribute name="RDC" value="64mOhm"/>
+<attribute name="VALUE" value="0.68uH"/>
+</technology>
+<technology name="_74404020010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404020010?ae"/>
+<attribute name="FRES" value="177MHz"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="PART-NUMBER" value=" 74404020010 "/>
+<attribute name="RDC" value="94mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404020015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404020015?ae"/>
+<attribute name="FRES" value="130MHz"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="ISAT" value="1.6A"/>
+<attribute name="PART-NUMBER" value=" 74404020015 "/>
+<attribute name="RDC" value="147mOhm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_74404020022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404020022?ae"/>
+<attribute name="FRES" value="107MHz"/>
+<attribute name="IR" value="0.96A"/>
+<attribute name="ISAT" value="1.4A"/>
+<attribute name="PART-NUMBER" value=" 74404020022 "/>
+<attribute name="RDC" value="225mOhm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_74404020033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404020033?ae"/>
+<attribute name="FRES" value="78MHz"/>
+<attribute name="IR" value="0.87A"/>
+<attribute name="ISAT" value="1.1A"/>
+<attribute name="PART-NUMBER" value=" 74404020033 "/>
+<attribute name="RDC" value="275mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404020047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404020047?ae"/>
+<attribute name="FRES" value="71MHz"/>
+<attribute name="IR" value="0.72A"/>
+<attribute name="ISAT" value="0.85A"/>
+<attribute name="PART-NUMBER" value=" 74404020047 "/>
+<attribute name="RDC" value="410mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404020068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404020068?ae"/>
+<attribute name="FRES" value="52MHz"/>
+<attribute name="IR" value="0.55A"/>
+<attribute name="ISAT" value="0.75A"/>
+<attribute name="PART-NUMBER" value=" 74404020068 "/>
+<attribute name="RDC" value="700mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404020100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404020100?ae"/>
+<attribute name="FRES" value="39MHz"/>
+<attribute name="IR" value="0.5A"/>
+<attribute name="ISAT" value="0.6A"/>
+<attribute name="PART-NUMBER" value=" 74404020100 "/>
+<attribute name="RDC" value="860mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_2512" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009663/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_744040240016">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040240016?ae"/>
+<attribute name="FRES" value="644MHz"/>
+<attribute name="IR" value="3.7A"/>
+<attribute name="ISAT" value="7A"/>
+<attribute name="PART-NUMBER" value=" 744040240016 "/>
+<attribute name="RDC" value="16mOhm"/>
+<attribute name="VALUE" value="0.16uH"/>
+</technology>
+<technology name="_744040240047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040240047?ae"/>
+<attribute name="FRES" value="231MHz"/>
+<attribute name="IR" value="2.6A"/>
+<attribute name="ISAT" value="5A"/>
+<attribute name="PART-NUMBER" value=" 744040240047 "/>
+<attribute name="RDC" value="32mOhm"/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_744040240068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040240068?ae"/>
+<attribute name="FRES" value="176MHz"/>
+<attribute name="IR" value="2.5A"/>
+<attribute name="ISAT" value="3.5A"/>
+<attribute name="PART-NUMBER" value=" 744040240068 "/>
+<attribute name="RDC" value="35mOhm"/>
+<attribute name="VALUE" value="0.68uH"/>
+</technology>
+<technology name="_74404024010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024010?ae"/>
+<attribute name="FRES" value="159MHz"/>
+<attribute name="IR" value="2.3A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="PART-NUMBER" value=" 74404024010 "/>
+<attribute name="RDC" value="36mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404024015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024015?ae"/>
+<attribute name="FRES" value="104MHz"/>
+<attribute name="IR" value="1.8A"/>
+<attribute name="ISAT" value="2.2A"/>
+<attribute name="PART-NUMBER" value=" 74404024015 "/>
+<attribute name="RDC" value="65mOhm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_74404024022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024022?ae"/>
+<attribute name="FRES" value="83MHz"/>
+<attribute name="IR" value="1.65A"/>
+<attribute name="ISAT" value="1.9A"/>
+<attribute name="PART-NUMBER" value=" 74404024022 "/>
+<attribute name="RDC" value="80mOhm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_74404024033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024033?ae"/>
+<attribute name="FRES" value="66MHz"/>
+<attribute name="IR" value="1.35A"/>
+<attribute name="ISAT" value="1.5A"/>
+<attribute name="PART-NUMBER" value=" 74404024033 "/>
+<attribute name="RDC" value="120mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404024047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024047?ae"/>
+<attribute name="FRES" value="52MHz"/>
+<attribute name="IR" value="1.12A"/>
+<attribute name="ISAT" value="1.2A"/>
+<attribute name="PART-NUMBER" value=" 74404024047 "/>
+<attribute name="RDC" value="173mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404024068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024068?ae"/>
+<attribute name="FRES" value="40MHz"/>
+<attribute name="IR" value="0.85A"/>
+<attribute name="ISAT" value="1A"/>
+<attribute name="PART-NUMBER" value=" 74404024068 "/>
+<attribute name="RDC" value="300mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404024100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024100?ae"/>
+<attribute name="FRES" value="30MHz"/>
+<attribute name="IR" value="0.65A"/>
+<attribute name="ISAT" value="0.8A"/>
+<attribute name="PART-NUMBER" value=" 74404024100 "/>
+<attribute name="RDC" value="430mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404024101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024101?ae"/>
+<attribute name="FRES" value="6MHz"/>
+<attribute name="IR" value="0.21A"/>
+<attribute name="ISAT" value="0.22A"/>
+<attribute name="PART-NUMBER" value=" 74404024101 "/>
+<attribute name="RDC" value="4500mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404024150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024150?ae"/>
+<attribute name="FRES" value="28MHz"/>
+<attribute name="IR" value="0.47A"/>
+<attribute name="ISAT" value="0.75A"/>
+<attribute name="PART-NUMBER" value=" 74404024150 "/>
+<attribute name="RDC" value="820mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404024180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024180?ae"/>
+<attribute name="FRES" value="26MHz"/>
+<attribute name="IR" value="0.46A"/>
+<attribute name="ISAT" value="0.65A"/>
+<attribute name="PART-NUMBER" value=" 74404024180 "/>
+<attribute name="RDC" value="830mOhm"/>
+<attribute name="VALUE" value="18uH"/>
+</technology>
+<technology name="_74404024220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024220?ae"/>
+<attribute name="FRES" value="22MHz"/>
+<attribute name="IR" value="0.45A"/>
+<attribute name="ISAT" value="0.55A"/>
+<attribute name="PART-NUMBER" value=" 74404024220 "/>
+<attribute name="RDC" value="910mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404024330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024330?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="0.35A"/>
+<attribute name="ISAT" value="0.45A"/>
+<attribute name="PART-NUMBER" value=" 74404024330 "/>
+<attribute name="RDC" value="1530mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404024470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024470?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="IR" value="0.33A"/>
+<attribute name="ISAT" value="0.35A"/>
+<attribute name="PART-NUMBER" value=" 74404024470 "/>
+<attribute name="RDC" value="1650mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404024680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404024680?ae"/>
+<attribute name="FRES" value="8MHz"/>
+<attribute name="IR" value="0.28A"/>
+<attribute name="ISAT" value="0.3A"/>
+<attribute name="PART-NUMBER" value=" 74404024680 "/>
+<attribute name="RDC" value="2400mOhm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_3012" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2023-01-09&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_3012">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009662/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_74404031010A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404031010A?ae"/>
+<attribute name="FRES" value="138MHz"/>
+<attribute name="IR" value="2.2A"/>
+<attribute name="ISAT" value="3A"/>
+<attribute name="PART-NUMBER" value="74404031010A"/>
+<attribute name="RDC" value="33mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404031027A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404031027A?ae"/>
+<attribute name="FRES" value="72MHz"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="ISAT" value="1.5A"/>
+<attribute name="PART-NUMBER" value="74404031027A"/>
+<attribute name="RDC" value="70mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404031047A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404031047A?ae"/>
+<attribute name="FRES" value="56MHz"/>
+<attribute name="IR" value="1.3A"/>
+<attribute name="ISAT" value="1.2A"/>
+<attribute name="PART-NUMBER" value="74404031047A"/>
+<attribute name="RDC" value="96mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404031068A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404031068A?ae"/>
+<attribute name="FRES" value="45MHz"/>
+<attribute name="IR" value="1.16A"/>
+<attribute name="ISAT" value="0.94A"/>
+<attribute name="PART-NUMBER" value="74404031068A"/>
+<attribute name="RDC" value="120mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404031100A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404031100A?ae"/>
+<attribute name="FRES" value="37MHz"/>
+<attribute name="IR" value="0.84A"/>
+<attribute name="ISAT" value="0.87A"/>
+<attribute name="PART-NUMBER" value="74404031100A"/>
+<attribute name="RDC" value="230mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404031150A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404031150A?ae"/>
+<attribute name="FRES" value="29MHz"/>
+<attribute name="IR" value="0.73A"/>
+<attribute name="ISAT" value="0.8A"/>
+<attribute name="PART-NUMBER" value="74404031150A"/>
+<attribute name="RDC" value="300mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404031220A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404031220A?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="IR" value="0.6A"/>
+<attribute name="ISAT" value="0.6A"/>
+<attribute name="PART-NUMBER" value="74404031220A"/>
+<attribute name="RDC" value="450mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404031330A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404031330A?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="0.5A"/>
+<attribute name="ISAT" value="0.54A"/>
+<attribute name="PART-NUMBER" value="74404031330A"/>
+<attribute name="RDC" value="911mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404031470A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404031470A?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="0.4A"/>
+<attribute name="ISAT" value="0.41A"/>
+<attribute name="PART-NUMBER" value="74404031470A"/>
+<attribute name="RDC" value="1050mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_6028" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_6028">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009655/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_744040630082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040630082?ae"/>
+<attribute name="FRES" value="144MHz"/>
+<attribute name="IR" value="6A"/>
+<attribute name="ISAT" value="9.5A"/>
+<attribute name="PART-NUMBER" value=" 744040630082 "/>
+<attribute name="RDC" value="10mOhm"/>
+<attribute name="VALUE" value="0.82uH"/>
+</technology>
+<technology name="_74404063010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063010?ae"/>
+<attribute name="FRES" value="130MHz"/>
+<attribute name="IR" value="5.2A"/>
+<attribute name="ISAT" value="7.5A"/>
+<attribute name="PART-NUMBER" value=" 74404063010 "/>
+<attribute name="RDC" value="10mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404063012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063012?ae"/>
+<attribute name="FRES" value="106MHz"/>
+<attribute name="IR" value="4.7A"/>
+<attribute name="ISAT" value="7.3A"/>
+<attribute name="PART-NUMBER" value=" 74404063012 "/>
+<attribute name="RDC" value="12mOhm"/>
+<attribute name="VALUE" value="1.2uH"/>
+</technology>
+<technology name="_74404063015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063015?ae"/>
+<attribute name="FRES" value="98MHz"/>
+<attribute name="IR" value="4.58A"/>
+<attribute name="ISAT" value="6.6A"/>
+<attribute name="PART-NUMBER" value=" 74404063015 "/>
+<attribute name="RDC" value="13mOhm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_74404063022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063022?ae"/>
+<attribute name="FRES" value="69MHz"/>
+<attribute name="IR" value="3.75A"/>
+<attribute name="ISAT" value="5.6A"/>
+<attribute name="PART-NUMBER" value=" 74404063022 "/>
+<attribute name="RDC" value="20mOhm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_74404063033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063033?ae"/>
+<attribute name="FRES" value="59MHz"/>
+<attribute name="IR" value="3.48A"/>
+<attribute name="ISAT" value="4.5A"/>
+<attribute name="PART-NUMBER" value=" 74404063033 "/>
+<attribute name="RDC" value="25mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404063047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063047?ae"/>
+<attribute name="FRES" value="50MHz"/>
+<attribute name="IR" value="3.08A"/>
+<attribute name="ISAT" value="3.3A"/>
+<attribute name="PART-NUMBER" value=" 74404063047 "/>
+<attribute name="RDC" value="30mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404063068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063068?ae"/>
+<attribute name="FRES" value="40MHz"/>
+<attribute name="IR" value="2.4A"/>
+<attribute name="ISAT" value="2.8A"/>
+<attribute name="PART-NUMBER" value=" 74404063068 "/>
+<attribute name="RDC" value="47mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404063082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063082?ae"/>
+<attribute name="FRES" value="33MHz"/>
+<attribute name="IR" value="2.25A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="PART-NUMBER" value=" 74404063082 "/>
+<attribute name="RDC" value="55mOhm"/>
+<attribute name="VALUE" value="8.2uH"/>
+</technology>
+<technology name="_74404063100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063100?ae"/>
+<attribute name="FRES" value="31MHz"/>
+<attribute name="IR" value="1.95A"/>
+<attribute name="ISAT" value="2.2A"/>
+<attribute name="PART-NUMBER" value=" 74404063100 "/>
+<attribute name="RDC" value="72mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404063101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063101?ae"/>
+<attribute name="FRES" value="8.8MHz"/>
+<attribute name="IR" value="0.7A"/>
+<attribute name="ISAT" value="0.71A"/>
+<attribute name="PART-NUMBER" value=" 74404063101 "/>
+<attribute name="RDC" value="500mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404063102">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063102?ae"/>
+<attribute name="FRES" value="2MHz"/>
+<attribute name="IR" value="0.22A"/>
+<attribute name="ISAT" value="0.23A"/>
+<attribute name="PART-NUMBER" value=" 74404063102 "/>
+<attribute name="RDC" value="6440mOhm"/>
+<attribute name="VALUE" value="1000uH"/>
+</technology>
+<technology name="_74404063150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063150?ae"/>
+<attribute name="FRES" value="24MHz"/>
+<attribute name="IR" value="1.45A"/>
+<attribute name="ISAT" value="1.9A"/>
+<attribute name="PART-NUMBER" value=" 74404063150 "/>
+<attribute name="RDC" value="125mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404063220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063220?ae"/>
+<attribute name="FRES" value="21MHz"/>
+<attribute name="IR" value="1.4A"/>
+<attribute name="ISAT" value="1.6A"/>
+<attribute name="PART-NUMBER" value=" 74404063220 "/>
+<attribute name="RDC" value="140mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404063330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063330?ae"/>
+<attribute name="FRES" value="16MHz"/>
+<attribute name="IR" value="1.22A"/>
+<attribute name="ISAT" value="1.5A"/>
+<attribute name="PART-NUMBER" value=" 74404063330 "/>
+<attribute name="RDC" value="185mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404063470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063470?ae"/>
+<attribute name="FRES" value="14MHz"/>
+<attribute name="IR" value="1.06A"/>
+<attribute name="ISAT" value="1.3A"/>
+<attribute name="PART-NUMBER" value=" 74404063470 "/>
+<attribute name="RDC" value="315mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404063680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063680?ae"/>
+<attribute name="FRES" value="11MHz"/>
+<attribute name="IR" value="0.86A"/>
+<attribute name="ISAT" value="0.88A"/>
+<attribute name="PART-NUMBER" value=" 74404063680 "/>
+<attribute name="RDC" value="360mOhm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+<technology name="_74404063681">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404063681?ae"/>
+<attribute name="FRES" value="3MHz"/>
+<attribute name="IR" value="0.27A"/>
+<attribute name="ISAT" value="0.29A"/>
+<attribute name="PART-NUMBER" value=" 74404063681 "/>
+<attribute name="RDC" value="5526mOhm"/>
+<attribute name="VALUE" value="680uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_3015" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_3015">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009661/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_744040320047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040320047?ae"/>
+<attribute name="FRES" value="304MHz"/>
+<attribute name="IR" value="3A"/>
+<attribute name="ISAT" value="4A"/>
+<attribute name="PART-NUMBER" value=" 744040320047 "/>
+<attribute name="RDC" value="18mOhm"/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_74404032010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032010?ae"/>
+<attribute name="FRES" value="138MHz"/>
+<attribute name="IR" value="2.2A"/>
+<attribute name="ISAT" value="3A"/>
+<attribute name="PART-NUMBER" value=" 74404032010 "/>
+<attribute name="RDC" value="33mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404032015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032015?ae"/>
+<attribute name="FRES" value="100MHz"/>
+<attribute name="IR" value="2A"/>
+<attribute name="ISAT" value="2.3A"/>
+<attribute name="PART-NUMBER" value=" 74404032015 "/>
+<attribute name="RDC" value="40mOhm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_74404032022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032022?ae"/>
+<attribute name="FRES" value="85MHz"/>
+<attribute name="IR" value="1.8A"/>
+<attribute name="ISAT" value="1.7A"/>
+<attribute name="PART-NUMBER" value=" 74404032022 "/>
+<attribute name="RDC" value="50mOhm"/>
+<attribute name="VALUE" value="uH2.2"/>
+</technology>
+<technology name="_74404032033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032033?ae"/>
+<attribute name="FRES" value="72MHz"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="ISAT" value="1.5A"/>
+<attribute name="PART-NUMBER" value=" 74404032033 "/>
+<attribute name="RDC" value="70mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404032047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032047?ae"/>
+<attribute name="FRES" value="56MHz"/>
+<attribute name="IR" value="1.3A"/>
+<attribute name="ISAT" value="1.2A"/>
+<attribute name="PART-NUMBER" value=" 74404032047 "/>
+<attribute name="RDC" value="96mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404032068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032068?ae"/>
+<attribute name="FRES" value="45MHz"/>
+<attribute name="IR" value="1.16A"/>
+<attribute name="ISAT" value="0.94A"/>
+<attribute name="PART-NUMBER" value=" 74404032068 "/>
+<attribute name="RDC" value="120mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404032100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032100?ae"/>
+<attribute name="FRES" value="37MHz"/>
+<attribute name="IR" value="0.84A"/>
+<attribute name="ISAT" value="0.87A"/>
+<attribute name="PART-NUMBER" value=" 74404032100 "/>
+<attribute name="RDC" value="230mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404032101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032101?ae"/>
+<attribute name="FRES" value="7.5MHz"/>
+<attribute name="IR" value="0.3A"/>
+<attribute name="ISAT" value="0.26A"/>
+<attribute name="PART-NUMBER" value=" 74404032101 "/>
+<attribute name="RDC" value="1900mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404032150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032150?ae"/>
+<attribute name="FRES" value="29MHz"/>
+<attribute name="IR" value="0.73A"/>
+<attribute name="ISAT" value="0.8A"/>
+<attribute name="PART-NUMBER" value=" 74404032150 "/>
+<attribute name="RDC" value="300mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404032220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032220?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="IR" value="0.6A"/>
+<attribute name="ISAT" value="0.6A"/>
+<attribute name="PART-NUMBER" value=" 74404032220 "/>
+<attribute name="RDC" value="450mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404032330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032330?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="0.5A"/>
+<attribute name="ISAT" value="0.54A"/>
+<attribute name="PART-NUMBER" value=" 74404032330 "/>
+<attribute name="RDC" value="911mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404032470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032470?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="0.4A"/>
+<attribute name="ISAT" value="0.41A"/>
+<attribute name="PART-NUMBER" value=" 74404032470 "/>
+<attribute name="RDC" value="1050mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404032680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404032680?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="0.34A"/>
+<attribute name="ISAT" value="0.35A"/>
+<attribute name="PART-NUMBER" value=" 74404032680 "/>
+<attribute name="RDC" value="1600mOhm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_5040" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_5040">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009656/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_74404054010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054010?ae"/>
+<attribute name="FRES" value="187MHz"/>
+<attribute name="IR" value="4.9A"/>
+<attribute name="ISAT" value="8A"/>
+<attribute name="PART-NUMBER" value=" 74404054010 "/>
+<attribute name="RDC" value="12mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404054015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054015?ae"/>
+<attribute name="FRES" value="137MHz"/>
+<attribute name="IR" value="4.3A"/>
+<attribute name="ISAT" value="6.9A"/>
+<attribute name="PART-NUMBER" value=" 74404054015 "/>
+<attribute name="RDC" value="15mOhm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_74404054022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054022?ae"/>
+<attribute name="FRES" value="77MHz"/>
+<attribute name="IR" value="3.8A"/>
+<attribute name="ISAT" value="5.3A"/>
+<attribute name="PART-NUMBER" value=" 74404054022 "/>
+<attribute name="RDC" value="19mOhm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_74404054033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054033?ae"/>
+<attribute name="FRES" value="48MHz"/>
+<attribute name="IR" value="3.4A"/>
+<attribute name="ISAT" value="4.3A"/>
+<attribute name="PART-NUMBER" value=" 74404054033 "/>
+<attribute name="RDC" value="24mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404054047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054047?ae"/>
+<attribute name="FRES" value="43MHz"/>
+<attribute name="IR" value="3A"/>
+<attribute name="ISAT" value="3.8A"/>
+<attribute name="PART-NUMBER" value=" 74404054047 "/>
+<attribute name="RDC" value="30mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404054068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054068?ae"/>
+<attribute name="FRES" value="35MHz"/>
+<attribute name="IR" value="2.5A"/>
+<attribute name="ISAT" value="3.2A"/>
+<attribute name="PART-NUMBER" value=" 74404054068 "/>
+<attribute name="RDC" value="43mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404054100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054100?ae"/>
+<attribute name="FRES" value="26MHz"/>
+<attribute name="IR" value="2.1A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="PART-NUMBER" value=" 74404054100 "/>
+<attribute name="RDC" value="64mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404054101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054101?ae"/>
+<attribute name="FRES" value="7.2MHz"/>
+<attribute name="IR" value="0.7A"/>
+<attribute name="ISAT" value="0.82A"/>
+<attribute name="PART-NUMBER" value=" 74404054101 "/>
+<attribute name="RDC" value="560mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404054102">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054102?ae"/>
+<attribute name="FRES" value="1.9MHz"/>
+<attribute name="IR" value="0.2A"/>
+<attribute name="ISAT" value="0.24A"/>
+<attribute name="PART-NUMBER" value=" 74404054102 "/>
+<attribute name="RDC" value="6000mOhm"/>
+<attribute name="VALUE" value="1000uH"/>
+</technology>
+<technology name="_74404054150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054150?ae"/>
+<attribute name="FRES" value="22MHz"/>
+<attribute name="IR" value="2A"/>
+<attribute name="ISAT" value="2.2A"/>
+<attribute name="PART-NUMBER" value=" 74404054150 "/>
+<attribute name="RDC" value="86mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404054151">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054151?ae"/>
+<attribute name="FRES" value="6.3MHz"/>
+<attribute name="IR" value="0.6A"/>
+<attribute name="ISAT" value="0.72A"/>
+<attribute name="PART-NUMBER" value=" 74404054151 "/>
+<attribute name="RDC" value="810mOhm"/>
+<attribute name="VALUE" value="150uH"/>
+</technology>
+<technology name="_74404054220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054220?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="ISAT" value="1.7A"/>
+<attribute name="PART-NUMBER" value=" 74404054220 "/>
+<attribute name="RDC" value="129mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404054221">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054221?ae"/>
+<attribute name="FRES" value="4.5MHz"/>
+<attribute name="IR" value="0.5A"/>
+<attribute name="ISAT" value="0.55A"/>
+<attribute name="PART-NUMBER" value=" 74404054221 "/>
+<attribute name="RDC" value="1400mOhm"/>
+<attribute name="VALUE" value="220uH"/>
+</technology>
+<technology name="_74404054222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054222?ae"/>
+<attribute name="FRES" value="1.3MHz"/>
+<attribute name="IR" value="0.14A"/>
+<attribute name="ISAT" value="0.18A"/>
+<attribute name="PART-NUMBER" value=" 74404054222 "/>
+<attribute name="RDC" value="12900mOhm"/>
+<attribute name="VALUE" value="2200uH"/>
+</technology>
+<technology name="_74404054330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054330?ae"/>
+<attribute name="FRES" value="13MHz"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="ISAT" value="1.4A"/>
+<attribute name="PART-NUMBER" value=" 74404054330 "/>
+<attribute name="RDC" value="188mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404054331">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054331?ae"/>
+<attribute name="FRES" value="3MHz"/>
+<attribute name="IR" value="0.4A"/>
+<attribute name="ISAT" value="0.47A"/>
+<attribute name="PART-NUMBER" value=" 74404054331 "/>
+<attribute name="RDC" value="2100mOhm"/>
+<attribute name="VALUE" value="330uH"/>
+</technology>
+<technology name="_74404054332">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054332?ae"/>
+<attribute name="FRES" value="1MHz"/>
+<attribute name="IR" value="0.1A"/>
+<attribute name="ISAT" value="0.15A"/>
+<attribute name="PART-NUMBER" value=" 74404054332 "/>
+<attribute name="RDC" value="21600mOhm"/>
+<attribute name="VALUE" value="3300uH"/>
+</technology>
+<technology name="_74404054470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054470?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="1A"/>
+<attribute name="ISAT" value="1.2A"/>
+<attribute name="PART-NUMBER" value=" 74404054470 "/>
+<attribute name="RDC" value="272mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404054471">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054471?ae"/>
+<attribute name="FRES" value="2.5MHz"/>
+<attribute name="IR" value="0.35A"/>
+<attribute name="ISAT" value="0.4A"/>
+<attribute name="PART-NUMBER" value=" 74404054471 "/>
+<attribute name="RDC" value="2950mOhm"/>
+<attribute name="VALUE" value="470uH"/>
+</technology>
+<technology name="_74404054680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054680?ae"/>
+<attribute name="FRES" value="8.7MHz"/>
+<attribute name="IR" value="0.8A"/>
+<attribute name="ISAT" value="0.99A"/>
+<attribute name="PART-NUMBER" value=" 74404054680 "/>
+<attribute name="RDC" value="400mOhm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+<technology name="_74404054681">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404054681?ae"/>
+<attribute name="FRES" value="2.3MHz"/>
+<attribute name="IR" value="0.25A"/>
+<attribute name="ISAT" value="0.3A"/>
+<attribute name="PART-NUMBER" value=" 74404054681 "/>
+<attribute name="RDC" value="3980mOhm"/>
+<attribute name="VALUE" value="680uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_8040" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2023-05-15&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_8040">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009653/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_74404084010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084010?ae"/>
+<attribute name="FRES" value="127MHz"/>
+<attribute name="IR" value="6.3A"/>
+<attribute name="ISAT" value="14.1A"/>
+<attribute name="PART-NUMBER" value=" 74404084010 "/>
+<attribute name="RDC" value="8mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404084015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084015?ae"/>
+<attribute name="FRES" value="95MHz"/>
+<attribute name="IR" value="5.65A"/>
+<attribute name="ISAT" value="11.4A"/>
+<attribute name="PART-NUMBER" value=" 74404084015 "/>
+<attribute name="RDC" value="10mOhm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_74404084022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084022?ae"/>
+<attribute name="FRES" value="57MHz"/>
+<attribute name="IR" value="5.15A"/>
+<attribute name="ISAT" value="9A"/>
+<attribute name="PART-NUMBER" value=" 74404084022 "/>
+<attribute name="RDC" value="12mOhm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_74404084033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084033?ae"/>
+<attribute name="FRES" value="42MHz"/>
+<attribute name="IR" value="4.4A"/>
+<attribute name="ISAT" value="8A"/>
+<attribute name="PART-NUMBER" value=" 74404084033 "/>
+<attribute name="RDC" value="17mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404084047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084047?ae"/>
+<attribute name="FRES" value="30MHz"/>
+<attribute name="IR" value="4.1A"/>
+<attribute name="ISAT" value="7A"/>
+<attribute name="PART-NUMBER" value=" 74404084047 "/>
+<attribute name="RDC" value="19mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404084068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084068?ae"/>
+<attribute name="FRES" value="27MHz"/>
+<attribute name="IR" value="3.6A"/>
+<attribute name="ISAT" value="5.5A"/>
+<attribute name="PART-NUMBER" value=" 74404084068 "/>
+<attribute name="RDC" value="24mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404084082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084082?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="IR" value="3.45A"/>
+<attribute name="ISAT" value="5A"/>
+<attribute name="PART-NUMBER" value=" 74404084082 "/>
+<attribute name="RDC" value="26mOhm"/>
+<attribute name="VALUE" value="8.2uH"/>
+</technology>
+<technology name="_74404084100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084100?ae"/>
+<attribute name="FRES" value="23MHz"/>
+<attribute name="IR" value="3.3A"/>
+<attribute name="ISAT" value="4.5A"/>
+<attribute name="PART-NUMBER" value=" 74404084100 "/>
+<attribute name="RDC" value="29mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404084101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084101?ae"/>
+<attribute name="FRES" value="6.4MHz"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="ISAT" value="1.5A"/>
+<attribute name="PART-NUMBER" value=" 74404084101 "/>
+<attribute name="RDC" value="290mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404084102">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084102?ae"/>
+<attribute name="FRES" value="2MHz"/>
+<attribute name="IR" value="0.36A"/>
+<attribute name="ISAT" value="0.45A"/>
+<attribute name="PART-NUMBER" value=" 74404084102 "/>
+<attribute name="RDC" value="2870mOhm"/>
+<attribute name="VALUE" value="1000uH"/>
+</technology>
+<technology name="_74404084120">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084120?ae"/>
+<attribute name="FRES" value="21MHz"/>
+<attribute name="IR" value="2.8A"/>
+<attribute name="ISAT" value="4.2A"/>
+<attribute name="PART-NUMBER" value=" 74404084120 "/>
+<attribute name="RDC" value="40mOhm"/>
+<attribute name="VALUE" value="12uH"/>
+</technology>
+<technology name="_74404084121">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084121?ae"/>
+<attribute name="FRES" value="6MHz"/>
+<attribute name="IR" value="1.15A"/>
+<attribute name="ISAT" value="1.45A"/>
+<attribute name="PART-NUMBER" value=" 74404084121 "/>
+<attribute name="RDC" value="347mOhm"/>
+<attribute name="VALUE" value="120uH"/>
+</technology>
+<technology name="_74404084150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084150?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="2.6A"/>
+<attribute name="ISAT" value="3.7A"/>
+<attribute name="PART-NUMBER" value=" 74404084150 "/>
+<attribute name="RDC" value="47mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404084151">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084151?ae"/>
+<attribute name="FRES" value="5.31MHz"/>
+<attribute name="IR" value="0.91A"/>
+<attribute name="ISAT" value="1.25A"/>
+<attribute name="PART-NUMBER" value=" 74404084151 "/>
+<attribute name="RDC" value="478mOhm"/>
+<attribute name="VALUE" value="150uH"/>
+</technology>
+<technology name="_74404084180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084180?ae"/>
+<attribute name="FRES" value="16.5MHz"/>
+<attribute name="IR" value="2.4A"/>
+<attribute name="ISAT" value="3.2A"/>
+<attribute name="PART-NUMBER" value=" 74404084180 "/>
+<attribute name="RDC" value="53mOhm"/>
+<attribute name="VALUE" value="18uH"/>
+</technology>
+<technology name="_74404084220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084220?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="2.1A"/>
+<attribute name="ISAT" value="3A"/>
+<attribute name="PART-NUMBER" value=" 74404084220 "/>
+<attribute name="RDC" value="69mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404084221">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084221?ae"/>
+<attribute name="FRES" value="4.5MHz"/>
+<attribute name="IR" value="0.81A"/>
+<attribute name="ISAT" value="1.1A"/>
+<attribute name="PART-NUMBER" value=" 74404084221 "/>
+<attribute name="RDC" value="592mOhm"/>
+<attribute name="VALUE" value="220uH"/>
+</technology>
+<technology name="_74404084330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084330?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="IR" value="1.8A"/>
+<attribute name="ISAT" value="2.7A"/>
+<attribute name="PART-NUMBER" value=" 74404084330 "/>
+<attribute name="RDC" value="97mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404084331">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084331?ae"/>
+<attribute name="FRES" value="3.55MHz"/>
+<attribute name="IR" value="0.66A"/>
+<attribute name="ISAT" value="0.9A"/>
+<attribute name="PART-NUMBER" value=" 74404084331 "/>
+<attribute name="RDC" value="865mOhm"/>
+<attribute name="VALUE" value="330uH"/>
+</technology>
+<technology name="_74404084470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084470?ae"/>
+<attribute name="FRES" value="9.8MHz"/>
+<attribute name="IR" value="1.55A"/>
+<attribute name="ISAT" value="2.1A"/>
+<attribute name="PART-NUMBER" value=" 74404084470 "/>
+<attribute name="RDC" value="136mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404084560">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084560?ae"/>
+<attribute name="FRES" value="8MHz"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="PART-NUMBER" value=" 74404084560 "/>
+<attribute name="RDC" value="180mOhm"/>
+<attribute name="VALUE" value="56uH"/>
+</technology>
+<technology name="_74404084680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084680?ae"/>
+<attribute name="FRES" value="8.1MHz"/>
+<attribute name="IR" value="1.25A"/>
+<attribute name="ISAT" value="1.7A"/>
+<attribute name="PART-NUMBER" value=" 74404084680 "/>
+<attribute name="RDC" value="196mOhm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+<technology name="_74404084681">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404084681?ae"/>
+<attribute name="FRES" value="2.1MHz"/>
+<attribute name="IR" value="0.52A"/>
+<attribute name="ISAT" value="0.6A"/>
+<attribute name="PART-NUMBER" value=" 74404084681 "/>
+<attribute name="RDC" value="2032mOhm"/>
+<attribute name="VALUE" value="680uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_6045" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_6045">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009654/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_744040640047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040640047?ae"/>
+<attribute name="FRES" value="235MHz"/>
+<attribute name="IR" value="8A"/>
+<attribute name="ISAT" value="16A"/>
+<attribute name="PART-NUMBER" value=" 744040640047 "/>
+<attribute name="RDC" value="6mOhm"/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_744040640068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040640068?ae"/>
+<attribute name="FRES" value="169MHz"/>
+<attribute name="IR" value="7.2A"/>
+<attribute name="ISAT" value="12A"/>
+<attribute name="PART-NUMBER" value=" 744040640068 "/>
+<attribute name="RDC" value="7mOhm"/>
+<attribute name="VALUE" value="0.68uH"/>
+</technology>
+<technology name="_74404064010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064010?ae"/>
+<attribute name="FRES" value="159MHz"/>
+<attribute name="IR" value="5.9A"/>
+<attribute name="ISAT" value="11.5A"/>
+<attribute name="PART-NUMBER" value=" 74404064010 "/>
+<attribute name="RDC" value="11mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404064012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064012?ae"/>
+<attribute name="FRES" value="121MHz"/>
+<attribute name="IR" value="6.25A"/>
+<attribute name="ISAT" value="10.2A"/>
+<attribute name="PART-NUMBER" value=" 74404064012 "/>
+<attribute name="RDC" value="10mOhm"/>
+<attribute name="VALUE" value="1.2uH"/>
+</technology>
+<technology name="_74404064015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064015?ae"/>
+<attribute name="FRES" value="115MHz"/>
+<attribute name="IR" value="6.2A"/>
+<attribute name="ISAT" value="9.7A"/>
+<attribute name="PART-NUMBER" value=" 74404064015 "/>
+<attribute name="RDC" value="12mOhm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_74404064018">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064018?ae"/>
+<attribute name="FRES" value="79MHz"/>
+<attribute name="IR" value="5.8A"/>
+<attribute name="ISAT" value="8.5A"/>
+<attribute name="PART-NUMBER" value=" 74404064018 "/>
+<attribute name="RDC" value="12mOhm"/>
+<attribute name="VALUE" value="1.8uH"/>
+</technology>
+<technology name="_74404064022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064022?ae"/>
+<attribute name="FRES" value="60MHz"/>
+<attribute name="IR" value="5.4A"/>
+<attribute name="ISAT" value="7.5A"/>
+<attribute name="PART-NUMBER" value=" 74404064022 "/>
+<attribute name="RDC" value="14mOhm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_74404064033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064033?ae"/>
+<attribute name="FRES" value="42MHz"/>
+<attribute name="IR" value="4.2A"/>
+<attribute name="ISAT" value="6.5A"/>
+<attribute name="PART-NUMBER" value=" 74404064033 "/>
+<attribute name="RDC" value="21mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404064047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064047?ae"/>
+<attribute name="FRES" value="36MHz"/>
+<attribute name="IR" value="3.85A"/>
+<attribute name="ISAT" value="5.5A"/>
+<attribute name="PART-NUMBER" value=" 74404064047 "/>
+<attribute name="RDC" value="26mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404064068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064068?ae"/>
+<attribute name="FRES" value="27MHz"/>
+<attribute name="IR" value="3.2A"/>
+<attribute name="ISAT" value="4.3A"/>
+<attribute name="PART-NUMBER" value=" 74404064068 "/>
+<attribute name="RDC" value="31mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404064082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064082?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="IR" value="3A"/>
+<attribute name="ISAT" value="4.3A"/>
+<attribute name="PART-NUMBER" value=" 74404064082 "/>
+<attribute name="RDC" value="43mOhm"/>
+<attribute name="VALUE" value="8.2uH"/>
+</technology>
+<technology name="_74404064100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064100?ae"/>
+<attribute name="FRES" value="22MHz"/>
+<attribute name="IR" value="2.85A"/>
+<attribute name="ISAT" value="3.5A"/>
+<attribute name="PART-NUMBER" value=" 74404064100 "/>
+<attribute name="RDC" value="48mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404064101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064101?ae"/>
+<attribute name="FRES" value="6.3MHz"/>
+<attribute name="IR" value="1A"/>
+<attribute name="ISAT" value="1.2A"/>
+<attribute name="PART-NUMBER" value=" 74404064101 "/>
+<attribute name="RDC" value="433mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404064102">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064102?ae"/>
+<attribute name="FRES" value="1.86MHz"/>
+<attribute name="IR" value="0.3A"/>
+<attribute name="ISAT" value="0.37A"/>
+<attribute name="PART-NUMBER" value=" 74404064102 "/>
+<attribute name="RDC" value="4783mOhm"/>
+<attribute name="VALUE" value="1000uH"/>
+</technology>
+<technology name="_74404064120">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064120?ae"/>
+<attribute name="FRES" value="21MHz"/>
+<attribute name="IR" value="2.6A"/>
+<attribute name="ISAT" value="3.3A"/>
+<attribute name="PART-NUMBER" value=" 74404064120 "/>
+<attribute name="RDC" value="58mOhm"/>
+<attribute name="VALUE" value="12uH"/>
+</technology>
+<technology name="_74404064121">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064121?ae"/>
+<attribute name="FRES" value="5.78MHz"/>
+<attribute name="IR" value="0.85A"/>
+<attribute name="ISAT" value="1A"/>
+<attribute name="PART-NUMBER" value=" 74404064121 "/>
+<attribute name="RDC" value="520mOhm"/>
+<attribute name="VALUE" value="120uH"/>
+</technology>
+<technology name="_74404064150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064150?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="2.45A"/>
+<attribute name="ISAT" value="3A"/>
+<attribute name="PART-NUMBER" value=" 74404064150 "/>
+<attribute name="RDC" value="68mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404064151">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064151?ae"/>
+<attribute name="FRES" value="5.4MHz"/>
+<attribute name="IR" value="0.84A"/>
+<attribute name="ISAT" value="0.95A"/>
+<attribute name="PART-NUMBER" value=" 74404064151 "/>
+<attribute name="RDC" value="570mOhm"/>
+<attribute name="VALUE" value="150uH"/>
+</technology>
+<technology name="_74404064152">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064152?ae"/>
+<attribute name="FRES" value="1.32MHz"/>
+<attribute name="IR" value="0.21A"/>
+<attribute name="ISAT" value="0.28A"/>
+<attribute name="PART-NUMBER" value=" 74404064152 "/>
+<attribute name="RDC" value="6989mOhm"/>
+<attribute name="VALUE" value="1500uH"/>
+</technology>
+<technology name="_74404064180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064180?ae"/>
+<attribute name="FRES" value="16MHz"/>
+<attribute name="IR" value="2.2A"/>
+<attribute name="ISAT" value="2.7A"/>
+<attribute name="PART-NUMBER" value=" 74404064180 "/>
+<attribute name="RDC" value="81mOhm"/>
+<attribute name="VALUE" value="18uH"/>
+</technology>
+<technology name="_74404064220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064220?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="2.1A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="PART-NUMBER" value=" 74404064220 "/>
+<attribute name="RDC" value="89mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404064221">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064221?ae"/>
+<attribute name="FRES" value="3.97MHz"/>
+<attribute name="IR" value="0.66A"/>
+<attribute name="ISAT" value="0.75A"/>
+<attribute name="PART-NUMBER" value=" 74404064221 "/>
+<attribute name="RDC" value="850mOhm"/>
+<attribute name="VALUE" value="220uH"/>
+</technology>
+<technology name="_74404064330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064330?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="IR" value="1.8A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="PART-NUMBER" value=" 74404064330 "/>
+<attribute name="RDC" value="mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404064331">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064331?ae"/>
+<attribute name="FRES" value="3.42MHz"/>
+<attribute name="IR" value="0.58A"/>
+<attribute name="ISAT" value="0.65A"/>
+<attribute name="PART-NUMBER" value=" 74404064331 "/>
+<attribute name="RDC" value="1177mOhm"/>
+<attribute name="VALUE" value="330uH"/>
+</technology>
+<technology name="_74404064470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064470?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="1.4A"/>
+<attribute name="ISAT" value="1.6A"/>
+<attribute name="PART-NUMBER" value=" 74404064470 "/>
+<attribute name="RDC" value="200mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404064560">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064560?ae"/>
+<attribute name="FRES" value="8.3MHz"/>
+<attribute name="IR" value="1.3A"/>
+<attribute name="ISAT" value="1.5A"/>
+<attribute name="PART-NUMBER" value=" 74404064560 "/>
+<attribute name="RDC" value="220mOhm"/>
+<attribute name="VALUE" value="56uH"/>
+</technology>
+<technology name="_74404064680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064680?ae"/>
+<attribute name="FRES" value="7.6MHz"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="ISAT" value="1.4A"/>
+<attribute name="PART-NUMBER" value=" 74404064680 "/>
+<attribute name="RDC" value="289mOhm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+<technology name="_74404064681">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404064681?ae"/>
+<attribute name="FRES" value="1.95MHz"/>
+<attribute name="IR" value="0.35A"/>
+<attribute name="ISAT" value="0.42A"/>
+<attribute name="PART-NUMBER" value=" 74404064681 "/>
+<attribute name="RDC" value="2650mOhm"/>
+<attribute name="VALUE" value="680uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_4018" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_4018">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009659/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_744040420033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040420033?ae"/>
+<attribute name="FRES" value="326MHz"/>
+<attribute name="IR" value="4.5A"/>
+<attribute name="ISAT" value="7.6A"/>
+<attribute name="PART-NUMBER" value=" 744040420033 "/>
+<attribute name="RDC" value="13mOhm"/>
+<attribute name="VALUE" value="0.33uH"/>
+</technology>
+<technology name="_74404042010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042010?ae"/>
+<attribute name="FRES" value="120MHz"/>
+<attribute name="IR" value="3.2A"/>
+<attribute name="ISAT" value="4.8A"/>
+<attribute name="PART-NUMBER" value=" 74404042010 "/>
+<attribute name="RDC" value="27mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404042015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042015?ae"/>
+<attribute name="FRES" value="100MHz"/>
+<attribute name="IR" value="2.95A"/>
+<attribute name="ISAT" value="4.3A"/>
+<attribute name="PART-NUMBER" value=" 74404042015 "/>
+<attribute name="RDC" value="31mOhm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_74404042022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042022?ae"/>
+<attribute name="FRES" value="70MHz"/>
+<attribute name="IR" value="2.2A"/>
+<attribute name="ISAT" value="3.4A"/>
+<attribute name="PART-NUMBER" value=" 74404042022 "/>
+<attribute name="RDC" value="42mOhm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_74404042033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042033?ae"/>
+<attribute name="FRES" value="56MHz"/>
+<attribute name="IR" value="2A"/>
+<attribute name="ISAT" value="2.9A"/>
+<attribute name="PART-NUMBER" value=" 74404042033 "/>
+<attribute name="RDC" value="55mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404042047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042047?ae"/>
+<attribute name="FRES" value="48MHz"/>
+<attribute name="IR" value="1.7A"/>
+<attribute name="ISAT" value="2.2A"/>
+<attribute name="PART-NUMBER" value=" 74404042047 "/>
+<attribute name="RDC" value="70mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404042068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042068?ae"/>
+<attribute name="FRES" value="39MHz"/>
+<attribute name="IR" value="1.45A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="PART-NUMBER" value=" 74404042068 "/>
+<attribute name="RDC" value="98mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404042100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042100?ae"/>
+<attribute name="FRES" value="28MHz"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="ISAT" value="1.7A"/>
+<attribute name="PART-NUMBER" value=" 74404042100 "/>
+<attribute name="RDC" value="150mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404042101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042101?ae"/>
+<attribute name="FRES" value="8MHz"/>
+<attribute name="IR" value="0.42A"/>
+<attribute name="ISAT" value="0.56A"/>
+<attribute name="PART-NUMBER" value=" 74404042101 "/>
+<attribute name="RDC" value="1430mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404042150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042150?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="IR" value="0.85A"/>
+<attribute name="ISAT" value="1.4A"/>
+<attribute name="PART-NUMBER" value=" 74404042150 "/>
+<attribute name="RDC" value="210mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404042151">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042151?ae"/>
+<attribute name="FRES" value="7.5MHz"/>
+<attribute name="IR" value="0.3A"/>
+<attribute name="ISAT" value="0.45A"/>
+<attribute name="PART-NUMBER" value=" 74404042151 "/>
+<attribute name="RDC" value="2853mOhm"/>
+<attribute name="VALUE" value="150uH"/>
+</technology>
+<technology name="_74404042220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042220?ae"/>
+<attribute name="FRES" value="23MHz"/>
+<attribute name="IR" value="0.7A"/>
+<attribute name="ISAT" value="1.1A"/>
+<attribute name="PART-NUMBER" value=" 74404042220 "/>
+<attribute name="RDC" value="290mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404042221">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042221?ae"/>
+<attribute name="FRES" value="5.3MHz"/>
+<attribute name="IR" value="0.25A"/>
+<attribute name="ISAT" value="0.39A"/>
+<attribute name="PART-NUMBER" value=" 74404042221 "/>
+<attribute name="RDC" value="3450mOhm"/>
+<attribute name="VALUE" value="220uH"/>
+</technology>
+<technology name="_74404042330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042330?ae"/>
+<attribute name="FRES" value="16MHz"/>
+<attribute name="IR" value="0.65A"/>
+<attribute name="ISAT" value="0.9A"/>
+<attribute name="PART-NUMBER" value=" 74404042330 "/>
+<attribute name="RDC" value="460mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404042331">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042331?ae"/>
+<attribute name="FRES" value="4.2MHz"/>
+<attribute name="IR" value="0.2A"/>
+<attribute name="ISAT" value="0.3A"/>
+<attribute name="PART-NUMBER" value=" 74404042331 "/>
+<attribute name="RDC" value="5300mOhm"/>
+<attribute name="VALUE" value="330uH"/>
+</technology>
+<technology name="_74404042470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042470?ae"/>
+<attribute name="FRES" value="11MHz"/>
+<attribute name="IR" value="0.6A"/>
+<attribute name="ISAT" value="0.7A"/>
+<attribute name="PART-NUMBER" value=" 74404042470 "/>
+<attribute name="RDC" value="620mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404042680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404042680?ae"/>
+<attribute name="FRES" value="9MHz"/>
+<attribute name="IR" value="0.54A"/>
+<attribute name="ISAT" value="0.63A"/>
+<attribute name="PART-NUMBER" value=" 74404042680 "/>
+<attribute name="RDC" value="840mOhm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_5020" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_5020">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009657/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_744040520047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040520047?ae"/>
+<attribute name="FRES" value="252MHz"/>
+<attribute name="IR" value="4.9A"/>
+<attribute name="ISAT" value="8.5A"/>
+<attribute name="PART-NUMBER" value=" 744040520047 "/>
+<attribute name="RDC" value="13.9mOhm"/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_74404052010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052010?ae"/>
+<attribute name="FRES" value="145MHz"/>
+<attribute name="IR" value="3.9A"/>
+<attribute name="ISAT" value="6.3A"/>
+<attribute name="PART-NUMBER" value=" 74404052010 "/>
+<attribute name="RDC" value="19.8mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404052012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052012?ae"/>
+<attribute name="FRES" value="130MHz"/>
+<attribute name="IR" value="3.6A"/>
+<attribute name="ISAT" value="5.2A"/>
+<attribute name="PART-NUMBER" value=" 74404052012 "/>
+<attribute name="RDC" value="23.4mOhm"/>
+<attribute name="VALUE" value="1.2uH"/>
+</technology>
+<technology name="_74404052015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052015?ae"/>
+<attribute name="FRES" value="92MHz"/>
+<attribute name="IR" value="3.3A"/>
+<attribute name="ISAT" value="4.9A"/>
+<attribute name="PART-NUMBER" value=" 74404052015 "/>
+<attribute name="RDC" value="25.7mOhm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_74404052022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052022?ae"/>
+<attribute name="FRES" value="88MHz"/>
+<attribute name="IR" value="3A"/>
+<attribute name="ISAT" value="4.2A"/>
+<attribute name="PART-NUMBER" value=" 74404052022 "/>
+<attribute name="RDC" value="31.6mOhm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_74404052033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052033?ae"/>
+<attribute name="FRES" value="70MHz"/>
+<attribute name="IR" value="2.6A"/>
+<attribute name="ISAT" value="3.5A"/>
+<attribute name="PART-NUMBER" value=" 74404052033 "/>
+<attribute name="RDC" value="42.2mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404052039">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052039?ae"/>
+<attribute name="FRES" value="59MHz"/>
+<attribute name="IR" value="2.4A"/>
+<attribute name="ISAT" value="2.8A"/>
+<attribute name="PART-NUMBER" value=" 74404052039 "/>
+<attribute name="RDC" value="50.5mOhm"/>
+<attribute name="VALUE" value="3.9uH"/>
+</technology>
+<technology name="_74404052047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052047?ae"/>
+<attribute name="FRES" value="57MHz"/>
+<attribute name="IR" value="2.3A"/>
+<attribute name="ISAT" value="2.7A"/>
+<attribute name="PART-NUMBER" value=" 74404052047 "/>
+<attribute name="RDC" value="55.9mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404052056">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052056?ae"/>
+<attribute name="FRES" value="50MHz"/>
+<attribute name="IR" value="2.1A"/>
+<attribute name="ISAT" value="2.55A"/>
+<attribute name="PART-NUMBER" value=" 74404052056 "/>
+<attribute name="RDC" value="67.5mOhm"/>
+<attribute name="VALUE" value="5.6uH"/>
+</technology>
+<technology name="_74404052068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052068?ae"/>
+<attribute name="FRES" value="43MHz"/>
+<attribute name="IR" value="1.9A"/>
+<attribute name="ISAT" value="2.4A"/>
+<attribute name="PART-NUMBER" value=" 74404052068 "/>
+<attribute name="RDC" value="82.7mOhm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74404052075">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052075?ae"/>
+<attribute name="FRES" value="40MHz"/>
+<attribute name="IR" value="1.7A"/>
+<attribute name="ISAT" value="2.1A"/>
+<attribute name="PART-NUMBER" value=" 74404052075 "/>
+<attribute name="RDC" value="96.8mOhm"/>
+<attribute name="VALUE" value="7.5uH"/>
+</technology>
+<technology name="_74404052100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052100?ae"/>
+<attribute name="FRES" value="37MHz"/>
+<attribute name="IR" value="1.6A"/>
+<attribute name="ISAT" value="1.95A"/>
+<attribute name="PART-NUMBER" value=" 74404052100 "/>
+<attribute name="RDC" value="109mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404052101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052101?ae"/>
+<attribute name="FRES" value="8.7MHz"/>
+<attribute name="IR" value="0.55A"/>
+<attribute name="ISAT" value="0.6A"/>
+<attribute name="PART-NUMBER" value=" 74404052101 "/>
+<attribute name="RDC" value="1090mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404052150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052150?ae"/>
+<attribute name="FRES" value="31MHz"/>
+<attribute name="IR" value="1.3A"/>
+<attribute name="ISAT" value="1.5A"/>
+<attribute name="PART-NUMBER" value=" 74404052150 "/>
+<attribute name="RDC" value="162mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404052220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052220?ae"/>
+<attribute name="FRES" value="22MHz"/>
+<attribute name="IR" value="1.15A"/>
+<attribute name="ISAT" value="1.35A"/>
+<attribute name="PART-NUMBER" value=" 74404052220 "/>
+<attribute name="RDC" value="225mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404052330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052330?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="0.95A"/>
+<attribute name="ISAT" value="1.1A"/>
+<attribute name="PART-NUMBER" value=" 74404052330 "/>
+<attribute name="RDC" value="387mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404052470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052470?ae"/>
+<attribute name="FRES" value="13MHz"/>
+<attribute name="IR" value="0.8A"/>
+<attribute name="ISAT" value="0.95A"/>
+<attribute name="PART-NUMBER" value=" 74404052470 "/>
+<attribute name="RDC" value="521mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404052560">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052560?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="IR" value="0.72A"/>
+<attribute name="ISAT" value="0.85A"/>
+<attribute name="PART-NUMBER" value=" 74404052560 "/>
+<attribute name="RDC" value="627mOhm"/>
+<attribute name="VALUE" value="56uH"/>
+</technology>
+<technology name="_74404052680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404052680?ae"/>
+<attribute name="FRES" value="9.2MHz"/>
+<attribute name="IR" value="0.62A"/>
+<attribute name="ISAT" value="0.8A"/>
+<attribute name="PART-NUMBER" value=" 74404052680 "/>
+<attribute name="RDC" value="769mOhm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_4012" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_4012">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009660/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_744040410047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744040410047?ae"/>
+<attribute name="FRES" value="274MHz"/>
+<attribute name="IR" value="3.25A"/>
+<attribute name="ISAT" value="4.25A"/>
+<attribute name="PART-NUMBER" value=" 744040410047 "/>
+<attribute name="RDC" value="28mOhm"/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_74404041010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404041010?ae"/>
+<attribute name="FRES" value="142MHz"/>
+<attribute name="IR" value="2.52A"/>
+<attribute name="ISAT" value="3.35A"/>
+<attribute name="PART-NUMBER" value=" 74404041010 "/>
+<attribute name="RDC" value="41mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404041033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404041033?ae"/>
+<attribute name="FRES" value="78MHz"/>
+<attribute name="IR" value="1.75A"/>
+<attribute name="ISAT" value="1.8A"/>
+<attribute name="PART-NUMBER" value=" 74404041033 "/>
+<attribute name="RDC" value="69mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404041047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404041047?ae"/>
+<attribute name="FRES" value="60MHz"/>
+<attribute name="IR" value="1.55A"/>
+<attribute name="ISAT" value="1.3A"/>
+<attribute name="PART-NUMBER" value=" 74404041047 "/>
+<attribute name="RDC" value="91mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404041100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404041100?ae"/>
+<attribute name="FRES" value="38MHz"/>
+<attribute name="IR" value="1.32A"/>
+<attribute name="ISAT" value="1A"/>
+<attribute name="PART-NUMBER" value=" 74404041100 "/>
+<attribute name="RDC" value="168mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404041101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404041101?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="0.43A"/>
+<attribute name="ISAT" value="0.3A"/>
+<attribute name="PART-NUMBER" value=" 74404041101 "/>
+<attribute name="RDC" value="1697mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404041220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404041220?ae"/>
+<attribute name="FRES" value="22MHz"/>
+<attribute name="IR" value="0.95A"/>
+<attribute name="ISAT" value="0.64A"/>
+<attribute name="PART-NUMBER" value=" 74404041220 "/>
+<attribute name="RDC" value="380mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404041330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404041330?ae"/>
+<attribute name="FRES" value="18MHz"/>
+<attribute name="IR" value="0.65A"/>
+<attribute name="ISAT" value="0.6A"/>
+<attribute name="PART-NUMBER" value=" 74404041330 "/>
+<attribute name="RDC" value="628mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404041470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404041470?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="0.56A"/>
+<attribute name="ISAT" value="0.55A"/>
+<attribute name="PART-NUMBER" value=" 74404041470 "/>
+<attribute name="RDC" value="987mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404041680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404041680?ae"/>
+<attribute name="FRES" value="13MHz"/>
+<attribute name="IR" value="0.45A"/>
+<attribute name="ISAT" value="0.48A"/>
+<attribute name="PART-NUMBER" value=" 74404041680 "/>
+<attribute name="RDC" value="1495mOhm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_8065" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_8065">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009652/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_74404086101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086101?ae"/>
+<attribute name="FRES" value="4MHz"/>
+<attribute name="IR" value="1.35A"/>
+<attribute name="ISAT" value="2.15A"/>
+<attribute name="PART-NUMBER" value=" 74404086101 "/>
+<attribute name="RDC" value="238mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404086102">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086102?ae"/>
+<attribute name="FRES" value="1.39MHz"/>
+<attribute name="IR" value="0.48A"/>
+<attribute name="ISAT" value="0.65A"/>
+<attribute name="PART-NUMBER" value=" 74404086102 "/>
+<attribute name="RDC" value="2350mOhm"/>
+<attribute name="VALUE" value="1000uH"/>
+</technology>
+<technology name="_74404086103">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086103?ae"/>
+<attribute name="FRES" value="0.411MHz"/>
+<attribute name="IR" value="0.13A"/>
+<attribute name="ISAT" value="0.2A"/>
+<attribute name="PART-NUMBER" value=" 74404086103 "/>
+<attribute name="RDC" value="22800mOhm"/>
+<attribute name="VALUE" value="10000uH"/>
+</technology>
+<technology name="_74404086151">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086151?ae"/>
+<attribute name="FRES" value="3.2MHz"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="ISAT" value="1.8A"/>
+<attribute name="PART-NUMBER" value=" 74404086151 "/>
+<attribute name="RDC" value="355mOhm"/>
+<attribute name="VALUE" value="150uH"/>
+</technology>
+<technology name="_74404086152">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086152?ae"/>
+<attribute name="FRES" value="1.13MHz"/>
+<attribute name="IR" value="0.36A"/>
+<attribute name="ISAT" value="0.54A"/>
+<attribute name="PART-NUMBER" value=" 74404086152 "/>
+<attribute name="RDC" value="3650mOhm"/>
+<attribute name="VALUE" value="1500uH"/>
+</technology>
+<technology name="_74404086221">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086221?ae"/>
+<attribute name="FRES" value="2.8MHz"/>
+<attribute name="IR" value="0.95A"/>
+<attribute name="ISAT" value="1.44A"/>
+<attribute name="PART-NUMBER" value=" 74404086221 "/>
+<attribute name="RDC" value="555mOhm"/>
+<attribute name="VALUE" value="220uH"/>
+</technology>
+<technology name="_74404086222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086222?ae"/>
+<attribute name="FRES" value="0.924MHz"/>
+<attribute name="IR" value="0.31A"/>
+<attribute name="ISAT" value="0.45A"/>
+<attribute name="PART-NUMBER" value=" 74404086222 "/>
+<attribute name="RDC" value="5000mOhm"/>
+<attribute name="VALUE" value="2200uH"/>
+</technology>
+<technology name="_74404086331">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086331?ae"/>
+<attribute name="FRES" value="2.3MHz"/>
+<attribute name="IR" value="0.85A"/>
+<attribute name="ISAT" value="1.12A"/>
+<attribute name="PART-NUMBER" value=" 74404086331 "/>
+<attribute name="RDC" value="698mOhm"/>
+<attribute name="VALUE" value="330uH"/>
+</technology>
+<technology name="_74404086332">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086332?ae"/>
+<attribute name="FRES" value="0.759MHz"/>
+<attribute name="IR" value="0.24A"/>
+<attribute name="ISAT" value="0.36A"/>
+<attribute name="PART-NUMBER" value=" 74404086332 "/>
+<attribute name="RDC" value="7300mOhm"/>
+<attribute name="VALUE" value="3300uH"/>
+</technology>
+<technology name="_74404086471">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086471?ae"/>
+<attribute name="FRES" value="1.8MHz"/>
+<attribute name="IR" value="0.65A"/>
+<attribute name="ISAT" value="1.08A"/>
+<attribute name="PART-NUMBER" value=" 74404086471 "/>
+<attribute name="RDC" value="1200mOhm"/>
+<attribute name="VALUE" value="470uH"/>
+</technology>
+<technology name="_74404086472">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086472?ae"/>
+<attribute name="FRES" value="0.62MHz"/>
+<attribute name="IR" value="0.19A"/>
+<attribute name="ISAT" value="0.29A"/>
+<attribute name="PART-NUMBER" value=" 74404086472 "/>
+<attribute name="RDC" value="12150mOhm"/>
+<attribute name="VALUE" value="4700uH"/>
+</technology>
+<technology name="_74404086681">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086681?ae"/>
+<attribute name="FRES" value="1.6MHz"/>
+<attribute name="IR" value="0.53A"/>
+<attribute name="ISAT" value="1A"/>
+<attribute name="PART-NUMBER" value=" 74404086681 "/>
+<attribute name="RDC" value="1650mOhm"/>
+<attribute name="VALUE" value="680uH"/>
+</technology>
+<technology name="_74404086682">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404086682?ae"/>
+<attribute name="FRES" value="0.509MHz"/>
+<attribute name="IR" value="0.14A"/>
+<attribute name="ISAT" value="0.26A"/>
+<attribute name="PART-NUMBER" value=" 74404086682 "/>
+<attribute name="RDC" value="18700mOhm"/>
+<attribute name="VALUE" value="6800uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-LQS_4025" prefix="L">
+<description>&lt;b&gt;WE-LQS SMD Power Inductor
+&lt;br&gt;Semi Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Compact design Power Inductor
+&lt;br&gt;1.7 times more current than compared to an unshielded version
+&lt;br&gt;Robust construction
+&lt;br&gt;Low RDC
+&lt;br&gt;Magnetically shielded by use of a magnetic resin
+&lt;br&gt;Operating temperature: -40°C to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Integrated DC/DC Converters
+&lt;br&gt;Switching controllers which require high efficiency
+&lt;br&gt;Portable power (PDA, Smartphones, Digital Cameras, TVs, LCD etc.)
+&lt;br&gt;Embedded Laptops and PCs
+&lt;br&gt;Big sizes can be used in shock resisting circuits
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14807v209%20Family_WE-LQS.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LQS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-LQS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-21&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS_4025">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13009658/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_74404043010A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043010A?ae"/>
+<attribute name="FRES" value="167MHz"/>
+<attribute name="IR" value="4.9A"/>
+<attribute name="ISAT" value="3.22A"/>
+<attribute name="PART-NUMBER" value="74404043010A"/>
+<attribute name="RDC" value="14mOhm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_74404043022A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043022A?ae"/>
+<attribute name="FRES" value="104MHz"/>
+<attribute name="IR" value="3.83A"/>
+<attribute name="ISAT" value="2.28A"/>
+<attribute name="PART-NUMBER" value="74404043022A"/>
+<attribute name="RDC" value="23mOhm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_74404043033A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043033A?ae"/>
+<attribute name="FRES" value="75MHz"/>
+<attribute name="IR" value="3.23A"/>
+<attribute name="ISAT" value="1.75A"/>
+<attribute name="PART-NUMBER" value="74404043033A"/>
+<attribute name="RDC" value="33mOhm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74404043047A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043047A?ae"/>
+<attribute name="FRES" value="61MHz"/>
+<attribute name="IR" value="2.3A"/>
+<attribute name="ISAT" value="1.43A"/>
+<attribute name="PART-NUMBER" value="74404043047A"/>
+<attribute name="RDC" value="46mOhm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74404043100A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043100A?ae"/>
+<attribute name="FRES" value="42MHz"/>
+<attribute name="IR" value="1.76A"/>
+<attribute name="ISAT" value="1.04A"/>
+<attribute name="PART-NUMBER" value="74404043100A"/>
+<attribute name="RDC" value="89mOhm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74404043101A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043101A?ae"/>
+<attribute name="FRES" value="11MHz"/>
+<attribute name="IR" value="0.49A"/>
+<attribute name="ISAT" value="0.29A"/>
+<attribute name="PART-NUMBER" value="74404043101A"/>
+<attribute name="RDC" value="1043mOhm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74404043102A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043102A?ae"/>
+<attribute name="FRES" value="3MHz"/>
+<attribute name="IR" value="0.16A"/>
+<attribute name="ISAT" value="0.09A"/>
+<attribute name="PART-NUMBER" value="74404043102A"/>
+<attribute name="RDC" value="10342mOhm"/>
+<attribute name="VALUE" value="1000uH"/>
+</technology>
+<technology name="_74404043150A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043150A?ae"/>
+<attribute name="FRES" value="33MHz"/>
+<attribute name="IR" value="1.45A"/>
+<attribute name="ISAT" value="0.84A"/>
+<attribute name="PART-NUMBER" value="74404043150A"/>
+<attribute name="RDC" value="132mOhm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74404043151A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043151A?ae"/>
+<attribute name="FRES" value="9MHz"/>
+<attribute name="IR" value="0.39A"/>
+<attribute name="ISAT" value="0.27A"/>
+<attribute name="PART-NUMBER" value="74404043151A"/>
+<attribute name="RDC" value="1634mOhm"/>
+<attribute name="VALUE" value="150uH"/>
+</technology>
+<technology name="_74404043220A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043220A?ae"/>
+<attribute name="FRES" value="26MHz"/>
+<attribute name="IR" value="1.11A"/>
+<attribute name="ISAT" value="0.7A"/>
+<attribute name="PART-NUMBER" value="74404043220A"/>
+<attribute name="RDC" value="200mOhm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74404043221A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043221A?ae"/>
+<attribute name="FRES" value="7MHz"/>
+<attribute name="IR" value="0.31A"/>
+<attribute name="ISAT" value="0.21A"/>
+<attribute name="PART-NUMBER" value="74404043221A"/>
+<attribute name="RDC" value="2430mOhm"/>
+<attribute name="VALUE" value="220uH"/>
+</technology>
+<technology name="_74404043330A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043330A?ae"/>
+<attribute name="FRES" value="21MHz"/>
+<attribute name="IR" value="0.88A"/>
+<attribute name="ISAT" value="0.53A"/>
+<attribute name="PART-NUMBER" value="74404043330A"/>
+<attribute name="RDC" value="316mOhm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74404043470A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043470A?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="0.71A"/>
+<attribute name="ISAT" value="0.45A"/>
+<attribute name="PART-NUMBER" value="74404043470A"/>
+<attribute name="RDC" value="492mOhm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74404043471A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74404043471A?ae"/>
+<attribute name="FRES" value="4.7MHz"/>
+<attribute name="IR" value="0.25A"/>
+<attribute name="ISAT" value="0.14A"/>
+<attribute name="PART-NUMBER" value="74404043471A"/>
+<attribute name="RDC" value="4150mOhm"/>
+<attribute name="VALUE" value="470uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

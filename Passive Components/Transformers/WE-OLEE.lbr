@@ -1,0 +1,2860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Transformers For AC/DC Converter - WE-OLEE&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-04-10&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-OLEE_EE16/8/5" urn="urn:adsk.eagle:footprint:40001869/1">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Size: EE16/8/5,SMT,12pins
+&lt;br&gt;LXWXH=17.78X26.9X13.8mm</description>
+<wire x1="-9.34" y1="8.89" x2="10.3" y2="8.89" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="-8.89" x2="10.3" y2="-8.89" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="8" x2="-10.3" y2="-8.89" width="0.1" layer="51"/>
+<wire x1="10.3" y1="8.89" x2="10.3" y2="-8.89" width="0.1" layer="51"/>
+<wire x1="-9.34" y1="8.99" x2="10.4" y2="8.99" width="0.2" layer="21"/>
+<wire x1="10.4" y1="-8.99" x2="-10.4" y2="-8.99" width="0.2" layer="21"/>
+<wire x1="10.4" y1="8.99" x2="10.4" y2="-8.99" width="0.2" layer="21"/>
+<wire x1="-10.4" y1="8" x2="-10.4" y2="-8.99" width="0.2" layer="21"/>
+<wire x1="-10.3" y1="8" x2="-9.34" y2="8.89" width="0.1" layer="51"/>
+<wire x1="-10.4" y1="8" x2="-9.34" y2="8.99" width="0.2" layer="21"/>
+<circle x="-7.9465" y="6.5425" radius="0.3" width="0.7" layer="51"/>
+<circle x="-11.94" y="8.5" radius="0.3" width="0.7" layer="21"/>
+<text x="0" y="9.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-13.61" y="9.19"/>
+<vertex x="13.61" y="9.19"/>
+<vertex x="13.61" y="-9.19"/>
+<vertex x="-13.61" y="-9.19"/>
+</polygon>
+<smd name="1" x="-12.36" y="6.35" dx="2.1" dy="1.17" layer="1"/>
+<smd name="7" x="12.36" y="-6.35" dx="2.1" dy="1.17" layer="1"/>
+<smd name="2" x="-12.36" y="3.81" dx="2.1" dy="1.17" layer="1"/>
+<smd name="3" x="-12.36" y="1.27" dx="2.1" dy="1.17" layer="1"/>
+<smd name="4" x="-12.36" y="-1.27" dx="2.1" dy="1.17" layer="1"/>
+<smd name="5" x="-12.36" y="-3.81" dx="2.1" dy="1.17" layer="1"/>
+<smd name="6" x="-12.36" y="-6.35" dx="2.1" dy="1.17" layer="1"/>
+<smd name="8" x="12.36" y="-3.81" dx="2.1" dy="1.17" layer="1"/>
+<smd name="9" x="12.36" y="-1.27" dx="2.1" dy="1.17" layer="1"/>
+<smd name="10" x="12.36" y="1.27" dx="2.1" dy="1.17" layer="1"/>
+<smd name="11" x="12.36" y="3.81" dx="2.1" dy="1.17" layer="1"/>
+<smd name="12" x="12.36" y="6.35" dx="2.1" dy="1.17" layer="1"/>
+</package>
+<package name="WE-OLEE_EE13/7/4" urn="urn:adsk.eagle:footprint:40001870/1">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Size: EE13/7/4,SMT,9pins
+&lt;br&gt;LXWXH=13.8X23.9X11mm</description>
+<wire x1="-8.355" y1="6.9" x2="8.355" y2="6.9" width="0.1" layer="51"/>
+<wire x1="-8.355" y1="-6.9" x2="8.355" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="-8.355" y1="6.9" x2="-8.355" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="8.355" y1="6.9" x2="8.355" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="-8.455" y1="7" x2="8.455" y2="7" width="0.2" layer="21"/>
+<wire x1="-8.455" y1="7" x2="-8.455" y2="-7" width="0.2" layer="21"/>
+<wire x1="8.455" y1="7" x2="8.455" y2="-7" width="0.2" layer="21"/>
+<wire x1="8.455" y1="-7" x2="-8.455" y2="-7" width="0.2" layer="21"/>
+<circle x="-7.5" y="5.08" radius="0.3" width="0.6" layer="51"/>
+<circle x="-10.5" y="7" radius="0.3" width="0.6" layer="21"/>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-12.12" y="7.2"/>
+<vertex x="12.12" y="7.2"/>
+<vertex x="12.12" y="-7.2"/>
+<vertex x="-12.12" y="-7.2"/>
+</polygon>
+<smd name="1" x="-10.56" y="5.08" dx="2.72" dy="1.21" layer="1"/>
+<smd name="2" x="-10.56" y="2.54" dx="2.72" dy="1.21" layer="1"/>
+<smd name="3" x="-10.56" y="0" dx="2.72" dy="1.21" layer="1"/>
+<smd name="4" x="-10.56" y="-2.54" dx="2.72" dy="1.21" layer="1"/>
+<smd name="5" x="-10.56" y="-5.08" dx="2.72" dy="1.21" layer="1"/>
+<smd name="6" x="10.56" y="-4.77" dx="2.72" dy="1.21" layer="1"/>
+<smd name="7" x="10.56" y="-1.59" dx="2.72" dy="1.21" layer="1"/>
+<smd name="8" x="10.56" y="1.59" dx="2.72" dy="1.21" layer="1"/>
+<smd name="9" x="10.56" y="4.77" dx="2.72" dy="1.21" layer="1"/>
+</package>
+<package name="WE-OLEE_EE13/6/6" urn="urn:adsk.eagle:footprint:40001871/1">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Size: EE13/6/6,THT,9pins
+&lt;br&gt;LXWXH=14.2X20.45X14.6mm</description>
+<wire x1="-10.225" y1="7.1" x2="10.225" y2="7.1" width="0.1" layer="51"/>
+<wire x1="-10.225" y1="-7.1" x2="10.225" y2="-7.1" width="0.1" layer="51"/>
+<wire x1="-10.225" y1="7.1" x2="-10.225" y2="-7.1" width="0.1" layer="51"/>
+<wire x1="10.225" y1="7.1" x2="10.225" y2="-7.1" width="0.1" layer="51"/>
+<wire x1="-10.325" y1="7.2" x2="10.325" y2="7.2" width="0.2" layer="21"/>
+<wire x1="-10.325" y1="7.2" x2="-10.325" y2="-7.2" width="0.2" layer="21"/>
+<wire x1="10.325" y1="7.2" x2="10.325" y2="-7.2" width="0.2" layer="21"/>
+<wire x1="10.325" y1="-7.2" x2="-10.325" y2="-7.2" width="0.2" layer="21"/>
+<circle x="-5.5" y="5.4" radius="0.3" width="0.6" layer="51"/>
+<circle x="-11.8065" y="6.3425" radius="0.3" width="0.6" layer="21"/>
+<text x="0" y="8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-10.525" y="7.4"/>
+<vertex x="10.525" y="7.4"/>
+<vertex x="10.525" y="-7.4"/>
+<vertex x="-10.525" y="-7.4"/>
+</polygon>
+<pad name="1" x="-7.675" y="5.44" drill="1.17"/>
+<pad name="6" x="7.675" y="-5.25" drill="1.17"/>
+<pad name="2" x="-7.675" y="2.72" drill="1.17"/>
+<pad name="3" x="-7.675" y="0" drill="1.17"/>
+<pad name="4" x="-7.675" y="-2.72" drill="1.17"/>
+<pad name="5" x="-7.675" y="-5.44" drill="1.17"/>
+<pad name="7" x="7.675" y="-1.75" drill="1.17"/>
+<pad name="8" x="7.675" y="1.75" drill="1.17"/>
+<pad name="9" x="7.675" y="5.25" drill="1.17"/>
+</package>
+<package name="WE-OLEE_EE20/10/6" urn="urn:adsk.eagle:footprint:40001868/1">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Size: EE13/6/6,THT,9pins
+&lt;br&gt;LXWXH=22.25X14.4X23.24mm</description>
+<wire x1="-7.3" y1="11.125" x2="7.3" y2="11.125" width="0.1" layer="51"/>
+<wire x1="-7.3" y1="-11.125" x2="7.3" y2="-11.125" width="0.1" layer="51"/>
+<wire x1="-7.3" y1="11.125" x2="-7.3" y2="-11.125" width="0.1" layer="51"/>
+<wire x1="7.3" y1="11.125" x2="7.3" y2="-11.125" width="0.1" layer="51"/>
+<wire x1="-7.4" y1="11.225" x2="7.4" y2="11.225" width="0.2" layer="21"/>
+<wire x1="-7.4" y1="11.225" x2="-7.4" y2="-11.225" width="0.2" layer="21"/>
+<wire x1="7.4" y1="11.225" x2="7.4" y2="-11.225" width="0.2" layer="21"/>
+<wire x1="7.4" y1="-11.225" x2="-7.4" y2="-11.225" width="0.2" layer="21"/>
+<circle x="-6.1" y="10" radius="0.3" width="0.6" layer="51"/>
+<circle x="-8.5" y="8.44" radius="0.3" width="0.6" layer="21"/>
+<text x="0" y="12" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.6" y="11.425"/>
+<vertex x="7.6" y="11.425"/>
+<vertex x="7.6" y="-11.425"/>
+<vertex x="-7.6" y="-11.425"/>
+</polygon>
+<pad name="1" x="-5.08" y="7.6" drill="1.4"/>
+<pad name="6" x="5.08" y="-7.6" drill="1.4"/>
+<pad name="2" x="-5.08" y="3.8" drill="1.4"/>
+<pad name="3" x="-5.08" y="0" drill="1.4"/>
+<pad name="4" x="-5.08" y="-3.8" drill="1.4"/>
+<pad name="5" x="-5.08" y="-7.6" drill="1.4"/>
+<pad name="7" x="5.08" y="-3.8" drill="1.4"/>
+<pad name="8" x="5.08" y="0" drill="1.4"/>
+<pad name="9" x="5.08" y="3.8" drill="1.4"/>
+<pad name="10" x="5.08" y="7.6" drill="1.4"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-OLEE_EE16/8/5" urn="urn:adsk.eagle:package:40001873/2" type="model">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Size: EE16/8/5,SMT,12pins
+&lt;br&gt;LXWXH=17.78X26.9X13.8mm</description>
+<packageinstances>
+<packageinstance name="WE-OLEE_EE16/8/5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-OLEE_EE13/6/6" urn="urn:adsk.eagle:package:40001875/2" type="model">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Size: EE13/6/6,THT,9pins
+&lt;br&gt;LXWXH=14.2X20.45X14.6mm</description>
+<packageinstances>
+<packageinstance name="WE-OLEE_EE13/6/6"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-OLEE_EE13/7/4" urn="urn:adsk.eagle:package:40001874/2" type="model">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Size: EE13/7/4,SMT,9pins
+&lt;br&gt;LXWXH=13.8X23.9X11mm</description>
+<packageinstances>
+<packageinstance name="WE-OLEE_EE13/7/4"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-OLEE_EE20/10/6" urn="urn:adsk.eagle:package:40001872/2" type="model">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+Size: EE13/6/6,THT,9pins
+&lt;br&gt;LXWXH=22.25X14.4X23.24mm</description>
+<packageinstances>
+<packageinstance name="WE-OLEE_EE20/10/6"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="750813530">
+<pin name="1" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="17.78" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-17.78" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="10.16" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="12.7" size="1.27" layer="94" align="center">N1</text>
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="-2.54" size="1.27" layer="94" align="center">N4</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N5</text>
+<text x="10.16" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-12.7" size="1.27" layer="94" align="center">N3</text>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="17.78" x2="5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="1.27" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="7508170310">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750370289">
+<pin name="2" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750815542">
+<pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="12.7" size="1.27" layer="94" align="center">N1</text>
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="-2.54" size="1.27" layer="94" align="center">N4</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N5</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="1.27" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="7508110160">
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="12.7" x2="-0.762" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-12.7" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="7508110420">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="12.7" x2="-0.762" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-12.7" width="0.1524" layer="94" style="shortdash"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750817015">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="7508170313">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="7508110330">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="12.7" x2="-0.762" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-12.7" width="0.1524" layer="94" style="shortdash"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750815550">
+<pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="12.7" size="1.27" layer="94" align="center">N1</text>
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="-2.54" size="1.27" layer="94" align="center">N4</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N5</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="1.27" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750817014">
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="7508170312">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750815530">
+<text x="0" y="24.13" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="17.78" size="1.27" layer="94" align="center">N1</text>
+<text x="10.16" y="12.7" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="-7.62" y="2.54" size="1.27" layer="94" align="center">N4</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N5</text>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="22.86" x2="-2.54" y2="20.32" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="20.32" x2="-2.54" y2="17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="20.32" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="22.86" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="22.86" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="22.86" x2="-5.08" y2="22.86" width="0.254" layer="94"/>
+<circle x="4.826" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="21.59" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="21.59" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="6.35" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="22.86" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="22.86" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="10.16" y="17.78" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="7508110333">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="12.7" x2="-0.762" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-12.7" width="0.1524" layer="94" style="shortdash"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750811116">
+<text x="-7.62" y="12.7" size="1.27" layer="94" align="center">N1</text>
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="-2.54" size="1.27" layer="94" align="center">N3</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N4</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<pin name="1" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="1.27" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="7508170311">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750370288">
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="750813540">
+<pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="12.7" size="1.27" layer="94" align="center">N1</text>
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="-2.54" size="1.27" layer="94" align="center">N4</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N5</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="1.27" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750811137">
+<pin name="1" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<text x="-7.62" y="12.7" size="1.27" layer="94" align="center">N1</text>
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="-2.54" size="1.27" layer="94" align="center">N3</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N4</text>
+<text x="10.16" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="1.27" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750813551">
+<pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="9" x="-7.62" y="-17.78" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="17.78" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="12.7" size="1.27" layer="94" align="center">N1</text>
+<text x="0" y="19.05" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="-2.54" size="1.27" layer="94" align="center">N4</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="94" align="center">N5</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="16.51" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="1.27" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="7508110419">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="12.7" x2="-0.762" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-12.7" width="0.1524" layer="94" style="shortdash"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="750811116" prefix="T">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-OLEE"&gt;www.we-online.com/en/components/products/WE-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-11&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750811116" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE16/8/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001873/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750811116?ae"/>
+<attribute name="F-SWTICH" value="80 - 120kHz"/>
+<attribute name="HEIGHT" value="13.8mm"/>
+<attribute name="IOUT1" value="2.55A"/>
+<attribute name="ISAT1" value="800mA"/>
+<attribute name="L1" value="1.31mH"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="23.3:1:3.8"/>
+<attribute name="PART-NUMBER" value=" 750811116 "/>
+<attribute name="VALUE" value=" 750811116 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VAUX1" value="6V"/>
+<attribute name="VAUX2" value="14A"/>
+<attribute name="VIN" value="85 - 265 V (AC)"/>
+<attribute name="VOUT1" value="5V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="26.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750813540" prefix="T">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-OLEE"&gt;www.we-online.com/en/components/products/WE-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-11&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750813540" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE16/8/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001873/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750813540?ae"/>
+<attribute name="F-SWTICH" value="80 - 100kHz"/>
+<attribute name="HEIGHT" value="13.8mm"/>
+<attribute name="IOUT1" value="0.4A"/>
+<attribute name="IOUT2" value="0.4A"/>
+<attribute name="ISAT1" value="800mA"/>
+<attribute name="L1" value="1.25mH"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="21.3:3.8:1:3.2"/>
+<attribute name="PART-NUMBER" value=" 750813540 "/>
+<attribute name="VALUE" value=" 750813540 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VAUX1" value="6V"/>
+<attribute name="VAUX2" value="14A"/>
+<attribute name="VIN" value="85 - 130 V (AC)"/>
+<attribute name="VOUT1" value="25V"/>
+<attribute name="VOUT2" value="6V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="26.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750811137" prefix="T">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-OLEE"&gt;www.we-online.com/en/components/products/WE-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-11&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750811137" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE16/8/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001873/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750811137?ae"/>
+<attribute name="F-SWTICH" value="80 - 130kHz"/>
+<attribute name="HEIGHT" value="13.8mm"/>
+<attribute name="IOUT1" value="1.05A"/>
+<attribute name="ISAT1" value="740mA"/>
+<attribute name="L1" value="1.39mH"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="9.7:1:1.57"/>
+<attribute name="PART-NUMBER" value=" 750811137 "/>
+<attribute name="VALUE" value=" 750811137 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VAUX1" value="6V"/>
+<attribute name="VAUX2" value="14A"/>
+<attribute name="VIN" value="85 - 265 V (AC)"/>
+<attribute name="VOUT1" value="12V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="26.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750813530" prefix="T">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-OLEE"&gt;www.we-online.com/en/components/products/WE-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-11&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750813530" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE16/8/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001873/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750813530?ae"/>
+<attribute name="F-SWTICH" value="80 - 100kHz"/>
+<attribute name="HEIGHT" value="13.8mm"/>
+<attribute name="IOUT1" value="0.535A"/>
+<attribute name="IOUT2" value="0.535A"/>
+<attribute name="ISAT1" value="620mA"/>
+<attribute name="L1" value="1.5mH"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="21.7:2.3:1:2.7"/>
+<attribute name="PART-NUMBER" value=" 750813530 "/>
+<attribute name="VALUE" value=" 750813530 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VAUX1" value="6V"/>
+<attribute name="VAUX2" value="14A"/>
+<attribute name="VIN" value="85 - 130 V (AC)"/>
+<attribute name="VOUT1" value="15V"/>
+<attribute name="VOUT2" value="6V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="26.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7508170310" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7508170310" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/7/4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001874/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7508170310?ae"/>
+<attribute name="F-SWTICH" value="50kHz"/>
+<attribute name="HEIGHT" value="11mm"/>
+<attribute name="IOUT1" value="0.3A"/>
+<attribute name="ISAT1" value="0.365A"/>
+<attribute name="L1" value="1.99mH"/>
+<attribute name="LENGTH" value="13.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5.79:1:1.32"/>
+<attribute name="PART-NUMBER" value=" 7508170310 "/>
+<attribute name="VALUE" value=" 7508170310 "/>
+<attribute name="VAUX" value="16V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="12V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="23.9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7508170312" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7508170312" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/7/4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001874/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7508170312?ae"/>
+<attribute name="F-SWTICH" value="50kHz"/>
+<attribute name="HEIGHT" value="11mm"/>
+<attribute name="IOUT1" value="0.21A"/>
+<attribute name="ISAT1" value="0.36A"/>
+<attribute name="L1" value="1.99mH"/>
+<attribute name="LENGTH" value="13.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4.63:1:1.06"/>
+<attribute name="PART-NUMBER" value=" 7508170312 "/>
+<attribute name="VALUE" value=" 7508170312 "/>
+<attribute name="VAUX" value="16V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="15V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="23.9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750815542" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-11-26&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750815542" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE16/8/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001873/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750815542?ae"/>
+<attribute name="F-SWTICH" value="80 - 120kHz"/>
+<attribute name="HEIGHT" value="13.8mm"/>
+<attribute name="IOUT1" value="0.5A"/>
+<attribute name="IOUT2" value="0.5A"/>
+<attribute name="ISAT1" value="390mA"/>
+<attribute name="L1" value="5mH"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="51:3.8:1:3.2"/>
+<attribute name="PART-NUMBER" value=" 750815542 "/>
+<attribute name="VALUE" value=" 750815542 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VAUX1" value="6V"/>
+<attribute name="VAUX2" value="14A"/>
+<attribute name="VIN" value="195 - 265 V (AC)"/>
+<attribute name="VOUT1" value="25V"/>
+<attribute name="VOUT2" value="6V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="26.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750815550" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-11-26&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750815550" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE16/8/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001873/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750815550?ae"/>
+<attribute name="F-SWTICH" value="80 - 115kHz"/>
+<attribute name="HEIGHT" value="13.8mm"/>
+<attribute name="IOUT1" value="0.325A"/>
+<attribute name="IOUT2" value="0.325A"/>
+<attribute name="ISAT1" value="330mA"/>
+<attribute name="L1" value="6mH"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="52:5.6:1:3.4"/>
+<attribute name="PART-NUMBER" value=" 750815550 "/>
+<attribute name="VALUE" value=" 750815550 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VAUX1" value="6V"/>
+<attribute name="VAUX2" value="14A"/>
+<attribute name="VIN" value="195 - 265 V (AC)"/>
+<attribute name="VOUT1" value="35V"/>
+<attribute name="VOUT2" value="6V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="26.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750815530" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-11-26&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750815530" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE16/8/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001873/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750815530?ae"/>
+<attribute name="F-SWTICH" value="80 - 110kHz"/>
+<attribute name="HEIGHT" value="13.8mm"/>
+<attribute name="IOUT1" value="0.52A"/>
+<attribute name="IOUT2" value="0.52A"/>
+<attribute name="ISAT1" value="270mA"/>
+<attribute name="L1" value="8mH"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="48:2.3:1:3.2"/>
+<attribute name="PART-NUMBER" value=" 750815530 "/>
+<attribute name="VALUE" value=" 750815530 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VAUX1" value="6V"/>
+<attribute name="VAUX2" value="14A"/>
+<attribute name="VIN" value="195 - 265 V (AC)"/>
+<attribute name="VOUT1" value="15V"/>
+<attribute name="VOUT2" value="6V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="26.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7508170311" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7508170311" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/7/4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001874/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7508170311?ae"/>
+<attribute name="F-SWTICH" value="150kHz"/>
+<attribute name="HEIGHT" value="11mm"/>
+<attribute name="IOUT1" value="0.42A"/>
+<attribute name="ISAT1" value="0.86A"/>
+<attribute name="L1" value="0.491mH"/>
+<attribute name="LENGTH" value="13.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5.75:1:1.31"/>
+<attribute name="PART-NUMBER" value=" 7508170311 "/>
+<attribute name="VALUE" value=" 7508170311 "/>
+<attribute name="VAUX" value="16V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="12V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="23.9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750813551" prefix="T">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-OLEE"&gt;www.we-online.com/en/components/products/WE-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-11&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750813551" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE16/8/5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001873/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750813551?ae"/>
+<attribute name="F-SWTICH" value="80 - 110kHz"/>
+<attribute name="HEIGHT" value="13.8mm"/>
+<attribute name="IOUT1" value="0.285A"/>
+<attribute name="IOUT2" value="0.285A"/>
+<attribute name="ISAT1" value="620mA"/>
+<attribute name="L1" value="1.5mH"/>
+<attribute name="LENGTH" value="17.78mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="21.3:5.3:1:3.2"/>
+<attribute name="PART-NUMBER" value=" 750813551 "/>
+<attribute name="VALUE" value=" 750813551 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VAUX1" value="6V"/>
+<attribute name="VAUX2" value="14A"/>
+<attribute name="VIN" value="85 - 130 V (AC)"/>
+<attribute name="VOUT1" value="35V"/>
+<attribute name="VOUT2" value="6V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="26.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750817015" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750817015" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/7/4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001874/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750817015?ae"/>
+<attribute name="F-SWTICH" value="150kHz"/>
+<attribute name="HEIGHT" value="11mm"/>
+<attribute name="IOUT1" value="0.9A"/>
+<attribute name="ISAT1" value="0.875A"/>
+<attribute name="L1" value="0.491mH"/>
+<attribute name="LENGTH" value="13.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="13.14:1:3"/>
+<attribute name="PART-NUMBER" value=" 750817015 "/>
+<attribute name="VALUE" value=" 750817015 "/>
+<attribute name="VAUX" value="16V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="5V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="23.9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7508170313" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7508170313" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/7/4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001874/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7508170313?ae"/>
+<attribute name="F-SWTICH" value="150kHz"/>
+<attribute name="HEIGHT" value="11mm"/>
+<attribute name="IOUT1" value="0.31A"/>
+<attribute name="ISAT1" value="0.725A"/>
+<attribute name="L1" value="0.592mH"/>
+<attribute name="LENGTH" value="13.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4.6:1:1.05"/>
+<attribute name="PART-NUMBER" value=" 7508170313 "/>
+<attribute name="VALUE" value=" 7508170313 "/>
+<attribute name="VAUX" value="16V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="15V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="23.9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750817014" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750817014" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/7/4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001874/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750817014?ae"/>
+<attribute name="F-SWTICH" value="50kHz"/>
+<attribute name="HEIGHT" value="11mm"/>
+<attribute name="IOUT1" value="0.7A"/>
+<attribute name="ISAT1" value="0.375A"/>
+<attribute name="L1" value="1.84mH"/>
+<attribute name="LENGTH" value="13.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="13:1:3"/>
+<attribute name="PART-NUMBER" value=" 750817014 "/>
+<attribute name="VALUE" value=" 750817014 "/>
+<attribute name="VAUX" value="16V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="5V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="23.9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7508110330" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7508110330" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/6/6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001875/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7508110330?ae"/>
+<attribute name="F-SWTICH" value="50-60kHz"/>
+<attribute name="HEIGHT" value="14.6mm"/>
+<attribute name="IOUT1" value="0.45A"/>
+<attribute name="ISAT1" value="0.36A"/>
+<attribute name="L1" value="1.88mH"/>
+<attribute name="LENGTH" value="14.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="8.71:1.35:1"/>
+<attribute name="PART-NUMBER" value=" 7508110330 "/>
+<attribute name="VALUE" value=" 7508110330 "/>
+<attribute name="VAUX" value="8.7V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="12V"/>
+<attribute name="VT" value="3600V (AC)"/>
+<attribute name="WIDTH" value="20.45mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7508110419" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7508110419" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/6/6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001875/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7508110419?ae"/>
+<attribute name="F-SWTICH" value="50-65kHz"/>
+<attribute name="HEIGHT" value="14.6mm"/>
+<attribute name="IOUT1" value="0.17A"/>
+<attribute name="ISAT1" value="0.26A"/>
+<attribute name="L1" value="2.25mH"/>
+<attribute name="LENGTH" value="14.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="3.8:1.19:1"/>
+<attribute name="PART-NUMBER" value=" 7508110419 "/>
+<attribute name="VALUE" value=" 7508110419 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="24V"/>
+<attribute name="VT" value="3600V (AC)"/>
+<attribute name="WIDTH" value="20.45mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750370289" prefix="T">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-OLEE"&gt;www.we-online.com/en/components/products/WE-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-11&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750370289" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE20/10/6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001872/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370289?ae"/>
+<attribute name="F-SWTICH" value="65kHz"/>
+<attribute name="HEIGHT" value="23.24mm"/>
+<attribute name="IOUT1" value="1A"/>
+<attribute name="IOUT2" value="1A"/>
+<attribute name="ISAT1" value="800mA"/>
+<attribute name="L1" value="1.7mH"/>
+<attribute name="LENGTH" value="22.25mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="15:1:1:2.25"/>
+<attribute name="PART-NUMBER" value=" 750370289 "/>
+<attribute name="VALUE" value=" 750370289 "/>
+<attribute name="VAUX" value="10V"/>
+<attribute name="VIN" value="85 - 265 V (AC)"/>
+<attribute name="VOUT1" value="5V"/>
+<attribute name="VOUT2" value="5V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="14.4mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7508110160" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7508110160" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/6/6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001875/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7508110160?ae"/>
+<attribute name="F-SWTICH" value="45-70kHz"/>
+<attribute name="HEIGHT" value="14.6mm"/>
+<attribute name="IOUT1" value="1A"/>
+<attribute name="ISAT1" value="0.48A"/>
+<attribute name="L1" value="1.59mH"/>
+<attribute name="LENGTH" value="14.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="15:1:1.75"/>
+<attribute name="PART-NUMBER" value=" 7508110160 "/>
+<attribute name="VALUE" value=" 7508110160 "/>
+<attribute name="VAUX" value="8.75V"/>
+<attribute name="VIN" value="50 - 265 V (AC)"/>
+<attribute name="VOUT1" value="5V"/>
+<attribute name="VT" value="3600V (AC)"/>
+<attribute name="WIDTH" value="20.45mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7508110420" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7508110420" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/6/6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001875/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7508110420?ae"/>
+<attribute name="F-SWTICH" value="50-65kHz"/>
+<attribute name="HEIGHT" value="14.6mm"/>
+<attribute name="IOUT1" value="0.16A"/>
+<attribute name="ISAT1" value="0.32A"/>
+<attribute name="L1" value="1.95mH"/>
+<attribute name="LENGTH" value="14.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="3.8:1.48:1"/>
+<attribute name="PART-NUMBER" value=" 7508110420 "/>
+<attribute name="VALUE" value=" 7508110420 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="30V"/>
+<attribute name="VT" value="3600V (AC)"/>
+<attribute name="WIDTH" value="20.45mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="7508110333" prefix="T">
+<description>&lt;b&gt;MID-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/MID-OLEE"&gt;https://www.we-online.com/catalog/en/MID-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2020-10-21&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7508110333" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE13/6/6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001875/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7508110333?ae"/>
+<attribute name="F-SWTICH" value="50-65kHz"/>
+<attribute name="HEIGHT" value="14.6mm"/>
+<attribute name="IOUT1" value="0.32A"/>
+<attribute name="ISAT1" value="0.36A"/>
+<attribute name="L1" value="1.88mH"/>
+<attribute name="LENGTH" value="14.2mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="5:1:1.33"/>
+<attribute name="PART-NUMBER" value=" 7508110333 "/>
+<attribute name="VALUE" value=" 7508110333 "/>
+<attribute name="VAUX" value="20V"/>
+<attribute name="VIN" value="55 - 265 V (AC)"/>
+<attribute name="VOUT1" value="15V"/>
+<attribute name="VT" value="3600V (AC)"/>
+<attribute name="WIDTH" value="20.45mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750370288" prefix="T">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-OLEE"&gt;www.we-online.com/en/components/products/WE-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-11&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750370288" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE20/10/6">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001872/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370288?ae"/>
+<attribute name="F-SWTICH" value="65kHz"/>
+<attribute name="HEIGHT" value="23.24mm"/>
+<attribute name="IOUT1" value="1A"/>
+<attribute name="ISAT1" value="1050mA"/>
+<attribute name="L1" value="1.7mH"/>
+<attribute name="LENGTH" value="22.25mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="16.88:1:1.88"/>
+<attribute name="PART-NUMBER" value=" 750370288 "/>
+<attribute name="VALUE" value=" 750370288 "/>
+<attribute name="VAUX" value="17V"/>
+<attribute name="VIN" value="85 - 265 V (AC)"/>
+<attribute name="VOUT1" value="5V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="14.4mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Single Coil Power Inductors - WE-HCC&lt;br&gt;
+
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-03-18&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-HCC_8070" urn="urn:adsk.eagle:footprint:12990671/2">
+<description>&lt;b&gt; WE-HCC SMD High Current Cube Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 8070, SMT, 2pins
+&lt;br&gt;LXWXH=8.4X7.9X7.2mm</description>
+<wire x1="-4.2" y1="-3.95" x2="4.2" y2="-3.95" width="0.1" layer="51"/>
+<wire x1="4.2" y1="-3.95" x2="4.2" y2="3.95" width="0.1" layer="51"/>
+<wire x1="4.2" y1="3.95" x2="-4.2" y2="3.95" width="0.1" layer="51"/>
+<wire x1="-4.2" y1="3.95" x2="-4.2" y2="-3.95" width="0.1" layer="51"/>
+<wire x1="-4.3" y1="1.8" x2="-4.3" y2="4.05" width="0.2" layer="21"/>
+<wire x1="-4.3" y1="4.05" x2="4.3" y2="4.05" width="0.2" layer="21"/>
+<wire x1="4.3" y1="4.05" x2="4.3" y2="1.8" width="0.2" layer="21"/>
+<wire x1="-4.3" y1="-1.8" x2="-4.3" y2="-4.05" width="0.2" layer="21"/>
+<wire x1="-4.3" y1="-4.05" x2="4.3" y2="-4.05" width="0.2" layer="21"/>
+<wire x1="4.3" y1="-4.05" x2="4.3" y2="-1.8" width="0.2" layer="21"/>
+<smd name="1" x="-3.35" y="0" dx="2.3" dy="3" layer="1"/>
+<smd name="2" x="3.35" y="0" dx="2.3" dy="3" layer="1"/>
+<text x="0.1516" y="4.8617" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.2284" y="-5.9498" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.7" y="4.25"/>
+<vertex x="4.7" y="4.25"/>
+<vertex x="4.7" y="-4.25"/>
+<vertex x="-4.7" y="-4.25"/>
+</polygon>
+</package>
+<package name="WE-HCC_1090" urn="urn:adsk.eagle:footprint:12990673/2">
+<description>&lt;b&gt; WE-HCC SMD High Current Cube Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 1090, SMT, 2pins
+&lt;br&gt;LXWXH=10.9X10X9.3mm</description>
+<wire x1="-5.45" y1="-5" x2="5.45" y2="-5" width="0.1" layer="51"/>
+<wire x1="5.45" y1="-5" x2="5.45" y2="5" width="0.1" layer="51"/>
+<wire x1="5.45" y1="5" x2="-5.45" y2="5" width="0.1" layer="51"/>
+<wire x1="-5.45" y1="5" x2="-5.45" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5.55" y1="2.2" x2="-5.55" y2="5.1" width="0.2" layer="21"/>
+<wire x1="-5.55" y1="5.1" x2="5.55" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.55" y1="5.1" x2="5.55" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-5.55" y1="-2.1" x2="-5.55" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.55" y1="-5.1" x2="5.55" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.55" y1="-5.1" x2="5.55" y2="-2.1" width="0.2" layer="21"/>
+<smd name="2" x="4.6" y="0" dx="2.3" dy="3.6" layer="1"/>
+<smd name="1" x="-4.6" y="0" dx="2.3" dy="3.6" layer="1"/>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5.95" y="5.3"/>
+<vertex x="5.95" y="5.3"/>
+<vertex x="5.95" y="-5.3"/>
+<vertex x="-5.95" y="-5.3"/>
+</polygon>
+</package>
+<package name="WE-HCC_1210_FERRITE" urn="urn:adsk.eagle:footprint:12990672/2">
+<description>&lt;b&gt; WE-HCC SMD High Current Cube Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 1210 ferrite, SMT, 2pins
+&lt;br&gt;LXWXH=12.1X11.4X9.5mm</description>
+<wire x1="-6.05" y1="-5.7" x2="6.05" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="-6.05" y1="5.7" x2="6.05" y2="5.7" width="0.1" layer="51"/>
+<wire x1="-6.05" y1="5.7" x2="-6.05" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="6.05" y1="5.7" x2="6.05" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="-6.15" y1="3.1" x2="-6.15" y2="5.8" width="0.2" layer="21"/>
+<wire x1="-6.15" y1="5.8" x2="6.15" y2="5.8" width="0.2" layer="21"/>
+<wire x1="6.15" y1="5.8" x2="6.15" y2="3" width="0.2" layer="21"/>
+<wire x1="-6.15" y1="-3" x2="-6.15" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="-6.15" y1="-5.8" x2="6.15" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="6.15" y1="-5.8" x2="6.15" y2="-3" width="0.2" layer="21"/>
+<smd name="2" x="4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<smd name="1" x="-4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.6" y="6"/>
+<vertex x="6.6" y="6"/>
+<vertex x="6.6" y="-6"/>
+<vertex x="-6.6" y="-6"/>
+</polygon>
+</package>
+<package name="WE-HCC_1210_IRON" urn="urn:adsk.eagle:footprint:12990670/2">
+<description>&lt;b&gt; WE-HCC SMD High Current Cube Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 1210 iron powder, SMT, 2pins
+&lt;br&gt;LXWXH=12.1X11.4X9.5mm</description>
+<wire x1="-6.05" y1="-5.7" x2="6.05" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="-6.05" y1="5.7" x2="6.05" y2="5.7" width="0.1" layer="51"/>
+<wire x1="-6.05" y1="5.7" x2="-6.05" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="6.05" y1="5.7" x2="6.05" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="-6.15" y1="3.1" x2="-6.15" y2="5.8" width="0.2" layer="21"/>
+<wire x1="-6.15" y1="5.8" x2="6.15" y2="5.8" width="0.2" layer="21"/>
+<wire x1="6.15" y1="5.8" x2="6.15" y2="3" width="0.2" layer="21"/>
+<wire x1="-6.15" y1="-3" x2="-6.15" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="-6.15" y1="-5.8" x2="6.15" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="6.15" y1="-5.8" x2="6.15" y2="-3" width="0.2" layer="21"/>
+<smd name="2" x="4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<smd name="1" x="-4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.6" y="6"/>
+<vertex x="6.6" y="6"/>
+<vertex x="6.6" y="-6"/>
+<vertex x="-6.6" y="-6"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-HCC_8070" urn="urn:adsk.eagle:package:12990676/5" type="model">
+<description>&lt;b&gt; WE-HCC SMD High Current Cube Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 8070, SMT, 2pins
+&lt;br&gt;LXWXH=8.4X7.9X7.2mm</description>
+<packageinstances>
+<packageinstance name="WE-HCC_8070"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCC_1090" urn="urn:adsk.eagle:package:12990678/4" type="model">
+<description>&lt;b&gt; WE-HCC SMD High Current Cube Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 1090, SMT, 2pins
+&lt;br&gt;LXWXH=10.9X10X9.3mm</description>
+<packageinstances>
+<packageinstance name="WE-HCC_1090"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCC_1210_FERRITE" urn="urn:adsk.eagle:package:12990677/4" type="model">
+<description>&lt;b&gt; WE-HCC SMD High Current Cube Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 1210 ferrite, SMT, 2pins
+&lt;br&gt;LXWXH=12.1X11.4X9.5mm</description>
+<packageinstances>
+<packageinstance name="WE-HCC_1210_FERRITE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCC_1210_IRON" urn="urn:adsk.eagle:package:12990675/4" type="model">
+<description>&lt;b&gt; WE-HCC SMD High Current Cube Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 1210 iron powder, SMT, 2pins
+&lt;br&gt;LXWXH=12.1X11.4X9.5mm</description>
+<packageinstances>
+<packageinstance name="WE-HCC_1210_IRON"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-HCC_8070" prefix="L">
+<description>&lt;b&gt;WE-HCC SMT High Current Cube Inductor
+&lt;br&gt;Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Magnetically shielded
+&lt;br&gt;Operating temperature: –40 °C to +125 °C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;Current capability up to 27 A
+&lt;br&gt;Excellent saturation characteristics
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Filter choke for DC/DC converter
+&lt;br&gt;Single and polyphase buck converter
+&lt;br&gt;Filter choke for motor electronics
+&lt;br&gt;Input filter inductor for DC/DC converter
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14794v209%20Family_WE-HCC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14794v209%20Family_WE-HCC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-HCC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-HCC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-03-18&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCC_8070">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12990676/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_7443340030">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443340030?ae"/>
+<attribute name="FRES" value="272MHz"/>
+<attribute name="IR" value="25.5A"/>
+<attribute name="ISAT" value="35.4A"/>
+<attribute name="ISAT2" value="40.3A"/>
+<attribute name="LR" value="0.3uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443340030 "/>
+<attribute name="RDC-MAX" value="2.7mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="0.3uH"/>
+</technology>
+<technology name="_7443340047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443340047?ae"/>
+<attribute name="FRES" value="232MHz"/>
+<attribute name="IR" value="22.5A"/>
+<attribute name="ISAT" value="28.5A"/>
+<attribute name="ISAT2" value="31.3A"/>
+<attribute name="LR" value="0.47uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443340047 "/>
+<attribute name="RDC-MAX" value="3.1mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_7443340068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443340068?ae"/>
+<attribute name="FRES" value="181MHz"/>
+<attribute name="IR" value="22.5A"/>
+<attribute name="ISAT" value="21.2A"/>
+<attribute name="ISAT2" value="23A"/>
+<attribute name="LR" value="0.64uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443340068 "/>
+<attribute name="RDC-MAX" value="3.1mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="0.68uH"/>
+</technology>
+<technology name="_7443340100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443340100?ae"/>
+<attribute name="FRES" value="147MHz"/>
+<attribute name="IR" value="18.8A"/>
+<attribute name="ISAT" value="22.9A"/>
+<attribute name="ISAT2" value="25.1A"/>
+<attribute name="LR" value="0.97uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443340100 "/>
+<attribute name="RDC-MAX" value="3.9mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_7443340150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443340150?ae"/>
+<attribute name="FRES" value="120MHz"/>
+<attribute name="IR" value="14.8A"/>
+<attribute name="ISAT" value="16.4A"/>
+<attribute name="ISAT2" value="18.5A"/>
+<attribute name="LR" value="1.4uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443340150 "/>
+<attribute name="RDC-MAX" value="5.6mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_7443340220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443340220?ae"/>
+<attribute name="FRES" value="97MHz"/>
+<attribute name="IR" value="14.8A"/>
+<attribute name="ISAT" value="11.3A"/>
+<attribute name="ISAT2" value="12.9A"/>
+<attribute name="LR" value="1.4uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443340220 "/>
+<attribute name="RDC-MAX" value="5.6mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_7443340330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443340330?ae"/>
+<attribute name="FRES" value="81MHz"/>
+<attribute name="IR" value="12.3A"/>
+<attribute name="ISAT" value="8.4A"/>
+<attribute name="ISAT2" value="10.8A"/>
+<attribute name="LR" value="1.55uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443340330 "/>
+<attribute name="RDC-MAX" value="8.2mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_7443340470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443340470?ae"/>
+<attribute name="FRES" value="45MHz"/>
+<attribute name="IR" value="8.9A"/>
+<attribute name="ISAT" value="7.7A"/>
+<attribute name="ISAT2" value="9.5A"/>
+<attribute name="LR" value="3.5uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443340470 "/>
+<attribute name="RDC-MAX" value="13.5mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_7443340680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443340680?ae"/>
+<attribute name="FRES" value="37MHz"/>
+<attribute name="IR" value="6.2A"/>
+<attribute name="ISAT" value="7.4A"/>
+<attribute name="ISAT2" value="8.3A"/>
+<attribute name="LR" value="6.5uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443340680 "/>
+<attribute name="RDC-MAX" value="24mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_7443341000">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443341000?ae"/>
+<attribute name="FRES" value="29MHz"/>
+<attribute name="IR" value="4.4A"/>
+<attribute name="ISAT" value="7.1A"/>
+<attribute name="ISAT2" value="8.3A"/>
+<attribute name="LR" value="9.8uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443341000 "/>
+<attribute name="RDC-MAX" value="41mOhm"/>
+<attribute name="SIZE" value=" 8070 "/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HCC_1090" prefix="L">
+<description>&lt;b&gt;WE-HCC SMT High Current Cube Inductor
+&lt;br&gt;Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Magnetically shielded
+&lt;br&gt;Operating temperature: –40 °C to +125 °C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;Current capability up to 27 A
+&lt;br&gt;Excellent saturation characteristics
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Filter choke for DC/DC converter
+&lt;br&gt;Single and polyphase buck converter
+&lt;br&gt;Filter choke for motor electronics
+&lt;br&gt;Input filter inductor for DC/DC converter
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14794v209%20Family_WE-HCC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14794v209%20Family_WE-HCC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-HCC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-HCC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-03-18&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCC_1090">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12990678/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_7443330022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330022?ae"/>
+<attribute name="FRES" value="300MHz"/>
+<attribute name="IR" value="35.2A"/>
+<attribute name="ISAT" value="90.5A"/>
+<attribute name="ISAT2" value="96A"/>
+<attribute name="LR" value="0.22uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330022 "/>
+<attribute name="RDC-MAX" value="1.6mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="0.22uH"/>
+</technology>
+<technology name="_7443330033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330033?ae"/>
+<attribute name="FRES" value="250MHz"/>
+<attribute name="IR" value="35.2A"/>
+<attribute name="ISAT" value="51A"/>
+<attribute name="ISAT2" value="59A"/>
+<attribute name="LR" value="0.33uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330033 "/>
+<attribute name="RDC-MAX" value="1.6mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="0.33uH"/>
+</technology>
+<technology name="_7443330047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330047?ae"/>
+<attribute name="FRES" value="160MHz"/>
+<attribute name="IR" value="31.3A"/>
+<attribute name="ISAT" value="46.5A"/>
+<attribute name="ISAT2" value="54.9A"/>
+<attribute name="LR" value="0.47uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330047 "/>
+<attribute name="RDC-MAX" value="1.85mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_7443330068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330068?ae"/>
+<attribute name="FRES" value="140MHz"/>
+<attribute name="IR" value="27.2A"/>
+<attribute name="ISAT" value="41.4A"/>
+<attribute name="ISAT2" value="46A"/>
+<attribute name="LR" value="0.67uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330068 "/>
+<attribute name="RDC-MAX" value="2.65mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="0.68uH"/>
+</technology>
+<technology name="_7443330082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330082?ae"/>
+<attribute name="FRES" value="120MHz"/>
+<attribute name="IR" value="27.2A"/>
+<attribute name="ISAT" value="36.8A"/>
+<attribute name="ISAT2" value="41.9A"/>
+<attribute name="LR" value="0.81uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330082 "/>
+<attribute name="RDC-MAX" value="2.65mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="0.82uH"/>
+</technology>
+<technology name="_7443330100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330100?ae"/>
+<attribute name="FRES" value="100MHz"/>
+<attribute name="IR" value="27.2A"/>
+<attribute name="ISAT" value="26.5A"/>
+<attribute name="ISAT2" value="31.1A"/>
+<attribute name="LR" value="0.95uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330100 "/>
+<attribute name="RDC-MAX" value="2.65mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_7443330150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330150?ae"/>
+<attribute name="FRES" value="78MHz"/>
+<attribute name="IR" value="21.7A"/>
+<attribute name="ISAT" value="26.8A"/>
+<attribute name="ISAT2" value="31A"/>
+<attribute name="LR" value="1.45uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330150 "/>
+<attribute name="RDC-MAX" value="4mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_7443330220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330220?ae"/>
+<attribute name="FRES" value="80MHz"/>
+<attribute name="IR" value="17.4A"/>
+<attribute name="ISAT" value="22.5A"/>
+<attribute name="ISAT2" value="25.6A"/>
+<attribute name="LR" value="2.1uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330220 "/>
+<attribute name="RDC-MAX" value="4.8mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_7443330330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330330?ae"/>
+<attribute name="FRES" value="51MHz"/>
+<attribute name="IR" value="14.1A"/>
+<attribute name="ISAT" value="19.3A"/>
+<attribute name="ISAT2" value="22.8A"/>
+<attribute name="LR" value="2.6uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330330 "/>
+<attribute name="RDC-MAX" value="7.15mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_7443330470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330470?ae"/>
+<attribute name="FRES" value="49MHz"/>
+<attribute name="IR" value="11.3A"/>
+<attribute name="ISAT" value="15A"/>
+<attribute name="ISAT2" value="17.9A"/>
+<attribute name="LR" value="3.8uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330470 "/>
+<attribute name="RDC-MAX" value="9.9mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_7443330680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330680?ae"/>
+<attribute name="FRES" value="40MHz"/>
+<attribute name="IR" value="8.9A"/>
+<attribute name="ISAT" value="12.4A"/>
+<attribute name="ISAT2" value="16.6A"/>
+<attribute name="LR" value="4.5uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330680 "/>
+<attribute name="RDC-MAX" value="15mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_7443330820">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443330820?ae"/>
+<attribute name="FRES" value="36MHz"/>
+<attribute name="IR" value="8.9A"/>
+<attribute name="ISAT" value="9.3A"/>
+<attribute name="ISAT2" value="12.5A"/>
+<attribute name="LR" value="2.8uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443330820 "/>
+<attribute name="RDC-MAX" value="15mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="8.2uH"/>
+</technology>
+<technology name="_7443331000">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443331000?ae"/>
+<attribute name="FRES" value="35MHz"/>
+<attribute name="IR" value="6.7A"/>
+<attribute name="ISAT" value="9.4A"/>
+<attribute name="ISAT2" value="11.7A"/>
+<attribute name="LR" value="5.5uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443331000 "/>
+<attribute name="RDC-MAX" value="23.1mOhm"/>
+<attribute name="SIZE" value=" 1090 "/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HCC_1210" prefix="L">
+<description>&lt;b&gt;WE-HCC SMT High Current Cube Inductor
+&lt;br&gt;Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Magnetically shielded
+&lt;br&gt;Operating temperature: –40 °C to +125 °C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;Current capability up to 27 A
+&lt;br&gt;Excellent saturation characteristics
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Filter choke for DC/DC converter
+&lt;br&gt;Single and polyphase buck converter
+&lt;br&gt;Filter choke for motor electronics
+&lt;br&gt;Input filter inductor for DC/DC converter
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14794v209%20Family_WE-HCC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14794v209%20Family_WE-HCC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-HCC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-HCC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-03-18&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_FERRITE" package="WE-HCC_1210_FERRITE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12990677/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_7443320022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320022?ae"/>
+<attribute name="FRES" value="280MHz"/>
+<attribute name="IR" value="48.2A"/>
+<attribute name="ISAT" value="82.9A"/>
+<attribute name="ISAT2" value="90.8A"/>
+<attribute name="LR" value="0.22uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320022 "/>
+<attribute name="RDC-MAX" value="1.5mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="0.22uH"/>
+</technology>
+<technology name="_7443320033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320033?ae"/>
+<attribute name="FRES" value="214MHz"/>
+<attribute name="IR" value="48.2A"/>
+<attribute name="ISAT" value="56.7A"/>
+<attribute name="ISAT2" value="62.1A"/>
+<attribute name="LR" value="0.33uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320033 "/>
+<attribute name="RDC-MAX" value="1.5mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="0.33uH"/>
+</technology>
+<technology name="_7443320047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320047?ae"/>
+<attribute name="FRES" value="138MHz"/>
+<attribute name="IR" value="40.2A"/>
+<attribute name="ISAT" value="49.9A"/>
+<attribute name="ISAT2" value="54.7A"/>
+<attribute name="LR" value="0.46uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320047 "/>
+<attribute name="RDC-MAX" value="1.85mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_7443320068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320068?ae"/>
+<attribute name="FRES" value="108MHz"/>
+<attribute name="IR" value="40.2A"/>
+<attribute name="ISAT" value="35.8A"/>
+<attribute name="ISAT2" value="39.1A"/>
+<attribute name="LR" value="0.66uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320068 "/>
+<attribute name="RDC-MAX" value="1.85mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="0.68uH"/>
+</technology>
+<technology name="_7443320082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320082?ae"/>
+<attribute name="FRES" value="99MHz"/>
+<attribute name="IR" value="34A"/>
+<attribute name="ISAT" value="32.6A"/>
+<attribute name="ISAT2" value="35.8A"/>
+<attribute name="LR" value="0.8uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320082 "/>
+<attribute name="RDC-MAX" value="2.5mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="0.82uH"/>
+</technology>
+<technology name="_7443320100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320100?ae"/>
+<attribute name="FRES" value="96MHz"/>
+<attribute name="IR" value="34A"/>
+<attribute name="ISAT" value="30.6A"/>
+<attribute name="ISAT2" value="33.5A"/>
+<attribute name="LR" value="0.9uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320100 "/>
+<attribute name="RDC-MAX" value="2.5mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_7443320150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320150?ae"/>
+<attribute name="FRES" value="92MHz"/>
+<attribute name="IR" value="25.7A"/>
+<attribute name="ISAT" value="26.5A"/>
+<attribute name="ISAT2" value="29.1A"/>
+<attribute name="LR" value="1.43uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320150 "/>
+<attribute name="RDC-MAX" value="3.5mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_7443320220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320220?ae"/>
+<attribute name="FRES" value="64MHz"/>
+<attribute name="IR" value="21.6A"/>
+<attribute name="ISAT" value="24.8A"/>
+<attribute name="ISAT2" value="27.2A"/>
+<attribute name="LR" value="2uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320220 "/>
+<attribute name="RDC-MAX" value="4.3mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_7443320330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320330?ae"/>
+<attribute name="FRES" value="44MHz"/>
+<attribute name="IR" value="18.2A"/>
+<attribute name="ISAT" value="22.4A"/>
+<attribute name="ISAT2" value="24.7A"/>
+<attribute name="LR" value="2.5uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320330 "/>
+<attribute name="RDC-MAX" value="5.7mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_7443320470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320470?ae"/>
+<attribute name="FRES" value="43MHz"/>
+<attribute name="IR" value="14.9A"/>
+<attribute name="ISAT" value="15.6A"/>
+<attribute name="ISAT2" value="17.1A"/>
+<attribute name="LR" value="3.2uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320470 "/>
+<attribute name="RDC-MAX" value="7.9mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_7443320680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320680?ae"/>
+<attribute name="FRES" value="42MHz"/>
+<attribute name="IR" value="12.3A"/>
+<attribute name="ISAT" value="12.9A"/>
+<attribute name="ISAT2" value="14.2A"/>
+<attribute name="LR" value="5.5uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320680 "/>
+<attribute name="RDC-MAX" value="11mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_7443320820">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443320820?ae"/>
+<attribute name="FRES" value="34MHz"/>
+<attribute name="IR" value="11.8A"/>
+<attribute name="ISAT" value="12.3A"/>
+<attribute name="ISAT2" value="13.5A"/>
+<attribute name="LR" value="5.1uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443320820 "/>
+<attribute name="RDC-MAX" value="11.8mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="8.2uH"/>
+</technology>
+<technology name="_7443321000">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443321000?ae"/>
+<attribute name="FRES" value="29MHz"/>
+<attribute name="IR" value="9.6A"/>
+<attribute name="ISAT" value="9.1A"/>
+<attribute name="ISAT2" value="11.3A"/>
+<attribute name="LR" value="7.5uH"/>
+<attribute name="MATERIAL" value="Ferrite"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443321000 "/>
+<attribute name="RDC-MAX" value="16.7mOhm"/>
+<attribute name="SIZE" value="1210 ferrite"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+</technologies>
+</device>
+<device name="_IRON" package="WE-HCC_1210_IRON">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12990675/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_7443310022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310022?ae"/>
+<attribute name="FRES" value="210MHz"/>
+<attribute name="IR" value="48.2A"/>
+<attribute name="ISAT" value="49.7A"/>
+<attribute name="ISAT2" value="177.2A"/>
+<attribute name="LR" value="0.21uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310022 "/>
+<attribute name="RDC-MAX" value="1.5mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="0.22uH"/>
+</technology>
+<technology name="_7443310033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310033?ae"/>
+<attribute name="FRES" value="190MHz"/>
+<attribute name="IR" value="48.2A"/>
+<attribute name="ISAT" value="43.6A"/>
+<attribute name="ISAT2" value="115.4A"/>
+<attribute name="LR" value="0.32uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310033 "/>
+<attribute name="RDC-MAX" value="1.5mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="0.33uH"/>
+</technology>
+<technology name="_7443310047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310047?ae"/>
+<attribute name="FRES" value="140MHz"/>
+<attribute name="IR" value="40.2A"/>
+<attribute name="ISAT" value="44.4A"/>
+<attribute name="ISAT2" value="116.2A"/>
+<attribute name="LR" value="0.46uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310047 "/>
+<attribute name="RDC-MAX" value="1.85mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="0.47uH"/>
+</technology>
+<technology name="_7443310068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310068?ae"/>
+<attribute name="FRES" value="120MHz"/>
+<attribute name="IR" value="40.2A"/>
+<attribute name="ISAT" value="39.3A"/>
+<attribute name="ISAT2" value="63.5A"/>
+<attribute name="LR" value="0.66uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310068 "/>
+<attribute name="RDC-MAX" value="1.85mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="0.68uH"/>
+</technology>
+<technology name="_7443310082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310082?ae"/>
+<attribute name="FRES" value="100MHz"/>
+<attribute name="IR" value="32.5A"/>
+<attribute name="ISAT" value="33.8A"/>
+<attribute name="ISAT2" value="67.8A"/>
+<attribute name="LR" value="0.78uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310082 "/>
+<attribute name="RDC-MAX" value="2.5mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="0.82uH"/>
+</technology>
+<technology name="_7443310100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310100?ae"/>
+<attribute name="FRES" value="100MHz"/>
+<attribute name="IR" value="32.5A"/>
+<attribute name="ISAT" value="28.5A"/>
+<attribute name="ISAT2" value="55.1A"/>
+<attribute name="LR" value="0.94uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310100 "/>
+<attribute name="RDC-MAX" value="2.5mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_7443310150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310150?ae"/>
+<attribute name="FRES" value="120MHz"/>
+<attribute name="IR" value="26.9A"/>
+<attribute name="ISAT" value="21.9A"/>
+<attribute name="ISAT2" value="54.5A"/>
+<attribute name="LR" value="1.36uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310150 "/>
+<attribute name="RDC-MAX" value="3.5mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_7443310220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310220?ae"/>
+<attribute name="FRES" value="70MHz"/>
+<attribute name="IR" value="22.4A"/>
+<attribute name="ISAT" value="20.9A"/>
+<attribute name="ISAT2" value="44A"/>
+<attribute name="LR" value="2.1uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310220 "/>
+<attribute name="RDC-MAX" value="4.3mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_7443310330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310330?ae"/>
+<attribute name="FRES" value="50MHz"/>
+<attribute name="IR" value="15.5A"/>
+<attribute name="ISAT" value="19.2A"/>
+<attribute name="ISAT2" value="38.9A"/>
+<attribute name="LR" value="3.2uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310330 "/>
+<attribute name="RDC-MAX" value="7.7mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_7443310390">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310390?ae"/>
+<attribute name="FRES" value="50MHz"/>
+<attribute name="IR" value="12.5A"/>
+<attribute name="ISAT" value="16.4A"/>
+<attribute name="ISAT2" value="35.3A"/>
+<attribute name="LR" value="3.75uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310390 "/>
+<attribute name="RDC-MAX" value="11mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="3.9uH"/>
+</technology>
+<technology name="_7443310470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443310470?ae"/>
+<attribute name="FRES" value="32MHz"/>
+<attribute name="IR" value="12.5A"/>
+<attribute name="ISAT" value="17.8A"/>
+<attribute name="ISAT2" value="35.5A"/>
+<attribute name="LR" value="4.5uH"/>
+<attribute name="MATERIAL" value="Iron Powder"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443310470 "/>
+<attribute name="RDC-MAX" value="11mOhm"/>
+<attribute name="SIZE" value="1210 iron powder"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Automotive - Ferrites For PCB Assembly - WE-MPSA&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-11-20&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-MPSA_3312" urn="urn:adsk.eagle:footprint:15318360/2">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 3312
+&lt;BR&gt;Max Height = 2.28±0.2mm</description>
+<smd name="1" x="-4.89" y="0" dx="3.3" dy="4.06" layer="1"/>
+<smd name="2" x="4.89" y="0" dx="3.3" dy="4.06" layer="1"/>
+<wire x1="-4.25" y1="1.525" x2="4.25" y2="1.525" width="0.1" layer="51"/>
+<wire x1="4.25" y1="1.525" x2="4.25" y2="-1.525" width="0.1" layer="51"/>
+<wire x1="4.25" y1="-1.525" x2="-4.25" y2="-1.525" width="0.1" layer="51"/>
+<wire x1="-4.25" y1="-1.525" x2="-4.25" y2="1.525" width="0.1" layer="51"/>
+<wire x1="-2.9" y1="1.6" x2="2.9" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-2.9" y1="-1.6" x2="2.9" y2="-1.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="2.3"/>
+<vertex x="6.8" y="2.3"/>
+<vertex x="6.8" y="-2.3"/>
+<vertex x="-6.8" y="-2.3"/>
+</polygon>
+<text x="0" y="2.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WE-MPSA_1812" urn="urn:adsk.eagle:footprint:15318362/2">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 1812
+&lt;BR&gt;Max Height = 2.3±0.25mm</description>
+<smd name="1" x="-2.7" y="0" dx="1.9" dy="3" layer="1"/>
+<smd name="2" x="2.7" y="0" dx="1.9" dy="3" layer="1"/>
+<wire x1="-2.25" y1="1.6" x2="2.25" y2="1.6" width="0.1" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="2.25" y1="-1.6" x2="-2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="-2.25" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="1.7" x2="1.4" y2="1.7" width="0.2" layer="21"/>
+<wire x1="-1.4" y1="-1.7" x2="1.4" y2="-1.7" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.9" y="1.9"/>
+<vertex x="3.9" y="1.9"/>
+<vertex x="3.9" y="-1.9"/>
+<vertex x="-3.9" y="-1.9"/>
+</polygon>
+<text x="0" y="2.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-3.6" size="1.27" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-MPSA_1206(W=5.2)" urn="urn:adsk.eagle:footprint:15318364/2">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt; &lt;br&gt;Size: 1206
+&lt;BR&gt;Max Height = 1.1±0.2mm
+&lt;br&gt;HIGH CURRENT</description>
+<smd name="1" x="-1.8" y="0" dx="1.6" dy="1.2" layer="1"/>
+<smd name="2" x="1.8" y="0" dx="1.6" dy="1.2" layer="1"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="-0.9" x2="1.7" y2="-0.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.8" y="1.1"/>
+<vertex x="2.8" y="1.1"/>
+<vertex x="2.8" y="-1.1"/>
+<vertex x="-2.8" y="-1.1"/>
+</polygon>
+<text x="0" y="1.3" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.7" y="-2" size="0.6096" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-MPSA_1612" urn="urn:adsk.eagle:footprint:15318363/2">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 1612
+&lt;BR&gt;Max Height = 2.28±0.2mm</description>
+<smd name="1" x="-2.675" y="0" dx="3.25" dy="4.1" layer="1"/>
+<smd name="2" x="2.675" y="0" dx="3.25" dy="4.1" layer="1"/>
+<wire x1="-2.03" y1="1.525" x2="2.03" y2="1.525" width="0.1" layer="51"/>
+<wire x1="2.03" y1="1.525" x2="2.03" y2="-1.525" width="0.1" layer="51"/>
+<wire x1="2.03" y1="-1.525" x2="-2.03" y2="-1.525" width="0.1" layer="51"/>
+<wire x1="-2.03" y1="-1.525" x2="-2.03" y2="1.525" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="1.625" x2="0.7" y2="1.625" width="0.2" layer="21"/>
+<wire x1="0.7" y1="-1.625" x2="-0.7" y2="-1.625" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.5" y="2.3"/>
+<vertex x="4.5" y="2.3"/>
+<vertex x="4.5" y="-2.4"/>
+<vertex x="-4.5" y="-2.4"/>
+</polygon>
+<text x="0" y="2.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-MPSA_2220(H=1.97)" urn="urn:adsk.eagle:footprint:15318581/1">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 2220
+&lt;BR&gt;Max Height = 1.97±0.25mm</description>
+<smd name="1" x="-3.075" y="0" dx="3.05" dy="6.1" layer="1"/>
+<smd name="2" x="3.075" y="0" dx="3.05" dy="6.1" layer="1"/>
+<wire x1="-2.795" y1="2.54" x2="2.795" y2="2.54" width="0.1" layer="51"/>
+<wire x1="2.795" y1="2.54" x2="2.795" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="2.795" y1="-2.54" x2="-2.795" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="-2.795" y1="-2.54" x2="-2.795" y2="2.54" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="2.64" x2="1.2" y2="2.64" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="-2.66" x2="1.2" y2="-2.66" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.8" y="3.3"/>
+<vertex x="4.8" y="3.3"/>
+<vertex x="4.8" y="-3.3"/>
+<vertex x="-4.8" y="-3.3"/>
+</polygon>
+<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-5.1" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WE-MPSA_2220(H=1.8)" urn="urn:adsk.eagle:footprint:15318583/1">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 2220
+&lt;BR&gt;Max Height = 1.8±0.25mm</description>
+<smd name="1" x="-3.075" y="0" dx="3.05" dy="6.1" layer="1"/>
+<smd name="2" x="3.075" y="0" dx="3.05" dy="6.1" layer="1"/>
+<wire x1="-2.795" y1="2.54" x2="2.795" y2="2.54" width="0.1" layer="51"/>
+<wire x1="2.795" y1="2.54" x2="2.795" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="2.795" y1="-2.54" x2="-2.795" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="-2.795" y1="-2.54" x2="-2.795" y2="2.54" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="2.64" x2="1.2" y2="2.64" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="-2.66" x2="1.2" y2="-2.66" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.8" y="3.3"/>
+<vertex x="4.8" y="3.3"/>
+<vertex x="4.8" y="-3.3"/>
+<vertex x="-4.8" y="-3.3"/>
+</polygon>
+<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-5.1" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WE-MPSA_0805(W=4.0)" urn="urn:adsk.eagle:footprint:15318365/2">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 0805
+&lt;BR&gt;Max Height = 0.9±0.2mm
+&lt;br&gt;HIGH CURRENT</description>
+<smd name="1" x="-1.3" y="0" dx="1.4" dy="1" layer="1"/>
+<smd name="2" x="1.3" y="0" dx="1.4" dy="1" layer="1"/>
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="0.7" x2="0.3" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-0.7" x2="0.3" y2="-0.7" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.2" y="0.9"/>
+<vertex x="2.2" y="0.9"/>
+<vertex x="2.2" y="-0.9"/>
+<vertex x="-2.2" y="-0.9"/>
+</polygon>
+<text x="0" y="1.2" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.7" y="-1.7" size="0.6096" layer="25">&gt;VALUE</text>
+</package>
+<package name="WE-MPSA_2220(H=1.52)" urn="urn:adsk.eagle:footprint:15318361/2">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 2220
+&lt;BR&gt;Max Height = 1.52±0.25mm</description>
+<smd name="1" x="-3.075" y="0" dx="3.05" dy="6.1" layer="1"/>
+<smd name="2" x="3.075" y="0" dx="3.05" dy="6.1" layer="1"/>
+<wire x1="-2.795" y1="2.54" x2="2.795" y2="2.54" width="0.1" layer="51"/>
+<wire x1="2.795" y1="2.54" x2="2.795" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="2.795" y1="-2.54" x2="-2.795" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="-2.795" y1="-2.54" x2="-2.795" y2="2.54" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="2.64" x2="1.2" y2="2.64" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="-2.66" x2="1.2" y2="-2.66" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.8" y="3.3"/>
+<vertex x="4.8" y="3.3"/>
+<vertex x="4.8" y="-3.3"/>
+<vertex x="-4.8" y="-3.3"/>
+</polygon>
+<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-5.1" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WE-MPSA_2220(H=3.2)" urn="urn:adsk.eagle:footprint:15318582/1">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 2220
+&lt;BR&gt;Max Height = 3.2±0.25mm</description>
+<smd name="1" x="-3.075" y="0" dx="3.05" dy="6.1" layer="1"/>
+<smd name="2" x="3.075" y="0" dx="3.05" dy="6.1" layer="1"/>
+<wire x1="-2.795" y1="2.54" x2="2.795" y2="2.54" width="0.1" layer="51"/>
+<wire x1="2.795" y1="2.54" x2="2.795" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="2.795" y1="-2.54" x2="-2.795" y2="-2.54" width="0.1" layer="51"/>
+<wire x1="-2.795" y1="-2.54" x2="-2.795" y2="2.54" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="2.64" x2="1.2" y2="2.64" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="-2.66" x2="1.2" y2="-2.66" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.8" y="3.3"/>
+<vertex x="4.8" y="3.3"/>
+<vertex x="4.8" y="-3.3"/>
+<vertex x="-4.8" y="-3.3"/>
+</polygon>
+<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-5.1" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-MPSA_3312" urn="urn:adsk.eagle:package:15318367/3" type="model">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 3312
+&lt;BR&gt;Max Height = 2.28±0.2mm</description>
+<packageinstances>
+<packageinstance name="WE-MPSA_3312"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MPSA_1812" urn="urn:adsk.eagle:package:15318369/3" type="model">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 1812
+&lt;BR&gt;Max Height = 2.3±0.25mm</description>
+<packageinstances>
+<packageinstance name="WE-MPSA_1812"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MPSA_1206(W=5.2)" urn="urn:adsk.eagle:package:15318371/3" type="model">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt; &lt;br&gt;Size: 1206
+&lt;BR&gt;Max Height = 1.1±0.2mm
+&lt;br&gt;HIGH CURRENT</description>
+<packageinstances>
+<packageinstance name="WE-MPSA_1206(W=5.2)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MPSA_1612" urn="urn:adsk.eagle:package:15318370/3" type="model">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 1612
+&lt;BR&gt;Max Height = 2.28±0.2mm</description>
+<packageinstances>
+<packageinstance name="WE-MPSA_1612"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MPSA_2220(H=1.8)" urn="urn:adsk.eagle:package:15318587/2" type="model">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 2220
+&lt;BR&gt;Max Height = 1.8±0.25mm</description>
+<packageinstances>
+<packageinstance name="WE-MPSA_2220(H=1.8)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MPSA_2220(H=1.97)" urn="urn:adsk.eagle:package:15318585/2" type="model">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 2220
+&lt;BR&gt;Max Height = 1.97±0.25mm</description>
+<packageinstances>
+<packageinstance name="WE-MPSA_2220(H=1.97)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MPSA_2220(H=1.52)" urn="urn:adsk.eagle:package:15318602/2" type="model">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 2220
+&lt;BR&gt;Max Height = 1.52±0.25mm</description>
+<packageinstances>
+<packageinstance name="WE-MPSA_2220(H=1.52)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MPSA_0805(W=4.0)" urn="urn:adsk.eagle:package:15318372/3" type="model">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 0805
+&lt;BR&gt;Max Height = 0.9±0.2mm
+&lt;br&gt;HIGH CURRENT</description>
+<packageinstances>
+<packageinstance name="WE-MPSA_0805(W=4.0)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MPSA_2220(H=3.2)" urn="urn:adsk.eagle:package:15318586/2" type="model">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;/b&gt;&lt;br&gt; Size: 2220
+&lt;BR&gt;Max Height = 3.2±0.25mm</description>
+<packageinstances>
+<packageinstance name="WE-MPSA_2220(H=3.2)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-MPSA">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-MPSA_3312" prefix="L">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Specified peak current capability 
+&lt;br&gt;Ultra low RDC 
+&lt;br&gt;High rated current up to 10 A 
+&lt;br&gt;Operating temperature: - 55 ºC to +125 ºC 
+&lt;br&gt;AEC-Q200 certified
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Filter with high inrush current peaks 
+&lt;br&gt;Applications for noise reduction at power-trains, body control and infotainment systems 
+&lt;br&gt;Motor interference suppression 
+&lt;br&gt;Battery management systems, DC/DC converters, audio, etc. 
+&lt;br&gt;Broadband suppression 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-MPSA/"&gt;https://www.we-online.com/catalog/en/WE-MPSA/&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu  2019-11-20&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-MPSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-MPSA_3312">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15318367/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_78279225101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279225101.pdf" constant="no"/>
+<attribute name="IR1" value="10A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279225101 " constant="no"/>
+<attribute name="RDC-MAX" value="4mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="100Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="160Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-MPSA_1206" prefix="L">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Specified peak current capability 
+&lt;br&gt;Ultra low RDC 
+&lt;br&gt;High rated current up to 10 A 
+&lt;br&gt;Operating temperature: - 55 ºC to +125 ºC 
+&lt;br&gt;AEC-Q200 certified
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Filter with high inrush current peaks 
+&lt;br&gt;Applications for noise reduction at power-trains, body control and infotainment systems 
+&lt;br&gt;Motor interference suppression 
+&lt;br&gt;Battery management systems, DC/DC converters, audio, etc. 
+&lt;br&gt;Broadband suppression 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Package and Package Variant Note
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;WB/HS means WIDE BAND / HIGH SPEED: W = 4,2
+&lt;br&gt;HC means HIGH CURRENT: W = 5,2
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-MPSA/"&gt;https://www.we-online.com/catalog/en/WE-MPSA/&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu  2019-11-20&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-MPSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_HC" package="WE-MPSA_1206(W=5.2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15318371/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_78279221281">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279221281.pdf" constant="no"/>
+<attribute name="IR1" value="3.5A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279221281 " constant="no"/>
+<attribute name="RDC-MAX" value="35mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="280Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="288Ohm" constant="no"/>
+</technology>
+<technology name="_78279221601">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279221601.pdf" constant="no"/>
+<attribute name="IR1" value="2.5A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279221601 " constant="no"/>
+<attribute name="RDC-MAX" value="50mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="600Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="610Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-MPSA_1812" prefix="L">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Specified peak current capability 
+&lt;br&gt;Ultra low RDC 
+&lt;br&gt;High rated current up to 10 A 
+&lt;br&gt;Operating temperature: - 55 ºC to +125 ºC 
+&lt;br&gt;AEC-Q200 certified
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Filter with high inrush current peaks 
+&lt;br&gt;Applications for noise reduction at power-trains, body control and infotainment systems 
+&lt;br&gt;Motor interference suppression 
+&lt;br&gt;Battery management systems, DC/DC converters, audio, etc. 
+&lt;br&gt;Broadband suppression 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-MPSA/"&gt;https://www.we-online.com/catalog/en/WE-MPSA/&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu  2019-11-20&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-MPSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-MPSA_1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15318369/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_78279226101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279226101.pdf" constant="no"/>
+<attribute name="IR1" value="8A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279226101 " constant="no"/>
+<attribute name="RDC-MAX" value="6mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="100Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="160Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-MPSA_1612" prefix="L">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Specified peak current capability 
+&lt;br&gt;Ultra low RDC 
+&lt;br&gt;High rated current up to 10 A 
+&lt;br&gt;Operating temperature: - 55 ºC to +125 ºC 
+&lt;br&gt;AEC-Q200 certified
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Filter with high inrush current peaks 
+&lt;br&gt;Applications for noise reduction at power-trains, body control and infotainment systems 
+&lt;br&gt;Motor interference suppression 
+&lt;br&gt;Battery management systems, DC/DC converters, audio, etc. 
+&lt;br&gt;Broadband suppression 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-MPSA/"&gt;https://www.we-online.com/catalog/en/WE-MPSA/&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu  2019-11-20&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-MPSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-MPSA_1612">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15318370/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_78279223560">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279223560.pdf" constant="no"/>
+<attribute name="IR1" value="10A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279223560 " constant="no"/>
+<attribute name="RDC-MAX" value="4mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="56Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="90Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-MPSA_0805" prefix="L">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Specified peak current capability 
+&lt;br&gt;Ultra low RDC 
+&lt;br&gt;High rated current up to 10 A 
+&lt;br&gt;Operating temperature: - 55 ºC to +125 ºC 
+&lt;br&gt;AEC-Q200 certified
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Filter with high inrush current peaks 
+&lt;br&gt;Applications for noise reduction at power-trains, body control and infotainment systems 
+&lt;br&gt;Motor interference suppression 
+&lt;br&gt;Battery management systems, DC/DC converters, audio, etc. 
+&lt;br&gt;Broadband suppression 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Package and Package Variant Note
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;WB/HS means WIDE BAND / HIGH SPEED: W = 3,0
+&lt;br&gt;HC means HIGH CURRENT: W = 4,0
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-MPSA/"&gt;https://www.we-online.com/catalog/en/WE-MPSA/&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu  2019-11-20&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-MPSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_HC" package="WE-MPSA_0805(W=4.0)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15318372/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_78279220321">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279220321.pdf" constant="no"/>
+<attribute name="IR1" value="2.5A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279220321 " constant="no"/>
+<attribute name="RDC-MAX" value="50mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="320Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="347Ohm" constant="no"/>
+</technology>
+<technology name="_78279220601">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279220601.pdf" constant="no"/>
+<attribute name="IR1" value="2.1A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279220601 " constant="no"/>
+<attribute name="RDC-MAX" value="80mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="600Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="551Ohm" constant="no"/>
+</technology>
+<technology name="_78279220800">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279220800.pdf" constant="no"/>
+<attribute name="IR1" value="4A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279220800 " constant="no"/>
+<attribute name="RDC-MAX" value="18mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="80Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="120Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-MPSA_2220" prefix="L">
+<description>&lt;b&gt;WE-MPSA EMI Multilayer Power Suppression Bead
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Specified peak current capability 
+&lt;br&gt;Ultra low RDC 
+&lt;br&gt;High rated current up to 10 A 
+&lt;br&gt;Operating temperature: - 55 ºC to +125 ºC 
+&lt;br&gt;AEC-Q200 certified
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Filter with high inrush current peaks 
+&lt;br&gt;Applications for noise reduction at power-trains, body control and infotainment systems 
+&lt;br&gt;Motor interference suppression 
+&lt;br&gt;Battery management systems, DC/DC converters, audio, etc. 
+&lt;br&gt;Broadband suppression 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o160770v209%20Family_WE-MPSA_3312_2220.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-MPSA/"&gt;https://www.we-online.com/catalog/en/WE-MPSA/&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu  2019-11-20&lt;br&gt;
+&lt;/b&gt;2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-MPSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="(H=1.8)" package="WE-MPSA_2220(H=1.8)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15318587/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_78279224101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279224101.pdf" constant="no"/>
+<attribute name="IR1" value="7A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279224101 " constant="no"/>
+<attribute name="RDC-MAX" value="5mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="100Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="160Ohm" constant="no"/>
+</technology>
+<technology name="_78279224151">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279224151.pdf" constant="no"/>
+<attribute name="IR1" value="5A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279224151 " constant="no"/>
+<attribute name="RDC-MAX" value="10mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="150Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="230Ohm" constant="no"/>
+</technology>
+<technology name="_78279224181">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279224181.pdf" constant="no"/>
+<attribute name="IR1" value="5A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279224181 " constant="no"/>
+<attribute name="RDC-MAX" value="10mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="180Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="240Ohm" constant="no"/>
+</technology>
+<technology name="_78279224251">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279224251.pdf" constant="no"/>
+<attribute name="IR1" value="4A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279224251 " constant="no"/>
+<attribute name="RDC-MAX" value="12mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="250Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="300Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="(H=1.97)" package="WE-MPSA_2220(H=1.97)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15318585/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_78279224551">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279224551.pdf" constant="no"/>
+<attribute name="IR1" value="4A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279224551 " constant="no"/>
+<attribute name="RDC-MAX" value="35mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="550Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="660Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="(H=3.2)" package="WE-MPSA_2220(H=3.2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15318586/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_78279224271">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279224271.pdf" constant="no"/>
+<attribute name="IR1" value="4A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279224271 " constant="no"/>
+<attribute name="RDC-MAX" value="20mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="270Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="350Ohm" constant="no"/>
+</technology>
+<technology name="_78279224401">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279224401.pdf" constant="no"/>
+<attribute name="IR1" value="4.5A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279224401 " constant="no"/>
+<attribute name="RDC-MAX" value="20mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="400Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="460Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="(H=1.52)" package="WE-MPSA_2220(H=1.52)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15318602/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_78279224171">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/78279224171.pdf" constant="no"/>
+<attribute name="IR1" value="4A" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 78279224171 " constant="no"/>
+<attribute name="RDC-MAX" value="15mOhm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="170Ohm@100MHz" constant="no"/>
+<attribute name="ZMAX" value="280Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

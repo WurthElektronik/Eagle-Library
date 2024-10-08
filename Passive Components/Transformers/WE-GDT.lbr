@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Gate Drive Transformers - WE-GDT&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-05-16&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-GDT_1210_L10.26W12.98H5.64" urn="urn:adsk.eagle:footprint:44329782/2">
+<description>&lt;B&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size 1210,  SMT, 8Pins
+&lt;BR&gt;LXWXH=10.26X12.98X5.64mm</description>
+<wire x1="4.77" y1="4.69" x2="-4.77" y2="4.69" width="0.1" layer="51"/>
+<wire x1="4.77" y1="-5.57" x2="-4.77" y2="-5.57" width="0.1" layer="51"/>
+<wire x1="-4.77" y1="-5.57" x2="-4.77" y2="4.69" width="0.1" layer="51"/>
+<wire x1="4.77" y1="-5.57" x2="4.77" y2="4.69" width="0.1" layer="51"/>
+<wire x1="-4.87" y1="4.79" x2="4.87" y2="4.79" width="0.2" layer="21"/>
+<wire x1="4.87" y1="-4.7" x2="4.87" y2="-5.67" width="0.2" layer="21"/>
+<wire x1="4.87" y1="-5.67" x2="-4.87" y2="-5.67" width="0.2" layer="21"/>
+<wire x1="-4.87" y1="-5.67" x2="-4.87" y2="-4.7" width="0.2" layer="21"/>
+<smd name="1" x="-5.82" y="3.81" dx="1.82" dy="1.12" layer="1" rot="R180"/>
+<smd name="2" x="-5.82" y="1.27" dx="1.82" dy="1.12" layer="1" rot="R180"/>
+<smd name="3" x="-5.82" y="-1.27" dx="1.82" dy="1.12" layer="1" rot="R180"/>
+<smd name="4" x="-5.82" y="-3.81" dx="1.82" dy="1.12" layer="1" rot="R180"/>
+<smd name="5" x="5.82" y="-3.81" dx="1.82" dy="1.12" layer="1" rot="R180"/>
+<smd name="6" x="5.82" y="-1.27" dx="1.82" dy="1.12" layer="1" rot="R180"/>
+<smd name="7" x="5.82" y="1.27" dx="1.82" dy="1.12" layer="1" rot="R180"/>
+<smd name="8" x="5.82" y="3.81" dx="1.82" dy="1.12" layer="1" rot="R180"/>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.44" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.93" y="4.99"/>
+<vertex x="6.93" y="4.99"/>
+<vertex x="6.93" y="-5.87"/>
+<vertex x="-6.93" y="-5.87"/>
+</polygon>
+<circle x="-3.5" y="3.81" radius="0.3" width="0.6" layer="51"/>
+<circle x="-7.5" y="3.81" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-GDT_EP5_L7W8.5H6" urn="urn:adsk.eagle:footprint:44329781/1">
+<description>&lt;B&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EP5, SMT 6pins 
+&lt;BR&gt;LXWXH=7X8.5X6mm</description>
+<wire x1="-3.5" y1="2.85" x2="-3.5" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="3.5" y1="2.85" x2="3.5" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-2.85" x2="0.3" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="0.3" y1="-2.85" x2="-0.3" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-2.85" x2="-1.55" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="-2.85" x2="-2.15" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-2.85" x2="-3.5" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="3.5" y1="2.85" x2="0.3" y2="2.85" width="0.1" layer="51"/>
+<wire x1="0.3" y1="2.85" x2="-0.3" y2="2.85" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="2.85" x2="-3.5" y2="2.85" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-2.85" x2="-2.15" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-4.25" x2="-1.55" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="-4.25" x2="-1.55" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-2.85" x2="-0.3" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-4.25" x2="0.3" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="0.3" y1="-4.25" x2="0.3" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="1.55" y1="-2.85" x2="1.55" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="1.55" y1="-4.25" x2="2.15" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="2.15" y1="-4.25" x2="2.15" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="2.85" x2="-1.55" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="4.25" x2="-2.15" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="4.25" x2="-2.15" y2="2.85" width="0.1" layer="51"/>
+<wire x1="0.3" y1="2.85" x2="0.3" y2="4.25" width="0.1" layer="51"/>
+<wire x1="0.3" y1="4.25" x2="-0.3" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="4.25" x2="-0.3" y2="2.85" width="0.1" layer="51"/>
+<wire x1="2.15" y1="2.85" x2="2.15" y2="4.25" width="0.1" layer="51"/>
+<wire x1="2.15" y1="4.25" x2="1.55" y2="4.25" width="0.1" layer="51"/>
+<wire x1="1.55" y1="4.25" x2="1.55" y2="2.85" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="-2.95" x2="-3.6" y2="-2.95" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-2.95" x2="-3.6" y2="2.95" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="2.95" x2="-2.7" y2="2.95" width="0.2" layer="21"/>
+<wire x1="2.7" y1="-2.95" x2="3.6" y2="-2.95" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-2.95" x2="3.6" y2="2.95" width="0.2" layer="21"/>
+<wire x1="3.6" y1="2.95" x2="2.7" y2="2.95" width="0.2" layer="21"/>
+<smd name="4" x="1.85" y="3.645" dx="1.07" dy="1.63" layer="1"/>
+<smd name="6" x="-1.85" y="3.645" dx="1.07" dy="1.63" layer="1"/>
+<smd name="3" x="1.85" y="-3.645" dx="1.07" dy="1.63" layer="1"/>
+<smd name="1" x="-1.85" y="-3.645" dx="1.07" dy="1.63" layer="1"/>
+<smd name="5" x="0" y="3.645" dx="1.07" dy="1.63" layer="1"/>
+<smd name="2" x="0" y="-3.645" dx="1.07" dy="1.63" layer="1"/>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="-4.66"/>
+<vertex x="-3.8" y="4.66"/>
+<vertex x="3.8" y="4.66"/>
+<vertex x="3.8" y="-4.66"/>
+</polygon>
+<circle x="-3" y="-2.27" radius="0.2" width="0.4" layer="51"/>
+<circle x="-3" y="-3.6" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-GDT_ER9.5_L10W12.07H5.97" urn="urn:adsk.eagle:footprint:44329780/1">
+<description>&lt;B&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size ER9.5,  SMT, 8Pins
+&lt;BR&gt;LXWXH=10X12.07X5.97mm</description>
+<wire x1="4.05" y1="5" x2="-4.05" y2="5" width="0.1" layer="51"/>
+<wire x1="4.05" y1="-5" x2="-4.05" y2="-5" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="-5" x2="-4.05" y2="5" width="0.1" layer="51"/>
+<wire x1="4.05" y1="-5" x2="4.05" y2="5" width="0.1" layer="51"/>
+<wire x1="-4.15" y1="-5.1" x2="-4.15" y2="5.1" width="0.2" layer="21"/>
+<wire x1="-4.15" y1="5.1" x2="4.15" y2="5.1" width="0.2" layer="21"/>
+<wire x1="4.15" y1="5.1" x2="4.15" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="4.15" y1="-5.1" x2="-4.15" y2="-5.1" width="0.2" layer="21"/>
+<smd name="1" x="-5.46" y="3" dx="1.7" dy="1.12" layer="1" rot="R180"/>
+<smd name="2" x="-5.46" y="1" dx="1.7" dy="1.12" layer="1" rot="R180"/>
+<smd name="3" x="-5.46" y="-1" dx="1.7" dy="1.12" layer="1" rot="R180"/>
+<smd name="4" x="-5.46" y="-3" dx="1.7" dy="1.12" layer="1" rot="R180"/>
+<smd name="5" x="5.46" y="-3" dx="1.7" dy="1.12" layer="1" rot="R180"/>
+<smd name="6" x="5.46" y="-1" dx="1.7" dy="1.12" layer="1" rot="R180"/>
+<smd name="7" x="5.46" y="1" dx="1.7" dy="1.12" layer="1" rot="R180"/>
+<smd name="8" x="5.46" y="3" dx="1.7" dy="1.12" layer="1" rot="R180"/>
+<text x="0" y="5.87" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.87" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.93" y="5.3"/>
+<vertex x="6.93" y="5.3"/>
+<vertex x="6.93" y="-5.3"/>
+<vertex x="-6.93" y="-5.3"/>
+</polygon>
+<circle x="-3" y="3" radius="0.3" width="0.6" layer="51"/>
+<circle x="-5" y="4.3" radius="0.2" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-GDT_1210_L10.26W12.98H5.64" urn="urn:adsk.eagle:package:44329789/3" type="model">
+<description>&lt;B&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size 1210,  SMT, 8Pins
+&lt;BR&gt;LXWXH=10.26X12.98X5.64mm</description>
+<packageinstances>
+<packageinstance name="WE-GDT_1210_L10.26W12.98H5.64"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-GDT_EP5_L7W8.5H6" urn="urn:adsk.eagle:package:44329788/2" type="model">
+<description>&lt;B&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EP5, SMT 6pins 
+&lt;BR&gt;LXWXH=7X8.5X6mm</description>
+<packageinstances>
+<packageinstance name="WE-GDT_EP5_L7W8.5H6"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-GDT_ER9.5_L10W12.07H5.97" urn="urn:adsk.eagle:package:44329787/2" type="model">
+<description>&lt;B&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size ER9.5,  SMT, 8Pins
+&lt;BR&gt;LXWXH=10X12.07X5.97mm</description>
+<packageinstances>
+<packageinstance name="WE-GDT_ER9.5_L10W12.07H5.97"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-GDT_1210_2W:2W">
+<pin name="5" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N4</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="WE-GDT_EP5_1W:1W">
+<pin name="4" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="WE-GDT_EP5_1W:2W">
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="WE-GDT_ER9.5_2W:1W">
+<pin name="1" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="750316094" prefix="T">
+<description>&lt;b&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Excellent performances in small package (EP5)
+&lt;br&gt;1 or 2 secondary windings
+&lt;br&gt;6 different turnsratios
+&lt;br&gt;1500VDC insulation test voltage
+&lt;br&gt;Operating voltage up to 80 V
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Suitable for signal and power application
+&lt;br&gt;Designed for gate drive application high efficient SMPS
+&lt;br&gt;Synchronous Flyback
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-GDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-05-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-GDT_1210_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-GDT_1210_L10.26W12.98H5.64">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44329789/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="45pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750316094?ae"/>
+<attribute name="HEIGHT" value="5.64mm"/>
+<attribute name="L" value="261uH"/>
+<attribute name="LENGTH" value="10.26mm"/>
+<attribute name="LS" value="150nH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:2.5:2.5"/>
+<attribute name="PART-NUMBER" value=" 750316094 "/>
+<attribute name="RDC1" value="148mOhm"/>
+<attribute name="SIZE" value=" 1210 "/>
+<attribute name="VALUE" value=" 750316094 "/>
+<attribute name="VOLTAGE-TIME" value="70uVs"/>
+<attribute name="VT" value="1500V(AC)"/>
+<attribute name="WIDTH" value="12.98mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750316093" prefix="T">
+<description>&lt;b&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Excellent performances in small package (EP5)
+&lt;br&gt;1 or 2 secondary windings
+&lt;br&gt;6 different turnsratios
+&lt;br&gt;1500VDC insulation test voltage
+&lt;br&gt;Operating voltage up to 80 V
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Suitable for signal and power application
+&lt;br&gt;Designed for gate drive application high efficient SMPS
+&lt;br&gt;Synchronous Flyback
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-GDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-05-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-GDT_1210_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-GDT_1210_L10.26W12.98H5.64">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44329789/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="70pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750316093?ae"/>
+<attribute name="HEIGHT" value="5.64mm"/>
+<attribute name="L" value="1710uH"/>
+<attribute name="LENGTH" value="10.26mm"/>
+<attribute name="LS" value="500nH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1:1"/>
+<attribute name="PART-NUMBER" value=" 750316093 "/>
+<attribute name="RDC1" value="649mOhm"/>
+<attribute name="SIZE" value=" 1210 "/>
+<attribute name="VALUE" value=" 750316093 "/>
+<attribute name="VOLTAGE-TIME" value="70uVs"/>
+<attribute name="VT" value="1500V(AC)"/>
+<attribute name="WIDTH" value="12.98mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="760301103" prefix="T">
+<description>&lt;b&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Excellent performances in small package (EP5)
+&lt;br&gt;1 or 2 secondary windings
+&lt;br&gt;6 different turnsratios
+&lt;br&gt;1500VDC insulation test voltage
+&lt;br&gt;Operating voltage up to 80 V
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Suitable for signal and power application
+&lt;br&gt;Designed for gate drive application high efficient SMPS
+&lt;br&gt;Synchronous Flyback
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-GDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-05-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-GDT_EP5_1W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-GDT_EP5_L7W8.5H6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44329788/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="7pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/760301103?ae"/>
+<attribute name="HEIGHT" value="6mm"/>
+<attribute name="L" value="2.3uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="LS" value="2300nH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2.5:1:1"/>
+<attribute name="PART-NUMBER" value=" 760301103 "/>
+<attribute name="RDC1" value="700mOhm"/>
+<attribute name="SIZE" value="EP5"/>
+<attribute name="VALUE" value=" 760301103 "/>
+<attribute name="VOLTAGE-TIME" value="29.4uVs"/>
+<attribute name="VT" value="1500V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="760301105" prefix="T">
+<description>&lt;b&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Excellent performances in small package (EP5)
+&lt;br&gt;1 or 2 secondary windings
+&lt;br&gt;6 different turnsratios
+&lt;br&gt;1500VDC insulation test voltage
+&lt;br&gt;Operating voltage up to 80 V
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Suitable for signal and power application
+&lt;br&gt;Designed for gate drive application high efficient SMPS
+&lt;br&gt;Synchronous Flyback
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-GDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-05-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-GDT_EP5_1W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-GDT_EP5_L7W8.5H6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44329788/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="9pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/760301105?ae"/>
+<attribute name="HEIGHT" value="6mm"/>
+<attribute name="L" value="1.7uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="LS" value="1700nH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1:1"/>
+<attribute name="PART-NUMBER" value=" 760301105 "/>
+<attribute name="RDC1" value="600mOhm"/>
+<attribute name="SIZE" value="EP5"/>
+<attribute name="VALUE" value=" 760301105 "/>
+<attribute name="VOLTAGE-TIME" value="25.2uVs"/>
+<attribute name="VT" value="1500V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="760301108" prefix="T">
+<description>&lt;b&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Excellent performances in small package (EP5)
+&lt;br&gt;1 or 2 secondary windings
+&lt;br&gt;6 different turnsratios
+&lt;br&gt;1500VDC insulation test voltage
+&lt;br&gt;Operating voltage up to 80 V
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Suitable for signal and power application
+&lt;br&gt;Designed for gate drive application high efficient SMPS
+&lt;br&gt;Synchronous Flyback
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-GDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-05-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-GDT_EP5_1W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-GDT_EP5_L7W8.5H6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44329788/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="9pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/760301108?ae"/>
+<attribute name="HEIGHT" value="6mm"/>
+<attribute name="L" value="2.3uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="LS" value="2300nH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2.5:1"/>
+<attribute name="PART-NUMBER" value=" 760301108 "/>
+<attribute name="RDC1" value="730mOhm"/>
+<attribute name="SIZE" value="EP5"/>
+<attribute name="VALUE" value=" 760301108 "/>
+<attribute name="VOLTAGE-TIME" value="33.6uVs"/>
+<attribute name="VT" value="1500V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="760301107" prefix="T">
+<description>&lt;b&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Excellent performances in small package (EP5)
+&lt;br&gt;1 or 2 secondary windings
+&lt;br&gt;6 different turnsratios
+&lt;br&gt;1500VDC insulation test voltage
+&lt;br&gt;Operating voltage up to 80 V
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Suitable for signal and power application
+&lt;br&gt;Designed for gate drive application high efficient SMPS
+&lt;br&gt;Synchronous Flyback
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-GDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-05-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-GDT_EP5_1W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-GDT_EP5_L7W8.5H6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44329788/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="9pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/760301107?ae"/>
+<attribute name="HEIGHT" value="6mm"/>
+<attribute name="L" value="2.9uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="LS" value="2900nH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1.5:1"/>
+<attribute name="PART-NUMBER" value=" 760301107 "/>
+<attribute name="RDC1" value="1200mOhm"/>
+<attribute name="SIZE" value="EP5"/>
+<attribute name="VALUE" value=" 760301107 "/>
+<attribute name="VOLTAGE-TIME" value="40.8uVs"/>
+<attribute name="VT" value="1500V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="760301104" prefix="T">
+<description>&lt;b&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Excellent performances in small package (EP5)
+&lt;br&gt;1 or 2 secondary windings
+&lt;br&gt;6 different turnsratios
+&lt;br&gt;1500VDC insulation test voltage
+&lt;br&gt;Operating voltage up to 80 V
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Suitable for signal and power application
+&lt;br&gt;Designed for gate drive application high efficient SMPS
+&lt;br&gt;Synchronous Flyback
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-GDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-05-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-GDT_EP5_1W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-GDT_EP5_L7W8.5H6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44329788/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="7pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/760301104?ae"/>
+<attribute name="HEIGHT" value="6mm"/>
+<attribute name="L" value="1.9uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="LS" value="1900nH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1:1"/>
+<attribute name="PART-NUMBER" value=" 760301104 "/>
+<attribute name="RDC1" value="620mOhm"/>
+<attribute name="SIZE" value="EP5"/>
+<attribute name="VALUE" value=" 760301104 "/>
+<attribute name="VOLTAGE-TIME" value="28.6uVs"/>
+<attribute name="VT" value="1500V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="760301106" prefix="T">
+<description>&lt;b&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Excellent performances in small package (EP5)
+&lt;br&gt;1 or 2 secondary windings
+&lt;br&gt;6 different turnsratios
+&lt;br&gt;1500VDC insulation test voltage
+&lt;br&gt;Operating voltage up to 80 V
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Suitable for signal and power application
+&lt;br&gt;Designed for gate drive application high efficient SMPS
+&lt;br&gt;Synchronous Flyback
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-GDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-05-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-GDT_EP5_1W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-GDT_EP5_L7W8.5H6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44329788/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="10pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/760301106?ae"/>
+<attribute name="HEIGHT" value="6mm"/>
+<attribute name="L" value="1.8uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="LS" value="1800nH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1"/>
+<attribute name="PART-NUMBER" value=" 760301106 "/>
+<attribute name="RDC1" value="520mOhm"/>
+<attribute name="SIZE" value="EP5"/>
+<attribute name="VALUE" value=" 760301106 "/>
+<attribute name="VOLTAGE-TIME" value="30.2uVs"/>
+<attribute name="VT" value="1500V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750311063" prefix="T">
+<description>&lt;b&gt;WE-GDT Gate-Drive-Transformer&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Excellent performances in small package (EP5)
+&lt;br&gt;1 or 2 secondary windings
+&lt;br&gt;6 different turnsratios
+&lt;br&gt;1500VDC insulation test voltage
+&lt;br&gt;Operating voltage up to 80 V
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Suitable for signal and power application
+&lt;br&gt;Designed for gate drive application high efficient SMPS
+&lt;br&gt;Synchronous Flyback
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o727400v209%20multi-WE-GDT-76030110x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-GDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-05-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-GDT_ER9.5_2W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-GDT_ER9.5_L10W12.07H5.97">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44329787/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="12pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311063?ae"/>
+<attribute name="HEIGHT" value="5.97mm"/>
+<attribute name="L" value="600uH"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="LS" value="1400nH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1"/>
+<attribute name="PART-NUMBER" value=" 750311063 "/>
+<attribute name="RDC1" value="240mOhm"/>
+<attribute name="SIZE" value="ER9.5"/>
+<attribute name="VALUE" value=" 750311063 "/>
+<attribute name="VOLTAGE-TIME" value="70uVs"/>
+<attribute name="WIDTH" value="12.07mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Optoelectronic Components - 7 Segments Display - WL-S7DS&lt;br&gt;
+
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-01-17&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WL-S7DS_0.3INCH" urn="urn:adsk.eagle:footprint:27280332/4">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+Size: 0.3inch, SMT, 10pins
+&lt;br&gt;L X W X H=12mm X 7.3mm X 3.75mm</description>
+<smd name="1" x="-3" y="-5.45" dx="1" dy="2.3" layer="1"/>
+<smd name="2" x="-1.5" y="-5.45" dx="1" dy="2.3" layer="1"/>
+<smd name="3" x="0" y="-5.45" dx="1" dy="2.3" layer="1"/>
+<smd name="4" x="1.5" y="-5.45" dx="1" dy="2.3" layer="1"/>
+<smd name="5" x="3" y="-5.45" dx="1" dy="2.3" layer="1"/>
+<smd name="6" x="3" y="5.45" dx="1" dy="2.3" layer="1"/>
+<smd name="7" x="1.5" y="5.45" dx="1" dy="2.3" layer="1"/>
+<smd name="8" x="0" y="5.45" dx="1" dy="2.3" layer="1"/>
+<smd name="9" x="-1.5" y="5.45" dx="1" dy="2.3" layer="1"/>
+<smd name="10" x="-3" y="5.45" dx="1" dy="2.3" layer="1"/>
+<wire x1="-3.65" y1="6" x2="-3.3" y2="6" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="6" x2="-1.8" y2="6" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="6" x2="-0.5" y2="6" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="6" x2="-0.3" y2="6" width="0.1" layer="51"/>
+<wire x1="0.3" y1="6" x2="0.5" y2="6" width="0.1" layer="51"/>
+<wire x1="0.5" y1="6" x2="1.2" y2="6" width="0.1" layer="51"/>
+<wire x1="1.8" y1="6" x2="2.7" y2="6" width="0.1" layer="51"/>
+<wire x1="3.3" y1="6" x2="3.65" y2="6" width="0.1" layer="51"/>
+<wire x1="3.65" y1="6" x2="3.65" y2="5" width="0.1" layer="51"/>
+<wire x1="3.65" y1="5" x2="3.65" y2="-5" width="0.1" layer="51"/>
+<wire x1="3.65" y1="-5" x2="3.65" y2="-6" width="0.1" layer="51"/>
+<wire x1="3.65" y1="-6" x2="3.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-6" x2="3.3" y2="-6" width="0.1" layer="51"/>
+<wire x1="2.7" y1="-6" x2="2.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-6" x2="2" y2="-6" width="0.1" layer="51"/>
+<wire x1="2" y1="-6" x2="1.8" y2="-6" width="0.1" layer="51"/>
+<wire x1="1.2" y1="-6" x2="1" y2="-6" width="0.1" layer="51"/>
+<wire x1="1" y1="-6" x2="0.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-6" x2="0.3" y2="-6" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-6" x2="-0.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-6" x2="-1" y2="-6" width="0.1" layer="51"/>
+<wire x1="-1" y1="-6" x2="-1.2" y2="-6" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="-6" x2="-2" y2="-6" width="0.1" layer="51"/>
+<wire x1="-2" y1="-6" x2="-2.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-6" x2="-2.7" y2="-6" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-6" x2="-3.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6" x2="-3.65" y2="-6" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="-6" x2="-3.65" y2="-5" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="-5" x2="-3.65" y2="5" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="5" x2="-3.65" y2="6" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="5" x2="-0.5" y2="5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="5" x2="0.5" y2="5" width="0.1" layer="51"/>
+<wire x1="0.5" y1="5" x2="3.65" y2="5" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="-5" x2="-3.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-5" x2="-2.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-5" x2="-2" y2="-5" width="0.1" layer="51"/>
+<wire x1="-2" y1="-5" x2="-1" y2="-5" width="0.1" layer="51"/>
+<wire x1="-1" y1="-5" x2="-0.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-5" x2="0.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-5" x2="1" y2="-5" width="0.1" layer="51"/>
+<wire x1="1" y1="-5" x2="2" y2="-5" width="0.1" layer="51"/>
+<wire x1="2" y1="-5" x2="2.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-5" x2="3.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-5" x2="3.65" y2="-5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-6" x2="-0.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-6" x2="0.3" y2="-6" width="0.1" layer="51" curve="-180"/>
+<wire x1="-1.8" y1="-6" x2="-1.2" y2="-6" width="0.1" layer="51" curve="-180"/>
+<wire x1="-3.3" y1="-6" x2="-2.7" y2="-6" width="0.1" layer="51" curve="-180"/>
+<wire x1="1.2" y1="-6" x2="1.8" y2="-6" width="0.1" layer="51" curve="-180"/>
+<wire x1="2.7" y1="-6" x2="3.3" y2="-6" width="0.1" layer="51" curve="-180"/>
+<wire x1="-2" y1="-6" x2="-2" y2="-5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6" x2="-3.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="2" y1="-5" x2="2" y2="-6" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-5" x2="3.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="-1" y1="-5" x2="-1" y2="-6" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-5" x2="-2.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="1" y1="-6" x2="1" y2="-5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-6" x2="2.5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="5" x2="-0.5" y2="6" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-5" x2="0.5" y2="-6" width="0.1" layer="51"/>
+<wire x1="0.5" y1="6" x2="0.5" y2="5" width="0.1" layer="51"/>
+<wire x1="0.3" y1="6" x2="-0.3" y2="6" width="0.1" layer="51" curve="-180"/>
+<wire x1="-1.2" y1="6" x2="-1.8" y2="6" width="0.1" layer="51" curve="-180"/>
+<wire x1="-2.7" y1="6" x2="-3.3" y2="6" width="0.1" layer="51" curve="-180"/>
+<wire x1="1.8" y1="6" x2="1.2" y2="6" width="0.1" layer="51" curve="-180"/>
+<wire x1="3.3" y1="6" x2="2.7" y2="6" width="0.1" layer="51" curve="-180"/>
+<wire x1="-3.75" y1="3.9" x2="-3.75" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="3.75" y1="3.9" x2="3.75" y2="-3.9" width="0.2" layer="21"/>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-4.6" y="-6.3" radius="0.2" width="0.4" layer="21"/>
+<circle x="3" y="-3.4" radius="0.45" width="0.1" layer="21"/>
+<circle x="3" y="-3.4" radius="0.45" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="3.95" y="-6.9"/>
+<vertex x="-3.95" y="-6.9"/>
+<vertex x="-3.95" y="6.9"/>
+<vertex x="3.95" y="6.9"/>
+</polygon>
+</package>
+<package name="WL-S7DS_0.39INCH" urn="urn:adsk.eagle:footprint:27280333/4">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+Size: 0.39inch, SMT, 10pins
+&lt;br&gt;L X W X H=15mm X 9.8mm X 3.75mm</description>
+<smd name="1" x="-3.8" y="-7.5" dx="1.4" dy="3" layer="1"/>
+<smd name="2" x="-1.9" y="-7.5" dx="1.4" dy="3" layer="1"/>
+<smd name="3" x="0" y="-7.5" dx="1.4" dy="3" layer="1"/>
+<smd name="4" x="1.9" y="-7.5" dx="1.4" dy="3" layer="1"/>
+<smd name="5" x="3.8" y="-7.5" dx="1.4" dy="3" layer="1"/>
+<smd name="6" x="3.8" y="7.5" dx="1.4" dy="3" layer="1"/>
+<smd name="7" x="1.9" y="7.5" dx="1.4" dy="3" layer="1"/>
+<smd name="8" x="0" y="7.5" dx="1.4" dy="3" layer="1"/>
+<smd name="9" x="-1.9" y="7.5" dx="1.4" dy="3" layer="1"/>
+<smd name="10" x="-3.8" y="7.5" dx="1.4" dy="3" layer="1"/>
+<wire x1="-4.9" y1="7.5" x2="-4.5" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="7.5" x2="-4.29" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-3.29" y1="7.5" x2="-3.1" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="7.5" x2="-2.6" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="7.5" x2="-2.39" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-1.39" y1="7.5" x2="-1.2" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="7.5" x2="-0.7" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="7.5" x2="-0.49" y2="7.5" width="0.1" layer="51"/>
+<wire x1="0.51" y1="7.5" x2="0.7" y2="7.5" width="0.1" layer="51"/>
+<wire x1="0.7" y1="7.5" x2="1.2" y2="7.5" width="0.1" layer="51"/>
+<wire x1="1.2" y1="7.5" x2="1.41" y2="7.5" width="0.1" layer="51"/>
+<wire x1="2.41" y1="7.5" x2="2.6" y2="7.5" width="0.1" layer="51"/>
+<wire x1="2.6" y1="7.5" x2="3.1" y2="7.5" width="0.1" layer="51"/>
+<wire x1="3.1" y1="7.5" x2="3.31" y2="7.5" width="0.1" layer="51"/>
+<wire x1="4.31" y1="7.5" x2="4.5" y2="7.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="7.5" x2="4.9" y2="7.5" width="0.1" layer="51"/>
+<wire x1="4.9" y1="7.5" x2="4.9" y2="6.5" width="0.1" layer="51"/>
+<wire x1="4.9" y1="6.5" x2="4.9" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="4.9" y1="-6.5" x2="4.9" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="4.9" y1="-7.5" x2="4.5" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-7.5" x2="4.29" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="3.29" y1="-7.5" x2="3.1" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="2.6" y1="-7.5" x2="2.39" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="1.39" y1="-7.5" x2="1.2" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="0.7" y1="-7.5" x2="0.49" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-0.51" y1="-7.5" x2="-0.7" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="-7.5" x2="-1.2" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="-7.5" x2="-1.41" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-2.41" y1="-7.5" x2="-2.6" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="-7.5" x2="-3.1" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-7.5" x2="-3.31" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-4.31" y1="-7.5" x2="-4.5" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-7.5" x2="-4.9" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-4.9" y1="-7.5" x2="-4.9" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-4.9" y1="-6.5" x2="-4.9" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-4.9" y1="6.5" x2="-4.9" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-4.9" y1="6.5" x2="-4.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="6.5" x2="-3.1" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="6.5" x2="-2.6" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="6.5" x2="-1.2" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="6.5" x2="-0.7" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="6.5" x2="0.7" y2="6.5" width="0.1" layer="51"/>
+<wire x1="0.7" y1="6.5" x2="1.2" y2="6.5" width="0.1" layer="51"/>
+<wire x1="1.2" y1="6.5" x2="2.6" y2="6.5" width="0.1" layer="51"/>
+<wire x1="2.6" y1="6.5" x2="3.1" y2="6.5" width="0.1" layer="51"/>
+<wire x1="3.1" y1="6.5" x2="4.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="6.5" x2="4.9" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-4.9" y1="-6.5" x2="-4.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-6.5" x2="-3.1" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-6.5" x2="-2.6" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="-6.5" x2="-1.2" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="-6.5" x2="-0.7" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="-6.5" x2="0.7" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="0.7" y1="-6.5" x2="1.2" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="1.2" y1="-6.5" x2="2.6" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="2.6" y1="-6.5" x2="3.1" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-6.5" x2="4.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-6.5" x2="4.9" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="0.7" y1="-6.5" x2="0.7" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="-6.5" x2="-0.7" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-0.51" y1="-7.5" x2="0.49" y2="-7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="-2.6" y1="-6.5" x2="-2.6" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="-6.5" x2="-1.2" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-2.41" y1="-7.5" x2="-1.41" y2="-7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="-4.5" y1="-6.5" x2="-4.5" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-6.5" x2="-3.1" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-4.31" y1="-7.5" x2="-3.31" y2="-7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="2.6" y1="-6.5" x2="2.6" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="1.2" y1="-6.5" x2="1.2" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="1.39" y1="-7.5" x2="2.39" y2="-7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="4.5" y1="-6.5" x2="4.5" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-6.5" x2="3.1" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="3.29" y1="-7.5" x2="4.29" y2="-7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="-0.7" y1="7.5" x2="-0.7" y2="6.5" width="0.1" layer="51"/>
+<wire x1="0.7" y1="7.5" x2="0.7" y2="6.5" width="0.1" layer="51"/>
+<wire x1="0.51" y1="7.5" x2="-0.49" y2="7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="-2.6" y1="7.5" x2="-2.6" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="7.5" x2="-1.2" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-1.39" y1="7.5" x2="-2.39" y2="7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="-4.5" y1="7.5" x2="-4.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="7.5" x2="-3.1" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-3.29" y1="7.5" x2="-4.29" y2="7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="2.6" y1="7.5" x2="2.6" y2="6.5" width="0.1" layer="51"/>
+<wire x1="1.2" y1="7.5" x2="1.2" y2="6.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="7.5" x2="4.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="3.1" y1="7.5" x2="3.1" y2="6.5" width="0.1" layer="51"/>
+<wire x1="2.41" y1="7.5" x2="1.41" y2="7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="4.31" y1="7.5" x2="3.31" y2="7.5" width="0.1" layer="51" curve="-177.70939"/>
+<wire x1="-4.8" y1="7.6" x2="-5" y2="7.6" width="0.2" layer="21"/>
+<wire x1="-5" y1="7.6" x2="-5" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="-5" y1="-7.6" x2="-4.8" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="4.8" y1="7.6" x2="5" y2="7.6" width="0.2" layer="21"/>
+<wire x1="5" y1="7.6" x2="5" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="5" y1="-7.6" x2="4.8" y2="-7.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.2" y="9.2"/>
+<vertex x="-5.2" y="-9.2"/>
+<vertex x="5.2" y="-9.2"/>
+<vertex x="5.2" y="9.2"/>
+</polygon>
+<circle x="-5.7" y="-8.4" radius="0.2" width="0.6" layer="21"/>
+<circle x="3.8" y="-5" radius="0.6" width="0.15" layer="51"/>
+<circle x="3.8" y="-5" radius="0.6" width="0.15" layer="21"/>
+<text x="0" y="9.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WL-S7DS_0.56INCH" urn="urn:adsk.eagle:footprint:27280331/4">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+Size: 0.56inch, SMT, 10pins
+&lt;br&gt;L X W X H=19mm X 12.4mm X 3.75mm</description>
+<smd name="1" x="-5.08" y="-9.5" dx="1.7" dy="3.4" layer="1"/>
+<smd name="2" x="-2.54" y="-9.5" dx="1.7" dy="3.4" layer="1"/>
+<smd name="3" x="0" y="-9.5" dx="1.7" dy="3.4" layer="1"/>
+<smd name="4" x="2.54" y="-9.5" dx="1.7" dy="3.4" layer="1"/>
+<smd name="5" x="5.08" y="-9.5" dx="1.7" dy="3.4" layer="1"/>
+<smd name="6" x="5.08" y="9.5" dx="1.7" dy="3.4" layer="1"/>
+<smd name="7" x="2.54" y="9.5" dx="1.7" dy="3.4" layer="1"/>
+<smd name="8" x="0" y="9.5" dx="1.7" dy="3.4" layer="1"/>
+<smd name="9" x="-2.54" y="9.5" dx="1.7" dy="3.4" layer="1"/>
+<smd name="10" x="-5.08" y="9.5" dx="1.7" dy="3.4" layer="1"/>
+<wire x1="-6.2" y1="9.5" x2="-5.93" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-5.93" y1="9.5" x2="-5.58" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-4.58" y1="9.5" x2="-4.23" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-4.23" y1="9.5" x2="-3.39" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-3.39" y1="9.5" x2="-3.04" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-2.04" y1="9.5" x2="-1.69" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-1.69" y1="9.5" x2="-0.85" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="9.5" x2="-0.5" y2="9.5" width="0.1" layer="51"/>
+<wire x1="0.5" y1="9.5" x2="0.85" y2="9.5" width="0.1" layer="51"/>
+<wire x1="0.85" y1="9.5" x2="1.69" y2="9.5" width="0.1" layer="51"/>
+<wire x1="1.69" y1="9.5" x2="2.04" y2="9.5" width="0.1" layer="51"/>
+<wire x1="3.04" y1="9.5" x2="3.39" y2="9.5" width="0.1" layer="51"/>
+<wire x1="3.39" y1="9.5" x2="4.23" y2="9.5" width="0.1" layer="51"/>
+<wire x1="4.23" y1="9.5" x2="4.58" y2="9.5" width="0.1" layer="51"/>
+<wire x1="5.58" y1="9.5" x2="5.93" y2="9.5" width="0.1" layer="51"/>
+<wire x1="5.93" y1="9.5" x2="6.2" y2="9.5" width="0.1" layer="51"/>
+<wire x1="6.2" y1="9.5" x2="6.2" y2="8.5" width="0.1" layer="51"/>
+<wire x1="6.2" y1="8.5" x2="6.2" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="6.2" y1="-8.5" x2="6.2" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="6.2" y1="-9.5" x2="5.93" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="5.93" y1="-9.5" x2="5.58" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="4.58" y1="-9.5" x2="4.23" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="4.23" y1="-9.5" x2="3.39" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="3.39" y1="-9.5" x2="3.04" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="2.04" y1="-9.5" x2="1.69" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="1.69" y1="-9.5" x2="0.85" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="0.85" y1="-9.5" x2="0.5" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-9.5" x2="-0.85" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="-9.5" x2="-1.69" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-1.69" y1="-9.5" x2="-2.04" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-3.04" y1="-9.5" x2="-3.39" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-3.39" y1="-9.5" x2="-4.23" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-4.23" y1="-9.5" x2="-4.58" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-5.58" y1="-9.5" x2="-5.93" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-5.93" y1="-9.5" x2="-6.2" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-6.2" y1="-9.5" x2="-6.2" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-6.2" y1="-8.5" x2="-6.2" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-6.2" y1="8.5" x2="-6.2" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-6.2" y1="8.5" x2="-5.93" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-5.93" y1="8.5" x2="-4.23" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-4.23" y1="8.5" x2="-3.39" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-3.39" y1="8.5" x2="-1.69" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-1.69" y1="8.5" x2="-0.85" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="8.5" x2="0.85" y2="8.5" width="0.1" layer="51"/>
+<wire x1="0.85" y1="8.5" x2="1.69" y2="8.5" width="0.1" layer="51"/>
+<wire x1="1.69" y1="8.5" x2="3.39" y2="8.5" width="0.1" layer="51"/>
+<wire x1="3.39" y1="8.5" x2="4.23" y2="8.5" width="0.1" layer="51"/>
+<wire x1="4.23" y1="8.5" x2="5.93" y2="8.5" width="0.1" layer="51"/>
+<wire x1="5.93" y1="8.5" x2="6.2" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-6.2" y1="-8.5" x2="-5.93" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-5.93" y1="-8.5" x2="-4.23" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-4.23" y1="-8.5" x2="-3.39" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-3.39" y1="-8.5" x2="-1.69" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-1.69" y1="-8.5" x2="-0.85" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="-8.5" x2="0.85" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="0.85" y1="-8.5" x2="1.69" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="1.69" y1="-8.5" x2="3.39" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="3.39" y1="-8.5" x2="4.23" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="4.23" y1="-8.5" x2="5.93" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="5.93" y1="-8.5" x2="6.2" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="-8.5" x2="-0.85" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="0.85" y1="-8.5" x2="0.85" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-9.5" x2="0.5" y2="-9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-3.39" y1="-8.5" x2="-3.39" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-5.93" y1="-8.5" x2="-5.93" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="1.69" y1="-8.5" x2="1.69" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="4.23" y1="-8.5" x2="4.23" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="3.39" y1="-8.5" x2="3.39" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="5.93" y1="-8.5" x2="5.93" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-1.69" y1="-8.5" x2="-1.69" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-4.23" y1="-8.5" x2="-4.23" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-3.04" y1="-9.5" x2="-2.04" y2="-9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-5.58" y1="-9.5" x2="-4.58" y2="-9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="2.04" y1="-9.5" x2="3.04" y2="-9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="4.58" y1="-9.5" x2="5.58" y2="-9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.85" y1="9.5" x2="-0.85" y2="8.5" width="0.1" layer="51"/>
+<wire x1="0.85" y1="9.5" x2="0.85" y2="8.5" width="0.1" layer="51"/>
+<wire x1="0.5" y1="9.5" x2="-0.5" y2="9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-3.39" y1="9.5" x2="-3.39" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-5.93" y1="9.5" x2="-5.93" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-1.69" y1="9.5" x2="-1.69" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-4.23" y1="9.5" x2="-4.23" y2="8.5" width="0.1" layer="51"/>
+<wire x1="1.69" y1="9.5" x2="1.69" y2="8.5" width="0.1" layer="51"/>
+<wire x1="4.23" y1="9.5" x2="4.23" y2="8.5" width="0.1" layer="51"/>
+<wire x1="3.39" y1="9.5" x2="3.39" y2="8.5" width="0.1" layer="51"/>
+<wire x1="5.93" y1="9.5" x2="5.93" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-2.04" y1="9.5" x2="-3.04" y2="9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-4.58" y1="9.5" x2="-5.58" y2="9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="3.04" y1="9.5" x2="2.04" y2="9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="5.58" y1="9.5" x2="4.58" y2="9.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-6.3" y1="9.6" x2="-6.3" y2="-9.6" width="0.2" layer="21"/>
+<wire x1="6.3" y1="9.6" x2="6.3" y2="-9.6" width="0.2" layer="21"/>
+<circle x="-7.2" y="-10.4" radius="0.3" width="0.6" layer="21"/>
+<circle x="5.1" y="-6.5" radius="0.75" width="0.2" layer="51"/>
+<circle x="5.1" y="-6.5" radius="0.75" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.5" y="11.5"/>
+<vertex x="-6.5" y="-11.5"/>
+<vertex x="6.5" y="-11.5"/>
+<vertex x="6.5" y="11.5"/>
+</polygon>
+<text x="0" y="12" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WL-S7DS_0.2INCH" urn="urn:adsk.eagle:footprint:34292854/1">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+Size: 0.2inch, SMT, 10pins
+&lt;br&gt;L X W X H=10mm X 6.9mm X 3mm</description>
+<smd name="1" x="-2.88" y="-5" dx="0.9" dy="2.8" layer="1"/>
+<smd name="2" x="-1.44" y="-5" dx="0.9" dy="2.8" layer="1"/>
+<smd name="3" x="0" y="-5" dx="0.9" dy="2.8" layer="1"/>
+<smd name="4" x="1.44" y="-5" dx="0.9" dy="2.8" layer="1"/>
+<smd name="5" x="2.88" y="-5" dx="0.9" dy="2.8" layer="1"/>
+<smd name="6" x="2.88" y="5" dx="0.9" dy="2.8" layer="1"/>
+<smd name="7" x="1.44" y="5" dx="0.9" dy="2.8" layer="1"/>
+<smd name="8" x="0" y="5" dx="0.9" dy="2.8" layer="1"/>
+<smd name="9" x="-1.44" y="5" dx="0.9" dy="2.8" layer="1"/>
+<smd name="10" x="-2.88" y="5" dx="0.9" dy="2.8" layer="1"/>
+<wire x1="-3.45" y1="5" x2="-3.3" y2="5" width="0.1" layer="51"/>
+<wire x1="-0.45" y1="5" x2="-0.3" y2="5" width="0.1" layer="51"/>
+<wire x1="0.3" y1="5" x2="0.45" y2="5" width="0.1" layer="51"/>
+<wire x1="3.3" y1="5" x2="3.45" y2="5" width="0.1" layer="51"/>
+<wire x1="3.45" y1="5" x2="3.45" y2="4" width="0.1" layer="51"/>
+<wire x1="3.45" y1="4" x2="3.45" y2="-5" width="0.1" layer="51"/>
+<wire x1="3.33" y1="-5" x2="3.3" y2="-5" width="0.1" layer="51"/>
+<wire x1="0.45" y1="-5" x2="0.3" y2="-5" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-5" x2="-0.45" y2="-5" width="0.1" layer="51"/>
+<wire x1="-3.45" y1="-5" x2="-3.45" y2="4" width="0.1" layer="51"/>
+<wire x1="-3.45" y1="4" x2="-3.45" y2="5" width="0.1" layer="51"/>
+<wire x1="-0.45" y1="4" x2="0.45" y2="4" width="0.1" layer="51"/>
+<wire x1="0.45" y1="4" x2="3.45" y2="4" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-4" x2="-0.45" y2="-4" width="0.1" layer="51"/>
+<wire x1="-0.45" y1="-4" x2="0.45" y2="-4" width="0.1" layer="51"/>
+<wire x1="0.45" y1="-4" x2="3.3" y2="-4" width="0.1" layer="51"/>
+<wire x1="-0.45" y1="-5" x2="-0.45" y2="-4" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-5" x2="0.3" y2="-5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.45" y1="4" x2="-0.45" y2="5" width="0.1" layer="51"/>
+<wire x1="0.45" y1="-4" x2="0.45" y2="-5" width="0.1" layer="51"/>
+<wire x1="0.45" y1="5" x2="0.45" y2="4" width="0.1" layer="51"/>
+<wire x1="0.3" y1="5" x2="-0.3" y2="5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-3.55" y1="3.3" x2="-3.55" y2="-3.3" width="0.2" layer="21"/>
+<wire x1="3.55" y1="3.3" x2="3.55" y2="-3.3" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="4" x2="-3.45" y2="4" width="0.1" layer="51"/>
+<wire x1="0.45" y1="5" x2="0.99" y2="5" width="0.1" layer="51"/>
+<wire x1="0.99" y1="5" x2="1.14" y2="5" width="0.1" layer="51"/>
+<wire x1="1.74" y1="5" x2="1.89" y2="5" width="0.1" layer="51"/>
+<wire x1="0.99" y1="4" x2="0.99" y2="5" width="0.1" layer="51"/>
+<wire x1="1.89" y1="5" x2="1.89" y2="4" width="0.1" layer="51"/>
+<wire x1="1.74" y1="5" x2="1.14" y2="5" width="0.1" layer="51" curve="-180"/>
+<wire x1="1.89" y1="5" x2="2.43" y2="5" width="0.1" layer="51"/>
+<wire x1="2.43" y1="5" x2="2.58" y2="5" width="0.1" layer="51"/>
+<wire x1="3.18" y1="5" x2="3.33" y2="5" width="0.1" layer="51"/>
+<wire x1="2.43" y1="4" x2="2.43" y2="5" width="0.1" layer="51"/>
+<wire x1="3.33" y1="5" x2="3.33" y2="4" width="0.1" layer="51"/>
+<wire x1="3.18" y1="5" x2="2.58" y2="5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-1.89" y1="5" x2="-1.74" y2="5" width="0.1" layer="51"/>
+<wire x1="-1.14" y1="5" x2="-0.99" y2="5" width="0.1" layer="51"/>
+<wire x1="-0.99" y1="5" x2="-0.45" y2="5" width="0.1" layer="51"/>
+<wire x1="-1.89" y1="4" x2="-1.89" y2="5" width="0.1" layer="51"/>
+<wire x1="-0.99" y1="5" x2="-0.99" y2="4" width="0.1" layer="51"/>
+<wire x1="-1.14" y1="5" x2="-1.74" y2="5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-3.33" y1="5" x2="-3.18" y2="5" width="0.1" layer="51"/>
+<wire x1="-2.58" y1="5" x2="-2.43" y2="5" width="0.1" layer="51"/>
+<wire x1="-2.43" y1="5" x2="-1.89" y2="5" width="0.1" layer="51"/>
+<wire x1="-3.33" y1="4" x2="-3.33" y2="5" width="0.1" layer="51"/>
+<wire x1="-2.43" y1="5" x2="-2.43" y2="4" width="0.1" layer="51"/>
+<wire x1="-2.58" y1="5" x2="-3.18" y2="5" width="0.1" layer="51" curve="-180"/>
+<wire x1="1.89" y1="-5" x2="1.74" y2="-5" width="0.1" layer="51"/>
+<wire x1="1.14" y1="-5" x2="0.99" y2="-5" width="0.1" layer="51"/>
+<wire x1="0.99" y1="-5" x2="0.45" y2="-5" width="0.1" layer="51"/>
+<wire x1="0.99" y1="-5" x2="0.99" y2="-4" width="0.1" layer="51"/>
+<wire x1="1.14" y1="-5" x2="1.74" y2="-5" width="0.1" layer="51" curve="-180"/>
+<wire x1="1.89" y1="-4" x2="1.89" y2="-5" width="0.1" layer="51"/>
+<wire x1="3.45" y1="-5" x2="3.33" y2="-5" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-5" x2="3.18" y2="-5" width="0.1" layer="51"/>
+<wire x1="2.58" y1="-5" x2="2.43" y2="-5" width="0.1" layer="51"/>
+<wire x1="2.43" y1="-5" x2="1.89" y2="-5" width="0.1" layer="51"/>
+<wire x1="2.43" y1="-5" x2="2.43" y2="-4" width="0.1" layer="51"/>
+<wire x1="2.58" y1="-5" x2="3.18" y2="-5" width="0.1" layer="51" curve="-180"/>
+<wire x1="3.33" y1="-4" x2="3.33" y2="-5" width="0.1" layer="51"/>
+<wire x1="-0.45" y1="-5" x2="-0.99" y2="-5" width="0.1" layer="51"/>
+<wire x1="-0.99" y1="-5" x2="-1.14" y2="-5" width="0.1" layer="51"/>
+<wire x1="-1.74" y1="-5" x2="-1.89" y2="-5" width="0.1" layer="51"/>
+<wire x1="-1.89" y1="-5" x2="-1.89" y2="-4" width="0.1" layer="51"/>
+<wire x1="-1.74" y1="-5" x2="-1.14" y2="-5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.99" y1="-4" x2="-0.99" y2="-5" width="0.1" layer="51"/>
+<wire x1="-1.89" y1="-5" x2="-2.43" y2="-5" width="0.1" layer="51"/>
+<wire x1="-2.43" y1="-5" x2="-2.58" y2="-5" width="0.1" layer="51"/>
+<wire x1="-3.18" y1="-5" x2="-3.33" y2="-5" width="0.1" layer="51"/>
+<wire x1="-3.33" y1="-5" x2="-3.45" y2="-5" width="0.1" layer="51"/>
+<wire x1="-3.33" y1="-5" x2="-3.33" y2="-4" width="0.1" layer="51"/>
+<wire x1="-3.18" y1="-5" x2="-2.58" y2="-5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-2.43" y1="-4" x2="-2.43" y2="-5" width="0.1" layer="51"/>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-4.4" y="-6.3" radius="0.2" width="0.4" layer="21"/>
+<circle x="2.8" y="-2.5" radius="0.45" width="0.1" layer="21"/>
+<circle x="2.8" y="-2.5" radius="0.45" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="3.75" y="-6.6"/>
+<vertex x="-3.75" y="-6.6"/>
+<vertex x="-3.75" y="6.6"/>
+<vertex x="3.75" y="6.6"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WL-S7DS_0.2INCH" urn="urn:adsk.eagle:package:34292857/2" type="model">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+Size: 0.2inch, SMT, 10pins
+&lt;br&gt;L X W X H=10mm X 6.9mm X 3mm</description>
+<packageinstances>
+<packageinstance name="WL-S7DS_0.2INCH"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-S7DS_0.3INCH" urn="urn:adsk.eagle:package:29099860/4" type="model">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+Size: 0.3inch, SMT, 10pins
+&lt;br&gt;L X W X H=12mm X 7.3mm X 3.75mm</description>
+<packageinstances>
+<packageinstance name="WL-S7DS_0.3INCH"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-S7DS_0.39INCH" urn="urn:adsk.eagle:package:29099861/4" type="model">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+Size: 0.39inch, SMT, 10pins
+&lt;br&gt;L X W X H=15mm X 9.8mm X 3.75mm</description>
+<packageinstances>
+<packageinstance name="WL-S7DS_0.39INCH"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-S7DS_0.56INCH" urn="urn:adsk.eagle:package:29099858/4" type="model">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+Size: 0.56inch, SMT, 10pins
+&lt;br&gt;L X W X H=19mm X 12.4mm X 3.75mm</description>
+<packageinstances>
+<packageinstance name="WL-S7DS_0.56INCH"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="COMMON_CATHODE">
+<text x="3.092" y="3.972" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.452" y="-11.548" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-19.6" y="1" size="1.27" layer="94">A</text>
+<text x="-14.5" y="1" size="1.27" layer="94">B</text>
+<text x="-9.2" y="1" size="1.27" layer="94">C</text>
+<text x="-4.3" y="1" size="1.27" layer="94">D</text>
+<text x="0.8" y="1" size="1.27" layer="94">E</text>
+<text x="5.9" y="1" size="1.27" layer="94">F</text>
+<text x="11" y="1" size="1.27" layer="94">G</text>
+<text x="18.6" y="1" size="1.27" layer="94">DP</text>
+<pin name="7" x="-17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="-" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="10" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="2.54" x2="17.78" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-19.05" y1="-2.54" x2="-17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0" x2="-16.51" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-19.05" y1="0" x2="-17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0" x2="-16.51" y2="0" width="0.254" layer="94"/>
+<wire x1="-19.05" y1="-2.54" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-2.54" x2="-16.51" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-2.54" x2="-17.78" y2="0" width="0.1524" layer="94"/>
+<wire x1="-16.568" y1="-1.318" x2="-15.171" y2="0.079" width="0.1524" layer="94"/>
+<wire x1="-16.168" y1="-2.318" x2="-14.771" y2="-0.921" width="0.1524" layer="94"/>
+<wire x1="-13.97" y1="-2.54" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-11.43" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="0" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-11.43" y2="0" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-11.43" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="0" width="0.1524" layer="94"/>
+<wire x1="-11.488" y1="-1.318" x2="-10.091" y2="0.079" width="0.1524" layer="94"/>
+<wire x1="-11.088" y1="-2.318" x2="-9.691" y2="-0.921" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="-6.408" y1="-1.318" x2="-5.011" y2="0.079" width="0.1524" layer="94"/>
+<wire x1="-6.008" y1="-2.318" x2="-4.611" y2="-0.921" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.328" y1="-1.318" x2="0.069" y2="0.079" width="0.1524" layer="94"/>
+<wire x1="-0.928" y1="-2.318" x2="0.469" y2="-0.921" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.752" y1="-1.318" x2="5.149" y2="0.079" width="0.1524" layer="94"/>
+<wire x1="4.152" y1="-2.318" x2="5.549" y2="-0.921" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="8.832" y1="-1.318" x2="10.229" y2="0.079" width="0.1524" layer="94"/>
+<wire x1="9.232" y1="-2.318" x2="10.629" y2="-0.921" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-2.54" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="13.97" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="11.43" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="13.97" y2="0" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="13.97" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="0" width="0.1524" layer="94"/>
+<wire x1="13.912" y1="-1.318" x2="15.309" y2="0.079" width="0.1524" layer="94"/>
+<wire x1="14.312" y1="-2.318" x2="15.709" y2="-0.921" width="0.1524" layer="94"/>
+<wire x1="16.51" y1="-2.54" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="19.05" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="16.51" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="19.05" y2="0" width="0.254" layer="94"/>
+<wire x1="16.51" y1="-2.54" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="19.05" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="17.78" y2="0" width="0.1524" layer="94"/>
+<wire x1="18.992" y1="-1.318" x2="20.389" y2="0.079" width="0.1524" layer="94"/>
+<wire x1="19.392" y1="-2.318" x2="20.789" y2="-0.921" width="0.1524" layer="94"/>
+<circle x="-12.71" y="2.52" radius="0.1" width="0.1524" layer="94"/>
+<circle x="-7.62" y="2.51" radius="0.1" width="0.1524" layer="94"/>
+<circle x="-2.54" y="2.51" radius="0.1" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.52" radius="0.1" width="0.1524" layer="94"/>
+<circle x="7.61" y="2.51" radius="0.1" width="0.1524" layer="94"/>
+<circle x="12.7" y="2.52" radius="0.1" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-15.171" y="0.079"/>
+<vertex x="-15.552" y="-0.81"/>
+<vertex x="-16.06" y="-0.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-14.771" y="-0.921"/>
+<vertex x="-15.152" y="-1.81"/>
+<vertex x="-15.66" y="-1.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-10.091" y="0.079"/>
+<vertex x="-10.472" y="-0.81"/>
+<vertex x="-10.98" y="-0.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-9.691" y="-0.921"/>
+<vertex x="-10.072" y="-1.81"/>
+<vertex x="-10.58" y="-1.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-5.011" y="0.079"/>
+<vertex x="-5.392" y="-0.81"/>
+<vertex x="-5.9" y="-0.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-4.611" y="-0.921"/>
+<vertex x="-4.992" y="-1.81"/>
+<vertex x="-5.5" y="-1.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.069" y="0.079"/>
+<vertex x="-0.312" y="-0.81"/>
+<vertex x="-0.82" y="-0.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.469" y="-0.921"/>
+<vertex x="0.088" y="-1.81"/>
+<vertex x="-0.42" y="-1.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="5.149" y="0.079"/>
+<vertex x="4.768" y="-0.81"/>
+<vertex x="4.26" y="-0.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="5.549" y="-0.921"/>
+<vertex x="5.168" y="-1.81"/>
+<vertex x="4.66" y="-1.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="10.229" y="0.079"/>
+<vertex x="9.848" y="-0.81"/>
+<vertex x="9.34" y="-0.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="10.629" y="-0.921"/>
+<vertex x="10.248" y="-1.81"/>
+<vertex x="9.74" y="-1.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="15.309" y="0.079"/>
+<vertex x="14.928" y="-0.81"/>
+<vertex x="14.42" y="-0.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="15.709" y="-0.921"/>
+<vertex x="15.328" y="-1.81"/>
+<vertex x="14.82" y="-1.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="20.389" y="0.079"/>
+<vertex x="20.008" y="-0.81"/>
+<vertex x="19.5" y="-0.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="20.789" y="-0.921"/>
+<vertex x="20.408" y="-1.81"/>
+<vertex x="19.9" y="-1.302"/>
+</polygon>
+</symbol>
+<symbol name="COMMON_ANODE">
+<text x="21.59" y="1.27" size="1.27" layer="95">&gt;NAME</text>
+<text x="21.59" y="-1.27" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-19.6" y="1" size="1.27" layer="94">A</text>
+<text x="-14.5" y="1" size="1.27" layer="94">B</text>
+<text x="-9.2" y="1" size="1.27" layer="94">C</text>
+<text x="-4.3" y="1" size="1.27" layer="94">D</text>
+<text x="0.8" y="1" size="1.27" layer="94">E</text>
+<text x="5.9" y="1" size="1.27" layer="94">F</text>
+<text x="11" y="1" size="1.27" layer="94">G</text>
+<text x="14.986" y="1" size="1.27" layer="94">DP</text>
+<pin name="7" x="-17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="10" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-16.51" y1="0" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-2.54" x2="-19.05" y2="0" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-2.54" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-2.54" x2="-19.05" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="0" x2="-17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0" x2="-19.05" y2="0" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-16.298" y1="-1.212" x2="-14.901" y2="-2.609" width="0.1524" layer="94"/>
+<wire x1="-15.898" y1="-0.212" x2="-14.501" y2="-1.609" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="0" x2="-17.78" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-11.43" y1="0" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-13.97" y2="0" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-13.97" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="0" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-13.97" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-11.218" y1="-1.212" x2="-9.821" y2="-2.609" width="0.1524" layer="94"/>
+<wire x1="-10.818" y1="-0.212" x2="-9.421" y2="-1.609" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-6.138" y1="-1.212" x2="-4.741" y2="-2.609" width="0.1524" layer="94"/>
+<wire x1="-5.738" y1="-0.212" x2="-4.341" y2="-1.609" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.058" y1="-1.212" x2="0.339" y2="-2.609" width="0.1524" layer="94"/>
+<wire x1="-0.658" y1="-0.212" x2="0.739" y2="-1.609" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="4.022" y1="-1.212" x2="5.419" y2="-2.609" width="0.1524" layer="94"/>
+<wire x1="4.422" y1="-0.212" x2="5.819" y2="-1.609" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="0" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="8.89" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="9.102" y1="-1.212" x2="10.499" y2="-2.609" width="0.1524" layer="94"/>
+<wire x1="9.502" y1="-0.212" x2="10.899" y2="-1.609" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="13.97" y1="0" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="11.43" y2="0" width="0.254" layer="94"/>
+<wire x1="13.97" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="11.43" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="13.97" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="11.43" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="14.182" y1="-1.212" x2="15.579" y2="-2.609" width="0.1524" layer="94"/>
+<wire x1="14.582" y1="-0.212" x2="15.979" y2="-1.609" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="19.05" y1="0" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="16.51" y2="0" width="0.254" layer="94"/>
+<wire x1="19.05" y1="-2.54" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="16.51" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="19.05" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="16.51" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="19.262" y1="-1.212" x2="20.659" y2="-2.609" width="0.1524" layer="94"/>
+<wire x1="19.662" y1="-0.212" x2="21.059" y2="-1.609" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="2.54" x2="17.78" y2="2.54" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-14.901" y="-2.609"/>
+<vertex x="-15.79" y="-2.228"/>
+<vertex x="-15.282" y="-1.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-14.501" y="-1.609"/>
+<vertex x="-15.39" y="-1.228"/>
+<vertex x="-14.882" y="-0.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-9.821" y="-2.609"/>
+<vertex x="-10.71" y="-2.228"/>
+<vertex x="-10.202" y="-1.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-9.421" y="-1.609"/>
+<vertex x="-10.31" y="-1.228"/>
+<vertex x="-9.802" y="-0.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-4.741" y="-2.609"/>
+<vertex x="-5.63" y="-2.228"/>
+<vertex x="-5.122" y="-1.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-4.341" y="-1.609"/>
+<vertex x="-5.23" y="-1.228"/>
+<vertex x="-4.722" y="-0.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.339" y="-2.609"/>
+<vertex x="-0.55" y="-2.228"/>
+<vertex x="-0.042" y="-1.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.739" y="-1.609"/>
+<vertex x="-0.15" y="-1.228"/>
+<vertex x="0.358" y="-0.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="5.419" y="-2.609"/>
+<vertex x="4.53" y="-2.228"/>
+<vertex x="5.038" y="-1.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="5.819" y="-1.609"/>
+<vertex x="4.93" y="-1.228"/>
+<vertex x="5.438" y="-0.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="10.499" y="-2.609"/>
+<vertex x="9.61" y="-2.228"/>
+<vertex x="10.118" y="-1.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="10.899" y="-1.609"/>
+<vertex x="10.01" y="-1.228"/>
+<vertex x="10.518" y="-0.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="15.579" y="-2.609"/>
+<vertex x="14.69" y="-2.228"/>
+<vertex x="15.198" y="-1.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="15.979" y="-1.609"/>
+<vertex x="15.09" y="-1.228"/>
+<vertex x="15.598" y="-0.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="20.659" y="-2.609"/>
+<vertex x="19.77" y="-2.228"/>
+<vertex x="20.278" y="-1.72"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="21.059" y="-1.609"/>
+<vertex x="20.17" y="-1.228"/>
+<vertex x="20.678" y="-0.72"/>
+</polygon>
+<circle x="-12.71" y="2.52" radius="0.1" width="0.1524" layer="94"/>
+<circle x="-7.62" y="2.51" radius="0.1" width="0.1524" layer="94"/>
+<circle x="-2.54" y="2.51" radius="0.1" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.52" radius="0.1" width="0.1524" layer="94"/>
+<circle x="7.61" y="2.51" radius="0.1" width="0.1524" layer="94"/>
+<circle x="12.7" y="2.52" radius="0.1" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WL-S7DS_0.3INCH_COMMON-ANODE" prefix="D">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial standard size and schematic
+&lt;br&gt; Low power consumption
+&lt;br&gt; Grey surface
+&lt;br&gt; Milky / Diffuesed segments
+&lt;br&gt; Driving with DC current in forward direction only
+&lt;br&gt; Suitable for high peak current upto 100 mA
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Audio / measure equipment
+&lt;br&gt; Instrument panels
+ &lt;br&gt;Digital read out display
+&lt;br&gt; Control units
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL_S7DS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL_S7DS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2022-09-14&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="COMMON_ANODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-S7DS_0.3INCH">
+<connects>
+<connect gate="G$1" pin="+" pad="3 8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29099860/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_157112B12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157112B12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="3V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="12mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="32mcd"/>
+<attribute name="PART-NUMBER" value="157112B12800"/>
+<attribute name="VALUE" value="157112B12800"/>
+<attribute name="WIDTH" value="7.3mm"/>
+</technology>
+<technology name="_157112S12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157112S12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="12mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="28mcd"/>
+<attribute name="PART-NUMBER" value="157112S12800"/>
+<attribute name="VALUE" value="157112S12800"/>
+<attribute name="WIDTH" value="7.3mm"/>
+</technology>
+<technology name="_157112V12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157112V12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="12mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="21mcd"/>
+<attribute name="PART-NUMBER" value="157112V12800"/>
+<attribute name="VALUE" value="157112V12800"/>
+<attribute name="WIDTH" value="7.3mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-S7DS_0.39INCH_COMMON-ANODE" prefix="D">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial standard size and schematic
+&lt;br&gt; Low power consumption
+&lt;br&gt; Grey surface
+&lt;br&gt; Milky / Diffuesed segments
+&lt;br&gt; Driving with DC current in forward direction only
+&lt;br&gt; Suitable for high peak current upto 100 mA
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Audio / measure equipment
+&lt;br&gt; Instrument panels
+ &lt;br&gt;Digital read out display
+&lt;br&gt; Control units
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL_S7DS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL_S7DS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2022-05-12&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="COMMON_ANODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-S7DS_0.39INCH">
+<connects>
+<connect gate="G$1" pin="+" pad="3 8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29099861/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CIRCUITRY" value=""/>
+<attribute name="DATASHEET-URL" value=""/>
+<attribute name="EMITTING-COLOR" value=""/>
+<attribute name="FORWARD-VOLTAGE-TYP" value=""/>
+<attribute name="HEIGHT" value=""/>
+<attribute name="LENGTH" value=""/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value=""/>
+<attribute name="PART-NUMBER" value=""/>
+<attribute name="VALUE" value=""/>
+<attribute name="WIDTH" value=""/>
+</technology>
+<technology name="_157121S12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157121S12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="15mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="38mcd"/>
+<attribute name="PART-NUMBER" value="157121S12800"/>
+<attribute name="VALUE" value="157121S12800"/>
+<attribute name="WIDTH" value="9.8mm"/>
+</technology>
+<technology name="_157121V12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157121V12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="15mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="35mcd"/>
+<attribute name="PART-NUMBER" value="157121V12800"/>
+<attribute name="VALUE" value="157121V12800"/>
+<attribute name="WIDTH" value="9.8mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-S7DS_0.3INCH_COMMON-CATHODE" prefix="D">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial standard size and schematic
+&lt;br&gt; Low power consumption
+&lt;br&gt; Grey surface
+&lt;br&gt; Milky / Diffuesed segments
+&lt;br&gt; Driving with DC current in forward direction only
+&lt;br&gt; Suitable for high peak current upto 100 mA
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Audio / measure equipment
+&lt;br&gt; Instrument panels
+ &lt;br&gt;Digital read out display
+&lt;br&gt; Control units
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL_S7DS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL_S7DS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2022-05-12&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="COMMON_CATHODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-S7DS_0.3INCH">
+<connects>
+<connect gate="G$1" pin="-" pad="3 8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29099860/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_157112B12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157112B12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="3V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="12mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="32mcd"/>
+<attribute name="PART-NUMBER" value="157112B12700"/>
+<attribute name="VALUE" value="157112B12700"/>
+<attribute name="WIDTH" value="7.3mm"/>
+</technology>
+<technology name="_157112S12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157112S12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="12mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="28mcd"/>
+<attribute name="PART-NUMBER" value="157112S12700"/>
+<attribute name="VALUE" value="157112S12700"/>
+<attribute name="WIDTH" value="7.3mm"/>
+</technology>
+<technology name="_157112V12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157112V12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="12mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="21mcd"/>
+<attribute name="PART-NUMBER" value="157112V12700"/>
+<attribute name="VALUE" value="157112V12700"/>
+<attribute name="WIDTH" value="7.3mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-S7DS_0.56INCH_COMMON-ANODE" prefix="D">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial standard size and schematic
+&lt;br&gt; Low power consumption
+&lt;br&gt; Grey surface
+&lt;br&gt; Milky / Diffuesed segments
+&lt;br&gt; Driving with DC current in forward direction only
+&lt;br&gt; Suitable for high peak current upto 100 mA
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Audio / measure equipment
+&lt;br&gt; Instrument panels
+ &lt;br&gt;Digital read out display
+&lt;br&gt; Control units
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL_S7DS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL_S7DS&lt;/a&gt;&lt;p&gt;
+
+
+Updated by Ella Wu, 2022-05-12&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="COMMON_ANODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-S7DS_0.56INCH">
+<connects>
+<connect gate="G$1" pin="+" pad="3 8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29099858/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_157143B12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157143B12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="3V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="19mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="32mcd"/>
+<attribute name="PART-NUMBER" value="157143B12800"/>
+<attribute name="VALUE" value="157143B12800"/>
+<attribute name="WIDTH" value="12.4mm"/>
+</technology>
+<technology name="_157143S12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157143S12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="19mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="28mcd"/>
+<attribute name="PART-NUMBER" value="157143S12800"/>
+<attribute name="VALUE" value="157143S12800"/>
+<attribute name="WIDTH" value="12.4mm"/>
+</technology>
+<technology name="_157143V12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157143V12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="19mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="35mcd"/>
+<attribute name="PART-NUMBER" value="157143V12800"/>
+<attribute name="VALUE" value="157143V12800"/>
+<attribute name="WIDTH" value="12.4mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-S7DS_0.56INCH_COMMON-CATHODE" prefix="D">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial standard size and schematic
+&lt;br&gt; Low power consumption
+&lt;br&gt; Grey surface
+&lt;br&gt; Milky / Diffuesed segments
+&lt;br&gt; Driving with DC current in forward direction only
+&lt;br&gt; Suitable for high peak current upto 100 mA
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Audio / measure equipment
+&lt;br&gt; Instrument panels
+ &lt;br&gt;Digital read out display
+&lt;br&gt; Control units
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL_S7DS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL_S7DS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2022-05-12&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="COMMON_CATHODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-S7DS_0.56INCH">
+<connects>
+<connect gate="G$1" pin="-" pad="3 8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29099858/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_157143S12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157143S12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="19mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="28mcd"/>
+<attribute name="PART-NUMBER" value="157143S12700"/>
+<attribute name="VALUE" value="157143S12700"/>
+<attribute name="WIDTH" value="12.4mm"/>
+</technology>
+<technology name="_157143V12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157143V12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="19mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="35mcd"/>
+<attribute name="PART-NUMBER" value="157143V12700"/>
+<attribute name="VALUE" value="157143V12700"/>
+<attribute name="WIDTH" value="12.4mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-S7DS_0.2INCH_COMMON-ANODE" prefix="D">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial standard size and schematic
+&lt;br&gt; Low power consumption
+&lt;br&gt; Grey surface
+&lt;br&gt; Milky / Diffuesed segments
+&lt;br&gt; Driving with DC current in forward direction only
+&lt;br&gt; Suitable for high peak current upto 100 mA
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Audio / measure equipment
+&lt;br&gt; Instrument panels
+ &lt;br&gt;Digital read out display
+&lt;br&gt; Control units
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL_S7DS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL_S7DS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2023-01-17&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="COMMON_ANODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-S7DS_0.2INCH">
+<connects>
+<connect gate="G$1" pin="+" pad="3 8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34292857/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_157102B12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157102B12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="3V"/>
+<attribute name="HEIGHT" value="3mm"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="24mcd"/>
+<attribute name="PART-NUMBER" value="157102B12800"/>
+<attribute name="VALUE" value="157102B12800"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_157102S12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157102S12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3mm"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="16mcd"/>
+<attribute name="PART-NUMBER" value="157102S12800"/>
+<attribute name="VALUE" value="157102S12800"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_157102V12800">
+<attribute name="CIRCUITRY" value="Common Anode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157102V12800?ae"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3mm"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="17mcd"/>
+<attribute name="PART-NUMBER" value="157102V12800"/>
+<attribute name="VALUE" value="157102V12800"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-S7DS_0.2INCH_COMMON-CATHODE" prefix="D">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial standard size and schematic
+&lt;br&gt; Low power consumption
+&lt;br&gt; Grey surface
+&lt;br&gt; Milky / Diffuesed segments
+&lt;br&gt; Driving with DC current in forward direction only
+&lt;br&gt; Suitable for high peak current upto 100 mA
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Audio / measure equipment
+&lt;br&gt; Instrument panels
+ &lt;br&gt;Digital read out display
+&lt;br&gt; Control units
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL_S7DS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL_S7DS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2023-01-17&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="COMMON_CATHODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-S7DS_0.2INCH">
+<connects>
+<connect gate="G$1" pin="-" pad="3 8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34292857/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_157102B12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157102B12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="3V"/>
+<attribute name="HEIGHT" value="3mm"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="24mcd"/>
+<attribute name="PART-NUMBER" value="157102B12700"/>
+<attribute name="VALUE" value="157102B12700"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_157102S12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157102S12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3mm"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="15mcd"/>
+<attribute name="PART-NUMBER" value="157102S12700"/>
+<attribute name="VALUE" value="157102S12700"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_157102V12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157102V12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3mm"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="17mcd"/>
+<attribute name="PART-NUMBER" value="157102V12700"/>
+<attribute name="VALUE" value="157102V12700"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-S7DS_0.39INCH_COMMON-CATHODE" prefix="D">
+<description>&lt;b&gt;WL-S7DS 7 Segments Display SMT Single Digit 
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial standard size and schematic
+&lt;br&gt; Low power consumption
+&lt;br&gt; Grey surface
+&lt;br&gt; Milky / Diffuesed segments
+&lt;br&gt; Driving with DC current in forward direction only
+&lt;br&gt; Suitable for high peak current upto 100 mA
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Audio / measure equipment
+&lt;br&gt; Instrument panels
+ &lt;br&gt;Digital read out display
+&lt;br&gt; Control units
+
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o335301v209%20WL-S7DS_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL_S7DS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL_S7DS&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2022-05-12&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="COMMON_CATHODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-S7DS_0.39INCH">
+<connects>
+<connect gate="G$1" pin="-" pad="3 8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29099861/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_157121B12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157121B12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="3V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="15mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="32mcd"/>
+<attribute name="PART-NUMBER" value="157121B12700"/>
+<attribute name="VALUE" value="157121B12700"/>
+<attribute name="WIDTH" value="9.8mm"/>
+</technology>
+<technology name="_157121S12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157121S12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="15mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="38mcd"/>
+<attribute name="PART-NUMBER" value="157121S12700"/>
+<attribute name="VALUE" value="157121S12700"/>
+<attribute name="WIDTH" value="9.8mm"/>
+</technology>
+<technology name="_157121V12700">
+<attribute name="CIRCUITRY" value="Common Cathode"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/157121V12700?ae"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE-TYP" value="2V"/>
+<attribute name="HEIGHT" value="3.75mm"/>
+<attribute name="LENGTH" value="15mm"/>
+<attribute name="LUMINOUS-INTENSITY-TYP" value="35mcd"/>
+<attribute name="PART-NUMBER" value="157121V12700"/>
+<attribute name="VALUE" value="157121V12700"/>
+<attribute name="WIDTH" value="9.8mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

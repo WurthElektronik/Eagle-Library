@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Signal &amp; Communications - Filtered Connectors - WE-RJ45 10G&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-10-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="7499611424" urn="urn:adsk.eagle:footprint:24363508/1">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.3mm</description>
+<pad name="S1" x="8.79" y="0" drill="1.4"/>
+<pad name="S2" x="-8.79" y="4.42" drill="1.4"/>
+<pad name="1" x="6.5975" y="11.13" drill="0.91"/>
+<pad name="2" x="5.5825" y="12.4" drill="0.91"/>
+<pad name="3" x="4.5675" y="11.13" drill="0.91"/>
+<pad name="4" x="3.5525" y="12.4" drill="0.91"/>
+<pad name="5" x="2.5375" y="11.13" drill="0.91"/>
+<pad name="6" x="1.5225" y="12.4" drill="0.91"/>
+<pad name="7" x="0.5075" y="11.13" drill="0.91"/>
+<pad name="8" x="-0.5075" y="12.4" drill="0.91"/>
+<pad name="9" x="-1.5225" y="11.13" drill="0.91"/>
+<pad name="10" x="-2.5375" y="12.4" drill="0.91"/>
+<pad name="11" x="-3.5525" y="11.13" drill="0.91"/>
+<pad name="12" x="-4.5675" y="12.4" drill="0.91"/>
+<pad name="13" x="-5.5825" y="11.13" drill="0.91"/>
+<pad name="14" x="-6.5975" y="12.4" drill="0.91"/>
+<pad name="15" x="7.52" y="-7.11" drill="1.02"/>
+<pad name="16" x="7.52" y="-4.57" drill="1.02"/>
+<pad name="17" x="-7.52" y="-7.11" drill="1.02"/>
+<pad name="18" x="-7.52" y="-4.57" drill="1.02"/>
+<hole x="-8.79" y="-2.08" drill="2.03"/>
+<hole x="8.79" y="6.76" drill="2.03"/>
+<wire x1="-8.79" y1="-12.25" x2="-8.79" y2="-9.76" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-8.79" y1="-9.76" x2="-8.79" y2="13.81" width="0.1" layer="51"/>
+<wire x1="-8.79" y1="13.81" x2="8.79" y2="13.81" width="0.1" layer="51"/>
+<wire x1="8.79" y1="13.81" x2="8.79" y2="-9.76" width="0.1" layer="51"/>
+<wire x1="8.79" y1="-9.76" x2="8.79" y2="-12.25" width="0.1" layer="51" style="shortdash"/>
+<wire x1="8.79" y1="-12.25" x2="-8.79" y2="-12.25" width="0.1" layer="51" style="shortdash"/>
+<wire x1="6.5" y1="-9.76" x2="6.5" y2="7.45" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-9.76" x2="-6.5" y2="7.45" width="0.1" layer="51"/>
+<wire x1="-5" y1="8.95" x2="5" y2="8.95" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="7.45" x2="-5" y2="8.95" width="0.1" layer="51" curve="-90"/>
+<wire x1="5" y1="8.95" x2="6.5" y2="7.45" width="0.1" layer="51" curve="-90"/>
+<wire x1="-6.5" y1="-9.76" x2="6.5" y2="-9.76" width="0.1" layer="51"/>
+<wire x1="8.89" y1="-9.86" x2="8.89" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="8.89" y1="1.4" x2="8.89" y2="5.4" width="0.2" layer="21"/>
+<wire x1="8.89" y1="8.1" x2="8.89" y2="13.91" width="0.2" layer="21"/>
+<wire x1="8.89" y1="13.91" x2="-8.89" y2="13.91" width="0.2" layer="21"/>
+<wire x1="-8.89" y1="13.91" x2="-8.89" y2="5.8" width="0.2" layer="21"/>
+<wire x1="-8.89" y1="3" x2="-8.89" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-8.89" y1="-3.4" x2="-8.89" y2="-9.86" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-9.76" x2="6.5" y2="7.45" width="0.1" layer="46"/>
+<wire x1="-6.5" y1="-9.76" x2="-6.5" y2="7.45" width="0.1" layer="46"/>
+<wire x1="-5" y1="8.95" x2="5" y2="8.95" width="0.1" layer="46"/>
+<wire x1="-6.5" y1="7.45" x2="-5" y2="8.95" width="0.1" layer="46" curve="-90"/>
+<wire x1="5" y1="8.95" x2="6.5" y2="7.45" width="0.1" layer="46" curve="-90"/>
+<wire x1="-6.5" y1="-9.76" x2="6.5" y2="-9.76" width="0.1" layer="46"/>
+<wire x1="-6.5" y1="-9.76" x2="-8.79" y2="-9.76" width="0.1" layer="51"/>
+<wire x1="-8.89" y1="-9.86" x2="-6.5" y2="-9.86" width="0.2" layer="21"/>
+<wire x1="8.79" y1="-9.76" x2="6.5" y2="-9.76" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-9.86" x2="8.89" y2="-9.86" width="0.2" layer="21"/>
+<wire x1="-9.8" y1="-10.5" x2="-9.6" y2="-10.5" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-9.6" y1="-10.5" x2="-9" y2="-9.9" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-9" y1="-9.9" x2="-9.4" y2="-9.9" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-9" y1="-9.9" x2="-9" y2="-10.3" width="0.1" layer="21" style="shortdash"/>
+<polygon width="0.1" layer="39">
+<vertex x="-10.09" y="-12.55"/>
+<vertex x="10.09" y="-12.55"/>
+<vertex x="10.09" y="14.11"/>
+<vertex x="-10.09" y="14.11"/>
+</polygon>
+<text x="0.1" y="14.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-14.7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="-0.2" size="1.016" layer="48" align="bottom-center">PCB Cutout Area</text>
+<text x="0" y="-0.2" size="1.016" layer="46" align="bottom-center">PCB Cutout Area</text>
+<text x="-13.6" y="-10.7" size="0.6096" layer="21">PCB END</text>
+<text x="-7.8" y="10.5" size="0.6096" layer="21">13</text>
+<text x="-8.6" y="12.1" size="0.6096" layer="21">14</text>
+<text x="6.9" y="12.3" size="0.6096" layer="21">2</text>
+<text x="6.9" y="-3.3" size="0.6096" layer="21">16</text>
+<text x="7.1" y="-9" size="0.6096" layer="21">15</text>
+<text x="-8" y="-8.8" size="0.6096" layer="21">17</text>
+<text x="-8" y="-3.5" size="0.6096" layer="21">18</text>
+<circle x="7.7" y="9.5" radius="0.5" width="0" layer="21"/>
+</package>
+<package name="7499811420" urn="urn:adsk.eagle:footprint:12863331/2">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=13.87mm</description>
+<pad name="S1" x="-8.065" y="3.18" drill="1.57"/>
+<pad name="S2" x="8.065" y="3.18" drill="1.57"/>
+<pad name="13" x="-5.59" y="-8.12" drill="0.89" diameter="1.335"/>
+<pad name="15" x="-5.59" y="-6.66" drill="0.89" diameter="1.335"/>
+<pad name="14" x="5.59" y="-8.12" drill="0.89" diameter="1.335"/>
+<pad name="16" x="5.59" y="-6.66" drill="0.89" diameter="1.335"/>
+<pad name="17" x="-6.09" y="-20.32" drill="1.02"/>
+<pad name="18" x="-3.555" y="-20.32" drill="1.02"/>
+<pad name="19" x="3.555" y="-20.32" drill="1.02"/>
+<pad name="20" x="6.09" y="-20.32" drill="1.02"/>
+<pad name="7" x="-6.09" y="-17.78" drill="0.89"/>
+<pad name="8" x="-4.06" y="-17.78" drill="0.89"/>
+<pad name="9" x="-2.03" y="-17.78" drill="0.89"/>
+<pad name="10" x="2.03" y="-17.78" drill="0.89"/>
+<pad name="11" x="4.06" y="-17.78" drill="0.89"/>
+<pad name="12" x="6.09" y="-17.78" drill="0.89"/>
+<pad name="3" x="-1.015" y="-15.24" drill="0.89"/>
+<pad name="4" x="1.015" y="-15.24" drill="0.89"/>
+<pad name="5" x="3.045" y="-15.24" drill="0.89"/>
+<pad name="6" x="5.075" y="-15.24" drill="0.89"/>
+<pad name="2" x="-3.045" y="-15.24" drill="0.89"/>
+<pad name="1" x="-5.075" y="-15.24" drill="0.89"/>
+<wire x1="-8.6" y1="11" x2="8.6" y2="11" width="0.2" layer="21"/>
+<wire x1="8.5" y1="10.9" x2="8.5" y2="-22.12" width="0.1" layer="51"/>
+<wire x1="8.6" y1="-22.22" x2="-8.6" y2="-22.22" width="0.2" layer="21"/>
+<wire x1="-8.5" y1="-22.12" x2="-8.5" y2="10.9" width="0.1" layer="51"/>
+<wire x1="-8.6" y1="4.8" x2="-8.6" y2="11" width="0.2" layer="21"/>
+<wire x1="8.6" y1="4.8" x2="8.6" y2="11" width="0.2" layer="21"/>
+<wire x1="-8.6" y1="1.7" x2="-8.6" y2="-22.22" width="0.2" layer="21"/>
+<wire x1="8.6" y1="1.7" x2="8.6" y2="-22.22" width="0.2" layer="21"/>
+<wire x1="-8.5" y1="10.9" x2="8.5" y2="10.9" width="0.1" layer="51"/>
+<wire x1="-8.5" y1="-22.12" x2="8.5" y2="-22.12" width="0.1" layer="51"/>
+<text x="0" y="12" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.6" y="-24.9" size="1.778" layer="27">&gt;VALUE</text>
+<text x="4.8" y="-13.7" size="0.8128" layer="21">6</text>
+<text x="-5.4" y="-13.7" size="0.8128" layer="21">1</text>
+<text x="-7.7" y="-18.2" size="0.6096" layer="21">7</text>
+<text x="-1" y="-18.3" size="0.6096" layer="21">9</text>
+<text x="-0.1" y="-18.3" size="0.6096" layer="21">10</text>
+<text x="7.1" y="-18.2" size="0.6096" layer="21">12</text>
+<text x="-4.1" y="-21.9" size="0.6096" layer="21">14</text>
+<text x="-6.6" y="-21.9" size="0.6096" layer="21">13</text>
+<text x="5.6" y="-21.9" size="0.6096" layer="21">16</text>
+<text x="3.1" y="-21.9" size="0.6096" layer="21">15</text>
+<text x="-4.1" y="-7" size="0.8128" layer="21">15</text>
+<text x="-4.2" y="-8.5" size="0.8128" layer="21">13</text>
+<text x="3.3" y="-7.1" size="0.8128" layer="21">16</text>
+<text x="3.3" y="-8.6" size="0.8128" layer="21">14</text>
+<polygon width="0.1" layer="39">
+<vertex x="-9.6" y="11.2"/>
+<vertex x="9.6" y="11.2"/>
+<vertex x="9.6" y="-22.42"/>
+<vertex x="-9.6" y="-22.42"/>
+</polygon>
+<circle x="-6.7" y="-14" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="7499611423" urn="urn:adsk.eagle:footprint:24363509/1">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.92mm</description>
+<pad name="1" x="5.1" y="6.6" drill="0.9"/>
+<pad name="2" x="3.06" y="6.6" drill="0.9"/>
+<pad name="3" x="1.02" y="6.6" drill="0.9"/>
+<pad name="4" x="-1.02" y="6.6" drill="0.9"/>
+<pad name="5" x="-3.06" y="6.6" drill="0.9"/>
+<pad name="6" x="-5.1" y="6.6" drill="0.9"/>
+<pad name="7" x="6.12" y="9.14" drill="0.9"/>
+<pad name="8" x="4.08" y="9.14" drill="0.9"/>
+<pad name="9" x="2.04" y="9.14" drill="0.9"/>
+<pad name="10" x="-2.04" y="9.14" drill="0.9"/>
+<pad name="11" x="-4.08" y="9.14" drill="0.9"/>
+<pad name="12" x="-6.12" y="9.14" drill="0.9"/>
+<pad name="13" x="5.1" y="11.68" drill="0.9"/>
+<pad name="14" x="-3.06" y="11.68" drill="0.9"/>
+<pad name="15" x="-5.1" y="11.68" drill="0.9"/>
+<pad name="S1" x="8.79" y="0" drill="1.57"/>
+<pad name="S2" x="-8.79" y="0" drill="1.57"/>
+<pad name="16" x="7.52" y="-3.81" drill="1.14"/>
+<pad name="17" x="7.52" y="-6.35" drill="1.14"/>
+<pad name="18" x="-7.52" y="-3.81" drill="1.14"/>
+<pad name="19" x="-7.52" y="-6.35" drill="1.14"/>
+<hole x="-4.825" y="0" drill="3.25"/>
+<hole x="4.825" y="0" drill="3.25"/>
+<wire x1="-8.79" y1="15.36" x2="-8.79" y2="-13.21" width="0.1" layer="51"/>
+<wire x1="-8.79" y1="-13.21" x2="8.79" y2="-13.21" width="0.1" layer="51"/>
+<wire x1="8.79" y1="-13.21" x2="8.79" y2="15.36" width="0.1" layer="51"/>
+<wire x1="8.79" y1="15.36" x2="-8.79" y2="15.36" width="0.1" layer="51"/>
+<wire x1="-8.89" y1="15.46" x2="8.89" y2="15.46" width="0.2" layer="21"/>
+<wire x1="8.89" y1="15.46" x2="8.89" y2="1.5" width="0.2" layer="21"/>
+<wire x1="8.89" y1="-1.5" x2="8.89" y2="-13.31" width="0.2" layer="21"/>
+<wire x1="8.89" y1="-13.31" x2="-8.89" y2="-13.31" width="0.2" layer="21"/>
+<wire x1="-8.89" y1="-13.31" x2="-8.89" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-8.89" y1="1.5" x2="-8.89" y2="15.46" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-10.2" y="15.66"/>
+<vertex x="10.2" y="15.66"/>
+<vertex x="10.2" y="-13.51"/>
+<vertex x="-10.2" y="-13.51"/>
+</polygon>
+<text x="0" y="16.4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4" y="-15.3" size="1.27" layer="25">&gt;VALUE</text>
+<text x="4.9" y="-4.2" size="0.8128" layer="21">16</text>
+<text x="5" y="-6.8" size="0.8128" layer="21">17</text>
+<text x="-6.2" y="-4.1" size="0.8128" layer="21">18</text>
+<text x="-6.2" y="-6.7" size="0.8128" layer="21">19</text>
+<text x="-6.9" y="6.1" size="0.8128" layer="21">6</text>
+<text x="-8.5" y="8.7" size="0.8128" layer="21">12</text>
+<text x="7.2" y="8.7" size="0.8128" layer="21">7</text>
+<text x="6.2" y="11.3" size="0.8128" layer="21">13</text>
+<text x="-7.4" y="11.2" size="0.8128" layer="21">15</text>
+<circle x="6.9" y="5.3" radius="0.5" width="0" layer="21"/>
+</package>
+<package name="7499611420" urn="urn:adsk.eagle:footprint:12863328/2">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.3mm</description>
+<hole x="-4.825" y="0" drill="3.3"/>
+<hole x="4.825" y="0" drill="3.3"/>
+<pad name="S1" x="-8.79" y="0" drill="1.57"/>
+<pad name="S2" x="8.79" y="0" drill="1.57"/>
+<pad name="12" x="6.09" y="-9.25" drill="0.89"/>
+<pad name="11" x="4.06" y="-9.25" drill="0.89"/>
+<pad name="10" x="2.03" y="-9.25" drill="0.89"/>
+<pad name="9" x="-2.03" y="-9.25" drill="0.89"/>
+<pad name="8" x="-4.06" y="-9.25" drill="0.89"/>
+<pad name="7" x="-6.09" y="-9.25" drill="0.89"/>
+<pad name="6" x="5.07" y="-6.71" drill="0.89"/>
+<pad name="5" x="3.04" y="-6.71" drill="0.89"/>
+<pad name="4" x="1.01" y="-6.71" drill="0.89"/>
+<pad name="3" x="-1.01" y="-6.71" drill="0.89"/>
+<pad name="2" x="-3.04" y="-6.71" drill="0.89"/>
+<pad name="1" x="-5.07" y="-6.71" drill="0.89"/>
+<pad name="17" x="7.52" y="8.89" drill="1.27"/>
+<pad name="16" x="7.52" y="6.35" drill="1.27"/>
+<pad name="15" x="7.52" y="3.81" drill="1.27"/>
+<pad name="14" x="-7.52" y="8.89" drill="1.27"/>
+<pad name="13" x="-7.52" y="6.35" drill="1.27"/>
+<text x="4.8" y="-5.4" size="0.8128" layer="21">6</text>
+<text x="-5.4" y="-5.4" size="0.8128" layer="21">1</text>
+<text x="-0.2" y="14.3" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.5" y="-13.9" size="1.778" layer="27">&gt;VALUE</text>
+<text x="-6.4" y="-11.2" size="0.8128" layer="21">7</text>
+<text x="-2.3" y="-11.2" size="0.8128" layer="21">9</text>
+<text x="1.4" y="-11.2" size="0.8128" layer="21">10</text>
+<text x="5.5" y="-11.2" size="0.8128" layer="21">12</text>
+<text x="-5.9" y="5.9" size="0.8128" layer="21">13</text>
+<text x="-5.9" y="8.4" size="0.8128" layer="21">14</text>
+<text x="4.8" y="8.5" size="0.8128" layer="21">17</text>
+<text x="4.7" y="6" size="0.8128" layer="21">16</text>
+<text x="4.7" y="3.5" size="0.8128" layer="21">15</text>
+<wire x1="-8.99" y1="13.31" x2="8.99" y2="13.31" width="0.2" layer="21"/>
+<wire x1="8.89" y1="13.21" x2="8.89" y2="-11.39" width="0.1" layer="51"/>
+<wire x1="-8.89" y1="-11.39" x2="-8.89" y2="13.21" width="0.1" layer="51"/>
+<wire x1="-8.99" y1="1.6" x2="-8.99" y2="13.31" width="0.2" layer="21"/>
+<wire x1="8.99" y1="1.6" x2="8.99" y2="13.31" width="0.2" layer="21"/>
+<wire x1="-8.99" y1="-1.6" x2="-8.99" y2="-11.49" width="0.2" layer="21"/>
+<wire x1="-8.99" y1="-11.49" x2="8.99" y2="-11.49" width="0.2" layer="21"/>
+<wire x1="8.99" y1="-11.49" x2="8.99" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="-8.89" y1="13.21" x2="8.89" y2="13.21" width="0.1" layer="51"/>
+<wire x1="-8.89" y1="-11.39" x2="8.89" y2="-11.39" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-10.3" y="13.49"/>
+<vertex x="10.3" y="13.49"/>
+<vertex x="10.3" y="-11.69"/>
+<vertex x="-10.3" y="-11.69"/>
+</polygon>
+<circle x="-6.7" y="-5.7" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="7499611421" urn="urn:adsk.eagle:footprint:12863329/1">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=13.87mm</description>
+<hole x="6.35" y="0" drill="3.15"/>
+<hole x="-6.35" y="0" drill="3.15"/>
+<pad name="S2" x="8.065" y="3.18" drill="1.6" rot="R180"/>
+<pad name="S1" x="-8.065" y="3.18" drill="1.6" rot="R180"/>
+<pad name="1" x="-5.075" y="-15.24" drill="0.9" rot="R180"/>
+<pad name="2" x="-3.045" y="-15.24" drill="0.9" rot="R180"/>
+<pad name="3" x="-1.015" y="-15.24" drill="0.9" rot="R180"/>
+<pad name="4" x="1.015" y="-15.24" drill="0.9" rot="R180"/>
+<pad name="5" x="3.045" y="-15.24" drill="0.9" rot="R180"/>
+<pad name="6" x="5.075" y="-15.24" drill="0.9" rot="R180"/>
+<pad name="7" x="-6.095" y="-17.78" drill="0.9" rot="R180"/>
+<pad name="8" x="-4.065" y="-17.78" drill="0.9" rot="R180"/>
+<pad name="9" x="-2.035" y="-17.78" drill="0.9" rot="R180"/>
+<pad name="10" x="2.035" y="-17.78" drill="0.9" rot="R180"/>
+<pad name="11" x="4.065" y="-17.78" drill="0.9" rot="R180"/>
+<pad name="12" x="6.095" y="-17.78" drill="0.9" rot="R180"/>
+<pad name="13" x="-6.09" y="-20.32" drill="1.02" rot="R180"/>
+<pad name="14" x="-3.55" y="-20.32" drill="1.02" rot="R180"/>
+<pad name="15" x="3.55" y="-20.32" drill="1.02" rot="R180"/>
+<pad name="16" x="6.09" y="-20.32" drill="1.02" rot="R180"/>
+<wire x1="8.435" y1="10.89" x2="-8.435" y2="10.89" width="0.1" layer="51"/>
+<wire x1="-8.435" y1="10.89" x2="-8.435" y2="-22.13" width="0.1" layer="51"/>
+<wire x1="-8.435" y1="-22.13" x2="8.435" y2="-22.13" width="0.1" layer="51"/>
+<wire x1="8.435" y1="-22.13" x2="8.435" y2="10.89" width="0.1" layer="51"/>
+<wire x1="8.535" y1="10.99" x2="-8.535" y2="10.99" width="0.2" layer="21"/>
+<wire x1="-8.535" y1="10.99" x2="-8.535" y2="4.7" width="0.2" layer="21"/>
+<wire x1="8.565" y1="10.99" x2="8.565" y2="4.7" width="0.2" layer="21"/>
+<wire x1="-8.535" y1="1.6" x2="-8.535" y2="-22.23" width="0.2" layer="21"/>
+<wire x1="-8.535" y1="-22.23" x2="8.535" y2="-22.23" width="0.2" layer="21"/>
+<wire x1="8.535" y1="-22.23" x2="8.535" y2="1.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="9.5" y="-22.43"/>
+<vertex x="-9.5" y="-22.43"/>
+<vertex x="-9.5" y="11.19"/>
+<vertex x="9.5" y="11.19"/>
+</polygon>
+<text x="0" y="12.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.3" y="-24.2" size="1.27" layer="25">&gt;VALUE</text>
+<text x="4.8" y="-13.7" size="0.8128" layer="21">6</text>
+<text x="-5.4" y="-13.7" size="0.8128" layer="21">1</text>
+<text x="-7.7" y="-18.2" size="0.6096" layer="21">7</text>
+<text x="-1" y="-18.3" size="0.6096" layer="21">9</text>
+<text x="-0.1" y="-18.3" size="0.6096" layer="21">10</text>
+<text x="7.1" y="-18.2" size="0.6096" layer="21">12</text>
+<text x="-4.1" y="-21.9" size="0.6096" layer="21">14</text>
+<text x="-6.6" y="-21.9" size="0.6096" layer="21">13</text>
+<text x="5.6" y="-21.9" size="0.6096" layer="21">16</text>
+<text x="3.1" y="-21.9" size="0.6096" layer="21">15</text>
+<circle x="-6.7" y="-14" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="7499811120" urn="urn:adsk.eagle:footprint:24363507/1">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.92mm</description>
+<hole x="-4.825" y="0" drill="3.25"/>
+<hole x="4.825" y="0" drill="3.25"/>
+<pad name="S1" x="-8.715" y="0" drill="1.57"/>
+<pad name="1" x="-5.86" y="12.37" drill="0.89"/>
+<pad name="2" x="-3.82" y="12.37" drill="0.89"/>
+<pad name="3" x="-1.78" y="12.37" drill="0.89"/>
+<pad name="4" x="1.78" y="12.37" drill="0.89"/>
+<pad name="5" x="3.82" y="12.37" drill="0.89"/>
+<pad name="6" x="5.86" y="12.37" drill="0.89"/>
+<pad name="7" x="-6.88" y="14.4" drill="0.89"/>
+<pad name="8" x="-4.84" y="14.4" drill="0.89"/>
+<pad name="9" x="-2.8" y="14.4" drill="0.89"/>
+<pad name="10" x="2.8" y="14.4" drill="0.89"/>
+<pad name="11" x="4.84" y="14.4" drill="0.89"/>
+<pad name="12" x="6.88" y="14.4" drill="0.89"/>
+<pad name="13" x="-3.065" y="2.6" drill="0.89"/>
+<pad name="14" x="-1.025" y="2.6" drill="0.89"/>
+<pad name="15" x="1.015" y="2.6" drill="0.89"/>
+<pad name="16" x="3.055" y="2.6" drill="0.89"/>
+<pad name="18" x="7.52" y="-6.35" drill="1.14"/>
+<pad name="19" x="7.52" y="-8.89" drill="1.14"/>
+<pad name="21" x="-7.52" y="-6.35" drill="1.14"/>
+<pad name="22" x="-7.52" y="-8.89" drill="1.14"/>
+<pad name="S2" x="8.715" y="0" drill="1.57"/>
+<wire x1="-8.765" y1="15.36" x2="-8.765" y2="-13.21" width="0.1" layer="51"/>
+<wire x1="-8.765" y1="-13.21" x2="8.765" y2="-13.21" width="0.1" layer="51"/>
+<wire x1="8.765" y1="-13.21" x2="8.765" y2="15.36" width="0.1" layer="51"/>
+<wire x1="8.765" y1="15.36" x2="-8.765" y2="15.36" width="0.1" layer="51"/>
+<wire x1="-8.865" y1="15.46" x2="8.865" y2="15.46" width="0.2" layer="21"/>
+<wire x1="8.865" y1="15.46" x2="8.865" y2="1.6" width="0.2" layer="21"/>
+<wire x1="8.865" y1="-1.6" x2="8.865" y2="-13.31" width="0.2" layer="21"/>
+<wire x1="8.865" y1="-13.31" x2="-8.865" y2="-13.31" width="0.2" layer="21"/>
+<wire x1="-8.865" y1="-13.31" x2="-8.865" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="-8.865" y1="15.46" x2="-8.865" y2="1.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="41">
+<vertex x="-1" y="-7.16"/>
+<vertex x="1" y="-7.16"/>
+<vertex x="1" y="-7.96"/>
+<vertex x="-1" y="-7.96"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-5.075" y="4.99"/>
+<vertex x="-5.075" y="1.625"/>
+<vertex x="-4.575" y="1.625"/>
+<vertex x="-4.575" y="4.99"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="4.575" y="4.99"/>
+<vertex x="4.575" y="1.625"/>
+<vertex x="5.075" y="1.625"/>
+<vertex x="5.075" y="4.99"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-8.3" y="12.96"/>
+<vertex x="-8.3" y="8.37"/>
+<vertex x="-7.25" y="8.37"/>
+<vertex x="-7.25" y="12.96"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="7.25" y="12.96"/>
+<vertex x="7.25" y="8.37"/>
+<vertex x="8.3" y="8.37"/>
+<vertex x="8.3" y="12.96"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-10.1" y="-13.51"/>
+<vertex x="10.1" y="-13.51"/>
+<vertex x="10.1" y="15.66"/>
+<vertex x="-10.1" y="15.66"/>
+</polygon>
+<text x="-7.6" y="9" size="0.3048" layer="48" rot="R90">NO TRACE ZONE</text>
+<text x="8" y="9" size="0.3048" layer="48" rot="R90">NO TRACE ZONE</text>
+<text x="-4.7" y="2" size="0.254" layer="48" rot="R90">NO TRACE ZONE</text>
+<text x="5" y="1.9" size="0.254" layer="48" rot="R90">NO TRACE ZONE</text>
+<text x="-1.4" y="-7.7" size="0.254" layer="48">NO TRACE ZONE</text>
+<text x="0" y="16.4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.7" y="-15.5" size="1.27" layer="27">&gt;VALUE</text>
+<text x="5.7" y="10.5" size="0.6096" layer="21">6</text>
+<text x="-8.5" y="14.1" size="0.6096" layer="21">7</text>
+<text x="7.7" y="14.1" size="0.6096" layer="21">12</text>
+<text x="-3.6" y="3.7" size="0.6096" layer="21">13</text>
+<text x="-1.6" y="3.7" size="0.6096" layer="21">14</text>
+<text x="0.4" y="3.7" size="0.6096" layer="21">15</text>
+<text x="2.5" y="3.7" size="0.6096" layer="21">16</text>
+<text x="-6.3" y="-6.5" size="0.6096" layer="21">21</text>
+<text x="-6.4" y="-9" size="0.6096" layer="21">22</text>
+<text x="5.4" y="-6.7" size="0.6096" layer="21">18</text>
+<text x="5.5" y="-9.2" size="0.6096" layer="21">19</text>
+<circle x="-6.8" y="11" radius="0.4" width="0" layer="21"/>
+</package>
+<package name="7499711421" urn="urn:adsk.eagle:footprint:12863330/2">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=13.87mm</description>
+<hole x="-6.35" y="0" drill="2.8"/>
+<hole x="6.35" y="0" drill="2.8"/>
+<pad name="S1" x="-8.065" y="3.18" drill="1.57"/>
+<pad name="S2" x="8.065" y="3.18" drill="1.57"/>
+<pad name="13" x="-5.59" y="-8.12" drill="0.89" diameter="1.335"/>
+<pad name="15" x="-5.59" y="-6.66" drill="0.89" diameter="1.335"/>
+<pad name="14" x="5.59" y="-8.12" drill="0.89" diameter="1.335"/>
+<pad name="16" x="5.59" y="-6.66" drill="0.89" diameter="1.335"/>
+<pad name="17" x="-6.09" y="-20.32" drill="1.02"/>
+<pad name="18" x="-3.555" y="-20.32" drill="1.02"/>
+<pad name="19" x="3.555" y="-20.32" drill="1.02"/>
+<pad name="20" x="6.09" y="-20.32" drill="1.02"/>
+<pad name="7" x="-6.09" y="-17.78" drill="0.89"/>
+<pad name="8" x="-4.06" y="-17.78" drill="0.89"/>
+<pad name="9" x="-2.03" y="-17.78" drill="0.89"/>
+<pad name="10" x="2.03" y="-17.78" drill="0.89"/>
+<pad name="11" x="4.06" y="-17.78" drill="0.89"/>
+<pad name="12" x="6.09" y="-17.78" drill="0.89"/>
+<pad name="3" x="-1.015" y="-15.24" drill="0.89"/>
+<pad name="4" x="1.015" y="-15.24" drill="0.89"/>
+<pad name="5" x="3.045" y="-15.24" drill="0.89"/>
+<pad name="6" x="5.075" y="-15.24" drill="0.89"/>
+<pad name="2" x="-3.045" y="-15.24" drill="0.89"/>
+<pad name="1" x="-5.075" y="-15.24" drill="0.89"/>
+<wire x1="-8.6" y1="11" x2="8.6" y2="11" width="0.2" layer="21"/>
+<wire x1="8.5" y1="10.9" x2="8.5" y2="-22.12" width="0.1" layer="51"/>
+<wire x1="8.6" y1="-22.22" x2="-8.6" y2="-22.22" width="0.2" layer="21"/>
+<wire x1="-8.5" y1="-22.12" x2="-8.5" y2="10.9" width="0.1" layer="51"/>
+<wire x1="-8.6" y1="4.8" x2="-8.6" y2="11" width="0.2" layer="21"/>
+<wire x1="8.6" y1="4.8" x2="8.6" y2="11" width="0.2" layer="21"/>
+<wire x1="-8.6" y1="1.7" x2="-8.6" y2="-22.22" width="0.2" layer="21"/>
+<wire x1="8.6" y1="1.7" x2="8.6" y2="-22.22" width="0.2" layer="21"/>
+<wire x1="-8.5" y1="10.9" x2="8.5" y2="10.9" width="0.1" layer="51"/>
+<wire x1="-8.5" y1="-22.12" x2="8.5" y2="-22.12" width="0.1" layer="51"/>
+<text x="0" y="12" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.6" y="-24.9" size="1.778" layer="27">&gt;VALUE</text>
+<text x="4.8" y="-13.7" size="0.8128" layer="21">6</text>
+<text x="-5.4" y="-13.7" size="0.8128" layer="21">1</text>
+<text x="-7.7" y="-18.2" size="0.6096" layer="21">7</text>
+<text x="-1" y="-18.3" size="0.6096" layer="21">9</text>
+<text x="-0.1" y="-18.3" size="0.6096" layer="21">10</text>
+<text x="7.1" y="-18.2" size="0.6096" layer="21">12</text>
+<text x="-4.1" y="-21.9" size="0.6096" layer="21">14</text>
+<text x="-6.6" y="-21.9" size="0.6096" layer="21">13</text>
+<text x="5.6" y="-21.9" size="0.6096" layer="21">16</text>
+<text x="3.1" y="-21.9" size="0.6096" layer="21">15</text>
+<text x="-4.1" y="-7" size="0.8128" layer="21">15</text>
+<text x="-4.2" y="-8.5" size="0.8128" layer="21">13</text>
+<text x="3.3" y="-7.1" size="0.8128" layer="21">16</text>
+<text x="3.3" y="-8.6" size="0.8128" layer="21">14</text>
+<polygon width="0.1" layer="39">
+<vertex x="-9.6" y="11.2"/>
+<vertex x="9.6" y="11.2"/>
+<vertex x="9.6" y="-22.42"/>
+<vertex x="-9.6" y="-22.42"/>
+</polygon>
+<circle x="-6.7" y="-14" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="7499611422" urn="urn:adsk.eagle:footprint:24363506/1">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.3mm</description>
+<hole x="4.825" y="0" drill="3.2"/>
+<hole x="-4.825" y="0" drill="3.2"/>
+<pad name="S1" x="8.765" y="0" drill="1.57" rot="R180"/>
+<pad name="S2" x="-8.765" y="0" drill="1.57" rot="R180"/>
+<pad name="12" x="-6.095" y="9.14" drill="0.89" rot="R180"/>
+<pad name="11" x="-4.065" y="9.14" drill="0.89" rot="R180"/>
+<pad name="10" x="-2.035" y="9.14" drill="0.89" rot="R180"/>
+<pad name="9" x="2.035" y="9.14" drill="0.89" rot="R180"/>
+<pad name="8" x="4.065" y="9.14" drill="0.89" rot="R180"/>
+<pad name="7" x="6.095" y="9.14" drill="0.89" rot="R180"/>
+<pad name="6" x="-5.075" y="6.6" drill="0.89" rot="R180"/>
+<pad name="5" x="-3.045" y="6.6" drill="0.89" rot="R180"/>
+<pad name="4" x="-1.015" y="6.6" drill="0.89" rot="R180"/>
+<pad name="3" x="1.015" y="6.6" drill="0.89" rot="R180"/>
+<pad name="2" x="3.045" y="6.6" drill="0.89" rot="R180"/>
+<pad name="1" x="5.075" y="6.6" drill="0.89" rot="R180"/>
+<pad name="17" x="-7.525" y="-8.89" drill="1.27" rot="R180"/>
+<pad name="16" x="-7.525" y="-6.35" drill="1.27" rot="R180"/>
+<pad name="15" x="-7.525" y="-3.81" drill="1.27" rot="R180"/>
+<pad name="14" x="7.525" y="-8.89" drill="1.27" rot="R180"/>
+<pad name="13" x="7.525" y="-6.35" drill="1.27" rot="R180"/>
+<text x="-4.8" y="5.4" size="0.8128" layer="21" rot="R180">6</text>
+<text x="5.4" y="5.4" size="0.8128" layer="21" rot="R180">1</text>
+<text x="0" y="11.5" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.4" y="-15.9" size="1.778" layer="27">&gt;VALUE</text>
+<text x="7.4" y="8.8" size="0.8128" layer="21">7</text>
+<text x="-8.5" y="8.9" size="0.8128" layer="21">12</text>
+<text x="5.9" y="-5.9" size="0.8128" layer="21" rot="R180">13</text>
+<text x="5.9" y="-8.4" size="0.8128" layer="21" rot="R180">14</text>
+<text x="-4.8" y="-8.5" size="0.8128" layer="21" rot="R180">17</text>
+<text x="-4.7" y="-6" size="0.8128" layer="21" rot="R180">16</text>
+<text x="-4.7" y="-3.5" size="0.8128" layer="21" rot="R180">15</text>
+<text x="-2.5" y="-9.5" size="0.5" layer="46">PCB Cutout Area</text>
+<text x="-2.5" y="-9.5" size="0.5" layer="48">PCB Cutout Area</text>
+<wire x1="8.865" y1="-13.31" x2="-8.865" y2="-13.31" width="0.2" layer="21"/>
+<wire x1="-8.765" y1="-13.21" x2="-8.765" y2="10.67" width="0.1" layer="51"/>
+<wire x1="8.765" y1="10.67" x2="8.765" y2="-13.21" width="0.1" layer="51"/>
+<wire x1="8.865" y1="-1.6" x2="8.865" y2="-13.31" width="0.2" layer="21"/>
+<wire x1="-8.865" y1="-1.6" x2="-8.865" y2="-13.31" width="0.2" layer="21"/>
+<wire x1="8.865" y1="1.6" x2="8.865" y2="10.77" width="0.2" layer="21"/>
+<wire x1="8.865" y1="10.77" x2="-8.865" y2="10.77" width="0.2" layer="21"/>
+<wire x1="-8.865" y1="10.77" x2="-8.865" y2="1.6" width="0.2" layer="21"/>
+<wire x1="8.765" y1="-13.21" x2="-8.765" y2="-13.21" width="0.1" layer="51"/>
+<wire x1="8.765" y1="10.67" x2="-8.765" y2="10.67" width="0.1" layer="51"/>
+<wire x1="-3.16" y1="-13.21" x2="-3.16" y2="-5.96" width="0.1" layer="46"/>
+<wire x1="-3.16" y1="-5.96" x2="3.16" y2="-5.96" width="0.1" layer="46"/>
+<wire x1="3.16" y1="-5.96" x2="3.16" y2="-13.21" width="0.1" layer="46"/>
+<wire x1="-3.16" y1="-13.21" x2="3.16" y2="-13.21" width="0.1" layer="46"/>
+<polygon width="0.1" layer="39">
+<vertex x="10.3" y="-13.49"/>
+<vertex x="-10.3" y="-13.49"/>
+<vertex x="-10.3" y="10.97"/>
+<vertex x="10.3" y="10.97"/>
+</polygon>
+<circle x="6.7" y="5.7" radius="0.2" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="7499811420" urn="urn:adsk.eagle:package:12863339/3" type="model">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=13.87mm</description>
+<packageinstances>
+<packageinstance name="7499811420"/>
+</packageinstances>
+</package3d>
+<package3d name="7499611424" urn="urn:adsk.eagle:package:24363519/2" type="model">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.3mm</description>
+<packageinstances>
+<packageinstance name="7499611424"/>
+</packageinstances>
+</package3d>
+<package3d name="7499611423" urn="urn:adsk.eagle:package:24363520/2" type="model">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.92mm</description>
+<packageinstances>
+<packageinstance name="7499611423"/>
+</packageinstances>
+</package3d>
+<package3d name="7499611420" urn="urn:adsk.eagle:package:12863336/3" type="model">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.3mm</description>
+<packageinstances>
+<packageinstance name="7499611420"/>
+</packageinstances>
+</package3d>
+<package3d name="7499611421" urn="urn:adsk.eagle:package:12863337/2" type="model">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=13.87mm</description>
+<packageinstances>
+<packageinstance name="7499611421"/>
+</packageinstances>
+</package3d>
+<package3d name="7499611422" urn="urn:adsk.eagle:package:24363517/2" type="model">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.3mm</description>
+<packageinstances>
+<packageinstance name="7499611422"/>
+</packageinstances>
+</package3d>
+<package3d name="7499711421" urn="urn:adsk.eagle:package:12863338/3" type="model">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=13.87mm</description>
+<packageinstances>
+<packageinstance name="7499711421"/>
+</packageinstances>
+</package3d>
+<package3d name="7499811120" urn="urn:adsk.eagle:package:24363518/2" type="model">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;/B&gt;&lt;BR&gt;10G Base-T
+&lt;br&gt;MAX HEIGHT=11.92mm</description>
+<packageinstances>
+<packageinstance name="7499811120"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="7499611424">
+<pin name="P1" x="-17.78" y="22.86" length="middle"/>
+<pin name="P2" x="-17.78" y="20.32" length="middle"/>
+<pin name="P3" x="-17.78" y="17.78" length="middle"/>
+<pin name="P4" x="-17.78" y="15.24" length="middle"/>
+<pin name="SHIELD1" x="-17.78" y="-33.02" length="middle" direction="pwr"/>
+<pin name="SHIELD2" x="-17.78" y="-35.56" length="middle" direction="pwr"/>
+<pin name="P5" x="-17.78" y="12.7" length="middle"/>
+<pin name="P6" x="-17.78" y="10.16" length="middle"/>
+<pin name="P7" x="-17.78" y="7.62" length="middle"/>
+<pin name="P8" x="-17.78" y="5.08" length="middle"/>
+<pin name="P9" x="-17.78" y="2.54" length="middle"/>
+<pin name="P10" x="-17.78" y="0" length="middle"/>
+<pin name="P11" x="-17.78" y="-2.54" length="middle"/>
+<pin name="P12" x="-17.78" y="-5.08" length="middle"/>
+<pin name="P13" x="-17.78" y="-7.62" length="middle"/>
+<pin name="P14" x="-17.78" y="-10.16" length="middle"/>
+<pin name="LED1_G+" x="-17.78" y="-20.32" length="middle"/>
+<pin name="LED1_G-" x="-17.78" y="-22.86" length="middle"/>
+<pin name="LED1_G+/Y-" x="-17.78" y="-15.24" length="middle"/>
+<pin name="LED1_G-/Y+" x="-17.78" y="-17.78" length="middle"/>
+<wire x1="-12.7" y1="25.4" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="25.4" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-27.94" x2="-12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-27.94" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="27.94" x2="12.7" y2="27.94" width="0.254" layer="94" style="shortdash"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="-30.48" width="0.254" layer="94" style="shortdash"/>
+<wire x1="12.7" y1="-30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-12.7" y1="-30.48" x2="-12.7" y2="-35.56" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.27" y1="22.86" x2="8.89" y2="22.86" width="0.254" layer="94"/>
+<wire x1="8.89" y1="22.86" x2="8.89" y2="20.32" width="0.254" layer="94"/>
+<wire x1="8.89" y1="20.32" x2="8.89" y2="17.78" width="0.254" layer="94"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-2.54" x2="8.89" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="22.86" width="0.254" layer="94"/>
+<wire x1="8.89" y1="20.32" x2="6.35" y2="20.32" width="0.254" layer="94"/>
+<wire x1="6.35" y1="20.32" x2="3.81" y2="20.32" width="0.254" layer="94"/>
+<wire x1="3.81" y1="20.32" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="20.32" x2="6.35" y2="17.78" width="0.254" layer="94"/>
+<wire x1="6.35" y1="17.78" x2="8.89" y2="17.78" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="8.89" y2="0" width="0.254" layer="94"/>
+<text x="1.28" y="23.6" size="1.27" layer="94">RJ45LAN</text>
+<text x="-2.54" y="30.48" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7.62" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="7499711421">
+<pin name="D1+" x="-12.7" y="20.32" length="middle"/>
+<pin name="CD1" x="-12.7" y="17.78" length="middle"/>
+<pin name="D1-" x="-12.7" y="15.24" length="middle"/>
+<pin name="D2+" x="-12.7" y="12.7" length="middle"/>
+<pin name="CD2" x="-12.7" y="10.16" length="middle"/>
+<pin name="D2-" x="-12.7" y="7.62" length="middle"/>
+<pin name="D3+" x="-12.7" y="5.08" length="middle"/>
+<pin name="CD3" x="-12.7" y="2.54" length="middle"/>
+<pin name="D3-" x="-12.7" y="0" length="middle"/>
+<pin name="D4+" x="-12.7" y="-2.54" length="middle"/>
+<pin name="CD4" x="-12.7" y="-5.08" length="middle"/>
+<pin name="D4-" x="-12.7" y="-7.62" length="middle"/>
+<pin name="LED1_G-" x="15.24" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="LED1_G+" x="15.24" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="LED2_Y+_G-" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="LED2_Y-_G+" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="SHIELD1" x="-12.7" y="-22.86" length="middle" direction="pwr"/>
+<pin name="SHIELD2" x="-12.7" y="-25.4" length="middle" direction="pwr"/>
+<pin name="V1" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
+<pin name="V2" x="-12.7" y="-12.7" length="middle" direction="pwr"/>
+<pin name="V3" x="-12.7" y="-15.24" length="middle" direction="pwr"/>
+<pin name="V4" x="-12.7" y="-17.78" length="middle" direction="pwr"/>
+<text x="0" y="25.4" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-2.54" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="0.8636" layer="94" align="center-left">LED1_G-</text>
+<text x="2.54" y="5.08" size="0.8636" layer="94" align="center-left">LED1_G+</text>
+<text x="2.54" y="0" size="0.8636" layer="94" align="center-left">LED2_Y+/G-</text>
+<text x="2.54" y="-2.54" size="0.8636" layer="94" align="center-left">LED2_Y-/G+</text>
+<wire x1="-7.62" y1="22.86" x2="6.35" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-20.32" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-20.32" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="24.13" x2="11.43" y2="24.13" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="24.13" x2="11.43" y2="-21.59" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="-21.59" x2="-7.62" y2="-21.59" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-21.59" x2="-7.62" y2="-25.4" width="0.254" layer="94" style="shortdash"/>
+<wire x1="6.35" y1="22.86" x2="6.35" y2="20.32" width="0.254" layer="94"/>
+<wire x1="6.35" y1="20.32" x2="8.89" y2="20.32" width="0.254" layer="94"/>
+<wire x1="8.89" y1="20.32" x2="8.89" y2="17.78" width="0.254" layer="94"/>
+<wire x1="8.89" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-20.32" x2="6.35" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-17.78" x2="8.89" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-17.78" x2="8.89" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+</symbol>
+<symbol name="7499811420">
+<pin name="D1+" x="-12.7" y="20.32" length="middle"/>
+<pin name="CD1" x="-12.7" y="17.78" length="middle"/>
+<pin name="D1-" x="-12.7" y="15.24" length="middle"/>
+<pin name="D2+" x="-12.7" y="12.7" length="middle"/>
+<pin name="CD2" x="-12.7" y="10.16" length="middle"/>
+<pin name="D2-" x="-12.7" y="7.62" length="middle"/>
+<pin name="D3+" x="-12.7" y="5.08" length="middle"/>
+<pin name="CD3" x="-12.7" y="2.54" length="middle"/>
+<pin name="D3-" x="-12.7" y="0" length="middle"/>
+<pin name="D4+" x="-12.7" y="-2.54" length="middle"/>
+<pin name="CD4" x="-12.7" y="-5.08" length="middle"/>
+<pin name="D4-" x="-12.7" y="-7.62" length="middle"/>
+<pin name="LED1_G-" x="15.24" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="LED1_G+" x="15.24" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="LED2_Y+_G-" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="LED2_Y-_G+" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="SHIELD1" x="-12.7" y="-22.86" length="middle" direction="pwr"/>
+<pin name="SHIELD2" x="-12.7" y="-25.4" length="middle" direction="pwr"/>
+<pin name="V1" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
+<pin name="V2" x="-12.7" y="-12.7" length="middle" direction="pwr"/>
+<pin name="V3" x="-12.7" y="-15.24" length="middle" direction="pwr"/>
+<pin name="V4" x="-12.7" y="-17.78" length="middle" direction="pwr"/>
+<text x="0" y="25.4" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-2.54" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="0.8636" layer="94" align="center-left">LED1_G-</text>
+<text x="2.54" y="5.08" size="0.8636" layer="94" align="center-left">LED1_G+</text>
+<text x="2.54" y="0" size="0.8636" layer="94" align="center-left">LED2_Y+/G-</text>
+<text x="2.54" y="-2.54" size="0.8636" layer="94" align="center-left">LED2_Y-/G+</text>
+<wire x1="-7.62" y1="22.86" x2="6.35" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-20.32" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-20.32" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="24.13" x2="11.43" y2="24.13" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="24.13" x2="11.43" y2="-21.59" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="-21.59" x2="-7.62" y2="-21.59" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-21.59" x2="-7.62" y2="-25.4" width="0.254" layer="94" style="shortdash"/>
+<wire x1="6.35" y1="22.86" x2="6.35" y2="20.32" width="0.254" layer="94"/>
+<wire x1="6.35" y1="20.32" x2="8.89" y2="20.32" width="0.254" layer="94"/>
+<wire x1="8.89" y1="20.32" x2="8.89" y2="17.78" width="0.254" layer="94"/>
+<wire x1="8.89" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-20.32" x2="6.35" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-17.78" x2="8.89" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-17.78" x2="8.89" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+</symbol>
+<symbol name="7499611423">
+<pin name="TRD1+" x="-17.78" y="25.4" length="middle"/>
+<pin name="TRCT1" x="-17.78" y="22.86" length="middle"/>
+<pin name="TRD1-" x="-17.78" y="20.32" length="middle"/>
+<pin name="TRD2+" x="-17.78" y="17.78" length="middle"/>
+<pin name="TRCT2" x="-17.78" y="15.24" length="middle"/>
+<pin name="TRD2-" x="-17.78" y="12.7" length="middle"/>
+<pin name="TRD3+" x="-17.78" y="10.16" length="middle"/>
+<pin name="TRCT3" x="-17.78" y="7.62" length="middle"/>
+<pin name="TRD3-" x="-17.78" y="5.08" length="middle"/>
+<pin name="TRD4+" x="-17.78" y="2.54" length="middle"/>
+<pin name="TRCT4" x="-17.78" y="0" length="middle"/>
+<pin name="TRD4-" x="-17.78" y="-2.54" length="middle"/>
+<pin name="LED1_G-/Y+" x="-17.78" y="-15.24" length="middle"/>
+<pin name="LED1_G+/Y-" x="-17.78" y="-17.78" length="middle"/>
+<pin name="LED2_G+" x="-17.78" y="-20.32" length="middle"/>
+<pin name="LED2_G-" x="-17.78" y="-22.86" length="middle"/>
+<pin name="SHIELD1" x="-17.78" y="-33.02" length="middle" direction="pwr"/>
+<pin name="SHIELD2" x="-17.78" y="-35.56" length="middle" direction="pwr"/>
+<pin name="CMS+" x="-17.78" y="-5.08" length="middle"/>
+<pin name="CMCT" x="-17.78" y="-7.62" length="middle"/>
+<pin name="CMS-" x="-17.78" y="-10.16" length="middle"/>
+<wire x1="-12.7" y1="27.94" x2="10.16" y2="27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-27.94" x2="-12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-27.94" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="30.48" x2="12.7" y2="30.48" width="0.254" layer="94" style="shortdash"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="-30.48" width="0.254" layer="94" style="shortdash"/>
+<wire x1="12.7" y1="-30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-12.7" y1="-30.48" x2="-12.7" y2="-35.56" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.27" y1="25.4" x2="8.89" y2="25.4" width="0.254" layer="94"/>
+<wire x1="8.89" y1="25.4" x2="8.89" y2="22.86" width="0.254" layer="94"/>
+<wire x1="8.89" y1="22.86" x2="8.89" y2="20.32" width="0.254" layer="94"/>
+<wire x1="8.89" y1="20.32" x2="8.89" y2="2.54" width="0.254" layer="94"/>
+<wire x1="8.89" y1="2.54" x2="8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="25.4" width="0.254" layer="94"/>
+<wire x1="8.89" y1="22.86" x2="6.35" y2="22.86" width="0.254" layer="94"/>
+<wire x1="6.35" y1="22.86" x2="3.81" y2="22.86" width="0.254" layer="94"/>
+<wire x1="3.81" y1="22.86" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="22.86" x2="6.35" y2="20.32" width="0.254" layer="94"/>
+<wire x1="6.35" y1="20.32" x2="8.89" y2="20.32" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="8.89" y2="2.54" width="0.254" layer="94"/>
+<text x="1.28" y="26.14" size="1.27" layer="94">RJ45LAN</text>
+<text x="-2.54" y="33.02" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7.62" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="7499611420">
+<pin name="D1+" x="-12.7" y="15.24" length="middle"/>
+<pin name="CD1" x="-12.7" y="12.7" length="middle"/>
+<pin name="D1-" x="-12.7" y="10.16" length="middle"/>
+<pin name="D2+" x="-12.7" y="7.62" length="middle"/>
+<pin name="CD2" x="-12.7" y="5.08" length="middle"/>
+<pin name="D2-" x="-12.7" y="2.54" length="middle"/>
+<pin name="D3+" x="-12.7" y="0" length="middle"/>
+<pin name="CD3" x="-12.7" y="-2.54" length="middle"/>
+<pin name="D3-" x="-12.7" y="-5.08" length="middle"/>
+<pin name="D4+" x="-12.7" y="-7.62" length="middle"/>
+<pin name="CD4" x="-12.7" y="-10.16" length="middle"/>
+<pin name="D4-" x="-12.7" y="-12.7" length="middle"/>
+<pin name="LED1_G-" x="15.24" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="LED1_G+" x="15.24" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="LED2_Y-" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="LED2_Y+_G+" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="LED2_G-" x="15.24" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="SHIELD1" x="-12.7" y="-17.78" length="middle" direction="pwr"/>
+<pin name="SHIELD2" x="-12.7" y="-20.32" length="middle" direction="pwr"/>
+<text x="0" y="20.32" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-2.54" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="0.8636" layer="94" align="center-left">LED1_G+</text>
+<text x="2.54" y="5.08" size="0.8636" layer="94" align="center-left">LED1_G-</text>
+<text x="2.54" y="0" size="0.8636" layer="94" align="center-left">LED2_Y-</text>
+<text x="2.54" y="-2.54" size="0.8636" layer="94" align="center-left">LED2_Y+/G+</text>
+<text x="2.54" y="-5.08" size="0.8636" layer="94" align="center-left">LED2_G-</text>
+<wire x1="-7.62" y1="17.78" x2="6.35" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="19.05" x2="11.43" y2="19.05" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="19.05" x2="11.43" y2="-16.51" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="-16.51" x2="-7.62" y2="-16.51" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-16.51" x2="-7.62" y2="-20.32" width="0.254" layer="94" style="shortdash"/>
+<wire x1="6.35" y1="17.78" x2="6.35" y2="15.24" width="0.254" layer="94"/>
+<wire x1="6.35" y1="15.24" x2="8.89" y2="15.24" width="0.254" layer="94"/>
+<wire x1="8.89" y1="15.24" x2="8.89" y2="12.7" width="0.254" layer="94"/>
+<wire x1="8.89" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-15.24" x2="6.35" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-12.7" x2="8.89" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-12.7" x2="8.89" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="7499811120">
+<pin name="TRD1+" x="-17.78" y="25.4" length="middle"/>
+<pin name="TRCT1" x="-17.78" y="22.86" length="middle"/>
+<pin name="TRD1-" x="-17.78" y="20.32" length="middle"/>
+<pin name="TRD2+" x="-17.78" y="17.78" length="middle"/>
+<pin name="TRCT2" x="-17.78" y="15.24" length="middle"/>
+<pin name="TRD2-" x="-17.78" y="12.7" length="middle"/>
+<pin name="TRD3+" x="-17.78" y="10.16" length="middle"/>
+<pin name="TRCT3" x="-17.78" y="7.62" length="middle"/>
+<pin name="TRD3-" x="-17.78" y="5.08" length="middle"/>
+<pin name="TRD4+" x="-17.78" y="2.54" length="middle"/>
+<pin name="TRCT4" x="-17.78" y="0" length="middle"/>
+<pin name="TRD4-" x="-17.78" y="-2.54" length="middle"/>
+<pin name="LED1_Y-" x="-17.78" y="-17.78" length="middle"/>
+<pin name="LED1_Y+" x="-17.78" y="-20.32" length="middle"/>
+<pin name="LED2_G-" x="-17.78" y="-22.86" length="middle"/>
+<pin name="LED2_G+" x="-17.78" y="-25.4" length="middle"/>
+<pin name="SHIELD1" x="-17.78" y="-35.56" length="middle" direction="pwr"/>
+<pin name="SHIELD2" x="-17.78" y="-38.1" length="middle" direction="pwr"/>
+<pin name="VC12" x="-17.78" y="-5.08" length="middle"/>
+<pin name="VC36" x="-17.78" y="-7.62" length="middle"/>
+<pin name="VC45" x="-17.78" y="-10.16" length="middle"/>
+<pin name="VC78" x="-17.78" y="-12.7" length="middle"/>
+<wire x1="-12.7" y1="27.94" x2="10.16" y2="27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-30.48" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="30.48" x2="12.7" y2="30.48" width="0.254" layer="94" style="shortdash"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="-33.02" width="0.254" layer="94" style="shortdash"/>
+<wire x1="12.7" y1="-33.02" x2="-12.7" y2="-33.02" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="-38.1" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.27" y1="25.4" x2="8.89" y2="25.4" width="0.254" layer="94"/>
+<wire x1="8.89" y1="25.4" x2="8.89" y2="22.86" width="0.254" layer="94"/>
+<wire x1="8.89" y1="22.86" x2="8.89" y2="20.32" width="0.254" layer="94"/>
+<wire x1="8.89" y1="20.32" x2="8.89" y2="2.54" width="0.254" layer="94"/>
+<wire x1="8.89" y1="2.54" x2="8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="25.4" width="0.254" layer="94"/>
+<wire x1="8.89" y1="22.86" x2="6.35" y2="22.86" width="0.254" layer="94"/>
+<wire x1="6.35" y1="22.86" x2="3.81" y2="22.86" width="0.254" layer="94"/>
+<wire x1="3.81" y1="22.86" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="22.86" x2="6.35" y2="20.32" width="0.254" layer="94"/>
+<wire x1="6.35" y1="20.32" x2="8.89" y2="20.32" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="8.89" y2="2.54" width="0.254" layer="94"/>
+<text x="1.28" y="26.14" size="1.27" layer="94">RJ45LAN</text>
+<text x="-2.54" y="33.02" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7.62" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="7499611421">
+<pin name="D1+" x="-12.7" y="15.24" length="middle"/>
+<pin name="CD1" x="-12.7" y="12.7" length="middle"/>
+<pin name="D1-" x="-12.7" y="10.16" length="middle"/>
+<pin name="D2+" x="-12.7" y="7.62" length="middle"/>
+<pin name="CD2" x="-12.7" y="5.08" length="middle"/>
+<pin name="D2-" x="-12.7" y="2.54" length="middle"/>
+<pin name="D3+" x="-12.7" y="0" length="middle"/>
+<pin name="CD3" x="-12.7" y="-2.54" length="middle"/>
+<pin name="D3-" x="-12.7" y="-5.08" length="middle"/>
+<pin name="D4+" x="-12.7" y="-7.62" length="middle"/>
+<pin name="CD4" x="-12.7" y="-10.16" length="middle"/>
+<pin name="D4-" x="-12.7" y="-12.7" length="middle"/>
+<pin name="LED1_G-" x="15.24" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="LED1_G+" x="15.24" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="LED2_Y+/G-" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="LED2_Y-/G+" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="SHIELD1" x="-12.7" y="-17.78" length="middle" direction="pwr"/>
+<pin name="SHIELD2" x="-12.7" y="-20.32" length="middle" direction="pwr"/>
+<text x="0" y="20.32" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-2.54" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="0.8636" layer="94" align="center-left">LED1_G+</text>
+<text x="2.54" y="5.08" size="0.8636" layer="94" align="center-left">LED1_G-</text>
+<text x="2.54" y="0" size="0.8636" layer="94" align="center-left">LED2_Y+/G-</text>
+<text x="2.54" y="-2.54" size="0.8636" layer="94" align="center-left">LED2_Y-/G+</text>
+<wire x1="-7.62" y1="17.78" x2="6.35" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="19.05" x2="11.43" y2="19.05" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="19.05" x2="11.43" y2="-16.51" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="-16.51" x2="-7.62" y2="-16.51" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-16.51" x2="-7.62" y2="-20.32" width="0.254" layer="94" style="shortdash"/>
+<wire x1="6.35" y1="17.78" x2="6.35" y2="15.24" width="0.254" layer="94"/>
+<wire x1="6.35" y1="15.24" x2="8.89" y2="15.24" width="0.254" layer="94"/>
+<wire x1="8.89" y1="15.24" x2="8.89" y2="12.7" width="0.254" layer="94"/>
+<wire x1="8.89" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-15.24" x2="6.35" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-12.7" x2="8.89" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-12.7" x2="8.89" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-RJ45_10G_7499611424" prefix="T">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
+&lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
+&lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
+&lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G"&gt;https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G&lt;/a&gt;&lt;p&gt;
+
+Create By Ella Wu  2020-10-26&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7499611424" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7499611424">
+<connects>
+<connect gate="G$1" pin="LED1_G+" pad="15"/>
+<connect gate="G$1" pin="LED1_G+/Y-" pad="17"/>
+<connect gate="G$1" pin="LED1_G-" pad="16"/>
+<connect gate="G$1" pin="LED1_G-/Y+" pad="18"/>
+<connect gate="G$1" pin="P1" pad="1"/>
+<connect gate="G$1" pin="P10" pad="10"/>
+<connect gate="G$1" pin="P11" pad="11"/>
+<connect gate="G$1" pin="P12" pad="12"/>
+<connect gate="G$1" pin="P13" pad="13"/>
+<connect gate="G$1" pin="P14" pad="14"/>
+<connect gate="G$1" pin="P2" pad="2"/>
+<connect gate="G$1" pin="P3" pad="3"/>
+<connect gate="G$1" pin="P4" pad="4"/>
+<connect gate="G$1" pin="P5" pad="5"/>
+<connect gate="G$1" pin="P6" pad="6"/>
+<connect gate="G$1" pin="P7" pad="7"/>
+<connect gate="G$1" pin="P8" pad="8"/>
+<connect gate="G$1" pin="P9" pad="9"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24363519/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATA-RATE" value="10G Base-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7499611424.pdf"/>
+<attribute name="L" value="160uH"/>
+<attribute name="LED" value="yellow-green"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7499611424 "/>
+<attribute name="POE" value="non-PoE"/>
+<attribute name="PORTS" value=" 1 "/>
+<attribute name="USB" value="No"/>
+<attribute name="VALUE" value=" 7499611424 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-RJ45_10G_7499811420" prefix="T">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
+&lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
+&lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
+&lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-LAN-RJ45-10G"&gt;https://katalog.we-online.com/en/pbs/WE-LAN-RJ45-10G&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-08-15&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7499811420" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7499811420">
+<connects>
+<connect gate="G$1" pin="CD1" pad="7"/>
+<connect gate="G$1" pin="CD2" pad="1"/>
+<connect gate="G$1" pin="CD3" pad="6"/>
+<connect gate="G$1" pin="CD4" pad="12"/>
+<connect gate="G$1" pin="D1+" pad="8"/>
+<connect gate="G$1" pin="D1-" pad="9"/>
+<connect gate="G$1" pin="D2+" pad="3"/>
+<connect gate="G$1" pin="D2-" pad="2"/>
+<connect gate="G$1" pin="D3+" pad="4"/>
+<connect gate="G$1" pin="D3-" pad="5"/>
+<connect gate="G$1" pin="D4+" pad="11"/>
+<connect gate="G$1" pin="D4-" pad="10"/>
+<connect gate="G$1" pin="LED1_G+" pad="17"/>
+<connect gate="G$1" pin="LED1_G-" pad="18"/>
+<connect gate="G$1" pin="LED2_Y+_G-" pad="19"/>
+<connect gate="G$1" pin="LED2_Y-_G+" pad="20"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+<connect gate="G$1" pin="V1" pad="13"/>
+<connect gate="G$1" pin="V2" pad="14"/>
+<connect gate="G$1" pin="V3" pad="15"/>
+<connect gate="G$1" pin="V4" pad="16"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12863339/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATA-RATE" value="10G Base-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7499811420.pdf"/>
+<attribute name="LED" value="yellow/green-green"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7499811420 "/>
+<attribute name="POE" value="PoE (up to 600 mA)"/>
+<attribute name="PORTS" value=" 1 "/>
+<attribute name="USB" value="No"/>
+<attribute name="VALUE" value=" 7499811420 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-RJ45_10G_7499611423" prefix="T">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
+&lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
+&lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
+&lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G"&gt;https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G&lt;/a&gt;&lt;p&gt;
+
+Create By Ella Wu  2020-10-26&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7499611423" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7499611423">
+<connects>
+<connect gate="G$1" pin="CMCT" pad="13"/>
+<connect gate="G$1" pin="CMS+" pad="14"/>
+<connect gate="G$1" pin="CMS-" pad="15"/>
+<connect gate="G$1" pin="LED1_G+/Y-" pad="18"/>
+<connect gate="G$1" pin="LED1_G-/Y+" pad="19"/>
+<connect gate="G$1" pin="LED2_G+" pad="17"/>
+<connect gate="G$1" pin="LED2_G-" pad="16"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+<connect gate="G$1" pin="TRCT1" pad="7"/>
+<connect gate="G$1" pin="TRCT2" pad="1"/>
+<connect gate="G$1" pin="TRCT3" pad="6"/>
+<connect gate="G$1" pin="TRCT4" pad="12"/>
+<connect gate="G$1" pin="TRD1+" pad="8"/>
+<connect gate="G$1" pin="TRD1-" pad="9"/>
+<connect gate="G$1" pin="TRD2+" pad="2"/>
+<connect gate="G$1" pin="TRD2-" pad="3"/>
+<connect gate="G$1" pin="TRD3+" pad="4"/>
+<connect gate="G$1" pin="TRD3-" pad="5"/>
+<connect gate="G$1" pin="TRD4+" pad="10"/>
+<connect gate="G$1" pin="TRD4-" pad="11"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24363520/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATA-RATE" value="10G Base-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7499611423.pdf"/>
+<attribute name="L" value="160uH"/>
+<attribute name="LED" value="yellow-green"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7499611423 "/>
+<attribute name="POE" value="non-PoE"/>
+<attribute name="PORTS" value=" 1 "/>
+<attribute name="USB" value="No"/>
+<attribute name="VALUE" value=" 7499611423 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-RJ45_10G_7499611420" prefix="T">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
+&lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
+&lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
+&lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G"&gt;https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G&lt;/a&gt;&lt;p&gt;
+
+Create By Ella Wu  2020-10-26&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7499611420" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7499611420">
+<connects>
+<connect gate="G$1" pin="CD1" pad="7"/>
+<connect gate="G$1" pin="CD2" pad="1"/>
+<connect gate="G$1" pin="CD3" pad="6"/>
+<connect gate="G$1" pin="CD4" pad="12"/>
+<connect gate="G$1" pin="D1+" pad="8"/>
+<connect gate="G$1" pin="D1-" pad="9"/>
+<connect gate="G$1" pin="D2+" pad="3"/>
+<connect gate="G$1" pin="D2-" pad="2"/>
+<connect gate="G$1" pin="D3+" pad="4"/>
+<connect gate="G$1" pin="D3-" pad="5"/>
+<connect gate="G$1" pin="D4+" pad="11"/>
+<connect gate="G$1" pin="D4-" pad="10"/>
+<connect gate="G$1" pin="LED1_G+" pad="14"/>
+<connect gate="G$1" pin="LED1_G-" pad="13"/>
+<connect gate="G$1" pin="LED2_G-" pad="17"/>
+<connect gate="G$1" pin="LED2_Y+_G+" pad="16"/>
+<connect gate="G$1" pin="LED2_Y-" pad="15"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12863336/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATA-RATE" value="10 Gbase-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7499611420.pdf"/>
+<attribute name="LED" value="yellow/green-green"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7499611420 "/>
+<attribute name="POE" value="non-PoE"/>
+<attribute name="PORTS" value=" 1 "/>
+<attribute name="USB" value="No"/>
+<attribute name="VALUE" value=" 7499611420 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-RJ45_10G_7499611421" prefix="T">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
+&lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
+&lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
+&lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-LAN-RJ45-10G"&gt;https://katalog.we-online.com/en/pbs/WE-LAN-RJ45-10G&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-08-15&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7499611421" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7499611421">
+<connects>
+<connect gate="G$1" pin="CD1" pad="7"/>
+<connect gate="G$1" pin="CD2" pad="1"/>
+<connect gate="G$1" pin="CD3" pad="6"/>
+<connect gate="G$1" pin="CD4" pad="12"/>
+<connect gate="G$1" pin="D1+" pad="8"/>
+<connect gate="G$1" pin="D1-" pad="9"/>
+<connect gate="G$1" pin="D2+" pad="3"/>
+<connect gate="G$1" pin="D2-" pad="2"/>
+<connect gate="G$1" pin="D3+" pad="4"/>
+<connect gate="G$1" pin="D3-" pad="5"/>
+<connect gate="G$1" pin="D4+" pad="11"/>
+<connect gate="G$1" pin="D4-" pad="10"/>
+<connect gate="G$1" pin="LED1_G+" pad="14"/>
+<connect gate="G$1" pin="LED1_G-" pad="13"/>
+<connect gate="G$1" pin="LED2_Y+/G-" pad="15"/>
+<connect gate="G$1" pin="LED2_Y-/G+" pad="16"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12863337/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATA-RATE" value="10G Base-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7499611421.pdf"/>
+<attribute name="LED" value="yellow/green-green"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7499611421 "/>
+<attribute name="POE" value="non-PoE"/>
+<attribute name="PORTS" value=" 1 "/>
+<attribute name="USB" value="No"/>
+<attribute name="VALUE" value=" 7499611421 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-RJ45_10G_7499711421" prefix="T">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
+&lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
+&lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
+&lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-LAN-RJ45-10G"&gt;https://katalog.we-online.com/en/pbs/WE-LAN-RJ45-10G&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-08-15&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7499711421" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7499711421">
+<connects>
+<connect gate="G$1" pin="CD1" pad="7"/>
+<connect gate="G$1" pin="CD2" pad="1"/>
+<connect gate="G$1" pin="CD3" pad="6"/>
+<connect gate="G$1" pin="CD4" pad="12"/>
+<connect gate="G$1" pin="D1+" pad="8"/>
+<connect gate="G$1" pin="D1-" pad="9"/>
+<connect gate="G$1" pin="D2+" pad="3"/>
+<connect gate="G$1" pin="D2-" pad="2"/>
+<connect gate="G$1" pin="D3+" pad="4"/>
+<connect gate="G$1" pin="D3-" pad="5"/>
+<connect gate="G$1" pin="D4+" pad="11"/>
+<connect gate="G$1" pin="D4-" pad="10"/>
+<connect gate="G$1" pin="LED1_G+" pad="17"/>
+<connect gate="G$1" pin="LED1_G-" pad="18"/>
+<connect gate="G$1" pin="LED2_Y+_G-" pad="19"/>
+<connect gate="G$1" pin="LED2_Y-_G+" pad="20"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+<connect gate="G$1" pin="V1" pad="13"/>
+<connect gate="G$1" pin="V2" pad="14"/>
+<connect gate="G$1" pin="V3" pad="15"/>
+<connect gate="G$1" pin="V4" pad="16"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12863338/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATA-RATE" value="10G Base-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7499711421.pdf"/>
+<attribute name="LED" value="yellow/green-green"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7499711421 "/>
+<attribute name="POE" value="PoE (up to 350 mA)"/>
+<attribute name="PORTS" value=" 1 "/>
+<attribute name="USB" value="No"/>
+<attribute name="VALUE" value=" 7499711421 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-RJ45_10G_7499611422" prefix="T">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
+&lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
+&lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
+&lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G"&gt;https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G&lt;/a&gt;&lt;p&gt;
+
+Create By Ella Wu  2020-10-26&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7499611420" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7499611422">
+<connects>
+<connect gate="G$1" pin="CD1" pad="7"/>
+<connect gate="G$1" pin="CD2" pad="1"/>
+<connect gate="G$1" pin="CD3" pad="6"/>
+<connect gate="G$1" pin="CD4" pad="12"/>
+<connect gate="G$1" pin="D1+" pad="8"/>
+<connect gate="G$1" pin="D1-" pad="9"/>
+<connect gate="G$1" pin="D2+" pad="3"/>
+<connect gate="G$1" pin="D2-" pad="2"/>
+<connect gate="G$1" pin="D3+" pad="4"/>
+<connect gate="G$1" pin="D3-" pad="5"/>
+<connect gate="G$1" pin="D4+" pad="11"/>
+<connect gate="G$1" pin="D4-" pad="10"/>
+<connect gate="G$1" pin="LED1_G+" pad="14"/>
+<connect gate="G$1" pin="LED1_G-" pad="13"/>
+<connect gate="G$1" pin="LED2_G-" pad="17"/>
+<connect gate="G$1" pin="LED2_Y+_G+" pad="16"/>
+<connect gate="G$1" pin="LED2_Y-" pad="15"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24363517/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATA-RATE" value="10G Base-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7499611422.pdf"/>
+<attribute name="L" value="120uH"/>
+<attribute name="LED" value="yellow-green"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7499611422 "/>
+<attribute name="POE" value="non-PoE"/>
+<attribute name="PORTS" value=" 1 "/>
+<attribute name="USB" value="No"/>
+<attribute name="VALUE" value=" 7499611422 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-RJ45_10G_7499811120" prefix="T">
+<description>&lt;b&gt;WE-RJ45 10G Transformer
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
+&lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
+&lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
+&lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o122818v209%20Family_WE-RJ45LAN_10G_7499611420_a.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G"&gt;https://www.we-online.com/catalog/en/WE-LAN-RJ45-10G&lt;/a&gt;&lt;p&gt;
+
+Create By Ella Wu  2020-10-26&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7499811120" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7499811120">
+<connects>
+<connect gate="G$1" pin="LED1_Y+" pad="22"/>
+<connect gate="G$1" pin="LED1_Y-" pad="21"/>
+<connect gate="G$1" pin="LED2_G+" pad="19"/>
+<connect gate="G$1" pin="LED2_G-" pad="18"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+<connect gate="G$1" pin="TRCT1" pad="1"/>
+<connect gate="G$1" pin="TRCT2" pad="9"/>
+<connect gate="G$1" pin="TRCT3" pad="10"/>
+<connect gate="G$1" pin="TRCT4" pad="6"/>
+<connect gate="G$1" pin="TRD1+" pad="7"/>
+<connect gate="G$1" pin="TRD1-" pad="8"/>
+<connect gate="G$1" pin="TRD2+" pad="2"/>
+<connect gate="G$1" pin="TRD2-" pad="3"/>
+<connect gate="G$1" pin="TRD3+" pad="4"/>
+<connect gate="G$1" pin="TRD3-" pad="5"/>
+<connect gate="G$1" pin="TRD4+" pad="11"/>
+<connect gate="G$1" pin="TRD4-" pad="12"/>
+<connect gate="G$1" pin="VC12" pad="13"/>
+<connect gate="G$1" pin="VC36" pad="14"/>
+<connect gate="G$1" pin="VC45" pad="15"/>
+<connect gate="G$1" pin="VC78" pad="16"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24363518/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATA-RATE" value="10G Base-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7499811120.pdf"/>
+<attribute name="L" value="160uH"/>
+<attribute name="LED" value="yellow-green"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7499811120 "/>
+<attribute name="POE" value="PoE (up to 1000 mA)"/>
+<attribute name="PORTS" value=" 1 "/>
+<attribute name="USB" value="No"/>
+<attribute name="VALUE" value=" 7499811120 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

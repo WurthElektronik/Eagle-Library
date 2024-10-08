@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Coaxial Connectors - N-Type Connectors - WR-NTYPE &lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2022a, 2022-11-23&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="60411052241502" urn="urn:adsk.eagle:footprint:35786725/2">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Right Angle Jack, THT, 5pins</description>
+<pad name="1" x="0" y="0" drill="1.7"/>
+<pad name="2" x="-5.1" y="5.1" drill="1.7"/>
+<pad name="3" x="5.1" y="5.1" drill="1.7"/>
+<pad name="4" x="5.1" y="-5.1" drill="1.7"/>
+<pad name="5" x="-5.1" y="-5.1" drill="1.7"/>
+<wire x1="7.15" y1="7.15" x2="7.15" y2="-7.15" width="0.1" layer="51"/>
+<wire x1="7.15" y1="-7.15" x2="-7.15" y2="-7.15" width="0.1" layer="51"/>
+<wire x1="-7.15" y1="-7.15" x2="-7.15" y2="7.15" width="0.1" layer="51"/>
+<wire x1="7.15" y1="8.65" x2="9.15" y2="8.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="8.65" x2="9.15" y2="6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="6.275" x2="9.15" y2="-6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="-6.275" x2="9.15" y2="-8.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="-8.65" x2="7.15" y2="-8.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.15" y1="-8.65" x2="7.15" y2="-7.15" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.15" y1="-7.15" x2="7.15" y2="7.15" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.15" y1="7.15" x2="7.15" y2="8.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="6.275" x2="31.15" y2="6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="31.15" y1="6.275" x2="31.15" y2="-6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="31.15" y1="-6.275" x2="9.15" y2="-6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.25" y1="7.25" x2="-7.25" y2="7.25" width="0.2" layer="21"/>
+<wire x1="-7.25" y1="7.25" x2="-7.25" y2="-7.25" width="0.2" layer="21"/>
+<wire x1="-7.25" y1="-7.25" x2="7.25" y2="-7.25" width="0.2" layer="21"/>
+<wire x1="7.25" y1="7.25" x2="7.25" y2="-7.25" width="0.2" layer="21"/>
+<wire x1="-7.15" y1="7.15" x2="7.15" y2="7.15" width="0.1" layer="51"/>
+<text x="0" y="8.15" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.45" size="1.27" layer="21" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.45" y="7.45"/>
+<vertex x="7.45" y="7.45"/>
+<vertex x="7.45" y="-7.45"/>
+<vertex x="-7.45" y="-7.45"/>
+</polygon>
+</package>
+<package name="60412042241503" urn="urn:adsk.eagle:footprint:35786724/2">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Straight Jack, THT, 5pins</description>
+<pad name="1" x="0" y="0" drill="1.3"/>
+<pad name="2" x="-4.25" y="4.25" drill="1.3"/>
+<pad name="3" x="4.25" y="4.25" drill="1.3"/>
+<pad name="4" x="4.25" y="-4.25" drill="1.3"/>
+<pad name="5" x="-4.25" y="-4.25" drill="1.3"/>
+<text x="0" y="12" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="21" align="bottom-center">&gt;VALUE</text>
+<circle x="0" y="0" radius="11" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="11.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="11.3" y="0" curve="180"/>
+<vertex x="-11.3" y="0" curve="180"/>
+</polygon>
+</package>
+<package name="60412052241504" urn="urn:adsk.eagle:footprint:35786723/2">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Straight Jack, THT, 5pins</description>
+<pad name="1" x="0" y="0" drill="1.3"/>
+<pad name="2" x="-4.25" y="4.25" drill="1.3"/>
+<pad name="3" x="4.25" y="4.25" drill="1.3"/>
+<pad name="4" x="4.25" y="-4.25" drill="1.3"/>
+<pad name="5" x="-4.25" y="-4.25" drill="1.3"/>
+<text x="0" y="12" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="21" align="bottom-center">&gt;VALUE</text>
+<circle x="0" y="0" radius="11" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="11.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="11.3" y="0" curve="180"/>
+<vertex x="-11.3" y="0" curve="180"/>
+</polygon>
+</package>
+<package name="60411042241501" urn="urn:adsk.eagle:footprint:35786726/2">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Right Angle Jack, THT, 5pins</description>
+<pad name="1" x="0" y="0" drill="1.7"/>
+<pad name="2" x="-5.1" y="5.1" drill="1.7"/>
+<pad name="3" x="5.1" y="5.1" drill="1.7"/>
+<pad name="4" x="5.1" y="-5.1" drill="1.7"/>
+<pad name="5" x="-5.1" y="-5.1" drill="1.7"/>
+<wire x1="7.15" y1="7.15" x2="7.15" y2="-7.15" width="0.1" layer="51"/>
+<wire x1="7.15" y1="-7.15" x2="-7.15" y2="-7.15" width="0.1" layer="51"/>
+<wire x1="-7.15" y1="-7.15" x2="-7.15" y2="7.15" width="0.1" layer="51"/>
+<wire x1="7.15" y1="8.65" x2="9.15" y2="8.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="8.65" x2="9.15" y2="6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="6.275" x2="9.15" y2="-6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="-6.275" x2="9.15" y2="-8.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="-8.65" x2="7.15" y2="-8.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.15" y1="-8.65" x2="7.15" y2="-7.15" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.15" y1="-7.15" x2="7.15" y2="7.15" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.15" y1="7.15" x2="7.15" y2="8.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="9.15" y1="6.275" x2="31.15" y2="6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="31.15" y1="6.275" x2="31.15" y2="-6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="31.15" y1="-6.275" x2="9.15" y2="-6.275" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.25" y1="7.25" x2="-7.25" y2="7.25" width="0.2" layer="21"/>
+<wire x1="-7.25" y1="7.25" x2="-7.25" y2="-7.25" width="0.2" layer="21"/>
+<wire x1="-7.25" y1="-7.25" x2="7.25" y2="-7.25" width="0.2" layer="21"/>
+<wire x1="7.25" y1="7.25" x2="7.25" y2="-7.25" width="0.2" layer="21"/>
+<wire x1="-7.15" y1="7.15" x2="7.15" y2="7.15" width="0.1" layer="51"/>
+<text x="0" y="8.15" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.45" size="1.27" layer="21" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.45" y="7.45"/>
+<vertex x="7.45" y="7.45"/>
+<vertex x="7.45" y="-7.45"/>
+<vertex x="-7.45" y="-7.45"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="60411052241502" urn="urn:adsk.eagle:package:35786732/3" type="model">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Right Angle Jack, THT, 5pins</description>
+<packageinstances>
+<packageinstance name="60411052241502"/>
+</packageinstances>
+</package3d>
+<package3d name="60412052241504" urn="urn:adsk.eagle:package:35786730/3" type="model">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Straight Jack, THT, 5pins</description>
+<packageinstances>
+<packageinstance name="60412052241504"/>
+</packageinstances>
+</package3d>
+<package3d name="60412042241503" urn="urn:adsk.eagle:package:35786731/3" type="model">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Straight Jack, THT, 5pins</description>
+<packageinstances>
+<packageinstance name="60412042241503"/>
+</packageinstances>
+</package3d>
+<package3d name="60411042241501" urn="urn:adsk.eagle:package:35786733/3" type="model">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Right Angle Jack, THT, 5pins</description>
+<packageinstances>
+<packageinstance name="60411042241501"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JACK">
+<circle x="0" y="0" radius="2.54" width="0.2" layer="94"/>
+<circle x="0" y="0" radius="0.5" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.556" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.128" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0.54" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="60411052241502" prefix="J">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+Characteristics 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface: MIL-STD-348
+&lt;br&gt;Mating Cycle: 500 Cycles
+&lt;br&gt;Impedance: 50 Ohm
+&lt;br&gt;Plating: Nickel and Gold
+&lt;br&gt;Mating: Screw (Recommended: Torque wrench tool)
+&lt;br&gt;Ingress Protection: IP67
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Applications 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Network and communications
+&lt;br&gt;RF Test and Measurement Equipment
+&lt;br&gt;Industrial application
+&lt;br&gt;High power machinery
+&lt;br&gt;Outdoor or humid environment
+&lt;br&gt;
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o698256v209%20family-wr-ntype-60411042241501.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o698256v209%20family-wr-ntype-60411042241501.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WR-NTYPE_PCB_CONNECTORS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle
+"&gt;www.we-online.com/catalog/WR-NTYPE_PCB_CONNECTORS&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2022-11-23&lt;br&gt;
+2022(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="60411052241502">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35786732/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CENTER-CONTACT" value="Ø1.6"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/60411052241502?ae"/>
+<attribute name="FREQUENCY-RANGE" value="DC~4 GHz"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-65 up to +165 °C"/>
+<attribute name="ORIENTATION-TYPE" value="Right Angle"/>
+<attribute name="PANEL-THICKNESS" value="6.5mm"/>
+<attribute name="PART-NUMBER" value="60411052241502"/>
+<attribute name="VALUE" value="60411052241502"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="60412042241503" prefix="J">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+Characteristics 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface: MIL-STD-348
+&lt;br&gt;Mating Cycle: 500 Cycles
+&lt;br&gt;Impedance: 50 Ohm
+&lt;br&gt;Plating: Nickel and Gold
+&lt;br&gt;Mating: Screw (Recommended: Torque wrench tool)
+&lt;br&gt;Ingress Protection: IP67
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Applications 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Network and communications
+&lt;br&gt;RF Test and Measurement Equipment
+&lt;br&gt;Industrial application
+&lt;br&gt;High power machinery
+&lt;br&gt;Outdoor or humid environment
+&lt;br&gt;
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o698256v209%20family-wr-ntype-60411042241501.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o698256v209%20family-wr-ntype-60411042241501.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WR-NTYPE_PCB_CONNECTORS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle
+"&gt;www.we-online.com/catalog/WR-NTYPE_PCB_CONNECTORS&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2022-11-23&lt;br&gt;
+2022(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="60412042241503">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35786731/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CENTER-CONTACT" value="Ø1.14"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/60412042241503?ae"/>
+<attribute name="FREQUENCY-RANGE" value="DC~6 GHz"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-65 up to +165 °C"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PANEL-THICKNESS" value="6.5mm"/>
+<attribute name="PART-NUMBER" value="60412042241503"/>
+<attribute name="VALUE" value="60412042241503"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="60412052241504" prefix="J">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+Characteristics 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface: MIL-STD-348
+&lt;br&gt;Mating Cycle: 500 Cycles
+&lt;br&gt;Impedance: 50 Ohm
+&lt;br&gt;Plating: Nickel and Gold
+&lt;br&gt;Mating: Screw (Recommended: Torque wrench tool)
+&lt;br&gt;Ingress Protection: IP67
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Applications 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Network and communications
+&lt;br&gt;RF Test and Measurement Equipment
+&lt;br&gt;Industrial application
+&lt;br&gt;High power machinery
+&lt;br&gt;Outdoor or humid environment
+&lt;br&gt;
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o698256v209%20family-wr-ntype-60411042241501.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o698256v209%20family-wr-ntype-60411042241501.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WR-NTYPE_PCB_CONNECTORS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle
+"&gt;www.we-online.com/catalog/WR-NTYPE_PCB_CONNECTORS&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2022-11-23&lt;br&gt;
+2022(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="60412052241504">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35786730/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CENTER-CONTACT" value="Ø1.14"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/60412052241504?ae"/>
+<attribute name="FREQUENCY-RANGE" value="DC~6 GHz"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-65 up to +165 °C"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PANEL-THICKNESS" value="6.5mm"/>
+<attribute name="PART-NUMBER" value="60412052241504"/>
+<attribute name="VALUE" value="60412052241504"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="60411042241501" prefix="J">
+<description>&lt;b&gt;WR-NTYPE N Type PCB Connectors&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+Characteristics 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface: MIL-STD-348
+&lt;br&gt;Mating Cycle: 500 Cycles
+&lt;br&gt;Impedance: 50 Ohm
+&lt;br&gt;Plating: Nickel and Gold
+&lt;br&gt;Mating: Screw (Recommended: Torque wrench tool)
+&lt;br&gt;Ingress Protection: IP67
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Applications 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Network and communications
+&lt;br&gt;RF Test and Measurement Equipment
+&lt;br&gt;Industrial application
+&lt;br&gt;High power machinery
+&lt;br&gt;Outdoor or humid environment
+&lt;br&gt;
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o698256v209%20family-wr-ntype-60411042241501.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o698256v209%20family-wr-ntype-60411042241501.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WR-NTYPE_PCB_CONNECTORS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle
+"&gt;www.we-online.com/catalog/WR-NTYPE_PCB_CONNECTORS&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2022-11-23&lt;br&gt;
+2022(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="60411042241501">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35786733/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CENTER-CONTACT" value="Ø1.6"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/60411042241501?ae"/>
+<attribute name="FREQUENCY-RANGE" value="DC~4 GHz"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-65 up to +165 °C"/>
+<attribute name="ORIENTATION-TYPE" value="Right Angle"/>
+<attribute name="PANEL-THICKNESS" value="6.5mm"/>
+<attribute name="PART-NUMBER" value="60411042241501"/>
+<attribute name="VALUE" value="60411042241501"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

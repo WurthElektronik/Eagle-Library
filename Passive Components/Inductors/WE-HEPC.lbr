@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Single Coil Power Inductors - WE-HEPC&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-06-19&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-HEPC_6030" urn="urn:adsk.eagle:footprint:37137419/3">
+<description>&lt;B&gt;WE-HEPC SMT Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size 6030, SMT, 2pins
+&lt;br&gt;LxWxH=5.9x5.9x2.85mm</description>
+<smd name="1" x="0" y="2.7" dx="6.4" dy="0.9" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0" y="-2.7" dx="6.4" dy="0.9" layer="1" stop="no" cream="no"/>
+<wire x1="-2.95" y1="2.95" x2="2.95" y2="2.95" width="0.1" layer="51"/>
+<wire x1="2.95" y1="2.95" x2="2.95" y2="-2.95" width="0.1" layer="51"/>
+<wire x1="2.95" y1="-2.95" x2="-2.95" y2="-2.95" width="0.1" layer="51"/>
+<wire x1="-2.95" y1="-2.95" x2="-2.95" y2="2.95" width="0.1" layer="51"/>
+<wire x1="-3.05" y1="0.6" x2="-3.05" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="3.05" y1="-0.6" x2="3.05" y2="0.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.4" y="3.4"/>
+<vertex x="3.4" y="3.4"/>
+<vertex x="3.4" y="-3.4"/>
+<vertex x="-3.4" y="-3.4"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-1.985" y="0.95"/>
+<vertex x="-3.15" y="0.95"/>
+<vertex x="-3.15" y="3.15"/>
+<vertex x="3.15" y="3.15"/>
+<vertex x="3.15" y="0.95"/>
+<vertex x="1.985" y="0.95" curve="128.849433"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.985" y="0.95"/>
+<vertex x="-3.15" y="0.95"/>
+<vertex x="-3.15" y="3.15"/>
+<vertex x="3.15" y="3.15"/>
+<vertex x="3.15" y="0.95"/>
+<vertex x="1.985" y="0.95" curve="128.849433"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-1.92" y="0.85"/>
+<vertex x="-3.25" y="0.85"/>
+<vertex x="-3.25" y="3.25"/>
+<vertex x="3.25" y="3.25"/>
+<vertex x="3.25" y="0.85"/>
+<vertex x="1.92" y="0.85" curve="132.241257"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="1.985" y="-0.95"/>
+<vertex x="3.15" y="-0.95"/>
+<vertex x="3.15" y="-3.15"/>
+<vertex x="-3.15" y="-3.15"/>
+<vertex x="-3.15" y="-0.95"/>
+<vertex x="-1.985" y="-0.95" curve="128.849433"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="1.985" y="-0.95"/>
+<vertex x="3.15" y="-0.95"/>
+<vertex x="3.15" y="-3.15"/>
+<vertex x="-3.15" y="-3.15"/>
+<vertex x="-3.15" y="-0.95"/>
+<vertex x="-1.985" y="-0.95" curve="128.849433"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="1.92" y="-0.85"/>
+<vertex x="3.25" y="-0.85"/>
+<vertex x="3.25" y="-3.25"/>
+<vertex x="-3.25" y="-3.25"/>
+<vertex x="-3.25" y="-0.85"/>
+<vertex x="-1.92" y="-0.85" curve="132.241257"/>
+</polygon>
+<text x="0" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-4.2" y="2.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-HEPC_5030" urn="urn:adsk.eagle:footprint:37137420/3">
+<description>&lt;B&gt;WE-HEPC SMT Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size 5030, SMT, 2pins
+&lt;br&gt;LxWxH=4.9x4.9x2.85mm</description>
+<smd name="1" x="0" y="2.3" dx="5.3" dy="0.9" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0" y="-2.3" dx="5.1" dy="0.9" layer="1" stop="no" cream="no"/>
+<wire x1="-2.45" y1="2.45" x2="2.45" y2="2.45" width="0.1" layer="51"/>
+<wire x1="2.45" y1="2.45" x2="2.45" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="2.45" y1="-2.45" x2="-2.45" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="-2.45" x2="-2.45" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-2.55" y1="0.4" x2="-2.55" y2="-0.4" width="0.2" layer="21"/>
+<wire x1="2.55" y1="-0.4" x2="2.55" y2="0.4" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.85" y="2.95"/>
+<vertex x="2.85" y="2.95"/>
+<vertex x="2.85" y="-2.95"/>
+<vertex x="-2.85" y="-2.95"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.638" y="0.75"/>
+<vertex x="-2.65" y="0.75"/>
+<vertex x="-2.65" y="2.75"/>
+<vertex x="2.65" y="2.75"/>
+<vertex x="2.65" y="0.75"/>
+<vertex x="1.638" y="0.75" curve="131"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-2.65" y="-0.75"/>
+<vertex x="-2.65" y="-2.75"/>
+<vertex x="2.65" y="-2.75"/>
+<vertex x="2.65" y="-0.75"/>
+<vertex x="1.638" y="-0.75" curve="-131"/>
+<vertex x="-1.638" y="-0.75"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-1.638" y="0.75"/>
+<vertex x="-2.65" y="0.75"/>
+<vertex x="-2.65" y="2.75"/>
+<vertex x="2.65" y="2.75"/>
+<vertex x="2.65" y="0.75"/>
+<vertex x="1.638" y="0.75" curve="131"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-2.65" y="-0.75"/>
+<vertex x="-2.65" y="-2.75"/>
+<vertex x="2.65" y="-2.75"/>
+<vertex x="2.65" y="-0.75"/>
+<vertex x="1.638" y="-0.75" curve="-131"/>
+<vertex x="-1.638" y="-0.75"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-1.57" y="0.65"/>
+<vertex x="-2.75" y="0.65"/>
+<vertex x="-2.75" y="2.85"/>
+<vertex x="2.75" y="2.85"/>
+<vertex x="2.75" y="0.65"/>
+<vertex x="1.57" y="0.65" curve="135.019644"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-2.75" y="-0.65"/>
+<vertex x="-2.75" y="-2.85"/>
+<vertex x="2.75" y="-2.85"/>
+<vertex x="2.75" y="-0.65"/>
+<vertex x="1.57" y="-0.65" curve="-135.019644"/>
+<vertex x="-1.57" y="-0.65"/>
+</polygon>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-3.5" y="2.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-HEPC_6030" urn="urn:adsk.eagle:package:37137422/5" type="model">
+<description>&lt;B&gt;WE-HEPC SMT Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size 6030, SMT, 2pins
+&lt;br&gt;LxWxH=5.9x5.9x2.85mm</description>
+<packageinstances>
+<packageinstance name="WE-HEPC_6030"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HEPC_5030" urn="urn:adsk.eagle:package:37137423/6" type="model">
+<description>&lt;B&gt;WE-HEPC SMT Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size 5030, SMT, 2pins
+&lt;br&gt;LxWxH=4.9x4.9x2.85mm</description>
+<packageinstances>
+<packageinstance name="WE-HEPC_5030"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L_GAP_POINT">
+<text x="0" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="-6.096" y="0.762" radius="0.127" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-HEPC_6030" prefix="L">
+<description>&lt;b&gt;WE-HEPC SMT Power Inductor
+&lt;br&gt;Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Magnetically shielded
+&lt;br&gt;AECQ-200 grade 1 qualified
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;Land pattern matching with WE-LQFS, WE-SPC, WE-TPC
+&lt;br&gt;Operating temperature: -40°C up to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;DC/DC converter
+&lt;br&gt;Compact designs
+&lt;br&gt;Embedded laptops and PCs
+&lt;br&gt;Filter applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o707820v209%20Family%20WE-HEPC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o707820v209%20Family%20WE-HEPC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-HEPC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-HEPC&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2024-06-19&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HEPC_6030">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37137422/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_74408063004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408063004?ae"/>
+<attribute name="FRES" value="75MHz"/>
+<attribute name="IR" value="2A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408063004 "/>
+<attribute name="RDC" value="70mohm"/>
+<attribute name="RDC-MAX" value="90mohm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74408063006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408063006?ae"/>
+<attribute name="FRES" value="40MHz"/>
+<attribute name="IR" value="1.8A"/>
+<attribute name="ISAT" value="2.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408063006 "/>
+<attribute name="RDC" value="80mohm"/>
+<attribute name="RDC-MAX" value="100mohm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74408063100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408063100?ae"/>
+<attribute name="FRES" value="27MHz"/>
+<attribute name="IR" value="1.35A"/>
+<attribute name="ISAT" value="1.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408063100 "/>
+<attribute name="RDC" value="125mohm"/>
+<attribute name="RDC-MAX" value="140mohm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74408063101">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408063101?ae"/>
+<attribute name="FRES" value="8MHz"/>
+<attribute name="IR" value="0.5A"/>
+<attribute name="ISAT" value="0.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408063101 "/>
+<attribute name="RDC" value="800mohm"/>
+<attribute name="RDC-MAX" value="850mohm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_74408063150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408063150?ae"/>
+<attribute name="FRES" value="20MHz"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="ISAT" value="1.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408063150 "/>
+<attribute name="RDC" value="160mohm"/>
+<attribute name="RDC-MAX" value="180mohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74408063220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408063220?ae"/>
+<attribute name="FRES" value="18MHz"/>
+<attribute name="IR" value="1A"/>
+<attribute name="ISAT" value="1.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408063220 "/>
+<attribute name="RDC" value="200mohm"/>
+<attribute name="RDC-MAX" value="220mohm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74408063330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408063330?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="0.9A"/>
+<attribute name="ISAT" value="0.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408063330 "/>
+<attribute name="RDC" value="265mohm"/>
+<attribute name="RDC-MAX" value="285mohm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_74408063470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408063470?ae"/>
+<attribute name="FRES" value="11MHz"/>
+<attribute name="IR" value="0.8A"/>
+<attribute name="ISAT" value="0.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408063470 "/>
+<attribute name="RDC" value="365mohm"/>
+<attribute name="RDC-MAX" value="385mohm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_74408063680">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408063680?ae"/>
+<attribute name="FRES" value="9MHz"/>
+<attribute name="IR" value="0.6A"/>
+<attribute name="ISAT" value="0.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408063680 "/>
+<attribute name="RDC" value="515mohm"/>
+<attribute name="RDC-MAX" value="535mohm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HEPC_5030" prefix="L">
+<description>&lt;b&gt;WE-HEPC SMT Power Inductor
+&lt;br&gt;Shielded
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Magnetically shielded
+&lt;br&gt;AECQ-200 grade 1 qualified
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;Land pattern matching with WE-LQFS, WE-SPC, WE-TPC
+&lt;br&gt;Operating temperature: -40°C up to +125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;DC/DC converter
+&lt;br&gt;Compact designs
+&lt;br&gt;Embedded laptops and PCs
+&lt;br&gt;Filter applications
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o707820v209%20Family%20WE-HEPC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o707820v209%20Family%20WE-HEPC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-HEPC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-HEPC&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu  2024-06-19&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HEPC_5030">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37137423/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_74408053003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408053003?ae"/>
+<attribute name="FRES" value="100MHz"/>
+<attribute name="IR" value="2A"/>
+<attribute name="ISAT" value="2.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408053003 "/>
+<attribute name="RDC" value="60mohm"/>
+<attribute name="RDC-MAX" value="75mohm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_74408053004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408053004?ae"/>
+<attribute name="FRES" value="85MHz"/>
+<attribute name="IR" value="1.4A"/>
+<attribute name="ISAT" value="2.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408053004 "/>
+<attribute name="RDC" value="80mohm"/>
+<attribute name="RDC-MAX" value="100mohm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_74408053006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408053006?ae"/>
+<attribute name="FRES" value="60MHz"/>
+<attribute name="IR" value="1.3A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408053006 "/>
+<attribute name="RDC" value="105mohm"/>
+<attribute name="RDC-MAX" value="125mohm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74408053100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408053100?ae"/>
+<attribute name="FRES" value="37MHz"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="ISAT" value="1.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408053100 "/>
+<attribute name="RDC" value="120mohm"/>
+<attribute name="RDC-MAX" value="140mohm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_74408053150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408053150?ae"/>
+<attribute name="FRES" value="22MHz"/>
+<attribute name="IR" value="1.1A"/>
+<attribute name="ISAT" value="1.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408053150 "/>
+<attribute name="RDC" value="180mohm"/>
+<attribute name="RDC-MAX" value="200mohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_74408053220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408053220?ae"/>
+<attribute name="FRES" value="20MHz"/>
+<attribute name="IR" value="0.9A"/>
+<attribute name="ISAT" value="0.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408053220 "/>
+<attribute name="RDC" value="250mohm"/>
+<attribute name="RDC-MAX" value="270mohm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_74408053330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74408053330?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="0.8A"/>
+<attribute name="ISAT" value="0.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74408053330 "/>
+<attribute name="RDC" value="345mohm"/>
+<attribute name="RDC-MAX" value="365mohm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

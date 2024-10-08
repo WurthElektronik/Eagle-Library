@@ -1,0 +1,2253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Capacitors - Film Capacitors - WCAP-FTXH&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-05-20&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WCAP-FTXH_P22.5L26.5W12.5H22" urn="urn:adsk.eagle:footprint:44344208/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X12.5X22mm</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13.25" y1="6.25" x2="13.25" y2="6.25" width="0.1" layer="51"/>
+<wire x1="13.25" y1="6.25" x2="13.25" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="13.25" y1="-6.25" x2="-13.25" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="-13.25" y1="-6.25" x2="-13.25" y2="6.25" width="0.1" layer="51"/>
+<wire x1="-13.35" y1="6.35" x2="13.35" y2="6.35" width="0.2" layer="21"/>
+<wire x1="13.35" y1="6.35" x2="13.35" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="13.35" y1="-6.35" x2="-13.35" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="-13.35" y1="-6.35" x2="-13.35" y2="6.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.55" y="6.55"/>
+<vertex x="13.55" y="6.55"/>
+<vertex x="13.55" y="-6.55"/>
+<vertex x="-13.55" y="-6.55"/>
+</polygon>
+<text x="0" y="7.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-8.25" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P15L18W10H15.8" urn="urn:adsk.eagle:footprint:36104152/2">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X10X15.8mm</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="5" x2="9" y2="5" width="0.1" layer="51"/>
+<wire x1="9" y1="5" x2="9" y2="-5" width="0.1" layer="51"/>
+<wire x1="9" y1="-5" x2="-9" y2="-5" width="0.1" layer="51"/>
+<wire x1="-9" y1="-5" x2="-9" y2="5" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="5.1" x2="9.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="5.1" x2="9.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-5.1" x2="-9.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-5.1" x2="-9.1" y2="5.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="5.3"/>
+<vertex x="9.3" y="5.3"/>
+<vertex x="9.3" y="-5.3"/>
+<vertex x="-9.3" y="-5.3"/>
+</polygon>
+<text x="0.1" y="6.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.1" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P15L18W7.5H13.5" urn="urn:adsk.eagle:footprint:36104149/1">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X7.5X13.5mm</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="3.75" x2="9" y2="3.75" width="0.1" layer="51"/>
+<wire x1="9" y1="3.75" x2="9" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="9" y1="-3.75" x2="-9" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-9" y1="-3.75" x2="-9" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="3.85" x2="9.1" y2="3.85" width="0.2" layer="21"/>
+<wire x1="9.1" y1="3.85" x2="9.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-3.85" x2="-9.1" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-3.85" x2="-9.1" y2="3.85" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="4.05"/>
+<vertex x="9.3" y="4.05"/>
+<vertex x="9.3" y="-4.05"/>
+<vertex x="-9.3" y="-4.05"/>
+</polygon>
+<text x="-0.1" y="4.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5.75" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P15L18W7H12.5" urn="urn:adsk.eagle:footprint:36104150/1">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X7X12.5mm</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="3.5" x2="9" y2="3.5" width="0.1" layer="51"/>
+<wire x1="9" y1="3.5" x2="9" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="9" y1="-3.5" x2="-9" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-9" y1="-3.5" x2="-9" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="3.6" x2="9.1" y2="3.6" width="0.2" layer="21"/>
+<wire x1="9.1" y1="3.6" x2="9.1" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-3.6" x2="-9.1" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-3.6" x2="-9.1" y2="3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="3.8"/>
+<vertex x="9.3" y="3.8"/>
+<vertex x="9.3" y="-3.8"/>
+<vertex x="-9.3" y="-3.8"/>
+</polygon>
+<text x="-0.1" y="4.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-5.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P15L18W11.2H19.2" urn="urn:adsk.eagle:footprint:36104151/1">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X11.2X19.2mm</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="5.6" x2="9" y2="5.6" width="0.1" layer="51"/>
+<wire x1="9" y1="5.6" x2="9" y2="-5.6" width="0.1" layer="51"/>
+<wire x1="9" y1="-5.6" x2="-9" y2="-5.6" width="0.1" layer="51"/>
+<wire x1="-9" y1="-5.6" x2="-9" y2="5.6" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="5.7" x2="9.1" y2="5.7" width="0.2" layer="21"/>
+<wire x1="9.1" y1="5.7" x2="9.1" y2="-5.7" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-5.7" x2="-9.1" y2="-5.7" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-5.7" x2="-9.1" y2="5.7" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="5.9"/>
+<vertex x="9.3" y="5.9"/>
+<vertex x="9.3" y="-5.9"/>
+<vertex x="-9.3" y="-5.9"/>
+</polygon>
+<text x="0.1" y="6.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P15L18W9.5H15.5" urn="urn:adsk.eagle:footprint:36104147/1">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X9.5X15.5mm</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="4.75" x2="9" y2="4.75" width="0.1" layer="51"/>
+<wire x1="9" y1="4.75" x2="9" y2="-4.75" width="0.1" layer="51"/>
+<wire x1="9" y1="-4.75" x2="-9" y2="-4.75" width="0.1" layer="51"/>
+<wire x1="-9" y1="-4.75" x2="-9" y2="4.75" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="4.85" x2="9.1" y2="4.85" width="0.2" layer="21"/>
+<wire x1="9.1" y1="4.85" x2="9.1" y2="-4.85" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-4.85" x2="-9.1" y2="-4.85" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-4.85" x2="-9.1" y2="4.85" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="5.05"/>
+<vertex x="9.3" y="5.05"/>
+<vertex x="9.3" y="-5.05"/>
+<vertex x="-9.3" y="-5.05"/>
+</polygon>
+<text x="0.1" y="5.65" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.2" y="-6.65" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P15L18W11H18.5" urn="urn:adsk.eagle:footprint:44344209/1">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X11X18.5mm</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="5.5" x2="9" y2="5.5" width="0.1" layer="51"/>
+<wire x1="9" y1="5.5" x2="9" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="9" y1="-5.5" x2="-9" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-9" y1="-5.5" x2="-9" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="5.6" x2="9.1" y2="5.6" width="0.2" layer="21"/>
+<wire x1="9.1" y1="5.6" x2="9.1" y2="-5.6" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-5.6" x2="-9.1" y2="-5.6" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-5.6" x2="-9.1" y2="5.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="5.8"/>
+<vertex x="9.3" y="5.8"/>
+<vertex x="9.3" y="-5.8"/>
+<vertex x="-9.3" y="-5.8"/>
+</polygon>
+<text x="0.1" y="6.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P15L18W8.5H14.5" urn="urn:adsk.eagle:footprint:36104148/1">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X8.5X14.5mm</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="4.25" x2="9" y2="4.25" width="0.1" layer="51"/>
+<wire x1="9" y1="4.25" x2="9" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="9" y1="-4.25" x2="-9" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-9" y1="-4.25" x2="-9" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="4.35" x2="9.1" y2="4.35" width="0.2" layer="21"/>
+<wire x1="9.1" y1="4.35" x2="9.1" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-4.35" x2="-9.1" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-4.35" x2="-9.1" y2="4.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="4.55"/>
+<vertex x="9.3" y="4.55"/>
+<vertex x="9.3" y="-4.55"/>
+<vertex x="-9.3" y="-4.55"/>
+</polygon>
+<text x="-0.1" y="5.35" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.3" y="-6.25" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P15L18W10H18" urn="urn:adsk.eagle:footprint:44344211/1">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X10X18mm</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="5" x2="9" y2="5" width="0.1" layer="51"/>
+<wire x1="9" y1="5" x2="9" y2="-5" width="0.1" layer="51"/>
+<wire x1="9" y1="-5" x2="-9" y2="-5" width="0.1" layer="51"/>
+<wire x1="-9" y1="-5" x2="-9" y2="5" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="5.1" x2="9.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="5.1" x2="9.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-5.1" x2="-9.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-5.1" x2="-9.1" y2="5.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="5.3"/>
+<vertex x="9.3" y="5.3"/>
+<vertex x="9.3" y="-5.3"/>
+<vertex x="-9.3" y="-5.3"/>
+</polygon>
+<text x="0.1" y="6.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.1" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P37.5L41W17H31" urn="urn:adsk.eagle:footprint:36104133/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X17X31mm</description>
+<pad name="1" x="-18.75" y="0" drill="1.3"/>
+<pad name="2" x="18.75" y="0" drill="1.3"/>
+<wire x1="-20.5" y1="8.5" x2="20.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="20.5" y1="8.5" x2="20.5" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="20.5" y1="-8.5" x2="-20.5" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="-20.5" y1="-8.5" x2="-20.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-20.6" y1="8.6" x2="20.6" y2="8.6" width="0.2" layer="21"/>
+<wire x1="20.6" y1="8.6" x2="20.6" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="20.6" y1="-8.6" x2="-20.6" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="-20.6" y1="-8.6" x2="-20.6" y2="8.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-20.8" y="8.8"/>
+<vertex x="20.8" y="8.8"/>
+<vertex x="20.8" y="-8.8"/>
+<vertex x="-20.8" y="-8.8"/>
+</polygon>
+<text x="0.2" y="9.65" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.5" y="-11.05" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P15L18W12H20" urn="urn:adsk.eagle:footprint:44344210/1">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X12X20mm</description>
+<pad name="1" x="-7.5" y="0" drill="1.1"/>
+<pad name="2" x="7.5" y="0" drill="1.1"/>
+<wire x1="-9" y1="6" x2="9" y2="6" width="0.1" layer="51"/>
+<wire x1="9" y1="6" x2="9" y2="-6" width="0.1" layer="51"/>
+<wire x1="9" y1="-6" x2="-9" y2="-6" width="0.1" layer="51"/>
+<wire x1="-9" y1="-6" x2="-9" y2="6" width="0.1" layer="51"/>
+<wire x1="-9.1" y1="6.1" x2="9.1" y2="6.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="6.1" x2="9.1" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-6.1" x2="-9.1" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="-6.1" x2="-9.1" y2="6.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.3" y="6.3"/>
+<vertex x="9.3" y="6.3"/>
+<vertex x="9.3" y="-6.3"/>
+<vertex x="-9.3" y="-6.3"/>
+</polygon>
+<text x="0.1" y="7.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.1" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P27.5L31W11H20" urn="urn:adsk.eagle:footprint:36104139/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X31X11X20mm</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-15.5" y1="5.5" x2="15.5" y2="5.5" width="0.1" layer="51"/>
+<wire x1="15.5" y1="5.5" x2="15.5" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="15.5" y1="-5.5" x2="-15.5" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="-5.5" x2="-15.5" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-15.6" y1="5.6" x2="15.6" y2="5.6" width="0.2" layer="21"/>
+<wire x1="15.6" y1="5.6" x2="15.6" y2="-5.6" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-5.6" x2="-15.6" y2="-5.6" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="-5.6" x2="-15.6" y2="5.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-15.8" y="5.8"/>
+<vertex x="15.8" y="5.8"/>
+<vertex x="15.8" y="-5.8"/>
+<vertex x="-15.8" y="-5.8"/>
+</polygon>
+<text x="0.1" y="6.35" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.35" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P27.5L31W14H25" urn="urn:adsk.eagle:footprint:36104138/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X31X14X25mm</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-15.5" y1="7" x2="15.5" y2="7" width="0.1" layer="51"/>
+<wire x1="15.5" y1="7" x2="15.5" y2="-7" width="0.1" layer="51"/>
+<wire x1="15.5" y1="-7" x2="-15.5" y2="-7" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="-7" x2="-15.5" y2="7" width="0.1" layer="51"/>
+<wire x1="-15.6" y1="7.1" x2="15.6" y2="7.1" width="0.2" layer="21"/>
+<wire x1="15.6" y1="7.1" x2="15.6" y2="-7.1" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-7.1" x2="-15.6" y2="-7.1" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="-7.1" x2="-15.6" y2="7.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-15.8" y="7.3"/>
+<vertex x="15.8" y="7.3"/>
+<vertex x="15.8" y="-7.3"/>
+<vertex x="-15.8" y="-7.3"/>
+</polygon>
+<text x="0.1" y="7.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.85" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P27.5L32W13H22" urn="urn:adsk.eagle:footprint:36104136/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X13X22mm</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-16" y1="6.5" x2="16" y2="6.5" width="0.1" layer="51"/>
+<wire x1="16" y1="6.5" x2="16" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="16" y1="-6.5" x2="-16" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-16" y1="-6.5" x2="-16" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-16.1" y1="6.6" x2="16.1" y2="6.6" width="0.2" layer="21"/>
+<wire x1="16.1" y1="6.6" x2="16.1" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-6.6" x2="-16.1" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="-6.6" x2="-16.1" y2="6.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-16.3" y="6.8"/>
+<vertex x="16.3" y="6.8"/>
+<vertex x="16.3" y="-6.8"/>
+<vertex x="-16.3" y="-6.8"/>
+</polygon>
+<text x="0.1" y="7.35" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.35" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P27.5L32W16H30" urn="urn:adsk.eagle:footprint:36104135/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X16X30mm</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-16" y1="8" x2="16" y2="8" width="0.1" layer="51"/>
+<wire x1="16" y1="8" x2="16" y2="-8" width="0.1" layer="51"/>
+<wire x1="16" y1="-8" x2="-16" y2="-8" width="0.1" layer="51"/>
+<wire x1="-16" y1="-8" x2="-16" y2="8" width="0.1" layer="51"/>
+<wire x1="-16.1" y1="8.1" x2="16.1" y2="8.1" width="0.2" layer="21"/>
+<wire x1="16.1" y1="8.1" x2="16.1" y2="-8.1" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-8.1" x2="-16.1" y2="-8.1" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="-8.1" x2="-16.1" y2="8.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-16.3" y="8.3"/>
+<vertex x="16.3" y="8.3"/>
+<vertex x="16.3" y="-8.3"/>
+<vertex x="-16.3" y="-8.3"/>
+</polygon>
+<text x="0.1" y="8.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.85" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P22.5L26.5W10H19" urn="urn:adsk.eagle:footprint:36104145/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X10X19mm</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13.25" y1="5" x2="13.25" y2="5" width="0.1" layer="51"/>
+<wire x1="13.25" y1="5" x2="13.25" y2="-5" width="0.1" layer="51"/>
+<wire x1="13.25" y1="-5" x2="-13.25" y2="-5" width="0.1" layer="51"/>
+<wire x1="-13.25" y1="-5" x2="-13.25" y2="5" width="0.1" layer="51"/>
+<wire x1="-13.35" y1="5.1" x2="13.35" y2="5.1" width="0.2" layer="21"/>
+<wire x1="13.35" y1="5.1" x2="13.35" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="13.35" y1="-5.1" x2="-13.35" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-13.35" y1="-5.1" x2="-13.35" y2="5.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.55" y="5.3"/>
+<vertex x="13.55" y="5.3"/>
+<vertex x="13.55" y="-5.3"/>
+<vertex x="-13.55" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P22.5L26.5W14.5H24.5" urn="urn:adsk.eagle:footprint:36104143/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X14.5X24.5mm</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13.25" y1="7.25" x2="13.25" y2="7.25" width="0.1" layer="51"/>
+<wire x1="13.25" y1="7.25" x2="13.25" y2="-7.25" width="0.1" layer="51"/>
+<wire x1="13.25" y1="-7.25" x2="-13.25" y2="-7.25" width="0.1" layer="51"/>
+<wire x1="-13.25" y1="-7.25" x2="-13.25" y2="7.25" width="0.1" layer="51"/>
+<wire x1="-13.35" y1="7.35" x2="13.35" y2="7.35" width="0.2" layer="21"/>
+<wire x1="13.35" y1="7.35" x2="13.35" y2="-7.35" width="0.2" layer="21"/>
+<wire x1="13.35" y1="-7.35" x2="-13.35" y2="-7.35" width="0.2" layer="21"/>
+<wire x1="-13.35" y1="-7.35" x2="-13.35" y2="7.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.55" y="7.55"/>
+<vertex x="13.55" y="7.55"/>
+<vertex x="13.55" y="-7.55"/>
+<vertex x="-13.55" y="-7.55"/>
+</polygon>
+<text x="0" y="8.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-9.25" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P22.5L26.5W15.5H24.5" urn="urn:adsk.eagle:footprint:36104142/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X15.5X24.5mm</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13.25" y1="7.75" x2="13.25" y2="7.75" width="0.1" layer="51"/>
+<wire x1="13.25" y1="7.75" x2="13.25" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="13.25" y1="-7.75" x2="-13.25" y2="-7.75" width="0.1" layer="51"/>
+<wire x1="-13.25" y1="-7.75" x2="-13.25" y2="7.75" width="0.1" layer="51"/>
+<wire x1="-13.35" y1="7.85" x2="13.35" y2="7.85" width="0.2" layer="21"/>
+<wire x1="13.35" y1="7.85" x2="13.35" y2="-7.85" width="0.2" layer="21"/>
+<wire x1="13.35" y1="-7.85" x2="-13.35" y2="-7.85" width="0.2" layer="21"/>
+<wire x1="-13.35" y1="-7.85" x2="-13.35" y2="7.85" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.55" y="8.05"/>
+<vertex x="13.55" y="8.05"/>
+<vertex x="13.55" y="-8.05"/>
+<vertex x="-13.55" y="-8.05"/>
+</polygon>
+<text x="0" y="8.75" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-9.75" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P22.5L26W11H20" urn="urn:adsk.eagle:footprint:36104146/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26X11X20mm</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="5.5" x2="13" y2="5.5" width="0.1" layer="51"/>
+<wire x1="13" y1="5.5" x2="13" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="13" y1="-5.5" x2="-13" y2="-5.5" width="0.1" layer="51"/>
+<wire x1="-13" y1="-5.5" x2="-13" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="5.6" x2="13.1" y2="5.6" width="0.2" layer="21"/>
+<wire x1="13.1" y1="5.6" x2="13.1" y2="-5.6" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-5.6" x2="-13.1" y2="-5.6" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-5.6" x2="-13.1" y2="5.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="5.8"/>
+<vertex x="13.3" y="5.8"/>
+<vertex x="13.3" y="-5.8"/>
+<vertex x="-13.3" y="-5.8"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P27.5L32W20H34" urn="urn:adsk.eagle:footprint:36104134/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X20X34mm</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-16" y1="10" x2="16" y2="10" width="0.1" layer="51"/>
+<wire x1="16" y1="10" x2="16" y2="-10" width="0.1" layer="51"/>
+<wire x1="16" y1="-10" x2="-16" y2="-10" width="0.1" layer="51"/>
+<wire x1="-16" y1="-10" x2="-16" y2="10" width="0.1" layer="51"/>
+<wire x1="-16.1" y1="10.1" x2="16.1" y2="10.1" width="0.2" layer="21"/>
+<wire x1="16.1" y1="10.1" x2="16.1" y2="-10.1" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-10.1" x2="-16.1" y2="-10.1" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="-10.1" x2="-16.1" y2="10.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-16.3" y="10.3"/>
+<vertex x="16.3" y="10.3"/>
+<vertex x="16.3" y="-10.3"/>
+<vertex x="-16.3" y="-10.3"/>
+</polygon>
+<text x="0.1" y="10.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.85" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P22.5L26.5W15H29.5" urn="urn:adsk.eagle:footprint:36104141/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X15X29.5mm</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13.25" y1="7.5" x2="13.25" y2="7.5" width="0.1" layer="51"/>
+<wire x1="13.25" y1="7.5" x2="13.25" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="13.25" y1="-7.5" x2="-13.25" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-13.25" y1="-7.5" x2="-13.25" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-13.35" y1="7.6" x2="13.35" y2="7.6" width="0.2" layer="21"/>
+<wire x1="13.35" y1="7.6" x2="13.35" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="13.35" y1="-7.6" x2="-13.35" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="-13.35" y1="-7.6" x2="-13.35" y2="7.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.55" y="7.8"/>
+<vertex x="13.55" y="7.8"/>
+<vertex x="13.55" y="-7.8"/>
+<vertex x="-13.55" y="-7.8"/>
+</polygon>
+<text x="0" y="8.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-9.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P22.5L26.5W8.5H17" urn="urn:adsk.eagle:footprint:36104140/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X8.5X17mm</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13.25" y1="4.25" x2="13.25" y2="4.25" width="0.1" layer="51"/>
+<wire x1="13.25" y1="4.25" x2="13.25" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="13.25" y1="-4.25" x2="-13.25" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-13.25" y1="-4.25" x2="-13.25" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-13.35" y1="4.35" x2="13.35" y2="4.35" width="0.2" layer="21"/>
+<wire x1="13.35" y1="4.35" x2="13.35" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="13.35" y1="-4.35" x2="-13.35" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="-13.35" y1="-4.35" x2="-13.35" y2="4.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.55" y="4.55"/>
+<vertex x="13.55" y="4.55"/>
+<vertex x="13.55" y="-4.55"/>
+<vertex x="-13.55" y="-4.55"/>
+</polygon>
+<text x="0" y="5.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-6.25" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P22.5L26.5W12H22" urn="urn:adsk.eagle:footprint:36104144/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X12X22mm</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13.25" y1="6" x2="13.25" y2="6" width="0.1" layer="51"/>
+<wire x1="13.25" y1="6" x2="13.25" y2="-6" width="0.1" layer="51"/>
+<wire x1="13.25" y1="-6" x2="-13.25" y2="-6" width="0.1" layer="51"/>
+<wire x1="-13.25" y1="-6" x2="-13.25" y2="6" width="0.1" layer="51"/>
+<wire x1="-13.35" y1="6.1" x2="13.35" y2="6.1" width="0.2" layer="21"/>
+<wire x1="13.35" y1="6.1" x2="13.35" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="13.35" y1="-6.1" x2="-13.35" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="-13.35" y1="-6.1" x2="-13.35" y2="6.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.55" y="6.3"/>
+<vertex x="13.55" y="6.3"/>
+<vertex x="13.55" y="-6.3"/>
+<vertex x="-13.55" y="-6.3"/>
+</polygon>
+<text x="0" y="7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P27.5L32W12H21" urn="urn:adsk.eagle:footprint:44344207/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X12X21mm</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-16" y1="6" x2="16" y2="6" width="0.1" layer="51"/>
+<wire x1="16" y1="6" x2="16" y2="-6" width="0.1" layer="51"/>
+<wire x1="16" y1="-6" x2="-16" y2="-6" width="0.1" layer="51"/>
+<wire x1="-16" y1="-6" x2="-16" y2="6" width="0.1" layer="51"/>
+<wire x1="-16.1" y1="6.1" x2="16.1" y2="6.1" width="0.2" layer="21"/>
+<wire x1="16.1" y1="6.1" x2="16.1" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-6.1" x2="-16.1" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="-6.1" x2="-16.1" y2="6.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-16.3" y="6.3"/>
+<vertex x="16.3" y="6.3"/>
+<vertex x="16.3" y="-6.3"/>
+<vertex x="-16.3" y="-6.3"/>
+</polygon>
+<text x="0.1" y="6.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.85" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P27.5L32W14H28" urn="urn:adsk.eagle:footprint:44344206/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X12X21mm</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-16" y1="7" x2="16" y2="7" width="0.1" layer="51"/>
+<wire x1="16" y1="7" x2="16" y2="-7" width="0.1" layer="51"/>
+<wire x1="16" y1="-7" x2="-16" y2="-7" width="0.1" layer="51"/>
+<wire x1="-16" y1="-7" x2="-16" y2="7" width="0.1" layer="51"/>
+<wire x1="-16.1" y1="7.1" x2="16.1" y2="7.1" width="0.2" layer="21"/>
+<wire x1="16.1" y1="7.1" x2="16.1" y2="-7.1" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-7.1" x2="-16.1" y2="-7.1" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="-7.1" x2="-16.1" y2="7.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-16.3" y="7.3"/>
+<vertex x="16.3" y="7.3"/>
+<vertex x="16.3" y="-7.3"/>
+<vertex x="-16.3" y="-7.3"/>
+</polygon>
+<text x="0.1" y="7.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.85" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P22.5L26W12.5H22" urn="urn:adsk.eagle:footprint:44344214/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26X12.5X22mm</description>
+<pad name="1" x="-11.25" y="0" drill="1.1"/>
+<pad name="2" x="11.25" y="0" drill="1.1"/>
+<wire x1="-13" y1="6.25" x2="13" y2="6.25" width="0.1" layer="51"/>
+<wire x1="13" y1="6.25" x2="13" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="13" y1="-6.25" x2="-13" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="-13" y1="-6.25" x2="-13" y2="6.25" width="0.1" layer="51"/>
+<wire x1="-13.1" y1="6.35" x2="13.1" y2="6.35" width="0.2" layer="21"/>
+<wire x1="13.1" y1="6.35" x2="13.1" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-6.35" x2="-13.1" y2="-6.35" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-6.35" x2="-13.1" y2="6.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-13.3" y="6.55"/>
+<vertex x="13.3" y="6.55"/>
+<vertex x="13.3" y="-6.55"/>
+<vertex x="-13.3" y="-6.55"/>
+</polygon>
+<text x="0" y="7.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.4" y="-8.25" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P27.5L32W9H18" urn="urn:adsk.eagle:footprint:36104137/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X9X18mm</description>
+<pad name="1" x="-13.75" y="0" drill="1.1"/>
+<pad name="2" x="13.75" y="0" drill="1.1"/>
+<wire x1="-16" y1="4.5" x2="16" y2="4.5" width="0.1" layer="51"/>
+<wire x1="16" y1="4.5" x2="16" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="16" y1="-4.5" x2="-16" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-16" y1="-4.5" x2="-16" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-16.1" y1="4.6" x2="16.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="16.1" y1="4.6" x2="16.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-4.6" x2="-16.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="-4.6" x2="-16.1" y2="4.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-16.3" y="4.8"/>
+<vertex x="16.3" y="4.8"/>
+<vertex x="16.3" y="-4.8"/>
+<vertex x="-16.3" y="-4.8"/>
+</polygon>
+<text x="0.1" y="5.35" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.35" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P37.5L41W26H41" urn="urn:adsk.eagle:footprint:36104132/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X26X41mm</description>
+<pad name="1" x="-18.75" y="0" drill="1.3"/>
+<pad name="2" x="18.75" y="0" drill="1.3"/>
+<wire x1="-20.5" y1="13" x2="20.5" y2="13" width="0.1" layer="51"/>
+<wire x1="20.5" y1="13" x2="20.5" y2="-13" width="0.1" layer="51"/>
+<wire x1="20.5" y1="-13" x2="-20.5" y2="-13" width="0.1" layer="51"/>
+<wire x1="-20.5" y1="-13" x2="-20.5" y2="13" width="0.1" layer="51"/>
+<wire x1="-20.6" y1="13.1" x2="20.6" y2="13.1" width="0.2" layer="21"/>
+<wire x1="20.6" y1="13.1" x2="20.6" y2="-13.1" width="0.2" layer="21"/>
+<wire x1="20.6" y1="-13.1" x2="-20.6" y2="-13.1" width="0.2" layer="21"/>
+<wire x1="-20.6" y1="-13.1" x2="-20.6" y2="13.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-20.8" y="13.3"/>
+<vertex x="20.8" y="13.3"/>
+<vertex x="20.8" y="-13.3"/>
+<vertex x="-20.8" y="-13.3"/>
+</polygon>
+<text x="0.2" y="14.15" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.5" y="-15.55" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P37.5L41W26H37" urn="urn:adsk.eagle:footprint:36104130/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X26X37mm</description>
+<pad name="1" x="-18.75" y="0" drill="1.3"/>
+<pad name="2" x="18.75" y="0" drill="1.3"/>
+<wire x1="-20.5" y1="13" x2="20.5" y2="13" width="0.1" layer="51"/>
+<wire x1="20.5" y1="13" x2="20.5" y2="-13" width="0.1" layer="51"/>
+<wire x1="20.5" y1="-13" x2="-20.5" y2="-13" width="0.1" layer="51"/>
+<wire x1="-20.5" y1="-13" x2="-20.5" y2="13" width="0.1" layer="51"/>
+<wire x1="-20.6" y1="13.1" x2="20.6" y2="13.1" width="0.2" layer="21"/>
+<wire x1="20.6" y1="13.1" x2="20.6" y2="-13.1" width="0.2" layer="21"/>
+<wire x1="20.6" y1="-13.1" x2="-20.6" y2="-13.1" width="0.2" layer="21"/>
+<wire x1="-20.6" y1="-13.1" x2="-20.6" y2="13.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-20.8" y="13.3"/>
+<vertex x="20.8" y="13.3"/>
+<vertex x="20.8" y="-13.3"/>
+<vertex x="-20.8" y="-13.3"/>
+</polygon>
+<text x="0.2" y="14.15" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.5" y="-15.55" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P37.5L41W15H29" urn="urn:adsk.eagle:footprint:44344212/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X15X29mm</description>
+<pad name="1" x="-18.75" y="0" drill="1.3"/>
+<pad name="2" x="18.75" y="0" drill="1.3"/>
+<wire x1="-20.5" y1="7.5" x2="20.5" y2="7.5" width="0.1" layer="51"/>
+<wire x1="20.5" y1="7.5" x2="20.5" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="20.5" y1="-7.5" x2="-20.5" y2="-7.5" width="0.1" layer="51"/>
+<wire x1="-20.5" y1="-7.5" x2="-20.5" y2="7.5" width="0.1" layer="51"/>
+<wire x1="-20.6" y1="7.6" x2="20.6" y2="7.6" width="0.2" layer="21"/>
+<wire x1="20.6" y1="7.6" x2="20.6" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="20.6" y1="-7.6" x2="-20.6" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="-20.6" y1="-7.6" x2="-20.6" y2="7.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-20.8" y="7.8"/>
+<vertex x="20.8" y="7.8"/>
+<vertex x="20.8" y="-7.8"/>
+<vertex x="-20.8" y="-7.8"/>
+</polygon>
+<text x="0.2" y="8.65" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.5" y="-10.05" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P37.5L41W20H35" urn="urn:adsk.eagle:footprint:36104131/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X20X35mm</description>
+<pad name="1" x="-18.75" y="0" drill="1.3"/>
+<pad name="2" x="18.75" y="0" drill="1.3"/>
+<wire x1="-20.5" y1="10" x2="20.5" y2="10" width="0.1" layer="51"/>
+<wire x1="20.5" y1="10" x2="20.5" y2="-10" width="0.1" layer="51"/>
+<wire x1="20.5" y1="-10" x2="-20.5" y2="-10" width="0.1" layer="51"/>
+<wire x1="-20.5" y1="-10" x2="-20.5" y2="10" width="0.1" layer="51"/>
+<wire x1="-20.6" y1="10.1" x2="20.6" y2="10.1" width="0.2" layer="21"/>
+<wire x1="20.6" y1="10.1" x2="20.6" y2="-10.1" width="0.2" layer="21"/>
+<wire x1="20.6" y1="-10.1" x2="-20.6" y2="-10.1" width="0.2" layer="21"/>
+<wire x1="-20.6" y1="-10.1" x2="-20.6" y2="10.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-20.8" y="10.3"/>
+<vertex x="20.8" y="10.3"/>
+<vertex x="20.8" y="-10.3"/>
+<vertex x="-20.8" y="-10.3"/>
+</polygon>
+<text x="0.2" y="11.15" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.5" y="-12.55" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WCAP-FTXH_P37.5L41W30H45" urn="urn:adsk.eagle:footprint:44344213/1">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X42X30X45mm</description>
+<pad name="1" x="-18.75" y="0" drill="1.3"/>
+<pad name="2" x="18.75" y="0" drill="1.3"/>
+<wire x1="-21" y1="15" x2="21" y2="15" width="0.1" layer="51"/>
+<wire x1="21" y1="15" x2="21" y2="-15" width="0.1" layer="51"/>
+<wire x1="21" y1="-15" x2="-21" y2="-15" width="0.1" layer="51"/>
+<wire x1="-21" y1="-15" x2="-21" y2="15" width="0.1" layer="51"/>
+<wire x1="-21.1" y1="15.1" x2="21.1" y2="15.1" width="0.2" layer="21"/>
+<wire x1="21.1" y1="15.1" x2="21.1" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="21.1" y1="-15.1" x2="-21.1" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="-21.1" y1="-15.1" x2="-21.1" y2="15.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-21.3" y="15.3"/>
+<vertex x="21.3" y="15.3"/>
+<vertex x="21.3" y="-15.3"/>
+<vertex x="-21.3" y="-15.3"/>
+</polygon>
+<text x="0.2" y="16.15" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.5" y="-17.55" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WCAP-FTXH_P22.5L26.5W12.5H22" urn="urn:adsk.eagle:package:44344218/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X12.5X22mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P22.5L26.5W12.5H22"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P15L18W10H15.8" urn="urn:adsk.eagle:package:36104176/3" type="model">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X10X15.8mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P15L18W10H15.8"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P15L18W11.2H19.2" urn="urn:adsk.eagle:package:36104175/2" type="model">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X11.2X19.2mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P15L18W11.2H19.2"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P15L18W7.5H13.5" urn="urn:adsk.eagle:package:36104173/2" type="model">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X7.5X13.5mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P15L18W7.5H13.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P15L18W7H12.5" urn="urn:adsk.eagle:package:36104174/2" type="model">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X7X12.5mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P15L18W7H12.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P15L18W8.5H14.5" urn="urn:adsk.eagle:package:36104172/2" type="model">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X8.5X14.5mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P15L18W8.5H14.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P15L18W9.5H15.5" urn="urn:adsk.eagle:package:36104171/2" type="model">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X9.5X15.5mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P15L18W9.5H15.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P15L18W10H18" urn="urn:adsk.eagle:package:44344221/2" type="model">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X10X18mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P15L18W10H18"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P15L18W11H18.5" urn="urn:adsk.eagle:package:44344219/2" type="model">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X11X18.5mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P15L18W11H18.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P37.5L41W17H31" urn="urn:adsk.eagle:package:36104157/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X17X31mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P37.5L41W17H31"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P15L18W12H20" urn="urn:adsk.eagle:package:44344220/2" type="model">
+<description>&lt;B&gt;WCAP-FTXH Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=15X18X12X20mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P15L18W12H20"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P27.5L31W11H20" urn="urn:adsk.eagle:package:36104163/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X31X11X20mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P27.5L31W11H20"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P27.5L32W16H30" urn="urn:adsk.eagle:package:36104159/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X16X30mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P27.5L32W16H30"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P27.5L31W14H25" urn="urn:adsk.eagle:package:36104162/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X31X14X25mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P27.5L31W14H25"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P27.5L32W13H22" urn="urn:adsk.eagle:package:36104160/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X13X22mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P27.5L32W13H22"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P22.5L26.5W10H19" urn="urn:adsk.eagle:package:36104169/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X10X19mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P22.5L26.5W10H19"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P22.5L26.5W15.5H24.5" urn="urn:adsk.eagle:package:36104166/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X15.5X24.5mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P22.5L26.5W15.5H24.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P22.5L26.5W14.5H24.5" urn="urn:adsk.eagle:package:36104167/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X14.5X24.5mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P22.5L26.5W14.5H24.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P27.5L32W20H34" urn="urn:adsk.eagle:package:36104158/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X20X34mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P27.5L32W20H34"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P22.5L26W11H20" urn="urn:adsk.eagle:package:36104170/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26X11X20mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P22.5L26W11H20"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P22.5L26.5W15H29.5" urn="urn:adsk.eagle:package:36104165/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X15X29.5mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P22.5L26.5W15H29.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P22.5L26.5W8.5H17" urn="urn:adsk.eagle:package:36104164/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X8.5X17mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P22.5L26.5W8.5H17"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P22.5L26.5W12H22" urn="urn:adsk.eagle:package:36104168/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26.5X12X22mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P22.5L26.5W12H22"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P22.5L26W12.5H22" urn="urn:adsk.eagle:package:44344223/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=22.5X26X12.5X22mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P22.5L26W12.5H22"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P27.5L32W12H21" urn="urn:adsk.eagle:package:44344217/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X12X21mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P27.5L32W12H21"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P27.5L32W14H28" urn="urn:adsk.eagle:package:44344216/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X12X21mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P27.5L32W14H28"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P27.5L32W9H18" urn="urn:adsk.eagle:package:36104161/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=27.5X32X9X18mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P27.5L32W9H18"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P37.5L41W26H37" urn="urn:adsk.eagle:package:36104154/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X26X37mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P37.5L41W26H37"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P37.5L41W26H41" urn="urn:adsk.eagle:package:36104156/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X26X41mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P37.5L41W26H41"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P37.5L41W20H35" urn="urn:adsk.eagle:package:36104155/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X20X35mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P37.5L41W20H35"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P37.5L41W15H29" urn="urn:adsk.eagle:package:44344215/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X41X15X29mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P37.5L41W15H29"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-FTXH_P37.5L41W30H45" urn="urn:adsk.eagle:package:44344222/2" type="model">
+<description>&lt;B&gt;WCAP-FTXX Film Capacitors
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;PitchXLXWXH=37.5X42X30X45mm</description>
+<packageinstances>
+<packageinstance name="WCAP-FTXH_P37.5L41W30H45"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C">
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="1.175" y="3.38" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0.915" y="-5.075" size="1.4224" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.64261875" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.927859375" y1="0" x2="2.57048125" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WCAP-FTXH_P15" prefix="C">
+<description>&lt;b&gt;WCAP-FTXH THB X2-Capacitors&lt;BR&gt;
+THB X2-Capacitors (Temperature Humidity Bias)&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Product series for interference suppression
+&lt;BR&gt; For harsh enviromental conditions (THB: Temperature Humidity Bias)
+&lt;BR&gt; THB Test: 1000 h @ 85°C @ 85% r.h. with rated voltage applied
+&lt;BR&gt; Self-healing properties
+&lt;BR&gt; Certificates: ENEC 10 by VDE, cULus, CQC
+&lt;BR&gt; Safety class: X2
+&lt;BR&gt; Dielectric: Polypropylene
+&lt;BR&gt; Capacitance range: 33 nF ‒ 10 µF
+&lt;BR&gt; Voltage range (UR): 310 V(AC)
+&lt;BR&gt; Operating temperature: -40 °C up to + 110 °C
+&lt;BR&gt; Pitch: 15.0 / 22.5 / 27.5 / 37.5 mm
+&lt;BR&gt; Recommended soldering: Wave soldering
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications
+&lt;BR&gt; Mains Voltage Filter
+&lt;BR&gt; Interference suppression
+
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o693349v209%20family-wcap-ftxh-27.5x31x20x34.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o693349v209%20family-wcap-ftxh-27.5x31x20x34.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+        
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-FTXH/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WCAP-FTXH&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2024-05-17
+&lt;br&gt;2024(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_L18W10H15.8" package="WCAP-FTXH_P15L18W10H15.8">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104176/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414025005CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025005CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="15.8mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025005CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="19.23Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="390nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="10mm"/>
+</technology>
+<technology name="_890414025006CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025006CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="15.8mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025006CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="15.95Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="470nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="10mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L18W11.2H19.2" package="WCAP-FTXH_P15L18W11.2H19.2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104175/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414025010CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025010CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="19.2mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025010CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="13.39Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="560nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="11.2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L18W7.5H13.5" package="WCAP-FTXH_P15L18W7.5H13.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104173/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414025001CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025001CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="13.5mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025001CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="100nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="7.5mm"/>
+</technology>
+<technology name="_890414025002CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025002CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="13.5mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025002CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="150nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="7.5mm"/>
+</technology>
+<technology name="_890414025008CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025008CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="13.5mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025008CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="120nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="7.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L18W7H12.5" package="WCAP-FTXH_P15L18W7H12.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104174/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414025007CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025007CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="12.5mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025007CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="33nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="7mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L18W8.5H14.5" package="WCAP-FTXH_P15L18W8.5H14.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104172/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414025003CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025003CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="14.5mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025003CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="220nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+<technology name="_890414025009CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025009CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="14.5mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025009CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="270nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L18W9.5H15.5" package="WCAP-FTXH_P15L18W9.5H15.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104171/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414025004CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025004CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="15.5mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025004CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="330nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="9.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L18W10H18" package="WCAP-FTXH_P15L18W10H18">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44344221/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414025011CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025011CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="18mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025011CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="330nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="10mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L18W11H18.5" package="WCAP-FTXH_P15L18W11H18.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44344219/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414025013CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025013CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="18.5mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025013CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="270nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="11mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L18W12H20" package="WCAP-FTXH_P15L18W12H20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44344220/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414025012CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414025012CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="LENGTH" value="18mm"/>
+<attribute name="PART-NUMBER" value="890414025012CS"/>
+<attribute name="PITCH" value="15mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="400V/us"/>
+<attribute name="RISO" value="15.95Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="470nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="12mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-FTXH_P22.5" prefix="C">
+<description>&lt;b&gt;WCAP-FTXH THB X2-Capacitors&lt;BR&gt;
+THB X2-Capacitors (Temperature Humidity Bias)&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Product series for interference suppression
+&lt;BR&gt; For harsh enviromental conditions (THB: Temperature Humidity Bias)
+&lt;BR&gt; THB Test: 1000 h @ 85°C @ 85% r.h. with rated voltage applied
+&lt;BR&gt; Self-healing properties
+&lt;BR&gt; Certificates: ENEC 10 by VDE, cULus, CQC
+&lt;BR&gt; Safety class: X2
+&lt;BR&gt; Dielectric: Polypropylene
+&lt;BR&gt; Capacitance range: 33 nF ‒ 10 µF
+&lt;BR&gt; Voltage range (UR): 310 V(AC)
+&lt;BR&gt; Operating temperature: -40 °C up to + 110 °C
+&lt;BR&gt; Pitch: 15.0 / 22.5 / 27.5 / 37.5 mm
+&lt;BR&gt; Recommended soldering: Wave soldering
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications
+&lt;BR&gt; Mains Voltage Filter
+&lt;BR&gt; Interference suppression
+
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o693349v209%20family-wcap-ftxh-27.5x31x20x34.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o693349v209%20family-wcap-ftxh-27.5x31x20x34.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+        
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-FTXH/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WCAP-FTXH&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2024-05-17
+&lt;br&gt;2024(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_L26.5W10H19" package="WCAP-FTXH_P22.5L26.5W10H19">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104169/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414026004CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026004CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="19mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026004CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="13.39Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="560nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="10mm"/>
+</technology>
+<technology name="_890414026005CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026005CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="19mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026005CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="11.02Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="680nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="10mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L26.5W15.5H24.5" package="WCAP-FTXH_P22.5L26.5W15.5H24.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104166/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414026010CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026010CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="24.5mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026010CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="4.16Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1.8uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="15.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L26.5W14.5H24.5" package="WCAP-FTXH_P22.5L26.5W14.5H24.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104167/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414026009CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026009CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="24.5mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026009CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="5Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1.5uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="14.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L26.5W15H29.5" package="WCAP-FTXH_P22.5L26.5W15H29.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104165/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414026011CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026011CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="29.5mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026011CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="3.4Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="2.2uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="15mm"/>
+</technology>
+<technology name="_890414026013CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026013CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="29.5mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026013CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="6.25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1.2µF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="15mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L26.5W8.5H17" package="WCAP-FTXH_P22.5L26.5W8.5H17">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104164/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414026001CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026001CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="17mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026001CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="330nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+<technology name="_890414026002CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026002CS?ae"/>
+<attribute name="DF" value="0.1%"/>
+<attribute name="HEIGHT" value="17mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026002CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="19.23Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="390nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+<technology name="_890414026003CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026003CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="17mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026003CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="15.95Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="470nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="8.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L26W11H20" package="WCAP-FTXH_P22.5L26W11H20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104170/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414026006CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026006CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="LENGTH" value="26mm"/>
+<attribute name="PART-NUMBER" value="890414026006CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="9.14Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="820nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="11mm"/>
+</technology>
+<technology name="_890414026007CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026007CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="LENGTH" value="26mm"/>
+<attribute name="PART-NUMBER" value="890414026007CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="7.5Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="11mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L26.5W12H22" package="WCAP-FTXH_P22.5L26.5W12H22">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104168/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414026008CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026008CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="22mm"/>
+<attribute name="LENGTH" value="26.5mm"/>
+<attribute name="PART-NUMBER" value="890414026008CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="6.25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1.2uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="12mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L26W12.5H22" package="WCAP-FTXH_P22.5L26W12.5H22">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44344223/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414026014CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414026014CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="22mm"/>
+<attribute name="LENGTH" value="26mm"/>
+<attribute name="PART-NUMBER" value="890414026014CS"/>
+<attribute name="PITCH" value="22.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="200V/us"/>
+<attribute name="RISO" value="7.5Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1µF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="12.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-FTXH_P27.5" prefix="C">
+<description>&lt;b&gt;WCAP-FTXH THB X2-Capacitors&lt;BR&gt;
+THB X2-Capacitors (Temperature Humidity Bias)&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Product series for interference suppression
+&lt;BR&gt; For harsh enviromental conditions (THB: Temperature Humidity Bias)
+&lt;BR&gt; THB Test: 1000 h @ 85°C @ 85% r.h. with rated voltage applied
+&lt;BR&gt; Self-healing properties
+&lt;BR&gt; Certificates: ENEC 10 by VDE, cULus, CQC
+&lt;BR&gt; Safety class: X2
+&lt;BR&gt; Dielectric: Polypropylene
+&lt;BR&gt; Capacitance range: 33 nF ‒ 10 µF
+&lt;BR&gt; Voltage range (UR): 310 V(AC)
+&lt;BR&gt; Operating temperature: -40 °C up to + 110 °C
+&lt;BR&gt; Pitch: 15.0 / 22.5 / 27.5 / 37.5 mm
+&lt;BR&gt; Recommended soldering: Wave soldering
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications
+&lt;BR&gt; Mains Voltage Filter
+&lt;BR&gt; Interference suppression
+
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o693349v209%20family-wcap-ftxh-27.5x31x20x34.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o693349v209%20family-wcap-ftxh-27.5x31x20x34.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+        
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-FTXH/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WCAP-FTXH&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2024-05-17
+&lt;br&gt;2024(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_L31W11H20" package="WCAP-FTXH_P27.5L31W11H20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104163/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414027005CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027005CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="LENGTH" value="31mm"/>
+<attribute name="PART-NUMBER" value="890414027005CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="11.02Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="680nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="11mm"/>
+</technology>
+<technology name="_890414027006CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027006CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="LENGTH" value="31mm"/>
+<attribute name="PART-NUMBER" value="890414027006CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="9.14Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="820nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="11mm"/>
+</technology>
+<technology name="_890414027007CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027007CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="LENGTH" value="31mm"/>
+<attribute name="PART-NUMBER" value="890414027007CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="7.5Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="11mm"/>
+</technology>
+<technology name="_890414027008CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027008CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="LENGTH" value="31mm"/>
+<attribute name="PART-NUMBER" value="890414027008CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="6.25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1.2uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="11mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L31W14H25" package="WCAP-FTXH_P27.5L31W14H25">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104162/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414027001CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027001CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="25mm"/>
+<attribute name="LENGTH" value="31mm"/>
+<attribute name="PART-NUMBER" value="890414027001CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="3.4Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="2.2uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="14mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L32W13H22" package="WCAP-FTXH_P27.5L32W13H22">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104160/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414027009CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027009CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="22mm"/>
+<attribute name="LENGTH" value="32mm"/>
+<attribute name="PART-NUMBER" value="890414027009CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="5Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1.5uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="13mm"/>
+</technology>
+<technology name="_890414027010CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027010CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="22mm"/>
+<attribute name="LENGTH" value="32mm"/>
+<attribute name="PART-NUMBER" value="890414027010CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="4.16Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1.8uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="13mm"/>
+</technology>
+<technology name="_890414027012CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027012CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="22mm"/>
+<attribute name="LENGTH" value="32mm"/>
+<attribute name="PART-NUMBER" value="890414027012CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="7.5Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1µF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="13mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L32W16H30" package="WCAP-FTXH_P27.5L32W16H30">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104159/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414027002CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027002CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="30mm"/>
+<attribute name="LENGTH" value="32mm"/>
+<attribute name="PART-NUMBER" value="890414027002CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="2.27Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="3.3uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="16mm"/>
+</technology>
+<technology name="_890414027011CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027011CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="30mm"/>
+<attribute name="LENGTH" value="32mm"/>
+<attribute name="PART-NUMBER" value="890414027011CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="3.4Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="2.2µF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="16mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L32W20H34" package="WCAP-FTXH_P27.5L32W20H34">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104158/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414027003CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027003CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="34mm"/>
+<attribute name="LENGTH" value="32mm"/>
+<attribute name="PART-NUMBER" value="890414027003CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="1.59Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="4.7uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="20mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L32W9H18" package="WCAP-FTXH_P27.5L32W9H18">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104161/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414027004CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027004CS?ae"/>
+<attribute name="DF" value="0.2%"/>
+<attribute name="HEIGHT" value="18mm"/>
+<attribute name="LENGTH" value="32mm"/>
+<attribute name="PART-NUMBER" value="890414027004CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="13.39Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="560nF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="9mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L32W12H21" package="WCAP-FTXH_P27.5L32W12H21">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44344217/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414027013CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027013CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="21mm"/>
+<attribute name="LENGTH" value="32mm"/>
+<attribute name="PART-NUMBER" value="890414027013CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="6.25Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1.2µF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="12mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L32W14H28" package="WCAP-FTXH_P27.5L32W14H28">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44344216/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414027014CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414027014CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="28mm"/>
+<attribute name="LENGTH" value="32mm"/>
+<attribute name="PART-NUMBER" value="890414027014CS"/>
+<attribute name="PITCH" value="27.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="150V/us"/>
+<attribute name="RISO" value="4.16Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="1.8µF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="14mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-FTXH_P37.5" prefix="C">
+<description>&lt;b&gt;WCAP-FTXH THB X2-Capacitors&lt;BR&gt;
+THB X2-Capacitors (Temperature Humidity Bias)&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Product series for interference suppression
+&lt;BR&gt; For harsh enviromental conditions (THB: Temperature Humidity Bias)
+&lt;BR&gt; THB Test: 1000 h @ 85°C @ 85% r.h. with rated voltage applied
+&lt;BR&gt; Self-healing properties
+&lt;BR&gt; Certificates: ENEC 10 by VDE, cULus, CQC
+&lt;BR&gt; Safety class: X2
+&lt;BR&gt; Dielectric: Polypropylene
+&lt;BR&gt; Capacitance range: 33 nF ‒ 10 µF
+&lt;BR&gt; Voltage range (UR): 310 V(AC)
+&lt;BR&gt; Operating temperature: -40 °C up to + 110 °C
+&lt;BR&gt; Pitch: 15.0 / 22.5 / 27.5 / 37.5 mm
+&lt;BR&gt; Recommended soldering: Wave soldering
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Safety applications
+&lt;BR&gt; Mains Voltage Filter
+&lt;BR&gt; Interference suppression
+
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o693349v209%20family-wcap-ftxh-27.5x31x20x34.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o693349v209%20family-wcap-ftxh-27.5x31x20x34.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+        
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-FTXH/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WCAP-FTXH&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2024-05-17
+&lt;br&gt;2024(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_L41W17H31" package="WCAP-FTXH_P37.5L41W17H31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104157/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414028001CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414028001CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="31mm"/>
+<attribute name="LENGTH" value="41mm"/>
+<attribute name="PART-NUMBER" value="890414028001CS"/>
+<attribute name="PITCH" value="37.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="100V/us"/>
+<attribute name="RISO" value="1.59Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="4.7uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="17mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L41W20H35" package="WCAP-FTXH_P37.5L41W20H35">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104155/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414028003CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414028003CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="35mm"/>
+<attribute name="LENGTH" value="41mm"/>
+<attribute name="PART-NUMBER" value="890414028003CS"/>
+<attribute name="PITCH" value="37.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="100V/us"/>
+<attribute name="RISO" value="1.1Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="6.8uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="20mm"/>
+</technology>
+<technology name="_890414028006CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414028006CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="35mm"/>
+<attribute name="LENGTH" value="41mm"/>
+<attribute name="PART-NUMBER" value="890414028006CS"/>
+<attribute name="PITCH" value="37.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="100V/us"/>
+<attribute name="RISO" value="1.59Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="4.7µF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="20mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L41W26H37" package="WCAP-FTXH_P37.5L41W26H37">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104154/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414028004CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414028004CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="37mm"/>
+<attribute name="LENGTH" value="41mm"/>
+<attribute name="PART-NUMBER" value="890414028004CS"/>
+<attribute name="PITCH" value="37.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="100V/us"/>
+<attribute name="RISO" value="914.63Mohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="8.2uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="26mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L41W26H41" package="WCAP-FTXH_P37.5L41W26H41">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36104156/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414028002CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414028002CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="41mm"/>
+<attribute name="LENGTH" value="41mm"/>
+<attribute name="PART-NUMBER" value="890414028002CS"/>
+<attribute name="PITCH" value="37.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="100V/us"/>
+<attribute name="RISO" value="750Mohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="10uF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="26mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L41W15H29" package="WCAP-FTXH_P37.5L41W15H29">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44344215/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414028005CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414028005CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="29mm"/>
+<attribute name="LENGTH" value="41mm"/>
+<attribute name="PART-NUMBER" value="890414028005CS"/>
+<attribute name="PITCH" value="37.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="100V/us"/>
+<attribute name="RISO" value="2.27Gohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="3.3µF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="15mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L42W30H45" package="WCAP-FTXH_P37.5L41W30H45">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44344222/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_890414028007CS">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/890414028007CS?ae"/>
+<attribute name="DF" value="0.3%"/>
+<attribute name="HEIGHT" value="45mm"/>
+<attribute name="LENGTH" value="42mm"/>
+<attribute name="PART-NUMBER" value="890414028007CS"/>
+<attribute name="PITCH" value="37.5mm"/>
+<attribute name="RATE-OF-VOLTAGE-RISE" value="100V/us"/>
+<attribute name="RISO" value="750Mohm"/>
+<attribute name="SAFETY-CLASS" value="X2"/>
+<attribute name="VALUE" value="10µF"/>
+<attribute name="VR" value="310V(AC)"/>
+<attribute name="WIDTH" value="30mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

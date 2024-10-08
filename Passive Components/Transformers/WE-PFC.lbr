@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - PFC Chokes - WE-PFC&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-PFC_RM10" urn="urn:adsk.eagle:footprint:12907504/1">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size RM10, THT 12Pin &lt;BR&gt;</description>
+<pad name="9" x="1.795" y="-8.98" drill="1" rot="R315"/>
+<pad name="3" x="-1.795" y="8.98" drill="1" rot="R315"/>
+<pad name="4" x="-1.795" y="-8.98" drill="1" rot="R315"/>
+<pad name="10" x="1.795" y="8.98" drill="1" rot="R315"/>
+<pad name="11" x="3.59" y="10.775" drill="1" rot="R315"/>
+<pad name="12" x="1.795" y="12.57" drill="1" rot="R315"/>
+<pad name="2" x="-3.59" y="10.775" drill="1" rot="R315"/>
+<pad name="1" x="-1.795" y="12.57" drill="1" rot="R315"/>
+<pad name="8" x="3.59" y="-10.775" drill="1" rot="R315"/>
+<pad name="7" x="1.795" y="-12.57" drill="1" rot="R315"/>
+<pad name="5" x="-3.59" y="-10.775" drill="1" rot="R315"/>
+<pad name="6" x="-1.795" y="-12.57" drill="1" rot="R315"/>
+<pad name="T2" x="14.365" y="0" drill="1.3" rot="R315"/>
+<pad name="T1" x="-14.365" y="0" drill="1.3" rot="R315"/>
+<text x="-0.19500625" y="15.838409375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.876340625" y="-16.673225" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.76" y="10.72" size="0.8128" layer="48">1</text>
+<text x="-4.25" y="8.5" size="0.8128" layer="48">2</text>
+<text x="-1.3" y="7.3" size="0.8128" layer="48">3</text>
+<text x="-0.02" y="7.33" size="0.8128" layer="48">10</text>
+<text x="3.25" y="8.5" size="0.8128" layer="48">11</text>
+<text x="1.02" y="10.71" size="0.8128" layer="48">12</text>
+<text x="-1" y="-7.77" size="0.8128" layer="48">4</text>
+<text x="-3.87" y="-8.98" size="0.8128" layer="48">5</text>
+<text x="-1.37" y="-11.22" size="0.8128" layer="48">6</text>
+<text x="1.04" y="-11.29" size="0.8128" layer="48">7</text>
+<text x="3.35" y="-8.93" size="0.8128" layer="48">8</text>
+<text x="1.12" y="-7.68" size="0.8128" layer="48">9</text>
+<wire x1="-13.825" y1="3.5" x2="-13.825" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-13.825" y1="-2.25" x2="-13.825" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-13.825" y1="-3.5" x2="-7.8" y2="-9.3" width="0.1" layer="51"/>
+<wire x1="-7.8" y1="-9.3" x2="-5.23" y2="-6.75" width="0.1" layer="51"/>
+<wire x1="-5.23" y1="-6.75" x2="5.23" y2="-6.75" width="0.1" layer="51"/>
+<wire x1="5.23" y1="-6.75" x2="7.8" y2="-9.3" width="0.1" layer="51"/>
+<wire x1="7.8" y1="-9.3" x2="13.825" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="13.825" y1="-3.5" x2="13.825" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="13.825" y1="2.25" x2="13.825" y2="3.5" width="0.1" layer="51"/>
+<wire x1="13.825" y1="3.5" x2="7.8" y2="9.3" width="0.1" layer="51"/>
+<wire x1="7.8" y1="9.3" x2="5.23" y2="6.75" width="0.1" layer="51"/>
+<wire x1="5.23" y1="6.75" x2="-5.23" y2="6.75" width="0.1" layer="51"/>
+<wire x1="-5.23" y1="6.75" x2="-7.8" y2="9.3" width="0.1" layer="51"/>
+<wire x1="-7.8" y1="9.3" x2="-13.825" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-13.825" y1="2.25" x2="-15.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="2.25" x2="-15.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="-2.25" x2="-13.825" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="15.5" y1="2.25" x2="15.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="15.5" y1="-2.25" x2="13.825" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="15.5" y1="2.25" x2="13.825" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-13.8" y1="2.25" x2="-11" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-11" y1="2.25" x2="-11" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-11" y1="-2.25" x2="-13.825" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-12.03" y1="5.23" x2="-10.1" y2="3.575" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="3.575" x2="-10.12" y2="-3.545" width="0.1" layer="51"/>
+<wire x1="-10.12" y1="-3.545" x2="-12.03" y2="-5.23" width="0.1" layer="51"/>
+<wire x1="13.825" y1="2.25" x2="11" y2="2.25" width="0.1" layer="51"/>
+<wire x1="11" y1="2.25" x2="11" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="11" y1="-2.25" x2="13.825" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="10.1" y1="3.575" x2="10.1" y2="-3.575" width="0.1" layer="51"/>
+<wire x1="10.1" y1="-3.575" x2="12.03" y2="-5.19" width="0.1" layer="51"/>
+<wire x1="12.03" y1="5.23" x2="10.1" y2="3.575" width="0.1" layer="51"/>
+<wire x1="-6.55" y1="8.13" x2="-6.22" y2="8.39" width="0.1" layer="51"/>
+<wire x1="-6.22" y1="8.39" x2="-5.68" y2="8.79" width="0.1" layer="51"/>
+<wire x1="-5.68" y1="8.79" x2="-5.08" y2="9.17" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="9.17" x2="-4.52" y2="9.49" width="0.1" layer="51"/>
+<wire x1="-4.52" y1="9.49" x2="-3.89" y2="9.77" width="0.1" layer="51"/>
+<wire x1="-3.89" y1="9.77" x2="-3.45" y2="9.94" width="0.1" layer="51"/>
+<wire x1="-3.45" y1="9.94" x2="-2.89" y2="10.18" width="0.1" layer="51"/>
+<wire x1="-2.89" y1="10.18" x2="-2.17" y2="10.34" width="0.1" layer="51"/>
+<wire x1="-2.17" y1="10.34" x2="-1.08" y2="10.56" width="0.1" layer="51"/>
+<wire x1="-1.08" y1="10.56" x2="-0.11" y2="10.62" width="0.1" layer="51"/>
+<wire x1="-0.11" y1="10.62" x2="1.25" y2="10.58" width="0.1" layer="51"/>
+<wire x1="1.25" y1="10.58" x2="2.21" y2="10.45" width="0.1" layer="51"/>
+<wire x1="2.21" y1="10.45" x2="3.45" y2="10.12" width="0.1" layer="51"/>
+<wire x1="3.45" y1="10.12" x2="4.62" y2="9.68" width="0.1" layer="51"/>
+<wire x1="4.62" y1="9.68" x2="5.46" y2="9.26" width="0.1" layer="51"/>
+<wire x1="5.46" y1="9.26" x2="6.37" y2="8.67" width="0.1" layer="51"/>
+<wire x1="6.37" y1="8.67" x2="6.84" y2="8.34" width="0.1" layer="51"/>
+<wire x1="-6.43" y1="-7.97" x2="-5.99" y2="-8.3" width="0.1" layer="51"/>
+<wire x1="-5.99" y1="-8.3" x2="-5.5" y2="-8.64" width="0.1" layer="51"/>
+<wire x1="-5.5" y1="-8.64" x2="-5.06" y2="-8.92" width="0.1" layer="51"/>
+<wire x1="-5.06" y1="-8.92" x2="-4.35" y2="-9.3" width="0.1" layer="51"/>
+<wire x1="-4.35" y1="-9.3" x2="-3.94" y2="-9.49" width="0.1" layer="51"/>
+<wire x1="-3.94" y1="-9.49" x2="-3.51" y2="-9.67" width="0.1" layer="51"/>
+<wire x1="-3.51" y1="-9.67" x2="-3.02" y2="-9.84" width="0.1" layer="51"/>
+<wire x1="-3.02" y1="-9.84" x2="-2.47" y2="-10.01" width="0.1" layer="51"/>
+<wire x1="-2.47" y1="-10.01" x2="-1.96" y2="-10.14" width="0.1" layer="51"/>
+<wire x1="-1.96" y1="-10.14" x2="-1.37" y2="-10.24" width="0.1" layer="51"/>
+<wire x1="-1.37" y1="-10.24" x2="-0.84" y2="-10.31" width="0.1" layer="51"/>
+<wire x1="-0.84" y1="-10.31" x2="-0.32" y2="-10.35" width="0.1" layer="51"/>
+<wire x1="-0.32" y1="-10.35" x2="0.11" y2="-10.37" width="0.1" layer="51"/>
+<wire x1="0.11" y1="-10.37" x2="0.68" y2="-10.36" width="0.1" layer="51"/>
+<wire x1="0.68" y1="-10.36" x2="1.32" y2="-10.32" width="0.1" layer="51"/>
+<wire x1="1.32" y1="-10.32" x2="1.96" y2="-10.24" width="0.1" layer="51"/>
+<wire x1="1.96" y1="-10.24" x2="2.66" y2="-10.1" width="0.1" layer="51"/>
+<wire x1="2.66" y1="-10.1" x2="3.43" y2="-9.88" width="0.1" layer="51"/>
+<wire x1="3.43" y1="-9.88" x2="4.07" y2="-9.66" width="0.1" layer="51"/>
+<wire x1="4.07" y1="-9.66" x2="4.9" y2="-9.3" width="0.1" layer="51"/>
+<wire x1="4.9" y1="-9.3" x2="5.61" y2="-8.92" width="0.1" layer="51"/>
+<wire x1="5.61" y1="-8.92" x2="6.32" y2="-8.46" width="0.1" layer="51"/>
+<wire x1="6.32" y1="-8.46" x2="6.68" y2="-8.19" width="0.1" layer="51"/>
+<wire x1="-5.25" y1="9.06" x2="-5.25" y2="12.9" width="0.1" layer="51"/>
+<wire x1="-5.25" y1="12.9" x2="-3.15" y2="12.9" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="12.9" x2="-3.15" y2="14.5" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="14.5" x2="-0.55" y2="14.5" width="0.1" layer="51"/>
+<wire x1="-0.55" y1="14.5" x2="-0.55" y2="10.61" width="0.1" layer="51"/>
+<wire x1="5.25" y1="9.36" x2="5.25" y2="12.9" width="0.1" layer="51"/>
+<wire x1="5.25" y1="12.9" x2="3.15" y2="12.9" width="0.1" layer="51"/>
+<wire x1="3.15" y1="12.9" x2="3.15" y2="14.5" width="0.1" layer="51"/>
+<wire x1="3.15" y1="14.5" x2="0.55" y2="14.5" width="0.1" layer="51"/>
+<wire x1="0.55" y1="14.5" x2="0.55" y2="10.61" width="0.1" layer="51"/>
+<wire x1="-5.25" y1="-8.82" x2="-5.25" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="-5.25" y1="-12.9" x2="-3.15" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="-12.9" x2="-3.15" y2="-14.5" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="-14.5" x2="-0.55" y2="-14.5" width="0.1" layer="51"/>
+<wire x1="-0.55" y1="-14.5" x2="-0.55" y2="-10.33" width="0.1" layer="51"/>
+<wire x1="5.25" y1="-9.12" x2="5.25" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="5.25" y1="-12.9" x2="3.15" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-12.9" x2="3.15" y2="-14.5" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-14.5" x2="0.55" y2="-14.5" width="0.1" layer="51"/>
+<wire x1="0.55" y1="-14.5" x2="0.55" y2="-10.41" width="0.1" layer="51"/>
+<wire x1="-15.6" y1="2.35" x2="-13.925" y2="2.35" width="0.2" layer="21"/>
+<wire x1="-13.925" y1="2.35" x2="-13.925" y2="3.5" width="0.2" layer="21"/>
+<wire x1="-13.925" y1="3.5" x2="-7.8" y2="9.45" width="0.2" layer="21"/>
+<wire x1="-7.8" y1="9.45" x2="-6.56" y2="8.23" width="0.2" layer="21"/>
+<wire x1="-5.35" y1="9.12" x2="-5.35" y2="13" width="0.2" layer="21"/>
+<wire x1="-5.35" y1="13" x2="-3.25" y2="13" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="13" x2="-3.25" y2="14.6" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="14.6" x2="-0.45" y2="14.6" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="14.6" x2="-0.45" y2="10.7" width="0.2" layer="21"/>
+<wire x1="0.45" y1="10.7" x2="0.45" y2="14.6" width="0.2" layer="21"/>
+<wire x1="0.45" y1="14.6" x2="3.25" y2="14.6" width="0.2" layer="21"/>
+<wire x1="3.25" y1="14.6" x2="3.25" y2="13" width="0.2" layer="21"/>
+<wire x1="3.25" y1="13" x2="5.35" y2="13" width="0.2" layer="21"/>
+<wire x1="5.35" y1="13" x2="5.35" y2="9.4" width="0.2" layer="21"/>
+<wire x1="5.35" y1="9.4" x2="6.85" y2="8.5" width="0.2" layer="21"/>
+<wire x1="6.85" y1="8.5" x2="7.8" y2="9.45" width="0.2" layer="21"/>
+<wire x1="7.8" y1="9.45" x2="13.925" y2="3.5" width="0.2" layer="21"/>
+<wire x1="13.925" y1="3.5" x2="13.925" y2="2.35" width="0.2" layer="21"/>
+<wire x1="13.925" y1="2.35" x2="15.6" y2="2.35" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-2.35" x2="13.925" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="13.925" y1="-2.35" x2="13.925" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="13.925" y1="-3.5" x2="7.8" y2="-9.45" width="0.2" layer="21"/>
+<wire x1="7.8" y1="-9.45" x2="6.7" y2="-8.35" width="0.2" layer="21"/>
+<wire x1="5.35" y1="-9.2" x2="5.35" y2="-13" width="0.2" layer="21"/>
+<wire x1="5.35" y1="-13" x2="3.25" y2="-13" width="0.2" layer="21"/>
+<wire x1="3.25" y1="-13" x2="3.25" y2="-14.6" width="0.2" layer="21"/>
+<wire x1="3.25" y1="-14.6" x2="0.45" y2="-14.6" width="0.2" layer="21"/>
+<wire x1="0.45" y1="-14.6" x2="0.45" y2="-10.46" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="-10.44" x2="-0.45" y2="-14.6" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="-14.6" x2="-3.25" y2="-14.6" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="-14.6" x2="-3.25" y2="-13" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="-13" x2="-5.35" y2="-13" width="0.2" layer="21"/>
+<wire x1="-5.35" y1="-13" x2="-5.36" y2="-8.86" width="0.2" layer="21"/>
+<wire x1="-5.36" y1="-8.86" x2="-6.43" y2="-8.1" width="0.2" layer="21"/>
+<wire x1="-6.43" y1="-8.1" x2="-7.8" y2="-9.45" width="0.2" layer="21"/>
+<wire x1="-7.8" y1="-9.45" x2="-13.925" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="-13.925" y1="-3.5" x2="-13.925" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="-13.925" y1="-2.35" x2="-15.6" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="10.69" x2="-0.23" y2="10.72" width="0.2" layer="21"/>
+<wire x1="-0.23" y1="10.72" x2="0.04" y2="10.73" width="0.2" layer="21"/>
+<wire x1="0.04" y1="10.73" x2="0.45" y2="10.7" width="0.2" layer="21"/>
+<wire x1="-6.56" y1="8.23" x2="-6.36" y2="8.4" width="0.2" layer="21"/>
+<wire x1="-6.36" y1="8.4" x2="-6.09" y2="8.61" width="0.2" layer="21"/>
+<wire x1="-6.09" y1="8.61" x2="-5.78" y2="8.83" width="0.2" layer="21"/>
+<wire x1="-5.78" y1="8.83" x2="-5.35" y2="9.12" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="-10.43" x2="-0.29" y2="-10.45" width="0.2" layer="21"/>
+<wire x1="-0.29" y1="-10.45" x2="0" y2="-10.46" width="0.2" layer="21"/>
+<wire x1="0" y1="-10.46" x2="0.45" y2="-10.46" width="0.2" layer="21"/>
+<wire x1="6.65" y1="-8.34" x2="6.5" y2="-8.46" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-8.46" x2="6.17" y2="-8.68" width="0.2" layer="21"/>
+<wire x1="6.17" y1="-8.68" x2="5.65" y2="-9.02" width="0.2" layer="21"/>
+<wire x1="5.65" y1="-9.02" x2="5.3" y2="-9.18" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-2.3" x2="15.6" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="15.6" y1="0.5" x2="15.6" y2="2.35" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="0.5" x2="-15.6" y2="2.35" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="-0.5" x2="-15.6" y2="-2.35" width="0.2" layer="21"/>
+<circle x="-3.2" y="12.5" radius="0.1" width="0.2" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="3.45" y="14.8"/>
+<vertex x="3.45" y="13.2"/>
+<vertex x="5.55" y="13.2"/>
+<vertex x="5.55" y="9.51"/>
+<vertex x="6.82" y="8.72"/>
+<vertex x="7.8" y="9.7"/>
+<vertex x="14.125" y="3.6"/>
+<vertex x="14.125" y="2.55"/>
+<vertex x="15.8" y="2.55"/>
+<vertex x="15.8" y="-2.55"/>
+<vertex x="14.125" y="-2.55"/>
+<vertex x="14.125" y="-3.6"/>
+<vertex x="7.8" y="-9.7"/>
+<vertex x="6.68" y="-8.6"/>
+<vertex x="5.55" y="-9.31"/>
+<vertex x="5.55" y="-13.2"/>
+<vertex x="3.45" y="-13.2"/>
+<vertex x="3.45" y="-14.8"/>
+<vertex x="-3.45" y="-14.8"/>
+<vertex x="-3.45" y="-13.2"/>
+<vertex x="-5.55" y="-13.2"/>
+<vertex x="-5.55" y="-8.95"/>
+<vertex x="-6.41" y="-8.33"/>
+<vertex x="-7.8" y="-9.7"/>
+<vertex x="-14.125" y="-3.6"/>
+<vertex x="-14.125" y="-2.55"/>
+<vertex x="-15.8" y="-2.55"/>
+<vertex x="-15.8" y="2.55"/>
+<vertex x="-14.125" y="2.55"/>
+<vertex x="-14.125" y="3.6"/>
+<vertex x="-7.8" y="9.7"/>
+<vertex x="-6.56" y="8.52"/>
+<vertex x="-5.55" y="9.23"/>
+<vertex x="-5.55" y="13.2"/>
+<vertex x="-3.45" y="13.2"/>
+<vertex x="-3.45" y="14.8"/>
+</polygon>
+</package>
+<package name="WE-PFC_EFD30" urn="urn:adsk.eagle:footprint:12907500/1">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EFD30, THT 11Pin &lt;BR&gt;</description>
+<wire x1="-15.5" y1="-15" x2="15.5" y2="-15" width="0.127" layer="51"/>
+<wire x1="15.5" y1="-15" x2="15.5" y2="15" width="0.127" layer="51"/>
+<wire x1="15.5" y1="15" x2="-15.5" y2="15" width="0.127" layer="51"/>
+<wire x1="-15.5" y1="15" x2="-15.5" y2="-15" width="0.127" layer="51"/>
+<wire x1="-15.6" y1="15.1" x2="15.6" y2="15.1" width="0.2" layer="21"/>
+<wire x1="15.6" y1="15.1" x2="15.6" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-15.1" x2="-15.6" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="-15.1" x2="-15.6" y2="15.1" width="0.2" layer="21"/>
+<pad name="10" x="13.75" y="2.5" drill="1.32"/>
+<pad name="11" x="13.75" y="7.5" drill="1.32"/>
+<pad name="9" x="13.75" y="-2.5" drill="1.32"/>
+<pad name="4" x="-13.75" y="-2.5" drill="1.32"/>
+<pad name="2" x="-13.75" y="7.5" drill="1.32"/>
+<pad name="1" x="-13.75" y="12.5" drill="1.32"/>
+<pad name="5" x="-13.75" y="-7.5" drill="1.32"/>
+<pad name="8" x="13.75" y="-7.5" drill="1.32"/>
+<pad name="12" x="13.75" y="12.5" drill="1.32"/>
+<pad name="6" x="-13.75" y="-12.5" drill="1.32"/>
+<pad name="7" x="13.75" y="-12.5" drill="1.32"/>
+<text x="-0.66" y="16.18" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.69" y="-17.15" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-12.05" y="11.9" size="1.27" layer="48">1</text>
+<text x="-12.05" y="-13.2" size="1.27" layer="48">6</text>
+<text x="11.55" y="-13.35" size="1.27" layer="48">7</text>
+<text x="10.5" y="11.75" size="1.27" layer="48">12</text>
+<polygon width="0.1" layer="39">
+<vertex x="15.85" y="15.3"/>
+<vertex x="15.85" y="-15.3"/>
+<vertex x="-15.85" y="-15.3"/>
+<vertex x="-15.85" y="15.3"/>
+</polygon>
+<circle x="-12.2" y="12.6" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-PFC_EE20/10/6" urn="urn:adsk.eagle:footprint:12907505/1">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EE20/10/6, THT 10Pin &lt;BR&gt;</description>
+<wire x1="11" y1="11.5" x2="-11" y2="11.5" width="0.1" layer="51"/>
+<wire x1="11" y1="-11.5" x2="-11" y2="-11.5" width="0.1" layer="51"/>
+<wire x1="11" y1="-11.5" x2="11" y2="11.5" width="0.1" layer="51"/>
+<wire x1="-11" y1="-11.5" x2="-11" y2="11.5" width="0.1" layer="51"/>
+<wire x1="11.1" y1="-11.6" x2="-11.1" y2="-11.6" width="0.2" layer="21"/>
+<wire x1="-11.1" y1="-11.6" x2="-11.1" y2="11.6" width="0.2" layer="21"/>
+<wire x1="-11.1" y1="11.6" x2="11.1" y2="11.6" width="0.2" layer="21"/>
+<wire x1="11.1" y1="11.6" x2="11.1" y2="-11.6" width="0.2" layer="21"/>
+<pad name="6" x="7.62" y="-7.62" drill="1.2" rot="R180"/>
+<pad name="5" x="-7.62" y="-7.62" drill="1.2" rot="R180"/>
+<pad name="1" x="-7.62" y="7.62" drill="1.2" rot="R180"/>
+<pad name="10" x="7.62" y="7.62" drill="1.2" rot="R180"/>
+<pad name="4" x="-7.62" y="-3.81" drill="1.2" rot="R180"/>
+<pad name="7" x="7.62" y="-3.81" drill="1.2" rot="R180"/>
+<pad name="9" x="7.62" y="3.81" drill="1.2" rot="R180"/>
+<pad name="2" x="-7.62" y="3.81" drill="1.2" rot="R180"/>
+<pad name="3" x="-7.62" y="0" drill="1.2" rot="R180"/>
+<pad name="8" x="7.62" y="0" drill="1.2" rot="R180"/>
+<text x="0.7" y="12.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-13.6" size="1.27" layer="27">&gt;VALUE</text>
+<text x="5.5" y="-8.4" size="1.27" layer="48">6</text>
+<text x="4.25" y="6.95" size="1.27" layer="48">10</text>
+<text x="-6.15" y="-8.3" size="1.27" layer="48">5</text>
+<text x="-5.8" y="6.9" size="1.27" layer="48">1</text>
+<polygon width="0.1" layer="39">
+<vertex x="11.3" y="-11.8"/>
+<vertex x="-11.3" y="-11.8"/>
+<vertex x="-11.3" y="11.8"/>
+<vertex x="11.3" y="11.8"/>
+</polygon>
+<circle x="-6.2" y="7.7" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-PFC_RM14" urn="urn:adsk.eagle:footprint:12907502/1">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size RM14, THT 12Pin &lt;BR&gt;</description>
+<pad name="1" x="-3.59" y="19.575" drill="1.3" rot="R315"/>
+<pad name="10" x="3.59" y="12.57" drill="1.3" rot="R315"/>
+<pad name="11" x="7.185" y="16.165" drill="1.3" rot="R315"/>
+<pad name="12" x="3.59" y="19.575" drill="1.3" rot="R315"/>
+<pad name="3" x="-3.59" y="12.57" drill="1.3" rot="R315"/>
+<pad name="2" x="-7.185" y="16.165" drill="1.3" rot="R315"/>
+<pad name="5" x="-7.185" y="-16.165" drill="1.3" rot="R315"/>
+<pad name="4" x="-3.59" y="-12.57" drill="1.3" rot="R315"/>
+<pad name="9" x="3.59" y="-12.57" drill="1.3" rot="R315"/>
+<pad name="8" x="7.185" y="-16.165" drill="1.3" rot="R315"/>
+<pad name="7" x="3.59" y="-19.575" drill="1.3" rot="R315"/>
+<pad name="6" x="-3.59" y="-19.575" drill="1.3" rot="R315"/>
+<pad name="T2" x="-23.35" y="-3.59" drill="1.5" rot="R315"/>
+<pad name="T1" x="-23.35" y="3.59" drill="1.5" rot="R315"/>
+<pad name="T3" x="23.35" y="-3.59" drill="1.5" rot="R315"/>
+<pad name="T4" x="23.35" y="3.59" drill="1.5" rot="R315"/>
+<text x="-0.092275" y="22.532075" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.4157" y="-23.762346875" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4.14" y="16.79" size="1.27" layer="48">1</text>
+<text x="-7.4" y="13.46" size="1.27" layer="48">2</text>
+<text x="-5.95" y="11.28" size="1.27" layer="48">3</text>
+<text x="4.83" y="10.95" size="1.27" layer="48">10</text>
+<text x="6.23" y="13.49" size="1.27" layer="48">11</text>
+<text x="2.68" y="16.81" size="1.27" layer="48">12</text>
+<text x="-5.09" y="-10.98" size="1.27" layer="48">4</text>
+<text x="-7.43" y="-14.44" size="1.27" layer="48">5</text>
+<text x="-3.97" y="-17.63" size="1.27" layer="48">6</text>
+<text x="3.36" y="-17.77" size="1.27" layer="48">7</text>
+<text x="7.01" y="-14.35" size="1.27" layer="48">8</text>
+<text x="5.14" y="-11.01" size="1.27" layer="48">9</text>
+<wire x1="-24" y1="2.5" x2="-20.65" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-20.65" y1="2.5" x2="-16.625" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-16.625" y1="2.5" x2="-16.625" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-16.625" y1="-2.5" x2="-20.65" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-20.65" y1="-2.5" x2="-24" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-24" y1="-2.5" x2="-24" y2="2.5" width="0.1" layer="51"/>
+<wire x1="16.625" y1="2.5" x2="20.65" y2="2.5" width="0.1" layer="51"/>
+<wire x1="20.65" y1="2.5" x2="24" y2="2.5" width="0.1" layer="51"/>
+<wire x1="24" y1="2.5" x2="24" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="24" y1="-2.5" x2="20.65" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="20.65" y1="-2.5" x2="16.625" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="16.625" y1="-2.5" x2="16.625" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-20.65" y1="3.5" x2="-10.595" y2="13.43" width="0.1" layer="51"/>
+<wire x1="-10.595" y1="13.43" x2="-6.545" y2="9.5" width="0.1" layer="51"/>
+<wire x1="-6.545" y1="9.5" x2="6.545" y2="9.5" width="0.1" layer="51"/>
+<wire x1="6.545" y1="9.5" x2="10.595" y2="13.43" width="0.1" layer="51"/>
+<wire x1="10.595" y1="13.43" x2="20.65" y2="3.5" width="0.1" layer="51"/>
+<wire x1="20.65" y1="3.5" x2="20.65" y2="2.5" width="0.1" layer="51"/>
+<wire x1="20.65" y1="-2.5" x2="20.65" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="20.65" y1="-3.5" x2="10.595" y2="-13.43" width="0.1" layer="51"/>
+<wire x1="10.595" y1="-13.43" x2="6.545" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="6.545" y1="-9.5" x2="-6.545" y2="-9.5" width="0.1" layer="51"/>
+<wire x1="-6.545" y1="-9.5" x2="-10.595" y2="-13.43" width="0.1" layer="51"/>
+<wire x1="-10.595" y1="-13.43" x2="-20.65" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-20.65" y1="3.5" x2="-20.65" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-20.65" y1="-3.5" x2="-20.65" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-8.5" y1="11.44" x2="-8.06" y2="11.75" width="0.1" layer="51"/>
+<wire x1="-8.06" y1="11.75" x2="-7.5" y2="12.14" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="12.14" x2="-6.78" y2="12.55" width="0.1" layer="51"/>
+<wire x1="-6.78" y1="12.55" x2="-6.06" y2="12.9" width="0.1" layer="51"/>
+<wire x1="-6.06" y1="12.9" x2="-5.5" y2="13.15" width="0.1" layer="51"/>
+<wire x1="-5.5" y1="13.15" x2="-4.86" y2="13.41" width="0.1" layer="51"/>
+<wire x1="-4.86" y1="13.41" x2="-4.1" y2="13.66" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="13.66" x2="-3.41" y2="13.85" width="0.1" layer="51"/>
+<wire x1="-3.41" y1="13.85" x2="-2.26" y2="14.08" width="0.1" layer="51"/>
+<wire x1="-2.26" y1="14.08" x2="-1.76" y2="14.14" width="0.1" layer="51"/>
+<wire x1="-1.76" y1="14.14" x2="-1.24" y2="14.2" width="0.1" layer="51"/>
+<wire x1="-1.24" y1="14.2" x2="-0.73" y2="14.24" width="0.1" layer="51"/>
+<wire x1="-0.73" y1="14.24" x2="-0.25" y2="14.25" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="14.25" x2="0.77" y2="14.23" width="0.1" layer="51"/>
+<wire x1="0.77" y1="14.23" x2="1.45" y2="14.18" width="0.1" layer="51"/>
+<wire x1="1.45" y1="14.18" x2="2.14" y2="14.1" width="0.1" layer="51"/>
+<wire x1="2.14" y1="14.1" x2="2.72" y2="13.99" width="0.1" layer="51"/>
+<wire x1="2.72" y1="13.99" x2="3.19" y2="13.9" width="0.1" layer="51"/>
+<wire x1="3.19" y1="13.9" x2="3.92" y2="13.71" width="0.1" layer="51"/>
+<wire x1="3.92" y1="13.71" x2="4.48" y2="13.54" width="0.1" layer="51"/>
+<wire x1="4.48" y1="13.54" x2="4.89" y2="13.39" width="0.1" layer="51"/>
+<wire x1="4.89" y1="13.39" x2="5.38" y2="13.2" width="0.1" layer="51"/>
+<wire x1="5.38" y1="13.2" x2="5.93" y2="12.96" width="0.1" layer="51"/>
+<wire x1="5.93" y1="12.96" x2="6.43" y2="12.72" width="0.1" layer="51"/>
+<wire x1="6.43" y1="12.72" x2="6.99" y2="12.42" width="0.1" layer="51"/>
+<wire x1="6.99" y1="12.42" x2="7.58" y2="12.07" width="0.1" layer="51"/>
+<wire x1="7.58" y1="12.07" x2="8.17" y2="11.68" width="0.1" layer="51"/>
+<wire x1="8.17" y1="11.68" x2="8.52" y2="11.42" width="0.1" layer="51"/>
+<wire x1="-8.52" y1="-11.43" x2="-8.35" y2="-11.54" width="0.1" layer="51"/>
+<wire x1="-8.35" y1="-11.54" x2="-8.05" y2="-11.76" width="0.1" layer="51"/>
+<wire x1="-8.05" y1="-11.76" x2="-7.61" y2="-12.05" width="0.1" layer="51"/>
+<wire x1="-7.61" y1="-12.05" x2="-6.99" y2="-12.42" width="0.1" layer="51"/>
+<wire x1="-6.99" y1="-12.42" x2="-6.57" y2="-12.65" width="0.1" layer="51"/>
+<wire x1="-6.57" y1="-12.65" x2="-6.07" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="-6.07" y1="-12.9" x2="-5.2" y2="-13.27" width="0.1" layer="51"/>
+<wire x1="-5.2" y1="-13.27" x2="-4.58" y2="-13.5" width="0.1" layer="51"/>
+<wire x1="-4.58" y1="-13.5" x2="-4.05" y2="-13.67" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="-13.67" x2="-3.36" y2="-13.85" width="0.1" layer="51"/>
+<wire x1="-3.36" y1="-13.85" x2="-2.5" y2="-14.03" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-14.03" x2="2.91" y2="-13.96" width="0.1" layer="51"/>
+<wire x1="2.91" y1="-13.96" x2="3.51" y2="-13.82" width="0.1" layer="51"/>
+<wire x1="3.51" y1="-13.82" x2="4.19" y2="-13.63" width="0.1" layer="51"/>
+<wire x1="4.19" y1="-13.63" x2="4.78" y2="-13.43" width="0.1" layer="51"/>
+<wire x1="4.78" y1="-13.43" x2="5.34" y2="-13.21" width="0.1" layer="51"/>
+<wire x1="5.34" y1="-13.21" x2="5.86" y2="-12.99" width="0.1" layer="51"/>
+<wire x1="5.86" y1="-12.99" x2="6.27" y2="-12.8" width="0.1" layer="51"/>
+<wire x1="6.27" y1="-12.8" x2="6.97" y2="-12.43" width="0.1" layer="51"/>
+<wire x1="6.97" y1="-12.43" x2="7.4" y2="-12.18" width="0.1" layer="51"/>
+<wire x1="7.4" y1="-12.18" x2="7.83" y2="-11.91" width="0.1" layer="51"/>
+<wire x1="7.83" y1="-11.91" x2="8.2" y2="-11.66" width="0.1" layer="51"/>
+<wire x1="8.2" y1="-11.66" x2="8.53" y2="-11.43" width="0.1" layer="51"/>
+<wire x1="-8.25" y1="11.615" x2="-8.25" y2="17.48" width="0.1" layer="51"/>
+<wire x1="-8.25" y1="17.48" x2="-4.84" y2="21.5" width="0.1" layer="51"/>
+<wire x1="-4.84" y1="21.5" x2="-3.2" y2="21.5" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="21.5" x2="-1.565" y2="14.23" width="0.1" layer="51"/>
+<wire x1="1.565" y1="14.25" x2="3.2" y2="21.5" width="0.1" layer="51"/>
+<wire x1="3.2" y1="21.5" x2="4.84" y2="21.5" width="0.1" layer="51"/>
+<wire x1="4.84" y1="21.5" x2="8.25" y2="17.48" width="0.1" layer="51"/>
+<wire x1="8.25" y1="17.48" x2="8.25" y2="11.625" width="0.1" layer="51"/>
+<wire x1="-8.25" y1="-11.615" x2="-8.25" y2="-17.48" width="0.1" layer="51"/>
+<wire x1="-8.25" y1="-17.48" x2="-4.84" y2="-21.5" width="0.1" layer="51"/>
+<wire x1="-4.84" y1="-21.5" x2="-3.2" y2="-21.5" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-21.5" x2="-1.555" y2="-14.16" width="0.1" layer="51"/>
+<wire x1="1.565" y1="-14.24" x2="3.2" y2="-21.5" width="0.1" layer="51"/>
+<wire x1="3.2" y1="-21.5" x2="4.84" y2="-21.5" width="0.1" layer="51"/>
+<wire x1="4.84" y1="-21.5" x2="8.25" y2="-17.48" width="0.1" layer="51"/>
+<wire x1="8.25" y1="-17.48" x2="8.25" y2="-11.635" width="0.1" layer="51"/>
+<wire x1="-1.56" y1="-14.18" x2="-1.19" y2="-12.45" width="0.1" layer="51"/>
+<wire x1="1.56" y1="-14.23" x2="1.16" y2="-12.46" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-14.03" x2="-1.7" y2="-9.55" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-14.03" x2="1.7" y2="-9.53" width="0.1" layer="51"/>
+<wire x1="-2.19" y1="-12.3" x2="-1.99" y2="-12.34" width="0.1" layer="51"/>
+<wire x1="-1.99" y1="-12.34" x2="-1.69" y2="-12.39" width="0.1" layer="51"/>
+<wire x1="-1.69" y1="-12.39" x2="-1.24" y2="-12.44" width="0.1" layer="51"/>
+<wire x1="-1.24" y1="-12.44" x2="-0.96" y2="-12.46" width="0.1" layer="51"/>
+<wire x1="-0.96" y1="-12.46" x2="-0.6" y2="-12.49" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="-12.49" x2="-0.21" y2="-12.5" width="0.1" layer="51"/>
+<wire x1="-0.21" y1="-12.5" x2="0.33" y2="-12.5" width="0.1" layer="51"/>
+<wire x1="0.33" y1="-12.5" x2="0.71" y2="-12.48" width="0.1" layer="51"/>
+<wire x1="0.71" y1="-12.48" x2="1.13" y2="-12.45" width="0.1" layer="51"/>
+<wire x1="1.13" y1="-12.45" x2="1.44" y2="-12.42" width="0.1" layer="51"/>
+<wire x1="1.44" y1="-12.42" x2="1.76" y2="-12.38" width="0.1" layer="51"/>
+<wire x1="1.76" y1="-12.38" x2="2.19" y2="-12.31" width="0.1" layer="51"/>
+<wire x1="-24.1" y1="2.4" x2="-24.1" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="-22.3" y1="2.6" x2="-20.75" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-20.75" y1="2.6" x2="-20.75" y2="3.5" width="0.2" layer="21"/>
+<wire x1="-20.75" y1="3.5" x2="-10.62" y2="13.53" width="0.2" layer="21"/>
+<wire x1="-10.62" y1="13.53" x2="-8.55" y2="11.57" width="0.2" layer="21"/>
+<wire x1="-8.55" y1="11.57" x2="-8.35" y2="11.66" width="0.2" layer="21"/>
+<wire x1="-8.35" y1="11.66" x2="-8.35" y2="15.6" width="0.2" layer="21"/>
+<wire x1="-8.35" y1="16.8" x2="-8.35" y2="17.5" width="0.2" layer="21"/>
+<wire x1="-8.35" y1="17.5" x2="-4.92" y2="21.6" width="0.2" layer="21"/>
+<wire x1="-4.92" y1="21.6" x2="-3.12" y2="21.6" width="0.2" layer="21"/>
+<wire x1="-3.12" y1="21.6" x2="-2.9" y2="20.7" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="18.8" x2="-1.48" y2="14.3" width="0.2" layer="21"/>
+<wire x1="-1.48" y1="14.3" x2="-1.04" y2="14.32" width="0.2" layer="21"/>
+<wire x1="-1.04" y1="14.32" x2="-0.55" y2="14.35" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="14.35" x2="0.11" y2="14.34" width="0.2" layer="21"/>
+<wire x1="0.11" y1="14.34" x2="0.67" y2="14.33" width="0.2" layer="21"/>
+<wire x1="0.67" y1="14.33" x2="1.2" y2="14.3" width="0.2" layer="21"/>
+<wire x1="1.2" y1="14.3" x2="1.48" y2="14.3" width="0.2" layer="21"/>
+<wire x1="1.48" y1="14.3" x2="2.5" y2="18.9" width="0.2" layer="21"/>
+<wire x1="2.92" y1="20.68" x2="3.12" y2="21.6" width="0.2" layer="21"/>
+<wire x1="3.12" y1="21.6" x2="4.86" y2="21.6" width="0.2" layer="21"/>
+<wire x1="4.86" y1="21.6" x2="8.35" y2="17.5" width="0.2" layer="21"/>
+<wire x1="8.35" y1="17.5" x2="8.35" y2="16.8" width="0.2" layer="21"/>
+<wire x1="8.35" y1="15.6" x2="8.35" y2="11.66" width="0.2" layer="21"/>
+<wire x1="8.51" y1="11.54" x2="10.6" y2="13.57" width="0.2" layer="21"/>
+<wire x1="10.6" y1="13.57" x2="20.75" y2="3.56" width="0.2" layer="21"/>
+<wire x1="20.75" y1="3.56" x2="20.75" y2="2.6" width="0.2" layer="21"/>
+<wire x1="20.75" y1="2.6" x2="22.3" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-22.3" y1="-2.6" x2="-20.75" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="-20.75" y1="-2.6" x2="-20.75" y2="-3.55" width="0.2" layer="21"/>
+<wire x1="-20.75" y1="-3.55" x2="-10.6" y2="-13.57" width="0.2" layer="21"/>
+<wire x1="-10.6" y1="-13.57" x2="-8.53" y2="-11.56" width="0.2" layer="21"/>
+<wire x1="-8.53" y1="-11.56" x2="-8.35" y2="-11.66" width="0.2" layer="21"/>
+<wire x1="-8.35" y1="-11.66" x2="-8.35" y2="-15.6" width="0.2" layer="21"/>
+<wire x1="-8.35" y1="-16.8" x2="-8.35" y2="-17.5" width="0.2" layer="21"/>
+<wire x1="-8.35" y1="-17.5" x2="-4.89" y2="-21.6" width="0.2" layer="21"/>
+<wire x1="-4.89" y1="-21.6" x2="-3.12" y2="-21.6" width="0.2" layer="21"/>
+<wire x1="-3.12" y1="-21.6" x2="-2.91" y2="-20.7" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-12.54" x2="-2.5" y2="-18.9" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-12.54" x2="-0.96" y2="-12.55" width="0.2" layer="21"/>
+<wire x1="-0.96" y1="-12.55" x2="-0.63" y2="-12.57" width="0.2" layer="21"/>
+<wire x1="-0.63" y1="-12.57" x2="-0.27" y2="-12.59" width="0.2" layer="21"/>
+<wire x1="-0.27" y1="-12.59" x2="0.14" y2="-12.6" width="0.2" layer="21"/>
+<wire x1="0.14" y1="-12.6" x2="0.45" y2="-12.59" width="0.2" layer="21"/>
+<wire x1="0.45" y1="-12.59" x2="0.76" y2="-12.57" width="0.2" layer="21"/>
+<wire x1="0.76" y1="-12.57" x2="1.1" y2="-12.55" width="0.2" layer="21"/>
+<wire x1="1.1" y1="-12.55" x2="2.5" y2="-18.9" width="0.2" layer="21"/>
+<wire x1="2.91" y1="-20.7" x2="3.11" y2="-21.6" width="0.2" layer="21"/>
+<wire x1="3.11" y1="-21.6" x2="4.88" y2="-21.6" width="0.2" layer="21"/>
+<wire x1="4.88" y1="-21.6" x2="8.35" y2="-17.5" width="0.2" layer="21"/>
+<wire x1="8.35" y1="-17.5" x2="8.35" y2="-16.8" width="0.2" layer="21"/>
+<wire x1="8.35" y1="-15.6" x2="8.35" y2="-11.7" width="0.2" layer="21"/>
+<wire x1="8.35" y1="-11.7" x2="8.54" y2="-11.55" width="0.2" layer="21"/>
+<wire x1="8.54" y1="-11.55" x2="10.59" y2="-13.6" width="0.2" layer="21"/>
+<wire x1="10.59" y1="-13.6" x2="20.75" y2="-3.54" width="0.2" layer="21"/>
+<wire x1="20.75" y1="-3.54" x2="20.75" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="20.75" y1="-2.6" x2="22.25" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="24.1" y1="2.4" x2="24.1" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="8.35" y1="11.65" x2="8.5" y2="11.54" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.95" y="21.8"/>
+<vertex x="4.95" y="21.8"/>
+<vertex x="8.55" y="17.6"/>
+<vertex x="8.55" y="11.85"/>
+<vertex x="10.6" y="13.85"/>
+<vertex x="19.7" y="4.9"/>
+<vertex x="24.7" y="4.9"/>
+<vertex x="24.7" y="-4.9"/>
+<vertex x="19.7" y="-4.9"/>
+<vertex x="10.6" y="-13.85"/>
+<vertex x="8.55" y="-11.85"/>
+<vertex x="8.55" y="-17.6"/>
+<vertex x="4.95" y="-21.85"/>
+<vertex x="-4.95" y="-21.85"/>
+<vertex x="-8.55" y="-17.6"/>
+<vertex x="-8.55" y="-11.85"/>
+<vertex x="-10.6" y="-13.85"/>
+<vertex x="-19.7" y="-4.9"/>
+<vertex x="-24.7" y="-4.9"/>
+<vertex x="-24.7" y="4.9"/>
+<vertex x="-19.7" y="4.9"/>
+<vertex x="-10.6" y="13.85"/>
+<vertex x="-8.55" y="11.85"/>
+<vertex x="-8.55" y="17.6"/>
+</polygon>
+<circle x="-5" y="19.5" radius="0.1" width="0.2" layer="51"/>
+</package>
+<package name="WE-PFC_EFD25" urn="urn:adsk.eagle:footprint:12907501/1">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EFD25, THT 10Pin &lt;BR&gt;</description>
+<wire x1="-12.905" y1="-12.5" x2="12.905" y2="-12.5" width="0.1" layer="51"/>
+<wire x1="12.905" y1="-12.5" x2="12.905" y2="12.5" width="0.1" layer="51"/>
+<wire x1="12.905" y1="12.5" x2="-12.905" y2="12.5" width="0.1" layer="51"/>
+<wire x1="-12.905" y1="12.5" x2="-12.905" y2="-12.5" width="0.1" layer="51"/>
+<wire x1="-13.05" y1="12.6" x2="13.05" y2="12.6" width="0.2" layer="21"/>
+<wire x1="13.05" y1="12.6" x2="13.05" y2="-12.6" width="0.2" layer="21"/>
+<wire x1="13.05" y1="-12.6" x2="-13.05" y2="-12.6" width="0.2" layer="21"/>
+<wire x1="-13.05" y1="-12.6" x2="-13.05" y2="12.6" width="0.2" layer="21"/>
+<pad name="3" x="-11.25" y="0" drill="1.32"/>
+<pad name="8" x="11.25" y="0" drill="1.32"/>
+<pad name="2" x="-11.25" y="5" drill="1.32"/>
+<pad name="4" x="-11.25" y="-5" drill="1.32"/>
+<pad name="9" x="11.25" y="5" drill="1.32"/>
+<pad name="7" x="11.25" y="-5" drill="1.32"/>
+<pad name="1" x="-11.25" y="10" drill="1.32"/>
+<pad name="5" x="-11.25" y="-10" drill="1.32"/>
+<pad name="6" x="11.25" y="-10" drill="1.32"/>
+<pad name="10" x="11.25" y="10" drill="1.32"/>
+<text x="0.296" y="13.4665" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.204" y="-14.8446" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-9.35" y="9.2" size="1.27" layer="48">1</text>
+<text x="-9.5" y="-10.75" size="1.27" layer="48">5</text>
+<text x="8.75" y="-10.75" size="1.27" layer="48">6</text>
+<text x="7.75" y="9.25" size="1.27" layer="48">10</text>
+<polygon width="0.1" layer="39">
+<vertex x="-13.25" y="12.8"/>
+<vertex x="13.25" y="12.8"/>
+<vertex x="13.25" y="-12.8"/>
+<vertex x="-13.25" y="-12.8"/>
+</polygon>
+<circle x="-9.7" y="9.9" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-PFC_RM12" urn="urn:adsk.eagle:footprint:12907503/1">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size RM12, THT 12Pin &lt;BR&gt;</description>
+<pad name="9" x="1.8" y="-10.775" drill="1.3" rot="R315"/>
+<pad name="3" x="-1.8" y="10.775" drill="1.3" rot="R315"/>
+<pad name="7" x="1.8" y="-17.96" drill="1.3" rot="R315"/>
+<pad name="1" x="-1.8" y="17.96" drill="1.3" rot="R315"/>
+<pad name="2" x="-5.4" y="14.365" drill="1.3" rot="R315"/>
+<pad name="8" x="5.4" y="-14.365" drill="1.3" rot="R315"/>
+<pad name="6" x="-1.8" y="-17.96" drill="1.3" rot="R315"/>
+<pad name="12" x="1.8" y="17.96" drill="1.3" rot="R315"/>
+<pad name="11" x="5.4" y="14.365" drill="1.3" rot="R315"/>
+<pad name="5" x="-5.4" y="-14.365" drill="1.3" rot="R315"/>
+<pad name="4" x="-1.8" y="-10.775" drill="1.3" rot="R315"/>
+<pad name="10" x="1.8" y="10.775" drill="1.3" rot="R315"/>
+<pad name="T1" x="-19.785" y="0" drill="1.4" rot="R315"/>
+<pad name="T2" x="19.785" y="0" drill="1.4" rot="R315"/>
+<text x="0.0162625" y="21.14956875" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.40245" y="-23.03159375" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.17" y="15.69" size="0.8128" layer="48">1</text>
+<text x="-3.65" y="14.06" size="0.8128" layer="48">2</text>
+<text x="-2.15" y="12.87" size="0.8128" layer="48">3</text>
+<text x="0.95" y="12.99" size="0.8128" layer="48">10</text>
+<text x="2.95" y="13.79" size="0.8128" layer="48">11</text>
+<text x="1.06" y="15.73" size="0.8128" layer="48">12</text>
+<text x="-2.49" y="-13.33" size="0.8128" layer="48">4</text>
+<text x="-3.78" y="-14.75" size="0.8128" layer="48">5</text>
+<text x="-1.9" y="-16.4" size="0.8128" layer="48">6</text>
+<text x="1.6" y="-16.36" size="0.8128" layer="48">7</text>
+<text x="3.54" y="-14.87" size="0.8128" layer="48">8</text>
+<text x="1.52" y="-13.21" size="0.8128" layer="48">9</text>
+<wire x1="-18.61" y1="-2.25" x2="-9.105" y2="-11.63" width="0.1" layer="51"/>
+<wire x1="-9.105" y1="-11.63" x2="-5.305" y2="-7.95" width="0.1" layer="51"/>
+<wire x1="-5.305" y1="-7.95" x2="5.305" y2="-7.95" width="0.1" layer="51"/>
+<wire x1="5.305" y1="-7.95" x2="9.105" y2="-11.63" width="0.1" layer="51"/>
+<wire x1="9.105" y1="-11.63" x2="18.61" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="18.61" y1="2.25" x2="9.105" y2="11.63" width="0.1" layer="51"/>
+<wire x1="9.105" y1="11.63" x2="5.305" y2="7.95" width="0.1" layer="51"/>
+<wire x1="5.305" y1="7.95" x2="-5.305" y2="7.95" width="0.1" layer="51"/>
+<wire x1="-5.305" y1="7.95" x2="-9.105" y2="11.63" width="0.1" layer="51"/>
+<wire x1="-9.105" y1="11.63" x2="-18.61" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-20.5" y1="2.25" x2="-18.61" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-18.61" y1="2.25" x2="-14.17" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-14.17" y1="2.25" x2="-14.17" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-14.17" y1="-2.25" x2="-18.61" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-18.61" y1="-2.25" x2="-20.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-20.5" y1="-2.25" x2="-20.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="14.17" y1="2.25" x2="18.61" y2="2.25" width="0.1" layer="51"/>
+<wire x1="18.61" y1="2.25" x2="20.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="20.5" y1="2.25" x2="20.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="20.5" y1="-2.25" x2="18.61" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="18.61" y1="-2.25" x2="14.17" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="14.17" y1="-2.25" x2="14.17" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-12.025" y1="3.575" x2="-12.025" y2="-3.575" width="0.1" layer="51"/>
+<wire x1="12.025" y1="3.575" x2="12.025" y2="-3.575" width="0.1" layer="51"/>
+<wire x1="-12.025" y1="3.575" x2="-14.49" y2="3.575" width="0.1" layer="51"/>
+<wire x1="-14.49" y1="3.575" x2="-15.89" y2="4.93" width="0.1" layer="51"/>
+<wire x1="-12.025" y1="-3.575" x2="-14.49" y2="-3.575" width="0.1" layer="51"/>
+<wire x1="-14.49" y1="-3.575" x2="-15.89" y2="-4.93" width="0.1" layer="51"/>
+<wire x1="12.025" y1="3.575" x2="14.49" y2="3.575" width="0.1" layer="51"/>
+<wire x1="14.49" y1="3.575" x2="15.89" y2="4.9" width="0.1" layer="51"/>
+<wire x1="12.025" y1="-3.575" x2="14.49" y2="-3.575" width="0.1" layer="51"/>
+<wire x1="14.49" y1="-3.575" x2="15.89" y2="-4.89" width="0.1" layer="51"/>
+<wire x1="-7.32" y1="9.9" x2="-7.09" y2="10.06" width="0.1" layer="51"/>
+<wire x1="-7.09" y1="10.06" x2="-6.64" y2="10.35" width="0.1" layer="51"/>
+<wire x1="-6.64" y1="10.35" x2="-6.11" y2="10.69" width="0.1" layer="51"/>
+<wire x1="-6.11" y1="10.69" x2="-5.59" y2="10.97" width="0.1" layer="51"/>
+<wire x1="-5.59" y1="10.97" x2="-5.04" y2="11.23" width="0.1" layer="51"/>
+<wire x1="-5.04" y1="11.23" x2="-4.62" y2="11.41" width="0.1" layer="51"/>
+<wire x1="-4.62" y1="11.41" x2="-4.23" y2="11.55" width="0.1" layer="51"/>
+<wire x1="-4.23" y1="11.55" x2="-3.81" y2="11.71" width="0.1" layer="51"/>
+<wire x1="-3.81" y1="11.71" x2="-3.21" y2="11.88" width="0.1" layer="51"/>
+<wire x1="-3.21" y1="11.88" x2="-2.83" y2="11.98" width="0.1" layer="51"/>
+<wire x1="-2.83" y1="11.98" x2="-2.29" y2="12.09" width="0.1" layer="51"/>
+<wire x1="-2.29" y1="12.09" x2="-1.8" y2="12.17" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="12.17" x2="-1.31" y2="12.23" width="0.1" layer="51"/>
+<wire x1="-1.31" y1="12.23" x2="-0.73" y2="12.28" width="0.1" layer="51"/>
+<wire x1="-0.73" y1="12.28" x2="-0.19" y2="12.3" width="0.1" layer="51"/>
+<wire x1="-0.19" y1="12.3" x2="0.63" y2="12.29" width="0.1" layer="51"/>
+<wire x1="0.63" y1="12.29" x2="1.25" y2="12.24" width="0.1" layer="51"/>
+<wire x1="1.25" y1="12.24" x2="1.86" y2="12.16" width="0.1" layer="51"/>
+<wire x1="1.86" y1="12.16" x2="2.58" y2="12.03" width="0.1" layer="51"/>
+<wire x1="2.58" y1="12.03" x2="3.14" y2="11.9" width="0.1" layer="51"/>
+<wire x1="3.14" y1="11.9" x2="3.61" y2="11.76" width="0.1" layer="51"/>
+<wire x1="3.61" y1="11.76" x2="4.06" y2="11.61" width="0.1" layer="51"/>
+<wire x1="4.06" y1="11.61" x2="4.68" y2="11.38" width="0.1" layer="51"/>
+<wire x1="4.68" y1="11.38" x2="5.19" y2="11.16" width="0.1" layer="51"/>
+<wire x1="5.19" y1="11.16" x2="5.68" y2="10.92" width="0.1" layer="51"/>
+<wire x1="5.68" y1="10.92" x2="6.23" y2="10.62" width="0.1" layer="51"/>
+<wire x1="6.23" y1="10.62" x2="6.88" y2="10.2" width="0.1" layer="51"/>
+<wire x1="6.88" y1="10.2" x2="7.3" y2="9.9" width="0.1" layer="51"/>
+<wire x1="-7.31" y1="-9.9" x2="-7.15" y2="-10.01" width="0.1" layer="51"/>
+<wire x1="-7.15" y1="-10.01" x2="-6.87" y2="-10.2" width="0.1" layer="51"/>
+<wire x1="-6.87" y1="-10.2" x2="-6.53" y2="-10.43" width="0.1" layer="51"/>
+<wire x1="-6.53" y1="-10.43" x2="-6" y2="-10.74" width="0.1" layer="51"/>
+<wire x1="-6" y1="-10.74" x2="-5.64" y2="-10.93" width="0.1" layer="51"/>
+<wire x1="-5.64" y1="-10.93" x2="-5.12" y2="-11.19" width="0.1" layer="51"/>
+<wire x1="-5.12" y1="-11.19" x2="-4.61" y2="-11.41" width="0.1" layer="51"/>
+<wire x1="-4.61" y1="-11.41" x2="-3.86" y2="-11.68" width="0.1" layer="51"/>
+<wire x1="-3.86" y1="-11.68" x2="-3.3" y2="-11.85" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-11.85" x2="-2.61" y2="-12.03" width="0.1" layer="51"/>
+<wire x1="-2.61" y1="-12.03" x2="-1.91" y2="-12.15" width="0.1" layer="51"/>
+<wire x1="-1.91" y1="-12.15" x2="-1.34" y2="-12.23" width="0.1" layer="51"/>
+<wire x1="-1.34" y1="-12.23" x2="-0.72" y2="-12.28" width="0.1" layer="51"/>
+<wire x1="-0.72" y1="-12.28" x2="-0.11" y2="-12.31" width="0.1" layer="51"/>
+<wire x1="-0.11" y1="-12.31" x2="0.46" y2="-12.29" width="0.1" layer="51"/>
+<wire x1="0.46" y1="-12.29" x2="1.09" y2="-12.25" width="0.1" layer="51"/>
+<wire x1="1.09" y1="-12.25" x2="1.74" y2="-12.18" width="0.1" layer="51"/>
+<wire x1="1.74" y1="-12.18" x2="2.26" y2="-12.09" width="0.1" layer="51"/>
+<wire x1="2.26" y1="-12.09" x2="2.82" y2="-11.98" width="0.1" layer="51"/>
+<wire x1="2.82" y1="-11.98" x2="3.36" y2="-11.84" width="0.1" layer="51"/>
+<wire x1="3.36" y1="-11.84" x2="3.95" y2="-11.66" width="0.1" layer="51"/>
+<wire x1="3.95" y1="-11.66" x2="4.43" y2="-11.47" width="0.1" layer="51"/>
+<wire x1="4.43" y1="-11.47" x2="4.84" y2="-11.31" width="0.1" layer="51"/>
+<wire x1="4.84" y1="-11.31" x2="5.17" y2="-11.17" width="0.1" layer="51"/>
+<wire x1="5.17" y1="-11.17" x2="5.46" y2="-11.02" width="0.1" layer="51"/>
+<wire x1="5.46" y1="-11.02" x2="5.71" y2="-10.9" width="0.1" layer="51"/>
+<wire x1="5.71" y1="-10.9" x2="6.12" y2="-10.68" width="0.1" layer="51"/>
+<wire x1="6.12" y1="-10.68" x2="6.41" y2="-10.5" width="0.1" layer="51"/>
+<wire x1="6.41" y1="-10.5" x2="6.84" y2="-10.23" width="0.1" layer="51"/>
+<wire x1="6.84" y1="-10.23" x2="7.11" y2="-10.05" width="0.1" layer="51"/>
+<wire x1="7.11" y1="-10.05" x2="7.31" y2="-9.89" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="10.44" x2="-6.5" y2="15.25" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="15.25" x2="-2.25" y2="20" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="20" x2="-0.625" y2="20" width="0.1" layer="51"/>
+<wire x1="-0.625" y1="20" x2="-0.625" y2="12.28" width="0.1" layer="51"/>
+<wire x1="6.5" y1="10.45" x2="6.5" y2="15.25" width="0.1" layer="51"/>
+<wire x1="6.5" y1="15.25" x2="2.25" y2="20" width="0.1" layer="51"/>
+<wire x1="2.25" y1="20" x2="0.625" y2="20" width="0.1" layer="51"/>
+<wire x1="0.625" y1="20" x2="0.625" y2="12.29" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-10.45" x2="-6.5" y2="-15.25" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-15.25" x2="-2.245" y2="-20" width="0.1" layer="51"/>
+<wire x1="-2.245" y1="-20" x2="-0.625" y2="-20" width="0.1" layer="51"/>
+<wire x1="-0.625" y1="-20" x2="-0.625" y2="-12.24" width="0.1" layer="51"/>
+<wire x1="0.625" y1="-12.26" x2="0.625" y2="-20" width="0.1" layer="51"/>
+<wire x1="0.625" y1="-20" x2="2.245" y2="-20" width="0.1" layer="51"/>
+<wire x1="2.245" y1="-20" x2="3.625" y2="-17.96" width="0.1" layer="51"/>
+<wire x1="3.625" y1="-17.96" x2="3.625" y2="-15.25" width="0.1" layer="51"/>
+<wire x1="3.625" y1="-15.25" x2="6.5" y2="-15.25" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-15.25" x2="6.5" y2="-10.45" width="0.1" layer="51"/>
+<wire x1="-20.6" y1="1.1" x2="-20.6" y2="2.35" width="0.2" layer="21"/>
+<wire x1="-20.6" y1="2.35" x2="-18.7" y2="2.35" width="0.2" layer="21"/>
+<wire x1="-18.7" y1="2.35" x2="-9.1" y2="11.8" width="0.2" layer="21"/>
+<wire x1="-9.1" y1="11.8" x2="-7.3" y2="10" width="0.2" layer="21"/>
+<wire x1="-7.3" y1="10" x2="-6.6" y2="10.5" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="15.3" x2="-2.3" y2="20.1" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="20.1" x2="-0.525" y2="20.1" width="0.2" layer="21"/>
+<wire x1="-0.525" y1="20.1" x2="-0.525" y2="12.4" width="0.2" layer="21"/>
+<wire x1="-0.525" y1="12.4" x2="0.525" y2="12.4" width="0.2" layer="21"/>
+<wire x1="0.525" y1="12.4" x2="0.525" y2="20.1" width="0.2" layer="21"/>
+<wire x1="0.525" y1="20.1" x2="2.3" y2="20.1" width="0.2" layer="21"/>
+<wire x1="2.3" y1="20.1" x2="6.6" y2="15.3" width="0.2" layer="21"/>
+<wire x1="6.6" y1="10.5" x2="7.29" y2="10.03" width="0.2" layer="21"/>
+<wire x1="7.29" y1="10.03" x2="9.11" y2="11.77" width="0.2" layer="21"/>
+<wire x1="9.11" y1="11.77" x2="18.66" y2="2.35" width="0.2" layer="21"/>
+<wire x1="18.66" y1="2.35" x2="20.6" y2="2.35" width="0.2" layer="21"/>
+<wire x1="20.6" y1="2.35" x2="20.6" y2="1.1" width="0.2" layer="21"/>
+<wire x1="20.6" y1="-1.1" x2="20.6" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="20.6" y1="-2.4" x2="18.6" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="18.6" y1="-2.4" x2="9.1" y2="-11.8" width="0.2" layer="21"/>
+<wire x1="9.1" y1="-11.8" x2="7.3" y2="-10" width="0.2" layer="21"/>
+<wire x1="7.3" y1="-10" x2="7" y2="-10.2" width="0.2" layer="21"/>
+<wire x1="7" y1="-10.2" x2="6.6" y2="-10.5" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-10.5" x2="6.6" y2="-13.8" width="0.2" layer="21"/>
+<wire x1="4.2" y1="-15.35" x2="3.725" y2="-15.35" width="0.2" layer="21"/>
+<wire x1="3.725" y1="-15.35" x2="3.725" y2="-18.06" width="0.2" layer="21"/>
+<wire x1="3.725" y1="-18.06" x2="2.3" y2="-20.1" width="0.2" layer="21"/>
+<wire x1="2.3" y1="-20.1" x2="0.525" y2="-20.1" width="0.2" layer="21"/>
+<wire x1="0.525" y1="-20.1" x2="0.525" y2="-12.4" width="0.2" layer="21"/>
+<wire x1="0.525" y1="-12.4" x2="-0.525" y2="-12.4" width="0.2" layer="21"/>
+<wire x1="-0.525" y1="-12.4" x2="-0.525" y2="-20.1" width="0.2" layer="21"/>
+<wire x1="-0.525" y1="-20.1" x2="-2.3" y2="-20.1" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="-20.1" x2="-6.6" y2="-15.3" width="0.2" layer="21"/>
+<wire x1="-20.6" y1="-1.1" x2="-20.6" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="-20.6" y1="-2.35" x2="-18.66" y2="-2.35" width="0.2" layer="21"/>
+<wire x1="-18.66" y1="-2.35" x2="-9.11" y2="-11.76" width="0.2" layer="21"/>
+<wire x1="-9.11" y1="-11.76" x2="-7.3" y2="-10" width="0.2" layer="21"/>
+<wire x1="-7.3" y1="-10" x2="-6.6" y2="-10.5" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="15.3" x2="-6.6" y2="14.9" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="13.8" x2="-6.6" y2="10.5" width="0.2" layer="21"/>
+<wire x1="6.6" y1="15.3" x2="6.6" y2="14.9" width="0.2" layer="21"/>
+<wire x1="6.6" y1="13.8" x2="6.6" y2="10.5" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-10.5" x2="-6.6" y2="-13.8" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-14.9" x2="-6.6" y2="-15.3" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.4" y="20.3"/>
+<vertex x="2.4" y="20.3"/>
+<vertex x="6.8" y="15.34"/>
+<vertex x="6.8" y="10.59"/>
+<vertex x="7.28" y="10.27"/>
+<vertex x="9.1" y="12"/>
+<vertex x="18.75" y="2.55"/>
+<vertex x="21.05" y="2.55"/>
+<vertex x="21.05" y="-2.55"/>
+<vertex x="18.7" y="-2.55"/>
+<vertex x="9.1" y="-12.05"/>
+<vertex x="7.27" y="-10.26"/>
+<vertex x="6.8" y="-10.61"/>
+<vertex x="6.8" y="-15.55"/>
+<vertex x="3.925" y="-15.55"/>
+<vertex x="3.915" y="-18.1"/>
+<vertex x="2.4" y="-20.3"/>
+<vertex x="-2.4" y="-20.3"/>
+<vertex x="-6.8" y="-15.35"/>
+<vertex x="-6.8" y="-10.61"/>
+<vertex x="-7.28" y="-10.26"/>
+<vertex x="-9.1" y="-12.05"/>
+<vertex x="-18.7" y="-2.55"/>
+<vertex x="-21.05" y="-2.55"/>
+<vertex x="-21.05" y="2.55"/>
+<vertex x="-18.75" y="2.55"/>
+<vertex x="-9.1" y="12.05"/>
+<vertex x="-7.28" y="10.24"/>
+<vertex x="-6.8" y="10.58"/>
+<vertex x="-6.81" y="15.35"/>
+</polygon>
+<circle x="-3.2" y="17.9" radius="0.1" width="0.2" layer="51"/>
+</package>
+<package name="WE-PFC_EER28" urn="urn:adsk.eagle:footprint:12907506/1">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EER28, THT 9Pin &lt;BR&gt;</description>
+<wire x1="-16.5" y1="-15" x2="16.5" y2="-15" width="0.1" layer="51"/>
+<wire x1="16.5" y1="-15" x2="16.5" y2="15" width="0.1" layer="51"/>
+<wire x1="16.5" y1="15" x2="-16.5" y2="15" width="0.1" layer="51"/>
+<wire x1="-16.5" y1="15" x2="-16.5" y2="-15" width="0.1" layer="51"/>
+<wire x1="-16.6" y1="15.1" x2="16.6" y2="15.1" width="0.2" layer="21"/>
+<wire x1="16.6" y1="15.1" x2="16.6" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="16.6" y1="-15.1" x2="-16.6" y2="-15.1" width="0.2" layer="21"/>
+<wire x1="-16.6" y1="-15.1" x2="-16.6" y2="15.1" width="0.2" layer="21"/>
+<pad name="3" x="-11" y="0" drill="1"/>
+<pad name="2" x="-11" y="6" drill="1"/>
+<pad name="4" x="-11" y="-6" drill="1"/>
+<pad name="9" x="11" y="6" drill="1"/>
+<pad name="7" x="11" y="-6" drill="1"/>
+<pad name="1" x="-11" y="12" drill="1"/>
+<pad name="5" x="-11" y="-12" drill="1"/>
+<pad name="10" x="11" y="12" drill="1"/>
+<pad name="6" x="11" y="-12" drill="1"/>
+<text x="-0.2808" y="16.0261" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.7108" y="-17.1342" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-9.2" y="11.5" size="1.27" layer="51">1</text>
+<text x="-9.5" y="-12.5" size="1.27" layer="48">5</text>
+<text x="8.75" y="-12.75" size="1.27" layer="48">6</text>
+<text x="7.75" y="11.25" size="1.27" layer="48">10</text>
+<polygon width="0.1" layer="39">
+<vertex x="-16.8" y="15.3"/>
+<vertex x="16.8" y="15.3"/>
+<vertex x="16.8" y="-15.3"/>
+<vertex x="-16.8" y="-15.3"/>
+</polygon>
+<circle x="-9.6" y="12" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-PFC_PQ38/11" urn="urn:adsk.eagle:footprint:12907499/1">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size PQ38/11, THT 6Pin &lt;BR&gt;</description>
+<pad name="5" x="23.5" y="0" drill="1.6" rot="R90"/>
+<pad name="2" x="-23.5" y="0" drill="1.6" rot="R90"/>
+<pad name="6" x="23.5" y="6" drill="1.6" rot="R90"/>
+<pad name="4" x="23.5" y="-6" drill="1.6" rot="R90"/>
+<pad name="3" x="-23.5" y="-7.5" drill="1.6" rot="R90"/>
+<pad name="1" x="-23.5" y="7.5" drill="1.6" rot="R90"/>
+<text x="-1.438" y="20.157" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.08" y="-21.16" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-21.4" y="8.45" size="1.27" layer="48">1</text>
+<text x="-21.6" y="-6.25" size="1.27" layer="48">3</text>
+<text x="21.2" y="-5.05" size="1.27" layer="48">4</text>
+<text x="20.8" y="6.95" size="1.27" layer="48">6</text>
+<wire x1="16" y1="-12.9" x2="16" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="16" y1="-6.6" x2="16" y2="-5.6" width="0.1" layer="51"/>
+<wire x1="16" y1="-5.6" x2="16" y2="0.34" width="0.1" layer="51"/>
+<wire x1="16" y1="0.34" x2="16" y2="5.6" width="0.1" layer="51"/>
+<wire x1="16" y1="5.6" x2="16" y2="6.4" width="0.1" layer="51"/>
+<wire x1="16" y1="6.4" x2="16" y2="12.9" width="0.1" layer="51"/>
+<wire x1="-16" y1="12.9" x2="-16" y2="7.9" width="0.1" layer="51"/>
+<wire x1="-16" y1="7.9" x2="-16" y2="7.1" width="0.1" layer="51"/>
+<wire x1="-16" y1="7.1" x2="-16" y2="0.21" width="0.1" layer="51"/>
+<wire x1="-16" y1="0.21" x2="-16" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="-10.66" y1="19" x2="10.66" y2="19" width="0.1" layer="51"/>
+<wire x1="10.66" y1="19" x2="10.66" y2="14" width="0.1" layer="51"/>
+<wire x1="10.66" y1="14" x2="7.2" y2="0" width="0.1" layer="51"/>
+<wire x1="7.2" y1="0" x2="10.66" y2="-14" width="0.1" layer="51"/>
+<wire x1="10.66" y1="-14" x2="10.66" y2="-19" width="0.1" layer="51"/>
+<wire x1="10.66" y1="-19" x2="-10.66" y2="-19" width="0.1" layer="51"/>
+<wire x1="-10.66" y1="-19" x2="-10.66" y2="-14" width="0.1" layer="51"/>
+<wire x1="-10.66" y1="-14" x2="-7.2" y2="0" width="0.1" layer="51"/>
+<wire x1="-7.2" y1="0" x2="-10.66" y2="14" width="0.1" layer="51"/>
+<wire x1="-10.66" y1="14" x2="-10.66" y2="19" width="0.1" layer="51"/>
+<wire x1="-16" y1="-12.9" x2="-10.4" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="16" y1="-12.9" x2="10.4" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="16" y1="12.9" x2="10.4" y2="12.9" width="0.1" layer="51"/>
+<wire x1="-16" y1="12.9" x2="-10.4" y2="12.9" width="0.1" layer="51"/>
+<wire x1="-16" y1="7.9" x2="-23.5" y2="7.9" width="0.1" layer="51"/>
+<wire x1="-23.5" y1="7.9" x2="-23.5" y2="7.1" width="0.1" layer="51"/>
+<wire x1="-23.5" y1="7.1" x2="-16" y2="7.1" width="0.1" layer="51"/>
+<wire x1="-16" y1="0.4" x2="-23.5" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-23.5" y1="0.4" x2="-23.5" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-23.5" y1="-0.4" x2="-16" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-16" y1="-7.1" x2="-23.5" y2="-7.1" width="0.1" layer="51"/>
+<wire x1="-23.5" y1="-7.1" x2="-23.5" y2="-7.9" width="0.1" layer="51"/>
+<wire x1="-23.5" y1="-7.9" x2="-16" y2="-7.9" width="0.1" layer="51"/>
+<wire x1="16" y1="-6.6" x2="23.5" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="23.5" y1="-6.6" x2="23.5" y2="-5.6" width="0.1" layer="51"/>
+<wire x1="23.5" y1="-5.6" x2="16" y2="-5.6" width="0.1" layer="51"/>
+<wire x1="16" y1="-0.4" x2="23.5" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="23.5" y1="-0.4" x2="23.5" y2="0.4" width="0.1" layer="51"/>
+<wire x1="23.5" y1="0.4" x2="16" y2="0.4" width="0.1" layer="51"/>
+<wire x1="16" y1="5.6" x2="23.5" y2="5.6" width="0.1" layer="51"/>
+<wire x1="23.5" y1="5.6" x2="23.5" y2="6.4" width="0.1" layer="51"/>
+<wire x1="23.5" y1="6.4" x2="16" y2="6.4" width="0.1" layer="51"/>
+<wire x1="-22.1" y1="8" x2="-16.1" y2="8" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="8" x2="-16.1" y2="13" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="13" x2="-10.5" y2="13" width="0.2" layer="21"/>
+<wire x1="-10.5" y1="13" x2="-10.75" y2="13.97" width="0.2" layer="21"/>
+<wire x1="-10.75" y1="13.97" x2="-10.76" y2="13.97" width="0.2" layer="21"/>
+<wire x1="-10.76" y1="13.97" x2="-10.76" y2="19.1" width="0.2" layer="21"/>
+<wire x1="-10.76" y1="19.1" x2="10.76" y2="19.1" width="0.2" layer="21"/>
+<wire x1="10.76" y1="19.1" x2="10.76" y2="14" width="0.2" layer="21"/>
+<wire x1="10.76" y1="14" x2="10.512" y2="13" width="0.2" layer="21"/>
+<wire x1="10.512" y1="13" x2="16.1" y2="13" width="0.2" layer="21"/>
+<wire x1="16.1" y1="13" x2="16.1" y2="6.5" width="0.2" layer="21"/>
+<wire x1="16.1" y1="6.5" x2="22.1" y2="6.5" width="0.2" layer="21"/>
+<wire x1="-22.1" y1="7" x2="-16.1" y2="7" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="7" x2="-16.1" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="0.5" x2="-22.1" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-22.1" y1="-0.5" x2="-16.1" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="-0.5" x2="-16.1" y2="-7" width="0.2" layer="21"/>
+<wire x1="-22.1" y1="-7" x2="-16.1" y2="-7" width="0.2" layer="21"/>
+<wire x1="-22.1" y1="-8" x2="-16.1" y2="-8" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="-8" x2="-16.1" y2="-13" width="0.2" layer="21"/>
+<wire x1="-16.1" y1="-13" x2="-10.5" y2="-13" width="0.2" layer="21"/>
+<wire x1="-10.76" y1="-19.1" x2="-10.76" y2="-14" width="0.2" layer="21"/>
+<wire x1="-10.76" y1="-14" x2="-10.5" y2="-13" width="0.2" layer="21"/>
+<wire x1="-10.76" y1="-19.1" x2="10.76" y2="-19.1" width="0.2" layer="21"/>
+<wire x1="10.76" y1="-19.1" x2="10.76" y2="-14" width="0.2" layer="21"/>
+<wire x1="22.2" y1="-6.7" x2="16.1" y2="-6.7" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-6.7" x2="16.1" y2="-13" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-13" x2="10.5" y2="-13" width="0.2" layer="21"/>
+<wire x1="10.76" y1="-14" x2="10.5" y2="-13" width="0.2" layer="21"/>
+<wire x1="22.1" y1="-5.5" x2="16.1" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-5.5" x2="16.1" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="16.1" y1="-0.5" x2="22.1" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="22.1" y1="0.5" x2="16.1" y2="0.5" width="0.2" layer="21"/>
+<wire x1="16.1" y1="0.5" x2="16.1" y2="5.5" width="0.2" layer="21"/>
+<wire x1="16.1" y1="5.5" x2="22.1" y2="5.5" width="0.2" layer="21"/>
+<wire x1="-10.24" y1="12.29" x2="-10.42" y2="12.14" width="0.1" layer="51"/>
+<wire x1="-10.42" y1="12.14" x2="-10.8" y2="11.8" width="0.1" layer="51"/>
+<wire x1="-10.8" y1="11.8" x2="-11.3" y2="11.33" width="0.1" layer="51"/>
+<wire x1="-11.3" y1="11.33" x2="-11.92" y2="10.68" width="0.1" layer="51"/>
+<wire x1="-11.92" y1="10.68" x2="-12.16" y2="10.4" width="0.1" layer="51"/>
+<wire x1="-12.16" y1="10.4" x2="-12.52" y2="9.96" width="0.1" layer="51"/>
+<wire x1="-12.52" y1="9.96" x2="-12.81" y2="9.59" width="0.1" layer="51"/>
+<wire x1="-12.81" y1="9.59" x2="-13.04" y2="9.28" width="0.1" layer="51"/>
+<wire x1="-13.04" y1="9.28" x2="-13.28" y2="8.93" width="0.1" layer="51"/>
+<wire x1="-13.28" y1="8.93" x2="-13.71" y2="8.26" width="0.1" layer="51"/>
+<wire x1="-13.71" y1="8.26" x2="-14.04" y2="7.68" width="0.1" layer="51"/>
+<wire x1="-14.04" y1="7.68" x2="-14.4" y2="6.98" width="0.1" layer="51"/>
+<wire x1="-14.4" y1="6.98" x2="-14.73" y2="6.27" width="0.1" layer="51"/>
+<wire x1="-14.73" y1="6.27" x2="-15.03" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-15.03" y1="5.5" x2="-15.29" y2="4.71" width="0.1" layer="51"/>
+<wire x1="-15.29" y1="4.71" x2="-15.57" y2="3.7" width="0.1" layer="51"/>
+<wire x1="-15.57" y1="3.7" x2="-15.74" y2="2.95" width="0.1" layer="51"/>
+<wire x1="-15.74" y1="2.95" x2="-15.83" y2="2.37" width="0.1" layer="51"/>
+<wire x1="-15.83" y1="2.37" x2="-15.92" y2="1.65" width="0.1" layer="51"/>
+<wire x1="-15.92" y1="1.65" x2="-16" y2="0.21" width="0.1" layer="51"/>
+<wire x1="-16" y1="0.21" x2="-15.99" y2="-0.46" width="0.1" layer="51"/>
+<wire x1="-15.99" y1="-0.46" x2="-15.91" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="-15.91" y1="-1.75" x2="-15.77" y2="-2.76" width="0.1" layer="51"/>
+<wire x1="-15.77" y1="-2.76" x2="-15.55" y2="-3.76" width="0.1" layer="51"/>
+<wire x1="-15.55" y1="-3.76" x2="-15.25" y2="-4.88" width="0.1" layer="51"/>
+<wire x1="-15.25" y1="-4.88" x2="-14.93" y2="-5.77" width="0.1" layer="51"/>
+<wire x1="-14.93" y1="-5.77" x2="-14.54" y2="-6.72" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="-6.72" x2="-14.16" y2="-7.46" width="0.1" layer="51"/>
+<wire x1="-14.16" y1="-7.46" x2="-13.75" y2="-8.18" width="0.1" layer="51"/>
+<wire x1="-13.75" y1="-8.18" x2="-13.26" y2="-8.95" width="0.1" layer="51"/>
+<wire x1="-13.26" y1="-8.95" x2="-12.9" y2="-9.47" width="0.1" layer="51"/>
+<wire x1="-12.9" y1="-9.47" x2="-12.54" y2="-9.93" width="0.1" layer="51"/>
+<wire x1="-12.54" y1="-9.93" x2="-12.17" y2="-10.39" width="0.1" layer="51"/>
+<wire x1="-12.17" y1="-10.39" x2="-11.71" y2="-10.91" width="0.1" layer="51"/>
+<wire x1="-11.71" y1="-10.91" x2="-11.32" y2="-11.31" width="0.1" layer="51"/>
+<wire x1="-11.32" y1="-11.31" x2="-10.89" y2="-11.73" width="0.1" layer="51"/>
+<wire x1="-10.89" y1="-11.73" x2="-10.23" y2="-12.3" width="0.1" layer="51"/>
+<wire x1="10.25" y1="-12.28" x2="10.47" y2="-12.1" width="0.1" layer="51"/>
+<wire x1="10.47" y1="-12.1" x2="10.77" y2="-11.83" width="0.1" layer="51"/>
+<wire x1="10.77" y1="-11.83" x2="11.06" y2="-11.56" width="0.1" layer="51"/>
+<wire x1="11.06" y1="-11.56" x2="11.33" y2="-11.29" width="0.1" layer="51"/>
+<wire x1="11.33" y1="-11.29" x2="11.63" y2="-10.98" width="0.1" layer="51"/>
+<wire x1="11.63" y1="-10.98" x2="11.99" y2="-10.59" width="0.1" layer="51"/>
+<wire x1="11.99" y1="-10.59" x2="12.28" y2="-10.26" width="0.1" layer="51"/>
+<wire x1="12.28" y1="-10.26" x2="12.63" y2="-9.83" width="0.1" layer="51"/>
+<wire x1="12.63" y1="-9.83" x2="12.91" y2="-9.46" width="0.1" layer="51"/>
+<wire x1="12.91" y1="-9.46" x2="13.15" y2="-9.12" width="0.1" layer="51"/>
+<wire x1="13.15" y1="-9.12" x2="13.65" y2="-8.36" width="0.1" layer="51"/>
+<wire x1="13.65" y1="-8.36" x2="14.01" y2="-7.74" width="0.1" layer="51"/>
+<wire x1="14.01" y1="-7.74" x2="14.37" y2="-7.04" width="0.1" layer="51"/>
+<wire x1="14.37" y1="-7.04" x2="14.66" y2="-6.42" width="0.1" layer="51"/>
+<wire x1="14.66" y1="-6.42" x2="14.9" y2="-5.87" width="0.1" layer="51"/>
+<wire x1="14.9" y1="-5.87" x2="15.33" y2="-4.59" width="0.1" layer="51"/>
+<wire x1="15.33" y1="-4.59" x2="15.62" y2="-3.51" width="0.1" layer="51"/>
+<wire x1="15.62" y1="-3.51" x2="15.84" y2="-2.27" width="0.1" layer="51"/>
+<wire x1="15.84" y1="-2.27" x2="15.96" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="15.96" y1="-1.25" x2="16.01" y2="-0.35" width="0.1" layer="51"/>
+<wire x1="16.01" y1="-0.35" x2="16" y2="0.34" width="0.1" layer="51"/>
+<wire x1="16" y1="0.34" x2="15.95" y2="1.36" width="0.1" layer="51"/>
+<wire x1="15.95" y1="1.36" x2="15.88" y2="1.96" width="0.1" layer="51"/>
+<wire x1="15.88" y1="1.96" x2="15.76" y2="2.76" width="0.1" layer="51"/>
+<wire x1="15.76" y1="2.76" x2="15.62" y2="3.49" width="0.1" layer="51"/>
+<wire x1="15.62" y1="3.49" x2="15.48" y2="4.07" width="0.1" layer="51"/>
+<wire x1="15.48" y1="4.07" x2="15.28" y2="4.76" width="0.1" layer="51"/>
+<wire x1="15.28" y1="4.76" x2="14.91" y2="5.82" width="0.1" layer="51"/>
+<wire x1="14.91" y1="5.82" x2="14.36" y2="7.06" width="0.1" layer="51"/>
+<wire x1="14.36" y1="7.06" x2="13.9" y2="7.93" width="0.1" layer="51"/>
+<wire x1="13.9" y1="7.93" x2="13.35" y2="8.84" width="0.1" layer="51"/>
+<wire x1="13.35" y1="8.84" x2="12.94" y2="9.41" width="0.1" layer="51"/>
+<wire x1="12.94" y1="9.41" x2="12.45" y2="10.04" width="0.1" layer="51"/>
+<wire x1="12.45" y1="10.04" x2="11.94" y2="10.67" width="0.1" layer="51"/>
+<wire x1="11.94" y1="10.67" x2="11.47" y2="11.16" width="0.1" layer="51"/>
+<wire x1="11.47" y1="11.16" x2="11.08" y2="11.54" width="0.1" layer="51"/>
+<wire x1="11.08" y1="11.54" x2="10.49" y2="12.09" width="0.1" layer="51"/>
+<wire x1="10.49" y1="12.09" x2="10.24" y2="12.29" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-24.9" y="-19.3"/>
+<vertex x="-24.9" y="19.3"/>
+<vertex x="24.9" y="19.3"/>
+<vertex x="24.9" y="-19.3"/>
+</polygon>
+<circle x="-21.8" y="7.5" radius="0.1" width="0.2" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-PFC_RM10" urn="urn:adsk.eagle:package:12907513/2" type="model">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size RM10, THT 12Pin &lt;BR&gt;</description>
+<packageinstances>
+<packageinstance name="WE-PFC_RM10"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PFC_RM14" urn="urn:adsk.eagle:package:12907511/2" type="model">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size RM14, THT 12Pin &lt;BR&gt;</description>
+<packageinstances>
+<packageinstance name="WE-PFC_RM14"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PFC_EE20/10/6" urn="urn:adsk.eagle:package:12907514/2" type="model">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EE20/10/6, THT 10Pin &lt;BR&gt;</description>
+<packageinstances>
+<packageinstance name="WE-PFC_EE20/10/6"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PFC_EFD30" urn="urn:adsk.eagle:package:12907509/2" type="model">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EFD30, THT 11Pin &lt;BR&gt;</description>
+<packageinstances>
+<packageinstance name="WE-PFC_EFD30"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PFC_RM12" urn="urn:adsk.eagle:package:12907512/2" type="model">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size RM12, THT 12Pin &lt;BR&gt;</description>
+<packageinstances>
+<packageinstance name="WE-PFC_RM12"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PFC_EFD25" urn="urn:adsk.eagle:package:12907510/2" type="model">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EFD25, THT 10Pin &lt;BR&gt;</description>
+<packageinstances>
+<packageinstance name="WE-PFC_EFD25"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PFC_PQ38/11" urn="urn:adsk.eagle:package:12907508/2" type="model">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size PQ38/11, THT 6Pin &lt;BR&gt;</description>
+<packageinstances>
+<packageinstance name="WE-PFC_PQ38/11"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PFC_EER28" urn="urn:adsk.eagle:package:12907515/2" type="model">
+<description>&lt;B&gt;WE-PFC  PFC Chokes&lt;/b&gt;&lt;br&gt;
+&lt;BR&gt;Size EER28, THT 9Pin &lt;BR&gt;</description>
+<packageinstances>
+<packageinstance name="WE-PFC_EER28"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CM2W-V">
+<text x="-3.86375" y="-4.39125" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-0.04" y="3.48" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-6.6" y="0" size="1.016" layer="97">N1</text>
+<text x="5" y="0" size="1.016" layer="97">N2</text>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3175" y1="2.54" x2="-0.3175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.3175" y1="2.54" x2="0.3175" y2="-2.54" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="-2.4575" y="1.9225" radius="0.1" width="0.254" layer="94"/>
+<circle x="2.4575" y="1.9225" radius="0.1" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-PFC_RM10" prefix="T">
+<description>&lt;b&gt;WE-PFC PFC Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; PFC choke for power up to 250 W
+&lt;br&gt; Operating temperature: –40 °C to +125 °C
+&lt;br&gt; PQ 38/11 construction height &lt;10 mm above PCB
+&lt;br&gt; Auxiliary winding
+&lt;br&gt; RF strand for low losses due to skin and proximity effects
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Active Power Factor correction
+&lt;br&gt; For all ICs CPU PFC ON Semiconductor
+&lt;br&gt; Lighting applications
+&lt;br&gt; Switchmode power supplies
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1"&gt;https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated  by  Yingchun,Shan 2019-08-21
+&lt;br&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PFC_RM10">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="12"/>
+<connect gate="G$1" pin="3" pad="7"/>
+<connect gate="G$1" pin="4" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12907513/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_760801020">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760801020.pdf" constant="no"/>
+<attribute name="IR" value="06.A" constant="no"/>
+<attribute name="ISAT" value="4A" constant="no"/>
+<attribute name="N" value="12:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760801020 " constant="no"/>
+<attribute name="RDC1" value="360mOhm" constant="no"/>
+<attribute name="RDC2" value="180mOhm" constant="no"/>
+<attribute name="VALUE" value="500uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760801030">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760801030.pdf" constant="no"/>
+<attribute name="IR" value="0.4A" constant="no"/>
+<attribute name="ISAT" value="3.9A" constant="no"/>
+<attribute name="N" value="10.71:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760801030 " constant="no"/>
+<attribute name="RDC1" value="480mOhm" constant="no"/>
+<attribute name="RDC2" value="260mOhm" constant="no"/>
+<attribute name="VALUE" value="650uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760801130">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760801130.pdf" constant="no"/>
+<attribute name="IR" value="0.9A" constant="no"/>
+<attribute name="ISAT" value="3.9A" constant="no"/>
+<attribute name="N" value="90:8" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760801130 " constant="no"/>
+<attribute name="RDC1" value="720mOhm" constant="no"/>
+<attribute name="RDC2" value="320mOhm" constant="no"/>
+<attribute name="VALUE" value="750uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760802112">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760802112.pdf" constant="no"/>
+<attribute name="IR" value="0.8A" constant="no"/>
+<attribute name="ISAT" value="5.4A" constant="no"/>
+<attribute name="N" value="12:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760802112 " constant="no"/>
+<attribute name="RDC1" value="360mOhm" constant="no"/>
+<attribute name="RDC2" value="180mOhm" constant="no"/>
+<attribute name="VALUE" value="375uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760804110">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760804110.pdf" constant="no"/>
+<attribute name="IR" value="1.1A" constant="no"/>
+<attribute name="ISAT" value="5.6A" constant="no"/>
+<attribute name="N" value="44:5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760804110 " constant="no"/>
+<attribute name="RDC1" value="150mOhm" constant="no"/>
+<attribute name="RDC2" value="200mOhm" constant="no"/>
+<attribute name="VALUE" value="250uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PFC_RM14" prefix="T">
+<description>&lt;b&gt;WE-PFC PFC Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; PFC choke for power up to 250 W
+&lt;br&gt; Operating temperature: –40 °C to +125 °C
+&lt;br&gt; PQ 38/11 construction height &lt;10 mm above PCB
+&lt;br&gt; Auxiliary winding
+&lt;br&gt; RF strand for low losses due to skin and proximity effects
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Active Power Factor correction
+&lt;br&gt; For all ICs CPU PFC ON Semiconductor
+&lt;br&gt; Lighting applications
+&lt;br&gt; Switchmode power supplies
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1"&gt;https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated  by  Yingchun,Shan 2019-08-21
+&lt;br&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PFC_RM14">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="12"/>
+<connect gate="G$1" pin="3" pad="7"/>
+<connect gate="G$1" pin="4" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12907511/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_760805410">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760805410.pdf" constant="no"/>
+<attribute name="IR" value="2.4A" constant="no"/>
+<attribute name="ISAT" value="12.4A" constant="no"/>
+<attribute name="N" value="39:4" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760805410 " constant="no"/>
+<attribute name="RDC1" value="87mOhm" constant="no"/>
+<attribute name="RDC2" value="200mOhm" constant="no"/>
+<attribute name="VALUE" value="225uH" constant="no"/>
+<attribute name="VI" value="85-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760806400">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760806400.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="ISAT" value="13.2A" constant="no"/>
+<attribute name="N" value="9:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760806400 " constant="no"/>
+<attribute name="RDC1" value="78mOhm" constant="no"/>
+<attribute name="RDC2" value="200mOhm" constant="no"/>
+<attribute name="VALUE" value="180uH" constant="no"/>
+<attribute name="VI" value="85-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PFC_EE20/10/6" prefix="T">
+<description>&lt;b&gt;WE-PFC PFC Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; PFC choke for power up to 250 W
+&lt;br&gt; Operating temperature: –40 °C to +125 °C
+&lt;br&gt; PQ 38/11 construction height &lt;10 mm above PCB
+&lt;br&gt; Auxiliary winding
+&lt;br&gt; RF strand for low losses due to skin and proximity effects
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Active Power Factor correction
+&lt;br&gt; For all ICs CPU PFC ON Semiconductor
+&lt;br&gt; Lighting applications
+&lt;br&gt; Switchmode power supplies
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1"&gt;https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated  by  Yingchun,Shan 2019-08-21
+&lt;br&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PFC_EE20/10/6">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="G$1" pin="3" pad="9"/>
+<connect gate="G$1" pin="4" pad="10"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12907514/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_760800080">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760800080.pdf" constant="no"/>
+<attribute name="IR" value="0.3A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="N" value="12.9:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760800080 " constant="no"/>
+<attribute name="RDC1" value="1550mOhm" constant="no"/>
+<attribute name="RDC2" value="1200mOhm" constant="no"/>
+<attribute name="VALUE" value="1800uH" constant="no"/>
+<attribute name="VI" value="85-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PFC_EFD30" prefix="T">
+<description>&lt;b&gt;WE-PFC PFC Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; PFC choke for power up to 250 W
+&lt;br&gt; Operating temperature: –40 °C to +125 °C
+&lt;br&gt; PQ 38/11 construction height &lt;10 mm above PCB
+&lt;br&gt; Auxiliary winding
+&lt;br&gt; RF strand for low losses due to skin and proximity effects
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Active Power Factor correction
+&lt;br&gt; For all ICs CPU PFC ON Semiconductor
+&lt;br&gt; Lighting applications
+&lt;br&gt; Switchmode power supplies
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1"&gt;https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated  by  Yingchun,Shan 2019-08-21
+&lt;br&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PFC_EFD30">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="5"/>
+<connect gate="G$1" pin="3" pad="8"/>
+<connect gate="G$1" pin="4" pad="11"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12907509/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_760801021">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760801021.pdf" constant="no"/>
+<attribute name="IR" value="0.6A" constant="no"/>
+<attribute name="ISAT" value="4.2A" constant="no"/>
+<attribute name="N" value="21:2" constant="no"/>
+<attribute name="PART-NUMBER" value="760801021" constant="no"/>
+<attribute name="RDC1" value="620mOhm" constant="no"/>
+<attribute name="RDC2" value="540mOhm" constant="no"/>
+<attribute name="VALUE" value="500uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760801131">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760801131.pdf" constant="no"/>
+<attribute name="IR" value="0.9A" constant="no"/>
+<attribute name="ISAT" value="3.3A" constant="no"/>
+<attribute name="N" value="34:3" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760801131 " constant="no"/>
+<attribute name="RDC1" value="950mOhm" constant="no"/>
+<attribute name="RDC2" value="580mOhm" constant="no"/>
+<attribute name="VALUE" value="750uH" constant="no"/>
+<attribute name="VI" value="85-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760802113">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760802113.pdf" constant="no"/>
+<attribute name="IR" value="0.8A" constant="no"/>
+<attribute name="ISAT" value="4A" constant="no"/>
+<attribute name="N" value="65:6" constant="no"/>
+<attribute name="PART-NUMBER" value="760802113" constant="no"/>
+<attribute name="RDC1" value="470mOhm" constant="no"/>
+<attribute name="RDC2" value="390mOhm" constant="no"/>
+<attribute name="VALUE" value="375uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760804111">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760804111.pdf" constant="no"/>
+<attribute name="IR" value="1.1A" constant="no"/>
+<attribute name="ISAT" value="4.8A" constant="no"/>
+<attribute name="N" value="50:5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760804111 " constant="no"/>
+<attribute name="RDC1" value="300mOhm" constant="no"/>
+<attribute name="RDC2" value="350mOhm" constant="no"/>
+<attribute name="VALUE" value="250uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760805211">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760805211.pdf" constant="no"/>
+<attribute name="IR" value="1.4A" constant="no"/>
+<attribute name="ISAT" value="6A" constant="no"/>
+<attribute name="N" value="50:5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760805211 " constant="no"/>
+<attribute name="RDC1" value="300mOhm" constant="no"/>
+<attribute name="RDC2" value="350mOhm" constant="no"/>
+<attribute name="VALUE" value="200uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760806201">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760806201.pdf" constant="no"/>
+<attribute name="IR" value="1.4A" constant="no"/>
+<attribute name="ISAT" value="6.8A" constant="no"/>
+<attribute name="N" value="42:5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760806201 " constant="no"/>
+<attribute name="RDC1" value="190mOhm" constant="no"/>
+<attribute name="RDC2" value="350mOhm" constant="no"/>
+<attribute name="VALUE" value="150uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PFC_EFD25" prefix="T">
+<description>&lt;b&gt;WE-PFC PFC Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; PFC choke for power up to 250 W
+&lt;br&gt; Operating temperature: –40 °C to +125 °C
+&lt;br&gt; PQ 38/11 construction height &lt;10 mm above PCB
+&lt;br&gt; Auxiliary winding
+&lt;br&gt; RF strand for low losses due to skin and proximity effects
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Active Power Factor correction
+&lt;br&gt; For all ICs CPU PFC ON Semiconductor
+&lt;br&gt; Lighting applications
+&lt;br&gt; Switchmode power supplies
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1"&gt;https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated  by  Yingchun,Shan 2019-08-21
+&lt;br&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PFC_EFD25">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="7"/>
+<connect gate="G$1" pin="4" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12907510/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_760801031">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760801031.pdf" constant="no"/>
+<attribute name="IR" value="0.4A" constant="no"/>
+<attribute name="ISAT" value="2.6A" constant="no"/>
+<attribute name="N" value="90:8" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760801031 " constant="no"/>
+<attribute name="RDC1" value="1020mOhm" constant="no"/>
+<attribute name="RDC2" value="460mOhm" constant="no"/>
+<attribute name="VALUE" value="650uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PFC_RM12" prefix="T">
+<description>&lt;b&gt;WE-PFC PFC Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; PFC choke for power up to 250 W
+&lt;br&gt; Operating temperature: –40 °C to +125 °C
+&lt;br&gt; PQ 38/11 construction height &lt;10 mm above PCB
+&lt;br&gt; Auxiliary winding
+&lt;br&gt; RF strand for low losses due to skin and proximity effects
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Active Power Factor correction
+&lt;br&gt; For all ICs CPU PFC ON Semiconductor
+&lt;br&gt; Lighting applications
+&lt;br&gt; Switchmode power supplies
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1"&gt;https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated  by  Yingchun,Shan 2019-08-21
+&lt;br&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PFC_RM12">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="12"/>
+<connect gate="G$1" pin="3" pad="7"/>
+<connect gate="G$1" pin="4" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12907512/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_760802122">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760802122.pdf" constant="no"/>
+<attribute name="IR" value="1.2A" constant="no"/>
+<attribute name="ISAT" value="5.6A" constant="no"/>
+<attribute name="N" value="10:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760802122 " constant="no"/>
+<attribute name="RDC1" value="330mOhm" constant="no"/>
+<attribute name="RDC2" value="200mOhm" constant="no"/>
+<attribute name="VALUE" value="450uH" constant="no"/>
+<attribute name="VI" value="85-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760804310">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760804310.pdf" constant="no"/>
+<attribute name="IR" value="2.4A" constant="no"/>
+<attribute name="ISAT" value="7.4A" constant="no"/>
+<attribute name="N" value="52:5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760804310 " constant="no"/>
+<attribute name="RDC1" value="170mOhm" constant="no"/>
+<attribute name="RDC2" value="250mOhm" constant="no"/>
+<attribute name="VALUE" value="300uH" constant="no"/>
+<attribute name="VI" value="85-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760805210">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760805210.pdf" constant="no"/>
+<attribute name="IR" value="1.4A" constant="no"/>
+<attribute name="ISAT" value="8.4A" constant="no"/>
+<attribute name="N" value="39:5" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760805210 " constant="no"/>
+<attribute name="RDC1" value="120mOhm" constant="no"/>
+<attribute name="RDC2" value="250mOhm" constant="no"/>
+<attribute name="VALUE" value="200uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+<technology name="_760806200">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760806200.pdf" constant="no"/>
+<attribute name="IR" value="1.4A" constant="no"/>
+<attribute name="ISAT" value="11A" constant="no"/>
+<attribute name="N" value="33:4" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760806200 " constant="no"/>
+<attribute name="RDC1" value="80mOhm" constant="no"/>
+<attribute name="RDC2" value="180mOhm" constant="no"/>
+<attribute name="VALUE" value="150uH" constant="no"/>
+<attribute name="VI" value="195-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PFC_EER28" prefix="T">
+<description>&lt;b&gt;WE-PFC PFC Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; PFC choke for power up to 250 W
+&lt;br&gt; Operating temperature: –40 °C to +125 °C
+&lt;br&gt; PQ 38/11 construction height &lt;10 mm above PCB
+&lt;br&gt; Auxiliary winding
+&lt;br&gt; RF strand for low losses due to skin and proximity effects
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Active Power Factor correction
+&lt;br&gt; For all ICs CPU PFC ON Semiconductor
+&lt;br&gt; Lighting applications
+&lt;br&gt; Switchmode power supplies
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1"&gt;https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated  by  Yingchun,Shan 2019-08-21
+&lt;br&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PFC_EER28">
+<connects>
+<connect gate="G$1" pin="1" pad="9"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="7"/>
+<connect gate="G$1" pin="4" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12907515/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_760803200">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760803200.pdf" constant="no"/>
+<attribute name="IR" value="1.5A" constant="no"/>
+<attribute name="ISAT" value="12A" constant="no"/>
+<attribute name="N" value="9.17:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760803200 " constant="no"/>
+<attribute name="RDC1" value="190mOhm" constant="no"/>
+<attribute name="RDC2" value="140mOhm" constant="no"/>
+<attribute name="VALUE" value="150uH" constant="no"/>
+<attribute name="VI" value="85-265V(AC)" constant="no"/>
+<attribute name="VT" value="800V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PFC_PQ38/11" prefix="T">
+<description>&lt;b&gt;WE-PFC PFC Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; PFC choke for power up to 250 W
+&lt;br&gt; Operating temperature: –40 °C to +125 °C
+&lt;br&gt; PQ 38/11 construction height &lt;10 mm above PCB
+&lt;br&gt; Auxiliary winding
+&lt;br&gt; RF strand for low losses due to skin and proximity effects
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Active Power Factor correction
+&lt;br&gt; For all ICs CPU PFC ON Semiconductor
+&lt;br&gt; Lighting applications
+&lt;br&gt; Switchmode power supplies
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14837v209%20Family_WE-PFC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1"&gt;https://katalog.we-online.com/en/pbs/PFC_CHOKES#vs_ct:1&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated  by  Yingchun,Shan 2019-08-21
+&lt;br&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PFC_PQ38/11">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="6"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12907508/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_760806302">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/760806302.pdf" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="ISAT" value="5.1A" constant="no"/>
+<attribute name="N" value="8.75:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 760806302 " constant="no"/>
+<attribute name="RDC1" value="197.3mOhm" constant="no"/>
+<attribute name="RDC2" value="310mOhm" constant="no"/>
+<attribute name="VALUE" value="300uH" constant="no"/>
+<attribute name="VI" value="85-265V(AC)" constant="no"/>
+<attribute name="VT" value="1500V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

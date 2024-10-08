@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Capacitors - Super Capacitors (EDLCs) - WCAP-STSC&lt;br&gt;
+
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-08-11&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WCAP-STSC_D10L20" urn="urn:adsk.eagle:footprint:18566083/2">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+10X20X5X0.6(Diameter X Length X Pitch X Pin Diameter)</description>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="6.1" y="0" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="6.1" y="0" size="1.27" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="5" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="5.1" width="0.2" layer="21"/>
+<pad name="2" x="-2.5" y="0" drill="0.9"/>
+<pad name="1" x="2.5" y="0" drill="0.9"/>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="5.3" curve="90"/>
+<vertex x="-5.3" y="0" curve="90"/>
+<vertex x="0" y="-5.3" curve="90"/>
+<vertex x="5.3" y="0" curve="90"/>
+</polygon>
+</package>
+<package name="WCAP-STSC_D8L20" urn="urn:adsk.eagle:footprint:18566084/2">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;8X20X3.5X0.6(Diameter X Length X Pitch X Pin Diameter)</description>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="5" y="-0.4" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="5" y="-0.4" size="1.27" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="4.1" width="0.2" layer="21"/>
+<pad name="2" x="-1.75" y="0" drill="0.9"/>
+<pad name="1" x="1.75" y="0" drill="0.9"/>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="4.3" curve="90"/>
+<vertex x="-4.3" y="0" curve="90"/>
+<vertex x="0" y="-4.3" curve="90"/>
+<vertex x="4.3" y="0" curve="90"/>
+</polygon>
+</package>
+<package name="WCAP-STSC_D10L25" urn="urn:adsk.eagle:footprint:18566082/2">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+10X25X5X0.6(Diameter X Length X Pitch X Pin Diameter)</description>
+<pad name="2" x="-2.5" y="0" drill="0.9"/>
+<pad name="1" x="2.5" y="0" drill="0.9"/>
+<circle x="0" y="0" radius="5" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="5.1" width="0.2" layer="21"/>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.1" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="6" y="0" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="6" y="0" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="-5.3" curve="-90"/>
+<vertex x="-5.3" y="0" curve="-90"/>
+<vertex x="0" y="5.3" curve="-90"/>
+<vertex x="5.3" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="WCAP-STSC_D18L40" urn="urn:adsk.eagle:footprint:18566079/2">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+18X40X7.5X0.8(Diameter X Length X Pitch X Pin Diameter)</description>
+<circle x="0" y="0" radius="9" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="9.1" width="0.2" layer="21"/>
+<pad name="2" x="-3.75" y="0" drill="1.1"/>
+<pad name="1" x="3.75" y="0" drill="1.1"/>
+<text x="0" y="10" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="10.2" y="0.3" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="10.2" y="0.3" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="9.3" curve="90"/>
+<vertex x="-9.3" y="0" curve="90"/>
+<vertex x="0" y="-9.3" curve="90"/>
+<vertex x="9.3" y="0" curve="90"/>
+</polygon>
+</package>
+<package name="WCAP-STSC_D16L25" urn="urn:adsk.eagle:footprint:18566080/2">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+16X25X7.5X0.8(Diameter X Length X Pitch X Pin Diameter)</description>
+<circle x="0" y="0" radius="8" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="8.1" width="0.2" layer="21"/>
+<pad name="2" x="-3.75" y="0" drill="1.1"/>
+<pad name="1" x="3.75" y="0" drill="1.1"/>
+<text x="0" y="9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="9.1" y="0.4" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="9.1" y="0.4" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="8.3" curve="90"/>
+<vertex x="-8.3" y="0" curve="90"/>
+<vertex x="0" y="-8.3" curve="90"/>
+<vertex x="8.3" y="0" curve="90"/>
+</polygon>
+</package>
+<package name="WCAP-STSC_D13L25" urn="urn:adsk.eagle:footprint:18566081/2">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+13X25X5X0.6(Diameter X Length X Pitch X Pin Diameter)</description>
+<circle x="0" y="0" radius="6.5" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="6.6" width="0.2" layer="21"/>
+<pad name="2" x="-2.5" y="0" drill="0.9"/>
+<pad name="1" x="2.5" y="0" drill="0.9"/>
+<text x="-0.2" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.4" y="-8.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="7.6" y="0.4" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="7.6" y="0.4" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="-6.8" curve="-90"/>
+<vertex x="-6.8" y="0" curve="-90"/>
+<vertex x="0" y="6.8" curve="-90"/>
+<vertex x="6.8" y="0" curve="-90"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WCAP-STSC_10X20(DXL)" urn="urn:adsk.eagle:package:18566091/3" type="model">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+10X20X5X0.6(Diameter X Length X Pitch X Pin Diameter)</description>
+<packageinstances>
+<packageinstance name="WCAP-STSC_D10L20"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-STSC_10X25(DXL)" urn="urn:adsk.eagle:package:18566090/3" type="model">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+10X25X5X0.6(Diameter X Length X Pitch X Pin Diameter)</description>
+<packageinstances>
+<packageinstance name="WCAP-STSC_D10L25"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-STSC_8X20(DXL)" urn="urn:adsk.eagle:package:18566092/3" type="model">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;8X20X3.5X0.6(Diameter X Length X Pitch X Pin Diameter)</description>
+<packageinstances>
+<packageinstance name="WCAP-STSC_D8L20"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-STSC_18X40(DXL)" urn="urn:adsk.eagle:package:18566087/3" type="model">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+18X40X7.5X0.8(Diameter X Length X Pitch X Pin Diameter)</description>
+<packageinstances>
+<packageinstance name="WCAP-STSC_D18L40"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-STSC_13X25(DXL)" urn="urn:adsk.eagle:package:18566089/3" type="model">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+13X25X5X0.6(Diameter X Length X Pitch X Pin Diameter)</description>
+<packageinstances>
+<packageinstance name="WCAP-STSC_D13L25"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-STSC_16X25(DXL)" urn="urn:adsk.eagle:package:18566088/3" type="model">
+<description>&lt;b&gt;WCAP-STSC Super Capacitors (EDLCs)
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+16X25X7.5X0.8(Diameter X Length X Pitch X Pin Diameter)</description>
+<packageinstances>
+<packageinstance name="WCAP-STSC_D16L25"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C-POLAR">
+<description>C-POLAR</description>
+<pin name="+" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="1.175" y="3.38" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0.915" y="-5.075" size="1.4224" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="2.54" y="-2.54" size="1.778" layer="94">+</text>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.64261875" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.927859375" y1="0" x2="2.57048125" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WCAP-STSC_10X20" prefix="C">
+<description>&lt;b&gt; WCAP-STSC Supercapacitors (EDLC‘s)
+&lt;br&gt;Standard Cylindrical – THT
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;&lt;/b&gt;Product series with standard cylindrical size
+&lt;br&gt; Electric Double Layer Capacitors
+&lt;br&gt; Higher energy density than usual capacitors
+&lt;br&gt; Mounting style: Radial THT
+&lt;br&gt; Capacitance range: 3 F ‒ 50 F
+&lt;br&gt; Capacitance tolerance: -10 % / +30 %
+&lt;br&gt; Rated Voltage: 2.7 V(DC)
+&lt;br&gt; Operating temperature: -40 °C up to +65 °C
+&lt;br&gt; Life Cycles: 500000 Cycles
+&lt;br&gt; Dimensions (DxL) in mm: 8.0 x 20.0 up to 18.0 x 40.0
+&lt;br&gt; Recommended soldering: Wave soldering
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Memory backup
+&lt;br&gt;Smart meter
+&lt;br&gt;Network equipment
+&lt;br&gt;UPS systems
+&lt;br&gt;Power assist
+&lt;br&gt;Energy harvesting
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-STSC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-STSC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2023-08-11
+&lt;br&gt;2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C-POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-STSC_D10L20">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18566091/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_850617021001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/850617021001?ae"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENERGY-DENSITY" value="2.41 Wh/kg"/>
+<attribute name="I-LEAK" value="0.012mA"/>
+<attribute name="I-MAX" value="5.4A"/>
+<attribute name="I-RATED" value="1.29A"/>
+<attribute name="LENGTH" value="20mm"/>
+<attribute name="PART-NUMBER" value=" 850617021001 "/>
+<attribute name="PITCH" value="5mm"/>
+<attribute name="POWER-DENSITY" value="17.35 KW/kg"/>
+<attribute name="RESR-AC" value="40mohm"/>
+<attribute name="RESR-DC" value="50mohm"/>
+<attribute name="VALUE" value="5F"/>
+<attribute name="VR" value="2.7V(DC)"/>
+</technology>
+<technology name="_850617021002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/850617021002?ae"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENERGY-DENSITY" value="3.3 Wh/kg"/>
+<attribute name="I-LEAK" value="0.02mA"/>
+<attribute name="I-MAX" value="7.1A"/>
+<attribute name="I-RATED" value="1.7A"/>
+<attribute name="LENGTH" value="20mm"/>
+<attribute name="PART-NUMBER" value=" 850617021002 "/>
+<attribute name="PITCH" value="5mm"/>
+<attribute name="POWER-DENSITY" value="18.92 KW/kg"/>
+<attribute name="RESR-AC" value="35mohm"/>
+<attribute name="RESR-DC" value="45mohm"/>
+<attribute name="VALUE" value="7F"/>
+<attribute name="VR" value="2.7V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-STSC_8X20" prefix="C">
+<description>&lt;b&gt; WCAP-STSC Supercapacitors (EDLC‘s)
+&lt;br&gt;Standard Cylindrical – THT
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;&lt;/b&gt;Product series with standard cylindrical size
+&lt;br&gt; Electric Double Layer Capacitors
+&lt;br&gt; Higher energy density than usual capacitors
+&lt;br&gt; Mounting style: Radial THT
+&lt;br&gt; Capacitance range: 3 F ‒ 50 F
+&lt;br&gt; Capacitance tolerance: -10 % / +30 %
+&lt;br&gt; Rated Voltage: 2.7 V(DC)
+&lt;br&gt; Operating temperature: -40 °C up to +65 °C
+&lt;br&gt; Life Cycles: 500000 Cycles
+&lt;br&gt; Dimensions (DxL) in mm: 8.0 x 20.0 up to 18.0 x 40.0
+&lt;br&gt; Recommended soldering: Wave soldering
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Memory backup
+&lt;br&gt;Smart meter
+&lt;br&gt;Network equipment
+&lt;br&gt;UPS systems
+&lt;br&gt;Power assist
+&lt;br&gt;Energy harvesting
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-STSC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-STSC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2023-08-11
+&lt;br&gt;2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C-POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-STSC_D8L20">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18566092/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_850617030001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/850617030001?ae"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="ENERGY-DENSITY" value="2.1 Wh/kg"/>
+<attribute name="I-LEAK" value="0.008mA"/>
+<attribute name="I-MAX" value="3.3A"/>
+<attribute name="I-RATED" value="0.7A"/>
+<attribute name="LENGTH" value="20mm"/>
+<attribute name="PART-NUMBER" value=" 850617030001 "/>
+<attribute name="PITCH" value="3.5mm"/>
+<attribute name="POWER-DENSITY" value="18.08 KW/kg"/>
+<attribute name="RESR-AC" value="60mohm"/>
+<attribute name="RESR-DC" value="70mohm"/>
+<attribute name="VALUE" value="3F"/>
+<attribute name="VR" value="2.7V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-STSC_10X25" prefix="C">
+<description>&lt;b&gt; WCAP-STSC Supercapacitors (EDLC‘s)
+&lt;br&gt;Standard Cylindrical – THT
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;&lt;/b&gt;Product series with standard cylindrical size
+&lt;br&gt; Electric Double Layer Capacitors
+&lt;br&gt; Higher energy density than usual capacitors
+&lt;br&gt; Mounting style: Radial THT
+&lt;br&gt; Capacitance range: 3 F ‒ 50 F
+&lt;br&gt; Capacitance tolerance: -10 % / +30 %
+&lt;br&gt; Rated Voltage: 2.7 V(DC)
+&lt;br&gt; Operating temperature: -40 °C up to +65 °C
+&lt;br&gt; Life Cycles: 500000 Cycles
+&lt;br&gt; Dimensions (DxL) in mm: 8.0 x 20.0 up to 18.0 x 40.0
+&lt;br&gt; Recommended soldering: Wave soldering
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Memory backup
+&lt;br&gt;Smart meter
+&lt;br&gt;Network equipment
+&lt;br&gt;UPS systems
+&lt;br&gt;Power assist
+&lt;br&gt;Energy harvesting
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-STSC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-STSC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2023-08-11
+&lt;br&gt;2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C-POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-STSC_D10L25">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18566090/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_850617021004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/850617021004?ae"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENERGY-DENSITY" value="3.7 Wh/kg"/>
+<attribute name="I-LEAK" value="0.03mA"/>
+<attribute name="I-MAX" value="10A"/>
+<attribute name="I-RATED" value="2.5A"/>
+<attribute name="LENGTH" value="25mm"/>
+<attribute name="PART-NUMBER" value=" 850617021004 "/>
+<attribute name="PITCH" value="5mm"/>
+<attribute name="POWER-DENSITY" value="19.1 KW/kg"/>
+<attribute name="RESR-AC" value="30mohm"/>
+<attribute name="RESR-DC" value="35mohm"/>
+<attribute name="VALUE" value="10F"/>
+<attribute name="VR" value="2.7V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-STSC_16X25" prefix="C">
+<description>&lt;b&gt; WCAP-STSC Supercapacitors (EDLC‘s)
+&lt;br&gt;Standard Cylindrical – THT
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;&lt;/b&gt;Product series with standard cylindrical size
+&lt;br&gt; Electric Double Layer Capacitors
+&lt;br&gt; Higher energy density than usual capacitors
+&lt;br&gt; Mounting style: Radial THT
+&lt;br&gt; Capacitance range: 3 F ‒ 50 F
+&lt;br&gt; Capacitance tolerance: -10 % / +30 %
+&lt;br&gt; Rated Voltage: 2.7 V(DC)
+&lt;br&gt; Operating temperature: -40 °C up to +65 °C
+&lt;br&gt; Life Cycles: 500000 Cycles
+&lt;br&gt; Dimensions (DxL) in mm: 8.0 x 20.0 up to 18.0 x 40.0
+&lt;br&gt; Recommended soldering: Wave soldering
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Memory backup
+&lt;br&gt;Smart meter
+&lt;br&gt;Network equipment
+&lt;br&gt;UPS systems
+&lt;br&gt;Power assist
+&lt;br&gt;Energy harvesting
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-STSC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-STSC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2023-08-11
+&lt;br&gt;2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C-POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-STSC_D16L25">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18566088/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_850617022001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/850617022001?ae"/>
+<attribute name="DIAMETER" value="16mm"/>
+<attribute name="ENERGY-DENSITY" value="3.7 Wh/kg"/>
+<attribute name="I-LEAK" value="0.068mA"/>
+<attribute name="I-MAX" value="20.7A"/>
+<attribute name="I-RATED" value="6A"/>
+<attribute name="LENGTH" value="25mm"/>
+<attribute name="PART-NUMBER" value=" 850617022001 "/>
+<attribute name="PITCH" value="7.5mm"/>
+<attribute name="POWER-DENSITY" value="10.72 KW/kg"/>
+<attribute name="RESR-AC" value="20mohm"/>
+<attribute name="RESR-DC" value="25mohm"/>
+<attribute name="VALUE" value="25F"/>
+<attribute name="VR" value="2.7V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-STSC_13X25" prefix="C">
+<description>&lt;b&gt; WCAP-STSC Supercapacitors (EDLC‘s)
+&lt;br&gt;Standard Cylindrical – THT
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;&lt;/b&gt;Product series with standard cylindrical size
+&lt;br&gt; Electric Double Layer Capacitors
+&lt;br&gt; Higher energy density than usual capacitors
+&lt;br&gt; Mounting style: Radial THT
+&lt;br&gt; Capacitance range: 3 F ‒ 50 F
+&lt;br&gt; Capacitance tolerance: -10 % / +30 %
+&lt;br&gt; Rated Voltage: 2.7 V(DC)
+&lt;br&gt; Operating temperature: -40 °C up to +65 °C
+&lt;br&gt; Life Cycles: 500000 Cycles
+&lt;br&gt; Dimensions (DxL) in mm: 8.0 x 20.0 up to 18.0 x 40.0
+&lt;br&gt; Recommended soldering: Wave soldering
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Memory backup
+&lt;br&gt;Smart meter
+&lt;br&gt;Network equipment
+&lt;br&gt;UPS systems
+&lt;br&gt;Power assist
+&lt;br&gt;Energy harvesting
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-STSC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-STSC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2023-08-11
+&lt;br&gt;2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C-POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-STSC_D13L25">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18566089/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_850617021005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/850617021005?ae"/>
+<attribute name="DIAMETER" value="13mm"/>
+<attribute name="ENERGY-DENSITY" value="3.3 Wh/kg"/>
+<attribute name="I-LEAK" value="0.06mA"/>
+<attribute name="I-MAX" value="13.5A"/>
+<attribute name="I-RATED" value="3.6A"/>
+<attribute name="LENGTH" value="25mm"/>
+<attribute name="PART-NUMBER" value=" 850617021005 "/>
+<attribute name="PITCH" value="5mm"/>
+<attribute name="POWER-DENSITY" value="12.27 KW/kg"/>
+<attribute name="RESR-AC" value="30mohm"/>
+<attribute name="RESR-DC" value="33mohm"/>
+<attribute name="VALUE" value="15F"/>
+<attribute name="VR" value="2.7V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-STSC_18X40" prefix="C">
+<description>&lt;b&gt; WCAP-STSC Supercapacitors (EDLC‘s)
+&lt;br&gt;Standard Cylindrical – THT
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;&lt;/b&gt;Product series with standard cylindrical size
+&lt;br&gt; Electric Double Layer Capacitors
+&lt;br&gt; Higher energy density than usual capacitors
+&lt;br&gt; Mounting style: Radial THT
+&lt;br&gt; Capacitance range: 3 F ‒ 50 F
+&lt;br&gt; Capacitance tolerance: -10 % / +30 %
+&lt;br&gt; Rated Voltage: 2.7 V(DC)
+&lt;br&gt; Operating temperature: -40 °C up to +65 °C
+&lt;br&gt; Life Cycles: 500000 Cycles
+&lt;br&gt; Dimensions (DxL) in mm: 8.0 x 20.0 up to 18.0 x 40.0
+&lt;br&gt; Recommended soldering: Wave soldering
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Memory backup
+&lt;br&gt;Smart meter
+&lt;br&gt;Network equipment
+&lt;br&gt;UPS systems
+&lt;br&gt;Power assist
+&lt;br&gt;Energy harvesting
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o129765v209%20WCAP-STSC_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WCAP-STSC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-STSC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2023-08-11
+&lt;br&gt;2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C-POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-STSC_D18L40">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18566087/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_850617022002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/850617022002?ae"/>
+<attribute name="DIAMETER" value="18mm"/>
+<attribute name="ENERGY-DENSITY" value="4.5 Wh/kg"/>
+<attribute name="I-LEAK" value="0.105mA"/>
+<attribute name="I-MAX" value="33.7A"/>
+<attribute name="I-RATED" value="11.2A"/>
+<attribute name="LENGTH" value="40mm"/>
+<attribute name="PART-NUMBER" value=" 850617022002 "/>
+<attribute name="PITCH" value="7.5mm"/>
+<attribute name="POWER-DENSITY" value="8.13 KW/kg"/>
+<attribute name="RESR-AC" value="15mohm"/>
+<attribute name="RESR-DC" value="20mohm"/>
+<attribute name="VALUE" value="50F"/>
+<attribute name="VR" value="2.7V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

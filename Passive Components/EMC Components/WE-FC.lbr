@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - EMC Components - Common Mode Chokes for Mains Power Lines - WE-FC&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2022b, 2022-12-06&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-FC_UT20V" urn="urn:adsk.eagle:footprint:11382031/6">
+<description>&lt;B&gt;WE-FC Common Mode Power Line Choke
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Size: UT20V, SMT, 4pins
+&lt;br&gt;LxWxH=21.3x16.6x22.5mm</description>
+<wire x1="-10.65" y1="-8.3" x2="10.65" y2="-8.3" width="0.1" layer="51"/>
+<wire x1="-10.65" y1="8.3" x2="10.65" y2="8.3" width="0.1" layer="51"/>
+<wire x1="10.65" y1="8.3" x2="10.65" y2="-8.3" width="0.1" layer="51"/>
+<wire x1="-10.65" y1="8.3" x2="-10.65" y2="-8.3" width="0.1" layer="51"/>
+<wire x1="-10.75" y1="8.4" x2="10.75" y2="8.4" width="0.2" layer="21"/>
+<wire x1="10.75" y1="8.4" x2="10.75" y2="-8.4" width="0.2" layer="21"/>
+<wire x1="10.75" y1="-8.4" x2="-10.75" y2="-8.4" width="0.2" layer="21"/>
+<wire x1="-10.75" y1="-8.4" x2="-10.75" y2="8.4" width="0.2" layer="21"/>
+<pad name="2" x="6.5" y="5" drill="1.2"/>
+<pad name="1" x="-6.5" y="5" drill="1.2"/>
+<pad name="3" x="6.5" y="-5" drill="1.2"/>
+<pad name="4" x="-6.5" y="-5" drill="1.2"/>
+<text x="0" y="9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.127" layer="39">
+<vertex x="-10.95" y="8.6"/>
+<vertex x="10.95" y="8.6"/>
+<vertex x="10.95" y="-8.6"/>
+<vertex x="-10.95" y="-8.6"/>
+</polygon>
+<circle x="-8.42" y="7.05" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-FC_ET20H" urn="urn:adsk.eagle:footprint:11382032/7">
+<description>&lt;B&gt;WE-FC Common Mode Power Line Choke
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Size: ET20H, SMT, 4pins
+&lt;br&gt;LxWxH=21.3x21.3x17.8mm</description>
+<wire x1="-10.65" y1="-10.65" x2="10.65" y2="-10.65" width="0.1" layer="51"/>
+<wire x1="-10.65" y1="10.65" x2="10.65" y2="10.65" width="0.1" layer="51"/>
+<wire x1="10.65" y1="10.65" x2="10.65" y2="-10.65" width="0.1" layer="51"/>
+<wire x1="-10.65" y1="10.65" x2="-10.65" y2="-10.65" width="0.1" layer="51"/>
+<wire x1="-10.75" y1="10.75" x2="10.75" y2="10.75" width="0.2" layer="21"/>
+<wire x1="10.75" y1="10.75" x2="10.75" y2="-10.75" width="0.2" layer="21"/>
+<wire x1="10.75" y1="-10.75" x2="-10.75" y2="-10.75" width="0.2" layer="21"/>
+<wire x1="-10.75" y1="-10.75" x2="-10.75" y2="10.75" width="0.2" layer="21"/>
+<pad name="2" x="6.5" y="5" drill="1.2"/>
+<pad name="1" x="-6.5" y="5" drill="1.2"/>
+<pad name="3" x="6.5" y="-5" drill="1.2"/>
+<pad name="4" x="-6.5" y="-5" drill="1.2"/>
+<text x="0" y="-12.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-0.13" y="11.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-10.95" y="10.95"/>
+<vertex x="10.95" y="10.95"/>
+<vertex x="10.95" y="-10.95"/>
+<vertex x="-10.95" y="-10.95"/>
+</polygon>
+<circle x="-8.52" y="7.25" radius="0.2" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-FC_ET20V" urn="urn:adsk.eagle:package:11382035/8" type="model">
+<description>&lt;B&gt;WE-FC Common Mode Power Line Choke
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Size: ET20H, SMT, 4pins
+&lt;br&gt;LxWxH=21.3x21.3x17.8mm</description>
+<packageinstances>
+<packageinstance name="WE-FC_ET20H"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FC_UT20V" urn="urn:adsk.eagle:package:11382034/7" type="model">
+<description>&lt;B&gt;WE-FC Common Mode Power Line Choke
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Size: UT20V, SMT, 4pins
+&lt;br&gt;LxWxH=21.3x16.6x22.5mm</description>
+<packageinstances>
+<packageinstance name="WE-FC_UT20V"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-FC">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.556" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="0" x2="4.445" y2="0" width="0.254" layer="94"/>
+<circle x="-5.3" y="0.7" radius="0.1" width="0.254" layer="94"/>
+<circle x="-5.3" y="-0.6" radius="0.1" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-FC_UT20V" prefix="L">
+<description>&lt;b&gt; WE-FC Common Mode Power Line Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Closed rectangular ferrite core
+&lt;br&gt;2-section winding for excellent high frequency performance
+&lt;br&gt;1% stray inductance for symmetrical interference suppression
+&lt;br&gt;Flammability corresponding to UL 94 V-0
+&lt;br&gt;Climatic category 40/125/21
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt; 
+&lt;br&gt;&lt;/b&gt; Mains filter
+&lt;br&gt;Suppression of common mode noise
+&lt;br&gt;Switched mode power supplies
+&lt;br&gt;White goods
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14783v209%20Family_WE-FC_7448640400_7448640406.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14783v209%20Family_WE-FC_7448640400_7448640406.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FC&lt;/a&gt;&lt;p&gt;
+
+
+Updated by Ella Wu  2022-12-06&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-FC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FC_UT20V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11382034/7"/>
+</package3dinstances>
+<technologies>
+<technology name="_7448640406">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640406?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="2.65A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640406 "/>
+<attribute name="RDC" value="0.08ohm"/>
+<attribute name="VALUE" value="1.1mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640407">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640407?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="2.2A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640407 "/>
+<attribute name="RDC" value="0.12ohm"/>
+<attribute name="VALUE" value="1.5mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640408">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640408?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="2A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640408 "/>
+<attribute name="RDC" value="0.14ohm"/>
+<attribute name="VALUE" value="2.3mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640409">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640409?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="1.6A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640409 "/>
+<attribute name="RDC" value="0.2ohm"/>
+<attribute name="VALUE" value="2.8mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640410">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640410?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="1.55A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640410 "/>
+<attribute name="RDC" value="0.22ohm"/>
+<attribute name="VALUE" value="3.6mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640411">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640411?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640411 "/>
+<attribute name="RDC" value="0.24ohm"/>
+<attribute name="VALUE" value="4.3mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640412">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640412?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="1.25A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640412 "/>
+<attribute name="RDC" value="0.31ohm"/>
+<attribute name="VALUE" value="5mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640413">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640413?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="1.05A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640413 "/>
+<attribute name="RDC" value="0.48ohm"/>
+<attribute name="VALUE" value="7.2mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640414">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640414?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="0.97A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640414 "/>
+<attribute name="RDC" value="0.54ohm"/>
+<attribute name="VALUE" value="8.8mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640415">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640415?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="0.8A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640415 "/>
+<attribute name="RDC" value="0.81ohm"/>
+<attribute name="VALUE" value="13mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640416">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640416?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="0.6A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640416 "/>
+<attribute name="RDC" value="1.38ohm"/>
+<attribute name="VALUE" value="24mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640417">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640417?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="0.52A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640417 "/>
+<attribute name="RDC" value="1.87ohm"/>
+<attribute name="VALUE" value="29mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+<technology name="_7448640418">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640418?ae"/>
+<attribute name="HEIGHT" value="22.5mm"/>
+<attribute name="IR" value="0.4A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640418 "/>
+<attribute name="RDC" value="2.88ohm"/>
+<attribute name="VALUE" value="43mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="16.6mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FC_ET20H" prefix="L">
+<description>&lt;b&gt; WE-FC Common Mode Power Line Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Closed rectangular ferrite core
+&lt;br&gt;2-section winding for excellent high frequency performance
+&lt;br&gt;1% stray inductance for symmetrical interference suppression
+&lt;br&gt;Flammability corresponding to UL 94 V-0
+&lt;br&gt;Climatic category 40/125/21
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt; 
+&lt;br&gt;&lt;/b&gt; Mains filter
+&lt;br&gt;Suppression of common mode noise
+&lt;br&gt;Switched mode power supplies
+&lt;br&gt;White goods
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14783v209%20Family_WE-FC_7448640400_7448640406.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14783v209%20Family_WE-FC_7448640400_7448640406.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FC&lt;/a&gt;&lt;p&gt;
+
+
+Updated by Ella Wu  2022-12-06&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-FC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FC_ET20H">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11382035/8"/>
+</package3dinstances>
+<technologies>
+<technology name="_7448640395">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640395?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="2.6A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640395 "/>
+<attribute name="RDC" value="0.08ohm"/>
+<attribute name="VALUE" value="1.1mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640396">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640396?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="1.65A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640396 "/>
+<attribute name="RDC" value="0.17ohm"/>
+<attribute name="VALUE" value="2.7mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640397">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640397?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="1.3A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640397 "/>
+<attribute name="RDC" value="0.26ohm"/>
+<attribute name="VALUE" value="3.9mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640398">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640398?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640398 "/>
+<attribute name="RDC" value="0.29ohm"/>
+<attribute name="VALUE" value="4.9mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640399">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640399?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="1.15A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640399 "/>
+<attribute name="RDC" value="0.32ohm"/>
+<attribute name="VALUE" value="5.9mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640400">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640400?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="0.95A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640400 "/>
+<attribute name="RDC" value="0.46ohm"/>
+<attribute name="VALUE" value="7.1mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640401">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640401?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="0.9A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640401 "/>
+<attribute name="RDC" value="0.55ohm"/>
+<attribute name="VALUE" value="9.4mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640402">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640402?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="0.7A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640402 "/>
+<attribute name="RDC" value="0.83ohm"/>
+<attribute name="VALUE" value="15mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640403">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640403?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="0.55A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640403 "/>
+<attribute name="RDC" value="1.35ohm"/>
+<attribute name="VALUE" value="24mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640404">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640404?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="0.45A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640404 "/>
+<attribute name="RDC" value="1.85ohm"/>
+<attribute name="VALUE" value="30mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+<technology name="_7448640405">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7448640405?ae"/>
+<attribute name="HEIGHT" value="17.8mm"/>
+<attribute name="IR" value="0.45A"/>
+<attribute name="LENGTH" value="21.3mm"/>
+<attribute name="MATERIAL" value="MnZn"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448640405 "/>
+<attribute name="RDC" value="2.3ohm"/>
+<attribute name="VALUE" value="42mH"/>
+<attribute name="VR" value="250V (AC)"/>
+<attribute name="VT" value="2000V (AC)"/>
+<attribute name="WIDTH" value="21.3mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

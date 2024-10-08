@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - EMC Components - Common Mode Chokes for Mains Power Lines - WE-CMB&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2021d, 2021-11-12&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-CMB_XXL_7448261418" urn="urn:adsk.eagle:footprint:10749315/4">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XXL, THT, 4pins
+&lt;br&gt;L X W X H=43mm X 23.5mm X 43mm</description>
+<wire x1="21.5" y1="-11.75" x2="-21.5" y2="-11.75" width="0.1" layer="51"/>
+<wire x1="21.5" y1="11.75" x2="-21.5" y2="11.75" width="0.1" layer="51"/>
+<wire x1="-21.5" y1="-11.75" x2="-21.5" y2="11.75" width="0.1" layer="51"/>
+<wire x1="21.5" y1="-11.75" x2="21.5" y2="11.75" width="0.1" layer="51"/>
+<wire x1="-21.6" y1="11.85" x2="21.6" y2="11.85" width="0.2" layer="21"/>
+<wire x1="21.6" y1="11.85" x2="21.6" y2="-11.85" width="0.2" layer="21"/>
+<wire x1="21.6" y1="-11.85" x2="-21.6" y2="-11.85" width="0.2" layer="21"/>
+<wire x1="-21.6" y1="-11.85" x2="-21.6" y2="11.85" width="0.2" layer="21"/>
+<pad name="1" x="-5" y="-9.25" drill="2" rot="R180"/>
+<pad name="4" x="-5" y="9.25" drill="2" rot="R180"/>
+<pad name="2" x="5" y="-9.25" drill="2" rot="R180"/>
+<pad name="3" x="5" y="9.25" drill="2" rot="R180"/>
+<text x="0" y="13" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.59" y="-14.2" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="21.8" y="-12.05"/>
+<vertex x="-21.8" y="-12.05"/>
+<vertex x="-21.8" y="12.05"/>
+<vertex x="21.8" y="12.05"/>
+</polygon>
+<circle x="-8" y="-13.2" radius="0.3" width="0.6" layer="21"/>
+</package>
+<package name="WE-CMB_L" urn="urn:adsk.eagle:footprint:10749320/4">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : L, THT, 4pins
+&lt;br&gt;L X W X H=27.5mm X 18.5mm X 33mm</description>
+<wire x1="13.75" y1="-9.25" x2="13.75" y2="9.25" width="0.1" layer="51"/>
+<wire x1="13.75" y1="9.25" x2="-13.75" y2="9.25" width="0.1" layer="51"/>
+<wire x1="-13.75" y1="9.25" x2="-13.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-13.75" y1="-1.6" x2="-13.75" y2="-9.25" width="0.1" layer="51"/>
+<wire x1="-13.75" y1="-9.25" x2="13.75" y2="-9.25" width="0.1" layer="51"/>
+<wire x1="13.85" y1="-9.35" x2="-13.85" y2="-9.35" width="0.2" layer="21"/>
+<wire x1="-13.85" y1="-9.35" x2="-13.85" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-13.85" y1="1.5" x2="-13.85" y2="9.35" width="0.2" layer="21"/>
+<wire x1="-13.85" y1="9.35" x2="13.85" y2="9.35" width="0.2" layer="21"/>
+<wire x1="13.85" y1="9.35" x2="13.85" y2="-9.35" width="0.2" layer="21"/>
+<wire x1="-13.75" y1="-1.6" x2="-11.55" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-11.55" y1="-1.6" x2="-11.55" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-11.55" y1="1.6" x2="-13.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-13.85" y1="-1.5" x2="-11.65" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-11.65" y1="-1.5" x2="-11.65" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-11.65" y1="1.5" x2="-13.85" y2="1.5" width="0.2" layer="21"/>
+<pad name="3" x="5" y="6" drill="1.3"/>
+<pad name="2" x="5" y="-6" drill="1.3"/>
+<pad name="4" x="-5" y="6" drill="1.3"/>
+<pad name="1" x="-5" y="-6" drill="1.3"/>
+<text x="-5.0347" y="-12.0985" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0" y="10.4475" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="14.05" y="-9.55"/>
+<vertex x="-14.05" y="-9.55"/>
+<vertex x="-14.05" y="9.55"/>
+<vertex x="14.05" y="9.55"/>
+</polygon>
+<circle x="-7" y="-10.5" radius="0.3" width="0.6" layer="21"/>
+</package>
+<package name="WE-CMB_XXL_7448262510" urn="urn:adsk.eagle:footprint:10749313/4">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XXL, THT, 4pins
+&lt;br&gt;L X W X H=44mm X 23.5mm X 43mm</description>
+<wire x1="22" y1="-11.75" x2="-22" y2="-11.75" width="0.1" layer="51"/>
+<wire x1="22" y1="11.75" x2="-22" y2="11.75" width="0.1" layer="51"/>
+<wire x1="-22" y1="-11.75" x2="-22" y2="11.75" width="0.1" layer="51"/>
+<wire x1="22" y1="-11.75" x2="22" y2="11.75" width="0.1" layer="51"/>
+<wire x1="22.1" y1="-11.85" x2="-22.1" y2="-11.85" width="0.2" layer="21"/>
+<wire x1="-22.1" y1="-11.85" x2="-22.1" y2="11.85" width="0.2" layer="21"/>
+<wire x1="-22.1" y1="11.85" x2="22.1" y2="11.85" width="0.2" layer="21"/>
+<wire x1="22.1" y1="11.85" x2="22.1" y2="-11.85" width="0.2" layer="21"/>
+<pad name="1" x="-5" y="-9.25" drill="2.6" rot="R180"/>
+<pad name="4" x="-5" y="9.25" drill="2.6" rot="R180"/>
+<pad name="2" x="5" y="-9.25" drill="2.6" rot="R180"/>
+<pad name="3" x="5" y="9.25" drill="2.6" rot="R180"/>
+<text x="0" y="13.22" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.57" y="-13.82" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="22.3" y="-12.05"/>
+<vertex x="-22.3" y="-12.05"/>
+<vertex x="-22.3" y="12.05"/>
+<vertex x="22.3" y="12.05"/>
+</polygon>
+<circle x="-8" y="-12.9" radius="0.3" width="0.6" layer="21"/>
+</package>
+<package name="WE-CMB_XXL_7448263505" urn="urn:adsk.eagle:footprint:10749312/4">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XXL, THT, 4pins
+&lt;br&gt;L X W X H=47mm X 23.5mm X 43mm</description>
+<wire x1="23.5" y1="-11.75" x2="-23.5" y2="-11.75" width="0.1" layer="51"/>
+<wire x1="23.5" y1="11.75" x2="-23.5" y2="11.75" width="0.1" layer="51"/>
+<wire x1="-23.5" y1="-11.75" x2="-23.5" y2="11.75" width="0.1" layer="51"/>
+<wire x1="23.5" y1="-11.75" x2="23.5" y2="11.75" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-11.85" x2="-23.6" y2="-11.85" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-11.85" x2="3.6" y2="-11.85" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-11.85" x2="23.6" y2="-11.85" width="0.2" layer="21"/>
+<wire x1="6.5" y1="11.85" x2="23.6" y2="11.85" width="0.2" layer="21"/>
+<wire x1="3.6" y1="11.85" x2="-3.6" y2="11.85" width="0.2" layer="21"/>
+<wire x1="-6.5" y1="11.85" x2="-23.6" y2="11.85" width="0.2" layer="21"/>
+<wire x1="23.6" y1="-11.85" x2="23.6" y2="11.85" width="0.2" layer="21"/>
+<wire x1="-23.6" y1="11.85" x2="-23.6" y2="-11.85" width="0.2" layer="21"/>
+<pad name="1" x="-5" y="-9.25" drill="3.3" diameter="4.95" rot="R180"/>
+<pad name="4" x="-5" y="9.25" drill="3.3" diameter="4.95" rot="R180"/>
+<pad name="2" x="5" y="-9.25" drill="3.3" diameter="4.95" rot="R180"/>
+<pad name="3" x="5" y="9.25" drill="3.3" diameter="4.95" rot="R180"/>
+<text x="-3.64" y="-14.29" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="12.96" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="23.75" y="-12"/>
+<vertex x="-23.75" y="-12"/>
+<vertex x="-23.75" y="12"/>
+<vertex x="23.75" y="12"/>
+</polygon>
+<circle x="-7.4" y="-13.1" radius="0.3" width="0.6" layer="21"/>
+</package>
+<package name="WE-CMB_XXL_7448262013" urn="urn:adsk.eagle:footprint:10749314/4">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XXL, THT, 4pins
+&lt;br&gt;L X W X H=43.5mm X 23.5mm X 43mm</description>
+<wire x1="21.75" y1="-11.75" x2="-21.75" y2="-11.75" width="0.1" layer="51"/>
+<wire x1="21.75" y1="11.75" x2="-21.75" y2="11.75" width="0.1" layer="51"/>
+<wire x1="-21.75" y1="-11.75" x2="-21.75" y2="11.75" width="0.1" layer="51"/>
+<wire x1="21.75" y1="-11.75" x2="21.75" y2="11.75" width="0.1" layer="51"/>
+<wire x1="21.85" y1="-11.85" x2="-21.8" y2="-11.85" width="0.2" layer="21"/>
+<wire x1="-21.8" y1="-11.85" x2="-21.85" y2="11.85" width="0.2" layer="21"/>
+<wire x1="-21.85" y1="11.85" x2="21.85" y2="11.85" width="0.2" layer="21"/>
+<wire x1="21.85" y1="11.85" x2="21.85" y2="-11.85" width="0.2" layer="21"/>
+<pad name="1" x="-5" y="-9.25" drill="2.4" rot="R180"/>
+<pad name="4" x="-5" y="9.25" drill="2.4" rot="R180"/>
+<pad name="2" x="5" y="-9.25" drill="2.4" rot="R180"/>
+<pad name="3" x="5" y="9.25" drill="2.4" rot="R180"/>
+<text x="-4.2" y="-14.3" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="12.9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="22.05" y="-12.05"/>
+<vertex x="-22.05" y="-12.05"/>
+<vertex x="-22.05" y="12.05"/>
+<vertex x="22.05" y="12.05"/>
+</polygon>
+<circle x="-8.5" y="-13" radius="0.3" width="0.6" layer="21"/>
+</package>
+<package name="WE-CMB_S" urn="urn:adsk.eagle:footprint:10749318/3">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : S, THT, 4pins
+&lt;br&gt;L X W X H=17.5mm X 13mm X 22mm</description>
+<wire x1="-8.75" y1="-6.5" x2="8.75" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="8.75" y1="-6.5" x2="8.75" y2="6.5" width="0.1" layer="51"/>
+<wire x1="8.75" y1="6.5" x2="-8.75" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-8.75" y1="6.5" x2="-8.75" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-8.85" y1="6.6" x2="8.85" y2="6.6" width="0.2" layer="21"/>
+<wire x1="8.85" y1="6.6" x2="8.85" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="8.85" y1="-6.6" x2="-8.85" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-8.85" y1="-6.6" x2="-8.85" y2="6.6" width="0.2" layer="21"/>
+<pad name="1" x="-3.85" y="-2.5" drill="1.1"/>
+<pad name="2" x="3.85" y="-2.5" drill="1.1"/>
+<pad name="4" x="-3.85" y="2.5" drill="1.1"/>
+<pad name="3" x="3.85" y="2.5" drill="1.1"/>
+<text x="-4.664" y="-9.298" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0" y="7.5" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="-9" y="6.75"/>
+<vertex x="9" y="6.75"/>
+<vertex x="9" y="-6.75"/>
+<vertex x="-9" y="-6.75"/>
+</polygon>
+<circle x="-9.6" y="-3" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_XS_744821120" urn="urn:adsk.eagle:footprint:10749305/5">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XS, THT, 4pins
+&lt;br&gt;L X W X H=15mm X 7.8mm X 17.5mm</description>
+<wire x1="-7.5" y1="3.9" x2="7.5" y2="3.9" width="0.1" layer="51"/>
+<wire x1="7.5" y1="3.9" x2="7.5" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-3.9" x2="-7.5" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-3.9" x2="-7.5" y2="3.9" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="4" x2="7.6" y2="4" width="0.2" layer="21"/>
+<wire x1="7.6" y1="4" x2="7.6" y2="-4" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-4" x2="-7.6" y2="-4" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-4" x2="-7.6" y2="4" width="0.2" layer="21"/>
+<pad name="4" x="-5" y="2.25" drill="1.1"/>
+<pad name="3" x="5" y="2.25" drill="1.1"/>
+<pad name="2" x="5" y="-2.25" drill="1.1"/>
+<pad name="1" x="-5" y="-2.25" drill="1.1"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="4.2"/>
+<vertex x="7.8" y="4.2"/>
+<vertex x="7.8" y="-4.2"/>
+<vertex x="-7.8" y="-4.2"/>
+</polygon>
+<text x="-3.98" y="-6.17" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="4.72" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="-8.5" y="-2.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_XS" urn="urn:adsk.eagle:footprint:10749316/5">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XS, THT, 4pins
+&lt;br&gt;L X W X H=15mm X 7.5mm X 18mm</description>
+<wire x1="-7.5" y1="3.75" x2="7.5" y2="3.75" width="0.1" layer="51"/>
+<wire x1="7.5" y1="3.75" x2="7.5" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-3.75" x2="-7.5" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-3.75" x2="-7.5" y2="3.75" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="3.85" x2="7.6" y2="3.85" width="0.2" layer="21"/>
+<wire x1="7.6" y1="3.85" x2="7.6" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-3.85" x2="-7.6" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-3.85" x2="-7.6" y2="3.85" width="0.2" layer="21"/>
+<pad name="4" x="-5" y="2.25" drill="1.1"/>
+<pad name="3" x="5" y="2.25" drill="1.1"/>
+<pad name="2" x="5" y="-2.25" drill="1.1"/>
+<pad name="1" x="-5" y="-2.25" drill="1.1"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="4.05"/>
+<vertex x="7.8" y="4.05"/>
+<vertex x="7.8" y="-4.05"/>
+<vertex x="-7.8" y="-4.05"/>
+</polygon>
+<text x="-3.98" y="-6.17" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="4.72" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="-8.5" y="-2.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_XS_744821150" urn="urn:adsk.eagle:footprint:10749304/5">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XS, THT, 4pins
+&lt;br&gt;L X W X H=15mm X 7.8mm X 18mm</description>
+<wire x1="-7.5" y1="3.9" x2="7.5" y2="3.9" width="0.1" layer="51"/>
+<wire x1="7.5" y1="3.9" x2="7.5" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-3.9" x2="-7.5" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-3.9" x2="-7.5" y2="3.9" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="4" x2="7.6" y2="4" width="0.2" layer="21"/>
+<wire x1="7.6" y1="4" x2="7.6" y2="-4" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-4" x2="-7.6" y2="-4" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-4" x2="-7.6" y2="4" width="0.2" layer="21"/>
+<pad name="4" x="-5" y="2.25" drill="1.1"/>
+<pad name="3" x="5" y="2.25" drill="1.1"/>
+<pad name="2" x="5" y="-2.25" drill="1.1"/>
+<pad name="1" x="-5" y="-2.25" drill="1.1"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="4.2"/>
+<vertex x="7.8" y="4.2"/>
+<vertex x="7.8" y="-4.2"/>
+<vertex x="-7.8" y="-4.2"/>
+</polygon>
+<text x="-3.98" y="-6.17" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="4.72" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="-8.5" y="-2.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_M_744823333" urn="urn:adsk.eagle:footprint:10749308/4">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : L, THT, 4pins
+&lt;br&gt;L X W X H=23.5mm X 13mm X 25.5mm</description>
+<wire x1="11.75" y1="-6.5" x2="11.75" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-11.75" y1="6.5" x2="-11.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-11.75" y1="-1.6" x2="-11.75" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="11.75" y1="-6.5" x2="-11.75" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="11.75" y1="6.5" x2="-11.75" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-11.75" y1="-1.6" x2="-9.35" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="-1.6" x2="-9.35" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="1.6" x2="-11.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-9.5" y1="-1.5" x2="-11.85" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-11.85" y1="-1.5" x2="-11.85" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-11.85" y1="-6.6" x2="11.85" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="11.85" y1="-6.6" x2="11.85" y2="6.6" width="0.2" layer="21"/>
+<wire x1="11.85" y1="6.6" x2="-11.85" y2="6.6" width="0.2" layer="21"/>
+<wire x1="-11.85" y1="6.6" x2="-11.85" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-11.85" y1="1.5" x2="-9.5" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-9.5" y1="1.5" x2="-9.5" y2="-1.5" width="0.2" layer="21"/>
+<pad name="1" x="-3.75" y="-5.35" drill="1.1" rot="R180"/>
+<pad name="2" x="3.75" y="-5.35" drill="1.1" rot="R180"/>
+<pad name="4" x="-3.75" y="5.35" drill="1.1" rot="R180"/>
+<pad name="3" x="3.75" y="5.35" drill="1.1" rot="R180"/>
+<polygon width="0.1" layer="39">
+<vertex x="12.05" y="-6.8"/>
+<vertex x="-12.05" y="-6.8"/>
+<vertex x="-12.05" y="6.8"/>
+<vertex x="12.05" y="6.8"/>
+</polygon>
+<text x="-4.854" y="-9.487" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0" y="8.239" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="-6" y="-7.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_XS_744821240" urn="urn:adsk.eagle:footprint:10749303/5">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XS, THT, 4pins
+&lt;br&gt;L X W X H=15.8mm X 8mm X 18mm</description>
+<wire x1="-7.9" y1="4" x2="7.9" y2="4" width="0.1" layer="51"/>
+<wire x1="7.9" y1="4" x2="7.9" y2="-4" width="0.1" layer="51"/>
+<wire x1="7.9" y1="-4" x2="-7.9" y2="-4" width="0.1" layer="51"/>
+<wire x1="-7.9" y1="-4" x2="-7.9" y2="4" width="0.1" layer="51"/>
+<wire x1="-8" y1="4.1" x2="8" y2="4.1" width="0.2" layer="21"/>
+<wire x1="8" y1="4.1" x2="8" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="8" y1="-4.1" x2="-8" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="-8" y1="-4.1" x2="-8" y2="4.1" width="0.2" layer="21"/>
+<pad name="4" x="-5" y="2.25" drill="1.1"/>
+<pad name="3" x="5" y="2.25" drill="1.1"/>
+<pad name="2" x="5" y="-2.25" drill="1.1"/>
+<pad name="1" x="-5" y="-2.25" drill="1.1"/>
+<text x="-3.98" y="-6.17" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="4.72" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.2" y="4.3"/>
+<vertex x="8.2" y="4.3"/>
+<vertex x="8.2" y="-4.3"/>
+<vertex x="-8.2" y="-4.3"/>
+</polygon>
+<circle x="-9" y="-2.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_M" urn="urn:adsk.eagle:footprint:10749310/4">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : M, THT, 4pins
+&lt;br&gt;L X W X H=23mm X 13.8mm X 25.5mm</description>
+<wire x1="11.5" y1="-6.9" x2="11.5" y2="6.9" width="0.1" layer="51"/>
+<wire x1="-11.5" y1="6.9" x2="-11.5" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-11.5" y1="-1.6" x2="-11.5" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="11.5" y1="-6.9" x2="-11.5" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="11.5" y1="6.9" x2="-11.5" y2="6.9" width="0.1" layer="51"/>
+<wire x1="-11.5" y1="-1.6" x2="-9.35" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="-1.6" x2="-9.35" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="1.6" x2="-11.5" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-9.45" y1="-1.5" x2="-11.6" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-11.6" y1="-1.5" x2="-11.6" y2="-7" width="0.2" layer="21"/>
+<wire x1="-11.6" y1="-7" x2="11.6" y2="-7" width="0.2" layer="21"/>
+<wire x1="11.6" y1="-7" x2="11.6" y2="7" width="0.2" layer="21"/>
+<wire x1="11.6" y1="7" x2="-11.6" y2="7" width="0.2" layer="21"/>
+<wire x1="-11.6" y1="7" x2="-11.6" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-11.6" y1="1.5" x2="-9.45" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-9.45" y1="1.5" x2="-9.45" y2="-1.5" width="0.2" layer="21"/>
+<pad name="1" x="-3.75" y="-5.35" drill="1.1" rot="R180"/>
+<pad name="2" x="3.75" y="-5.35" drill="1.1" rot="R180"/>
+<pad name="4" x="-3.75" y="5.35" drill="1.1" rot="R180"/>
+<pad name="3" x="3.75" y="5.35" drill="1.1" rot="R180"/>
+<text x="-4.854" y="-9.487" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0" y="8.239" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="11.8" y="-7.2"/>
+<vertex x="-11.8" y="-7.2"/>
+<vertex x="-11.8" y="7.2"/>
+<vertex x="11.8" y="7.2"/>
+</polygon>
+<circle x="-6" y="-8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_M_744823601" urn="urn:adsk.eagle:footprint:10749319/4">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : L, THT, 4pins
+&lt;br&gt;L X W X H=25mm X 17mm X 26.5mm</description>
+<wire x1="12.5" y1="-8.5" x2="12.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-12.5" y1="8.5" x2="-12.5" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-12.5" y1="-1.6" x2="-12.5" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="12.5" y1="-8.5" x2="-12.5" y2="-8.5" width="0.1" layer="51"/>
+<wire x1="12.5" y1="8.5" x2="-12.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="-12.5" y1="-1.6" x2="-9.35" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="-1.6" x2="-9.35" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="1.6" x2="-12.5" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-9.45" y1="-1.5" x2="-12.6" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-12.6" y1="-1.5" x2="-12.6" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="-12.6" y1="-8.6" x2="12.6" y2="-8.6" width="0.2" layer="21"/>
+<wire x1="12.6" y1="-8.6" x2="12.6" y2="8.6" width="0.2" layer="21"/>
+<wire x1="12.6" y1="8.6" x2="-12.6" y2="8.6" width="0.2" layer="21"/>
+<wire x1="-12.6" y1="8.6" x2="-12.6" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-12.6" y1="1.5" x2="-9.45" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-9.45" y1="1.5" x2="-9.45" y2="-1.5" width="0.2" layer="21"/>
+<pad name="1" x="-3.75" y="-5.35" drill="1.1" rot="R180"/>
+<pad name="2" x="3.75" y="-5.35" drill="1.1" rot="R180"/>
+<pad name="4" x="-3.75" y="5.35" drill="1.1" rot="R180"/>
+<pad name="3" x="3.75" y="5.35" drill="1.1" rot="R180"/>
+<text x="-5.054" y="-12" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0" y="10" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="12.8" y="-8.8"/>
+<vertex x="-12.8" y="-8.8"/>
+<vertex x="-12.8" y="8.8"/>
+<vertex x="12.8" y="8.8"/>
+</polygon>
+<circle x="-5.4" y="-9.4" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_XL_7448251201" urn="urn:adsk.eagle:footprint:10749317/5">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XL, THT, 4pins
+&lt;br&gt;L X W X H=31mm X 22mm X 35mm</description>
+<wire x1="15.5" y1="-11" x2="15.5" y2="11" width="0.1" layer="51"/>
+<wire x1="15.5" y1="11" x2="-15.5" y2="11" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="11" x2="-15.5" y2="1.95" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="-1.95" x2="-15.5" y2="-11" width="0.1" layer="51"/>
+<wire x1="-15.5" y1="-11" x2="15.5" y2="-11" width="0.1" layer="51"/>
+<wire x1="-15.6" y1="11.1" x2="15.6" y2="11.1" width="0.2" layer="21"/>
+<wire x1="15.6" y1="11.1" x2="15.6" y2="-11.1" width="0.2" layer="21"/>
+<wire x1="15.6" y1="-11.1" x2="-15.6" y2="-11.1" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="-11.1" x2="-15.6" y2="-1.85" width="0.2" layer="21"/>
+<wire x1="-15.6" y1="1.85" x2="-15.6" y2="11.1" width="0.2" layer="21"/>
+<wire x1="-15.5" y1="1.95" x2="-13" y2="1.95" width="0.1" layer="51"/>
+<wire x1="-13" y1="1.95" x2="-13" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="-13" y1="-1.95" x2="-15.5" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="-15.6" y1="1.85" x2="-13.1" y2="1.85" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="1.85" x2="-13.1" y2="-1.85" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-1.85" x2="-15.6" y2="-1.85" width="0.2" layer="21"/>
+<pad name="2" x="12.5" y="-7.5" drill="1.3" rot="R180"/>
+<pad name="3" x="12.5" y="7.5" drill="1.3" rot="R180"/>
+<pad name="1" x="-12.5" y="-7.5" drill="1.3" rot="R180"/>
+<pad name="4" x="-12.5" y="7.5" drill="1.3" rot="R180"/>
+<text x="-4.734" y="-13.924" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0" y="12.256" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-15.8" y="11.3"/>
+<vertex x="15.8" y="11.3"/>
+<vertex x="15.8" y="-11.3"/>
+<vertex x="-15.8" y="-11.3"/>
+</polygon>
+<circle x="-16.5" y="-9" radius="0.3" width="0.6" layer="21"/>
+</package>
+<package name="WE-CMB_M_744823422" urn="urn:adsk.eagle:footprint:10749307/4">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : L, THT, 4pins
+&lt;br&gt;L X W X H=23.5mm X 13.8mm X 25.5mm</description>
+<wire x1="11.75" y1="-6.9" x2="11.75" y2="6.9" width="0.1" layer="51"/>
+<wire x1="-11.75" y1="6.9" x2="-11.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-11.75" y1="-1.6" x2="-11.75" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="11.75" y1="-6.9" x2="-11.75" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="11.75" y1="6.9" x2="-11.75" y2="6.9" width="0.1" layer="51"/>
+<wire x1="-11.75" y1="-1.6" x2="-9.35" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="-1.6" x2="-9.35" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="1.6" x2="-11.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-9.45" y1="-1.5" x2="-11.85" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-11.85" y1="-1.5" x2="-11.85" y2="-7" width="0.2" layer="21"/>
+<wire x1="-11.85" y1="-7" x2="11.85" y2="-7" width="0.2" layer="21"/>
+<wire x1="11.85" y1="-7" x2="11.85" y2="7" width="0.2" layer="21"/>
+<wire x1="11.85" y1="7" x2="-11.85" y2="7" width="0.2" layer="21"/>
+<wire x1="-11.85" y1="7" x2="-11.85" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-11.85" y1="1.5" x2="-9.45" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-9.45" y1="1.5" x2="-9.45" y2="-1.5" width="0.2" layer="21"/>
+<pad name="1" x="-3.75" y="-5.35" drill="1.1" rot="R180"/>
+<pad name="2" x="3.75" y="-5.35" drill="1.1" rot="R180"/>
+<pad name="4" x="-3.75" y="5.35" drill="1.1" rot="R180"/>
+<pad name="3" x="3.75" y="5.35" drill="1.1" rot="R180"/>
+<polygon width="0.1" layer="39">
+<vertex x="12.05" y="-7.2"/>
+<vertex x="-12.05" y="-7.2"/>
+<vertex x="-12.05" y="7.2"/>
+<vertex x="12.05" y="7.2"/>
+</polygon>
+<text x="-4.854" y="-9.487" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0" y="8.239" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="-6" y="-8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_XL" urn="urn:adsk.eagle:footprint:10749311/5">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XL, THT, 4pins
+&lt;br&gt;L X W X H=30mm X 21mm X 35mm</description>
+<wire x1="15" y1="-10.5" x2="15" y2="10.5" width="0.1" layer="51"/>
+<wire x1="15" y1="10.5" x2="-15" y2="10.5" width="0.1" layer="51"/>
+<wire x1="-15" y1="10.5" x2="-15" y2="1.95" width="0.1" layer="51"/>
+<wire x1="-15" y1="-1.95" x2="-15" y2="-10.5" width="0.1" layer="51"/>
+<wire x1="-15" y1="-10.5" x2="15" y2="-10.5" width="0.1" layer="51"/>
+<wire x1="-15.1" y1="10.6" x2="15.1" y2="10.6" width="0.2" layer="21"/>
+<wire x1="15.1" y1="10.6" x2="15.1" y2="-10.6" width="0.2" layer="21"/>
+<wire x1="15.1" y1="-10.6" x2="-15.1" y2="-10.6" width="0.2" layer="21"/>
+<wire x1="-15.1" y1="-10.6" x2="-15.1" y2="-1.85" width="0.2" layer="21"/>
+<wire x1="-15.1" y1="1.85" x2="-15.1" y2="10.6" width="0.2" layer="21"/>
+<wire x1="-15" y1="1.95" x2="-12.75" y2="1.95" width="0.1" layer="51"/>
+<wire x1="-12.75" y1="1.95" x2="-12.75" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="-12.75" y1="-1.95" x2="-15" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="-15.1" y1="1.85" x2="-12.85" y2="1.85" width="0.2" layer="21"/>
+<wire x1="-12.85" y1="1.85" x2="-12.85" y2="-1.85" width="0.2" layer="21"/>
+<wire x1="-12.85" y1="-1.85" x2="-15.1" y2="-1.85" width="0.2" layer="21"/>
+<pad name="2" x="12.5" y="-7.5" drill="1.3" rot="R180"/>
+<pad name="3" x="12.5" y="7.5" drill="1.3" rot="R180"/>
+<pad name="1" x="-12.5" y="-7.5" drill="1.3" rot="R180"/>
+<pad name="4" x="-12.5" y="7.5" drill="1.3" rot="R180"/>
+<text x="-5.034" y="-13.3" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0.306" y="11.5" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-15.3" y="10.8"/>
+<vertex x="15.3" y="10.8"/>
+<vertex x="15.3" y="-10.8"/>
+<vertex x="-15.3" y="-10.8"/>
+</polygon>
+<circle x="-16.5" y="-9" radius="0.4" width="0.8" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-CMB_XXL_7448261418" urn="urn:adsk.eagle:package:10749335/6" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XXL, THT, 4pins
+&lt;br&gt;L X W X H=43mm X 23.5mm X 43mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XXL_7448261418"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_L" urn="urn:adsk.eagle:package:10749340/7" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : L, THT, 4pins
+&lt;br&gt;L X W X H=27.5mm X 18.5mm X 33mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_L"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XXL_7448262510" urn="urn:adsk.eagle:package:10749333/6" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XXL, THT, 4pins
+&lt;br&gt;L X W X H=44mm X 23.5mm X 43mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XXL_7448262510"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XXL_7448263505" urn="urn:adsk.eagle:package:10749332/6" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XXL, THT, 4pins
+&lt;br&gt;L X W X H=47mm X 23.5mm X 43mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XXL_7448263505"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XXL_7448262013" urn="urn:adsk.eagle:package:10749334/6" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XXL, THT, 4pins
+&lt;br&gt;L X W X H=43.5mm X 23.5mm X 43mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XXL_7448262013"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XS_744821120" urn="urn:adsk.eagle:package:10749324/7" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XS, THT, 4pins
+&lt;br&gt;L X W X H=15mm X 7.8mm X 17.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XS_744821120"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XS" urn="urn:adsk.eagle:package:10749336/8" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XS, THT, 4pins
+&lt;br&gt;L X W X H=15mm X 7.5mm X 18mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XS"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_S" urn="urn:adsk.eagle:package:10749338/6" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : S, THT, 4pins
+&lt;br&gt;L X W X H=17.5mm X 13mm X 22mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_S"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XS_744821150" urn="urn:adsk.eagle:package:10749323/7" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XS, THT, 4pins
+&lt;br&gt;L X W X H=15mm X 7.8mm X 18mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XS_744821150"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XS_744821240" urn="urn:adsk.eagle:package:10749322/8" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XS, THT, 4pins
+&lt;br&gt;L X W X H=15.8mm X 8mm X 18mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XS_744821240"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_M_744823210" urn="urn:adsk.eagle:package:10749330/6" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : M, THT, 4pins
+&lt;br&gt;L X W X H=23mm X 13.8mm X 25.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_M"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_M_744823422" urn="urn:adsk.eagle:package:10749326/7" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : L, THT, 4pins
+&lt;br&gt;L X W X H=23.5mm X 13.8mm X 25.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_M_744823422"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_M_744823601" urn="urn:adsk.eagle:package:10749339/6" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : L, THT, 4pins
+&lt;br&gt;L X W X H=25mm X 17mm X 26.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_M_744823601"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_M_744823333" urn="urn:adsk.eagle:package:10749327/6" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : L, THT, 4pins
+&lt;br&gt;L X W X H=23.5mm X 13mm X 25.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_M_744823333"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XL_744825XXX" urn="urn:adsk.eagle:package:10749331/7" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XL, THT, 4pins
+&lt;br&gt;L X W X H=30mm X 21mm X 35mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XL"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XL_7448251201" urn="urn:adsk.eagle:package:10749337/7" type="model">
+<description>&lt;b&gt;WE-CMB Common Mode Power Line Choke
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size : XL, THT, 4pins
+&lt;br&gt;L X W X H=31mm X 22mm X 35mm</description>
+<packageinstances>
+<packageinstance name="WE-CMB_XL_7448251201"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CM2W-H">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.51" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-4.44" y="-5.12" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="0" x2="4.445" y2="0" width="0.254" layer="94"/>
+<circle x="-5.588" y="1.778" radius="0.127" width="0.381" layer="94"/>
+<circle x="-5.588" y="-1.778" radius="0.127" width="0.381" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-CMB_L" prefix="L">
+<description>&lt;b&gt; WE-CMB Common Mode Power Line Choke
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Broadband filterring due to low capacitance winding technique
+&lt;br&gt;High suppression of asymmetrical interferences also at low frequency range
+&lt;br&gt;Very compact design
+&lt;br&gt;Highest possible rated current by small size
+&lt;br&gt;Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;Flammability corresponding to UL 94 V-0
+&lt;br&gt;Climatic category: 40/125/21
+&lt;br&gt;Certified according to IEC 60938-2
+
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Power electronics
+&lt;br&gt;Power line in- and output filter
+&lt;br&gt;Filterring of devices without any ground connection
+&lt;br&gt;Suppression of radio interferences in motors
+&lt;br&gt;Suppression of common mode noise
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CMB"&gt;https://www.we-online.com/katalog/en/WE-CMB&lt;/a&gt;&lt;p&gt;
+
+
+Updated by  Ella Wu 2021-04-022&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CMB_L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749340/7"/>
+</package3dinstances>
+<technologies>
+<technology name="_744824220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744824220.pdf"/>
+<attribute name="IR" value="2A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744824220 "/>
+<attribute name="RDC" value="220mOhm"/>
+<attribute name="VALUE" value="20mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744824310">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744824310.pdf"/>
+<attribute name="IR" value="3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744824310 "/>
+<attribute name="RDC" value="105mOhm"/>
+<attribute name="VALUE" value="10mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744824405">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744824405.pdf"/>
+<attribute name="IR" value="4A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744824405 "/>
+<attribute name="RDC" value="50mOhm"/>
+<attribute name="VALUE" value="5mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744824407">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744824407.pdf"/>
+<attribute name="IR" value="3.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744824407 "/>
+<attribute name="RDC" value="80mOhm"/>
+<attribute name="VALUE" value="7mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744824433">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744824433.pdf"/>
+<attribute name="IR" value="4A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744824433 "/>
+<attribute name="RDC" value="35mOhm"/>
+<attribute name="VALUE" value="3.3mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744824622">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744824622.pdf"/>
+<attribute name="IR" value="6A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744824622 "/>
+<attribute name="RDC" value="20mOhm"/>
+<attribute name="VALUE" value="2.2mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744824801">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744824801.pdf"/>
+<attribute name="IR" value="7.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744824801 "/>
+<attribute name="RDC" value="10mOhm"/>
+<attribute name="VALUE" value="1mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CMB_S" prefix="L">
+<description>&lt;b&gt; WE-CMB Common Mode Power Line Choke
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Broadband filterring due to low capacitance winding technique
+&lt;br&gt;High suppression of asymmetrical interferences also at low frequency range
+&lt;br&gt;Very compact design
+&lt;br&gt;Highest possible rated current by small size
+&lt;br&gt;Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;Flammability corresponding to UL 94 V-0
+&lt;br&gt;Climatic category: 40/125/21
+&lt;br&gt;Certified according to IEC 60938-2
+
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Power electronics
+&lt;br&gt;Power line in- and output filter
+&lt;br&gt;Filterring of devices without any ground connection
+&lt;br&gt;Suppression of radio interferences in motors
+&lt;br&gt;Suppression of common mode noise
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CMB"&gt;https://www.we-online.com/katalog/en/WE-CMB&lt;/a&gt;&lt;p&gt;
+
+
+Updated by  Ella Wu 2020-12-07&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CMB_S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749338/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_744822110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744822110.pdf"/>
+<attribute name="IR" value="1A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744822110 "/>
+<attribute name="RDC" value="360mOhm"/>
+<attribute name="VALUE" value="10mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744822120">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744822120.pdf"/>
+<attribute name="IR" value="0.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744822120 "/>
+<attribute name="RDC" value="540mOhm"/>
+<attribute name="VALUE" value="20mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744822222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744822222.pdf"/>
+<attribute name="IR" value="2A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744822222 "/>
+<attribute name="RDC" value="70mOhm"/>
+<attribute name="VALUE" value="2.2mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744822233">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744822233.pdf"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744822233 "/>
+<attribute name="RDC" value="120mOhm"/>
+<attribute name="VALUE" value="3.3mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744822301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744822301.pdf"/>
+<attribute name="IR" value="3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744822301 "/>
+<attribute name="RDC" value="35mOhm"/>
+<attribute name="VALUE" value="1mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CMB_XXL" prefix="L">
+<description>&lt;b&gt; WE-CMB Common Mode Power Line Choke
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Broadband filterring due to low capacitance winding technique
+&lt;br&gt;High suppression of asymmetrical interferences also at low frequency range
+&lt;br&gt;Very compact design
+&lt;br&gt;Highest possible rated current by small size
+&lt;br&gt;Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;Flammability corresponding to UL 94 V-0
+&lt;br&gt;Climatic category: 40/125/21
+&lt;br&gt;Certified according to IEC 60938-2
+
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Power electronics
+&lt;br&gt;Power line in- and output filter
+&lt;br&gt;Filterring of devices without any ground connection
+&lt;br&gt;Suppression of radio interferences in motors
+&lt;br&gt;Suppression of common mode noise
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CMB"&gt;https://www.we-online.com/katalog/en/WE-CMB&lt;/a&gt;&lt;p&gt;
+
+
+Updated by  Ella Wu 2020-12-07&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_7448261418" package="WE-CMB_XXL_7448261418">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749335/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7448261418.pdf"/>
+<attribute name="IR" value="14A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448261418 "/>
+<attribute name="RDC" value="9.5mOhm"/>
+<attribute name="VALUE" value="1.8mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="_7448262013" package="WE-CMB_XXL_7448262013">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749334/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7448262013.pdf"/>
+<attribute name="IR" value="20A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448262013 "/>
+<attribute name="RDC" value="6.2mOhm"/>
+<attribute name="VALUE" value="1.3mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="_7448262510" package="WE-CMB_XXL_7448262510">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749333/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7448262510.pdf"/>
+<attribute name="IR" value="25A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448262510 "/>
+<attribute name="RDC" value="4.5mOhm"/>
+<attribute name="VALUE" value="1mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="_7448263505" package="WE-CMB_XXL_7448263505">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749332/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7448263505.pdf"/>
+<attribute name="IR" value="35A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448263505 "/>
+<attribute name="RDC" value="2.3mOhm"/>
+<attribute name="VALUE" value="0.5mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CMB_XS" prefix="L">
+<description>&lt;b&gt; WE-CMB Common Mode Power Line Choke
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Broadband filterring due to low capacitance winding technique
+&lt;br&gt;High suppression of asymmetrical interferences also at low frequency range
+&lt;br&gt;Very compact design
+&lt;br&gt;Highest possible rated current by small size
+&lt;br&gt;Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;Flammability corresponding to UL 94 V-0
+&lt;br&gt;Climatic category: 40/125/21
+&lt;br&gt;Certified according to IEC 60938-2
+
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Power electronics
+&lt;br&gt;Power line in- and output filter
+&lt;br&gt;Filterring of devices without any ground connection
+&lt;br&gt;Suppression of radio interferences in motors
+&lt;br&gt;Suppression of common mode noise
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CMB"&gt;https://www.we-online.com/katalog/en/WE-CMB&lt;/a&gt;&lt;p&gt;
+
+
+Updated by  Ella Wu 2021-11-12&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CMB_XS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749336/8"/>
+</package3dinstances>
+<technologies>
+<technology name="_744821039">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744821039.pdf"/>
+<attribute name="IR" value="0.3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744821039 "/>
+<attribute name="RDC" value="3000mOhm"/>
+<attribute name="VALUE" value="39mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744821110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744821110.pdf"/>
+<attribute name="IR" value="0.7A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744821110 "/>
+<attribute name="RDC" value="350mOhm"/>
+<attribute name="VALUE" value="10mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744821201">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744821201.pdf"/>
+<attribute name="IR" value="2A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744821201 "/>
+<attribute name="RDC" value="45mOhm"/>
+<attribute name="VALUE" value="1mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="_744821120" package="WE-CMB_XS_744821120">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749324/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744821120.pdf"/>
+<attribute name="IR" value="0.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744821120 "/>
+<attribute name="RDC" value="1000mOhm"/>
+<attribute name="VALUE" value="20mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="_744821150" package="WE-CMB_XS_744821150">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749323/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744821150.pdf"/>
+<attribute name="IR" value="1A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744821150 "/>
+<attribute name="RDC" value="220mOhm"/>
+<attribute name="VALUE" value="5mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="_744821240" package="WE-CMB_XS_744821240">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749322/8"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744821240.pdf"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744821240 "/>
+<attribute name="RDC" value="140mOhm"/>
+<attribute name="VALUE" value="4mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CMB_XL" prefix="L">
+<description>&lt;b&gt; WE-CMB Common Mode Power Line Choke
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Broadband filterring due to low capacitance winding technique
+&lt;br&gt;High suppression of asymmetrical interferences also at low frequency range
+&lt;br&gt;Very compact design
+&lt;br&gt;Highest possible rated current by small size
+&lt;br&gt;Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;Flammability corresponding to UL 94 V-0
+&lt;br&gt;Climatic category: 40/125/21
+&lt;br&gt;Certified according to IEC 60938-2
+
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Power electronics
+&lt;br&gt;Power line in- and output filter
+&lt;br&gt;Filterring of devices without any ground connection
+&lt;br&gt;Suppression of radio interferences in motors
+&lt;br&gt;Suppression of common mode noise
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CMB"&gt;https://www.we-online.com/katalog/en/WE-CMB&lt;/a&gt;&lt;p&gt;
+
+
+Updated by  Ella Wu 2021-03-05&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_7448251201" package="WE-CMB_XL_7448251201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749337/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7448251201.pdf"/>
+<attribute name="IR" value="12A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448251201 "/>
+<attribute name="RDC" value="9mOhm"/>
+<attribute name="VALUE" value="1mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="" package="WE-CMB_XL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749331/7"/>
+</package3dinstances>
+<technologies>
+<technology name="_744825320">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744825320.pdf"/>
+<attribute name="IR" value="3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744825320 "/>
+<attribute name="RDC" value="160mOhm"/>
+<attribute name="VALUE" value="20mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744825410">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744825410.pdf"/>
+<attribute name="IR" value="4.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744825410 "/>
+<attribute name="RDC" value="70mOhm"/>
+<attribute name="VALUE" value="10mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744825433">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744825433.pdf"/>
+<attribute name="IR" value="3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744825433 "/>
+<attribute name="RDC" value="210mOhm"/>
+<attribute name="VALUE" value="33mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_7448256033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7448256033.pdf"/>
+<attribute name="IR" value="6A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448256033 "/>
+<attribute name="RDC" value="25mOhm"/>
+<attribute name="VALUE" value="3.3mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744825605">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744825605.pdf"/>
+<attribute name="IR" value="6A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744825605 "/>
+<attribute name="RDC" value="45mOhm"/>
+<attribute name="VALUE" value="5mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_7448258022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7448258022.pdf"/>
+<attribute name="IR" value="8A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7448258022 "/>
+<attribute name="RDC" value="14mOhm"/>
+<attribute name="VALUE" value="2.2mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CMB_M" prefix="L">
+<description>&lt;b&gt; WE-CMB Common Mode Power Line Choke
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Broadband filterring due to low capacitance winding technique
+&lt;br&gt;High suppression of asymmetrical interferences also at low frequency range
+&lt;br&gt;Very compact design
+&lt;br&gt;Highest possible rated current by small size
+&lt;br&gt;Operating temperature: –40 ºC to +125 ºC
+&lt;br&gt;Flammability corresponding to UL 94 V-0
+&lt;br&gt;Climatic category: 40/125/21
+&lt;br&gt;Certified according to IEC 60938-2
+
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Power electronics
+&lt;br&gt;Power line in- and output filter
+&lt;br&gt;Filterring of devices without any ground connection
+&lt;br&gt;Suppression of radio interferences in motors
+&lt;br&gt;Suppression of common mode noise
+&lt;br&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14763v209%20Family_WE-CMB_XS-XXL.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CMB"&gt;https://www.we-online.com/katalog/en/WE-CMB&lt;/a&gt;&lt;p&gt;
+
+
+Updated by  Ella Wu 2020-12-07&lt;br&gt;
+2020 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_744823601" package="WE-CMB_M_744823601">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749339/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744823601.pdf"/>
+<attribute name="IR" value="6A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744823601 "/>
+<attribute name="RDC" value="13mOhm"/>
+<attribute name="VALUE" value="1mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="" package="WE-CMB_M">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749330/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_744823210">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744823210.pdf"/>
+<attribute name="IR" value="2A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744823210 "/>
+<attribute name="RDC" value="125mOhm"/>
+<attribute name="VALUE" value="10mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744823220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744823220.pdf"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744823220 "/>
+<attribute name="RDC" value="270mOhm"/>
+<attribute name="VALUE" value="20mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+<technology name="_744823305">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744823305.pdf"/>
+<attribute name="IR" value="2.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744823305 "/>
+<attribute name="RDC" value="95mOhm"/>
+<attribute name="VALUE" value="5mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="_744823333" package="WE-CMB_M_744823333">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749327/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744823333.pdf"/>
+<attribute name="IR" value="2.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744823333 "/>
+<attribute name="RDC" value="60mOhm"/>
+<attribute name="VALUE" value="3.3mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+<device name="_744823422" package="WE-CMB_M_744823422">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10749326/7"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744823422.pdf"/>
+<attribute name="IR" value="4A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744823422 "/>
+<attribute name="RDC" value="30mOhm"/>
+<attribute name="VALUE" value="2.2mH"/>
+<attribute name="VR" value="250 V (AC) "/>
+<attribute name="VT" value="1500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

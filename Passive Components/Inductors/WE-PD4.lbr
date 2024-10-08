@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Single Coil Power Inductors - WE-PD4&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-PD4_S" urn="urn:adsk.eagle:footprint:13006465/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD4 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;S</description>
+<smd name="1" x="-2.75" y="0" dx="3.6" dy="1.4" layer="1" rot="R90"/>
+<smd name="2" x="2.75" y="0" dx="3.6" dy="1.4" layer="1" rot="R90"/>
+<text x="-2.8425" y="-3.6925" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-0.0425" y="2.8725" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.3" y1="-2.225" x2="1.3" y2="-2.225" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="2.225" x2="1.3" y2="2.225" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-0.75" x2="-3.3" y2="0.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-0.75" x2="3.3" y2="0.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="0.75" x2="1.3" y2="2.225" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="0.75" x2="-1.3" y2="2.225" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-0.75" x2="1.3" y2="-2.225" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-0.75" x2="-1.3" y2="-2.225" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="2" x2="-1.33" y2="2.325" width="0.2" layer="21"/>
+<wire x1="-1.33" y1="2.325" x2="1.31" y2="2.325" width="0.2" layer="21"/>
+<wire x1="1.34" y1="2.32" x2="1.76" y2="2.01" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="-2.03" x2="-1.31" y2="-2.325" width="0.2" layer="21"/>
+<wire x1="-1.31" y1="-2.325" x2="1.37" y2="-2.325" width="0.2" layer="21"/>
+<wire x1="1.37" y1="-2.325" x2="1.76" y2="-2.02" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.63" y="2.525"/>
+<vertex x="3.63" y="2.525"/>
+<vertex x="3.63" y="-2.525"/>
+<vertex x="-3.63" y="-2.525"/>
+</polygon>
+</package>
+<package name="WE-PD4_L" urn="urn:adsk.eagle:footprint:13006466/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD4 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;L</description>
+<smd name="1" x="-5.15" y="0" dx="2.8" dy="3" layer="1" rot="R90"/>
+<smd name="2" x="5.15" y="0" dx="2.8" dy="3" layer="1" rot="R90"/>
+<text x="-3.4875" y="-7.4825" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.245" y="6.0025" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<wire x1="6.35" y1="-2" x2="2.33" y2="-4.48" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-2" x2="-6.35" y2="2" width="0.1" layer="51"/>
+<wire x1="6.35" y1="-2" x2="6.35" y2="2" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-2" x2="-2.39" y2="-4.45" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="2" x2="-2.65" y2="4.3" width="0.1" layer="51"/>
+<wire x1="6.35" y1="2" x2="2.34" y2="4.48" width="0.1" layer="51"/>
+<wire x1="-2.43" y1="-4.43" x2="-2.16" y2="-4.57" width="0.1" layer="51"/>
+<wire x1="-2.16" y1="-4.57" x2="-1.83" y2="-4.71" width="0.1" layer="51"/>
+<wire x1="-1.83" y1="-4.71" x2="-1.54" y2="-4.82" width="0.1" layer="51"/>
+<wire x1="-1.54" y1="-4.82" x2="-1.25" y2="-4.89" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-4.89" x2="-0.94" y2="-4.96" width="0.1" layer="51"/>
+<wire x1="-0.94" y1="-4.96" x2="-0.66" y2="-5.01" width="0.1" layer="51"/>
+<wire x1="-0.66" y1="-5.01" x2="-0.39" y2="-5.04" width="0.1" layer="51"/>
+<wire x1="-0.39" y1="-5.04" x2="-0.14" y2="-5.05" width="0.1" layer="51"/>
+<wire x1="-0.14" y1="-5.05" x2="0.17" y2="-5.05" width="0.1" layer="51"/>
+<wire x1="0.17" y1="-5.05" x2="0.47" y2="-5.03" width="0.1" layer="51"/>
+<wire x1="0.47" y1="-5.03" x2="0.73" y2="-5" width="0.1" layer="51"/>
+<wire x1="0.73" y1="-5" x2="0.94" y2="-4.96" width="0.1" layer="51"/>
+<wire x1="0.94" y1="-4.96" x2="1.14" y2="-4.92" width="0.1" layer="51"/>
+<wire x1="1.14" y1="-4.92" x2="1.38" y2="-4.86" width="0.1" layer="51"/>
+<wire x1="1.38" y1="-4.86" x2="1.62" y2="-4.78" width="0.1" layer="51"/>
+<wire x1="1.62" y1="-4.78" x2="1.88" y2="-4.69" width="0.1" layer="51"/>
+<wire x1="1.88" y1="-4.69" x2="2.15" y2="-4.57" width="0.1" layer="51"/>
+<wire x1="2.15" y1="-4.57" x2="2.33" y2="-4.48" width="0.1" layer="51"/>
+<wire x1="-2.64" y1="4.31" x2="-2.52" y2="4.38" width="0.1" layer="51"/>
+<wire x1="-2.52" y1="4.38" x2="-2.34" y2="4.48" width="0.1" layer="51"/>
+<wire x1="-2.34" y1="4.48" x2="-2.11" y2="4.59" width="0.1" layer="51"/>
+<wire x1="-2.11" y1="4.59" x2="-1.92" y2="4.67" width="0.1" layer="51"/>
+<wire x1="-1.92" y1="4.67" x2="-1.75" y2="4.74" width="0.1" layer="51"/>
+<wire x1="-1.78" y1="4.73" x2="-1.64" y2="4.78" width="0.1" layer="51"/>
+<wire x1="-1.64" y1="4.78" x2="-1.45" y2="4.84" width="0.1" layer="51"/>
+<wire x1="-1.45" y1="4.84" x2="-1.24" y2="4.9" width="0.1" layer="51"/>
+<wire x1="-1.24" y1="4.9" x2="-1.01" y2="4.95" width="0.1" layer="51"/>
+<wire x1="-1.01" y1="4.95" x2="-0.79" y2="4.99" width="0.1" layer="51"/>
+<wire x1="-0.79" y1="4.99" x2="-0.57" y2="5.02" width="0.1" layer="51"/>
+<wire x1="-0.57" y1="5.02" x2="-0.26" y2="5.04" width="0.1" layer="51"/>
+<wire x1="-0.26" y1="5.04" x2="-0.01" y2="5.05" width="0.1" layer="51"/>
+<wire x1="-0.01" y1="5.05" x2="0.26" y2="5.04" width="0.1" layer="51"/>
+<wire x1="0.26" y1="5.04" x2="0.54" y2="5.02" width="0.1" layer="51"/>
+<wire x1="0.54" y1="5.02" x2="0.78" y2="4.99" width="0.1" layer="51"/>
+<wire x1="0.78" y1="4.99" x2="1.1" y2="4.93" width="0.1" layer="51"/>
+<wire x1="1.1" y1="4.93" x2="1.31" y2="4.88" width="0.1" layer="51"/>
+<wire x1="1.31" y1="4.88" x2="1.61" y2="4.79" width="0.1" layer="51"/>
+<wire x1="1.61" y1="4.79" x2="1.82" y2="4.71" width="0.1" layer="51"/>
+<wire x1="1.82" y1="4.71" x2="2.09" y2="4.6" width="0.1" layer="51"/>
+<wire x1="2.09" y1="4.6" x2="2.36" y2="4.47" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="1.7" x2="-6.45" y2="2.05" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="2.05" x2="-2.7" y2="4.38" width="0.2" layer="21"/>
+<wire x1="-2.69" y1="4.39" x2="-1.98" y2="4.76" width="0.2" layer="21"/>
+<wire x1="-1.98" y1="4.76" x2="-1.41" y2="4.95" width="0.2" layer="21"/>
+<wire x1="-1.41" y1="4.95" x2="-1.05" y2="5.04" width="0.2" layer="21"/>
+<wire x1="-1.05" y1="5.04" x2="-0.6" y2="5.12" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="5.12" x2="-0.21" y2="5.15" width="0.2" layer="21"/>
+<wire x1="-0.21" y1="5.15" x2="0.28" y2="5.16" width="0.2" layer="21"/>
+<wire x1="0.28" y1="5.16" x2="0.8" y2="5.1" width="0.2" layer="21"/>
+<wire x1="0.8" y1="5.1" x2="1.4" y2="4.96" width="0.2" layer="21"/>
+<wire x1="1.4" y1="4.96" x2="1.96" y2="4.78" width="0.2" layer="21"/>
+<wire x1="1.96" y1="4.78" x2="2.41" y2="4.56" width="0.2" layer="21"/>
+<wire x1="2.41" y1="4.56" x2="2.95" y2="4.22" width="0.2" layer="21"/>
+<wire x1="2.95" y1="4.22" x2="6.45" y2="2.06" width="0.2" layer="21"/>
+<wire x1="6.45" y1="2.06" x2="6.45" y2="1.7" width="0.2" layer="21"/>
+<wire x1="-6.46" y1="-1.7" x2="-6.46" y2="-2.02" width="0.2" layer="21"/>
+<wire x1="-6.46" y1="-2.02" x2="-2.95" y2="-4.22" width="0.2" layer="21"/>
+<wire x1="-2.95" y1="-4.22" x2="-2.63" y2="-4.43" width="0.2" layer="21"/>
+<wire x1="-2.63" y1="-4.43" x2="-2.19" y2="-4.66" width="0.2" layer="21"/>
+<wire x1="-2.19" y1="-4.66" x2="-1.68" y2="-4.87" width="0.2" layer="21"/>
+<wire x1="-1.68" y1="-4.87" x2="-1.31" y2="-4.98" width="0.2" layer="21"/>
+<wire x1="-1.31" y1="-4.98" x2="-0.95" y2="-5.07" width="0.2" layer="21"/>
+<wire x1="-0.95" y1="-5.07" x2="-0.41" y2="-5.14" width="0.2" layer="21"/>
+<wire x1="-0.41" y1="-5.14" x2="0.12" y2="-5.16" width="0.2" layer="21"/>
+<wire x1="0.12" y1="-5.16" x2="0.7" y2="-5.11" width="0.2" layer="21"/>
+<wire x1="0.7" y1="-5.11" x2="1.07" y2="-5.04" width="0.2" layer="21"/>
+<wire x1="1.07" y1="-5.04" x2="1.55" y2="-4.9" width="0.2" layer="21"/>
+<wire x1="1.55" y1="-4.9" x2="1.98" y2="-4.75" width="0.2" layer="21"/>
+<wire x1="1.98" y1="-4.75" x2="2.41" y2="-4.54" width="0.2" layer="21"/>
+<wire x1="2.41" y1="-4.54" x2="2.74" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="2.74" y1="-4.35" x2="6.45" y2="-2.06" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-2.06" x2="6.45" y2="-1.7" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.85" y="5.35"/>
+<vertex x="6.85" y="5.35"/>
+<vertex x="6.85" y="-5.35"/>
+<vertex x="-6.85" y="-5.35"/>
+</polygon>
+</package>
+<package name="WE-PD4_X" urn="urn:adsk.eagle:footprint:13006464/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD4 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;X</description>
+<smd name="1" x="-7.685" y="0" dx="2.79" dy="2.92" layer="1" rot="R90"/>
+<smd name="2" x="7.685" y="0" dx="2.79" dy="2.92" layer="1" rot="R90"/>
+<text x="-3.6275" y="-10.3725" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.2775" y="9.1025" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<wire x1="-9.25" y1="-2" x2="-9.25" y2="2" width="0.1" layer="51"/>
+<wire x1="9.25" y1="-2" x2="9.25" y2="2" width="0.1" layer="51"/>
+<wire x1="9.25" y1="2" x2="9.25" y2="2.01" width="0.1" layer="51"/>
+<wire x1="-9.25" y1="2" x2="-4.77" y2="5.86" width="0.1" layer="51"/>
+<wire x1="-9.25" y1="-2" x2="-4.87" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="9.25" y1="2" x2="4.89" y2="5.8" width="0.1" layer="51"/>
+<wire x1="9.25" y1="-2" x2="4.93" y2="-5.89" width="0.1" layer="51"/>
+<wire x1="-4.88" y1="-5.89" x2="-4.44" y2="-6.26" width="0.1" layer="51"/>
+<wire x1="-4.44" y1="-6.26" x2="-3.86" y2="-6.61" width="0.1" layer="51"/>
+<wire x1="-3.86" y1="-6.61" x2="-3.3" y2="-6.91" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-6.91" x2="-2.75" y2="-7.16" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="-7.16" x2="-2.07" y2="-7.39" width="0.1" layer="51"/>
+<wire x1="-2.07" y1="-7.39" x2="-1.56" y2="-7.51" width="0.1" layer="51"/>
+<wire x1="-1.56" y1="-7.51" x2="-1.1" y2="-7.6" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="-7.6" x2="-0.6" y2="-7.66" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="-7.66" x2="-0.11" y2="-7.68" width="0.1" layer="51"/>
+<wire x1="-0.11" y1="-7.68" x2="0.35" y2="-7.68" width="0.1" layer="51"/>
+<wire x1="0.35" y1="-7.68" x2="0.84" y2="-7.64" width="0.1" layer="51"/>
+<wire x1="0.84" y1="-7.64" x2="1.39" y2="-7.56" width="0.1" layer="51"/>
+<wire x1="1.39" y1="-7.56" x2="1.87" y2="-7.44" width="0.1" layer="51"/>
+<wire x1="1.87" y1="-7.44" x2="2.5" y2="-7.27" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-7.27" x2="3.14" y2="-7" width="0.1" layer="51"/>
+<wire x1="3.14" y1="-7" x2="3.57" y2="-6.79" width="0.1" layer="51"/>
+<wire x1="3.57" y1="-6.79" x2="4.13" y2="-6.48" width="0.1" layer="51"/>
+<wire x1="4.13" y1="-6.48" x2="4.61" y2="-6.15" width="0.1" layer="51"/>
+<wire x1="4.61" y1="-6.15" x2="4.95" y2="-5.87" width="0.1" layer="51"/>
+<wire x1="-4.8" y1="5.84" x2="-4.48" y2="6.09" width="0.1" layer="51"/>
+<wire x1="-4.48" y1="6.09" x2="-4.14" y2="6.34" width="0.1" layer="51"/>
+<wire x1="-4.14" y1="6.34" x2="-3.74" y2="6.56" width="0.1" layer="51"/>
+<wire x1="-3.74" y1="6.56" x2="-3.29" y2="6.79" width="0.1" layer="51"/>
+<wire x1="-3.29" y1="6.79" x2="-2.79" y2="7.02" width="0.1" layer="51"/>
+<wire x1="-2.79" y1="7.02" x2="-2.25" y2="7.21" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="7.21" x2="-1.6" y2="7.39" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="7.39" x2="-1.09" y2="7.48" width="0.1" layer="51"/>
+<wire x1="-1.09" y1="7.48" x2="-0.67" y2="7.53" width="0.1" layer="51"/>
+<wire x1="-0.67" y1="7.53" x2="-0.25" y2="7.56" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="7.56" x2="0.22" y2="7.56" width="0.1" layer="51"/>
+<wire x1="0.22" y1="7.56" x2="0.63" y2="7.54" width="0.1" layer="51"/>
+<wire x1="0.63" y1="7.54" x2="1.08" y2="7.49" width="0.1" layer="51"/>
+<wire x1="1.08" y1="7.49" x2="1.51" y2="7.42" width="0.1" layer="51"/>
+<wire x1="1.51" y1="7.42" x2="1.98" y2="7.31" width="0.1" layer="51"/>
+<wire x1="1.98" y1="7.31" x2="2.43" y2="7.18" width="0.1" layer="51"/>
+<wire x1="2.43" y1="7.18" x2="2.86" y2="7.02" width="0.1" layer="51"/>
+<wire x1="2.86" y1="7.02" x2="3.19" y2="6.88" width="0.1" layer="51"/>
+<wire x1="3.19" y1="6.88" x2="3.69" y2="6.63" width="0.1" layer="51"/>
+<wire x1="3.69" y1="6.63" x2="4.06" y2="6.41" width="0.1" layer="51"/>
+<wire x1="4.06" y1="6.41" x2="4.29" y2="6.29" width="0.1" layer="51"/>
+<wire x1="4.29" y1="6.29" x2="4.95" y2="5.75" width="0.1" layer="51"/>
+<wire x1="-9.35" y1="1.7" x2="-9.35" y2="2.05" width="0.2" layer="21"/>
+<wire x1="-9.35" y1="2.05" x2="-5.91" y2="4.99" width="0.2" layer="21"/>
+<wire x1="-5.9" y1="5" x2="-5.59" y2="5.33" width="0.2" layer="21"/>
+<wire x1="-5.59" y1="5.33" x2="-4.91" y2="5.87" width="0.2" layer="21"/>
+<wire x1="-4.91" y1="5.87" x2="-4.11" y2="6.49" width="0.2" layer="21"/>
+<wire x1="-4.11" y1="6.49" x2="-3.41" y2="6.86" width="0.2" layer="21"/>
+<wire x1="-3.41" y1="6.86" x2="-2.74" y2="7.15" width="0.2" layer="21"/>
+<wire x1="-2.74" y1="7.15" x2="-2.01" y2="7.4" width="0.2" layer="21"/>
+<wire x1="-2.01" y1="7.4" x2="-1.13" y2="7.59" width="0.2" layer="21"/>
+<wire x1="-1.13" y1="7.59" x2="-0.58" y2="7.65" width="0.2" layer="21"/>
+<wire x1="-0.58" y1="7.65" x2="0.15" y2="7.66" width="0.2" layer="21"/>
+<wire x1="0.15" y1="7.66" x2="0.85" y2="7.62" width="0.2" layer="21"/>
+<wire x1="0.85" y1="7.62" x2="1.43" y2="7.54" width="0.2" layer="21"/>
+<wire x1="1.43" y1="7.54" x2="2" y2="7.41" width="0.2" layer="21"/>
+<wire x1="2" y1="7.41" x2="2.51" y2="7.25" width="0.2" layer="21"/>
+<wire x1="2.51" y1="7.25" x2="3.13" y2="7.03" width="0.2" layer="21"/>
+<wire x1="3.13" y1="7.03" x2="3.72" y2="6.73" width="0.2" layer="21"/>
+<wire x1="3.72" y1="6.73" x2="4.38" y2="6.32" width="0.2" layer="21"/>
+<wire x1="4.38" y1="6.32" x2="4.89" y2="5.93" width="0.2" layer="21"/>
+<wire x1="4.89" y1="5.93" x2="5.57" y2="5.34" width="0.2" layer="21"/>
+<wire x1="5.57" y1="5.34" x2="5.9" y2="5.04" width="0.2" layer="21"/>
+<wire x1="5.9" y1="5.04" x2="9.35" y2="2.05" width="0.2" layer="21"/>
+<wire x1="9.35" y1="2.05" x2="9.35" y2="1.7" width="0.2" layer="21"/>
+<wire x1="-9.37" y1="-1.7" x2="-9.37" y2="-2.05" width="0.2" layer="21"/>
+<wire x1="-9.37" y1="-2.05" x2="-5.56" y2="-5.39" width="0.2" layer="21"/>
+<wire x1="-5.56" y1="-5.39" x2="-5.15" y2="-5.76" width="0.2" layer="21"/>
+<wire x1="-5.15" y1="-5.76" x2="-4.8" y2="-6.05" width="0.2" layer="21"/>
+<wire x1="-4.8" y1="-6.05" x2="-3.87" y2="-6.7" width="0.2" layer="21"/>
+<wire x1="-3.87" y1="-6.7" x2="-3.41" y2="-6.95" width="0.2" layer="21"/>
+<wire x1="-3.41" y1="-6.95" x2="-2.81" y2="-7.22" width="0.2" layer="21"/>
+<wire x1="-2.81" y1="-7.22" x2="-1.82" y2="-7.58" width="0.2" layer="21"/>
+<wire x1="-1.82" y1="-7.58" x2="-1.1" y2="-7.71" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-7.71" x2="-0.22" y2="-7.78" width="0.2" layer="21"/>
+<wire x1="-0.22" y1="-7.78" x2="0.57" y2="-7.77" width="0.2" layer="21"/>
+<wire x1="0.57" y1="-7.77" x2="1.31" y2="-7.69" width="0.2" layer="21"/>
+<wire x1="1.31" y1="-7.69" x2="1.82" y2="-7.56" width="0.2" layer="21"/>
+<wire x1="1.82" y1="-7.56" x2="2.64" y2="-7.32" width="0.2" layer="21"/>
+<wire x1="2.64" y1="-7.32" x2="3.6" y2="-6.88" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-6.88" x2="4.43" y2="-6.39" width="0.2" layer="21"/>
+<wire x1="4.43" y1="-6.39" x2="5.05" y2="-5.9" width="0.2" layer="21"/>
+<wire x1="5.05" y1="-5.9" x2="5.62" y2="-5.39" width="0.2" layer="21"/>
+<wire x1="5.62" y1="-5.39" x2="9.36" y2="-2.05" width="0.2" layer="21"/>
+<wire x1="9.36" y1="-2.05" x2="9.36" y2="-1.7" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.57" y="7.92"/>
+<vertex x="9.57" y="7.92"/>
+<vertex x="9.57" y="-7.92"/>
+<vertex x="-9.57" y="-7.92"/>
+</polygon>
+</package>
+<package name="WE-PD4_XL" urn="urn:adsk.eagle:footprint:13006463/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD4 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;XL</description>
+<wire x1="7.5" y1="4" x2="2.5" y2="7.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="7.5" x2="-2.5" y2="7.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="7.5" x2="-7.5" y2="4" width="0.127" layer="51"/>
+<wire x1="-7.5" y1="-4" x2="-2.5" y2="-7.49" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-7.5" x2="2.49" y2="-7.5" width="0.127" layer="51"/>
+<wire x1="2.49" y1="-7.5" x2="2.5" y2="-7.5" width="0.127" layer="51"/>
+<wire x1="2.49" y1="-7.5" x2="7.5" y2="-4" width="0.127" layer="51"/>
+<wire x1="7.5" y1="-4" x2="7.5" y2="4" width="0.127" layer="51"/>
+<wire x1="7.5" y1="4" x2="9.8" y2="4" width="0.127" layer="51"/>
+<wire x1="9.8" y1="4" x2="9.8" y2="-4" width="0.127" layer="51"/>
+<wire x1="9.8" y1="-4" x2="7.5" y2="-4" width="0.127" layer="51"/>
+<wire x1="-9.8" y1="-4" x2="-7.5" y2="-4" width="0.127" layer="51"/>
+<wire x1="-7.5" y1="-4" x2="-7.5" y2="4" width="0.127" layer="51"/>
+<wire x1="-7.5" y1="4" x2="-9.8" y2="4" width="0.127" layer="51"/>
+<wire x1="-9.8" y1="4" x2="-9.8" y2="3" width="0.127" layer="51"/>
+<wire x1="-9.8" y1="3" x2="-9.8" y2="-3" width="0.127" layer="51"/>
+<wire x1="-9.8" y1="-3" x2="-9.8" y2="-4" width="0.127" layer="51"/>
+<wire x1="-11" y1="3.56" x2="-11" y2="1.85" width="0.1" layer="51"/>
+<wire x1="-11" y1="-1.85" x2="-11" y2="-3.54" width="0.1" layer="51"/>
+<wire x1="-10" y1="0.9" x2="-10" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="-10" y1="0.9" x2="-11" y2="1.85" width="0.1" layer="51"/>
+<wire x1="-9.8" y1="3" x2="-10.1" y2="3" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="3" x2="-10.1" y2="3.54" width="0.1" layer="51"/>
+<wire x1="-11" y1="3.56" x2="-10.1" y2="3.54" width="0.1" layer="51" curve="-180"/>
+<wire x1="-10" y1="-0.9" x2="-11" y2="-1.85" width="0.1" layer="51"/>
+<wire x1="-9.8" y1="-3" x2="-10.1" y2="-3" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="-3" x2="-10.1" y2="-3.56" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="-3.56" x2="-11" y2="-3.54" width="0.1" layer="51" curve="-180"/>
+<wire x1="11" y1="-3.56" x2="11" y2="-1.85" width="0.1" layer="51"/>
+<wire x1="11" y1="1.85" x2="11" y2="3.54" width="0.1" layer="51"/>
+<wire x1="10" y1="-0.9" x2="10" y2="0.9" width="0.1" layer="51"/>
+<wire x1="10" y1="-0.9" x2="11" y2="-1.85" width="0.1" layer="51"/>
+<wire x1="9.8" y1="-3" x2="10.1" y2="-3" width="0.1" layer="51"/>
+<wire x1="10.1" y1="-3" x2="10.1" y2="-3.54" width="0.1" layer="51"/>
+<wire x1="11" y1="-3.56" x2="10.1" y2="-3.54" width="0.1" layer="51" curve="-180"/>
+<wire x1="10" y1="0.9" x2="11" y2="1.85" width="0.1" layer="51"/>
+<wire x1="9.8" y1="3" x2="10.1" y2="3" width="0.1" layer="51"/>
+<wire x1="10.1" y1="3" x2="10.1" y2="3.56" width="0.1" layer="51"/>
+<wire x1="10.1" y1="3.56" x2="11" y2="3.54" width="0.1" layer="51" curve="-180"/>
+<wire x1="-13.75" y1="7.4" x2="-4.55" y2="7.4" width="0.1" layer="48"/>
+<wire x1="-4.55" y1="7.4" x2="-4.55" y2="-7.4" width="0.1" layer="48"/>
+<wire x1="-4.55" y1="-7.4" x2="-13.75" y2="-7.4" width="0.1" layer="48"/>
+<wire x1="-13.75" y1="-7.4" x2="-13.75" y2="7.4" width="0.1" layer="48"/>
+<wire x1="13.75" y1="-7.4" x2="4.55" y2="-7.4" width="0.1" layer="48"/>
+<wire x1="4.55" y1="-7.4" x2="4.55" y2="7.4" width="0.1" layer="48"/>
+<wire x1="4.55" y1="7.4" x2="13.75" y2="7.4" width="0.1" layer="48"/>
+<wire x1="13.75" y1="7.4" x2="13.75" y2="-7.4" width="0.1" layer="48"/>
+<wire x1="-6.5" y1="4.8" x2="-2.5" y2="7.6" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="7.6" x2="2.5" y2="7.6" width="0.2" layer="21"/>
+<wire x1="2.5" y1="7.6" x2="6.5" y2="4.8" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-4.8" x2="2.5" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="2.5" y1="-7.6" x2="-2.5" y2="-7.6" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="-7.6" x2="-6.5" y2="-4.8" width="0.2" layer="21"/>
+<smd name="1" x="-8.75" y="0" dx="9" dy="4" layer="1" rot="R90"/>
+<smd name="2" x="8.75" y="0" dx="9" dy="4" layer="1" rot="R90"/>
+<text x="-5.58" y="-10.745" size="1.9304" layer="27">&gt;VALUE</text>
+<text x="-0.145" y="9.34" size="1.9304" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-12" y="-3.6" size="0.6096" layer="48" rot="R90">Reserved PCB Area</text>
+<text x="12.7" y="-3.7" size="0.6096" layer="48" rot="R90">Reserved PCB Area</text>
+<polygon width="0.127" layer="39">
+<vertex x="-13.75" y="7.8"/>
+<vertex x="13.75" y="7.8"/>
+<vertex x="13.75" y="-7.8"/>
+<vertex x="-13.75" y="-7.8"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-PD4_S" urn="urn:adsk.eagle:package:13006470/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD4 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;S</description>
+<packageinstances>
+<packageinstance name="WE-PD4_S"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PD4_XL" urn="urn:adsk.eagle:package:13006468/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD4 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;XL</description>
+<packageinstances>
+<packageinstance name="WE-PD4_XL"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PD4_L" urn="urn:adsk.eagle:package:13006471/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD4 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;L</description>
+<packageinstances>
+<packageinstance name="WE-PD4_L"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PD4_X" urn="urn:adsk.eagle:package:13006469/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD4 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;X</description>
+<packageinstances>
+<packageinstance name="WE-PD4_X"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L">
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-PD4_L" prefix="L">
+<description>&lt;b&gt;WE-PD4 SMD Power Inductor
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Current loading up to 38 A
+&lt;br&gt;Compact size
+&lt;br&gt;&lt;br&gt;Low-loss ferrite core
+&lt;br&gt;Application frequency range up to 10 MHz
+&lt;br&gt;Operating temperature: –40°C to +125°C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;Now with impedance graph in datasheets
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Noise suppression, EMI Filter
+&lt;br&gt;Perfectly suitable for switching regulators e.g. National Semiconductor, Linear Technology, 
+ &lt;br&gt;Maxim, Semtech, Texas Instruments, Fairchild Semiconductor, Cologne Chip, ON Semiconductor, STMicroelectronics, MPS, Exar, &lt;br&gt;Analogic Tech and Diodes
+
+&lt;br&gt;
+&lt;br&gt; Perfectly suitable for switching regulators e.g. National Semiconductor, Linear Technology, Maxim, Semtech, Texas Instruments, Fairchild Semiconductor, Cologne Chip, ON Semiconductor, STMicroelectronics, MPS, Exar, Analogic Tech and Diodes
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14832v209%20Family_WE-PD4.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14832v209%20Family_WE-PD4.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-PD4"&gt;https://katalog.we-online.com/en/pbs/WE-PD4&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by Yingchun,Shan 2019-08-05&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD4_L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13006471/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7445601">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445601.pdf" constant="no"/>
+<attribute name="FRES" value="95MHz" constant="no"/>
+<attribute name="IR" value="8.6A" constant="no"/>
+<attribute name="ISAT" value="14.25A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445601 " constant="no"/>
+<attribute name="RDC-MAX" value="0.007Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.004Ohm" constant="no"/>
+<attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+<technology name="_74456015">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456015.pdf" constant="no"/>
+<attribute name="FRES" value="73MHz" constant="no"/>
+<attribute name="IR" value="7.2A" constant="no"/>
+<attribute name="ISAT" value="10.7A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456015 " constant="no"/>
+<attribute name="RDC-MAX" value="0.009Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.006Ohm" constant="no"/>
+<attribute name="VALUE" value="1.5uH" constant="no"/>
+</technology>
+<technology name="_74456022">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456022.pdf" constant="no"/>
+<attribute name="FRES" value="63MHz" constant="no"/>
+<attribute name="IR" value="6.5A" constant="no"/>
+<attribute name="ISAT" value="10.2A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456022 " constant="no"/>
+<attribute name="RDC-MAX" value="0.011Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.007Ohm" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
+<technology name="_74456025">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456025.pdf" constant="no"/>
+<attribute name="FRES" value="50MHz" constant="no"/>
+<attribute name="IR" value="5.8A" constant="no"/>
+<attribute name="ISAT" value="10A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456025 " constant="no"/>
+<attribute name="RDC-MAX" value="0.012Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.009Ohm" constant="no"/>
+<attribute name="VALUE" value="2.5uH" constant="no"/>
+</technology>
+<technology name="_74456033">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456033.pdf" constant="no"/>
+<attribute name="FRES" value="41MHz" constant="no"/>
+<attribute name="IR" value="5.3A" constant="no"/>
+<attribute name="ISAT" value="7A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456033 " constant="no"/>
+<attribute name="RDC-MAX" value="0.015Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.011Ohm" constant="no"/>
+<attribute name="VALUE" value="3.3uH" constant="no"/>
+</technology>
+<technology name="_74456047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456047.pdf" constant="no"/>
+<attribute name="FRES" value="38MHz" constant="no"/>
+<attribute name="IR" value="5A" constant="no"/>
+<attribute name="ISAT" value="6A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456047 " constant="no"/>
+<attribute name="RDC-MAX" value="0.019Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.015Ohm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+<technology name="_74456056">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456056.pdf" constant="no"/>
+<attribute name="FRES" value="31MHz" constant="no"/>
+<attribute name="IR" value="4A" constant="no"/>
+<attribute name="ISAT" value="6A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456056 " constant="no"/>
+<attribute name="RDC-MAX" value="0.032Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.024Ohm" constant="no"/>
+<attribute name="VALUE" value="5.6uH" constant="no"/>
+</technology>
+<technology name="_74456068">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456068.pdf" constant="no"/>
+<attribute name="FRES" value="30MHz" constant="no"/>
+<attribute name="IR" value="3.8A" constant="no"/>
+<attribute name="ISAT" value="5.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456068 " constant="no"/>
+<attribute name="RDC-MAX" value="0.034Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.026Ohm" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+<technology name="_74456082">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456082.pdf" constant="no"/>
+<attribute name="FRES" value="26MHz" constant="no"/>
+<attribute name="IR" value="3.2A" constant="no"/>
+<attribute name="ISAT" value="4.2A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456082 " constant="no"/>
+<attribute name="RDC-MAX" value="0.04Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.034Ohm" constant="no"/>
+<attribute name="VALUE" value="8.2uH" constant="no"/>
+</technology>
+<technology name="_7445610">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445610.pdf" constant="no"/>
+<attribute name="FRES" value="23MHz" constant="no"/>
+<attribute name="IR" value="3.3A" constant="no"/>
+<attribute name="ISAT" value="5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445610 " constant="no"/>
+<attribute name="RDC-MAX" value="0.045Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.035Ohm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_74456115">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456115.pdf" constant="no"/>
+<attribute name="FRES" value="17MHz" constant="no"/>
+<attribute name="IR" value="2.9A" constant="no"/>
+<attribute name="ISAT" value="3.6A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456115 " constant="no"/>
+<attribute name="RDC-MAX" value="0.06Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.043Ohm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+<technology name="_74456122">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456122.pdf" constant="no"/>
+<attribute name="FRES" value="14MHz" constant="no"/>
+<attribute name="IR" value="2.6A" constant="no"/>
+<attribute name="ISAT" value="3.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456122 " constant="no"/>
+<attribute name="RDC-MAX" value="0.095Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.071Ohm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+<technology name="_74456133">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456133.pdf" constant="no"/>
+<attribute name="FRES" value="13MHz" constant="no"/>
+<attribute name="IR" value="2.3A" constant="no"/>
+<attribute name="ISAT" value="2.6A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456133 " constant="no"/>
+<attribute name="RDC-MAX" value="0.12Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.094Ohm" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
+</technology>
+<technology name="_74456147">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456147.pdf" constant="no"/>
+<attribute name="FRES" value="10MHz" constant="no"/>
+<attribute name="IR" value="1.8A" constant="no"/>
+<attribute name="ISAT" value="2.14A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456147 " constant="no"/>
+<attribute name="RDC-MAX" value="0.19Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.142Ohm" constant="no"/>
+<attribute name="VALUE" value="47uH" constant="no"/>
+</technology>
+<technology name="_74456168">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456168.pdf" constant="no"/>
+<attribute name="FRES" value="8.5MHz" constant="no"/>
+<attribute name="IR" value="1.6A" constant="no"/>
+<attribute name="ISAT" value="1.7A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456168 " constant="no"/>
+<attribute name="RDC-MAX" value="0.24Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.187Ohm" constant="no"/>
+<attribute name="VALUE" value="68uH" constant="no"/>
+</technology>
+<technology name="_7445620">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445620.pdf" constant="no"/>
+<attribute name="FRES" value="6.5MHz" constant="no"/>
+<attribute name="IR" value="1.4A" constant="no"/>
+<attribute name="ISAT" value="1.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445620 " constant="no"/>
+<attribute name="RDC-MAX" value="0.33Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.253Ohm" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+<technology name="_74456215">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456215.pdf" constant="no"/>
+<attribute name="FRES" value="5.3MHz" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="ISAT" value="1.2A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456215 " constant="no"/>
+<attribute name="RDC-MAX" value="0.59Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.448Ohm" constant="no"/>
+<attribute name="VALUE" value="150uH" constant="no"/>
+</technology>
+<technology name="_74456222">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456222.pdf" constant="no"/>
+<attribute name="FRES" value="4.7MHz" constant="no"/>
+<attribute name="IR" value="0.9A" constant="no"/>
+<attribute name="ISAT" value="1.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456222 " constant="no"/>
+<attribute name="RDC-MAX" value="0.78Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.601Ohm" constant="no"/>
+<attribute name="VALUE" value="220uH" constant="no"/>
+</technology>
+<technology name="_74456233">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456233.pdf" constant="no"/>
+<attribute name="FRES" value="3.7MHz" constant="no"/>
+<attribute name="IR" value="0.7A" constant="no"/>
+<attribute name="ISAT" value="0.8A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456233 " constant="no"/>
+<attribute name="RDC-MAX" value="1.15Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.893Ohm" constant="no"/>
+<attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+<technology name="_74456247">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456247.pdf" constant="no"/>
+<attribute name="FRES" value="3.1MHz" constant="no"/>
+<attribute name="IR" value="0.6A" constant="no"/>
+<attribute name="ISAT" value="0.65A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456247 " constant="no"/>
+<attribute name="RDC-MAX" value="1.7Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1.315Ohm" constant="no"/>
+<attribute name="VALUE" value="470uH" constant="no"/>
+</technology>
+<technology name="_74456268">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456268.pdf" constant="no"/>
+<attribute name="FRES" value="2.3MHz" constant="no"/>
+<attribute name="IR" value="0.5A" constant="no"/>
+<attribute name="ISAT" value="0.55A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456268 " constant="no"/>
+<attribute name="RDC-MAX" value="2.6Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1.942Ohm" constant="no"/>
+<attribute name="VALUE" value="680uH" constant="no"/>
+</technology>
+<technology name="_7445630">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445630.pdf" constant="no"/>
+<attribute name="FRES" value="1.9MHz" constant="no"/>
+<attribute name="IR" value="0.4A" constant="no"/>
+<attribute name="ISAT" value="0.52A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445630 " constant="no"/>
+<attribute name="RDC-MAX" value="3.9Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="2.94Ohm" constant="no"/>
+<attribute name="VALUE" value="1000uH" constant="no"/>
+</technology>
+<technology name="_74456322">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456322.pdf" constant="no"/>
+<attribute name="FRES" value="1.2MHz" constant="no"/>
+<attribute name="IR" value="0.1A" constant="no"/>
+<attribute name="ISAT" value="0.26A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456322 " constant="no"/>
+<attribute name="RDC-MAX" value="8.2Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="6.26Ohm" constant="no"/>
+<attribute name="VALUE" value="2200uH" constant="no"/>
+</technology>
+<technology name="_74456347">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456347.pdf" constant="no"/>
+<attribute name="FRES" value="0.9MHz" constant="no"/>
+<attribute name="IR" value="0.2A" constant="no"/>
+<attribute name="ISAT" value="0.2A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456347 " constant="no"/>
+<attribute name="RDC-MAX" value="17Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="13.3Ohm" constant="no"/>
+<attribute name="VALUE" value="4700uH" constant="no"/>
+</technology>
+<technology name="_74456382">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74456382.pdf" constant="no"/>
+<attribute name="FRES" value="0.7MHz" constant="no"/>
+<attribute name="IR" value="0.11A" constant="no"/>
+<attribute name="ISAT" value="0.17A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74456382 " constant="no"/>
+<attribute name="RDC-MAX" value="35Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="28Ohm" constant="no"/>
+<attribute name="VALUE" value="8200uH" constant="no"/>
+</technology>
+<technology name="_7445640">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445640.pdf" constant="no"/>
+<attribute name="FRES" value="0.6MHz" constant="no"/>
+<attribute name="IR" value="0.1A" constant="no"/>
+<attribute name="ISAT" value="0.15A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445640 " constant="no"/>
+<attribute name="RDC-MAX" value="39Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="29.9Ohm" constant="no"/>
+<attribute name="VALUE" value="10000uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PD4_S" prefix="L">
+<description>&lt;b&gt;WE-PD4 SMD Power Inductor
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Current loading up to 38 A
+&lt;br&gt;Compact size
+&lt;br&gt;&lt;br&gt;Low-loss ferrite core
+&lt;br&gt;Application frequency range up to 10 MHz
+&lt;br&gt;Operating temperature: –40°C to +125°C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;Now with impedance graph in datasheets
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Noise suppression, EMI Filter
+&lt;br&gt;Perfectly suitable for switching regulators e.g. National Semiconductor, Linear Technology, 
+ &lt;br&gt;Maxim, Semtech, Texas Instruments, Fairchild Semiconductor, Cologne Chip, ON Semiconductor, STMicroelectronics, MPS, Exar, &lt;br&gt;Analogic Tech and Diodes
+
+&lt;br&gt;
+&lt;br&gt; Perfectly suitable for switching regulators e.g. National Semiconductor, Linear Technology, Maxim, Semtech, Texas Instruments, Fairchild Semiconductor, Cologne Chip, ON Semiconductor, STMicroelectronics, MPS, Exar, Analogic Tech and Diodes
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14832v209%20Family_WE-PD4.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14832v209%20Family_WE-PD4.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-PD4"&gt;https://katalog.we-online.com/en/pbs/WE-PD4&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by Yingchun,Shan 2019-08-05&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD4_S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13006470/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_7445501">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445501.pdf" constant="no"/>
+<attribute name="FRES" value="80MHz" constant="no"/>
+<attribute name="IR" value="2.9A" constant="no"/>
+<attribute name="ISAT" value="2.9A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445501 " constant="no"/>
+<attribute name="RDC-MAX" value="0.05Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.017Ohm" constant="no"/>
+<attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+<technology name="_74455015">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455015.pdf" constant="no"/>
+<attribute name="FRES" value="62MHz" constant="no"/>
+<attribute name="IR" value="2.8A" constant="no"/>
+<attribute name="ISAT" value="2.6A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455015 " constant="no"/>
+<attribute name="RDC-MAX" value="0.05Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.02Ohm" constant="no"/>
+<attribute name="VALUE" value="1.5uH" constant="no"/>
+</technology>
+<technology name="_74455022">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455022.pdf" constant="no"/>
+<attribute name="FRES" value="50MHz" constant="no"/>
+<attribute name="IR" value="2.4A" constant="no"/>
+<attribute name="ISAT" value="2.3A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455022 " constant="no"/>
+<attribute name="RDC-MAX" value="0.07Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.028Ohm" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
+<technology name="_74455033">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455033.pdf" constant="no"/>
+<attribute name="FRES" value="39MHz" constant="no"/>
+<attribute name="IR" value="2A" constant="no"/>
+<attribute name="ISAT" value="2A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455033 " constant="no"/>
+<attribute name="RDC-MAX" value="0.08Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.044Ohm" constant="no"/>
+<attribute name="VALUE" value="3.3uH" constant="no"/>
+</technology>
+<technology name="_74455047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455047.pdf" constant="no"/>
+<attribute name="FRES" value="37MHz" constant="no"/>
+<attribute name="IR" value="1.5A" constant="no"/>
+<attribute name="ISAT" value="1.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455047 " constant="no"/>
+<attribute name="RDC-MAX" value="0.09Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.063Ohm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+<technology name="_74455068">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455068.pdf" constant="no"/>
+<attribute name="FRES" value="29MHz" constant="no"/>
+<attribute name="IR" value="1.4A" constant="no"/>
+<attribute name="ISAT" value="1.2A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455068 " constant="no"/>
+<attribute name="RDC-MAX" value="0.13Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.092Ohm" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+<technology name="_7445510">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445510.pdf" constant="no"/>
+<attribute name="FRES" value="26MHz" constant="no"/>
+<attribute name="IR" value="1.2A" constant="no"/>
+<attribute name="ISAT" value="1.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445510 " constant="no"/>
+<attribute name="RDC-MAX" value="0.16Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.121Ohm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_74455115">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455115.pdf" constant="no"/>
+<attribute name="FRES" value="19MHz" constant="no"/>
+<attribute name="IR" value="1.1A" constant="no"/>
+<attribute name="ISAT" value="0.9A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455115 " constant="no"/>
+<attribute name="RDC-MAX" value="0.23Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.176Ohm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+<technology name="_74455122">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455122.pdf" constant="no"/>
+<attribute name="FRES" value="16MHz" constant="no"/>
+<attribute name="IR" value="0.8A" constant="no"/>
+<attribute name="ISAT" value="0.7A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455122 " constant="no"/>
+<attribute name="RDC-MAX" value="0.37Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.255Ohm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+<technology name="_74455133">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455133.pdf" constant="no"/>
+<attribute name="FRES" value="13MHz" constant="no"/>
+<attribute name="IR" value="0.6A" constant="no"/>
+<attribute name="ISAT" value="0.58A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455133 " constant="no"/>
+<attribute name="RDC-MAX" value="0.51Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.362Ohm" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
+</technology>
+<technology name="_74455147">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455147.pdf" constant="no"/>
+<attribute name="FRES" value="12MHz" constant="no"/>
+<attribute name="IR" value="0.5A" constant="no"/>
+<attribute name="ISAT" value="0.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455147 " constant="no"/>
+<attribute name="RDC-MAX" value="0.64Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.556Ohm" constant="no"/>
+<attribute name="VALUE" value="47uH" constant="no"/>
+</technology>
+<technology name="_74455168">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455168.pdf" constant="no"/>
+<attribute name="FRES" value="9.5MHz" constant="no"/>
+<attribute name="IR" value="0.4A" constant="no"/>
+<attribute name="ISAT" value="0.4A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455168 " constant="no"/>
+<attribute name="RDC-MAX" value="0.86Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.79Ohm" constant="no"/>
+<attribute name="VALUE" value="68uH" constant="no"/>
+</technology>
+<technology name="_7445520">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445520.pdf" constant="no"/>
+<attribute name="FRES" value="8MHz" constant="no"/>
+<attribute name="IR" value="0.3A" constant="no"/>
+<attribute name="ISAT" value="0.31A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445520 " constant="no"/>
+<attribute name="RDC-MAX" value="1.27Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1.08Ohm" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+<technology name="_74455215">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455215.pdf" constant="no"/>
+<attribute name="FRES" value="6MHz" constant="no"/>
+<attribute name="IR" value="0.25A" constant="no"/>
+<attribute name="ISAT" value="0.27A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455215 " constant="no"/>
+<attribute name="RDC-MAX" value="2Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1.45Ohm" constant="no"/>
+<attribute name="VALUE" value="150uH" constant="no"/>
+</technology>
+<technology name="_74455222">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455222.pdf" constant="no"/>
+<attribute name="FRES" value="4.8MHz" constant="no"/>
+<attribute name="IR" value="0.2A" constant="no"/>
+<attribute name="ISAT" value="0.22A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455222 " constant="no"/>
+<attribute name="RDC-MAX" value="3.11Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="2.58Ohm" constant="no"/>
+<attribute name="VALUE" value="220uH" constant="no"/>
+</technology>
+<technology name="_74455233">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455233.pdf" constant="no"/>
+<attribute name="FRES" value="4MHz" constant="no"/>
+<attribute name="IR" value="0.16A" constant="no"/>
+<attribute name="ISAT" value="0.18A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455233 " constant="no"/>
+<attribute name="RDC-MAX" value="5Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="4.15Ohm" constant="no"/>
+<attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+<technology name="_74455247">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74455247.pdf" constant="no"/>
+<attribute name="FRES" value="3MHz" constant="no"/>
+<attribute name="IR" value="0.16A" constant="no"/>
+<attribute name="ISAT" value="0.15A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74455247 " constant="no"/>
+<attribute name="RDC-MAX" value="6.8Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="5.58Ohm" constant="no"/>
+<attribute name="VALUE" value="470uH" constant="no"/>
+</technology>
+<technology name="_7445530">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445530.pdf" constant="no"/>
+<attribute name="FRES" value="2.2MHz" constant="no"/>
+<attribute name="IR" value="0.07A" constant="no"/>
+<attribute name="ISAT" value="0.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445530 " constant="no"/>
+<attribute name="RDC-MAX" value="13.8Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="11.5Ohm" constant="no"/>
+<attribute name="VALUE" value="1000uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PD4_X" prefix="L">
+<description>&lt;b&gt;WE-PD4 SMD Power Inductor
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Current loading up to 38 A
+&lt;br&gt;Compact size
+&lt;br&gt;&lt;br&gt;Low-loss ferrite core
+&lt;br&gt;Application frequency range up to 10 MHz
+&lt;br&gt;Operating temperature: –40°C to +125°C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;Now with impedance graph in datasheets
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Noise suppression, EMI Filter
+&lt;br&gt;Perfectly suitable for switching regulators e.g. National Semiconductor, Linear Technology, 
+ &lt;br&gt;Maxim, Semtech, Texas Instruments, Fairchild Semiconductor, Cologne Chip, ON Semiconductor, STMicroelectronics, MPS, Exar, &lt;br&gt;Analogic Tech and Diodes
+
+&lt;br&gt;
+&lt;br&gt; Perfectly suitable for switching regulators e.g. National Semiconductor, Linear Technology, Maxim, Semtech, Texas Instruments, Fairchild Semiconductor, Cologne Chip, ON Semiconductor, STMicroelectronics, MPS, Exar, Analogic Tech and Diodes
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14832v209%20Family_WE-PD4.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14832v209%20Family_WE-PD4.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-PD4"&gt;https://katalog.we-online.com/en/pbs/WE-PD4&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by Yingchun,Shan 2019-08-05&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD4_X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13006469/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74458001">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458001.pdf" constant="no"/>
+<attribute name="FRES" value="70MHz" constant="no"/>
+<attribute name="IR" value="8.6A" constant="no"/>
+<attribute name="ISAT" value="25A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458001 " constant="no"/>
+<attribute name="RDC-MAX" value="0.009Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.005Ohm" constant="no"/>
+<attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+<technology name="_74458002">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458002.pdf" constant="no"/>
+<attribute name="FRES" value="42MHz" constant="no"/>
+<attribute name="IR" value="7.1A" constant="no"/>
+<attribute name="ISAT" value="20.3A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458002 " constant="no"/>
+<attribute name="RDC-MAX" value="0.014Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.008Ohm" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
+<technology name="_74458003">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458003.pdf" constant="no"/>
+<attribute name="FRES" value="34MHz" constant="no"/>
+<attribute name="IR" value="6.2A" constant="no"/>
+<attribute name="ISAT" value="15.8A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458003 " constant="no"/>
+<attribute name="RDC-MAX" value="0.018Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.01Ohm" constant="no"/>
+<attribute name="VALUE" value="3.3uH" constant="no"/>
+</technology>
+<technology name="_74458005">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458005.pdf" constant="no"/>
+<attribute name="FRES" value="26MHz" constant="no"/>
+<attribute name="IR" value="5.3A" constant="no"/>
+<attribute name="ISAT" value="13.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458005 " constant="no"/>
+<attribute name="RDC-MAX" value="0.02Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.012Ohm" constant="no"/>
+<attribute name="VALUE" value="5.6uH" constant="no"/>
+</technology>
+<technology name="_74458010">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458010.pdf" constant="no"/>
+<attribute name="FRES" value="20MHz" constant="no"/>
+<attribute name="IR" value="4.3A" constant="no"/>
+<attribute name="ISAT" value="10A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458010 " constant="no"/>
+<attribute name="RDC-MAX" value="0.031Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.021Ohm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_74458115">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458115.pdf" constant="no"/>
+<attribute name="FRES" value="15MHz" constant="no"/>
+<attribute name="IR" value="4A" constant="no"/>
+<attribute name="ISAT" value="8A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458115 " constant="no"/>
+<attribute name="RDC-MAX" value="0.036Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.03Ohm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+<technology name="_74458122">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458122.pdf" constant="no"/>
+<attribute name="FRES" value="13MHz" constant="no"/>
+<attribute name="IR" value="3.5A" constant="no"/>
+<attribute name="ISAT" value="7A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458122 " constant="no"/>
+<attribute name="RDC-MAX" value="0.047Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.043Ohm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+<technology name="_74458133">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458133.pdf" constant="no"/>
+<attribute name="FRES" value="10MHz" constant="no"/>
+<attribute name="IR" value="3A" constant="no"/>
+<attribute name="ISAT" value="5.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458133 " constant="no"/>
+<attribute name="RDC-MAX" value="0.066Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.06Ohm" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
+</technology>
+<technology name="_74458147">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458147.pdf" constant="no"/>
+<attribute name="FRES" value="8.4MHz" constant="no"/>
+<attribute name="IR" value="2.6A" constant="no"/>
+<attribute name="ISAT" value="4.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458147 " constant="no"/>
+<attribute name="RDC-MAX" value="0.086Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.076Ohm" constant="no"/>
+<attribute name="VALUE" value="47uH" constant="no"/>
+</technology>
+<technology name="_74458168">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458168.pdf" constant="no"/>
+<attribute name="FRES" value="7.2MHz" constant="no"/>
+<attribute name="IR" value="2.3A" constant="no"/>
+<attribute name="ISAT" value="3.6A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458168 " constant="no"/>
+<attribute name="RDC-MAX" value="0.13Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.11Ohm" constant="no"/>
+<attribute name="VALUE" value="68uH" constant="no"/>
+</technology>
+<technology name="_7445820">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445820.pdf" constant="no"/>
+<attribute name="FRES" value="6MHz" constant="no"/>
+<attribute name="IR" value="1.8A" constant="no"/>
+<attribute name="ISAT" value="3.4A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445820 " constant="no"/>
+<attribute name="RDC-MAX" value="0.19Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.141Ohm" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+<technology name="_74458215">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458215.pdf" constant="no"/>
+<attribute name="FRES" value="4.6MHz" constant="no"/>
+<attribute name="IR" value="1.5A" constant="no"/>
+<attribute name="ISAT" value="2.7A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458215 " constant="no"/>
+<attribute name="RDC-MAX" value="0.25Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.21Ohm" constant="no"/>
+<attribute name="VALUE" value="150uH" constant="no"/>
+</technology>
+<technology name="_74458220">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458220.pdf" constant="no"/>
+<attribute name="FRES" value="3.5MHz" constant="no"/>
+<attribute name="IR" value="1.2A" constant="no"/>
+<attribute name="ISAT" value="2.4A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458220 " constant="no"/>
+<attribute name="RDC-MAX" value="0.38Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.326Ohm" constant="no"/>
+<attribute name="VALUE" value="220uH" constant="no"/>
+</technology>
+<technology name="_74458233">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458233.pdf" constant="no"/>
+<attribute name="FRES" value="2.8MHz" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="ISAT" value="1.9A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458233 " constant="no"/>
+<attribute name="RDC-MAX" value="0.56Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.431Ohm" constant="no"/>
+<attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+<technology name="_74458247">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458247.pdf" constant="no"/>
+<attribute name="FRES" value="2.3MHz" constant="no"/>
+<attribute name="IR" value="0.82A" constant="no"/>
+<attribute name="ISAT" value="1.6A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458247 " constant="no"/>
+<attribute name="RDC-MAX" value="0.85Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.633Ohm" constant="no"/>
+<attribute name="VALUE" value="470uH" constant="no"/>
+</technology>
+<technology name="_74458268">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74458268.pdf" constant="no"/>
+<attribute name="FRES" value="1.8MHz" constant="no"/>
+<attribute name="IR" value="0.72A" constant="no"/>
+<attribute name="ISAT" value="1.3A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74458268 " constant="no"/>
+<attribute name="RDC-MAX" value="1.1Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.954Ohm" constant="no"/>
+<attribute name="VALUE" value="680uH" constant="no"/>
+</technology>
+<technology name="_7445830">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445830.pdf" constant="no"/>
+<attribute name="FRES" value="1.5MHz" constant="no"/>
+<attribute name="IR" value="0.56A" constant="no"/>
+<attribute name="ISAT" value="1.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445830 " constant="no"/>
+<attribute name="RDC-MAX" value="1.8Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1.37Ohm" constant="no"/>
+<attribute name="VALUE" value="1000uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PD4_XL" prefix="L">
+<description>&lt;b&gt;WE-PD4 SMD Power Inductor
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Current loading up to 38 A
+&lt;br&gt;Compact size
+&lt;br&gt;&lt;br&gt;Low-loss ferrite core
+&lt;br&gt;Application frequency range up to 10 MHz
+&lt;br&gt;Operating temperature: –40°C to +125°C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;Now with impedance graph in datasheets
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Noise suppression, EMI Filter
+&lt;br&gt;Perfectly suitable for switching regulators e.g. National Semiconductor, Linear Technology, 
+ &lt;br&gt;Maxim, Semtech, Texas Instruments, Fairchild Semiconductor, Cologne Chip, ON Semiconductor, STMicroelectronics, MPS, Exar, &lt;br&gt;Analogic Tech and Diodes
+
+&lt;br&gt;
+&lt;br&gt; Perfectly suitable for switching regulators e.g. National Semiconductor, Linear Technology, Maxim, Semtech, Texas Instruments, Fairchild Semiconductor, Cologne Chip, ON Semiconductor, STMicroelectronics, MPS, Exar, Analogic Tech and Diodes
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14832v209%20Family_WE-PD4.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14832v209%20Family_WE-PD4.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-PD4"&gt;https://katalog.we-online.com/en/pbs/WE-PD4&lt;/a&gt;&lt;p&gt;
+
+
+Updated  by Yingchun,Shan 2019-08-05&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD4_XL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13006468/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74457006">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457006.pdf" constant="no"/>
+<attribute name="FRES" value="120MHz" constant="no"/>
+<attribute name="IR" value="18A" constant="no"/>
+<attribute name="ISAT" value="38A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457006 " constant="no"/>
+<attribute name="RDC-MAX" value="0.002Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.001Ohm" constant="no"/>
+<attribute name="VALUE" value="0.47uH" constant="no"/>
+</technology>
+<technology name="_74457008">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457008.pdf" constant="no"/>
+<attribute name="FRES" value="92MHz" constant="no"/>
+<attribute name="IR" value="16A" constant="no"/>
+<attribute name="ISAT" value="35A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457008 " constant="no"/>
+<attribute name="RDC-MAX" value="0.003Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.002Ohm" constant="no"/>
+<attribute name="VALUE" value="0.8uH" constant="no"/>
+</technology>
+<technology name="_74457010">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457010.pdf" constant="no"/>
+<attribute name="FRES" value="88MHz" constant="no"/>
+<attribute name="IR" value="15A" constant="no"/>
+<attribute name="ISAT" value="32A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457010 " constant="no"/>
+<attribute name="RDC-MAX" value="0.004Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.003Ohm" constant="no"/>
+<attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+<technology name="_74457012">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457012.pdf" constant="no"/>
+<attribute name="FRES" value="64MHz" constant="no"/>
+<attribute name="IR" value="15A" constant="no"/>
+<attribute name="ISAT" value="30A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457012 " constant="no"/>
+<attribute name="RDC-MAX" value="0.004Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.003Ohm" constant="no"/>
+<attribute name="VALUE" value="1.2uH" constant="no"/>
+</technology>
+<technology name="_74457018">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457018.pdf" constant="no"/>
+<attribute name="FRES" value="50MHz" constant="no"/>
+<attribute name="IR" value="13A" constant="no"/>
+<attribute name="ISAT" value="25A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457018 " constant="no"/>
+<attribute name="RDC-MAX" value="0.005Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.005Ohm" constant="no"/>
+<attribute name="VALUE" value="1.8uH" constant="no"/>
+</technology>
+<technology name="_74457027">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457027.pdf" constant="no"/>
+<attribute name="FRES" value="44MHz" constant="no"/>
+<attribute name="IR" value="10A" constant="no"/>
+<attribute name="ISAT" value="20A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457027 " constant="no"/>
+<attribute name="RDC-MAX" value="0.008Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.007Ohm" constant="no"/>
+<attribute name="VALUE" value="2.7uH" constant="no"/>
+</technology>
+<technology name="_74457033">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457033.pdf" constant="no"/>
+<attribute name="FRES" value="39MHz" constant="no"/>
+<attribute name="IR" value="9A" constant="no"/>
+<attribute name="ISAT" value="17A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457033 " constant="no"/>
+<attribute name="RDC-MAX" value="0.009Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.008Ohm" constant="no"/>
+<attribute name="VALUE" value="3.3uH" constant="no"/>
+</technology>
+<technology name="_74457047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457047.pdf" constant="no"/>
+<attribute name="FRES" value="33MHz" constant="no"/>
+<attribute name="IR" value="8.5A" constant="no"/>
+<attribute name="ISAT" value="15A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457047 " constant="no"/>
+<attribute name="RDC-MAX" value="0.011Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.009Ohm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+<technology name="_74457056">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457056.pdf" constant="no"/>
+<attribute name="FRES" value="27MHz" constant="no"/>
+<attribute name="IR" value="7.8A" constant="no"/>
+<attribute name="ISAT" value="14A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457056 " constant="no"/>
+<attribute name="RDC-MAX" value="0.015Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.012Ohm" constant="no"/>
+<attribute name="VALUE" value="5.6uH" constant="no"/>
+</technology>
+<technology name="_74457068">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457068.pdf" constant="no"/>
+<attribute name="FRES" value="26MHz" constant="no"/>
+<attribute name="IR" value="7.5A" constant="no"/>
+<attribute name="ISAT" value="12A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457068 " constant="no"/>
+<attribute name="RDC-MAX" value="0.017Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.014Ohm" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+<technology name="_74457082">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457082.pdf" constant="no"/>
+<attribute name="FRES" value="23MHz" constant="no"/>
+<attribute name="IR" value="7A" constant="no"/>
+<attribute name="ISAT" value="11A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457082 " constant="no"/>
+<attribute name="RDC-MAX" value="0.019Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.016Ohm" constant="no"/>
+<attribute name="VALUE" value="8.2uH" constant="no"/>
+</technology>
+<technology name="_7445710">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445710.pdf" constant="no"/>
+<attribute name="FRES" value="22MHz" constant="no"/>
+<attribute name="IR" value="6.5A" constant="no"/>
+<attribute name="ISAT" value="10A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445710 " constant="no"/>
+<attribute name="RDC-MAX" value="0.021Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.017Ohm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_74457112">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457112.pdf" constant="no"/>
+<attribute name="FRES" value="18MHz" constant="no"/>
+<attribute name="IR" value="5.5A" constant="no"/>
+<attribute name="ISAT" value="9.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457112 " constant="no"/>
+<attribute name="RDC-MAX" value="0.028Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.024Ohm" constant="no"/>
+<attribute name="VALUE" value="12uH" constant="no"/>
+</technology>
+<technology name="_74457115">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457115.pdf" constant="no"/>
+<attribute name="FRES" value="15MHzv" constant="no"/>
+<attribute name="IR" value="5A" constant="no"/>
+<attribute name="ISAT" value="9A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457115 " constant="no"/>
+<attribute name="RDC-MAX" value="0.035Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.029Ohm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+<technology name="_74457118">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457118.pdf" constant="no"/>
+<attribute name="FRES" value="14.5MHz" constant="no"/>
+<attribute name="IR" value="4.6A" constant="no"/>
+<attribute name="ISAT" value="8A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457118 " constant="no"/>
+<attribute name="RDC-MAX" value="0.04Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.033Ohm" constant="no"/>
+<attribute name="VALUE" value="18uH" constant="no"/>
+</technology>
+<technology name="_74457122">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457122.pdf" constant="no"/>
+<attribute name="FRES" value="14MHz" constant="no"/>
+<attribute name="IR" value="4A" constant="no"/>
+<attribute name="ISAT" value="6.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457122 " constant="no"/>
+<attribute name="RDC-MAX" value="0.047Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.039Ohm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+<technology name="_74457127">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457127.pdf" constant="no"/>
+<attribute name="FRES" value="12.5MHz" constant="no"/>
+<attribute name="IR" value="3.8A" constant="no"/>
+<attribute name="ISAT" value="6A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457127 " constant="no"/>
+<attribute name="RDC-MAX" value="0.052Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.044Ohm" constant="no"/>
+<attribute name="VALUE" value="27uH" constant="no"/>
+</technology>
+<technology name="_74457133">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457133.pdf" constant="no"/>
+<attribute name="FRES" value="11.5MHz" constant="no"/>
+<attribute name="IR" value="3.4A" constant="no"/>
+<attribute name="ISAT" value="5.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457133 " constant="no"/>
+<attribute name="RDC-MAX" value="0.07Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.058Ohm" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
+</technology>
+<technology name="_74457139">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457139.pdf" constant="no"/>
+<attribute name="FRES" value="10.5MHz" constant="no"/>
+<attribute name="IR" value="3.2A" constant="no"/>
+<attribute name="ISAT" value="5.2A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457139 " constant="no"/>
+<attribute name="RDC-MAX" value="0.078Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.065Ohm" constant="no"/>
+<attribute name="VALUE" value="39uH" constant="no"/>
+</technology>
+<technology name="_74457147">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457147.pdf" constant="no"/>
+<attribute name="FRES" value="9.2MHz" constant="no"/>
+<attribute name="IR" value="2.8A" constant="no"/>
+<attribute name="ISAT" value="5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457147 " constant="no"/>
+<attribute name="RDC-MAX" value="0.109Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.091Ohm" constant="no"/>
+<attribute name="VALUE" value="47uH" constant="no"/>
+</technology>
+<technology name="_74457156">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457156.pdf" constant="no"/>
+<attribute name="FRES" value="8.8MHz" constant="no"/>
+<attribute name="IR" value="2.6A" constant="no"/>
+<attribute name="ISAT" value="4.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457156 " constant="no"/>
+<attribute name="RDC-MAX" value="0.116Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.097Ohm" constant="no"/>
+<attribute name="VALUE" value="56uH" constant="no"/>
+</technology>
+<technology name="_74457168">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457168.pdf" constant="no"/>
+<attribute name="FRES" value="7.6MHz" constant="no"/>
+<attribute name="IR" value="2.4A" constant="no"/>
+<attribute name="ISAT" value="4A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457168 " constant="no"/>
+<attribute name="RDC-MAX" value="0.134Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.112Ohm" constant="no"/>
+<attribute name="VALUE" value="68uH" constant="no"/>
+</technology>
+<technology name="_74457182">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457182.pdf" constant="no"/>
+<attribute name="FRES" value="7.2MHz" constant="no"/>
+<attribute name="IR" value="2.2A" constant="no"/>
+<attribute name="ISAT" value="3.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457182 " constant="no"/>
+<attribute name="RDC-MAX" value="0.173Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.144Ohm" constant="no"/>
+<attribute name="VALUE" value="82uH" constant="no"/>
+</technology>
+<technology name="_7445720">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7445720.pdf" constant="no"/>
+<attribute name="FRES" value="6.5MHz" constant="no"/>
+<attribute name="IR" value="2A" constant="no"/>
+<attribute name="ISAT" value="3A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 7445720 " constant="no"/>
+<attribute name="RDC-MAX" value="0.202Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.168Ohm" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+<technology name="_74457212">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457212.pdf" constant="no"/>
+<attribute name="FRES" value="4.3MHz" constant="no"/>
+<attribute name="IR" value="1.6A" constant="no"/>
+<attribute name="ISAT" value="3A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457212 " constant="no"/>
+<attribute name="RDC-MAX" value="0.235Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.196Ohm" constant="no"/>
+<attribute name="VALUE" value="120uH" constant="no"/>
+</technology>
+<technology name="_74457215">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457215.pdf" constant="no"/>
+<attribute name="FRES" value="4.1MHz" constant="no"/>
+<attribute name="IR" value="1.5A" constant="no"/>
+<attribute name="ISAT" value="2.6A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457215 " constant="no"/>
+<attribute name="RDC-MAX" value="0.268Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.223Ohm" constant="no"/>
+<attribute name="VALUE" value="150uH" constant="no"/>
+</technology>
+<technology name="_74457218">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457218.pdf" constant="no"/>
+<attribute name="FRES" value="3.5MHz" constant="no"/>
+<attribute name="IR" value="1.3A" constant="no"/>
+<attribute name="ISAT" value="2.5A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457218 " constant="no"/>
+<attribute name="RDC-MAX" value="0.307Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.256Ohm" constant="no"/>
+<attribute name="VALUE" value="180uH" constant="no"/>
+</technology>
+<technology name="_74457222">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457222.pdf" constant="no"/>
+<attribute name="FRES" value="3.4MHz" constant="no"/>
+<attribute name="IR" value="1.2A" constant="no"/>
+<attribute name="ISAT" value="2.4A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457222 " constant="no"/>
+<attribute name="RDC-MAX" value="0.388Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.323Ohm" constant="no"/>
+<attribute name="VALUE" value="220uH" constant="no"/>
+</technology>
+<technology name="_74457227">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457227.pdf" constant="no"/>
+<attribute name="FRES" value="2.8MHz" constant="no"/>
+<attribute name="IR" value="1.1A" constant="no"/>
+<attribute name="ISAT" value="2.2A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457227 " constant="no"/>
+<attribute name="RDC-MAX" value="0.479Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.399Ohm" constant="no"/>
+<attribute name="VALUE" value="270uH" constant="no"/>
+</technology>
+<technology name="_74457230">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457230.pdf" constant="no"/>
+<attribute name="FRES" value="1.4MHz" constant="no"/>
+<attribute name="IR" value="0.56A" constant="no"/>
+<attribute name="ISAT" value="1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457230 " constant="no"/>
+<attribute name="RDC-MAX" value="1.8Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1.506Ohm" constant="no"/>
+<attribute name="VALUE" value="1000uH" constant="no"/>
+</technology>
+<technology name="_74457233">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457233.pdf" constant="no"/>
+<attribute name="FRES" value="2.6MHz" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="ISAT" value="1.9A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457233 " constant="no"/>
+<attribute name="RDC-MAX" value="0.564Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.47Ohm" constant="no"/>
+<attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+<technology name="_74457239">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457239.pdf" constant="no"/>
+<attribute name="FRES" value="2.4MHz" constant="no"/>
+<attribute name="IR" value="0.9A" constant="no"/>
+<attribute name="ISAT" value="1.7A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457239 " constant="no"/>
+<attribute name="RDC-MAX" value="0.67Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.558Ohm" constant="no"/>
+<attribute name="VALUE" value="390uH" constant="no"/>
+</technology>
+<technology name="_74457247">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457247.pdf" constant="no"/>
+<attribute name="FRES" value="2.1MHz" constant="no"/>
+<attribute name="IR" value="0.82A" constant="no"/>
+<attribute name="ISAT" value="1.4A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457247 " constant="no"/>
+<attribute name="RDC-MAX" value="0.809Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.674Ohm" constant="no"/>
+<attribute name="VALUE" value="470uH" constant="no"/>
+</technology>
+<technology name="_74457256">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457256.pdf" constant="no"/>
+<attribute name="FRES" value="1.9MHz" constant="no"/>
+<attribute name="IR" value="0.78A" constant="no"/>
+<attribute name="ISAT" value="1.3A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457256 " constant="no"/>
+<attribute name="RDC-MAX" value="1.026Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="0.855Ohm" constant="no"/>
+<attribute name="VALUE" value="560uH" constant="no"/>
+</technology>
+<technology name="_74457268">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457268.pdf" constant="no"/>
+<attribute name="FRES" value="1.8MHz" constant="no"/>
+<attribute name="IR" value="0.72A" constant="no"/>
+<attribute name="ISAT" value="1.2A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457268 " constant="no"/>
+<attribute name="RDC-MAX" value="1.2Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1.002Ohm" constant="no"/>
+<attribute name="VALUE" value="680uHV" constant="no"/>
+</technology>
+<technology name="_74457282">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74457282.pdf" constant="no"/>
+<attribute name="FRES" value="1.7MHz" constant="no"/>
+<attribute name="IR" value="0.64A" constant="no"/>
+<attribute name="ISAT" value="1.1A" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74457282 " constant="no"/>
+<attribute name="RDC-MAX" value="1.4Ohm" constant="no"/>
+<attribute name="RDC-TYP" value="1.172Ohm" constant="no"/>
+<attribute name="VALUE" value="820uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

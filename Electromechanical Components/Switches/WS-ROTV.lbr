@@ -1,0 +1,2755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - Switches - Rotary Switches - WS-ROTV&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-03-29&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="42854732091X_16POS" urn="urn:adsk.eagle:footprint:18253832/1">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt;&lt;BR&gt; THT Rotary Switch with Arrow Type Actuator 7x7 mm</description>
+<pad name="C1" x="-3.81" y="0" drill="0.8"/>
+<pad name="C2" x="3.81" y="0" drill="0.8"/>
+<pad name="1" x="-3.81" y="2.54" drill="0.8"/>
+<pad name="8" x="3.81" y="2.54" drill="0.8"/>
+<pad name="4" x="-3.81" y="-2.54" drill="0.8"/>
+<pad name="2" x="3.81" y="-2.54" drill="0.8"/>
+<text x="-0.108" y="4.6317" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.808" y="-5.7098" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.7" y1="-3.7" x2="3.7" y2="-3.7" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-3.7" x2="3.7" y2="3.7" width="0.1" layer="51"/>
+<wire x1="3.7" y1="3.7" x2="-3.7" y2="3.7" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="3.7" x2="-3.7" y2="-3.7" width="0.1" layer="51"/>
+<wire x1="-3.8" y1="3.5" x2="-3.8" y2="3.8" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="3.8" x2="3.8" y2="3.8" width="0.2" layer="21"/>
+<wire x1="3.8" y1="3.8" x2="3.8" y2="3.5" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="1.5" x2="-3.8" y2="1" width="0.2" layer="21"/>
+<wire x1="3.8" y1="1" x2="3.8" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="-1" x2="-3.8" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="3.8" y1="-1.55" x2="3.8" y2="-1" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="-3.6" x2="-3.8" y2="-3.8" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="-3.8" x2="3.8" y2="-3.8" width="0.2" layer="21"/>
+<wire x1="3.8" y1="-3.8" x2="3.8" y2="-3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.7" y="4"/>
+<vertex x="4.7" y="4"/>
+<vertex x="4.7" y="-4"/>
+<vertex x="-4.7" y="-4"/>
+</polygon>
+<circle x="-2.9" y="3.1" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="42852742091X_10POS" urn="urn:adsk.eagle:footprint:18253828/1">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C1" x="-3.81" y="0" drill="1" rot="R270"/>
+<pad name="4" x="-3.81" y="-2.54" drill="1" rot="R270"/>
+<pad name="8" x="3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C2" x="3.81" y="0" drill="1" rot="R270"/>
+<pad name="2" x="3.81" y="-2.54" drill="1" rot="R270"/>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="4" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="4" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="4.1" x2="-4.1" y2="5.1" width="0.2" layer="21"/>
+<text x="0.143" y="6.1559" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.392" y="-6.9634" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+<vertex x="-5.3" y="5.3"/>
+</polygon>
+<circle x="-2.3" y="3" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="428517510911" urn="urn:adsk.eagle:footprint:41378038/2">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="-3.81" drill="1"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1"/>
+<pad name="4" x="-3.81" y="1.27" drill="1"/>
+<pad name="8" x="-3.81" y="3.81" drill="1"/>
+<pad name="C" x="3.81" y="-1.27" drill="1"/>
+<wire x1="-4" y1="5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<wire x1="-4" y1="5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="5.3"/>
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="428517510917" urn="urn:adsk.eagle:footprint:41378036/2">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="-3.81" drill="1"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1"/>
+<pad name="4" x="-3.81" y="1.27" drill="1"/>
+<pad name="8" x="-3.81" y="3.81" drill="1"/>
+<pad name="C" x="3.81" y="-1.27" drill="1"/>
+<wire x1="-4" y1="5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<wire x1="-4" y1="5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="5.3"/>
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="42854732091X_10POS" urn="urn:adsk.eagle:footprint:18253833/1">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt;&lt;BR&gt; THT Rotary Switch with Arrow Type Actuator 7x7 mm</description>
+<pad name="C1" x="-3.81" y="0" drill="0.8"/>
+<pad name="C2" x="3.81" y="0" drill="0.8"/>
+<pad name="1" x="-3.81" y="2.54" drill="0.8"/>
+<pad name="8" x="3.81" y="2.54" drill="0.8"/>
+<pad name="4" x="-3.81" y="-2.54" drill="0.8"/>
+<pad name="2" x="3.81" y="-2.54" drill="0.8"/>
+<text x="-0.108" y="4.6317" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.808" y="-5.7098" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.7" y1="-3.7" x2="3.7" y2="-3.7" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-3.7" x2="3.7" y2="3.7" width="0.1" layer="51"/>
+<wire x1="3.7" y1="3.7" x2="-3.7" y2="3.7" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="3.7" x2="-3.7" y2="-3.7" width="0.1" layer="51"/>
+<wire x1="-3.8" y1="3.5" x2="-3.8" y2="3.8" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="3.8" x2="3.8" y2="3.8" width="0.2" layer="21"/>
+<wire x1="3.8" y1="3.8" x2="3.8" y2="3.5" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="1.5" x2="-3.8" y2="1" width="0.2" layer="21"/>
+<wire x1="3.8" y1="1" x2="3.8" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="-1" x2="-3.8" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="3.8" y1="-1.55" x2="3.8" y2="-1" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="-3.6" x2="-3.8" y2="-3.8" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="-3.8" x2="3.8" y2="-3.8" width="0.2" layer="21"/>
+<wire x1="3.8" y1="-3.8" x2="3.8" y2="-3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.7" y="4"/>
+<vertex x="4.7" y="4"/>
+<vertex x="4.7" y="-4"/>
+<vertex x="-4.7" y="-4"/>
+</polygon>
+<circle x="-2.9" y="3.1" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="428517510910" urn="urn:adsk.eagle:footprint:41378039/2">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="-3.81" drill="1"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1"/>
+<pad name="4" x="-3.81" y="1.27" drill="1"/>
+<pad name="8" x="-3.81" y="3.81" drill="1"/>
+<pad name="C" x="3.81" y="-1.27" drill="1"/>
+<wire x1="-4" y1="5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<wire x1="-4" y1="5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="5.3"/>
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="42852732090X_08POS" urn="urn:adsk.eagle:footprint:18253831/1">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="4" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="4" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="4.1" x2="-4.1" y2="5.1" width="0.2" layer="21"/>
+<pad name="1" x="-3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C1" x="-3.81" y="0" drill="1" rot="R270"/>
+<pad name="4" x="-3.81" y="-2.54" drill="1" rot="R270"/>
+<pad name="8" x="3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C2" x="3.81" y="0" drill="1" rot="R270"/>
+<pad name="2" x="3.81" y="-2.54" drill="1" rot="R270"/>
+<text x="0.143" y="6.0559" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.392" y="-7.0634" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+<vertex x="-5.3" y="5.3"/>
+</polygon>
+<circle x="-2.3" y="2.9" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="428517510916" urn="urn:adsk.eagle:footprint:41378037/2">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="-3.81" drill="1"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1"/>
+<pad name="4" x="-3.81" y="1.27" drill="1"/>
+<pad name="8" x="-3.81" y="3.81" drill="1"/>
+<pad name="C" x="3.81" y="-1.27" drill="1"/>
+<wire x1="-4" y1="5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<wire x1="-4" y1="5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="5.3"/>
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="428517310917" urn="urn:adsk.eagle:footprint:41378386/2">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="-3.81" drill="1"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1"/>
+<pad name="4" x="-3.81" y="1.27" drill="1"/>
+<pad name="8" x="-3.81" y="3.81" drill="1"/>
+<pad name="C" x="3.81" y="-1.27" drill="1"/>
+<wire x1="-4" y1="5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<wire x1="-4" y1="5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="5.3"/>
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="42852752091X_10POS" urn="urn:adsk.eagle:footprint:18253825/1">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt; &lt;BR&gt;THT Rotary Switch with Cross Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C1" x="-3.81" y="0" drill="1" rot="R270"/>
+<pad name="4" x="-3.81" y="-2.54" drill="1" rot="R270"/>
+<pad name="8" x="3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C2" x="3.81" y="0" drill="1" rot="R270"/>
+<pad name="2" x="3.81" y="-2.54" drill="1" rot="R270"/>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="4" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="4" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="4.1" x2="-4.1" y2="5.1" width="0.2" layer="21"/>
+<text x="0.143" y="6.0559" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.392" y="-7.0634" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+<vertex x="-5.3" y="5.3"/>
+</polygon>
+<circle x="-2.3" y="2.9" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="42852732091X_16POS" urn="urn:adsk.eagle:footprint:18253829/1">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C1" x="-3.81" y="0" drill="1" rot="R270"/>
+<pad name="4" x="-3.81" y="-2.54" drill="1" rot="R270"/>
+<pad name="8" x="3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C2" x="3.81" y="0" drill="1" rot="R270"/>
+<pad name="2" x="3.81" y="-2.54" drill="1" rot="R270"/>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="4" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="4" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="4.1" x2="-4.1" y2="5.1" width="0.2" layer="21"/>
+<text x="0.143" y="6.0559" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.392" y="-7.0634" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+<vertex x="-5.3" y="5.3"/>
+</polygon>
+<circle x="-2.3" y="2.9" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="42852732091X_10POS" urn="urn:adsk.eagle:footprint:18253830/1">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C1" x="-3.81" y="0" drill="1" rot="R270"/>
+<pad name="4" x="-3.81" y="-2.54" drill="1" rot="R270"/>
+<pad name="8" x="3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C2" x="3.81" y="0" drill="1" rot="R270"/>
+<pad name="2" x="3.81" y="-2.54" drill="1" rot="R270"/>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="4" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="4" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="4.1" x2="-4.1" y2="5.1" width="0.2" layer="21"/>
+<text x="0.143" y="6.0559" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.392" y="-7.0634" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+<vertex x="-5.3" y="5.3"/>
+</polygon>
+<circle x="-2.3" y="2.9" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="428517310916" urn="urn:adsk.eagle:footprint:41378387/2">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="-3.81" drill="1"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1"/>
+<pad name="4" x="-3.81" y="1.27" drill="1"/>
+<pad name="8" x="-3.81" y="3.81" drill="1"/>
+<pad name="C" x="3.81" y="-1.27" drill="1"/>
+<wire x1="-4" y1="5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<wire x1="-4" y1="5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="5.3"/>
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="42852752091X_16POS" urn="urn:adsk.eagle:footprint:18253824/1">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt; &lt;BR&gt;THT Rotary Switch with Cross Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C1" x="-3.81" y="0" drill="1" rot="R270"/>
+<pad name="4" x="-3.81" y="-2.54" drill="1" rot="R270"/>
+<pad name="8" x="3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C2" x="3.81" y="0" drill="1" rot="R270"/>
+<pad name="2" x="3.81" y="-2.54" drill="1" rot="R270"/>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="4" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="4" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="4.1" x2="-4.1" y2="5.1" width="0.2" layer="21"/>
+<text x="0.143" y="6.0559" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.392" y="-7.0634" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+<vertex x="-5.3" y="5.3"/>
+</polygon>
+<circle x="-2.3" y="2.9" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="428517310910" urn="urn:adsk.eagle:footprint:41378389/2">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="-3.81" drill="1"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1"/>
+<pad name="4" x="-3.81" y="1.27" drill="1"/>
+<pad name="8" x="-3.81" y="3.81" drill="1"/>
+<pad name="C" x="3.81" y="-1.27" drill="1"/>
+<wire x1="-4" y1="5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<wire x1="-4" y1="5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="5.3"/>
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="428517310911" urn="urn:adsk.eagle:footprint:41378388/2">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="-3.81" drill="1"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1"/>
+<pad name="4" x="-3.81" y="1.27" drill="1"/>
+<pad name="8" x="-3.81" y="3.81" drill="1"/>
+<pad name="C" x="3.81" y="-1.27" drill="1"/>
+<wire x1="-4" y1="5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<wire x1="-4" y1="5" x2="-5" y2="4" width="0.1" layer="51"/>
+<wire x1="-4.05" y1="5.1" x2="-5.1" y2="4.05" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="5.3"/>
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="42852752090X_08POS" urn="urn:adsk.eagle:footprint:18253826/1">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt; &lt;BR&gt;THT Rotary Switch with Cross Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C1" x="-3.81" y="0" drill="1" rot="R270"/>
+<pad name="4" x="-3.81" y="-2.54" drill="1" rot="R270"/>
+<pad name="8" x="3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C2" x="3.81" y="0" drill="1" rot="R270"/>
+<pad name="2" x="3.81" y="-2.54" drill="1" rot="R270"/>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="4" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="4" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="4.1" x2="-4.1" y2="5.1" width="0.2" layer="21"/>
+<text x="0.143" y="6.0559" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.392" y="-7.0634" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+<vertex x="-5.3" y="5.3"/>
+</polygon>
+<circle x="-2.3" y="2.9" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="42852742091X_16POS" urn="urn:adsk.eagle:footprint:18253827/1">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<pad name="1" x="-3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C1" x="-3.81" y="0" drill="1" rot="R270"/>
+<pad name="4" x="-3.81" y="-2.54" drill="1" rot="R270"/>
+<pad name="8" x="3.81" y="2.54" drill="1" rot="R270"/>
+<pad name="C2" x="3.81" y="0" drill="1" rot="R270"/>
+<pad name="2" x="3.81" y="-2.54" drill="1" rot="R270"/>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5" y1="4" x2="-5" y2="-5" width="0.1" layer="51"/>
+<wire x1="5" y1="-5" x2="5" y2="5" width="0.1" layer="51"/>
+<wire x1="5" y1="5" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="5.1" x2="5.1" y2="5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="5.1" x2="5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="5.1" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-5" y1="4" x2="-4" y2="5" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="4.1" x2="-4.1" y2="5.1" width="0.2" layer="21"/>
+<text x="0.143" y="6.1559" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.392" y="-6.9634" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="5.3" y="5.3"/>
+<vertex x="5.3" y="-5.3"/>
+<vertex x="-5.3" y="-5.3"/>
+<vertex x="-5.3" y="5.3"/>
+</polygon>
+<circle x="-2.3" y="3" radius="0.1" width="0.2" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="42854732091X_16POS" urn="urn:adsk.eagle:package:18253843/2" type="model">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt;&lt;BR&gt; THT Rotary Switch with Arrow Type Actuator 7x7 mm</description>
+<packageinstances>
+<packageinstance name="42854732091X_16POS"/>
+</packageinstances>
+</package3d>
+<package3d name="42852742091X_10POS" urn="urn:adsk.eagle:package:18253839/2" type="model">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="42852742091X_10POS"/>
+</packageinstances>
+</package3d>
+<package3d name="428517510911" urn="urn:adsk.eagle:package:41378043/3" type="model">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="428517510911"/>
+</packageinstances>
+</package3d>
+<package3d name="428517510910" urn="urn:adsk.eagle:package:41378044/3" type="model">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="428517510910"/>
+</packageinstances>
+</package3d>
+<package3d name="42854732091X_10POS" urn="urn:adsk.eagle:package:18253844/2" type="model">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt;&lt;BR&gt; THT Rotary Switch with Arrow Type Actuator 7x7 mm</description>
+<packageinstances>
+<packageinstance name="42854732091X_10POS"/>
+</packageinstances>
+</package3d>
+<package3d name="428517510917" urn="urn:adsk.eagle:package:41378041/3" type="model">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="428517510917"/>
+</packageinstances>
+</package3d>
+<package3d name="42852732090X_08POS" urn="urn:adsk.eagle:package:18253842/2" type="model">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="42852732090X_08POS"/>
+</packageinstances>
+</package3d>
+<package3d name="42852752091X_10POS" urn="urn:adsk.eagle:package:18253836/2" type="model">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt; &lt;BR&gt;THT Rotary Switch with Cross Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="42852752091X_10POS"/>
+</packageinstances>
+</package3d>
+<package3d name="42852732091X_10POS" urn="urn:adsk.eagle:package:18253841/2" type="model">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="42852732091X_10POS"/>
+</packageinstances>
+</package3d>
+<package3d name="428517310917" urn="urn:adsk.eagle:package:41378391/3" type="model">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="428517310917"/>
+</packageinstances>
+</package3d>
+<package3d name="428517510916" urn="urn:adsk.eagle:package:41378042/3" type="model">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="428517510916"/>
+</packageinstances>
+</package3d>
+<package3d name="42852752090X_08POS" urn="urn:adsk.eagle:package:18253837/2" type="model">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt; &lt;BR&gt;THT Rotary Switch with Cross Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="42852752090X_08POS"/>
+</packageinstances>
+</package3d>
+<package3d name="42852732091X_16POS" urn="urn:adsk.eagle:package:18253840/2" type="model">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="42852732091X_16POS"/>
+</packageinstances>
+</package3d>
+<package3d name="42852752091X_16POS" urn="urn:adsk.eagle:package:18253835/2" type="model">
+<description>&lt;B&gt;WS-ROTV&lt;/B&gt; &lt;BR&gt;THT Rotary Switch with Cross Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="42852752091X_16POS"/>
+</packageinstances>
+</package3d>
+<package3d name="428517310916" urn="urn:adsk.eagle:package:41378392/3" type="model">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="428517310916"/>
+</packageinstances>
+</package3d>
+<package3d name="42852742091X_16POS" urn="urn:adsk.eagle:package:18253838/2" type="model">
+<description>&lt;B&gt;WS-ROTV &lt;/B&gt;&lt;BR&gt;THT Rotary Switch with Arrow Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="42852742091X_16POS"/>
+</packageinstances>
+</package3d>
+<package3d name="428517310910" urn="urn:adsk.eagle:package:41378394/3" type="model">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="428517310910"/>
+</packageinstances>
+</package3d>
+<package3d name="428517310911" urn="urn:adsk.eagle:package:41378393/4" type="model">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm</description>
+<packageinstances>
+<packageinstance name="428517310911"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WS-ROTX">
+<description>WS-ROTX</description>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-0.73" y="6.466" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.88" y="-7.728" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="2.54" length="short" direction="pas"/>
+<pin name="C1" x="-7.62" y="0" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="C2" x="7.62" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-7.62" y="-2.54" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="-2.54" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WS-ROTX_1COM">
+<description>WS-ROTX</description>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.414" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="-5.08" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="2.54" length="short" direction="pas"/>
+<pin name="C" x="7.62" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-7.62" y="0" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="-2.54" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="428547320916" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 7x7 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : Stainless Steel
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :100 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material：LCP
+&lt;BR&gt;Actuator Flammability Rating：UL94 V-0
+&lt;BR&gt;Actuator Color：Grey; Ivory; Orange; Red
+&lt;BR&gt;Base Material：LCP
+&lt;BR&gt;Base Flammability Rating：UL94 V-0
+&lt;BR&gt;Terminal Plating：Gold
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;VR：42 V (DC)
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：25000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-60 up to +125 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55750v209%20Family_WS-ROtV_THT_Rotary_Switch_428547320910.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55750v209%20Family_WS-ROtV_THT_Rotary_Switch_428547320910.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_7X7_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_7X7_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42854732091X_16POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253843/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428547320916?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value="428547320916"/>
+<attribute name="QTY" value="70"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428547320917" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 7x7 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : Stainless Steel
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :100 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material：LCP
+&lt;BR&gt;Actuator Flammability Rating：UL94 V-0
+&lt;BR&gt;Actuator Color：Grey; Ivory; Orange; Red
+&lt;BR&gt;Base Material：LCP
+&lt;BR&gt;Base Flammability Rating：UL94 V-0
+&lt;BR&gt;Terminal Plating：Gold
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;VR：42 V (DC)
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：25000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-60 up to +125 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55750v209%20Family_WS-ROtV_THT_Rotary_Switch_428547320910.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55750v209%20Family_WS-ROtV_THT_Rotary_Switch_428547320910.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_7X7_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_7X7_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42854732091X_16POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253843/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428547320917?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value="428547320917"/>
+<attribute name="QTY" value="70"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527420911" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Shaft Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Shaft Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Shaft Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Shaft Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o61108v209%20Family_WS-ROTV_10x10mm_washable_THT_Rotary_Switch_4285274209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o61108v209%20Family_WS-ROTV_10x10mm_washable_THT_Rotary_Switch_4285274209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_SHAFT_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_SHAFT_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852742091X_10POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253839/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527420911?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value="428527420911"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527420910" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Shaft Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Shaft Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Shaft Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Shaft Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o61108v209%20Family_WS-ROTV_10x10mm_washable_THT_Rotary_Switch_4285274209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o61108v209%20Family_WS-ROTV_10x10mm_washable_THT_Rotary_Switch_4285274209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_SHAFT_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_SHAFT_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852742091X_10POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253839/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527420910?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value="428527420910"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428517510911" prefix="S">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Cover Material	PA66
+&lt;br&gt;Cover Flammability Rating	UL94 V-0
+&lt;br&gt;Base Material	PA66
+&lt;br&gt;Base Flammability Rating	UL94 V-0
+&lt;br&gt;Actuator Material	POM
+&lt;br&gt;Actuator Flammability Rating	UL94 HB
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Gold
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	-40 °C up to +85 °C
+&lt;br&gt;Washable	Yes
+&lt;br&gt;Ingress Protection Code	IP67
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;IR	200 mA
+&lt;br&gt;VR	42 V (DC)
+&lt;br&gt;Contact Resistance Initial	80 mΩ
+&lt;br&gt;RISO	100 MΩ
+&lt;br&gt;Withstanding Voltage	250 V (AC)
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	10000 Steps
+&lt;br&gt;Actuator Type	Cross Type
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o783899v209%20Family-WS-ROTV-42851751091x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o783899v209%20Family-WS-ROTV-42851751091x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_CROSS_TYPE_ACTUATOR_10_X_10_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_CROSS_TYPE_ACTUATOR_10_X_10_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-03-29&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX_1COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="428517510911">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41378043/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-COLOR" value="Ivory"/>
+<attribute name="CODE" value="Complement Code"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428517510911?ae"/>
+<attribute name="INGRESS-PROTECTION-CODE" value="IP67"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value=" 428517510911 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428517510917" prefix="S">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Cover Material	PA66
+&lt;br&gt;Cover Flammability Rating	UL94 V-0
+&lt;br&gt;Base Material	PA66
+&lt;br&gt;Base Flammability Rating	UL94 V-0
+&lt;br&gt;Actuator Material	POM
+&lt;br&gt;Actuator Flammability Rating	UL94 HB
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Gold
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	-40 °C up to +85 °C
+&lt;br&gt;Washable	Yes
+&lt;br&gt;Ingress Protection Code	IP67
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;IR	200 mA
+&lt;br&gt;VR	42 V (DC)
+&lt;br&gt;Contact Resistance Initial	80 mΩ
+&lt;br&gt;RISO	100 MΩ
+&lt;br&gt;Withstanding Voltage	250 V (AC)
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	10000 Steps
+&lt;br&gt;Actuator Type	Cross Type
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o783899v209%20Family-WS-ROTV-42851751091x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o783899v209%20Family-WS-ROTV-42851751091x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_CROSS_TYPE_ACTUATOR_10_X_10_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_CROSS_TYPE_ACTUATOR_10_X_10_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-03-29&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX_1COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="428517510917">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41378041/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-COLOR" value="Ivory"/>
+<attribute name="CODE" value="Complement Code"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428517510917?ae"/>
+<attribute name="INGRESS-PROTECTION-CODE" value="IP67"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value=" 428517510917 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428547320911" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 7x7 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : Stainless Steel
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :100 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material：LCP
+&lt;BR&gt;Actuator Flammability Rating：UL94 V-0
+&lt;BR&gt;Actuator Color：Grey; Ivory; Orange; Red
+&lt;BR&gt;Base Material：LCP
+&lt;BR&gt;Base Flammability Rating：UL94 V-0
+&lt;BR&gt;Terminal Plating：Gold
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;VR：42 V (DC)
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：25000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-60 up to +125 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55750v209%20Family_WS-ROtV_THT_Rotary_Switch_428547320910.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55750v209%20Family_WS-ROtV_THT_Rotary_Switch_428547320910.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_7X7_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_7X7_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42854732091X_10POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253844/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428547320911?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value="428547320911"/>
+<attribute name="QTY" value="70"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428547320910" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 7x7 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : Stainless Steel
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :100 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material：LCP
+&lt;BR&gt;Actuator Flammability Rating：UL94 V-0
+&lt;BR&gt;Actuator Color：Grey; Ivory; Orange; Red
+&lt;BR&gt;Base Material：LCP
+&lt;BR&gt;Base Flammability Rating：UL94 V-0
+&lt;BR&gt;Terminal Plating：Gold
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;VR：42 V (DC)
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：25000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-60 up to +125 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55750v209%20Family_WS-ROtV_THT_Rotary_Switch_428547320910.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55750v209%20Family_WS-ROtV_THT_Rotary_Switch_428547320910.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_7X7_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_7X7_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42854732091X_10POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253844/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428547320910?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value="428547320910"/>
+<attribute name="QTY" value="70"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527320909" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 10x10 mm&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Arrow Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852732090X_08POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253842/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527320909?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 8 "/>
+<attribute name="PART-NUMBER" value="428527320909"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527320908" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 10x10 mm&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Arrow Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852732090X_08POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253842/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527320908?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 8 "/>
+<attribute name="PART-NUMBER" value="428527320908"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428517510910" prefix="S">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Cover Material	PA66
+&lt;br&gt;Cover Flammability Rating	UL94 V-0
+&lt;br&gt;Base Material	PA66
+&lt;br&gt;Base Flammability Rating	UL94 V-0
+&lt;br&gt;Actuator Material	POM
+&lt;br&gt;Actuator Flammability Rating	UL94 HB
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Gold
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	-40 °C up to +85 °C
+&lt;br&gt;Washable	Yes
+&lt;br&gt;Ingress Protection Code	IP67
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;IR	200 mA
+&lt;br&gt;VR	42 V (DC)
+&lt;br&gt;Contact Resistance Initial	80 mΩ
+&lt;br&gt;RISO	100 MΩ
+&lt;br&gt;Withstanding Voltage	250 V (AC)
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	10000 Steps
+&lt;br&gt;Actuator Type	Cross Type
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o783899v209%20Family-WS-ROTV-42851751091x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o783899v209%20Family-WS-ROTV-42851751091x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_CROSS_TYPE_ACTUATOR_10_X_10_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_CROSS_TYPE_ACTUATOR_10_X_10_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-03-29&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX_1COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="428517510910">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41378044/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-COLOR" value="Dark Grey"/>
+<attribute name="CODE" value="Real Code"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428517510910?ae"/>
+<attribute name="INGRESS-PROTECTION-CODE" value="IP67"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value=" 428517510910 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428517510916" prefix="S">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Cross Type Actuator 10x10 mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Cover Material	PA66
+&lt;br&gt;Cover Flammability Rating	UL94 V-0
+&lt;br&gt;Base Material	PA66
+&lt;br&gt;Base Flammability Rating	UL94 V-0
+&lt;br&gt;Actuator Material	POM
+&lt;br&gt;Actuator Flammability Rating	UL94 HB
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Gold
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	-40 °C up to +85 °C
+&lt;br&gt;Washable	Yes
+&lt;br&gt;Ingress Protection Code	IP67
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;IR	200 mA
+&lt;br&gt;VR	42 V (DC)
+&lt;br&gt;Contact Resistance Initial	80 mΩ
+&lt;br&gt;RISO	100 MΩ
+&lt;br&gt;Withstanding Voltage	250 V (AC)
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	10000 Steps
+&lt;br&gt;Actuator Type	Cross Type
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o783899v209%20Family-WS-ROTV-42851751091x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o783899v209%20Family-WS-ROTV-42851751091x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_CROSS_TYPE_ACTUATOR_10_X_10_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_CROSS_TYPE_ACTUATOR_10_X_10_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-03-29&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX_1COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="428517510916">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41378042/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-COLOR" value="Dark Grey"/>
+<attribute name="CODE" value="Real Code"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428517510916?ae"/>
+<attribute name="INGRESS-PROTECTION-CODE" value="IP67"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value=" 428517510916 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428517310917" prefix="S">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Cover Material	PA66
+&lt;br&gt;Cover Flammability Rating	UL94 V-0
+&lt;br&gt;Base Material	PA66
+&lt;br&gt;Base Flammability Rating	UL94 V-0
+&lt;br&gt;Actuator Material	POM
+&lt;br&gt;Actuator Flammability Rating	UL94 HB
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Gold
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	-40 °C up to +85 °C
+&lt;br&gt;Washable	Yes
+&lt;br&gt;Ingress Protection Code	IP67
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;IR	200 mA
+&lt;br&gt;VR	42 V (DC)
+&lt;br&gt;Contact Resistance Initial	80 mΩ
+&lt;br&gt;RISO	100 MΩ
+&lt;br&gt;Withstanding Voltage	250 V (AC)
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	10000 Steps
+&lt;br&gt;Actuator Type	Arrow Type
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o783849v209%20Family-WS-ROTV-42851731091x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o783849v209%20Family-WS-ROTV-42851731091x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_ARROW_TYPE_ACTUATOR_10_X_10_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_ARROW_TYPE_ACTUATOR_10_X_10_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-03-29&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX_1COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="428517310917">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41378391/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-COLOR" value="Ivory"/>
+<attribute name="CODE" value="Complement Code"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428517310917?ae"/>
+<attribute name="INGRESS-PROTECTION-CODE" value="IP67"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value=" 428517310917 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527520911" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Cross Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Cross Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Cross Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Cross Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852752091X_10POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253836/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527520911?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value="428527520911"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527520910" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Cross Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Cross Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Cross Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Cross Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852752091X_10POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253836/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527520910?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value="428527520910"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527320917" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 10x10 mm&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Arrow Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852732091X_16POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253840/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527320917?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value="428527320917"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527320916" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 10x10 mm&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Arrow Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852732091X_16POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253840/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527320916?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value="428527320916"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527320911" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 10x10 mm&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Arrow Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852732091X_10POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253841/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527320911?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value="428527320911"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428517310916" prefix="S">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Cover Material	PA66
+&lt;br&gt;Cover Flammability Rating	UL94 V-0
+&lt;br&gt;Base Material	PA66
+&lt;br&gt;Base Flammability Rating	UL94 V-0
+&lt;br&gt;Actuator Material	POM
+&lt;br&gt;Actuator Flammability Rating	UL94 HB
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Gold
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	-40 °C up to +85 °C
+&lt;br&gt;Washable	Yes
+&lt;br&gt;Ingress Protection Code	IP67
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;IR	200 mA
+&lt;br&gt;VR	42 V (DC)
+&lt;br&gt;Contact Resistance Initial	80 mΩ
+&lt;br&gt;RISO	100 MΩ
+&lt;br&gt;Withstanding Voltage	250 V (AC)
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	10000 Steps
+&lt;br&gt;Actuator Type	Arrow Type
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o783849v209%20Family-WS-ROTV-42851731091x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o783849v209%20Family-WS-ROTV-42851731091x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_ARROW_TYPE_ACTUATOR_10_X_10_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_ARROW_TYPE_ACTUATOR_10_X_10_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-03-29&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX_1COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="428517310916">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41378392/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-COLOR" value="Dark Grey"/>
+<attribute name="CODE" value="Real Code"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428517310916?ae"/>
+<attribute name="INGRESS-PROTECTION-CODE" value="IP67"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value=" 428517310916 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527320910" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Arrow Type Actuator 10x10 mm&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Arrow Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Arrow Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55752v209%20Family_WS_RAT_10x10_THT_42852732091x_pf2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_ARROW_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852732091X_10POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253841/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527320910?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value="428527320910"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527520916" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Cross Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Cross Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Cross Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Cross Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852752091X_16POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253835/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527520916?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value="428527520916"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527520917" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Cross Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Cross Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Cross Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Cross Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852752091X_16POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253835/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527520917?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value="428527520917"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428517310910" prefix="S">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Cover Material	PA66
+&lt;br&gt;Cover Flammability Rating	UL94 V-0
+&lt;br&gt;Base Material	PA66
+&lt;br&gt;Base Flammability Rating	UL94 V-0
+&lt;br&gt;Actuator Material	POM
+&lt;br&gt;Actuator Flammability Rating	UL94 HB
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Gold
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	-40 °C up to +85 °C
+&lt;br&gt;Washable	Yes
+&lt;br&gt;Ingress Protection Code	IP67
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;IR	200 mA
+&lt;br&gt;VR	42 V (DC)
+&lt;br&gt;Contact Resistance Initial	80 mΩ
+&lt;br&gt;RISO	100 MΩ
+&lt;br&gt;Withstanding Voltage	250 V (AC)
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	10000 Steps
+&lt;br&gt;Actuator Type	Arrow Type
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o783849v209%20Family-WS-ROTV-42851731091x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o783849v209%20Family-WS-ROTV-42851731091x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_ARROW_TYPE_ACTUATOR_10_X_10_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_ARROW_TYPE_ACTUATOR_10_X_10_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-03-29&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX_1COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="428517310910">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41378394/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-COLOR" value="Dark Grey"/>
+<attribute name="CODE" value="Real Code"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428517310910?ae"/>
+<attribute name="INGRESS-PROTECTION-CODE" value="IP67"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value=" 428517310910 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428517310911" prefix="S">
+<description>&lt;b&gt;WS-ROTV THT IP67 Rotary Switch 4x1 Terminal with Arrow Type Actuator 10x10 mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Cover Material	PA66
+&lt;br&gt;Cover Flammability Rating	UL94 V-0
+&lt;br&gt;Base Material	PA66
+&lt;br&gt;Base Flammability Rating	UL94 V-0
+&lt;br&gt;Actuator Material	POM
+&lt;br&gt;Actuator Flammability Rating	UL94 HB
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Gold
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	-40 °C up to +85 °C
+&lt;br&gt;Washable	Yes
+&lt;br&gt;Ingress Protection Code	IP67
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;IR	200 mA
+&lt;br&gt;VR	42 V (DC)
+&lt;br&gt;Contact Resistance Initial	80 mΩ
+&lt;br&gt;RISO	100 MΩ
+&lt;br&gt;Withstanding Voltage	250 V (AC)
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	10000 Steps
+&lt;br&gt;Actuator Type	Arrow Type
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o783849v209%20Family-WS-ROTV-42851731091x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o783849v209%20Family-WS-ROTV-42851731091x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_ARROW_TYPE_ACTUATOR_10_X_10_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_ROTV_THT_IP67_ROTARY_SWITCHES_4_X_1_TERMINAL_WITH_ARROW_TYPE_ACTUATOR_10_X_10_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-03-29&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX_1COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="428517310911">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41378393/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-COLOR" value="Ivory"/>
+<attribute name="CODE" value="Complement Code"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428517310911?ae"/>
+<attribute name="INGRESS-PROTECTION-CODE" value="IP67"/>
+<attribute name="NUMBER-OF-POSITION" value=" 10 "/>
+<attribute name="PART-NUMBER" value=" 428517310911 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527520908" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Cross Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Cross Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Cross Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Cross Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852752090X_08POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253837/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527520908?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 8 "/>
+<attribute name="PART-NUMBER" value="428527520908"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527520909" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Cross Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Cross Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Cross Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Cross Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55754v209%20Family_WS-ROTV_THT_Rotary_Switch_4285275209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_CROSS_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852752090X_08POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253837/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527520909?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 8 "/>
+<attribute name="PART-NUMBER" value="428527520909"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527420917" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Shaft Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Shaft Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Shaft Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Shaft Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o61108v209%20Family_WS-ROTV_10x10mm_washable_THT_Rotary_Switch_4285274209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o61108v209%20Family_WS-ROTV_10x10mm_washable_THT_Rotary_Switch_4285274209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_SHAFT_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_SHAFT_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852742091X_16POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253838/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527420917?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value="428527420917"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="428527420916" prefix="S" uservalue="yes">
+<description>&lt;b&gt;WS-ROTV THT Rotary Switch with Shaft Type Actuator 10x10 mm &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Material Properties&lt;/B&gt;
+&lt;BR&gt;Cover Material : PA66
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Packaging Properties&lt;/B&gt;
+&lt;BR&gt;Packaging :Tube
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;
+&lt;BR&gt;IR 1 :150 mA
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Materia:POM
+&lt;BR&gt;Actuator Flammability Rating:UL94 HB
+&lt;BR&gt;Actuator Color:Dark Grey; Ivory
+&lt;BR&gt;Base Material:PA66
+&lt;BR&gt;Base Flammability Rating:UL94 V-0
+&lt;BR&gt;Terminal Plating:Gold
+&lt;BR&gt;Actuator Type:Shaft Type
+&lt;BR&gt;Washable:Yes
+&lt;BR&gt;
+&lt;b&gt;Additional&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR 1:150 mA
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life：10000 Steps
+&lt;BR&gt;Actuator Type：Shaft Type
+&lt;BR&gt;Code：Complement Code; Real Code
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;Tableadditional&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Actuator Type：Shaft Type
+&lt;BR&gt;Washable：Yes
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o61108v209%20Family_WS-ROTV_10x10mm_washable_THT_Rotary_Switch_4285274209xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o61108v209%20Family_WS-ROTV_10x10mm_washable_THT_Rotary_Switch_4285274209xx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_SHAFT_TYPE/"&gt;https://www.we-online.com/catalog/en/ROTV_10X10_WASHABLE_THT_SHAFT_TYPE/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-02-24
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-ROTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="42852742091X_16POS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18253838/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/428527420916?ae"/>
+<attribute name="NUMBER-OF-POSITION" value=" 16 "/>
+<attribute name="PART-NUMBER" value="428527420916"/>
+<attribute name="QTY" value=" 50 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

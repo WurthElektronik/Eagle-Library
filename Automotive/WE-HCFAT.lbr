@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Automotive - Single Coil Power Inductors - WE-HCFAT&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-12-07&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-HCFAT_3540_WIRE0.8" urn="urn:adsk.eagle:footprint:41431857/2">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=31.5X36X41mm
+&lt;br&gt;Wire = 0.8mm</description>
+<pad name="3" x="-7.15" y="13.85" drill="2.5"/>
+<pad name="1" x="-7.15" y="-13.85" drill="1.6" diameter="2.1844" shape="long" stop="no"/>
+<pad name="2" x="7.15" y="-13.85" drill="2.5"/>
+<pad name="4" x="7.15" y="13.85" drill="1.6" diameter="2.1844" shape="long" stop="no"/>
+<polygon width="0.1" layer="46">
+<vertex x="-11.15" y="-13.05"/>
+<vertex x="-11.15" y="-14.65"/>
+<vertex x="-3.15" y="-14.65"/>
+<vertex x="-3.15" y="-13.05"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="-12.15" y="-12.65"/>
+<vertex x="-12.15" y="-15.05"/>
+<vertex x="-2.15" y="-15.05"/>
+<vertex x="-2.15" y="-12.65"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-18.3" y="20.8"/>
+<vertex x="18.3" y="20.8"/>
+<vertex x="18.3" y="-20.8"/>
+<vertex x="-18.3" y="-20.8"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-12.25" y="-12.55"/>
+<vertex x="-12.25" y="-15.15"/>
+<vertex x="-2.05" y="-15.15"/>
+<vertex x="-2.05" y="-12.55"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-12.25" y="-12.55"/>
+<vertex x="-12.25" y="-15.15"/>
+<vertex x="-2.05" y="-15.15"/>
+<vertex x="-2.05" y="-12.55"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="11.15" y="13.05"/>
+<vertex x="11.15" y="14.65"/>
+<vertex x="3.15" y="14.65"/>
+<vertex x="3.15" y="13.05"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="12.15" y="12.65"/>
+<vertex x="12.15" y="15.05"/>
+<vertex x="2.15" y="15.05"/>
+<vertex x="2.15" y="12.65"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="12.25" y="12.55"/>
+<vertex x="12.25" y="15.15"/>
+<vertex x="2.05" y="15.15"/>
+<vertex x="2.05" y="12.55"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="12.25" y="12.55"/>
+<vertex x="12.25" y="15.15"/>
+<vertex x="2.05" y="15.15"/>
+<vertex x="2.05" y="12.55"/>
+</polygon>
+<circle x="-15" y="-18" radius="0.5" width="1" layer="21"/>
+<text x="0" y="21.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-22.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="19.6" y="9.5" size="0.8128" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="7.2" y="13.9" size="0.6096" layer="46" align="center">PCB Cutout Area</text>
+<text x="7.2" y="13.9" size="0.6096" layer="48" align="center">PCB Cutout Area</text>
+<text x="-19.6" y="-18.44" size="0.8128" layer="48" align="bottom-right">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<wire x1="-18.1" y1="20.6" x2="-18.1" y2="-20.6" width="0.2" layer="21"/>
+<wire x1="-18.1" y1="-20.6" x2="18.1" y2="-20.6" width="0.2" layer="21"/>
+<wire x1="18.1" y1="-20.6" x2="18.1" y2="20.6" width="0.2" layer="21"/>
+<wire x1="18.1" y1="20.6" x2="-18.1" y2="20.6" width="0.2" layer="21"/>
+<wire x1="-18" y1="20.5" x2="-18" y2="-20.5" width="0.1" layer="51"/>
+<wire x1="-18" y1="-20.5" x2="18" y2="-20.5" width="0.1" layer="51"/>
+<wire x1="18" y1="-20.5" x2="18" y2="20.5" width="0.1" layer="51"/>
+<wire x1="18" y1="20.5" x2="-18" y2="20.5" width="0.1" layer="51"/>
+<wire x1="13.4" y1="11.5" x2="19.2" y2="11.5" width="0.1" layer="48"/>
+<wire x1="19.2" y1="11.5" x2="18.8" y2="11.9" width="0.1" layer="48"/>
+<wire x1="19.2" y1="11.5" x2="18.8" y2="11.1" width="0.1" layer="48"/>
+<wire x1="11.2" y1="13.7" x2="13.4" y2="11.5" width="0.1" layer="48"/>
+<wire x1="-13.4" y1="-16.44" x2="-19.2" y2="-16.44" width="0.1" layer="48"/>
+<wire x1="-19.2" y1="-16.44" x2="-18.8" y2="-16.04" width="0.1" layer="48"/>
+<wire x1="-19.2" y1="-16.44" x2="-18.8" y2="-16.84" width="0.1" layer="48"/>
+<wire x1="-11.2" y1="-14.24" x2="-13.4" y2="-16.44" width="0.1" layer="48"/>
+</package>
+<package name="WE-HCFAT_3540_WIRE1.3" urn="urn:adsk.eagle:footprint:41431856/2">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=31.5X36X41mm
+&lt;br&gt;Wire = 1.3mm</description>
+<pad name="3" x="-7.15" y="13.85" drill="2.5"/>
+<pad name="1" x="-7.15" y="-13.85" drill="2.5" diameter="2.54" shape="long" stop="no"/>
+<pad name="2" x="7.15" y="-13.85" drill="2.5"/>
+<pad name="4" x="7.15" y="13.85" drill="2.5" diameter="2.54" shape="long" rot="R180" stop="no"/>
+<polygon width="0.1" layer="46">
+<vertex x="-11.15" y="-12.6"/>
+<vertex x="-11.15" y="-15.1"/>
+<vertex x="-3.15" y="-15.1"/>
+<vertex x="-3.15" y="-12.6"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="-12.15" y="-11.975"/>
+<vertex x="-12.15" y="-15.725"/>
+<vertex x="-2.15" y="-15.725"/>
+<vertex x="-2.15" y="-11.975"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-18.3" y="20.8"/>
+<vertex x="18.3" y="20.8"/>
+<vertex x="18.3" y="-20.8"/>
+<vertex x="-18.3" y="-20.8"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-12.25" y="-11.875"/>
+<vertex x="-12.25" y="-15.825"/>
+<vertex x="-2.05" y="-15.825"/>
+<vertex x="-2.05" y="-11.875"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-12.25" y="-11.875"/>
+<vertex x="-12.25" y="-15.825"/>
+<vertex x="-2.05" y="-15.825"/>
+<vertex x="-2.05" y="-11.875"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="11.15" y="12.6"/>
+<vertex x="11.15" y="15.1"/>
+<vertex x="3.15" y="15.1"/>
+<vertex x="3.15" y="12.6"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="12.15" y="11.975"/>
+<vertex x="12.15" y="15.725"/>
+<vertex x="2.15" y="15.725"/>
+<vertex x="2.15" y="11.975"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="12.25" y="11.875"/>
+<vertex x="12.25" y="15.825"/>
+<vertex x="2.05" y="15.825"/>
+<vertex x="2.05" y="11.875"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="12.25" y="11.875"/>
+<vertex x="12.25" y="15.825"/>
+<vertex x="2.05" y="15.825"/>
+<vertex x="2.05" y="11.875"/>
+</polygon>
+<text x="0" y="21.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-22.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="19.6" y="9.5" size="0.8128" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="7.2" y="13.9" size="0.6096" layer="46" align="center">PCB Cutout Area</text>
+<text x="7.2" y="13.9" size="0.6096" layer="48" align="center">PCB Cutout Area</text>
+<text x="-19.6" y="-18.44" size="0.8128" layer="48" align="bottom-right">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<wire x1="-18.1" y1="20.6" x2="-18.1" y2="-20.6" width="0.2" layer="21"/>
+<wire x1="-18.1" y1="-20.6" x2="18.1" y2="-20.6" width="0.2" layer="21"/>
+<wire x1="18.1" y1="-20.6" x2="18.1" y2="20.6" width="0.2" layer="21"/>
+<wire x1="18.1" y1="20.6" x2="-18.1" y2="20.6" width="0.2" layer="21"/>
+<wire x1="-18" y1="20.5" x2="-18" y2="-20.5" width="0.1" layer="51"/>
+<wire x1="-18" y1="-20.5" x2="18" y2="-20.5" width="0.1" layer="51"/>
+<wire x1="18" y1="-20.5" x2="18" y2="20.5" width="0.1" layer="51"/>
+<wire x1="18" y1="20.5" x2="-18" y2="20.5" width="0.1" layer="51"/>
+<wire x1="13.4" y1="11.5" x2="19.2" y2="11.5" width="0.1" layer="48"/>
+<wire x1="19.2" y1="11.5" x2="18.8" y2="11.9" width="0.1" layer="48"/>
+<wire x1="19.2" y1="11.5" x2="18.8" y2="11.1" width="0.1" layer="48"/>
+<wire x1="11.2" y1="13.7" x2="13.4" y2="11.5" width="0.1" layer="48"/>
+<wire x1="-13.4" y1="-16.44" x2="-19.2" y2="-16.44" width="0.1" layer="48"/>
+<wire x1="-19.2" y1="-16.44" x2="-18.8" y2="-16.04" width="0.1" layer="48"/>
+<wire x1="-19.2" y1="-16.44" x2="-18.8" y2="-16.84" width="0.1" layer="48"/>
+<wire x1="-11.2" y1="-14.24" x2="-13.4" y2="-16.44" width="0.1" layer="48"/>
+<circle x="-15" y="-18" radius="0.5" width="1" layer="21"/>
+</package>
+<package name="WE-HCFAT_3521" urn="urn:adsk.eagle:footprint:41431858/2">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=40X35X24mm</description>
+<pad name="3" x="-6.75" y="17" drill="3"/>
+<pad name="4" x="6.75" y="17" drill="3"/>
+<pad name="1" x="-6.75" y="-17" drill="3" diameter="3.81" shape="long" stop="no"/>
+<pad name="2" x="6.75" y="-17" drill="3" diameter="3.81" shape="long" stop="no"/>
+<polygon width="0.1" layer="46">
+<vertex x="-10.75" y="-15.5"/>
+<vertex x="-10.75" y="-18.5"/>
+<vertex x="-2.75" y="-18.5"/>
+<vertex x="-2.75" y="-15.5"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="-11.75" y="-14.5"/>
+<vertex x="-11.75" y="-19.5"/>
+<vertex x="-1.75" y="-19.5"/>
+<vertex x="-1.75" y="-14.5"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-11.85" y="-14.4"/>
+<vertex x="-11.85" y="-19.6"/>
+<vertex x="-1.65" y="-19.6"/>
+<vertex x="-1.65" y="-14.4"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-11.85" y="-14.4"/>
+<vertex x="-11.85" y="-19.6"/>
+<vertex x="-1.65" y="-19.6"/>
+<vertex x="-1.65" y="-14.4"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="2.75" y="-15.5"/>
+<vertex x="2.75" y="-18.5"/>
+<vertex x="10.75" y="-18.5"/>
+<vertex x="10.75" y="-15.5"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-18.3" y="20.3"/>
+<vertex x="18.3" y="20.3"/>
+<vertex x="18.3" y="-20.3"/>
+<vertex x="-18.3" y="-20.3"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="1.75" y="-14.5"/>
+<vertex x="1.75" y="-19.5"/>
+<vertex x="11.75" y="-19.5"/>
+<vertex x="11.75" y="-14.5"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="1.65" y="-14.4"/>
+<vertex x="1.65" y="-19.6"/>
+<vertex x="11.85" y="-19.6"/>
+<vertex x="11.85" y="-14.4"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="1.65" y="-14.4"/>
+<vertex x="1.65" y="-19.6"/>
+<vertex x="11.85" y="-19.6"/>
+<vertex x="11.85" y="-14.4"/>
+</polygon>
+<wire x1="-18.1" y1="13.1" x2="-18.1" y2="-13.1" width="0.2" layer="21"/>
+<wire x1="-11" y1="-20.1" x2="11" y2="-20.1" width="0.2" layer="21"/>
+<wire x1="18.1" y1="-13.1" x2="18.1" y2="13.1" width="0.2" layer="21"/>
+<wire x1="11.05" y1="20.1" x2="-11.05" y2="20.1" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="18.05" x2="-11.05" y2="20.1" width="0.2" layer="21"/>
+<wire x1="11.05" y1="20.1" x2="13.1" y2="18.05" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="18.05" x2="-13.1" y2="13.1" width="0.2" layer="21"/>
+<wire x1="-13.1" y1="-18" x2="-13.1" y2="-13.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-18" x2="13.1" y2="-13.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="18.05" x2="13.1" y2="13.1" width="0.2" layer="21"/>
+<wire x1="-18.1" y1="13.1" x2="-13.1" y2="13.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="13.1" x2="18.1" y2="13.1" width="0.2" layer="21"/>
+<wire x1="-18.1" y1="-13.1" x2="-13.1" y2="-13.1" width="0.2" layer="21"/>
+<wire x1="13.1" y1="-13.1" x2="18.1" y2="-13.1" width="0.2" layer="21"/>
+<wire x1="-18" y1="13" x2="-18" y2="-13" width="0.1" layer="51"/>
+<wire x1="-11" y1="-20" x2="11" y2="-20" width="0.1" layer="51"/>
+<wire x1="18" y1="-13" x2="18" y2="13" width="0.1" layer="51"/>
+<wire x1="11" y1="20" x2="-11" y2="20" width="0.1" layer="51"/>
+<wire x1="-13" y1="18" x2="-11" y2="20" width="0.1" layer="51"/>
+<wire x1="11" y1="20" x2="13" y2="18" width="0.1" layer="51"/>
+<wire x1="-13" y1="-18" x2="-11" y2="-20" width="0.1" layer="51"/>
+<wire x1="13" y1="-18" x2="11" y2="-20" width="0.1" layer="51"/>
+<wire x1="-13" y1="18" x2="-13" y2="13" width="0.1" layer="51"/>
+<wire x1="-13" y1="-18" x2="-13" y2="-13" width="0.1" layer="51"/>
+<wire x1="13" y1="-18" x2="13" y2="-13" width="0.1" layer="51"/>
+<wire x1="13" y1="18" x2="13" y2="13" width="0.1" layer="51"/>
+<wire x1="-18" y1="13" x2="-13" y2="13" width="0.1" layer="51"/>
+<wire x1="13" y1="13" x2="18" y2="13" width="0.1" layer="51"/>
+<wire x1="-18" y1="-13" x2="-13" y2="-13" width="0.1" layer="51"/>
+<wire x1="13" y1="-13" x2="18" y2="-13" width="0.1" layer="51"/>
+<wire x1="10.4" y1="-18.6" x2="11.8" y2="-20" width="0.127" layer="48"/>
+<wire x1="11.8" y1="-20" x2="13.6" y2="-20" width="0.127" layer="48"/>
+<wire x1="13.6" y1="-20" x2="13.2" y2="-19.6" width="0.127" layer="48"/>
+<wire x1="13.6" y1="-20" x2="13.2" y2="-20.4" width="0.127" layer="48"/>
+<wire x1="-10.4" y1="-18.6" x2="-11.8" y2="-20" width="0.127" layer="48"/>
+<wire x1="-11.8" y1="-20" x2="-13.6" y2="-20" width="0.127" layer="48"/>
+<wire x1="-13.6" y1="-20" x2="-13.2" y2="-19.6" width="0.127" layer="48"/>
+<wire x1="-13.6" y1="-20" x2="-13.2" y2="-20.4" width="0.127" layer="48"/>
+<circle x="9" y="-9" radius="1" width="0.2" layer="51"/>
+<circle x="-15" y="-17" radius="0.5" width="1" layer="21"/>
+<text x="0" y="21" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-22" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-7" y="-17" size="0.6096" layer="48" align="center">PCB Cutout Area</text>
+<text x="-7" y="-17" size="0.6096" layer="46" align="center">PCB Cutout Area</text>
+<text x="7" y="-17" size="0.6096" layer="46" align="center">PCB Cutout Area</text>
+<text x="7" y="-17" size="0.6096" layer="48" align="center">PCB Cutout Area</text>
+<text x="14" y="-22" size="0.8128" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="-14" y="-22" size="0.8128" layer="48" align="bottom-right">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+</package>
+<package name="WE-HCFAT_3540_WIRE1.5" urn="urn:adsk.eagle:footprint:41431855/2">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=31.5X36X41mm
+&lt;br&gt;Wire = 1.5mm</description>
+<pad name="3" x="-7.15" y="13.85" drill="2.5"/>
+<pad name="1" x="-7.15" y="-13.85" drill="2.5" diameter="2.54" shape="long" stop="no"/>
+<pad name="2" x="7.15" y="-13.85" drill="2.5"/>
+<pad name="4" x="7.15" y="13.85" drill="2.5" diameter="2.54" shape="long" rot="R180" stop="no"/>
+<polygon width="0.1" layer="46">
+<vertex x="-11.15" y="-12.6"/>
+<vertex x="-11.15" y="-15.1"/>
+<vertex x="-3.15" y="-15.1"/>
+<vertex x="-3.15" y="-12.6"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="-12.15" y="-11.975"/>
+<vertex x="-12.15" y="-15.725"/>
+<vertex x="-2.15" y="-15.725"/>
+<vertex x="-2.15" y="-11.975"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-18.3" y="20.8"/>
+<vertex x="18.3" y="20.8"/>
+<vertex x="18.3" y="-20.8"/>
+<vertex x="-18.3" y="-20.8"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-12.25" y="-11.875"/>
+<vertex x="-12.25" y="-15.825"/>
+<vertex x="-2.05" y="-15.825"/>
+<vertex x="-2.05" y="-11.875"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-12.25" y="-11.875"/>
+<vertex x="-12.25" y="-15.825"/>
+<vertex x="-2.05" y="-15.825"/>
+<vertex x="-2.05" y="-11.875"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="11.15" y="12.6"/>
+<vertex x="11.15" y="15.1"/>
+<vertex x="3.15" y="15.1"/>
+<vertex x="3.15" y="12.6"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="12.15" y="11.975"/>
+<vertex x="12.15" y="15.725"/>
+<vertex x="2.15" y="15.725"/>
+<vertex x="2.15" y="11.975"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="12.25" y="11.875"/>
+<vertex x="12.25" y="15.825"/>
+<vertex x="2.05" y="15.825"/>
+<vertex x="2.05" y="11.875"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="12.25" y="11.875"/>
+<vertex x="12.25" y="15.825"/>
+<vertex x="2.05" y="15.825"/>
+<vertex x="2.05" y="11.875"/>
+</polygon>
+<text x="0" y="21.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-22.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="19.6" y="9.5" size="0.8128" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="7.2" y="13.9" size="0.6096" layer="46" align="center">PCB Cutout Area</text>
+<text x="7.2" y="13.9" size="0.6096" layer="48" align="center">PCB Cutout Area</text>
+<text x="-19.6" y="-18.44" size="0.8128" layer="48" align="bottom-right">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<wire x1="-18.1" y1="20.6" x2="-18.1" y2="-20.6" width="0.2" layer="21"/>
+<wire x1="-18.1" y1="-20.6" x2="18.1" y2="-20.6" width="0.2" layer="21"/>
+<wire x1="18.1" y1="-20.6" x2="18.1" y2="20.6" width="0.2" layer="21"/>
+<wire x1="18.1" y1="20.6" x2="-18.1" y2="20.6" width="0.2" layer="21"/>
+<wire x1="-18" y1="20.5" x2="-18" y2="-20.5" width="0.1" layer="51"/>
+<wire x1="-18" y1="-20.5" x2="18" y2="-20.5" width="0.1" layer="51"/>
+<wire x1="18" y1="-20.5" x2="18" y2="20.5" width="0.1" layer="51"/>
+<wire x1="18" y1="20.5" x2="-18" y2="20.5" width="0.1" layer="51"/>
+<wire x1="13.4" y1="11.5" x2="19.2" y2="11.5" width="0.1" layer="48"/>
+<wire x1="19.2" y1="11.5" x2="18.8" y2="11.9" width="0.1" layer="48"/>
+<wire x1="19.2" y1="11.5" x2="18.8" y2="11.1" width="0.1" layer="48"/>
+<wire x1="11.2" y1="13.7" x2="13.4" y2="11.5" width="0.1" layer="48"/>
+<wire x1="-13.4" y1="-16.44" x2="-19.2" y2="-16.44" width="0.1" layer="48"/>
+<wire x1="-19.2" y1="-16.44" x2="-18.8" y2="-16.04" width="0.1" layer="48"/>
+<wire x1="-19.2" y1="-16.44" x2="-18.8" y2="-16.84" width="0.1" layer="48"/>
+<wire x1="-11.2" y1="-14.24" x2="-13.4" y2="-16.44" width="0.1" layer="48"/>
+<circle x="-15" y="-18" radius="0.5" width="1" layer="21"/>
+</package>
+<package name="WE-HCFAT_3540_WIRE2.0" urn="urn:adsk.eagle:footprint:41431854/2">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=31.5X36X41mm
+&lt;br&gt;Wire = 2mm</description>
+<pad name="3" x="-7.15" y="13.85" drill="2.5"/>
+<pad name="1" x="-7.15" y="-13.85" drill="2.5" diameter="2.54" shape="long" stop="no"/>
+<pad name="2" x="7.15" y="-13.85" drill="2.5"/>
+<pad name="4" x="7.15" y="13.85" drill="2.5" diameter="2.54" shape="long" rot="R180" stop="no"/>
+<polygon width="0.1" layer="46">
+<vertex x="-11.15" y="-12.35"/>
+<vertex x="-11.15" y="-15.35"/>
+<vertex x="-3.15" y="-15.35"/>
+<vertex x="-3.15" y="-12.35"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="-12.15" y="-11.35"/>
+<vertex x="-12.15" y="-16.35"/>
+<vertex x="-2.15" y="-16.35"/>
+<vertex x="-2.15" y="-11.35"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-18.3" y="20.8"/>
+<vertex x="18.3" y="20.8"/>
+<vertex x="18.3" y="-20.8"/>
+<vertex x="-18.3" y="-20.8"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-12.25" y="-11.25"/>
+<vertex x="-12.25" y="-16.45"/>
+<vertex x="-2.05" y="-16.45"/>
+<vertex x="-2.05" y="-11.25"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-12.25" y="-11.25"/>
+<vertex x="-12.25" y="-16.45"/>
+<vertex x="-2.05" y="-16.45"/>
+<vertex x="-2.05" y="-11.25"/>
+</polygon>
+<polygon width="0.1" layer="46">
+<vertex x="11.15" y="12.35"/>
+<vertex x="11.15" y="15.35"/>
+<vertex x="3.15" y="15.35"/>
+<vertex x="3.15" y="12.35"/>
+</polygon>
+<polygon width="0.1" layer="17">
+<vertex x="12.15" y="11.35"/>
+<vertex x="12.15" y="16.35"/>
+<vertex x="2.15" y="16.35"/>
+<vertex x="2.15" y="11.35"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="12.25" y="11.25"/>
+<vertex x="12.25" y="16.45"/>
+<vertex x="2.05" y="16.45"/>
+<vertex x="2.05" y="11.25"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="12.25" y="11.25"/>
+<vertex x="12.25" y="16.45"/>
+<vertex x="2.05" y="16.45"/>
+<vertex x="2.05" y="11.25"/>
+</polygon>
+<text x="0" y="21.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-22.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="19.6" y="9.5" size="0.8128" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="7.2" y="13.9" size="0.6096" layer="46" align="center">PCB Cutout Area</text>
+<text x="7.2" y="13.9" size="0.6096" layer="48" align="center">PCB Cutout Area</text>
+<text x="-19.6" y="-18.44" size="0.8128" layer="48" align="bottom-right">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<wire x1="-18.1" y1="20.6" x2="-18.1" y2="-20.6" width="0.2" layer="21"/>
+<wire x1="-18.1" y1="-20.6" x2="18.1" y2="-20.6" width="0.2" layer="21"/>
+<wire x1="18.1" y1="-20.6" x2="18.1" y2="20.6" width="0.2" layer="21"/>
+<wire x1="18.1" y1="20.6" x2="-18.1" y2="20.6" width="0.2" layer="21"/>
+<wire x1="-18" y1="20.5" x2="-18" y2="-20.5" width="0.1" layer="51"/>
+<wire x1="-18" y1="-20.5" x2="18" y2="-20.5" width="0.1" layer="51"/>
+<wire x1="18" y1="-20.5" x2="18" y2="20.5" width="0.1" layer="51"/>
+<wire x1="18" y1="20.5" x2="-18" y2="20.5" width="0.1" layer="51"/>
+<wire x1="13.4" y1="11.5" x2="19.2" y2="11.5" width="0.1" layer="48"/>
+<wire x1="19.2" y1="11.5" x2="18.8" y2="11.9" width="0.1" layer="48"/>
+<wire x1="19.2" y1="11.5" x2="18.8" y2="11.1" width="0.1" layer="48"/>
+<wire x1="11.2" y1="13.7" x2="13.4" y2="11.5" width="0.1" layer="48"/>
+<wire x1="-13.4" y1="-16.44" x2="-19.2" y2="-16.44" width="0.1" layer="48"/>
+<wire x1="-19.2" y1="-16.44" x2="-18.8" y2="-16.04" width="0.1" layer="48"/>
+<wire x1="-19.2" y1="-16.44" x2="-18.8" y2="-16.84" width="0.1" layer="48"/>
+<wire x1="-11.2" y1="-14.24" x2="-13.4" y2="-16.44" width="0.1" layer="48"/>
+<circle x="-15" y="-18" radius="0.5" width="1" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-HCFAT_3521" urn="urn:adsk.eagle:package:41431864/4" type="model">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=40X35X24mm</description>
+<packageinstances>
+<packageinstance name="WE-HCFAT_3521"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCFAT_3540_WIRE0.8" urn="urn:adsk.eagle:package:41431863/3" type="model">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=31.5X36X41mm
+&lt;br&gt;Wire = 0.8mm</description>
+<packageinstances>
+<packageinstance name="WE-HCFAT_3540_WIRE0.8"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCFAT_3540_WIRE1.3" urn="urn:adsk.eagle:package:41431862/3" type="model">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=31.5X36X41mm
+&lt;br&gt;Wire = 1.3mm</description>
+<packageinstances>
+<packageinstance name="WE-HCFAT_3540_WIRE1.3"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCFAT_3540_WIRE1.5" urn="urn:adsk.eagle:package:41431861/3" type="model">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=31.5X36X41mm
+&lt;br&gt;Wire = 1.5mm</description>
+<packageinstances>
+<packageinstance name="WE-HCFAT_3540_WIRE1.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCFAT_3540_WIRE2.0" urn="urn:adsk.eagle:package:41431860/3" type="model">
+<description>&lt;B&gt;WE-HCFAT Low Loss THT High Current Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=31.5X36X41mm
+&lt;br&gt;Wire = 2mm</description>
+<packageinstances>
+<packageinstance name="WE-HCFAT_3540_WIRE2.0"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-HCFAT_3521">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<circle x="5.588" y="0.508" radius="0.127" width="0.254" layer="94"/>
+</symbol>
+<symbol name="WE-HCFAT_3540">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-HCFAT_3521" prefix="L">
+<description>&lt;b&gt;WE-HCFAT Low Loss THT High Current Inductor &lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;THT version to assure the mechanical stability
+&lt;br&gt;Inductance ranging from 1.5 µH up to 47 µH
+&lt;br&gt;Current capability up to 75 A (Saturation up to 175 A)
+&lt;br&gt;Extremely low DCR
+&lt;br&gt;Extra low core losses version available
+&lt;br&gt;Operating temperature -40 °C to +150 °C
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Storage inductor for high efficiency DC/DC converters
+&lt;br&gt;High current DC motor drive
+&lt;br&gt;On Board Charger
+&lt;br&gt;High current output filter
+
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o766512v209%203540_7843763540xxx_1%2C3%20wire.220.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o766512v209%203540_7843763540xxx_1%2C3%20wire.220.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-HCFAT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-HCFAT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-12-07&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-HCFAT_3521" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCFAT_3521">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41431864/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_78437613521015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78437613521015?ae"/>
+<attribute name="IR" value="75A"/>
+<attribute name="ISAT" value="175A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 78437613521015 "/>
+<attribute name="RDC" value="0.35Ohm"/>
+<attribute name="SIZE" value=" 3521 "/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_78437613521022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78437613521022?ae"/>
+<attribute name="IR" value="75A"/>
+<attribute name="ISAT" value="120A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 78437613521022 "/>
+<attribute name="RDC" value="0.35Ohm"/>
+<attribute name="SIZE" value=" 3521 "/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_78437613521033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78437613521033?ae"/>
+<attribute name="IR" value="75A"/>
+<attribute name="ISAT" value="76A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 78437613521033 "/>
+<attribute name="RDC" value="0.35Ohm"/>
+<attribute name="SIZE" value=" 3521 "/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_7843763521015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843763521015?ae"/>
+<attribute name="IR" value="75A"/>
+<attribute name="ISAT" value="170A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7843763521015 "/>
+<attribute name="RDC" value="0.35Ohm"/>
+<attribute name="SIZE" value=" 3521 "/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_7843763521022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843763521022?ae"/>
+<attribute name="IR" value="75A"/>
+<attribute name="ISAT" value="130A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7843763521022 "/>
+<attribute name="RDC" value="0.35Ohm"/>
+<attribute name="SIZE" value=" 3521 "/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_7843763521033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843763521033?ae"/>
+<attribute name="IR" value="75A"/>
+<attribute name="ISAT" value="82A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7843763521033 "/>
+<attribute name="RDC" value="0.35Ohm"/>
+<attribute name="SIZE" value=" 3521 "/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HCFAT_3540" prefix="L">
+<description>&lt;b&gt;WE-HCFAT Low Loss THT High Current Inductor &lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;THT version to assure the mechanical stability
+&lt;br&gt;Inductance ranging from 1.5 µH up to 47 µH
+&lt;br&gt;Current capability up to 75 A (Saturation up to 175 A)
+&lt;br&gt;Extremely low DCR
+&lt;br&gt;Extra low core losses version available
+&lt;br&gt;Operating temperature -40 °C to +150 °C
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Storage inductor for high efficiency DC/DC converters
+&lt;br&gt;High current DC motor drive
+&lt;br&gt;On Board Charger
+&lt;br&gt;High current output filter
+
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o766512v209%203540_7843763540xxx_1%2C3%20wire.220.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o766512v209%203540_7843763540xxx_1%2C3%20wire.220.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-HCFAT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-HCFAT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-12-07&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-HCFAT_3540" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WIRE0.8" package="WE-HCFAT_3540_WIRE0.8">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41431863/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_7843763540330">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843763540330?ae"/>
+<attribute name="IR" value="32A"/>
+<attribute name="ISAT" value="38.9A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7843763540330 "/>
+<attribute name="RDC" value="5.67Ohm"/>
+<attribute name="SIZE" value=" 3540 "/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_7843763540470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843763540470?ae"/>
+<attribute name="IR" value="32A"/>
+<attribute name="ISAT" value="31A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7843763540470 "/>
+<attribute name="RDC" value="5.67Ohm"/>
+<attribute name="SIZE" value=" 3540 "/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+</technologies>
+</device>
+<device name="_WIRE1.3" package="WE-HCFAT_3540_WIRE1.3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41431862/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_7843763540220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843763540220?ae"/>
+<attribute name="IR" value="40.6A"/>
+<attribute name="ISAT" value="42A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7843763540220 "/>
+<attribute name="RDC" value="2.63Ohm"/>
+<attribute name="SIZE" value=" 3540 "/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+</technologies>
+</device>
+<device name="_WIRE1.5" package="WE-HCFAT_3540_WIRE1.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41431861/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_7843763540150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843763540150?ae"/>
+<attribute name="IR" value="45.3A"/>
+<attribute name="ISAT" value="51.6A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7843763540150 "/>
+<attribute name="RDC" value="1.77Ohm"/>
+<attribute name="SIZE" value=" 3540 "/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+</technologies>
+</device>
+<device name="_WIRE2.0" package="WE-HCFAT_3540_WIRE2.0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41431860/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_78437613540068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78437613540068?ae"/>
+<attribute name="IR" value="56.7A"/>
+<attribute name="ISAT" value="82.7A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 78437613540068 "/>
+<attribute name="RDC" value="1.01Ohm"/>
+<attribute name="SIZE" value=" 3540 "/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_78437613540100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78437613540100?ae"/>
+<attribute name="IR" value="56.7A"/>
+<attribute name="ISAT" value="70.7A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 78437613540100 "/>
+<attribute name="RDC" value="1.01Ohm"/>
+<attribute name="SIZE" value=" 3540 "/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_7843763540068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843763540068?ae"/>
+<attribute name="IR" value="56.7A"/>
+<attribute name="ISAT" value="76.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7843763540068 "/>
+<attribute name="RDC" value="1.01Ohm"/>
+<attribute name="SIZE" value=" 3540 "/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_7843763540100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843763540100?ae"/>
+<attribute name="IR" value="56.7A"/>
+<attribute name="ISAT" value="62A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 7843763540100 "/>
+<attribute name="RDC" value="1.01Ohm"/>
+<attribute name="SIZE" value=" 3540 "/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Dual Coil Power Inductors - WE-TDC HV&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-TDCHV_8038" urn="urn:adsk.eagle:footprint:12983762/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TDC HV SMD Coupled Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8038</description>
+<smd name="1" x="0" y="3.8" dx="3.6" dy="1.4" layer="1"/>
+<smd name="2" x="-3.8" y="0" dx="3.6" dy="1.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-3.8" dx="3.6" dy="1.4" layer="1" rot="R180"/>
+<smd name="4" x="3.8" y="0" dx="3.6" dy="1.4" layer="1" rot="R270"/>
+<text x="0" y="5.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.55" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.3" y="2.03" size="0.8128" layer="48">1</text>
+<text x="-2.4" y="-0.35" size="0.8128" layer="48">2</text>
+<text x="-0.28" y="-2.53" size="0.8128" layer="48">3</text>
+<text x="2.21" y="-0.35" size="0.8128" layer="48">4</text>
+<wire x1="-4" y1="2" x2="-4" y2="-2" width="0.1" layer="51"/>
+<wire x1="4" y1="2" x2="4" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2" y1="4" x2="2" y2="4" width="0.1" layer="51"/>
+<wire x1="-2" y1="-4" x2="2" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="2" x2="-2" y2="4" width="0.1" layer="51"/>
+<wire x1="2" y1="4" x2="4" y2="2" width="0.1" layer="51"/>
+<wire x1="4" y1="-2" x2="2" y2="-4" width="0.1" layer="51"/>
+<wire x1="-2" y1="-4" x2="-4" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="4.05" x2="-4.05" y2="2.1" width="0.2" layer="21"/>
+<wire x1="2.1" y1="4.05" x2="4.05" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-4.05" y1="-2.1" x2="-2.1" y2="-4.05" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-4.05" x2="4.05" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="0.012996875" y1="3.487003125" x2="3.487003125" y2="0.012996875" width="0.1" layer="51"/>
+<wire x1="-3.487003125" y1="-0.112996875" x2="-0.012996875" y2="-3.587003125" width="0.1" layer="51"/>
+<circle x="-2.3" y="3" radius="0.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="2" y="4.7"/>
+<vertex x="4.7" y="2"/>
+<vertex x="4.7" y="-2"/>
+<vertex x="2" y="-4.7"/>
+<vertex x="-2" y="-4.7"/>
+<vertex x="-4.7" y="-2"/>
+<vertex x="-4.7" y="2"/>
+<vertex x="-2" y="4.7"/>
+</polygon>
+<rectangle x1="1.435353125" y1="1.114646875" x2="1.835353125" y2="2.614646875" layer="51" rot="R45"/>
+<rectangle x1="-2.064646875" y1="-2.485353125" x2="-1.664646875" y2="-0.985353125" layer="51" rot="R45"/>
+</package>
+<package name="WE-TDCHV_8018" urn="urn:adsk.eagle:footprint:12983763/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TDC HV SMD Coupled Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8018</description>
+<smd name="1" x="0" y="3.8" dx="3.6" dy="1.4" layer="1"/>
+<smd name="2" x="-3.8" y="0" dx="3.6" dy="1.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-3.8" dx="3.6" dy="1.4" layer="1" rot="R180"/>
+<smd name="4" x="3.8" y="0" dx="3.6" dy="1.4" layer="1" rot="R270"/>
+<text x="0" y="5.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.55" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.3" y="2.03" size="0.8128" layer="48">1</text>
+<text x="-2.4" y="-0.35" size="0.8128" layer="48">2</text>
+<text x="-0.28" y="-2.53" size="0.8128" layer="48">3</text>
+<text x="2.21" y="-0.35" size="0.8128" layer="48">4</text>
+<wire x1="-4" y1="2" x2="-4" y2="-2" width="0.1" layer="51"/>
+<wire x1="4" y1="2" x2="4" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2" y1="4" x2="2" y2="4" width="0.1" layer="51"/>
+<wire x1="-2" y1="-4" x2="2" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="2" x2="-2" y2="4" width="0.1" layer="51"/>
+<wire x1="2" y1="4" x2="4" y2="2" width="0.1" layer="51"/>
+<wire x1="4" y1="-2" x2="2" y2="-4" width="0.1" layer="51"/>
+<wire x1="-2" y1="-4" x2="-4" y2="-2" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="4.05" x2="-4.05" y2="2.1" width="0.2" layer="21"/>
+<wire x1="2.1" y1="4.05" x2="4.05" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-4.05" y1="-2.1" x2="-2.1" y2="-4.05" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-4.05" x2="4.05" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="0.012996875" y1="3.487003125" x2="3.487003125" y2="0.012996875" width="0.1" layer="51"/>
+<wire x1="-3.487003125" y1="-0.112996875" x2="-0.012996875" y2="-3.587003125" width="0.1" layer="51"/>
+<circle x="-2.3" y="3" radius="0.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="2" y="4.7"/>
+<vertex x="4.7" y="2"/>
+<vertex x="4.7" y="-2"/>
+<vertex x="2" y="-4.7"/>
+<vertex x="-2" y="-4.7"/>
+<vertex x="-4.7" y="-2"/>
+<vertex x="-4.7" y="2"/>
+<vertex x="-2" y="4.7"/>
+</polygon>
+<rectangle x1="1.435353125" y1="1.114646875" x2="1.835353125" y2="2.614646875" layer="51" rot="R45"/>
+<rectangle x1="-2.064646875" y1="-2.485353125" x2="-1.664646875" y2="-0.985353125" layer="51" rot="R45"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-TDCHV_8018" urn="urn:adsk.eagle:package:12983766/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TDC HV SMD Coupled Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8018</description>
+<packageinstances>
+<packageinstance name="WE-TDCHV_8018"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-TDCHV_8038" urn="urn:adsk.eagle:package:12983765/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-TDC HV SMD Coupled Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8038</description>
+<packageinstances>
+<packageinstance name="WE-TDCHV_8038"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-TDCHV">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<text x="-0.06" y="3.61" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-4.54" y="-5.38" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-9.02" y="2.21" size="0.6096" layer="97">1</text>
+<text x="-8.99" y="-2.86" size="0.6096" layer="97">2</text>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="0.635" x2="4.445" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-0.635" x2="4.445" y2="-0.635" width="0.254" layer="94"/>
+<circle x="-5.3" y="0.7" radius="0.1" width="0.254" layer="94"/>
+<circle x="-5.3" y="-0.6" radius="0.1" width="0.254" layer="94"/>
+<circle x="-8.74" y="2.5" radius="0.5" width="0.1" layer="97"/>
+<circle x="-8.74" y="-2.58" radius="0.5" width="0.1" layer="97"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-TDCHV_8038" prefix="L">
+<description>&lt;b&gt;WE-TDC HV SMD Coupled Inductor&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Low profile coupled inductor with 2.0kV Isolation&lt;br&gt;
+&lt;br&gt;Low losses and low Leakage Inductance&lt;br&gt;
+&lt;br&gt;Magnetical shielded&lt;br&gt;
+&lt;br&gt;1:1 Transformer&lt;br&gt;
+&lt;br&gt;Operation temperature: -40°C to +125°C&lt;br&gt;
+&lt;br&gt;Functional Isolation for a working voltage or 250VRMS&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications&lt;/b&gt;&lt;br&gt;
+&lt;br&gt; High density Isolated converter application (e.g. Flyback converter) &lt;br&gt;
+&lt;br&gt;Buck, Boost, Sepic, Zeta, CUK Converter&lt;br&gt;
+&lt;br&gt;Switching regulator with secondary unregulated output voltage&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Note: The "VALUE"shown in the symbol and packaging is the Inductance for L1,L2=L1&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14862v209%20Family_WE-TDC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14862v209%20Family_WE-TDC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-TDCHV"&gt;https://katalog.we-online.com/en/pbs/WE-TDCHV&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated  by  Yingchun,Shan 2019-08-15&lt;br&gt;
+&lt;/b&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-TDCHV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TDCHV_8038">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12983765/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_76889440047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/76889440047.pdf" constant="no"/>
+<attribute name="FRE" value="43MHz" constant="no"/>
+<attribute name="IR1" value="2.45A" constant="no"/>
+<attribute name="IR2" value="2.45A" constant="no"/>
+<attribute name="ISAT1" value="4.7A" constant="no"/>
+<attribute name="ISAT2" value="4.7A" constant="no"/>
+<attribute name="L2" value="4.7uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 76889440047 " constant="no"/>
+<attribute name="RDC1-MAX" value="110mOhm" constant="no"/>
+<attribute name="RDC1-TYP" value="85mOhm" constant="no"/>
+<attribute name="RDC2-MAX" value="110mOhm" constant="no"/>
+<attribute name="RDC2-TYP" value="85mOhm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+<technology name="_76889440100">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/76889440100.pdf" constant="no"/>
+<attribute name="FRE" value="29MHz" constant="no"/>
+<attribute name="IR1" value="1.6A" constant="no"/>
+<attribute name="IR2" value="1.6A" constant="no"/>
+<attribute name="ISAT1" value="3A" constant="no"/>
+<attribute name="ISAT2" value="3A" constant="no"/>
+<attribute name="L2" value="10uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 76889440100 " constant="no"/>
+<attribute name="RDC1-MAX" value="200mOhm" constant="no"/>
+<attribute name="RDC1-TYP" value="160mOhm" constant="no"/>
+<attribute name="RDC2-MAX" value="200mOhm" constant="no"/>
+<attribute name="RDC2-TYP" value="160mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_76889440150">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/76889440150.pdf" constant="no"/>
+<attribute name="FRE" value="21MHz" constant="no"/>
+<attribute name="IR1" value="1.25A" constant="no"/>
+<attribute name="IR2" value="1.25A" constant="no"/>
+<attribute name="ISAT1" value="2.8A" constant="no"/>
+<attribute name="ISAT2" value="2.8A" constant="no"/>
+<attribute name="L2" value="15uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 76889440150 " constant="no"/>
+<attribute name="RDC1-MAX" value="355mOhm" constant="no"/>
+<attribute name="RDC1-TYP" value="300mOhm" constant="no"/>
+<attribute name="RDC2-MAX" value="355mOhm" constant="no"/>
+<attribute name="RDC2-TYP" value="300mOhm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+<technology name="_76889440220">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/76889440220.pdf" constant="no"/>
+<attribute name="FRE" value="15.5MHz" constant="no"/>
+<attribute name="IR1" value="1A" constant="no"/>
+<attribute name="IR2" value="1A" constant="no"/>
+<attribute name="ISAT1" value="2.1A" constant="no"/>
+<attribute name="ISAT2" value="2.1A" constant="no"/>
+<attribute name="L2" value="22uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 76889440220 " constant="no"/>
+<attribute name="RDC1-MAX" value="455mOhm" constant="no"/>
+<attribute name="RDC1-TYP" value="390mOhm" constant="no"/>
+<attribute name="RDC2-MAX" value="455mOhm" constant="no"/>
+<attribute name="RDC2-TYP" value="390mOhm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+<technology name="_76889440330">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/76889440330.pdf" constant="no"/>
+<attribute name="FRE" value="14MHz" constant="no"/>
+<attribute name="IR1" value="0.85A" constant="no"/>
+<attribute name="IR2" value="0.85A" constant="no"/>
+<attribute name="ISAT1" value="1.85A" constant="no"/>
+<attribute name="ISAT2" value="1.85A" constant="no"/>
+<attribute name="L2" value="33uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 76889440330 " constant="no"/>
+<attribute name="RDC1-MAX" value="640mOhm" constant="no"/>
+<attribute name="RDC1-TYP" value="575mOhm" constant="no"/>
+<attribute name="RDC2-MAX" value="640mOhm" constant="no"/>
+<attribute name="RDC2-TYP" value="575mOhm" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-TDCHV_8018" prefix="L">
+<description>&lt;b&gt;WE-TDC HV SMD Coupled Inductor&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Low profile coupled inductor with 2.0kV Isolation&lt;br&gt;
+&lt;br&gt;Low losses and low Leakage Inductance&lt;br&gt;
+&lt;br&gt;Magnetical shielded&lt;br&gt;
+&lt;br&gt;1:1 Transformer&lt;br&gt;
+&lt;br&gt;Operation temperature: -40°C to +125°C&lt;br&gt;
+&lt;br&gt;Functional Isolation for a working voltage or 250VRMS&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications&lt;/b&gt;&lt;br&gt;
+&lt;br&gt; High density Isolated converter application (e.g. Flyback converter) &lt;br&gt;
+&lt;br&gt;Buck, Boost, Sepic, Zeta, CUK Converter&lt;br&gt;
+&lt;br&gt;Switching regulator with secondary unregulated output voltage&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Note: The "VALUE"shown in the symbol and packaging is the Inductance for L1,L2=L1&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14862v209%20Family_WE-TDC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14862v209%20Family_WE-TDC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-TDCHV"&gt;https://katalog.we-online.com/en/pbs/WE-TDCHV&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated  by  Yingchun,Shan 2019-08-15&lt;br&gt;
+&lt;/b&gt;2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-TDCHV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TDCHV_8018">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12983766/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_76889430056">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/76889430056.pdf" constant="no"/>
+<attribute name="FRE" value="58MHz" constant="no"/>
+<attribute name="IR1" value="1.4A" constant="no"/>
+<attribute name="IR2" value="1.4A" constant="no"/>
+<attribute name="ISAT1" value="2A" constant="no"/>
+<attribute name="ISAT2" value="2A" constant="no"/>
+<attribute name="L2" value="5.6uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 76889430056 " constant="no"/>
+<attribute name="RDC1-MAX" value="234mOhm" constant="no"/>
+<attribute name="RDC1-TYP" value="190mOhm" constant="no"/>
+<attribute name="RDC2-MAX" value="234mOhm" constant="no"/>
+<attribute name="RDC2-TYP" value="190mOhm" constant="no"/>
+<attribute name="VALUE" value="5.6uH" constant="no"/>
+</technology>
+<technology name="_76889430100">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/76889430100.pdf" constant="no"/>
+<attribute name="FRE" value="47.5MHz" constant="no"/>
+<attribute name="IR1" value="1.1A" constant="no"/>
+<attribute name="IR2" value="1.1A" constant="no"/>
+<attribute name="ISAT1" value="1.67A" constant="no"/>
+<attribute name="ISAT2" value="1.67A" constant="no"/>
+<attribute name="L2" value="10uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 76889430100 " constant="no"/>
+<attribute name="RDC1-MAX" value="321mOhm" constant="no"/>
+<attribute name="RDC1-TYP" value="280mOhm" constant="no"/>
+<attribute name="RDC2-MAX" value="321mOhm" constant="no"/>
+<attribute name="RDC2-TYP" value="280mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_76889430150">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/76889430150.pdf" constant="no"/>
+<attribute name="FRE" value="35MHz" constant="no"/>
+<attribute name="IR1" value="0.95A" constant="no"/>
+<attribute name="IR2" value="0.95A" constant="no"/>
+<attribute name="ISAT1" value="1.3A" constant="no"/>
+<attribute name="ISAT2" value="1.3A" constant="no"/>
+<attribute name="L2" value="15uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 76889430150 " constant="no"/>
+<attribute name="RDC1-MAX" value="422mOhm" constant="no"/>
+<attribute name="RDC1-TYP" value="380mOhm" constant="no"/>
+<attribute name="RDC2-MAX" value="422mOhm" constant="no"/>
+<attribute name="RDC2-TYP" value="380mOhm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+<technology name="_76889430220">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/76889430220.pdf" constant="no"/>
+<attribute name="FRE" value="26MHz" constant="no"/>
+<attribute name="IR1" value="0.75A" constant="no"/>
+<attribute name="IR2" value="0.75A" constant="no"/>
+<attribute name="ISAT1" value="1A" constant="no"/>
+<attribute name="ISAT2" value="1A" constant="no"/>
+<attribute name="L2" value="22uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 76889430220 " constant="no"/>
+<attribute name="RDC1-MAX" value="780mOhm" constant="no"/>
+<attribute name="RDC1-TYP" value="700mOhm" constant="no"/>
+<attribute name="RDC2-MAX" value="780mOhm" constant="no"/>
+<attribute name="RDC2-TYP" value="700mOhm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

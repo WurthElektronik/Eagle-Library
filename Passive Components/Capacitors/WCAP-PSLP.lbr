@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Capacitors - Aluminium Polymer Capacitors - WCAP-PSLP&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-08-24&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WCAP-PSLP_6.3X7.7(DXL)" urn="urn:adsk.eagle:footprint:18482315/1">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors ,6.3X7.7X2.1(DiameterXLengthXP)</description>
+<smd name="2" x="-2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="1" x="2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<wire x1="-3.4" y1="3.4" x2="1.8" y2="3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="1.8" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="3.4" x2="-3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.8" y1="3.4" x2="3.4" y2="1.8" width="0.2" layer="21"/>
+<wire x1="1.8" y1="-3.4" x2="3.4" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="3.4" y1="1.8" x2="3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-1.8" x2="3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="1.75" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.3" x2="3.3" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-1.75" x2="3.3" y2="1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="1.75" x2="1.75" y2="3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.3" x2="-3.3" y2="3.3" width="0.1" layer="51"/>
+<text x="-0.6" y="4.2" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.2" y="-4.9" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="4.3" y="-2.4" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="4.3" y="-2.4" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="1.9" y="3.6"/>
+<vertex x="-3.6" y="3.6"/>
+<vertex x="-3.6" y="1"/>
+<vertex x="-4.75" y="1"/>
+<vertex x="-4.75" y="-1"/>
+<vertex x="-3.6" y="-1"/>
+<vertex x="-3.6" y="-3.6"/>
+<vertex x="1.85" y="-3.6"/>
+<vertex x="3.6" y="-1.85"/>
+<vertex x="3.6" y="-1"/>
+<vertex x="4.75" y="-1"/>
+<vertex x="4.75" y="1"/>
+<vertex x="3.6" y="1"/>
+<vertex x="3.6" y="1.9"/>
+</polygon>
+<circle x="0" y="0" radius="3.15" width="0.1" layer="51"/>
+</package>
+<package name="WCAP-PSLP_4X5.5(DXL)" urn="urn:adsk.eagle:footprint:18482318/1">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors ,4X5.5X1(DiameterXLengthXPitch)</description>
+<smd name="2" x="-1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<smd name="1" x="1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<wire x1="-2.25" y1="2.25" x2="1.4" y2="2.25" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="-2.25" x2="1.4" y2="-2.25" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.4" y1="2.25" x2="2.25" y2="1.4" width="0.2" layer="21"/>
+<wire x1="1.4" y1="-2.25" x2="2.25" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="2.25" y1="1.4" x2="2.25" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.25" y1="-1.4" x2="2.25" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="2.15" x2="-2.15" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-2.15" x2="1.35" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="1.35" y1="-2.15" x2="2.15" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="2.15" y1="-1.35" x2="2.15" y2="1.35" width="0.1" layer="51"/>
+<wire x1="2.15" y1="1.35" x2="1.35" y2="2.15" width="0.1" layer="51"/>
+<wire x1="1.35" y1="2.15" x2="-2.15" y2="2.15" width="0.1" layer="51"/>
+<text x="-0.3" y="3.1" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.5" y="-3.9" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="2.9" y="-2.1" size="1.016" layer="21" align="bottom-center">+</text>
+<text x="2.9" y="-2.1" size="1.016" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="2" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.45" y="2.45"/>
+<vertex x="-2.45" y="1"/>
+<vertex x="-3.3" y="1"/>
+<vertex x="-3.3" y="-1"/>
+<vertex x="-2.45" y="-1"/>
+<vertex x="-2.45" y="-2.45"/>
+<vertex x="1.45" y="-2.45"/>
+<vertex x="2.45" y="-1.45"/>
+<vertex x="2.45" y="-1"/>
+<vertex x="3.3" y="-1"/>
+<vertex x="3.3" y="1"/>
+<vertex x="2.45" y="1"/>
+<vertex x="2.45" y="1.5"/>
+<vertex x="1.5" y="2.45"/>
+</polygon>
+</package>
+<package name="WCAP-PSLP_5X5.5(DXL)" urn="urn:adsk.eagle:footprint:18482317/1">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors,5X5.5X1.4(DiameterXLengthXP)</description>
+<smd name="2" x="-2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<smd name="1" x="2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<wire x1="-2.75" y1="2.75" x2="1.7" y2="2.75" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="-2.75" x2="-2.75" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="-2.75" x2="1.7" y2="-2.75" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="2.75" x2="-2.75" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.7" y1="2.75" x2="2.75" y2="1.7" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-2.75" x2="2.75" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="2.75" y1="1.7" x2="2.75" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.75" y1="-1.7" x2="2.75" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.65" y1="2.65" x2="-2.65" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="-2.65" y1="-2.65" x2="1.65" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="1.65" y1="-2.65" x2="2.65" y2="-1.65" width="0.1" layer="51"/>
+<wire x1="2.65" y1="-1.65" x2="2.65" y2="1.65" width="0.1" layer="51"/>
+<wire x1="2.65" y1="1.65" x2="1.65" y2="2.65" width="0.1" layer="51"/>
+<wire x1="1.65" y1="2.65" x2="-2.65" y2="2.65" width="0.1" layer="51"/>
+<text x="-0.3" y="3.6" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.5" y="-4" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="3.5" y="-2.1" size="1.016" layer="21" align="bottom-center">+</text>
+<text x="3.5" y="-2.1" size="1.016" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="2.5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.95" y="2.95"/>
+<vertex x="-2.95" y="1"/>
+<vertex x="-3.9" y="1"/>
+<vertex x="-3.9" y="-1"/>
+<vertex x="-2.95" y="-1"/>
+<vertex x="-2.95" y="-2.95"/>
+<vertex x="1.75" y="-2.95"/>
+<vertex x="2.95" y="-1.75"/>
+<vertex x="2.95" y="-1"/>
+<vertex x="3.9" y="-1"/>
+<vertex x="3.9" y="1"/>
+<vertex x="2.95" y="1"/>
+<vertex x="2.95" y="1.8"/>
+<vertex x="1.8" y="2.95"/>
+</polygon>
+</package>
+<package name="WCAP-PSLP_6.3X5.8(DXL)" urn="urn:adsk.eagle:footprint:18482316/1">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors ,6.3x5.8x2.2(DiameterXLengthXP)</description>
+<smd name="2" x="-2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="1" x="2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<wire x1="-3.4" y1="3.4" x2="1.8" y2="3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="1.8" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="3.4" x2="-3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.8" y1="3.4" x2="3.4" y2="1.8" width="0.2" layer="21"/>
+<wire x1="1.8" y1="-3.4" x2="3.4" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="3.4" y1="1.8" x2="3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-1.8" x2="3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="1.75" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.3" x2="3.3" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-1.75" x2="3.3" y2="1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="1.75" x2="1.75" y2="3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.3" x2="-3.3" y2="3.3" width="0.1" layer="51"/>
+<text x="-0.6" y="4.2" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.2" y="-4.9" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="4.3" y="-2.4" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="4.3" y="-2.4" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="1.9" y="3.6"/>
+<vertex x="-3.6" y="3.6"/>
+<vertex x="-3.6" y="1"/>
+<vertex x="-4.75" y="1"/>
+<vertex x="-4.75" y="-1"/>
+<vertex x="-3.6" y="-1"/>
+<vertex x="-3.6" y="-3.6"/>
+<vertex x="1.85" y="-3.6"/>
+<vertex x="3.6" y="-1.85"/>
+<vertex x="3.6" y="-1"/>
+<vertex x="4.75" y="-1"/>
+<vertex x="4.75" y="1"/>
+<vertex x="3.6" y="1"/>
+<vertex x="3.6" y="1.9"/>
+</polygon>
+<circle x="0" y="0" radius="3.15" width="0.1" layer="51"/>
+</package>
+<package name="WCAP-PSLP_5X5.8(DXL)" urn="urn:adsk.eagle:footprint:18482314/1">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors,5x5.8x1.4(DiameterXLengthXP)</description>
+<smd name="2" x="-2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<smd name="1" x="2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<wire x1="-2.75" y1="2.75" x2="1.7" y2="2.75" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="-2.75" x2="-2.75" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="-2.75" x2="1.7" y2="-2.75" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="2.75" x2="-2.75" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.7" y1="2.75" x2="2.75" y2="1.7" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-2.75" x2="2.75" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="2.75" y1="1.7" x2="2.75" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.75" y1="-1.7" x2="2.75" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.65" y1="2.65" x2="-2.65" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="-2.65" y1="-2.65" x2="1.65" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="1.65" y1="-2.65" x2="2.65" y2="-1.65" width="0.1" layer="51"/>
+<wire x1="2.65" y1="-1.65" x2="2.65" y2="1.65" width="0.1" layer="51"/>
+<wire x1="2.65" y1="1.65" x2="1.65" y2="2.65" width="0.1" layer="51"/>
+<wire x1="1.65" y1="2.65" x2="-2.65" y2="2.65" width="0.1" layer="51"/>
+<text x="-0.3" y="3.6" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.5" y="-4" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="3.5" y="-2.1" size="1.016" layer="21" align="bottom-center">+</text>
+<text x="3.5" y="-2.1" size="1.016" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="2.5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.95" y="2.95"/>
+<vertex x="-2.95" y="1"/>
+<vertex x="-3.9" y="1"/>
+<vertex x="-3.9" y="-1"/>
+<vertex x="-2.95" y="-1"/>
+<vertex x="-2.95" y="-2.95"/>
+<vertex x="1.75" y="-2.95"/>
+<vertex x="2.95" y="-1.75"/>
+<vertex x="2.95" y="-1"/>
+<vertex x="3.9" y="-1"/>
+<vertex x="3.9" y="1"/>
+<vertex x="2.95" y="1"/>
+<vertex x="2.95" y="1.8"/>
+<vertex x="1.8" y="2.95"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WCAP-PSLP_6.3X7.7(DXL)" urn="urn:adsk.eagle:package:18482321/2" type="model">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors ,6.3X7.7X2.1(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-PSLP_6.3X7.7(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-PSLP_4X5.5(DXL)" urn="urn:adsk.eagle:package:18482324/2" type="model">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors ,4X5.5X1(DiameterXLengthXPitch)</description>
+<packageinstances>
+<packageinstance name="WCAP-PSLP_4X5.5(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-PSLP_5X5.5(DXL)" urn="urn:adsk.eagle:package:18482323/2" type="model">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors,5X5.5X1.4(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-PSLP_5X5.5(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-PSLP_5X5.8(DXL)" urn="urn:adsk.eagle:package:18482320/2" type="model">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors,5x5.8x1.4(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-PSLP_5X5.8(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-PSLP_6.3X5.8(DXL)" urn="urn:adsk.eagle:package:18482322/2" type="model">
+<description>&lt;B&gt;WCAP-PSLP&lt;/B&gt;&lt;BR&gt;Aluminum Polymer Capacitors ,6.3x5.8x2.2(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-PSLP_6.3X5.8(DXL)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C_POLAR">
+<description>C_POLARIZED</description>
+<pin name="+" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="1.175" y="3.38" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0.915" y="-5.075" size="1.4224" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="2.54" y="-1.905" size="1.4224" layer="94">+</text>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.64261875" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.927859375" y1="0" x2="2.57048125" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WCAP-PSLP_6.3X7.7" prefix="C">
+<description>&lt;b&gt;WCAP-PSLP Aluminum Polymer Capacitors &lt;/B&gt;&lt;BR&gt;
+&lt;B&gt;Low Profile  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low profile product series 
+&lt;BR&gt;Low ESR over high frequency range 
+&lt;BR&gt;High permissible ripple current 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 4.7 µF ‒ 390 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 100 V(DC) 
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C 
+&lt;BR&gt;Endurance: 2000h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 6.3 x 7.7 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low ripple voltage at the switching converter 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;Coupling 
+&lt;BR&gt;e.g. High-end power supply, industrial computer, VGA card, charger, digital set-top box 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;Details see: &lt;a href="www.we-online.com/catalog/WCAP-PSLP/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-PSLP&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated by Ella Wu 2023-08-24
+&lt;br&gt;2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-PSLP_6.3X7.7(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18482321/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_875105145011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105145011?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="3400mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105145011 "/>
+<attribute name="RESR" value="15mOhm"/>
+<attribute name="VALUE" value="390 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105245014">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105245014?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="2690mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105245014 "/>
+<attribute name="RESR" value="20mOhm"/>
+<attribute name="VALUE" value="270 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105245015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105245015?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="2690mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105245015 "/>
+<attribute name="RESR" value="20mOhm"/>
+<attribute name="VALUE" value="330 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105345011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105345011?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2690mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105345011 "/>
+<attribute name="RESR" value="25mOhm"/>
+<attribute name="VALUE" value="150 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105445005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105445005?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2670mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105445005 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="39 µF"/>
+<attribute name="VR" value="20V(DC)"/>
+</technology>
+<technology name="_875105445006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105445006?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2670mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105445006 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="47 µF"/>
+<attribute name="VR" value="20V(DC)"/>
+</technology>
+<technology name="_875105445007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105445007?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2670mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105445007 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="56 µF"/>
+<attribute name="VR" value="20V(DC)"/>
+</technology>
+<technology name="_875105545004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105545004?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2670mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105545004 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875105545005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105545005?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2670mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105545005 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="39 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875105645005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105645005?ae"/>
+<attribute name="DF" value="12%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="1600mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105645005 "/>
+<attribute name="RESR" value="50mOhm"/>
+<attribute name="VALUE" value="47 µF"/>
+<attribute name="VR" value="35V(DC)"/>
+</technology>
+<technology name="_875105945001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105945001?ae"/>
+<attribute name="DF" value="12%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="1060mA"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105945001 "/>
+<attribute name="RESR" value="100mOhm"/>
+<attribute name="VALUE" value="4.7 µF"/>
+<attribute name="VR" value="100V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-PSLP_6.3X5.8" prefix="C">
+<description>&lt;b&gt;WCAP-PSLP Aluminum Polymer Capacitors &lt;/B&gt;&lt;BR&gt;
+&lt;B&gt;Low Profile  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low profile product series 
+&lt;BR&gt;Low ESR over high frequency range 
+&lt;BR&gt;High permissible ripple current 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 4.7 µF ‒ 390 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 100 V(DC) 
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C 
+&lt;BR&gt;Endurance: 2000h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 6.3 x 7.7 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low ripple voltage at the switching converter 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;Coupling 
+&lt;BR&gt;e.g. High-end power supply, industrial computer, VGA card, charger, digital set-top box 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;Details see: &lt;a href="www.we-online.com/catalog/WCAP-PSLP/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-PSLP&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated by Ella Wu 2023-08-24
+&lt;br&gt;2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-PSLP_6.3X5.8(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18482322/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_875105144007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105144007?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="2390mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105144007 "/>
+<attribute name="RESR" value="22mOhm"/>
+<attribute name="VALUE" value="180 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105144008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105144008?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="3000mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105144008 "/>
+<attribute name="RESR" value="20mOhm"/>
+<attribute name="VALUE" value="220 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105144009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105144009?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="3000mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105144009 "/>
+<attribute name="RESR" value="20mOhm"/>
+<attribute name="VALUE" value="270 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105144010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105144010?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="3100mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105144010 "/>
+<attribute name="RESR" value="20mOhm"/>
+<attribute name="VALUE" value="330 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105244011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105244011?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105244011 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="150 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105244012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105244012?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105244012 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="180 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105244013">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105244013?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105244013 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="220 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105344006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105344006?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105344006 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="47 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105344007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105344007?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105344007 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="56 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105344008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105344008?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105344008 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="68 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105344009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105344009?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105344009 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="82 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105344010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105344010?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2690mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105344010 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="100 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105444001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105444001?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105444001 "/>
+<attribute name="RESR" value="40mOhm"/>
+<attribute name="VALUE" value="10 µF"/>
+<attribute name="VR" value="20V(DC)"/>
+</technology>
+<technology name="_875105444002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105444002?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105444002 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="15 µF"/>
+<attribute name="VR" value="20V(DC)"/>
+</technology>
+<technology name="_875105444003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105444003?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105444003 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="22 µF"/>
+<attribute name="VR" value="20V(DC)"/>
+</technology>
+<technology name="_875105444004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105444004?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105444004 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="20V(DC)"/>
+</technology>
+<technology name="_875105544001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105544001?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105544001 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="10 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875105544002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105544002?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105544002 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="15 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875105544003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105544003?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105544003 "/>
+<attribute name="RESR" value="35mOhm"/>
+<attribute name="VALUE" value="22 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_875105644004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105644004?ae"/>
+<attribute name="DF" value="12%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="900mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105644004 "/>
+<attribute name="RESR" value="64mOhm"/>
+<attribute name="VALUE" value="18 µF"/>
+<attribute name="VR" value="35V(DC)"/>
+</technology>
+<technology name="_875105744001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105744001?ae"/>
+<attribute name="DF" value="12%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="800mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105744001 "/>
+<attribute name="RESR" value="80mOhm"/>
+<attribute name="VALUE" value="8.2 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_875105744002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105744002?ae"/>
+<attribute name="DF" value="12%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="800mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105744002 "/>
+<attribute name="RESR" value="80mOhm"/>
+<attribute name="VALUE" value="12 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_875105744003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105744003?ae"/>
+<attribute name="DF" value="12%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="800mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105744003 "/>
+<attribute name="RESR" value="80mOhm"/>
+<attribute name="VALUE" value="15 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_875105844001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105844001?ae"/>
+<attribute name="DF" value="12%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="700mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105844001 "/>
+<attribute name="RESR" value="100mOhm"/>
+<attribute name="VALUE" value="5.6 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+<technology name="_875105844002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105844002?ae"/>
+<attribute name="DF" value="12%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="600uA"/>
+<attribute name="I-RIPPLE" value="700mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105844002 "/>
+<attribute name="RESR" value="100mOhm"/>
+<attribute name="VALUE" value="8.2 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-PSLP_4X5.5" prefix="C">
+<description>&lt;b&gt;WCAP-PSLP Aluminum Polymer Capacitors &lt;/B&gt;&lt;BR&gt;
+&lt;B&gt;Low Profile  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low profile product series 
+&lt;BR&gt;Low ESR over high frequency range 
+&lt;BR&gt;High permissible ripple current 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 4.7 µF ‒ 390 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 100 V(DC) 
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C 
+&lt;BR&gt;Endurance: 2000h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 6.3 x 7.7 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low ripple voltage at the switching converter 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;Coupling 
+&lt;BR&gt;e.g. High-end power supply, industrial computer, VGA card, charger, digital set-top box 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;Details see: &lt;a href="www.we-online.com/catalog/WCAP-PSLP/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-PSLP&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated by Ella Wu 2023-08-24
+&lt;br&gt;2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-PSLP_4X5.5(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18482324/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_875105240001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105240001?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="4mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1200mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105240001 "/>
+<attribute name="RESR" value="80mOhm"/>
+<attribute name="VALUE" value="10 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105240002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105240002?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="4mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1200mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105240002 "/>
+<attribute name="RESR" value="80mOhm"/>
+<attribute name="VALUE" value="15 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105240003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105240003?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="4mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1200mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105240003 "/>
+<attribute name="RESR" value="80mOhm"/>
+<attribute name="VALUE" value="22 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-PSLP_5X5.8" prefix="C">
+<description>&lt;b&gt;WCAP-PSLP Aluminum Polymer Capacitors &lt;/B&gt;&lt;BR&gt;
+&lt;B&gt;Low Profile  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low profile product series 
+&lt;BR&gt;Low ESR over high frequency range 
+&lt;BR&gt;High permissible ripple current 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 4.7 µF ‒ 390 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 100 V(DC) 
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C 
+&lt;BR&gt;Endurance: 2000h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 6.3 x 7.7 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low ripple voltage at the switching converter 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;Coupling 
+&lt;BR&gt;e.g. High-end power supply, industrial computer, VGA card, charger, digital set-top box 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;Details see: &lt;a href="www.we-online.com/catalog/WCAP-PSLP/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-PSLP&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated by Ella Wu 2023-08-24
+&lt;br&gt;2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-PSLP_5X5.8(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18482320/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_875105359001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105359001?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105359001 "/>
+<attribute name="RESR" value="40mOhm"/>
+<attribute name="VALUE" value="10 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105359002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105359002?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105359002 "/>
+<attribute name="RESR" value="40mOhm"/>
+<attribute name="VALUE" value="15 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105359003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105359003?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105359003 "/>
+<attribute name="RESR" value="40mOhm"/>
+<attribute name="VALUE" value="22 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105359004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105359004?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105359004 "/>
+<attribute name="RESR" value="40mOhm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_875105359005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105359005?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="400uA"/>
+<attribute name="I-RIPPLE" value="2200mA"/>
+<attribute name="LENGTH" value="5.8mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105359005 "/>
+<attribute name="RESR" value="40mOhm"/>
+<attribute name="VALUE" value="39 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-PSLP_5X5.5" prefix="C">
+<description>&lt;b&gt;WCAP-PSLP Aluminum Polymer Capacitors &lt;/B&gt;&lt;BR&gt;
+&lt;B&gt;Low Profile  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low profile product series 
+&lt;BR&gt;Low ESR over high frequency range 
+&lt;BR&gt;High permissible ripple current 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 4.7 µF ‒ 390 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 100 V(DC) 
+&lt;BR&gt;Operating temperature: -55 °C up to +105 °C 
+&lt;BR&gt;Endurance: 2000h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 6.3 x 7.7 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low ripple voltage at the switching converter 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;Coupling 
+&lt;BR&gt;e.g. High-end power supply, industrial computer, VGA card, charger, digital set-top box 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14737v209%20family-WCAP-PSLP-6.3x5.8x2.2.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;Details see: &lt;a href="www.we-online.com/catalog/WCAP-PSLP/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WCAP-PSLP&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;Updated by Ella Wu 2023-08-24
+&lt;br&gt;2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-PSLP_5X5.5(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18482323/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_875105142001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105142001?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105142001 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="47 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105142002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105142002?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105142002 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="56 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105142003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105142003?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105142003 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="68 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105142004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105142004?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105142004 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="82 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105142005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105142005?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105142005 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="100 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105142006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105142006?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105142006 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="150 µF"/>
+<attribute name="VR" value="6.3V(DC)"/>
+</technology>
+<technology name="_875105242004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105242004?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105242004 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105242005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105242005?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105242005 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="39 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105242006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105242006?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105242006 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="47 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105242007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105242007?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105242007 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="56 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105242008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105242008?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105242008 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="68 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105242009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105242009?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105242009 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="82 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+<technology name="_875105242010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/875105242010?ae"/>
+<attribute name="DF" value="8%"/>
+<attribute name="DIAMETER" value="5mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="300uA"/>
+<attribute name="I-RIPPLE" value="1970mA"/>
+<attribute name="LENGTH" value="5.5mm"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C"/>
+<attribute name="PART-NUMBER" value=" 875105242010 "/>
+<attribute name="RESR" value="30mOhm"/>
+<attribute name="VALUE" value="100 µF"/>
+<attribute name="VR" value="10V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

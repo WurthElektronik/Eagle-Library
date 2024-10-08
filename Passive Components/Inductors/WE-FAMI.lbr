@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Single Coil Power Inductors - WE-FAMI&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-03-17&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-FAMI_1280_0.7WIRE" urn="urn:adsk.eagle:footprint:12989779/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.7mm wire</description>
+<pad name="1" x="-5" y="0" drill="1.2"/>
+<pad name="2" x="5" y="0" drill="1.2"/>
+<text x="-0.11" y="7.39" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.91" y="-8.66" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="6.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="6.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-0.68" y="6.67"/>
+<vertex x="-0.35" y="6.69"/>
+<vertex x="0.36" y="6.69"/>
+<vertex x="0.87" y="6.64"/>
+<vertex x="1.3" y="6.57"/>
+<vertex x="1.76" y="6.47"/>
+<vertex x="2.22" y="6.32"/>
+<vertex x="2.64" y="6.16"/>
+<vertex x="3.13" y="5.93"/>
+<vertex x="3.6" y="5.65"/>
+<vertex x="4.15" y="5.26"/>
+<vertex x="4.71" y="4.76"/>
+<vertex x="5.03" y="4.43"/>
+<vertex x="5.39" y="3.99"/>
+<vertex x="5.72" y="3.5"/>
+<vertex x="6.02" y="2.94"/>
+<vertex x="6.2" y="2.55"/>
+<vertex x="6.37" y="2.06"/>
+<vertex x="6.56" y="1.44"/>
+<vertex x="6.67" y="0.67"/>
+<vertex x="6.71" y="-0.02"/>
+<vertex x="6.67" y="-0.67"/>
+<vertex x="6.58" y="-1.27"/>
+<vertex x="6.44" y="-1.86"/>
+<vertex x="6.29" y="-2.32"/>
+<vertex x="6.06" y="-2.86"/>
+<vertex x="5.76" y="-3.42"/>
+<vertex x="5.42" y="-3.93"/>
+<vertex x="4.98" y="-4.47"/>
+<vertex x="4.52" y="-4.95"/>
+<vertex x="4.1" y="-5.32"/>
+<vertex x="3.52" y="-5.71"/>
+<vertex x="2.94" y="-6.02"/>
+<vertex x="2.3" y="-6.29"/>
+<vertex x="1.65" y="-6.5"/>
+<vertex x="1.09" y="-6.61"/>
+<vertex x="0.55" y="-6.68"/>
+<vertex x="-0.15" y="-6.7"/>
+<vertex x="-0.78" y="-6.65"/>
+<vertex x="-1.42" y="-6.55"/>
+<vertex x="-1.89" y="-6.43"/>
+<vertex x="-2.6" y="-6.19"/>
+<vertex x="-3.25" y="-5.87"/>
+<vertex x="-3.86" y="-5.48"/>
+<vertex x="-4.24" y="-5.18"/>
+<vertex x="-4.69" y="-4.78"/>
+<vertex x="-5.17" y="-4.28"/>
+<vertex x="-5.62" y="-3.65"/>
+<vertex x="-5.89" y="-3.2"/>
+<vertex x="-6.07" y="-2.83"/>
+<vertex x="-6.32" y="-2.25"/>
+<vertex x="-6.52" y="-1.53"/>
+<vertex x="-6.69" y="-0.63"/>
+<vertex x="-6.7" y="0.4"/>
+<vertex x="-6.61" y="1.17"/>
+<vertex x="-6.46" y="1.82"/>
+<vertex x="-6.22" y="2.53"/>
+<vertex x="-5.85" y="3.26"/>
+<vertex x="-5.48" y="3.84"/>
+<vertex x="-5.01" y="4.46"/>
+<vertex x="-4.33" y="5.12"/>
+<vertex x="-3.68" y="5.6"/>
+<vertex x="-2.97" y="6.02"/>
+<vertex x="-2.12" y="6.35"/>
+<vertex x="-1.49" y="6.53"/>
+<vertex x="-0.66" y="6.67"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1280_0.6WIRE" urn="urn:adsk.eagle:footprint:12989777/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.6mm wire</description>
+<pad name="1" x="-5" y="0" drill="1.1"/>
+<pad name="2" x="5" y="0" drill="1.1"/>
+<text x="-0.11" y="7.29" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.81" y="-8.56" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="6.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="6.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-0.68" y="6.67"/>
+<vertex x="-0.35" y="6.69"/>
+<vertex x="0.36" y="6.69"/>
+<vertex x="0.87" y="6.64"/>
+<vertex x="1.3" y="6.57"/>
+<vertex x="1.76" y="6.47"/>
+<vertex x="2.22" y="6.32"/>
+<vertex x="2.64" y="6.16"/>
+<vertex x="3.13" y="5.93"/>
+<vertex x="3.6" y="5.65"/>
+<vertex x="4.15" y="5.26"/>
+<vertex x="4.71" y="4.76"/>
+<vertex x="5.03" y="4.43"/>
+<vertex x="5.39" y="3.99"/>
+<vertex x="5.72" y="3.5"/>
+<vertex x="6.02" y="2.94"/>
+<vertex x="6.2" y="2.55"/>
+<vertex x="6.37" y="2.06"/>
+<vertex x="6.56" y="1.44"/>
+<vertex x="6.67" y="0.67"/>
+<vertex x="6.71" y="-0.02"/>
+<vertex x="6.67" y="-0.67"/>
+<vertex x="6.58" y="-1.27"/>
+<vertex x="6.44" y="-1.86"/>
+<vertex x="6.29" y="-2.32"/>
+<vertex x="6.06" y="-2.86"/>
+<vertex x="5.76" y="-3.42"/>
+<vertex x="5.42" y="-3.93"/>
+<vertex x="4.98" y="-4.47"/>
+<vertex x="4.52" y="-4.95"/>
+<vertex x="4.1" y="-5.32"/>
+<vertex x="3.52" y="-5.71"/>
+<vertex x="2.94" y="-6.02"/>
+<vertex x="2.3" y="-6.29"/>
+<vertex x="1.65" y="-6.5"/>
+<vertex x="1.09" y="-6.61"/>
+<vertex x="0.55" y="-6.68"/>
+<vertex x="-0.15" y="-6.7"/>
+<vertex x="-0.78" y="-6.65"/>
+<vertex x="-1.42" y="-6.55"/>
+<vertex x="-1.89" y="-6.43"/>
+<vertex x="-2.6" y="-6.19"/>
+<vertex x="-3.25" y="-5.87"/>
+<vertex x="-3.86" y="-5.48"/>
+<vertex x="-4.24" y="-5.18"/>
+<vertex x="-4.69" y="-4.78"/>
+<vertex x="-5.17" y="-4.28"/>
+<vertex x="-5.62" y="-3.65"/>
+<vertex x="-5.89" y="-3.2"/>
+<vertex x="-6.07" y="-2.83"/>
+<vertex x="-6.32" y="-2.25"/>
+<vertex x="-6.52" y="-1.53"/>
+<vertex x="-6.69" y="-0.63"/>
+<vertex x="-6.7" y="0.4"/>
+<vertex x="-6.61" y="1.17"/>
+<vertex x="-6.46" y="1.82"/>
+<vertex x="-6.22" y="2.53"/>
+<vertex x="-5.85" y="3.26"/>
+<vertex x="-5.48" y="3.84"/>
+<vertex x="-5.01" y="4.46"/>
+<vertex x="-4.33" y="5.12"/>
+<vertex x="-3.68" y="5.6"/>
+<vertex x="-2.97" y="6.02"/>
+<vertex x="-2.12" y="6.35"/>
+<vertex x="-1.49" y="6.53"/>
+<vertex x="-0.66" y="6.67"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1280_0.8WIRE" urn="urn:adsk.eagle:footprint:12989780/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.8mm wire</description>
+<pad name="1" x="-5" y="0" drill="1.3"/>
+<pad name="2" x="5" y="0" drill="1.3"/>
+<text x="0.19" y="7.29" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.91" y="-8.36" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="6.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="6.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-0.68" y="6.67"/>
+<vertex x="-0.35" y="6.69"/>
+<vertex x="0.36" y="6.69"/>
+<vertex x="0.87" y="6.64"/>
+<vertex x="1.3" y="6.57"/>
+<vertex x="1.76" y="6.47"/>
+<vertex x="2.22" y="6.32"/>
+<vertex x="2.64" y="6.16"/>
+<vertex x="3.13" y="5.93"/>
+<vertex x="3.6" y="5.65"/>
+<vertex x="4.15" y="5.26"/>
+<vertex x="4.71" y="4.76"/>
+<vertex x="5.03" y="4.43"/>
+<vertex x="5.39" y="3.99"/>
+<vertex x="5.72" y="3.5"/>
+<vertex x="6.02" y="2.94"/>
+<vertex x="6.2" y="2.55"/>
+<vertex x="6.37" y="2.06"/>
+<vertex x="6.56" y="1.44"/>
+<vertex x="6.67" y="0.67"/>
+<vertex x="6.71" y="-0.02"/>
+<vertex x="6.67" y="-0.67"/>
+<vertex x="6.58" y="-1.27"/>
+<vertex x="6.44" y="-1.86"/>
+<vertex x="6.29" y="-2.32"/>
+<vertex x="6.06" y="-2.86"/>
+<vertex x="5.76" y="-3.42"/>
+<vertex x="5.42" y="-3.93"/>
+<vertex x="4.98" y="-4.47"/>
+<vertex x="4.52" y="-4.95"/>
+<vertex x="4.1" y="-5.32"/>
+<vertex x="3.52" y="-5.71"/>
+<vertex x="2.94" y="-6.02"/>
+<vertex x="2.3" y="-6.29"/>
+<vertex x="1.65" y="-6.5"/>
+<vertex x="1.09" y="-6.61"/>
+<vertex x="0.55" y="-6.68"/>
+<vertex x="-0.15" y="-6.7"/>
+<vertex x="-0.78" y="-6.65"/>
+<vertex x="-1.42" y="-6.55"/>
+<vertex x="-1.89" y="-6.43"/>
+<vertex x="-2.6" y="-6.19"/>
+<vertex x="-3.25" y="-5.87"/>
+<vertex x="-3.86" y="-5.48"/>
+<vertex x="-4.24" y="-5.18"/>
+<vertex x="-4.69" y="-4.78"/>
+<vertex x="-5.17" y="-4.28"/>
+<vertex x="-5.62" y="-3.65"/>
+<vertex x="-5.89" y="-3.2"/>
+<vertex x="-6.07" y="-2.83"/>
+<vertex x="-6.32" y="-2.25"/>
+<vertex x="-6.52" y="-1.53"/>
+<vertex x="-6.69" y="-0.63"/>
+<vertex x="-6.7" y="0.4"/>
+<vertex x="-6.61" y="1.17"/>
+<vertex x="-6.46" y="1.82"/>
+<vertex x="-6.22" y="2.53"/>
+<vertex x="-5.85" y="3.26"/>
+<vertex x="-5.48" y="3.84"/>
+<vertex x="-5.01" y="4.46"/>
+<vertex x="-4.33" y="5.12"/>
+<vertex x="-3.68" y="5.6"/>
+<vertex x="-2.97" y="6.02"/>
+<vertex x="-2.12" y="6.35"/>
+<vertex x="-1.49" y="6.53"/>
+<vertex x="-0.66" y="6.67"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1415_0.9WIRE" urn="urn:adsk.eagle:footprint:12989771/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1415,0.9mm wire</description>
+<pad name="1" x="-6" y="0" drill="1.4"/>
+<pad name="2" x="6" y="0" drill="1.4"/>
+<text x="-0.11" y="8.232" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.81" y="-9.518" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="7.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="7.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.69" y="0.43"/>
+<vertex x="-7.7" y="0.14"/>
+<vertex x="-7.7" y="-0.15"/>
+<vertex x="-7.69" y="-0.55"/>
+<vertex x="-7.65" y="-0.97"/>
+<vertex x="-7.59" y="-1.36"/>
+<vertex x="-7.49" y="-1.81"/>
+<vertex x="-7.37" y="-2.27"/>
+<vertex x="-7.21" y="-2.71"/>
+<vertex x="-6.94" y="-3.36"/>
+<vertex x="-6.7" y="-3.82"/>
+<vertex x="-6.3" y="-4.43"/>
+<vertex x="-5.95" y="-4.89"/>
+<vertex x="-5.48" y="-5.42"/>
+<vertex x="-5.18" y="-5.7"/>
+<vertex x="-4.87" y="-5.96"/>
+<vertex x="-4.46" y="-6.28"/>
+<vertex x="-4" y="-6.59"/>
+<vertex x="-3.46" y="-6.88"/>
+<vertex x="-2.99" y="-7.1"/>
+<vertex x="-2.53" y="-7.28"/>
+<vertex x="-2.17" y="-7.39"/>
+<vertex x="-1.77" y="-7.5"/>
+<vertex x="-1.31" y="-7.59"/>
+<vertex x="-0.92" y="-7.65"/>
+<vertex x="-0.17" y="-7.7"/>
+<vertex x="0.42" y="-7.69"/>
+<vertex x="0.98" y="-7.64"/>
+<vertex x="1.57" y="-7.54"/>
+<vertex x="2.08" y="-7.41"/>
+<vertex x="2.58" y="-7.26"/>
+<vertex x="3" y="-7.09"/>
+<vertex x="3.55" y="-6.83"/>
+<vertex x="4" y="-6.59"/>
+<vertex x="4.39" y="-6.33"/>
+<vertex x="4.8" y="-6.02"/>
+<vertex x="5.25" y="-5.64"/>
+<vertex x="5.7" y="-5.2"/>
+<vertex x="6.17" y="-4.61"/>
+<vertex x="6.86" y="-3.52"/>
+<vertex x="7.18" y="-2.74"/>
+<vertex x="7.45" y="-1.97"/>
+<vertex x="7.6" y="-1.28"/>
+<vertex x="7.68" y="-0.58"/>
+<vertex x="7.7" y="0.22"/>
+<vertex x="7.66" y="0.94"/>
+<vertex x="7.5" y="1.76"/>
+<vertex x="7.34" y="2.35"/>
+<vertex x="7.14" y="2.91"/>
+<vertex x="6.74" y="3.71"/>
+<vertex x="6.32" y="4.43"/>
+<vertex x="5.85" y="5.02"/>
+<vertex x="5.25" y="5.65"/>
+<vertex x="4.82" y="6"/>
+<vertex x="4.16" y="6.47"/>
+<vertex x="3.65" y="6.78"/>
+<vertex x="3.06" y="7.07"/>
+<vertex x="2.03" y="7.44"/>
+<vertex x="1.23" y="7.61"/>
+<vertex x="0.33" y="7.7"/>
+<vertex x="-0.75" y="7.66"/>
+<vertex x="-1.66" y="7.53"/>
+<vertex x="-2.51" y="7.28"/>
+<vertex x="-3.51" y="6.86"/>
+<vertex x="-4.41" y="6.33"/>
+<vertex x="-5.19" y="5.7"/>
+<vertex x="-5.85" y="5"/>
+<vertex x="-6.44" y="4.23"/>
+<vertex x="-6.81" y="3.64"/>
+<vertex x="-7.1" y="3"/>
+<vertex x="-7.35" y="2.33"/>
+<vertex x="-7.52" y="1.67"/>
+<vertex x="-7.62" y="1.15"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1012_0.7WIRE" urn="urn:adsk.eagle:footprint:12989783/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1012,0.7mm wire</description>
+<pad name="1" x="-4" y="0" drill="1.2"/>
+<pad name="2" x="4" y="0" drill="1.2"/>
+<text x="0.09" y="6.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.81" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="5.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="5.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.68" y="4.37"/>
+<vertex x="-3.42" y="4.56"/>
+<vertex x="-3.12" y="4.77"/>
+<vertex x="-2.74" y="5"/>
+<vertex x="-2.33" y="5.2"/>
+<vertex x="-2.01" y="5.35"/>
+<vertex x="-1.65" y="5.47"/>
+<vertex x="-1.14" y="5.59"/>
+<vertex x="-0.61" y="5.68"/>
+<vertex x="-0.03" y="5.72"/>
+<vertex x="0.59" y="5.68"/>
+<vertex x="1.26" y="5.56"/>
+<vertex x="1.97" y="5.36"/>
+<vertex x="2.45" y="5.16"/>
+<vertex x="2.93" y="4.89"/>
+<vertex x="3.31" y="4.65"/>
+<vertex x="3.6" y="4.43"/>
+<vertex x="3.9" y="4.19"/>
+<vertex x="4.19" y="3.87"/>
+<vertex x="4.54" y="3.45"/>
+<vertex x="4.88" y="2.96"/>
+<vertex x="5.13" y="2.52"/>
+<vertex x="5.38" y="1.9"/>
+<vertex x="5.53" y="1.43"/>
+<vertex x="5.65" y="0.83"/>
+<vertex x="5.71" y="0.28"/>
+<vertex x="5.7" y="-0.32"/>
+<vertex x="5.64" y="-0.76"/>
+<vertex x="5.55" y="-1.22"/>
+<vertex x="5.37" y="-1.93"/>
+<vertex x="5.16" y="-2.44"/>
+<vertex x="4.9" y="-2.92"/>
+<vertex x="4.61" y="-3.35"/>
+<vertex x="4.28" y="-3.76"/>
+<vertex x="3.97" y="-4.09"/>
+<vertex x="3.55" y="-4.47"/>
+<vertex x="2.92" y="-4.9"/>
+<vertex x="2.3" y="-5.22"/>
+<vertex x="1.61" y="-5.48"/>
+<vertex x="0.72" y="-5.65"/>
+<vertex x="-0.04" y="-5.69"/>
+<vertex x="-1.34" y="-5.55"/>
+<vertex x="-2.06" y="-5.33"/>
+<vertex x="-2.73" y="-5"/>
+<vertex x="-3.22" y="-4.71"/>
+<vertex x="-3.89" y="-4.19"/>
+<vertex x="-4.25" y="-3.81"/>
+<vertex x="-4.63" y="-3.31"/>
+<vertex x="-4.94" y="-2.86"/>
+<vertex x="-5.28" y="-2.17"/>
+<vertex x="-5.53" y="-1.42"/>
+<vertex x="-5.62" y="-0.99"/>
+<vertex x="-5.7" y="-0.36"/>
+<vertex x="-5.7" y="0.49"/>
+<vertex x="-5.56" y="1.28"/>
+<vertex x="-5.28" y="2.18"/>
+<vertex x="-4.97" y="2.8"/>
+<vertex x="-4.58" y="3.4"/>
+<vertex x="-4.2" y="3.86"/>
+<vertex x="-3.86" y="4.18"/>
+<vertex x="-3.69" y="4.36"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1415_1.2WIRE" urn="urn:adsk.eagle:footprint:12989772/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1415,1.2mm wire</description>
+<pad name="1" x="-6" y="0" drill="1.7"/>
+<pad name="2" x="6" y="0" drill="1.7"/>
+<text x="-0.64" y="8.482" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.81" y="-10.118" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="7.4" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.69" y="0.43"/>
+<vertex x="-7.7" y="0.14"/>
+<vertex x="-7.7" y="-0.15"/>
+<vertex x="-7.69" y="-0.55"/>
+<vertex x="-7.65" y="-0.97"/>
+<vertex x="-7.59" y="-1.36"/>
+<vertex x="-7.49" y="-1.81"/>
+<vertex x="-7.37" y="-2.27"/>
+<vertex x="-7.21" y="-2.71"/>
+<vertex x="-6.94" y="-3.36"/>
+<vertex x="-6.7" y="-3.82"/>
+<vertex x="-6.3" y="-4.43"/>
+<vertex x="-5.95" y="-4.89"/>
+<vertex x="-5.48" y="-5.42"/>
+<vertex x="-5.18" y="-5.7"/>
+<vertex x="-4.87" y="-5.96"/>
+<vertex x="-4.46" y="-6.28"/>
+<vertex x="-4" y="-6.59"/>
+<vertex x="-3.46" y="-6.88"/>
+<vertex x="-2.99" y="-7.1"/>
+<vertex x="-2.53" y="-7.28"/>
+<vertex x="-2.17" y="-7.39"/>
+<vertex x="-1.77" y="-7.5"/>
+<vertex x="-1.31" y="-7.59"/>
+<vertex x="-0.92" y="-7.65"/>
+<vertex x="-0.17" y="-7.7"/>
+<vertex x="0.42" y="-7.69"/>
+<vertex x="0.98" y="-7.64"/>
+<vertex x="1.57" y="-7.54"/>
+<vertex x="2.08" y="-7.41"/>
+<vertex x="2.58" y="-7.26"/>
+<vertex x="3" y="-7.09"/>
+<vertex x="3.55" y="-6.83"/>
+<vertex x="4" y="-6.59"/>
+<vertex x="4.39" y="-6.33"/>
+<vertex x="4.8" y="-6.02"/>
+<vertex x="5.25" y="-5.64"/>
+<vertex x="5.7" y="-5.2"/>
+<vertex x="6.17" y="-4.61"/>
+<vertex x="6.86" y="-3.52"/>
+<vertex x="7.18" y="-2.74"/>
+<vertex x="7.45" y="-1.97"/>
+<vertex x="7.6" y="-1.28"/>
+<vertex x="7.68" y="-0.58"/>
+<vertex x="7.7" y="0.22"/>
+<vertex x="7.66" y="0.94"/>
+<vertex x="7.5" y="1.76"/>
+<vertex x="7.34" y="2.35"/>
+<vertex x="7.14" y="2.91"/>
+<vertex x="6.74" y="3.71"/>
+<vertex x="6.32" y="4.43"/>
+<vertex x="5.85" y="5.02"/>
+<vertex x="5.25" y="5.65"/>
+<vertex x="4.82" y="6"/>
+<vertex x="4.16" y="6.47"/>
+<vertex x="3.65" y="6.78"/>
+<vertex x="3.06" y="7.07"/>
+<vertex x="2.03" y="7.44"/>
+<vertex x="1.23" y="7.61"/>
+<vertex x="0.33" y="7.7"/>
+<vertex x="-0.75" y="7.66"/>
+<vertex x="-1.66" y="7.53"/>
+<vertex x="-2.51" y="7.28"/>
+<vertex x="-3.51" y="6.86"/>
+<vertex x="-4.41" y="6.33"/>
+<vertex x="-5.19" y="5.7"/>
+<vertex x="-5.85" y="5"/>
+<vertex x="-6.44" y="4.23"/>
+<vertex x="-6.81" y="3.64"/>
+<vertex x="-7.1" y="3"/>
+<vertex x="-7.35" y="2.33"/>
+<vertex x="-7.52" y="1.67"/>
+<vertex x="-7.62" y="1.15"/>
+</polygon>
+<wire x1="-7.46" y1="0.78" x2="-7.41" y2="1.15" width="0.2" layer="21"/>
+<wire x1="-7.41" y1="1.15" x2="-7.35" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-7.35" y1="1.5" x2="-7.26" y2="1.89" width="0.2" layer="21"/>
+<wire x1="-7.26" y1="1.89" x2="-7.11" y2="2.38" width="0.2" layer="21"/>
+<wire x1="-7.11" y1="2.38" x2="-6.92" y2="2.92" width="0.2" layer="21"/>
+<wire x1="-6.92" y1="2.92" x2="-6.49" y2="3.78" width="0.2" layer="21"/>
+<wire x1="-6.49" y1="3.78" x2="-6.01" y2="4.5" width="0.2" layer="21"/>
+<wire x1="-6.01" y1="4.5" x2="-5.46" y2="5.15" width="0.2" layer="21"/>
+<wire x1="-5.46" y1="5.15" x2="-4.75" y2="5.81" width="0.2" layer="21"/>
+<wire x1="-4.75" y1="5.81" x2="-4.01" y2="6.34" width="0.2" layer="21"/>
+<wire x1="-4.01" y1="6.34" x2="-3.15" y2="6.81" width="0.2" layer="21"/>
+<wire x1="-3.15" y1="6.81" x2="-2.21" y2="7.18" width="0.2" layer="21"/>
+<wire x1="-2.21" y1="7.18" x2="-1.24" y2="7.4" width="0.2" layer="21"/>
+<wire x1="-1.24" y1="7.4" x2="-0.2" y2="7.5" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="7.5" x2="0.77" y2="7.47" width="0.2" layer="21"/>
+<wire x1="0.77" y1="7.47" x2="1.64" y2="7.33" width="0.2" layer="21"/>
+<wire x1="1.64" y1="7.33" x2="2.45" y2="7.09" width="0.2" layer="21"/>
+<wire x1="2.45" y1="7.09" x2="3.22" y2="6.78" width="0.2" layer="21"/>
+<wire x1="3.22" y1="6.78" x2="3.95" y2="6.38" width="0.2" layer="21"/>
+<wire x1="3.95" y1="6.38" x2="4.79" y2="5.78" width="0.2" layer="21"/>
+<wire x1="4.79" y1="5.78" x2="5.31" y2="5.29" width="0.2" layer="21"/>
+<wire x1="5.31" y1="5.29" x2="5.88" y2="4.66" width="0.2" layer="21"/>
+<wire x1="5.88" y1="4.66" x2="6.32" y2="4.03" width="0.2" layer="21"/>
+<wire x1="6.32" y1="4.03" x2="6.75" y2="3.28" width="0.2" layer="21"/>
+<wire x1="6.75" y1="3.28" x2="7.01" y2="2.69" width="0.2" layer="21"/>
+<wire x1="7.01" y1="2.69" x2="7.26" y2="1.91" width="0.2" layer="21"/>
+<wire x1="7.26" y1="1.91" x2="7.41" y2="1.27" width="0.2" layer="21"/>
+<wire x1="7.41" y1="1.27" x2="7.46" y2="0.78" width="0.2" layer="21"/>
+<wire x1="-7.42" y1="-1.12" x2="-7.32" y2="-1.65" width="0.2" layer="21"/>
+<wire x1="-7.32" y1="-1.65" x2="-7.12" y2="-2.39" width="0.2" layer="21"/>
+<wire x1="-7.12" y1="-2.39" x2="-6.82" y2="-3.13" width="0.2" layer="21"/>
+<wire x1="-6.82" y1="-3.13" x2="-6.35" y2="-3.99" width="0.2" layer="21"/>
+<wire x1="-6.35" y1="-3.99" x2="-5.81" y2="-4.76" width="0.2" layer="21"/>
+<wire x1="-5.81" y1="-4.76" x2="-5.02" y2="-5.59" width="0.2" layer="21"/>
+<wire x1="-5.02" y1="-5.59" x2="-4.12" y2="-6.27" width="0.2" layer="21"/>
+<wire x1="-4.12" y1="-6.27" x2="-3.43" y2="-6.68" width="0.2" layer="21"/>
+<wire x1="-3.43" y1="-6.68" x2="-2.58" y2="-7.06" width="0.2" layer="21"/>
+<wire x1="-2.58" y1="-7.06" x2="-1.69" y2="-7.32" width="0.2" layer="21"/>
+<wire x1="-1.69" y1="-7.32" x2="-0.74" y2="-7.48" width="0.2" layer="21"/>
+<wire x1="-0.74" y1="-7.48" x2="0.58" y2="-7.48" width="0.2" layer="21"/>
+<wire x1="0.58" y1="-7.48" x2="1.65" y2="-7.33" width="0.2" layer="21"/>
+<wire x1="1.65" y1="-7.33" x2="2.47" y2="-7.08" width="0.2" layer="21"/>
+<wire x1="2.47" y1="-7.08" x2="3.16" y2="-6.81" width="0.2" layer="21"/>
+<wire x1="3.16" y1="-6.81" x2="4.01" y2="-6.34" width="0.2" layer="21"/>
+<wire x1="4.01" y1="-6.34" x2="4.91" y2="-5.68" width="0.2" layer="21"/>
+<wire x1="4.91" y1="-5.68" x2="5.79" y2="-4.82" width="0.2" layer="21"/>
+<wire x1="5.79" y1="-4.82" x2="6.44" y2="-3.85" width="0.2" layer="21"/>
+<wire x1="6.44" y1="-3.85" x2="7.05" y2="-2.58" width="0.2" layer="21"/>
+<wire x1="7.05" y1="-2.58" x2="7.4" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="7.4" y1="-1.27" x2="7.46" y2="-0.82" width="0.2" layer="21"/>
+</package>
+<package name="WE-FAMI_1012_0.8WIRE" urn="urn:adsk.eagle:footprint:12989784/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1012,0.8mm wire</description>
+<pad name="1" x="-4" y="0" drill="1.3"/>
+<pad name="2" x="4" y="0" drill="1.3"/>
+<text x="-0.3" y="6.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.14" y="-7.27" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="5.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="5.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.68" y="4.37"/>
+<vertex x="-3.42" y="4.56"/>
+<vertex x="-3.12" y="4.77"/>
+<vertex x="-2.74" y="5"/>
+<vertex x="-2.33" y="5.2"/>
+<vertex x="-2.01" y="5.35"/>
+<vertex x="-1.65" y="5.47"/>
+<vertex x="-1.14" y="5.59"/>
+<vertex x="-0.61" y="5.68"/>
+<vertex x="-0.03" y="5.72"/>
+<vertex x="0.59" y="5.68"/>
+<vertex x="1.26" y="5.56"/>
+<vertex x="1.97" y="5.36"/>
+<vertex x="2.45" y="5.16"/>
+<vertex x="2.93" y="4.89"/>
+<vertex x="3.31" y="4.65"/>
+<vertex x="3.6" y="4.43"/>
+<vertex x="3.9" y="4.19"/>
+<vertex x="4.19" y="3.87"/>
+<vertex x="4.54" y="3.45"/>
+<vertex x="4.88" y="2.96"/>
+<vertex x="5.13" y="2.52"/>
+<vertex x="5.38" y="1.9"/>
+<vertex x="5.53" y="1.43"/>
+<vertex x="5.65" y="0.83"/>
+<vertex x="5.71" y="0.28"/>
+<vertex x="5.7" y="-0.32"/>
+<vertex x="5.64" y="-0.76"/>
+<vertex x="5.55" y="-1.22"/>
+<vertex x="5.37" y="-1.93"/>
+<vertex x="5.16" y="-2.44"/>
+<vertex x="4.9" y="-2.92"/>
+<vertex x="4.61" y="-3.35"/>
+<vertex x="4.28" y="-3.76"/>
+<vertex x="3.97" y="-4.09"/>
+<vertex x="3.55" y="-4.47"/>
+<vertex x="2.92" y="-4.9"/>
+<vertex x="2.3" y="-5.22"/>
+<vertex x="1.61" y="-5.48"/>
+<vertex x="0.72" y="-5.65"/>
+<vertex x="-0.04" y="-5.69"/>
+<vertex x="-1.34" y="-5.55"/>
+<vertex x="-2.06" y="-5.33"/>
+<vertex x="-2.73" y="-5"/>
+<vertex x="-3.22" y="-4.71"/>
+<vertex x="-3.89" y="-4.19"/>
+<vertex x="-4.25" y="-3.81"/>
+<vertex x="-4.63" y="-3.31"/>
+<vertex x="-4.94" y="-2.86"/>
+<vertex x="-5.28" y="-2.17"/>
+<vertex x="-5.53" y="-1.42"/>
+<vertex x="-5.62" y="-0.99"/>
+<vertex x="-5.7" y="-0.36"/>
+<vertex x="-5.7" y="0.49"/>
+<vertex x="-5.56" y="1.28"/>
+<vertex x="-5.28" y="2.18"/>
+<vertex x="-4.97" y="2.8"/>
+<vertex x="-4.58" y="3.4"/>
+<vertex x="-4.2" y="3.86"/>
+<vertex x="-3.86" y="4.18"/>
+<vertex x="-3.69" y="4.36"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1280_0.55WIRE" urn="urn:adsk.eagle:footprint:12989776/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.55 mm wire</description>
+<pad name="1" x="-5" y="0" drill="1.05"/>
+<pad name="2" x="5" y="0" drill="1.05"/>
+<text x="-0.11" y="7.29" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.81" y="-8.36" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="6.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="6.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-0.68" y="6.67"/>
+<vertex x="-0.35" y="6.69"/>
+<vertex x="0.36" y="6.69"/>
+<vertex x="0.87" y="6.64"/>
+<vertex x="1.3" y="6.57"/>
+<vertex x="1.76" y="6.47"/>
+<vertex x="2.22" y="6.32"/>
+<vertex x="2.64" y="6.16"/>
+<vertex x="3.13" y="5.93"/>
+<vertex x="3.6" y="5.65"/>
+<vertex x="4.15" y="5.26"/>
+<vertex x="4.71" y="4.76"/>
+<vertex x="5.03" y="4.43"/>
+<vertex x="5.39" y="3.99"/>
+<vertex x="5.72" y="3.5"/>
+<vertex x="6.02" y="2.94"/>
+<vertex x="6.2" y="2.55"/>
+<vertex x="6.37" y="2.06"/>
+<vertex x="6.56" y="1.44"/>
+<vertex x="6.67" y="0.67"/>
+<vertex x="6.71" y="-0.02"/>
+<vertex x="6.67" y="-0.67"/>
+<vertex x="6.58" y="-1.27"/>
+<vertex x="6.44" y="-1.86"/>
+<vertex x="6.29" y="-2.32"/>
+<vertex x="6.06" y="-2.86"/>
+<vertex x="5.76" y="-3.42"/>
+<vertex x="5.42" y="-3.93"/>
+<vertex x="4.98" y="-4.47"/>
+<vertex x="4.52" y="-4.95"/>
+<vertex x="4.1" y="-5.32"/>
+<vertex x="3.52" y="-5.71"/>
+<vertex x="2.94" y="-6.02"/>
+<vertex x="2.3" y="-6.29"/>
+<vertex x="1.65" y="-6.5"/>
+<vertex x="1.09" y="-6.61"/>
+<vertex x="0.55" y="-6.68"/>
+<vertex x="-0.15" y="-6.7"/>
+<vertex x="-0.78" y="-6.65"/>
+<vertex x="-1.42" y="-6.55"/>
+<vertex x="-1.89" y="-6.43"/>
+<vertex x="-2.6" y="-6.19"/>
+<vertex x="-3.25" y="-5.87"/>
+<vertex x="-3.86" y="-5.48"/>
+<vertex x="-4.24" y="-5.18"/>
+<vertex x="-4.69" y="-4.78"/>
+<vertex x="-5.17" y="-4.28"/>
+<vertex x="-5.62" y="-3.65"/>
+<vertex x="-5.89" y="-3.2"/>
+<vertex x="-6.07" y="-2.83"/>
+<vertex x="-6.32" y="-2.25"/>
+<vertex x="-6.52" y="-1.53"/>
+<vertex x="-6.69" y="-0.63"/>
+<vertex x="-6.7" y="0.4"/>
+<vertex x="-6.61" y="1.17"/>
+<vertex x="-6.46" y="1.82"/>
+<vertex x="-6.22" y="2.53"/>
+<vertex x="-5.85" y="3.26"/>
+<vertex x="-5.48" y="3.84"/>
+<vertex x="-5.01" y="4.46"/>
+<vertex x="-4.33" y="5.12"/>
+<vertex x="-3.68" y="5.6"/>
+<vertex x="-2.97" y="6.02"/>
+<vertex x="-2.12" y="6.35"/>
+<vertex x="-1.49" y="6.53"/>
+<vertex x="-0.66" y="6.67"/>
+</polygon>
+</package>
+<package name="WE-FAMI_8010_0.5WIRE" urn="urn:adsk.eagle:footprint:12989785/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8010,0.5mm wire</description>
+<pad name="1" x="-3.25" y="0" drill="1"/>
+<pad name="2" x="3.25" y="0" drill="1"/>
+<text x="-0.21" y="5.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.31" y="-6.42" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="4.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="4.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.55" y="1.218"/>
+<vertex x="-4.438" y="1.582"/>
+<vertex x="-4.242" y="2.016"/>
+<vertex x="-3.99" y="2.492"/>
+<vertex x="-3.752" y="2.842"/>
+<vertex x="-3.472" y="3.164"/>
+<vertex x="-3.136" y="3.5"/>
+<vertex x="-2.87" y="3.724"/>
+<vertex x="-2.52" y="3.962"/>
+<vertex x="-2.142" y="4.186"/>
+<vertex x="-1.778" y="4.354"/>
+<vertex x="-1.33" y="4.508"/>
+<vertex x="-0.924" y="4.606"/>
+<vertex x="-0.532" y="4.676"/>
+<vertex x="-0.07" y="4.704"/>
+<vertex x="0.448" y="4.676"/>
+<vertex x="0.91" y="4.62"/>
+<vertex x="1.442" y="4.48"/>
+<vertex x="1.904" y="4.298"/>
+<vertex x="2.394" y="4.046"/>
+<vertex x="2.8" y="3.78"/>
+<vertex x="3.122" y="3.514"/>
+<vertex x="3.43" y="3.206"/>
+<vertex x="3.78" y="2.814"/>
+<vertex x="4.074" y="2.352"/>
+<vertex x="4.242" y="2.03"/>
+<vertex x="4.396" y="1.666"/>
+<vertex x="4.508" y="1.358"/>
+<vertex x="4.634" y="0.812"/>
+<vertex x="4.69" y="0.28"/>
+<vertex x="4.69" y="-0.266"/>
+<vertex x="4.634" y="-0.77"/>
+<vertex x="4.508" y="-1.344"/>
+<vertex x="4.396" y="-1.666"/>
+<vertex x="4.214" y="-2.1"/>
+<vertex x="3.99" y="-2.478"/>
+<vertex x="3.724" y="-2.856"/>
+<vertex x="3.43" y="-3.22"/>
+<vertex x="3.08" y="-3.57"/>
+<vertex x="2.548" y="-3.948"/>
+<vertex x="2.002" y="-4.256"/>
+<vertex x="1.414" y="-4.494"/>
+<vertex x="0.77" y="-4.648"/>
+<vertex x="0.168" y="-4.704"/>
+<vertex x="-0.434" y="-4.676"/>
+<vertex x="-1.05" y="-4.578"/>
+<vertex x="-1.666" y="-4.41"/>
+<vertex x="-2.268" y="-4.13"/>
+<vertex x="-2.786" y="-3.794"/>
+<vertex x="-3.094" y="-3.556"/>
+<vertex x="-3.444" y="-3.22"/>
+<vertex x="-3.724" y="-2.884"/>
+<vertex x="-3.976" y="-2.534"/>
+<vertex x="-4.214" y="-2.086"/>
+<vertex x="-4.522" y="-1.344"/>
+<vertex x="-4.648" y="-0.714"/>
+<vertex x="-4.718" y="-0.084"/>
+<vertex x="-4.676" y="0.518"/>
+<vertex x="-4.564" y="1.176"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1280_0.65WIRE" urn="urn:adsk.eagle:footprint:12989778/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.65mm wire</description>
+<pad name="1" x="-5" y="0" drill="1.15"/>
+<pad name="2" x="5" y="0" drill="1.15"/>
+<text x="0.09" y="7.29" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.41" y="-8.36" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="6.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="6.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-0.68" y="6.67"/>
+<vertex x="-0.35" y="6.69"/>
+<vertex x="0.36" y="6.69"/>
+<vertex x="0.87" y="6.64"/>
+<vertex x="1.3" y="6.57"/>
+<vertex x="1.76" y="6.47"/>
+<vertex x="2.22" y="6.32"/>
+<vertex x="2.64" y="6.16"/>
+<vertex x="3.13" y="5.93"/>
+<vertex x="3.6" y="5.65"/>
+<vertex x="4.15" y="5.26"/>
+<vertex x="4.71" y="4.76"/>
+<vertex x="5.03" y="4.43"/>
+<vertex x="5.39" y="3.99"/>
+<vertex x="5.72" y="3.5"/>
+<vertex x="6.02" y="2.94"/>
+<vertex x="6.2" y="2.55"/>
+<vertex x="6.37" y="2.06"/>
+<vertex x="6.56" y="1.44"/>
+<vertex x="6.67" y="0.67"/>
+<vertex x="6.71" y="-0.02"/>
+<vertex x="6.67" y="-0.67"/>
+<vertex x="6.58" y="-1.27"/>
+<vertex x="6.44" y="-1.86"/>
+<vertex x="6.29" y="-2.32"/>
+<vertex x="6.06" y="-2.86"/>
+<vertex x="5.76" y="-3.42"/>
+<vertex x="5.42" y="-3.93"/>
+<vertex x="4.98" y="-4.47"/>
+<vertex x="4.52" y="-4.95"/>
+<vertex x="4.1" y="-5.32"/>
+<vertex x="3.52" y="-5.71"/>
+<vertex x="2.94" y="-6.02"/>
+<vertex x="2.3" y="-6.29"/>
+<vertex x="1.65" y="-6.5"/>
+<vertex x="1.09" y="-6.61"/>
+<vertex x="0.55" y="-6.68"/>
+<vertex x="-0.15" y="-6.7"/>
+<vertex x="-0.78" y="-6.65"/>
+<vertex x="-1.42" y="-6.55"/>
+<vertex x="-1.89" y="-6.43"/>
+<vertex x="-2.6" y="-6.19"/>
+<vertex x="-3.25" y="-5.87"/>
+<vertex x="-3.86" y="-5.48"/>
+<vertex x="-4.24" y="-5.18"/>
+<vertex x="-4.69" y="-4.78"/>
+<vertex x="-5.17" y="-4.28"/>
+<vertex x="-5.62" y="-3.65"/>
+<vertex x="-5.89" y="-3.2"/>
+<vertex x="-6.07" y="-2.83"/>
+<vertex x="-6.32" y="-2.25"/>
+<vertex x="-6.52" y="-1.53"/>
+<vertex x="-6.69" y="-0.63"/>
+<vertex x="-6.7" y="0.4"/>
+<vertex x="-6.61" y="1.17"/>
+<vertex x="-6.46" y="1.82"/>
+<vertex x="-6.22" y="2.53"/>
+<vertex x="-5.85" y="3.26"/>
+<vertex x="-5.48" y="3.84"/>
+<vertex x="-5.01" y="4.46"/>
+<vertex x="-4.33" y="5.12"/>
+<vertex x="-3.68" y="5.6"/>
+<vertex x="-2.97" y="6.02"/>
+<vertex x="-2.12" y="6.35"/>
+<vertex x="-1.49" y="6.53"/>
+<vertex x="-0.66" y="6.67"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1410_1.1WIRE" urn="urn:adsk.eagle:footprint:12989775/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1410,1.1mm wire</description>
+<pad name="1" x="-6" y="0" drill="1.6"/>
+<pad name="2" x="6" y="0" drill="1.6"/>
+<circle x="0" y="0" radius="7.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="7.5" width="0.2" layer="21"/>
+<text x="-0.41" y="8.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.71" y="-9.36" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.69" y="0.43"/>
+<vertex x="-7.7" y="0.14"/>
+<vertex x="-7.7" y="-0.15"/>
+<vertex x="-7.69" y="-0.55"/>
+<vertex x="-7.65" y="-0.97"/>
+<vertex x="-7.59" y="-1.36"/>
+<vertex x="-7.49" y="-1.81"/>
+<vertex x="-7.37" y="-2.27"/>
+<vertex x="-7.21" y="-2.71"/>
+<vertex x="-6.94" y="-3.36"/>
+<vertex x="-6.7" y="-3.82"/>
+<vertex x="-6.3" y="-4.43"/>
+<vertex x="-5.95" y="-4.89"/>
+<vertex x="-5.48" y="-5.42"/>
+<vertex x="-5.18" y="-5.7"/>
+<vertex x="-4.87" y="-5.96"/>
+<vertex x="-4.46" y="-6.28"/>
+<vertex x="-4" y="-6.59"/>
+<vertex x="-3.46" y="-6.88"/>
+<vertex x="-2.99" y="-7.1"/>
+<vertex x="-2.53" y="-7.28"/>
+<vertex x="-2.17" y="-7.39"/>
+<vertex x="-1.77" y="-7.5"/>
+<vertex x="-1.31" y="-7.59"/>
+<vertex x="-0.92" y="-7.65"/>
+<vertex x="-0.17" y="-7.7"/>
+<vertex x="0.42" y="-7.69"/>
+<vertex x="0.98" y="-7.64"/>
+<vertex x="1.57" y="-7.54"/>
+<vertex x="2.08" y="-7.41"/>
+<vertex x="2.58" y="-7.26"/>
+<vertex x="3" y="-7.09"/>
+<vertex x="3.55" y="-6.83"/>
+<vertex x="4" y="-6.59"/>
+<vertex x="4.39" y="-6.33"/>
+<vertex x="4.8" y="-6.02"/>
+<vertex x="5.25" y="-5.64"/>
+<vertex x="5.7" y="-5.2"/>
+<vertex x="6.17" y="-4.61"/>
+<vertex x="6.86" y="-3.52"/>
+<vertex x="7.18" y="-2.74"/>
+<vertex x="7.45" y="-1.97"/>
+<vertex x="7.6" y="-1.28"/>
+<vertex x="7.68" y="-0.58"/>
+<vertex x="7.7" y="0.22"/>
+<vertex x="7.66" y="0.94"/>
+<vertex x="7.5" y="1.76"/>
+<vertex x="7.34" y="2.35"/>
+<vertex x="7.14" y="2.91"/>
+<vertex x="6.74" y="3.71"/>
+<vertex x="6.32" y="4.43"/>
+<vertex x="5.85" y="5.02"/>
+<vertex x="5.25" y="5.65"/>
+<vertex x="4.82" y="6"/>
+<vertex x="4.16" y="6.47"/>
+<vertex x="3.65" y="6.78"/>
+<vertex x="3.06" y="7.07"/>
+<vertex x="2.03" y="7.44"/>
+<vertex x="1.23" y="7.61"/>
+<vertex x="0.33" y="7.7"/>
+<vertex x="-0.75" y="7.66"/>
+<vertex x="-1.66" y="7.53"/>
+<vertex x="-2.51" y="7.28"/>
+<vertex x="-3.51" y="6.86"/>
+<vertex x="-4.41" y="6.33"/>
+<vertex x="-5.19" y="5.7"/>
+<vertex x="-5.85" y="5"/>
+<vertex x="-6.44" y="4.23"/>
+<vertex x="-6.81" y="3.64"/>
+<vertex x="-7.1" y="3"/>
+<vertex x="-7.35" y="2.33"/>
+<vertex x="-7.52" y="1.67"/>
+<vertex x="-7.62" y="1.15"/>
+</polygon>
+</package>
+<package name="WE-FAMI_8010_0.65WIRE" urn="urn:adsk.eagle:footprint:12989770/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8010,0.65 mm wire</description>
+<pad name="1" x="-3.25" y="0" drill="1.15"/>
+<pad name="2" x="3.25" y="0" drill="1.15"/>
+<text x="-0.11" y="5.35" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.51" y="-6.42" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="4.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="4.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.55" y="1.218"/>
+<vertex x="-4.438" y="1.582"/>
+<vertex x="-4.242" y="2.016"/>
+<vertex x="-3.99" y="2.492"/>
+<vertex x="-3.752" y="2.842"/>
+<vertex x="-3.472" y="3.164"/>
+<vertex x="-3.136" y="3.5"/>
+<vertex x="-2.87" y="3.724"/>
+<vertex x="-2.52" y="3.962"/>
+<vertex x="-2.142" y="4.186"/>
+<vertex x="-1.778" y="4.354"/>
+<vertex x="-1.33" y="4.508"/>
+<vertex x="-0.924" y="4.606"/>
+<vertex x="-0.532" y="4.676"/>
+<vertex x="-0.07" y="4.704"/>
+<vertex x="0.448" y="4.676"/>
+<vertex x="0.91" y="4.62"/>
+<vertex x="1.442" y="4.48"/>
+<vertex x="1.904" y="4.298"/>
+<vertex x="2.394" y="4.046"/>
+<vertex x="2.8" y="3.78"/>
+<vertex x="3.122" y="3.514"/>
+<vertex x="3.43" y="3.206"/>
+<vertex x="3.78" y="2.814"/>
+<vertex x="4.074" y="2.352"/>
+<vertex x="4.242" y="2.03"/>
+<vertex x="4.396" y="1.666"/>
+<vertex x="4.508" y="1.358"/>
+<vertex x="4.634" y="0.812"/>
+<vertex x="4.69" y="0.28"/>
+<vertex x="4.69" y="-0.266"/>
+<vertex x="4.634" y="-0.77"/>
+<vertex x="4.508" y="-1.344"/>
+<vertex x="4.396" y="-1.666"/>
+<vertex x="4.214" y="-2.1"/>
+<vertex x="3.99" y="-2.478"/>
+<vertex x="3.724" y="-2.856"/>
+<vertex x="3.43" y="-3.22"/>
+<vertex x="3.08" y="-3.57"/>
+<vertex x="2.548" y="-3.948"/>
+<vertex x="2.002" y="-4.256"/>
+<vertex x="1.414" y="-4.494"/>
+<vertex x="0.77" y="-4.648"/>
+<vertex x="0.168" y="-4.704"/>
+<vertex x="-0.434" y="-4.676"/>
+<vertex x="-1.05" y="-4.578"/>
+<vertex x="-1.666" y="-4.41"/>
+<vertex x="-2.268" y="-4.13"/>
+<vertex x="-2.786" y="-3.794"/>
+<vertex x="-3.094" y="-3.556"/>
+<vertex x="-3.444" y="-3.22"/>
+<vertex x="-3.724" y="-2.884"/>
+<vertex x="-3.976" y="-2.534"/>
+<vertex x="-4.214" y="-2.086"/>
+<vertex x="-4.522" y="-1.344"/>
+<vertex x="-4.648" y="-0.714"/>
+<vertex x="-4.718" y="-0.084"/>
+<vertex x="-4.676" y="0.518"/>
+<vertex x="-4.564" y="1.176"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1410_1.0WIRE" urn="urn:adsk.eagle:footprint:12989774/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1410,1.0mm wire</description>
+<pad name="1" x="-6" y="0" drill="1.5"/>
+<pad name="2" x="6" y="0" drill="1.5"/>
+<text x="-0.01" y="8.432" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.31" y="-9.418" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="7.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="7.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.69" y="0.43"/>
+<vertex x="-7.7" y="0.14"/>
+<vertex x="-7.7" y="-0.15"/>
+<vertex x="-7.69" y="-0.55"/>
+<vertex x="-7.65" y="-0.97"/>
+<vertex x="-7.59" y="-1.36"/>
+<vertex x="-7.49" y="-1.81"/>
+<vertex x="-7.37" y="-2.27"/>
+<vertex x="-7.21" y="-2.71"/>
+<vertex x="-6.94" y="-3.36"/>
+<vertex x="-6.7" y="-3.82"/>
+<vertex x="-6.3" y="-4.43"/>
+<vertex x="-5.95" y="-4.89"/>
+<vertex x="-5.48" y="-5.42"/>
+<vertex x="-5.18" y="-5.7"/>
+<vertex x="-4.87" y="-5.96"/>
+<vertex x="-4.46" y="-6.28"/>
+<vertex x="-4" y="-6.59"/>
+<vertex x="-3.46" y="-6.88"/>
+<vertex x="-2.99" y="-7.1"/>
+<vertex x="-2.53" y="-7.28"/>
+<vertex x="-2.17" y="-7.39"/>
+<vertex x="-1.77" y="-7.5"/>
+<vertex x="-1.31" y="-7.59"/>
+<vertex x="-0.92" y="-7.65"/>
+<vertex x="-0.17" y="-7.7"/>
+<vertex x="0.42" y="-7.69"/>
+<vertex x="0.98" y="-7.64"/>
+<vertex x="1.57" y="-7.54"/>
+<vertex x="2.08" y="-7.41"/>
+<vertex x="2.58" y="-7.26"/>
+<vertex x="3" y="-7.09"/>
+<vertex x="3.55" y="-6.83"/>
+<vertex x="4" y="-6.59"/>
+<vertex x="4.39" y="-6.33"/>
+<vertex x="4.8" y="-6.02"/>
+<vertex x="5.25" y="-5.64"/>
+<vertex x="5.7" y="-5.2"/>
+<vertex x="6.17" y="-4.61"/>
+<vertex x="6.86" y="-3.52"/>
+<vertex x="7.18" y="-2.74"/>
+<vertex x="7.45" y="-1.97"/>
+<vertex x="7.6" y="-1.28"/>
+<vertex x="7.68" y="-0.58"/>
+<vertex x="7.7" y="0.22"/>
+<vertex x="7.66" y="0.94"/>
+<vertex x="7.5" y="1.76"/>
+<vertex x="7.34" y="2.35"/>
+<vertex x="7.14" y="2.91"/>
+<vertex x="6.74" y="3.71"/>
+<vertex x="6.32" y="4.43"/>
+<vertex x="5.85" y="5.02"/>
+<vertex x="5.25" y="5.65"/>
+<vertex x="4.82" y="6"/>
+<vertex x="4.16" y="6.47"/>
+<vertex x="3.65" y="6.78"/>
+<vertex x="3.06" y="7.07"/>
+<vertex x="2.03" y="7.44"/>
+<vertex x="1.23" y="7.61"/>
+<vertex x="0.33" y="7.7"/>
+<vertex x="-0.75" y="7.66"/>
+<vertex x="-1.66" y="7.53"/>
+<vertex x="-2.51" y="7.28"/>
+<vertex x="-3.51" y="6.86"/>
+<vertex x="-4.41" y="6.33"/>
+<vertex x="-5.19" y="5.7"/>
+<vertex x="-5.85" y="5"/>
+<vertex x="-6.44" y="4.23"/>
+<vertex x="-6.81" y="3.64"/>
+<vertex x="-7.1" y="3"/>
+<vertex x="-7.35" y="2.33"/>
+<vertex x="-7.52" y="1.67"/>
+<vertex x="-7.62" y="1.15"/>
+</polygon>
+</package>
+<package name="WE-FAMI_8010_0.55WIRE" urn="urn:adsk.eagle:footprint:12989769/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8010,0.55mm wire</description>
+<pad name="1" x="-3.25" y="0" drill="1.05"/>
+<pad name="2" x="3.25" y="0" drill="1.05"/>
+<text x="-0.01" y="5.15" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.61" y="-6.32" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="4.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="4.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.55" y="1.218"/>
+<vertex x="-4.438" y="1.582"/>
+<vertex x="-4.242" y="2.016"/>
+<vertex x="-3.99" y="2.492"/>
+<vertex x="-3.752" y="2.842"/>
+<vertex x="-3.472" y="3.164"/>
+<vertex x="-3.136" y="3.5"/>
+<vertex x="-2.87" y="3.724"/>
+<vertex x="-2.52" y="3.962"/>
+<vertex x="-2.142" y="4.186"/>
+<vertex x="-1.778" y="4.354"/>
+<vertex x="-1.33" y="4.508"/>
+<vertex x="-0.924" y="4.606"/>
+<vertex x="-0.532" y="4.676"/>
+<vertex x="-0.07" y="4.704"/>
+<vertex x="0.448" y="4.676"/>
+<vertex x="0.91" y="4.62"/>
+<vertex x="1.442" y="4.48"/>
+<vertex x="1.904" y="4.298"/>
+<vertex x="2.394" y="4.046"/>
+<vertex x="2.8" y="3.78"/>
+<vertex x="3.122" y="3.514"/>
+<vertex x="3.43" y="3.206"/>
+<vertex x="3.78" y="2.814"/>
+<vertex x="4.074" y="2.352"/>
+<vertex x="4.242" y="2.03"/>
+<vertex x="4.396" y="1.666"/>
+<vertex x="4.508" y="1.358"/>
+<vertex x="4.634" y="0.812"/>
+<vertex x="4.69" y="0.28"/>
+<vertex x="4.69" y="-0.266"/>
+<vertex x="4.634" y="-0.77"/>
+<vertex x="4.508" y="-1.344"/>
+<vertex x="4.396" y="-1.666"/>
+<vertex x="4.214" y="-2.1"/>
+<vertex x="3.99" y="-2.478"/>
+<vertex x="3.724" y="-2.856"/>
+<vertex x="3.43" y="-3.22"/>
+<vertex x="3.08" y="-3.57"/>
+<vertex x="2.548" y="-3.948"/>
+<vertex x="2.002" y="-4.256"/>
+<vertex x="1.414" y="-4.494"/>
+<vertex x="0.77" y="-4.648"/>
+<vertex x="0.168" y="-4.704"/>
+<vertex x="-0.434" y="-4.676"/>
+<vertex x="-1.05" y="-4.578"/>
+<vertex x="-1.666" y="-4.41"/>
+<vertex x="-2.268" y="-4.13"/>
+<vertex x="-2.786" y="-3.794"/>
+<vertex x="-3.094" y="-3.556"/>
+<vertex x="-3.444" y="-3.22"/>
+<vertex x="-3.724" y="-2.884"/>
+<vertex x="-3.976" y="-2.534"/>
+<vertex x="-4.214" y="-2.086"/>
+<vertex x="-4.522" y="-1.344"/>
+<vertex x="-4.648" y="-0.714"/>
+<vertex x="-4.718" y="-0.084"/>
+<vertex x="-4.676" y="0.518"/>
+<vertex x="-4.564" y="1.176"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1410_0.9WIRE" urn="urn:adsk.eagle:footprint:12989773/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1410,0.9mm wire</description>
+<pad name="1" x="-6" y="0" drill="1.4"/>
+<pad name="2" x="6" y="0" drill="1.4"/>
+<text x="-0.51" y="8.332" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.51" y="-9.318" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="7.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="7.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.69" y="0.43"/>
+<vertex x="-7.7" y="0.14"/>
+<vertex x="-7.7" y="-0.15"/>
+<vertex x="-7.69" y="-0.55"/>
+<vertex x="-7.65" y="-0.97"/>
+<vertex x="-7.59" y="-1.36"/>
+<vertex x="-7.49" y="-1.81"/>
+<vertex x="-7.37" y="-2.27"/>
+<vertex x="-7.21" y="-2.71"/>
+<vertex x="-6.94" y="-3.36"/>
+<vertex x="-6.7" y="-3.82"/>
+<vertex x="-6.3" y="-4.43"/>
+<vertex x="-5.95" y="-4.89"/>
+<vertex x="-5.48" y="-5.42"/>
+<vertex x="-5.18" y="-5.7"/>
+<vertex x="-4.87" y="-5.96"/>
+<vertex x="-4.46" y="-6.28"/>
+<vertex x="-4" y="-6.59"/>
+<vertex x="-3.46" y="-6.88"/>
+<vertex x="-2.99" y="-7.1"/>
+<vertex x="-2.53" y="-7.28"/>
+<vertex x="-2.17" y="-7.39"/>
+<vertex x="-1.77" y="-7.5"/>
+<vertex x="-1.31" y="-7.59"/>
+<vertex x="-0.92" y="-7.65"/>
+<vertex x="-0.17" y="-7.7"/>
+<vertex x="0.42" y="-7.69"/>
+<vertex x="0.98" y="-7.64"/>
+<vertex x="1.57" y="-7.54"/>
+<vertex x="2.08" y="-7.41"/>
+<vertex x="2.58" y="-7.26"/>
+<vertex x="3" y="-7.09"/>
+<vertex x="3.55" y="-6.83"/>
+<vertex x="4" y="-6.59"/>
+<vertex x="4.39" y="-6.33"/>
+<vertex x="4.8" y="-6.02"/>
+<vertex x="5.25" y="-5.64"/>
+<vertex x="5.7" y="-5.2"/>
+<vertex x="6.17" y="-4.61"/>
+<vertex x="6.86" y="-3.52"/>
+<vertex x="7.18" y="-2.74"/>
+<vertex x="7.45" y="-1.97"/>
+<vertex x="7.6" y="-1.28"/>
+<vertex x="7.68" y="-0.58"/>
+<vertex x="7.7" y="0.22"/>
+<vertex x="7.66" y="0.94"/>
+<vertex x="7.5" y="1.76"/>
+<vertex x="7.34" y="2.35"/>
+<vertex x="7.14" y="2.91"/>
+<vertex x="6.74" y="3.71"/>
+<vertex x="6.32" y="4.43"/>
+<vertex x="5.85" y="5.02"/>
+<vertex x="5.25" y="5.65"/>
+<vertex x="4.82" y="6"/>
+<vertex x="4.16" y="6.47"/>
+<vertex x="3.65" y="6.78"/>
+<vertex x="3.06" y="7.07"/>
+<vertex x="2.03" y="7.44"/>
+<vertex x="1.23" y="7.61"/>
+<vertex x="0.33" y="7.7"/>
+<vertex x="-0.75" y="7.66"/>
+<vertex x="-1.66" y="7.53"/>
+<vertex x="-2.51" y="7.28"/>
+<vertex x="-3.51" y="6.86"/>
+<vertex x="-4.41" y="6.33"/>
+<vertex x="-5.19" y="5.7"/>
+<vertex x="-5.85" y="5"/>
+<vertex x="-6.44" y="4.23"/>
+<vertex x="-6.81" y="3.64"/>
+<vertex x="-7.1" y="3"/>
+<vertex x="-7.35" y="2.33"/>
+<vertex x="-7.52" y="1.67"/>
+<vertex x="-7.62" y="1.15"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1215_1.0WRIE" urn="urn:adsk.eagle:footprint:12989782/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1215,1.0mm wire</description>
+<pad name="1" x="-5" y="0" drill="1.5"/>
+<pad name="2" x="5" y="0" drill="1.5"/>
+<circle x="0" y="0" radius="6.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="6.5" width="0.2" layer="21"/>
+<text x="0.29" y="7.29" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.41" y="-8.46" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-0.68" y="6.67"/>
+<vertex x="-0.35" y="6.69"/>
+<vertex x="0.36" y="6.69"/>
+<vertex x="0.87" y="6.64"/>
+<vertex x="1.3" y="6.57"/>
+<vertex x="1.76" y="6.47"/>
+<vertex x="2.22" y="6.32"/>
+<vertex x="2.64" y="6.16"/>
+<vertex x="3.13" y="5.93"/>
+<vertex x="3.6" y="5.65"/>
+<vertex x="4.15" y="5.26"/>
+<vertex x="4.71" y="4.76"/>
+<vertex x="5.03" y="4.43"/>
+<vertex x="5.39" y="3.99"/>
+<vertex x="5.72" y="3.5"/>
+<vertex x="6.02" y="2.94"/>
+<vertex x="6.2" y="2.55"/>
+<vertex x="6.37" y="2.06"/>
+<vertex x="6.56" y="1.44"/>
+<vertex x="6.67" y="0.67"/>
+<vertex x="6.71" y="-0.02"/>
+<vertex x="6.67" y="-0.67"/>
+<vertex x="6.58" y="-1.27"/>
+<vertex x="6.44" y="-1.86"/>
+<vertex x="6.29" y="-2.32"/>
+<vertex x="6.06" y="-2.86"/>
+<vertex x="5.76" y="-3.42"/>
+<vertex x="5.42" y="-3.93"/>
+<vertex x="4.98" y="-4.47"/>
+<vertex x="4.52" y="-4.95"/>
+<vertex x="4.1" y="-5.32"/>
+<vertex x="3.52" y="-5.71"/>
+<vertex x="2.94" y="-6.02"/>
+<vertex x="2.3" y="-6.29"/>
+<vertex x="1.65" y="-6.5"/>
+<vertex x="1.09" y="-6.61"/>
+<vertex x="0.55" y="-6.68"/>
+<vertex x="-0.15" y="-6.7"/>
+<vertex x="-0.78" y="-6.65"/>
+<vertex x="-1.42" y="-6.55"/>
+<vertex x="-1.89" y="-6.43"/>
+<vertex x="-2.6" y="-6.19"/>
+<vertex x="-3.25" y="-5.87"/>
+<vertex x="-3.86" y="-5.48"/>
+<vertex x="-4.24" y="-5.18"/>
+<vertex x="-4.69" y="-4.78"/>
+<vertex x="-5.17" y="-4.28"/>
+<vertex x="-5.62" y="-3.65"/>
+<vertex x="-5.89" y="-3.2"/>
+<vertex x="-6.07" y="-2.83"/>
+<vertex x="-6.32" y="-2.25"/>
+<vertex x="-6.52" y="-1.53"/>
+<vertex x="-6.69" y="-0.63"/>
+<vertex x="-6.7" y="0.4"/>
+<vertex x="-6.61" y="1.17"/>
+<vertex x="-6.46" y="1.82"/>
+<vertex x="-6.22" y="2.53"/>
+<vertex x="-5.85" y="3.26"/>
+<vertex x="-5.48" y="3.84"/>
+<vertex x="-5.01" y="4.46"/>
+<vertex x="-4.33" y="5.12"/>
+<vertex x="-3.68" y="5.6"/>
+<vertex x="-2.97" y="6.02"/>
+<vertex x="-2.12" y="6.35"/>
+<vertex x="-1.49" y="6.53"/>
+<vertex x="-0.66" y="6.67"/>
+</polygon>
+</package>
+<package name="WE-FAMI_1215_0.9WIRE" urn="urn:adsk.eagle:footprint:12989781/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1215,0.9 mm wire</description>
+<pad name="1" x="-5" y="0" drill="1.4"/>
+<pad name="2" x="5" y="0" drill="1.4"/>
+<text x="-0.11" y="7.49" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.61" y="-8.46" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="6.4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="6.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-0.68" y="6.67"/>
+<vertex x="-0.35" y="6.69"/>
+<vertex x="0.36" y="6.69"/>
+<vertex x="0.87" y="6.64"/>
+<vertex x="1.3" y="6.57"/>
+<vertex x="1.76" y="6.47"/>
+<vertex x="2.22" y="6.32"/>
+<vertex x="2.64" y="6.16"/>
+<vertex x="3.13" y="5.93"/>
+<vertex x="3.6" y="5.65"/>
+<vertex x="4.15" y="5.26"/>
+<vertex x="4.71" y="4.76"/>
+<vertex x="5.03" y="4.43"/>
+<vertex x="5.39" y="3.99"/>
+<vertex x="5.72" y="3.5"/>
+<vertex x="6.02" y="2.94"/>
+<vertex x="6.2" y="2.55"/>
+<vertex x="6.37" y="2.06"/>
+<vertex x="6.56" y="1.44"/>
+<vertex x="6.67" y="0.67"/>
+<vertex x="6.71" y="-0.02"/>
+<vertex x="6.67" y="-0.67"/>
+<vertex x="6.58" y="-1.27"/>
+<vertex x="6.44" y="-1.86"/>
+<vertex x="6.29" y="-2.32"/>
+<vertex x="6.06" y="-2.86"/>
+<vertex x="5.76" y="-3.42"/>
+<vertex x="5.42" y="-3.93"/>
+<vertex x="4.98" y="-4.47"/>
+<vertex x="4.52" y="-4.95"/>
+<vertex x="4.1" y="-5.32"/>
+<vertex x="3.52" y="-5.71"/>
+<vertex x="2.94" y="-6.02"/>
+<vertex x="2.3" y="-6.29"/>
+<vertex x="1.65" y="-6.5"/>
+<vertex x="1.09" y="-6.61"/>
+<vertex x="0.55" y="-6.68"/>
+<vertex x="-0.15" y="-6.7"/>
+<vertex x="-0.78" y="-6.65"/>
+<vertex x="-1.42" y="-6.55"/>
+<vertex x="-1.89" y="-6.43"/>
+<vertex x="-2.6" y="-6.19"/>
+<vertex x="-3.25" y="-5.87"/>
+<vertex x="-3.86" y="-5.48"/>
+<vertex x="-4.24" y="-5.18"/>
+<vertex x="-4.69" y="-4.78"/>
+<vertex x="-5.17" y="-4.28"/>
+<vertex x="-5.62" y="-3.65"/>
+<vertex x="-5.89" y="-3.2"/>
+<vertex x="-6.07" y="-2.83"/>
+<vertex x="-6.32" y="-2.25"/>
+<vertex x="-6.52" y="-1.53"/>
+<vertex x="-6.69" y="-0.63"/>
+<vertex x="-6.7" y="0.4"/>
+<vertex x="-6.61" y="1.17"/>
+<vertex x="-6.46" y="1.82"/>
+<vertex x="-6.22" y="2.53"/>
+<vertex x="-5.85" y="3.26"/>
+<vertex x="-5.48" y="3.84"/>
+<vertex x="-5.01" y="4.46"/>
+<vertex x="-4.33" y="5.12"/>
+<vertex x="-3.68" y="5.6"/>
+<vertex x="-2.97" y="6.02"/>
+<vertex x="-2.12" y="6.35"/>
+<vertex x="-1.49" y="6.53"/>
+<vertex x="-0.66" y="6.67"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-FAMI_1280_0.7WIRE" urn="urn:adsk.eagle:package:12989797/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.7mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1280_0.7WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1280_0.6WIRE" urn="urn:adsk.eagle:package:12989795/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.6mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1280_0.6WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1280_0.8WIRE" urn="urn:adsk.eagle:package:12989798/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.8mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1280_0.8WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1280_0.65WIRE" urn="urn:adsk.eagle:package:12989796/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.65mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1280_0.65WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1280_0.55WIRE" urn="urn:adsk.eagle:package:12989794/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280,0.55 mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1280_0.55WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1415_0.9WIRE" urn="urn:adsk.eagle:package:12989789/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1415,0.9mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1415_0.9WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1012_0.7WIRE" urn="urn:adsk.eagle:package:12989801/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1012,0.7mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1012_0.7WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1012_0.8WIRE" urn="urn:adsk.eagle:package:12989802/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1012,0.8mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1012_0.8WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1415_1.2WIRE" urn="urn:adsk.eagle:package:12989790/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1415,1.2mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1415_1.2WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_8010_0.5WIRE" urn="urn:adsk.eagle:package:12989803/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8010,0.5mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_8010_0.5WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1410_1.1WIRE" urn="urn:adsk.eagle:package:12989793/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1410,1.1mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1410_1.1WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_8010_0.65WIRE" urn="urn:adsk.eagle:package:12989788/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8010,0.65 mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_8010_0.65WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1410_1.0WIRE" urn="urn:adsk.eagle:package:12989792/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1410,1.0mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1410_1.0WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_8010_0.55WIRE" urn="urn:adsk.eagle:package:12989787/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;8010,0.55mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_8010_0.55WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1410_0.9WIRE" urn="urn:adsk.eagle:package:12989791/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1410,0.9mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1410_0.9WIRE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1215_1.0WRIE" urn="urn:adsk.eagle:package:12989800/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1215,1.0mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1215_1.0WRIE"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FAMI_1215_0.9WIRE" urn="urn:adsk.eagle:package:12989799/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FAMI THT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1215,0.9 mm wire</description>
+<packageinstances>
+<packageinstance name="WE-FAMI_1215_0.9WIRE"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-FAMI_1012" prefix="L">
+<description>&lt;B&gt;WE-FAMI THT Power Inductor&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Optimization of material composition causes high performance
+&lt;br&gt;Up to 19.7 A Saturation Current
+&lt;br&gt;RDC values starting at 3.8 mΩ
+&lt;br&gt;Shielded design
+&lt;br&gt;Low stray field
+&lt;br&gt;Operating temperature: -40 °C to +125 °C&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Application&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;DC/DC converters
+&lt;br&gt;Power supplies and battery chargers
+&lt;br&gt;Home Entertainment Systems
+&lt;br&gt;Portable devices like notebooks
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-FAMI"&gt;https://katalog.we-online.com/en/pbs/WE-FAMI&lt;/a&gt;&lt;p&gt;
+
+Updated bY Yingchun Shan  2019-08-09&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0.8WIRE" package="WE-FAMI_1012_0.8WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989802/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750340047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750340047.pdf" constant="no"/>
+<attribute name="IR" value="9A" constant="no"/>
+<attribute name="ISAT" value="14.4A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750340047" constant="no"/>
+<attribute name="RDC-MAX" value="8.5mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="6.6mOhm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.7WIRE" package="WE-FAMI_1012_0.7WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989801/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750340150">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750340150.pdf" constant="no"/>
+<attribute name="IR" value="5.6A" constant="no"/>
+<attribute name="ISAT" value="8.5A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750340150" constant="no"/>
+<attribute name="RDC-MAX" value="20mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="17.2mOhm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FAMI_1415" prefix="L">
+<description>&lt;B&gt;WE-FAMI THT Power Inductor&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Optimization of material composition causes high performance
+&lt;br&gt;Up to 19.7 A Saturation Current
+&lt;br&gt;RDC values starting at 3.8 mΩ
+&lt;br&gt;Shielded design
+&lt;br&gt;Low stray field
+&lt;br&gt;Operating temperature: -40 °C to +125 °C&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Application&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;DC/DC converters
+&lt;br&gt;Power supplies and battery chargers
+&lt;br&gt;Home Entertainment Systems
+&lt;br&gt;Portable devices like notebooks
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-FAMI"&gt;https://katalog.we-online.com/en/pbs/WE-FAMI&lt;/a&gt;&lt;p&gt;
+
+Updated bY Yingchun Shan  2019-08-09&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0.9WIRE" package="WE-FAMI_1415_0.9WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989789/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750560220">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750560220.pdf" constant="no"/>
+<attribute name="IR" value="7.7A" constant="no"/>
+<attribute name="ISAT" value="8.9A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750560220" constant="no"/>
+<attribute name="RDC-MAX" value="14.5mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="12.6mOhm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1.2WIRE" package="WE-FAMI_1415_1.2WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989790/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750560047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750560047.pdf" constant="no"/>
+<attribute name="IR" value="14.5A" constant="no"/>
+<attribute name="ISAT" value="19.7A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750560047" constant="no"/>
+<attribute name="RDC-MAX" value="3.8mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="3.1mOhm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+<technology name="_744750560100">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750560100.pdf" constant="no"/>
+<attribute name="IR" value="11.4A" constant="no"/>
+<attribute name="ISAT" value="13.4A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750560100" constant="no"/>
+<attribute name="RDC-MAX" value="6.8mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="5.4mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FAMI_1280" prefix="L">
+<description>&lt;B&gt;WE-FAMI THT Power Inductor&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Optimization of material composition causes high performance
+&lt;br&gt;Up to 19.7 A Saturation Current
+&lt;br&gt;RDC values starting at 3.8 mΩ
+&lt;br&gt;Shielded design
+&lt;br&gt;Low stray field
+&lt;br&gt;Operating temperature: -40 °C to +125 °C&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Application&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;DC/DC converters
+&lt;br&gt;Power supplies and battery chargers
+&lt;br&gt;Home Entertainment Systems
+&lt;br&gt;Portable devices like notebooks
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-FAMI"&gt;https://katalog.we-online.com/en/pbs/WE-FAMI&lt;/a&gt;&lt;p&gt;
+
+Updated bY Yingchun Shan  2019-08-09&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0.7WIRE" package="WE-FAMI_1280_0.7WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989797/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750420068">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750420068.pdf" constant="no"/>
+<attribute name="IR" value="7.2A" constant="no"/>
+<attribute name="ISAT" value="11.4A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750420068" constant="no"/>
+<attribute name="RDC-MAX" value="12mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="9.4mOhm" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.8WIRE" package="WE-FAMI_1280_0.8WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989798/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750420047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750420047.pdf" constant="no"/>
+<attribute name="IR" value="8.7A" constant="no"/>
+<attribute name="ISAT" value="13.5A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750420047" constant="no"/>
+<attribute name="RDC-MAX" value="8.5mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="7mOhm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.65WIRE" package="WE-FAMI_1280_0.65WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989796/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750420100">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750420100.pdf" constant="no"/>
+<attribute name="IR" value="6.2A" constant="no"/>
+<attribute name="ISAT" value="9.6A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750420100" constant="no"/>
+<attribute name="RDC-MAX" value="15.5mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="12.9mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.6WIRE" package="WE-FAMI_1280_0.6WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989795/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750420150">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750420150.pdf" constant="no"/>
+<attribute name="IR" value="5.1A" constant="no"/>
+<attribute name="ISAT" value="7.9A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750420150" constant="no"/>
+<attribute name="RDC-MAX" value="25mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="21.3mOhm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.55WIRE" package="WE-FAMI_1280_0.55WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989794/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750420220">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750420220.pdf" constant="no"/>
+<attribute name="IR" value="4.1A" constant="no"/>
+<attribute name="ISAT" value="6.7A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750420220" constant="no"/>
+<attribute name="RDC-MAX" value="36mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="30.9mOhm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FAMI_8010" prefix="L">
+<description>&lt;B&gt;WE-FAMI THT Power Inductor&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Optimization of material composition causes high performance
+&lt;br&gt;Up to 19.7 A Saturation Current
+&lt;br&gt;RDC values starting at 3.8 mΩ
+&lt;br&gt;Shielded design
+&lt;br&gt;Low stray field
+&lt;br&gt;Operating temperature: -40 °C to +125 °C&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Application&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;DC/DC converters
+&lt;br&gt;Power supplies and battery chargers
+&lt;br&gt;Home Entertainment Systems
+&lt;br&gt;Portable devices like notebooks
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-FAMI"&gt;https://katalog.we-online.com/en/pbs/WE-FAMI&lt;/a&gt;&lt;p&gt;
+
+Updated bY Yingchun Shan  2019-08-09&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0.65WIRE" package="WE-FAMI_8010_0.65WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989788/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750230030">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750230030.pdf" constant="no"/>
+<attribute name="IR" value="7.6A" constant="no"/>
+<attribute name="ISAT" value="11.7A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750230030" constant="no"/>
+<attribute name="RDC-MAX" value="8.5mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="7mOhm" constant="no"/>
+<attribute name="VALUE" value="3uH" constant="no"/>
+</technology>
+<technology name="_744750230047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750230047.pdf" constant="no"/>
+<attribute name="IR" value="6.5A" constant="no"/>
+<attribute name="ISAT" value="9.6A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750230047" constant="no"/>
+<attribute name="RDC-MAX" value="12.5mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="9.7mOhm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+<technology name="_744750230068">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750230068.pdf" constant="no"/>
+<attribute name="IR" value="5.7A" constant="no"/>
+<attribute name="ISAT" value="8.1A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750230068" constant="no"/>
+<attribute name="RDC-MAX" value="16mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="12.2mOhm" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.55WIRE" package="WE-FAMI_8010_0.55WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989787/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750230100">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750230100.pdf" constant="no"/>
+<attribute name="IR" value="4.6A" constant="no"/>
+<attribute name="ISAT" value="6.8A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750230100" constant="no"/>
+<attribute name="RDC-MAX" value="23mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="18.6mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.5WIRE" package="WE-FAMI_8010_0.5WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989803/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750230150">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750230150.pdf" constant="no"/>
+<attribute name="IR" value="3.7A" constant="no"/>
+<attribute name="ISAT" value="5.7A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750230150" constant="no"/>
+<attribute name="RDC-MAX" value="35mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="27.9mOhm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FAMI_1410" prefix="L">
+<description>&lt;B&gt;WE-FAMI THT Power Inductor&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Optimization of material composition causes high performance
+&lt;br&gt;Up to 19.7 A Saturation Current
+&lt;br&gt;RDC values starting at 3.8 mΩ
+&lt;br&gt;Shielded design
+&lt;br&gt;Low stray field
+&lt;br&gt;Operating temperature: -40 °C to +125 °C&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Application&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;DC/DC converters
+&lt;br&gt;Power supplies and battery chargers
+&lt;br&gt;Home Entertainment Systems
+&lt;br&gt;Portable devices like notebooks
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-FAMI"&gt;https://katalog.we-online.com/en/pbs/WE-FAMI&lt;/a&gt;&lt;p&gt;
+
+Updated bY Yingchun Shan  2019-08-09&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_1.1WIRE" package="WE-FAMI_1410_1.1WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989793/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750530047">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750530047.pdf" constant="no"/>
+<attribute name="IR" value="11.8A" constant="no"/>
+<attribute name="ISAT" value="18A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750530047" constant="no"/>
+<attribute name="RDC-MAX" value="4.8mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="4.1mOhm" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1.0WIRE" package="WE-FAMI_1410_1.0WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989792/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750530068">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750530068.pdf" constant="no"/>
+<attribute name="IR" value="10.7A" constant="no"/>
+<attribute name="ISAT" value="15A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750530068" constant="no"/>
+<attribute name="RDC-MAX" value="6.5mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="5.3mOhm" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.9WIRE" package="WE-FAMI_1410_0.9WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989791/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750530100">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750530100.pdf" constant="no"/>
+<attribute name="IR" value="8.9A" constant="no"/>
+<attribute name="ISAT" value="12.4A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750530100" constant="no"/>
+<attribute name="RDC-MAX" value="9.5mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="8mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FAMI_1215" prefix="L">
+<description>&lt;B&gt;WE-FAMI THT Power Inductor&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Optimization of material composition causes high performance
+&lt;br&gt;Up to 19.7 A Saturation Current
+&lt;br&gt;RDC values starting at 3.8 mΩ
+&lt;br&gt;Shielded design
+&lt;br&gt;Low stray field
+&lt;br&gt;Operating temperature: -40 °C to +125 °C&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Application&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;DC/DC converters
+&lt;br&gt;Power supplies and battery chargers
+&lt;br&gt;Home Entertainment Systems
+&lt;br&gt;Portable devices like notebooks
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14778v209%20Family_WE-FAMI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-FAMI"&gt;https://katalog.we-online.com/en/pbs/WE-FAMI&lt;/a&gt;&lt;p&gt;
+
+Updated bY Yingchun Shan  2019-08-09&lt;br&gt;
+2019(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_1.0WIRE" package="WE-FAMI_1215_1.0WRIE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989800/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750460100">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750460100.pdf" constant="no"/>
+<attribute name="IR" value="9.2A" constant="no"/>
+<attribute name="ISAT" value="11.3A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750460100" constant="no"/>
+<attribute name="RDC-MAX" value="8.6mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="6.7mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_744750460150">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750460150.pdf" constant="no"/>
+<attribute name="IR" value="9A" constant="no"/>
+<attribute name="ISAT" value="9.5A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750460150" constant="no"/>
+<attribute name="RDC-MAX" value="12mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="9.3mOhm" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.9WIRE" package="WE-FAMI_1215_0.9WIRE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989799/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744750460220">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744750460220.pdf" constant="no"/>
+<attribute name="IR" value="6.9A" constant="no"/>
+<attribute name="ISAT" value="7.5A" constant="no"/>
+<attribute name="PART-NUMBER" value="744750460220" constant="no"/>
+<attribute name="RDC-MAX" value="16mOhm" constant="no"/>
+<attribute name="RDC-TYPE" value="12.4mOhm" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

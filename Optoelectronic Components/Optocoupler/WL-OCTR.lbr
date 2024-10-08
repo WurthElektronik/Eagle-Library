@@ -1,0 +1,2372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Optoelectronic Components - Optocoupler - Optocoupler Triac - WL-OCTR&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-04-11&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WL-OCTR_DIP4_STANDARD" urn="urn:adsk.eagle:footprint:43681269/1">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 4 Standard, THT, 4pins</description>
+<pad name="1" x="-3.81" y="1.27" drill="1"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1"/>
+<pad name="3" x="3.81" y="-1.27" drill="1"/>
+<pad name="4" x="3.81" y="1.27" drill="1"/>
+<wire x1="-3.25" y1="2.29" x2="3.25" y2="2.29" width="0.1" layer="51"/>
+<wire x1="3.25" y1="2.29" x2="3.25" y2="-2.29" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-2.29" x2="-3.25" y2="-2.29" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-2.29" x2="-3.25" y2="2.29" width="0.1" layer="51"/>
+<wire x1="-3.35" y1="2.39" x2="3.35" y2="2.39" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-2.39" x2="-3.35" y2="-2.39" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-0.3" x2="3.35" y2="0.3" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="0.3" x2="-3.3" y2="-0.3" width="0.2" layer="21"/>
+<wire x1="3.35" y1="2.39" x2="3.35" y2="2.25" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="2.25" x2="-3.35" y2="2.39" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="-2.39" x2="-3.35" y2="-2.25" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-2.25" x2="3.35" y2="-2.39" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.8" y="2.59"/>
+<vertex x="4.8" y="2.59"/>
+<vertex x="4.8" y="-2.59"/>
+<vertex x="-4.8" y="-2.59"/>
+</polygon>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-2.2" y="1.6" radius="0.2" width="0.4" layer="21"/>
+<circle x="-2.2" y="1.6" radius="0.2" width="0.4" layer="51"/>
+</package>
+<package name="WL-OCTR_DIP4_SL-TYPE" urn="urn:adsk.eagle:footprint:43681270/2">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 4 SL-Type, SMT, 4pins</description>
+<smd name="1" x="-4.575" y="1.27" dx="1.6" dy="1" layer="1"/>
+<smd name="2" x="-4.575" y="-1.27" dx="1.6" dy="1" layer="1"/>
+<smd name="3" x="4.575" y="-1.27" dx="1.6" dy="1" layer="1"/>
+<smd name="4" x="4.575" y="1.27" dx="1.6" dy="1" layer="1"/>
+<wire x1="-3.25" y1="2.29" x2="3.25" y2="2.29" width="0.1" layer="51"/>
+<wire x1="3.25" y1="2.29" x2="3.25" y2="1.92" width="0.1" layer="51"/>
+<wire x1="3.25" y1="1.92" x2="3.25" y2="0.62" width="0.1" layer="51"/>
+<wire x1="3.25" y1="0.62" x2="3.25" y2="-0.62" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-0.62" x2="3.25" y2="-1.92" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-1.92" x2="3.25" y2="-2.29" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-2.29" x2="-3.25" y2="-2.29" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-2.29" x2="-3.25" y2="-1.92" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-1.92" x2="-3.25" y2="-0.62" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-0.62" x2="-3.25" y2="0.62" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="0.62" x2="-3.25" y2="1.92" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="1.92" x2="-3.25" y2="2.29" width="0.1" layer="51"/>
+<wire x1="-3.35" y1="2.39" x2="3.35" y2="2.39" width="0.2" layer="21"/>
+<wire x1="3.35" y1="2.39" x2="3.35" y2="-2.39" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-2.39" x2="-3.35" y2="-2.39" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="-2.39" x2="-3.35" y2="2.39" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="1.92" x2="-5.075" y2="1.92" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="0.62" x2="-3.25" y2="0.62" width="0.1" layer="51"/>
+<wire x1="3.25" y1="0.62" x2="5.075" y2="0.62" width="0.1" layer="51"/>
+<wire x1="5.075" y1="0.62" x2="5.08" y2="0.62" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="1.92" x2="-5.075" y2="0.62" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.25" y1="-0.62" x2="-5.075" y2="-0.62" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="-1.92" x2="-3.25" y2="-1.92" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="-0.62" x2="-5.075" y2="-1.92" width="0.1" layer="51" style="shortdash"/>
+<wire x1="5.075" y1="1.92" x2="3.25" y2="1.92" width="0.1" layer="51"/>
+<wire x1="5.075" y1="0.62" x2="5.075" y2="1.92" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.25" y1="-1.92" x2="5.075" y2="-1.92" width="0.1" layer="51"/>
+<wire x1="5.075" y1="-0.62" x2="3.25" y2="-0.62" width="0.1" layer="51"/>
+<wire x1="5.075" y1="-1.92" x2="5.075" y2="-0.62" width="0.1" layer="51" style="shortdash"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.6" y="2.59"/>
+<vertex x="5.6" y="2.59"/>
+<vertex x="5.6" y="-2.59"/>
+<vertex x="-5.6" y="-2.59"/>
+</polygon>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-2.6" y="1.6" radius="0.2" width="0.4" layer="21"/>
+<circle x="-2.6" y="1.6" radius="0.2" width="0.4" layer="51"/>
+</package>
+<package name="WL-OCTR_DIP4_M-TYPE" urn="urn:adsk.eagle:footprint:43681271/1">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 4 M-Type, THT, 4pins</description>
+<pad name="1" x="-5.08" y="1.27" drill="1"/>
+<pad name="2" x="-5.08" y="-1.27" drill="1"/>
+<pad name="3" x="5.08" y="-1.27" drill="1"/>
+<pad name="4" x="5.08" y="1.27" drill="1"/>
+<wire x1="-3.25" y1="2.29" x2="3.25" y2="2.29" width="0.1" layer="51"/>
+<wire x1="3.25" y1="2.29" x2="3.25" y2="-2.29" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-2.29" x2="-3.25" y2="-2.29" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-2.29" x2="-3.25" y2="0.77" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="0.77" x2="-3.25" y2="1.77" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="1.77" x2="-3.25" y2="2.29" width="0.1" layer="51"/>
+<wire x1="-3.35" y1="2.39" x2="3.35" y2="2.39" width="0.2" layer="21"/>
+<wire x1="3.35" y1="2.39" x2="3.35" y2="-2.39" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-2.39" x2="-3.35" y2="-2.39" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="-2.39" x2="-3.35" y2="2.39" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="1.77" x2="-5.08" y2="1.77" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="1.77" x2="-5.08" y2="0.77" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="0.77" x2="-3.25" y2="0.77" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-0.77" x2="-5.08" y2="-0.77" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="-0.77" x2="-5.08" y2="-1.77" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="-1.77" x2="-3.25" y2="-1.77" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-1.77" x2="5.08" y2="-1.77" width="0.1" layer="51"/>
+<wire x1="5.08" y1="-1.77" x2="5.08" y2="-0.77" width="0.1" layer="51"/>
+<wire x1="5.08" y1="-0.77" x2="3.25" y2="-0.77" width="0.1" layer="51"/>
+<wire x1="3.25" y1="0.77" x2="5.08" y2="0.77" width="0.1" layer="51"/>
+<wire x1="5.08" y1="0.77" x2="5.08" y2="1.77" width="0.1" layer="51"/>
+<wire x1="5.08" y1="1.77" x2="3.25" y2="1.77" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.1" y="2.59"/>
+<vertex x="6.1" y="2.59"/>
+<vertex x="6.1" y="-2.59"/>
+<vertex x="-6.1" y="-2.59"/>
+</polygon>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-2.6" y="1.6" radius="0.2" width="0.4" layer="21"/>
+<circle x="-2.6" y="1.6" radius="0.2" width="0.4" layer="51"/>
+</package>
+<package name="WL-OCTR_SOP4" urn="urn:adsk.eagle:footprint:43681265/1">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : SOP4, SMT, 4pins</description>
+<smd name="1" x="-3.15" y="1.27" dx="1.1" dy="0.9" layer="1"/>
+<smd name="2" x="-3.15" y="-1.27" dx="1.1" dy="0.9" layer="1"/>
+<smd name="3" x="3.15" y="-1.27" dx="1.1" dy="0.9" layer="1"/>
+<smd name="4" x="3.15" y="1.27" dx="1.1" dy="0.9" layer="1"/>
+<wire x1="-2.2" y1="1.8" x2="2.2" y2="1.8" width="0.1" layer="51"/>
+<wire x1="2.2" y1="1.8" x2="2.2" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="2.2" y1="-1.8" x2="-2.2" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-1.8" x2="-2.2" y2="1.07" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="1.07" x2="-2.2" y2="1.47" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="1.47" x2="-2.2" y2="1.8" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="1.9" x2="2.3" y2="1.9" width="0.2" layer="21"/>
+<wire x1="2.3" y1="1.9" x2="2.3" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="2.3" y1="-1.9" x2="-2.3" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="-1.9" x2="-2.3" y2="1.9" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="1.47" x2="-3.5" y2="1.47" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="1.47" x2="-3.5" y2="1.07" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="1.07" x2="-2.2" y2="1.07" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-1.07" x2="-3.5" y2="-1.07" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-1.07" x2="-3.5" y2="-1.47" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-1.47" x2="-2.2" y2="-1.47" width="0.1" layer="51"/>
+<wire x1="2.2" y1="1.07" x2="3.5" y2="1.07" width="0.1" layer="51"/>
+<wire x1="3.5" y1="1.07" x2="3.5" y2="1.47" width="0.1" layer="51"/>
+<wire x1="3.5" y1="1.47" x2="2.2" y2="1.47" width="0.1" layer="51"/>
+<wire x1="2.2" y1="-1.47" x2="3.5" y2="-1.47" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-1.47" x2="3.5" y2="-1.07" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-1.07" x2="2.2" y2="-1.07" width="0.1" layer="51"/>
+<circle x="-1.6" y="1.2" radius="0.2" width="0.4" layer="51"/>
+<circle x="-1.6" y="1.2" radius="0.2" width="0.4" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.9" y="2.1"/>
+<vertex x="3.9" y="2.1"/>
+<vertex x="3.9" y="-2.1"/>
+<vertex x="-3.9" y="-2.1"/>
+</polygon>
+<text x="0" y="2.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WL-OCTR_DIP6_M-TYPE" urn="urn:adsk.eagle:footprint:43681268/1">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 6 M-Type, THT, 6pins</description>
+<pad name="1" x="-5.08" y="2.54" drill="1"/>
+<pad name="2" x="-5.08" y="0" drill="1"/>
+<pad name="3" x="-5.08" y="-2.54" drill="1"/>
+<pad name="4" x="5.08" y="-2.54" drill="1"/>
+<pad name="5" x="5.08" y="0" drill="1"/>
+<pad name="6" x="5.08" y="2.54" drill="1"/>
+<wire x1="-3.25" y1="3.56" x2="3.25" y2="3.56" width="0.1" layer="51"/>
+<wire x1="3.25" y1="3.56" x2="3.25" y2="-3.56" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-3.56" x2="-3.25" y2="-3.56" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-3.56" x2="-3.25" y2="2.04" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="2.04" x2="-3.25" y2="3.04" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="3.04" x2="-3.25" y2="3.56" width="0.1" layer="51"/>
+<wire x1="-3.35" y1="3.66" x2="3.35" y2="3.66" width="0.2" layer="21"/>
+<wire x1="3.35" y1="3.66" x2="3.35" y2="-3.66" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-3.66" x2="-3.35" y2="-3.66" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="-3.66" x2="-3.35" y2="3.66" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="3.04" x2="-5.08" y2="3.04" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="3.04" x2="-5.08" y2="2.04" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="2.04" x2="-3.25" y2="2.04" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="0.5" x2="-5.08" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="0.5" x2="-5.08" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="-0.5" x2="-3.25" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-2.04" x2="-5.08" y2="-2.04" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="-2.04" x2="-5.08" y2="-3.04" width="0.1" layer="51"/>
+<wire x1="-5.08" y1="-3.04" x2="-3.25" y2="-3.04" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-3.04" x2="5.08" y2="-3.04" width="0.1" layer="51"/>
+<wire x1="5.08" y1="-3.04" x2="5.08" y2="-2.04" width="0.1" layer="51"/>
+<wire x1="5.08" y1="-2.04" x2="3.25" y2="-2.04" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-0.5" x2="5.08" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="5.08" y1="-0.5" x2="5.08" y2="0.5" width="0.1" layer="51"/>
+<wire x1="5.08" y1="0.5" x2="3.25" y2="0.5" width="0.1" layer="51"/>
+<wire x1="3.25" y1="2.04" x2="5.08" y2="2.04" width="0.1" layer="51"/>
+<wire x1="5.08" y1="2.04" x2="5.08" y2="3.04" width="0.1" layer="51"/>
+<wire x1="5.08" y1="3.04" x2="3.25" y2="3.04" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.1" y="3.86"/>
+<vertex x="6.1" y="3.86"/>
+<vertex x="6.1" y="-3.86"/>
+<vertex x="-6.1" y="-3.86"/>
+</polygon>
+<text x="0" y="4.27" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.67" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-2.6" y="2.87" radius="0.2" width="0.4" layer="21"/>
+<circle x="-2.6" y="2.87" radius="0.2" width="0.4" layer="51"/>
+</package>
+<package name="WL-OCTR_DIP6_SL-TYPE" urn="urn:adsk.eagle:footprint:43681267/2">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 6 SL-Type, SMT, 6pins</description>
+<smd name="1" x="-4.575" y="2.54" dx="1.6" dy="1" layer="1"/>
+<smd name="2" x="-4.575" y="0" dx="1.6" dy="1" layer="1"/>
+<smd name="4" x="4.575" y="-2.54" dx="1.6" dy="1" layer="1"/>
+<smd name="3" x="-4.575" y="-2.54" dx="1.6" dy="1" layer="1"/>
+<smd name="5" x="4.575" y="0" dx="1.6" dy="1" layer="1"/>
+<smd name="6" x="4.575" y="2.54" dx="1.6" dy="1" layer="1"/>
+<wire x1="-3.25" y1="3.56" x2="3.25" y2="3.56" width="0.1" layer="51"/>
+<wire x1="3.25" y1="3.56" x2="3.25" y2="-3.56" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-3.56" x2="-3.25" y2="-3.56" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-3.56" x2="-3.25" y2="2.04" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="2.04" x2="-3.25" y2="3.04" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="3.04" x2="-3.25" y2="3.56" width="0.1" layer="51"/>
+<wire x1="-3.35" y1="3.66" x2="3.35" y2="3.66" width="0.2" layer="21"/>
+<wire x1="3.35" y1="3.66" x2="3.35" y2="-3.66" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-3.66" x2="-3.35" y2="-3.66" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="-3.66" x2="-3.35" y2="3.66" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="3.19" x2="-5.075" y2="3.19" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="1.89" x2="-3.25" y2="1.89" width="0.1" layer="51"/>
+<wire x1="3.25" y1="1.89" x2="5.075" y2="1.89" width="0.1" layer="51"/>
+<wire x1="5.075" y1="1.89" x2="5.08" y2="1.89" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="3.19" x2="-5.075" y2="1.89" width="0.1" layer="51" style="shortdash"/>
+<wire x1="5.075" y1="3.19" x2="3.25" y2="3.19" width="0.1" layer="51"/>
+<wire x1="5.075" y1="1.89" x2="5.075" y2="3.19" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.25" y1="0.65" x2="-5.075" y2="0.65" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="-0.65" x2="-3.25" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-0.65" x2="5.075" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="5.075" y1="-0.65" x2="5.08" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="0.65" x2="-5.075" y2="-0.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="5.075" y1="0.65" x2="3.25" y2="0.65" width="0.1" layer="51"/>
+<wire x1="5.075" y1="-0.65" x2="5.075" y2="0.65" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.25" y1="-1.89" x2="-5.075" y2="-1.89" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="-3.19" x2="-3.25" y2="-3.19" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-3.19" x2="5.075" y2="-3.19" width="0.1" layer="51"/>
+<wire x1="5.075" y1="-3.19" x2="5.08" y2="-3.19" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="-1.89" x2="-5.075" y2="-3.19" width="0.1" layer="51" style="shortdash"/>
+<wire x1="5.075" y1="-1.89" x2="3.25" y2="-1.89" width="0.1" layer="51"/>
+<wire x1="5.075" y1="-3.19" x2="5.075" y2="-1.89" width="0.1" layer="51" style="shortdash"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.6" y="3.86"/>
+<vertex x="5.6" y="3.86"/>
+<vertex x="5.6" y="-3.86"/>
+<vertex x="-5.6" y="-3.86"/>
+</polygon>
+<text x="0" y="4.27" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.67" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-2.6" y="2.87" radius="0.2" width="0.4" layer="21"/>
+<circle x="-2.6" y="2.87" radius="0.2" width="0.4" layer="51"/>
+</package>
+<package name="WL-OCTR_DIP6_STANDARD" urn="urn:adsk.eagle:footprint:43681266/1">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 6 Standard, THT, 6pins</description>
+<pad name="1" x="-3.81" y="2.54" drill="1"/>
+<pad name="2" x="-3.81" y="0" drill="1"/>
+<pad name="4" x="3.81" y="-2.54" drill="1"/>
+<pad name="3" x="-3.81" y="-2.54" drill="1"/>
+<pad name="5" x="3.81" y="0" drill="1"/>
+<pad name="6" x="3.81" y="2.54" drill="1"/>
+<wire x1="-3.25" y1="3.56" x2="3.25" y2="3.56" width="0.1" layer="51"/>
+<wire x1="3.25" y1="3.56" x2="3.25" y2="-3.56" width="0.1" layer="51"/>
+<wire x1="3.25" y1="-3.56" x2="-3.25" y2="-3.56" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-3.56" x2="-3.25" y2="3.56" width="0.1" layer="51"/>
+<wire x1="-3.35" y1="3.66" x2="3.35" y2="3.66" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-3.66" x2="-3.35" y2="-3.66" width="0.2" layer="21"/>
+<wire x1="3.35" y1="0.97" x2="3.35" y2="1.57" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="1.57" x2="-3.3" y2="0.97" width="0.2" layer="21"/>
+<wire x1="3.35" y1="3.66" x2="3.35" y2="3.52" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="3.52" x2="-3.35" y2="3.66" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="-3.66" x2="-3.35" y2="-3.52" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-3.52" x2="3.35" y2="-3.66" width="0.2" layer="21"/>
+<wire x1="3.35" y1="-1.57" x2="3.35" y2="-0.97" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="-0.97" x2="-3.3" y2="-1.57" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.8" y="3.86"/>
+<vertex x="4.8" y="3.86"/>
+<vertex x="4.8" y="-3.86"/>
+<vertex x="-4.8" y="-3.86"/>
+</polygon>
+<text x="0" y="4.27" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.67" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-2.2" y="2.87" radius="0.2" width="0.4" layer="21"/>
+<circle x="-2.2" y="2.87" radius="0.2" width="0.4" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WL-OCTR_DIP4_STANDARD" urn="urn:adsk.eagle:package:43681278/2" type="model">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 4 Standard, THT, 4pins</description>
+<packageinstances>
+<packageinstance name="WL-OCTR_DIP4_STANDARD"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-OCTR_DIP4_M-TYPE" urn="urn:adsk.eagle:package:43681280/2" type="model">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 4 M-Type, THT, 4pins</description>
+<packageinstances>
+<packageinstance name="WL-OCTR_DIP4_M-TYPE"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-OCTR_DIP4_SL-TYPE" urn="urn:adsk.eagle:package:43681279/3" type="model">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 4 SL-Type, SMT, 4pins</description>
+<packageinstances>
+<packageinstance name="WL-OCTR_DIP4_SL-TYPE"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-OCTR_SOP4" urn="urn:adsk.eagle:package:43681274/2" type="model">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : SOP4, SMT, 4pins</description>
+<packageinstances>
+<packageinstance name="WL-OCTR_SOP4"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-OCTR_DIP6_M-TYPE" urn="urn:adsk.eagle:package:43681277/2" type="model">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 6 M-Type, THT, 6pins</description>
+<packageinstances>
+<packageinstance name="WL-OCTR_DIP6_M-TYPE"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-OCTR_DIP6_SL-TYPE" urn="urn:adsk.eagle:package:43681276/3" type="model">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 6 SL-Type, SMT, 6pins</description>
+<packageinstances>
+<packageinstance name="WL-OCTR_DIP6_SL-TYPE"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-OCTR_DIP6_STANDARD" urn="urn:adsk.eagle:package:43681275/2" type="model">
+<description>&lt;b&gt; WL-OCTR Optocoupler Triac
+
+&lt;/b&gt;&lt;br&gt;Size : DIP 6 Standard, THT, 6pins</description>
+<packageinstances>
+<packageinstance name="WL-OCTR_DIP6_STANDARD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WL-OCTR_DIP4_SOP4_NZC">
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="0.508" x2="-2.032" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="-0.508" x2="-2.032" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="3.81" x2="-7.62" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-3.81" x2="7.62" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-3.81" x2="7.62" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="3.81" x2="7.62" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.286" y="0.762"/>
+<vertex x="-1.524" y="0.508"/>
+<vertex x="-2.286" y="0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.286" y="-0.254"/>
+<vertex x="-1.524" y="-0.508"/>
+<vertex x="-2.286" y="-0.762"/>
+</polygon>
+<pin name="1" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="5.08" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-9.906" y="-2.794" size="1.27" layer="94" ratio="4" align="top-left">C</text>
+<text x="-9.906" y="2.286" size="1.27" layer="94" ratio="4" align="top-left">A</text>
+</symbol>
+<symbol name="WL-OCTR_DIP4_SOP4_ZC">
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="0.508" x2="-2.032" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="-0.508" x2="-2.032" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="3.81" x2="-7.62" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-3.81" x2="7.62" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-3.81" x2="7.62" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="3.81" x2="7.62" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.032" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.032" x2="1.27" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.032" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-3.048" x2="-1.27" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-3.048" x2="-1.27" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="1.27" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.286" y="0.762"/>
+<vertex x="-1.524" y="0.508"/>
+<vertex x="-2.286" y="0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.286" y="-0.254"/>
+<vertex x="-1.524" y="-0.508"/>
+<vertex x="-2.286" y="-0.762"/>
+</polygon>
+<pin name="1" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="5.08" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-9.906" y="-2.794" size="1.27" layer="94" ratio="4" align="top-left">C</text>
+<text x="-9.906" y="2.286" size="1.27" layer="94" ratio="4" align="top-left">A</text>
+<text x="0" y="-2.54" size="0.6604" layer="94" align="center">ZCC</text>
+</symbol>
+<symbol name="WL-OCTR_DIP6_NZC">
+<wire x1="-3.81" y1="3.81" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="2.794" x2="-0.254" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="-7.62" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-6.35" x2="7.62" y2="-5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="3.81" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="3.81" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="1.905" x2="-0.635" y2="0.635" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="2.286"/>
+<vertex x="-0.254" y="1.524"/>
+<vertex x="-1.27" y="1.651"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.397" y="1.397"/>
+<vertex x="-0.635" y="0.635"/>
+<vertex x="-1.651" y="0.762"/>
+</polygon>
+<pin name="1" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="7.62" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-9.906" y="-0.254" size="1.27" layer="94" ratio="4" align="top-left">C</text>
+<text x="-9.906" y="4.826" size="1.27" layer="94" ratio="4" align="top-left">A</text>
+<text x="8.89" y="-0.254" size="1.27" layer="94" ratio="4" align="top-left">NC</text>
+<text x="-11.43" y="-5.334" size="1.27" layer="94" ratio="4" align="top-left">NC</text>
+</symbol>
+<symbol name="WL-OCTR_DIP6_ZC">
+<wire x1="-3.81" y1="3.81" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="-7.62" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-6.35" x2="7.62" y2="-5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-3.556" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-3.556" x2="0" y2="-3.556" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.556" x2="1.27" y2="-3.556" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-3.556" x2="1.27" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-4.572" x2="0" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.572" x2="-1.27" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-4.572" x2="-1.27" y2="-3.556" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.572" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-3.556" x2="3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="2.794" x2="-0.254" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="1.905" x2="-0.635" y2="0.635" width="0.1524" layer="94"/>
+<pin name="1" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="7.62" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-9.906" y="-0.254" size="1.27" layer="94" ratio="4" align="top-left">C</text>
+<text x="-9.906" y="4.826" size="1.27" layer="94" ratio="4" align="top-left">A</text>
+<text x="0" y="-4.064" size="0.6604" layer="94" align="center">ZCC</text>
+<text x="8.89" y="-0.254" size="1.27" layer="94" ratio="4" align="top-left">NC</text>
+<text x="-11.43" y="-5.334" size="1.27" layer="94" ratio="4" align="top-left">NC</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="2.286"/>
+<vertex x="-0.254" y="1.524"/>
+<vertex x="-1.27" y="1.651"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.397" y="1.397"/>
+<vertex x="-0.635" y="0.635"/>
+<vertex x="-1.651" y="0.762"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WL-OCTR_DIP4_NZC" prefix="Q">
+<description>&lt;b&gt;WL-OCTR DIP-4&lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Zero-Cross and Non-Zero Cross (Random Phase) Type
+&lt;br&gt;Different trigger currents and peak off-state voltages available
+&lt;br&gt;High isolation voltage
+&lt;br&gt;VDE, UL and CQC certified
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;White goods
+&lt;br&gt;AC motor drivers
+&lt;br&gt;Industrial controls
+&lt;br&gt;Static power switches
+&lt;br&gt;Temperature controls
+&lt;br&gt;Light controls
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o772555v209%20multi-WL-OCTR-DIP4-Standard.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o772555v209%20multi-WL-OCTR-DIP4-Standard.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-OCTR-DIP-4/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WL-OCTR-DIP-4&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-04-11&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCTR_DIP4_SOP4_NZC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_M-TYPE" package="WL-OCTR_DIP4_M-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681280/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230214110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230214110?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230214110"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230214110"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230224110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230224110?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230224110"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230224110"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230234110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230234110?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230234110"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230234110"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230514110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230514110?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230514110"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230514110"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230524110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230524110?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230524110"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230524110"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230534110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230534110?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230534110"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230534110"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+<device name="_SL-TYPE" package="WL-OCTR_DIP4_SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681279/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230224300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230224300?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230224300"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230224300"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230234300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230234300?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230234300"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230234300"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230514300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230514300?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230514300"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230514300"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230524300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230524300?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230524300"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230524300"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230534300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230534300?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230534300"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230534300"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+<device name="_STANDARD" package="WL-OCTR_DIP4_STANDARD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681278/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230214010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230214010?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230214010"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230214010"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230224010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230224010?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230224010"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230224010"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230234010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230234010?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230234010"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230234010"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230514010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230514010?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230514010"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230514010"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230524010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230524010?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230524010"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230524010"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230534010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230534010?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230534010"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230534010"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-OCTR_DIP4_ZC" prefix="Q">
+<description>&lt;b&gt;WL-OCTR DIP-4&lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Zero-Cross and Non-Zero Cross (Random Phase) Type
+&lt;br&gt;Different trigger currents and peak off-state voltages available
+&lt;br&gt;High isolation voltage
+&lt;br&gt;VDE, UL and CQC certified
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;White goods
+&lt;br&gt;AC motor drivers
+&lt;br&gt;Industrial controls
+&lt;br&gt;Static power switches
+&lt;br&gt;Temperature controls
+&lt;br&gt;Light controls
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o772555v209%20multi-WL-OCTR-DIP4-Standard.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o772555v209%20multi-WL-OCTR-DIP4-Standard.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-OCTR-DIP-4/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WL-OCTR-DIP-4&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-04-11&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCTR_DIP4_SOP4_ZC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_M-TYPE" package="WL-OCTR_DIP4_M-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681280/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230414110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230414110?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230414110"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230414110"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230424110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230424110?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230424110"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230424110"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230434110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230434110?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230434110"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230434110"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230614110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230614110?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230614110"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230614110"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230624110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230624110?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230624110"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230624110"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230634110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230634110?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_M-Type"/>
+<attribute name="PART-NUMBER" value="14230634110"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230634110"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+<device name="_SL-TYPE" package="WL-OCTR_DIP4_SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681279/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230414300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230414300?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230414300"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230414300"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230424300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230424300?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230424300"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230424300"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230434300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230434300?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230434300"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230434300"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230614300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230614300?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230614300"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230614300"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230624300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230624300?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230624300"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230624300"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230634300">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230634300?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230634300"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230634300"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+<device name="_STANDARD" package="WL-OCTR_DIP4_STANDARD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681278/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230414010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230414010?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230414010"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230414010"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230424010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230424010?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230424010"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230424010"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230434010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230434010?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230434010"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230434010"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230614010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230614010?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230614010"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230614010"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230624010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230624010?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230624010"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230624010"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230634010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230634010?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230634010"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230634010"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-OCTR_SOP4_NZC" prefix="Q">
+<description>&lt;b&gt;WL-OCTR SOP-4&lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Zero-Cross and Non-Zero Cross (Random Phase) Type
+&lt;br&gt;Different trigger currents and peak off-state voltages available
+&lt;br&gt;High isolation voltage
+&lt;br&gt;VDE, UL and CQC certified
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;White goods
+&lt;br&gt;AC motor drivers
+&lt;br&gt;Industrial controls
+&lt;br&gt;Static power switches
+&lt;br&gt;Temperature controls
+&lt;br&gt;Light controls
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o772562v209%20multi-WL-OCTR-SOP4-142xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o772562v209%20multi-WL-OCTR-SOP4-142xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-OCTR-SOP-4/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WL-OCTR-SOP-4&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-04-11&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCTR_DIP4_SOP4_NZC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCTR_SOP4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681274/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230124500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230124500?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230124500"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230124500"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230134500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230134500?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230134500"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230134500"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230214500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230214500?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value=" 14230214500 "/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value=" 14230214500 "/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230224500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230224500?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230224500"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230224500"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230234500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230234500?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230234500"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230234500"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230514500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230514500?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230514500"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230514500"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230524500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230524500?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230524500"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230524500"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230534500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230534500?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230534500"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230534500"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-OCTR_SOP4_ZC" prefix="Q">
+<description>&lt;b&gt;WL-OCTR SOP-4&lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Zero-Cross and Non-Zero Cross (Random Phase) Type
+&lt;br&gt;Different trigger currents and peak off-state voltages available
+&lt;br&gt;High isolation voltage
+&lt;br&gt;VDE, UL and CQC certified
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;White goods
+&lt;br&gt;AC motor drivers
+&lt;br&gt;Industrial controls
+&lt;br&gt;Static power switches
+&lt;br&gt;Temperature controls
+&lt;br&gt;Light controls
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o772562v209%20multi-WL-OCTR-SOP4-142xx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o772562v209%20multi-WL-OCTR-SOP4-142xx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-OCTR-SOP-4/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WL-OCTR-SOP-4&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-04-11&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCTR_DIP4_SOP4_ZC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCTR_SOP4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681274/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230414500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230414500?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230414500"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230414500"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230424500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230424500?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230424500"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230424500"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230434500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230434500?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value=" 14230434500 "/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value=" 14230434500 "/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230614500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230614500?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230614500"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230614500"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230624500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230624500?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value="14230624500"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230624500"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+<technology name="_14230634500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230634500?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="SOP-4_Standard"/>
+<attribute name="PART-NUMBER" value=" 14230634500 "/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value=" 14230634500 "/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="3750V(RMS)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-OCTR_DIP6_ZC" prefix="Q">
+<description>&lt;b&gt;WL-OCTR DIP-6&lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Zero-Cross and Non-Zero Cross (Random Phase) Type
+&lt;br&gt;Different trigger currents and peak off-state voltages available
+&lt;br&gt;High isolation voltage
+&lt;br&gt;VDE, UL and CQC certified
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;White goods
+&lt;br&gt;AC motor drivers
+&lt;br&gt;Industrial controls
+&lt;br&gt;Static power switches
+&lt;br&gt;Temperature controls
+&lt;br&gt;Light controls
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o772556v209%20multi-WL-OCTR-DIP6-Standard.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o772556v209%20multi-WL-OCTR-DIP6-Standard.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-OCTR-DIP-6/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WL-OCTR-DIP-6&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-04-11&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCTR_DIP6_ZC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_M-TYPE" package="WL-OCTR_DIP6_M-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681277/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230316111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230316111?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230316111"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230316111"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230326111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230326111?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230326111"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230326111"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230336111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230336111?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230336111"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230336111"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230416111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230416111?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230416111"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230416111"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230426111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230426111?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230426111"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230426111"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230436111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230436111?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230436111"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230436111"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230616111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230616111?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230616111"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230616111"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230626111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230626111?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230626111"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230626111"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230636111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230636111?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230636111"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230636111"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+<device name="_SL-TYPE" package="WL-OCTR_DIP6_SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681276/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230316301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230316301?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230316301"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230316301"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230326301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230326301?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230326301"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230326301"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230336301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230336301?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230336301"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230336301"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230416301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230416301?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230416301"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230416301"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230426301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230426301?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230426301"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230426301"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230436301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230436301?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230436301"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230436301"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230616301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230616301?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230616301"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230616301"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230626301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230626301?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230626301"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230626301"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230636301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230636301?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230636301"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230636301"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+<device name="_STANDARD" package="WL-OCTR_DIP6_STANDARD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681275/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230316011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230316011?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230316011"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230316011"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230326011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230326011?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230326011"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230326011"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230336011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230336011?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230336011"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230336011"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230416011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230416011?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230416011"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230416011"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230426011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230426011?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230426011"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230426011"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230436011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230436011?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230436011"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230436011"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230616011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230616011?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230616011"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230616011"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230626011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230626011?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230626011"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230626011"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230636011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230636011?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230636011"/>
+<attribute name="TYPE" value="Zero Cross"/>
+<attribute name="VALUE" value="14230636011"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-OCTR_DIP6_NZC" prefix="Q">
+<description>&lt;b&gt;WL-OCTR DIP-6&lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Zero-Cross and Non-Zero Cross (Random Phase) Type
+&lt;br&gt;Different trigger currents and peak off-state voltages available
+&lt;br&gt;High isolation voltage
+&lt;br&gt;VDE, UL and CQC certified
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;White goods
+&lt;br&gt;AC motor drivers
+&lt;br&gt;Industrial controls
+&lt;br&gt;Static power switches
+&lt;br&gt;Temperature controls
+&lt;br&gt;Light controls
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o772556v209%20multi-WL-OCTR-DIP6-Standard.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o772556v209%20multi-WL-OCTR-DIP6-Standard.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-OCTR-DIP-6/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WL-OCTR-DIP-6&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-04-11&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCTR_DIP6_NZC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_M-TYPE" package="WL-OCTR_DIP6_M-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681277/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230116111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230116111?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230116111"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230116111"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230126111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230126111?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230126111"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230126111"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230136111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230136111?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230136111"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230136111"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230216111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230216111?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230216111"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230216111"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230226111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230226111?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230226111"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230226111"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230236111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230236111?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230236111"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230236111"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230516111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230516111?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230516111"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230516111"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230526111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230526111?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230526111"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230526111"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230536111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230536111?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_M-Type"/>
+<attribute name="PART-NUMBER" value="14230536111"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230536111"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+<device name="_SL-TYPE" package="WL-OCTR_DIP6_SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681276/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230116301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230116301?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230116301"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230116301"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230126301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230126301?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230126301"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230126301"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230136301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230136301?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230136301"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230136301"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230216301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230216301?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230216301"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230216301"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230226301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230226301?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230226301"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230226301"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230236301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230236301?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230236301"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230236301"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230516301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230516301?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230516301"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230516301"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230526301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230526301?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230526301"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230526301"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230536301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230536301?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_SL-Type"/>
+<attribute name="PART-NUMBER" value="14230536301"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230536301"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+<device name="_STANDARD" package="WL-OCTR_DIP6_STANDARD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43681275/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_14230116011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230116011?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230116011"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230116011"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230126011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230126011?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230126011"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230126011"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230136011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230136011?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230136011"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230136011"/>
+<attribute name="VDRM" value="250V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230216011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230216011?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230216011"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230216011"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230226011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230226011?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230226011"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230226011"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230236011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230236011?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230236011"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230236011"/>
+<attribute name="VDRM" value="400V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230516011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230516011?ae"/>
+<attribute name="IFT" value="15mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230516011"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230516011"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230526011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230526011?ae"/>
+<attribute name="IFT" value="10mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230526011"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230526011"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+<technology name="_14230536011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/14230536011?ae"/>
+<attribute name="IFT" value="5mA"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGE-TYPE" value="DIP-6_Standard"/>
+<attribute name="PART-NUMBER" value="14230536011"/>
+<attribute name="TYPE" value="Random phase"/>
+<attribute name="VALUE" value="14230536011"/>
+<attribute name="VDRM" value="600V"/>
+<attribute name="VF-TYP" value="1.24V"/>
+<attribute name="VISO" value="5000V(RMS)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

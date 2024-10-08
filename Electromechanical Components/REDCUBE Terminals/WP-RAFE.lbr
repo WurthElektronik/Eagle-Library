@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Release" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Heatsink" color="1" fill="7" visible="no" active="no"/>
+<layer number="102" name="tMarkings" color="1" fill="7" visible="no" active="no"/>
+<layer number="103" name="bMarkings" color="1" fill="7" visible="no" active="no"/>
+<layer number="104" name="tSchirm" color="7" fill="4" visible="no" active="no"/>
+<layer number="105" name="bSchirm" color="7" fill="5" visible="no" active="no"/>
+<layer number="106" name="shield" color="11" fill="1" visible="no" active="no"/>
+<layer number="107" name="ShieldTop" color="12" fill="1" visible="no" active="no"/>
+<layer number="108" name="MeasuresWall" color="7" fill="1" visible="no" active="no"/>
+<layer number="109" name="SYSONDER" color="7" fill="1" visible="no" active="no"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="tStopDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="bStopDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="bTPoint" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Änderung" color="7" fill="1" visible="no" active="no"/>
+<layer number="115" name="Component" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
+<layer number="117" name="housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="PCB" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="Layout_Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="lotbs" color="7" fill="1" visible="no" active="no"/>
+<layer number="121" name="lotls" color="7" fill="1" visible="no" active="no"/>
+<layer number="122" name="bTestdril" color="7" fill="1" visible="no" active="no"/>
+<layer number="123" name="BOHRFILM" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="127" name="Mods" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
+<layer number="150" name="References" color="4" fill="1" visible="no" active="no"/>
+<layer number="151" name="FaceHelp" color="5" fill="1" visible="no" active="no"/>
+<layer number="152" name="FaceFrame" color="6" fill="1" visible="no" active="no"/>
+<layer number="153" name="FacePlate" color="2" fill="1" visible="no" active="no"/>
+<layer number="154" name="FaceLabel" color="7" fill="1" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
+<layer number="199" name="Bauteile" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="bBauteile" color="1" fill="7" visible="no" active="no"/>
+<layer number="202" name="value" color="7" fill="1" visible="no" active="no"/>
+<layer number="203" name="no" color="7" fill="1" visible="no" active="no"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="210" name="tPNR" color="7" fill="1" visible="no" active="no"/>
+<layer number="211" name="bPNR" color="7" fill="1" visible="no" active="no"/>
+<layer number="220" name="ausheb_u" color="7" fill="1" visible="no" active="no"/>
+<layer number="221" name="ausheb_o" color="7" fill="1" visible="no" active="no"/>
+<layer number="222" name="frontpla" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="PLCDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="MillDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="BR-LS" color="7" fill="1" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+<layer number="255" name="ZchnBlatt" color="7" fill="1" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - REDCUBE Terminals - REDCUBE PRESS-FIT - PRESS-FIT right angled - WP-RAFE&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-12-01&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WP-RAFE_74622103" urn="urn:adsk.eagle:footprint:42588083/1">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M3 , 6pins
+&lt;br&gt;Max Height = 14mm</description>
+<pad name="1" x="-2.54" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="2" x="0" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="3" x="2.54" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="4" x="2.54" y="0" drill="1.475" diameter="1.6"/>
+<pad name="5" x="0" y="0" drill="1.475" diameter="1.6"/>
+<pad name="6" x="-2.54" y="0" drill="1.475" diameter="1.6"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="3.6" x2="-0.4" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-3.6" x2="-3.6" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="2.1" x2="-3.6" y2="0.5" width="0.2" layer="21"/>
+<wire x1="2.2" y1="-3.6" x2="0.3" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-3.6" x2="3.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-3.6" x2="3.6" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="3.6" y1="0.5" x2="3.6" y2="2.1" width="0.2" layer="21"/>
+<wire x1="0.4" y1="3.6" x2="2.1" y2="3.6" width="0.2" layer="21"/>
+<text x="0" y="4.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-5.5" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="3.8"/>
+<vertex x="3.8" y="3.8"/>
+<vertex x="3.8" y="-3.8"/>
+<vertex x="-3.8" y="-3.8"/>
+</polygon>
+</package>
+<package name="WP-RAFE_74622105_HAL" urn="urn:adsk.eagle:footprint:18525342/1">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL 
+&lt;br&gt;Thread M5 , 12pins
+&lt;br&gt;Max Height = 14mm</description>
+<pad name="1" x="-3.81" y="3.81" drill="1.45" diameter="1.6"/>
+<pad name="2" x="-1.27" y="3.81" drill="1.45" diameter="1.6"/>
+<pad name="3" x="1.27" y="3.81" drill="1.45" diameter="1.6"/>
+<pad name="4" x="3.81" y="3.81" drill="1.45" diameter="1.6"/>
+<pad name="5" x="3.81" y="1.27" drill="1.45" diameter="1.6"/>
+<pad name="6" x="1.27" y="1.27" drill="1.45" diameter="1.6"/>
+<pad name="7" x="-1.27" y="1.27" drill="1.45" diameter="1.6"/>
+<pad name="8" x="-3.81" y="1.27" drill="1.45" diameter="1.6"/>
+<pad name="9" x="-3.81" y="-1.27" drill="1.45" diameter="1.6"/>
+<pad name="10" x="-1.27" y="-1.27" drill="1.45" diameter="1.6"/>
+<pad name="11" x="1.27" y="-1.27" drill="1.45" diameter="1.6"/>
+<pad name="12" x="3.81" y="-1.27" drill="1.45" diameter="1.6"/>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-4.5" x2="-4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-4.6" x2="-4.6" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-0.45" x2="-4.6" y2="0.45" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="2.1" x2="-4.6" y2="3" width="0.2" layer="21"/>
+<wire x1="3" y1="-4.6" x2="2.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="0.45" y1="-4.6" x2="-0.45" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-4.6" x2="-4.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="3" x2="4.6" y2="2.1" width="0.2" layer="21"/>
+<wire x1="4.6" y1="0.45" x2="4.6" y2="-0.45" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-2.1" x2="4.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-3" y1="4.6" x2="-2.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="4.6" x2="0.45" y2="4.6" width="0.2" layer="21"/>
+<wire x1="2.1" y1="4.6" x2="3" y2="4.6" width="0.2" layer="21"/>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME </text>
+<text x="-3.5" y="-6.8" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="4.9"/>
+<vertex x="4.9" y="4.9"/>
+<vertex x="4.9" y="-4.9"/>
+<vertex x="-4.9" y="-4.9"/>
+</polygon>
+</package>
+<package name="WP-RAFE_74622103_HAL" urn="urn:adsk.eagle:footprint:42588082/1">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL 
+&lt;br&gt;Thread M3 , 6pins
+&lt;br&gt;Max Height = 14mm</description>
+<pad name="1" x="-2.54" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="2" x="0" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="3" x="2.54" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="4" x="2.54" y="0" drill="1.45" diameter="1.6"/>
+<pad name="5" x="0" y="0" drill="1.45" diameter="1.6"/>
+<pad name="6" x="-2.54" y="0" drill="1.45" diameter="1.6"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2.1" y1="3.6" x2="-0.4" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-3.6" x2="-3.6" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="2.1" x2="-3.6" y2="0.5" width="0.2" layer="21"/>
+<wire x1="2.2" y1="-3.6" x2="0.3" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-3.6" x2="3.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-3.6" x2="3.6" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="3.6" y1="0.5" x2="3.6" y2="2.1" width="0.2" layer="21"/>
+<wire x1="0.4" y1="3.6" x2="2.1" y2="3.6" width="0.2" layer="21"/>
+<text x="0" y="4.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-5.5" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="3.8"/>
+<vertex x="3.8" y="3.8"/>
+<vertex x="3.8" y="-3.8"/>
+<vertex x="-3.8" y="-3.8"/>
+</polygon>
+</package>
+<package name="WP-RAFE_74622105" urn="urn:adsk.eagle:footprint:18525343/1">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M5 , 12pins
+&lt;br&gt;Max Height = 14mm</description>
+<pad name="1" x="-3.81" y="3.81" drill="1.475" diameter="1.6"/>
+<pad name="2" x="-1.27" y="3.81" drill="1.475" diameter="1.6"/>
+<pad name="3" x="1.27" y="3.81" drill="1.475" diameter="1.6"/>
+<pad name="4" x="3.81" y="3.81" drill="1.475" diameter="1.6"/>
+<pad name="5" x="3.81" y="1.27" drill="1.475" diameter="1.6"/>
+<pad name="6" x="1.27" y="1.27" drill="1.475" diameter="1.6"/>
+<pad name="7" x="-1.27" y="1.27" drill="1.475" diameter="1.6"/>
+<pad name="8" x="-3.81" y="1.27" drill="1.475" diameter="1.6"/>
+<pad name="9" x="-3.81" y="-1.27" drill="1.475" diameter="1.6"/>
+<pad name="10" x="-1.27" y="-1.27" drill="1.475" diameter="1.6"/>
+<pad name="11" x="1.27" y="-1.27" drill="1.475" diameter="1.6"/>
+<pad name="12" x="3.81" y="-1.27" drill="1.475" diameter="1.6"/>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-4.5" x2="-4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-4.6" x2="-4.6" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-0.45" x2="-4.6" y2="0.45" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="2.1" x2="-4.6" y2="3" width="0.2" layer="21"/>
+<wire x1="3" y1="-4.6" x2="2.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="0.45" y1="-4.6" x2="-0.45" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-4.6" x2="-4.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="3" x2="4.6" y2="2.1" width="0.2" layer="21"/>
+<wire x1="4.6" y1="0.45" x2="4.6" y2="-0.45" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-2.1" x2="4.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-3" y1="4.6" x2="-2.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="4.6" x2="0.45" y2="4.6" width="0.2" layer="21"/>
+<wire x1="2.1" y1="4.6" x2="3" y2="4.6" width="0.2" layer="21"/>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME </text>
+<text x="-3.5" y="-6.8" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="4.9"/>
+<vertex x="4.9" y="4.9"/>
+<vertex x="4.9" y="-4.9"/>
+<vertex x="-4.9" y="-4.9"/>
+</polygon>
+</package>
+<package name="WP-RAFE_74622106" urn="urn:adsk.eagle:footprint:18525341/1">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M6 , 20pins
+&lt;br&gt;Max Height = 20mm</description>
+<pad name="1" x="-5.08" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="2" x="-2.54" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="3" x="0" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="4" x="2.54" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="5" x="5.08" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="6" x="5.08" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="7" x="2.54" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="8" x="0" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="9" x="-2.54" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="10" x="-5.08" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="11" x="-5.08" y="0" drill="1.475" diameter="1.6"/>
+<pad name="12" x="-2.54" y="0" drill="1.475" diameter="1.6"/>
+<pad name="13" x="0" y="0" drill="1.475" diameter="1.6"/>
+<pad name="14" x="2.54" y="0" drill="1.475" diameter="1.6"/>
+<pad name="15" x="5.08" y="0" drill="1.475" diameter="1.6"/>
+<pad name="16" x="5.08" y="-2.54" drill="1.475" diameter="1.6"/>
+<pad name="17" x="2.54" y="-2.54" drill="1.475" diameter="1.6"/>
+<pad name="18" x="0" y="-2.54" drill="1.475" diameter="1.6"/>
+<pad name="19" x="-2.54" y="-2.54" drill="1.475" diameter="1.6"/>
+<pad name="20" x="-5.08" y="-2.54" drill="1.475" diameter="1.6"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="6.6" x2="6.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="6.6" x2="6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-6.6" x2="-6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-6.6" x2="-6.6" y2="6.6" width="0.2" layer="21"/>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.5" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="6.8"/>
+<vertex x="6.8" y="6.8"/>
+<vertex x="6.8" y="-6.8"/>
+<vertex x="-6.8" y="-6.8"/>
+</polygon>
+</package>
+<package name="WP-RAFE_74622108_HAL" urn="urn:adsk.eagle:footprint:18525338/1">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL 
+&lt;br&gt;Thread M8 , 20pins
+&lt;br&gt;Max Height = 20mm</description>
+<pad name="1" x="-5.08" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="2" x="-2.54" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="3" x="0" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="4" x="2.54" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="5" x="5.08" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="6" x="5.08" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="7" x="2.54" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="8" x="0" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="9" x="-2.54" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="10" x="-5.08" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="11" x="-5.08" y="0" drill="1.45" diameter="1.6"/>
+<pad name="12" x="-2.54" y="0" drill="1.45" diameter="1.6"/>
+<pad name="13" x="0" y="0" drill="1.45" diameter="1.6"/>
+<pad name="14" x="2.54" y="0" drill="1.45" diameter="1.6"/>
+<pad name="15" x="5.08" y="0" drill="1.45" diameter="1.6"/>
+<pad name="16" x="5.08" y="-2.54" drill="1.45" diameter="1.6"/>
+<pad name="17" x="2.54" y="-2.54" drill="1.45" diameter="1.6"/>
+<pad name="18" x="0" y="-2.54" drill="1.45" diameter="1.6"/>
+<pad name="19" x="-2.54" y="-2.54" drill="1.45" diameter="1.6"/>
+<pad name="20" x="-5.08" y="-2.54" drill="1.45" diameter="1.6"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="6.6" x2="6.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="6.6" x2="6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-6.6" x2="-6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-6.6" x2="-6.6" y2="6.6" width="0.2" layer="21"/>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.5" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="6.8"/>
+<vertex x="6.8" y="6.8"/>
+<vertex x="6.8" y="-6.8"/>
+<vertex x="-6.8" y="-6.8"/>
+</polygon>
+</package>
+<package name="WP-RAFE_74622108" urn="urn:adsk.eagle:footprint:18525339/1">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M8 , 20pins
+&lt;br&gt;Max Height = 20mm</description>
+<pad name="1" x="-5.08" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="2" x="-2.54" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="3" x="0" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="4" x="2.54" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="5" x="5.08" y="5.08" drill="1.475" diameter="1.6"/>
+<pad name="6" x="5.08" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="7" x="2.54" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="8" x="0" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="9" x="-2.54" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="10" x="-5.08" y="2.54" drill="1.475" diameter="1.6"/>
+<pad name="11" x="-5.08" y="0" drill="1.475" diameter="1.6"/>
+<pad name="12" x="-2.54" y="0" drill="1.475" diameter="1.6"/>
+<pad name="13" x="0" y="0" drill="1.475" diameter="1.6"/>
+<pad name="14" x="2.54" y="0" drill="1.475" diameter="1.6"/>
+<pad name="15" x="5.08" y="0" drill="1.475" diameter="1.6"/>
+<pad name="16" x="5.08" y="-2.54" drill="1.475" diameter="1.6"/>
+<pad name="17" x="2.54" y="-2.54" drill="1.475" diameter="1.6"/>
+<pad name="18" x="0" y="-2.54" drill="1.475" diameter="1.6"/>
+<pad name="19" x="-2.54" y="-2.54" drill="1.475" diameter="1.6"/>
+<pad name="20" x="-5.08" y="-2.54" drill="1.475" diameter="1.6"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="6.6" x2="6.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="6.6" x2="6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-6.6" x2="-6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-6.6" x2="-6.6" y2="6.6" width="0.2" layer="21"/>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.5" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="6.8"/>
+<vertex x="6.8" y="6.8"/>
+<vertex x="6.8" y="-6.8"/>
+<vertex x="-6.8" y="-6.8"/>
+</polygon>
+</package>
+<package name="WP-RAFE_74622106_HAL" urn="urn:adsk.eagle:footprint:18525340/1">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M6 , 20pins
+&lt;br&gt;Max Height = 20mm</description>
+<pad name="1" x="-5.08" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="2" x="-2.54" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="3" x="0" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="4" x="2.54" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="5" x="5.08" y="5.08" drill="1.45" diameter="1.6"/>
+<pad name="6" x="5.08" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="7" x="2.54" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="8" x="0" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="9" x="-2.54" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="10" x="-5.08" y="2.54" drill="1.45" diameter="1.6"/>
+<pad name="11" x="-5.08" y="0" drill="1.45" diameter="1.6"/>
+<pad name="12" x="-2.54" y="0" drill="1.45" diameter="1.6"/>
+<pad name="13" x="0" y="0" drill="1.45" diameter="1.6"/>
+<pad name="14" x="2.54" y="0" drill="1.45" diameter="1.6"/>
+<pad name="15" x="5.08" y="0" drill="1.45" diameter="1.6"/>
+<pad name="16" x="5.08" y="-2.54" drill="1.45" diameter="1.6"/>
+<pad name="17" x="2.54" y="-2.54" drill="1.45" diameter="1.6"/>
+<pad name="18" x="0" y="-2.54" drill="1.45" diameter="1.6"/>
+<pad name="19" x="-2.54" y="-2.54" drill="1.45" diameter="1.6"/>
+<pad name="20" x="-5.08" y="-2.54" drill="1.45" diameter="1.6"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="6.6" x2="6.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="6.6" x2="6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-6.6" x2="-6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-6.6" x2="-6.6" y2="6.6" width="0.2" layer="21"/>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.5" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="6.8"/>
+<vertex x="6.8" y="6.8"/>
+<vertex x="6.8" y="-6.8"/>
+<vertex x="-6.8" y="-6.8"/>
+</polygon>
+</package>
+<package name="WP-RAFE_74622104_HAL" urn="urn:adsk.eagle:footprint:18525344/1">
+<description>&lt;b&gt;WP-RAFEU 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL 
+&lt;br&gt;Thread M4 , 12pins
+&lt;br&gt;Max Height = 14mm</description>
+<pad name="1" x="-3.81" y="3.81" drill="1.45" diameter="1.6"/>
+<pad name="2" x="-1.27" y="3.81" drill="1.45" diameter="1.6"/>
+<pad name="3" x="1.27" y="3.81" drill="1.45" diameter="1.6"/>
+<pad name="4" x="3.81" y="3.81" drill="1.45" diameter="1.6"/>
+<pad name="5" x="3.81" y="1.27" drill="1.45" diameter="1.6"/>
+<pad name="6" x="1.27" y="1.27" drill="1.45" diameter="1.6"/>
+<pad name="7" x="-1.27" y="1.27" drill="1.45" diameter="1.6"/>
+<pad name="8" x="-3.81" y="1.27" drill="1.45" diameter="1.6"/>
+<pad name="9" x="-3.81" y="-1.27" drill="1.45" diameter="1.6"/>
+<pad name="10" x="-1.27" y="-1.27" drill="1.45" diameter="1.6"/>
+<pad name="11" x="1.27" y="-1.27" drill="1.45" diameter="1.6"/>
+<pad name="12" x="3.81" y="-1.27" drill="1.45" diameter="1.6"/>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-4.5" x2="-4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-4.6" x2="-4.6" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-0.45" x2="-4.6" y2="0.45" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="2.1" x2="-4.6" y2="3" width="0.2" layer="21"/>
+<wire x1="3" y1="-4.6" x2="2.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="0.45" y1="-4.6" x2="-0.45" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-4.6" x2="-4.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="3" x2="4.6" y2="2.1" width="0.2" layer="21"/>
+<wire x1="4.6" y1="0.45" x2="4.6" y2="-0.45" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-2.1" x2="4.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-3" y1="4.6" x2="-2.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="4.6" x2="0.45" y2="4.6" width="0.2" layer="21"/>
+<wire x1="2.1" y1="4.6" x2="3" y2="4.6" width="0.2" layer="21"/>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME </text>
+<text x="-3.5" y="-6.8" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="4.9"/>
+<vertex x="4.9" y="4.9"/>
+<vertex x="4.9" y="-4.9"/>
+<vertex x="-4.9" y="-4.9"/>
+</polygon>
+</package>
+<package name="WP-RAFE_74622104" urn="urn:adsk.eagle:footprint:18525345/1">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M4 , 12pins
+&lt;br&gt;Max Height = 14mm</description>
+<pad name="1" x="-3.81" y="3.81" drill="1.475" diameter="1.6"/>
+<pad name="2" x="-1.27" y="3.81" drill="1.475" diameter="1.6"/>
+<pad name="3" x="1.27" y="3.81" drill="1.475" diameter="1.6"/>
+<pad name="4" x="3.81" y="3.81" drill="1.475" diameter="1.6"/>
+<pad name="5" x="3.81" y="1.27" drill="1.475" diameter="1.6"/>
+<pad name="6" x="1.27" y="1.27" drill="1.475" diameter="1.6"/>
+<pad name="7" x="-1.27" y="1.27" drill="1.475" diameter="1.6"/>
+<pad name="8" x="-3.81" y="1.27" drill="1.475" diameter="1.6"/>
+<pad name="9" x="-3.81" y="-1.27" drill="1.475" diameter="1.6"/>
+<pad name="10" x="-1.27" y="-1.27" drill="1.475" diameter="1.6"/>
+<pad name="11" x="1.27" y="-1.27" drill="1.475" diameter="1.6"/>
+<pad name="12" x="3.81" y="-1.27" drill="1.475" diameter="1.6"/>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-4.5" x2="-4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-4.6" x2="-4.6" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-0.45" x2="-4.6" y2="0.45" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="2.1" x2="-4.6" y2="3" width="0.2" layer="21"/>
+<wire x1="3" y1="-4.6" x2="2.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="0.45" y1="-4.6" x2="-0.45" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-4.6" x2="-4.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="3" x2="4.6" y2="2.1" width="0.2" layer="21"/>
+<wire x1="4.6" y1="0.45" x2="4.6" y2="-0.45" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-2.1" x2="4.6" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-3" y1="4.6" x2="-2.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="4.6" x2="0.45" y2="4.6" width="0.2" layer="21"/>
+<wire x1="2.1" y1="4.6" x2="3" y2="4.6" width="0.2" layer="21"/>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME </text>
+<text x="-3.5" y="-6.8" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="4.9"/>
+<vertex x="4.9" y="4.9"/>
+<vertex x="4.9" y="-4.9"/>
+<vertex x="-4.9" y="-4.9"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WP-RAFE_74622103" urn="urn:adsk.eagle:package:42588086/2" type="model">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M3 , 6pins
+&lt;br&gt;Max Height = 14mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622103"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-RAFE_74622103_HAL" urn="urn:adsk.eagle:package:42588085/2" type="model">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL 
+&lt;br&gt;Thread M3 , 6pins
+&lt;br&gt;Max Height = 14mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622103_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-RAFE_74622105" urn="urn:adsk.eagle:package:18525356/2" type="model">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M5 , 12pins
+&lt;br&gt;Max Height = 14mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622105"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-RAFE_74622106" urn="urn:adsk.eagle:package:18525354/2" type="model">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M6 , 20pins
+&lt;br&gt;Max Height = 20mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622106"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-RAFE_74622105_HAL" urn="urn:adsk.eagle:package:18525355/2" type="model">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL 
+&lt;br&gt;Thread M5 , 12pins
+&lt;br&gt;Max Height = 14mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622105_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-RAFE_74622108_HAL" urn="urn:adsk.eagle:package:18525351/2" type="model">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL 
+&lt;br&gt;Thread M8 , 20pins
+&lt;br&gt;Max Height = 20mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622108_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-RAFE_74622104_HAL" urn="urn:adsk.eagle:package:18525357/2" type="model">
+<description>&lt;b&gt;WP-RAFEU 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL 
+&lt;br&gt;Thread M4 , 12pins
+&lt;br&gt;Max Height = 14mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622104_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-RAFE_74622108" urn="urn:adsk.eagle:package:18525352/2" type="model">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M8 , 20pins
+&lt;br&gt;Max Height = 20mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622108"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-RAFE_74622106_HAL" urn="urn:adsk.eagle:package:18525353/2" type="model">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M6 , 20pins
+&lt;br&gt;Max Height = 20mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622106_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-RAFE_74622104" urn="urn:adsk.eagle:package:18525358/2" type="model">
+<description>&lt;b&gt;WP-RAFE 90°, 2-rows, full, edge
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M4 , 12pins
+&lt;br&gt;Max Height = 14mm</description>
+<packageinstances>
+<packageinstance name="WP-RAFE_74622104"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WP-RAFE">
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="3.302" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.302" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.54" y1="-2.54" x2="-1.27" y2="3.81" layer="94"/>
+<rectangle x1="1.27" y1="-2.54" x2="2.54" y2="3.81" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WP-RAFE" prefix="MP">
+<description>&lt;b&gt;WP-RAFE REDCUBE PRESS-FIT right angled, edge position&lt;br&gt;
+
+&lt;br&gt;Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;High current Wire-to-Board &amp; Board-to-Board connections
+&lt;br&gt;Angled electrical connection of cable or PCBs
+&lt;br&gt;Angled mechanical assembling of PCBs on housings
+&lt;br&gt;Suitable for rough environmental conditions
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Packaging Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Packaging	Bulk
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	-55 up to +150 °C
+&lt;br&gt;Material	Brass
+&lt;br&gt;Surface	Tin
+&lt;br&gt;Execution	Press-Fit
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o728011v209%20746221xx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o728011v209%20746221xx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/REDCUBE_PRESS-FIT_RIGHT_ANGLED_EDGE_POSITION/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/REDCUBE_PRESS-FIT_RIGHT_ANGLED_EDGE_POSITION&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2023-12-01&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WP-RAFE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_74622103" package="WP-RAFE_74622103">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42588086/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622103?ae"/>
+<attribute name="HEIGHT" value="14mm"/>
+<attribute name="IR" value="130A"/>
+<attribute name="PART-NUMBER" value=" 74622103 "/>
+<attribute name="PINS" value=" 6 "/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="THREAD-LENGTH" value="4mm"/>
+<attribute name="VALUE" value=" 74622103 "/>
+<attribute name="WIDTH" value="7mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_74622103_HAL" package="WP-RAFE_74622103_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42588085/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622103?ae"/>
+<attribute name="HEIGHT" value="14mm"/>
+<attribute name="IR" value="130A"/>
+<attribute name="PART-NUMBER" value=" 74622103 "/>
+<attribute name="PINS" value=" 6 "/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="THREAD-LENGTH" value="4mm"/>
+<attribute name="VALUE" value=" 74622103 "/>
+<attribute name="WIDTH" value="7mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_74622104" package="WP-RAFE_74622104">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18525358/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622104?ae"/>
+<attribute name="HEIGHT" value="14mm"/>
+<attribute name="IR" value="180A"/>
+<attribute name="PART-NUMBER" value=" 74622104 "/>
+<attribute name="PINS" value=" 12 "/>
+<attribute name="THREAD" value="M4"/>
+<attribute name="THREAD-LENGTH" value="5mm"/>
+<attribute name="VALUE" value=" 74622104 "/>
+<attribute name="WIDTH" value="9mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_74622104_HAL" package="WP-RAFE_74622104_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18525357/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622104?ae"/>
+<attribute name="HEIGHT" value="14mm"/>
+<attribute name="IR" value="180A"/>
+<attribute name="PART-NUMBER" value=" 74622104 "/>
+<attribute name="PINS" value=" 12 "/>
+<attribute name="THREAD" value="M4"/>
+<attribute name="THREAD-LENGTH" value="5mm"/>
+<attribute name="VALUE" value=" 74622104 "/>
+<attribute name="WIDTH" value="9mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_74622105" package="WP-RAFE_74622105">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18525356/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622105?ae"/>
+<attribute name="HEIGHT" value="14mm"/>
+<attribute name="IR" value="180A"/>
+<attribute name="PART-NUMBER" value=" 74622105 "/>
+<attribute name="PINS" value=" 12 "/>
+<attribute name="THREAD" value="M5"/>
+<attribute name="THREAD-LENGTH" value="5mm"/>
+<attribute name="VALUE" value=" 74622105 "/>
+<attribute name="WIDTH" value="9mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_74622105_HAL" package="WP-RAFE_74622105_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18525355/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622105?ae"/>
+<attribute name="HEIGHT" value="14mm"/>
+<attribute name="IR" value="180A"/>
+<attribute name="PART-NUMBER" value=" 74622105 "/>
+<attribute name="PINS" value=" 12 "/>
+<attribute name="THREAD" value="M5"/>
+<attribute name="THREAD-LENGTH" value="5mm"/>
+<attribute name="VALUE" value=" 74622105 "/>
+<attribute name="WIDTH" value="9mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_74622106" package="WP-RAFE_74622106">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18525354/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622106?ae"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="IR" value="250A"/>
+<attribute name="PART-NUMBER" value=" 74622106 "/>
+<attribute name="PINS" value=" 20 "/>
+<attribute name="THREAD" value="M6"/>
+<attribute name="THREAD-LENGTH" value="8mm"/>
+<attribute name="VALUE" value=" 74622106 "/>
+<attribute name="WIDTH" value="13mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_74622106_HAL" package="WP-RAFE_74622106_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18525353/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622106?ae"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="IR" value="250A"/>
+<attribute name="PART-NUMBER" value=" 74622106 "/>
+<attribute name="PINS" value=" 20 "/>
+<attribute name="THREAD" value="M6"/>
+<attribute name="THREAD-LENGTH" value="8mm"/>
+<attribute name="VALUE" value=" 74622106 "/>
+<attribute name="WIDTH" value="13mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_74622108_HAL" package="WP-RAFE_74622108_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18525351/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622108?ae"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="IR" value="250A"/>
+<attribute name="PART-NUMBER" value=" 74622108 "/>
+<attribute name="PINS" value=" 20 "/>
+<attribute name="THREAD" value="M8"/>
+<attribute name="THREAD-LENGTH" value="8mm"/>
+<attribute name="VALUE" value=" 74622108 "/>
+<attribute name="WIDTH" value="13mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_74622108" package="WP-RAFE_74622108">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18525352/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74622108?ae"/>
+<attribute name="HEIGHT" value="20mm"/>
+<attribute name="IR" value="250A"/>
+<attribute name="PART-NUMBER" value=" 74622108 "/>
+<attribute name="PINS" value=" 20 "/>
+<attribute name="THREAD" value="M8"/>
+<attribute name="THREAD-LENGTH" value="8mm"/>
+<attribute name="VALUE" value=" 74622108 "/>
+<attribute name="WIDTH" value="13mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

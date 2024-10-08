@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Capacitors - Aluminium Hybrid Polymer Capacitors - WCAP-HTAH&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-04-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WCAP-HTAH_D10H10" urn="urn:adsk.eagle:footprint:32851941/1">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 10mmX10mmX5mmX0.6mm
+&lt;br&gt;THT, 2pins</description>
+<text x="6" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="6" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-2.5" y="0" drill="0.9"/>
+<pad name="2" x="2.5" y="0" drill="0.9"/>
+<circle x="0" y="0" radius="5" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="5.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="-5.3" curve="-180"/>
+<vertex x="0" y="5.3" curve="-180"/>
+</polygon>
+</package>
+<package name="WCAP-HTAH_D10H12.5" urn="urn:adsk.eagle:footprint:32851940/2">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 10mmX12.5mmX5mmX0.8mm
+&lt;br&gt;THT, 2pins</description>
+<text x="6" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="6" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-2.5" y="0" drill="1.1"/>
+<pad name="2" x="2.5" y="0" drill="1.1"/>
+<circle x="0" y="0" radius="5" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="5.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="-5.3" curve="-180"/>
+<vertex x="0" y="5.3" curve="-180"/>
+</polygon>
+</package>
+<package name="WCAP-HTAH_D6.3H8" urn="urn:adsk.eagle:footprint:32851944/1">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 6.3mmX8mmX2.5mmX0.6mm
+&lt;br&gt;THT, 2pins</description>
+<text x="4" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="4" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-1.25" y="0" drill="0.9"/>
+<pad name="2" x="1.25" y="0" drill="0.9"/>
+<circle x="0" y="0" radius="3.15" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="3.25" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="-3.45" curve="-180"/>
+<vertex x="0" y="3.45" curve="-180"/>
+</polygon>
+</package>
+<package name="WCAP-HTAH_D8H11.5" urn="urn:adsk.eagle:footprint:32851942/1">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 8mmX11.5mmX3.5mmX0.6mm
+&lt;br&gt;THT, 2pins</description>
+<text x="5" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="5" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-1.75" y="0" drill="0.9"/>
+<pad name="2" x="1.75" y="0" drill="0.9"/>
+<circle x="0" y="0" radius="4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="-4.3" curve="-180"/>
+<vertex x="0" y="4.3" curve="-180"/>
+</polygon>
+</package>
+<package name="WCAP-HTAH_D8H9" urn="urn:adsk.eagle:footprint:32851943/1">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 8mmX9mmX3.5mmX0.6mm
+&lt;br&gt;THT, 2pins</description>
+<text x="5" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="5" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-1.75" y="0" drill="0.9"/>
+<pad name="2" x="1.75" y="0" drill="0.9"/>
+<circle x="0" y="0" radius="4" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="-4.3" curve="-180"/>
+<vertex x="0" y="4.3" curve="-180"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WCAP-HTAH_D6.3H8" urn="urn:adsk.eagle:package:32851950/2" type="model">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 6.3mmX8mmX2.5mmX0.6mm
+&lt;br&gt;THT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HTAH_D6.3H8"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-HTAH_D10H10" urn="urn:adsk.eagle:package:32851947/2" type="model">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 10mmX10mmX5mmX0.6mm
+&lt;br&gt;THT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HTAH_D10H10"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-HTAH_D8H11.5" urn="urn:adsk.eagle:package:32851948/2" type="model">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 8mmX11.5mmX3.5mmX0.6mm
+&lt;br&gt;THT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HTAH_D8H11.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-HTAH_D10H12.5" urn="urn:adsk.eagle:package:32851946/3" type="model">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 10mmX12.5mmX5mmX0.8mm
+&lt;br&gt;THT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HTAH_D10H12.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-HTAH_D8H9" urn="urn:adsk.eagle:package:32851949/2" type="model">
+<description>&lt;b&gt;WCAP-HTAH Polymer Electrolytic Capacitor
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Diameter X Length X Pitch X Pin Diameter = 8mmX9mmX3.5mmX0.6mm
+&lt;br&gt;THT, 2pins</description>
+<packageinstances>
+<packageinstance name="WCAP-HTAH_D8H9"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C_POLAR">
+<description>C_POLARIZED</description>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<text x="1.175" y="3.38" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0.915" y="-5.075" size="1.4224" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="2.54" y="-1.905" size="1.4224" layer="94">+</text>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.64261875" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.927859375" y1="0" x2="2.57048125" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WCAP-HTAH_D6.3H8" prefix="C">
+<description>&lt;b&gt;WCAP-HTAH Advanced High Temperature 125°C&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;High operating temperature product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Operating temperature: -55 °C up to +125 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HTAH"&gt;www.we-online.com/en/components/products/WCAP-HTAH&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HTAH_D6.3H8">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851950/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_870585373001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585373001?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="19.2uA"/>
+<attribute name="I-RIPPLE" value="1440mA"/>
+<attribute name="LENGTH" value="8mm"/>
+<attribute name="PART-NUMBER" value=" 870585373001 "/>
+<attribute name="RESR" value="32mohm"/>
+<attribute name="VALUE" value="120 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_870585573001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585573001?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="17uA"/>
+<attribute name="I-RIPPLE" value="1380mA"/>
+<attribute name="LENGTH" value="8mm"/>
+<attribute name="PART-NUMBER" value=" 870585573001 "/>
+<attribute name="RESR" value="35mohm"/>
+<attribute name="VALUE" value="68 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_870585773001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585773001?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="7.5uA"/>
+<attribute name="I-RIPPLE" value="960mA"/>
+<attribute name="LENGTH" value="8mm"/>
+<attribute name="PART-NUMBER" value=" 870585773001 "/>
+<attribute name="RESR" value="80mohm"/>
+<attribute name="VALUE" value="15 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_870585873001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585873001?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="6.3mm"/>
+<attribute name="ENDURANCE" value="2000h"/>
+<attribute name="I-LEAK" value="6.3uA"/>
+<attribute name="I-RIPPLE" value="840mA"/>
+<attribute name="LENGTH" value="8mm"/>
+<attribute name="PART-NUMBER" value=" 870585873001 "/>
+<attribute name="RESR" value="100mohm"/>
+<attribute name="VALUE" value="10 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-HTAH_D8H11.5" prefix="C">
+<description>&lt;b&gt;WCAP-HTAH Advanced High Temperature 125°C&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;High operating temperature product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Operating temperature: -55 °C up to +125 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HTAH"&gt;www.we-online.com/en/components/products/WCAP-HTAH&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HTAH_D8H11.5">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851948/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_870585374003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585374003?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="52.8uA"/>
+<attribute name="I-RIPPLE" value="2340mA"/>
+<attribute name="LENGTH" value="11.5mm"/>
+<attribute name="PART-NUMBER" value=" 870585374003 "/>
+<attribute name="RESR" value="20mohm"/>
+<attribute name="VALUE" value="330 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_870585574003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585574003?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="55uA"/>
+<attribute name="I-RIPPLE" value="2230mA"/>
+<attribute name="LENGTH" value="11.5mm"/>
+<attribute name="PART-NUMBER" value=" 870585574003 "/>
+<attribute name="RESR" value="22mohm"/>
+<attribute name="VALUE" value="220 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_870585774003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585774003?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="23.5uA"/>
+<attribute name="I-RIPPLE" value="1520mA"/>
+<attribute name="LENGTH" value="11.5mm"/>
+<attribute name="PART-NUMBER" value=" 870585774003 "/>
+<attribute name="RESR" value="30mohm"/>
+<attribute name="VALUE" value="47 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-HTAH_D10H10" prefix="C">
+<description>&lt;b&gt;WCAP-HTAH Advanced High Temperature 125°C&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;High operating temperature product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Operating temperature: -55 °C up to +125 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HTAH"&gt;www.we-online.com/en/components/products/WCAP-HTAH&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HTAH_D10H10">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851947/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_870585375004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585375004?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="75.2uA"/>
+<attribute name="I-RIPPLE" value="2620mA"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="PART-NUMBER" value=" 870585375004 "/>
+<attribute name="RESR" value="18mohm"/>
+<attribute name="VALUE" value="470 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_870585775004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585775004?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="28uA"/>
+<attribute name="I-RIPPLE" value="1850mA"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="PART-NUMBER" value=" 870585775004 "/>
+<attribute name="RESR" value="30mohm"/>
+<attribute name="VALUE" value="56 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_870585875004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585875004?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="20.8uA"/>
+<attribute name="I-RIPPLE" value="1680mA"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="PART-NUMBER" value=" 870585875004 "/>
+<attribute name="RESR" value="35mohm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+<technology name="_870585875005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585875005?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="29.6uA"/>
+<attribute name="I-RIPPLE" value="1680mA"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="PART-NUMBER" value=" 870585875005 "/>
+<attribute name="RESR" value="35mohm"/>
+<attribute name="VALUE" value="47 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-HTAH_D10H12.5" prefix="C">
+<description>&lt;b&gt;WCAP-HTAH Advanced High Temperature 125°C&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;High operating temperature product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Operating temperature: -55 °C up to +125 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HTAH"&gt;www.we-online.com/en/components/products/WCAP-HTAH&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HTAH_D10H12.5">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851946/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_870585375005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585375005?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="89.6uA"/>
+<attribute name="I-RIPPLE" value="3030mA"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="PART-NUMBER" value=" 870585375005 "/>
+<attribute name="RESR" value="14mohm"/>
+<attribute name="VALUE" value="560 µF"/>
+<attribute name="VR" value="16V(DC)"/>
+</technology>
+<technology name="_870585575005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585575005?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="82.5uA"/>
+<attribute name="I-RIPPLE" value="2890mA"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="PART-NUMBER" value=" 870585575005 "/>
+<attribute name="RESR" value="14mohm"/>
+<attribute name="VALUE" value="330 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_870585875006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585875006?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="35.3uA"/>
+<attribute name="I-RIPPLE" value="1920mA"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="PART-NUMBER" value=" 870585875006 "/>
+<attribute name="RESR" value="30mohm"/>
+<attribute name="VALUE" value="56 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+<technology name="_870585975005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585975005?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="10mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="15uA"/>
+<attribute name="I-RIPPLE" value="1320mA"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="PART-NUMBER" value=" 870585975005 "/>
+<attribute name="RESR" value="70mohm"/>
+<attribute name="VALUE" value="15 µF"/>
+<attribute name="VR" value="100V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-HTAH_D8H9" prefix="C">
+<description>&lt;b&gt;WCAP-HTAH Advanced High Temperature 125°C&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;High operating temperature product series
+&lt;BR&gt;Low ESR
+&lt;BR&gt;High ripple current characteristics
+&lt;BR&gt;High stability over the temperature range
+&lt;BR&gt;Low leakage current
+&lt;BR&gt;Operating temperature: -55 °C up to +125 °C
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Industry and telecommunication
+&lt;BR&gt;Smoothing
+&lt;BR&gt;e.g. Servo inverter, air conditioner, industrial power supply, security camera, base station
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o696144v209%20multi-WCAP-HTAH-875585344002.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WCAP-HTAH"&gt;www.we-online.com/en/components/products/WCAP-HTAH&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-26&lt;br&gt;
+2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-HTAH_D8H9">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32851949/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_870585574002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585574002?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="37.5uA"/>
+<attribute name="I-RIPPLE" value="1880mA"/>
+<attribute name="LENGTH" value="9mm"/>
+<attribute name="PART-NUMBER" value=" 870585574002 "/>
+<attribute name="RESR" value="25mohm"/>
+<attribute name="VALUE" value="150 µF"/>
+<attribute name="VR" value="25V(DC)"/>
+</technology>
+<technology name="_870585774002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585774002?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="16.5uA"/>
+<attribute name="I-RIPPLE" value="1330mA"/>
+<attribute name="LENGTH" value="9mm"/>
+<attribute name="PART-NUMBER" value=" 870585774002 "/>
+<attribute name="RESR" value="35mohm"/>
+<attribute name="VALUE" value="33 µF"/>
+<attribute name="VR" value="50V(DC)"/>
+</technology>
+<technology name="_870585874002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/870585874002?ae"/>
+<attribute name="DF" value="16%"/>
+<attribute name="DIAMETER" value="8mm"/>
+<attribute name="ENDURANCE" value="4000h"/>
+<attribute name="I-LEAK" value="13.9uA"/>
+<attribute name="I-RIPPLE" value="1240mA"/>
+<attribute name="LENGTH" value="9mm"/>
+<attribute name="PART-NUMBER" value=" 870585874002 "/>
+<attribute name="RESR" value="40mohm"/>
+<attribute name="VALUE" value="22 µF"/>
+<attribute name="VR" value="63V(DC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

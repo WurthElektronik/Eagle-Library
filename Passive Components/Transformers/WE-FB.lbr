@@ -1,0 +1,3110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Transformers For DC/DC Converter - WE-FB&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-FB_EFD20" urn="urn:adsk.eagle:footprint:12911997/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EFD20 SMD12 Pin</description>
+<smd name="2" x="-13.26" y="4.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="3" x="-13.26" y="1.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="4" x="-13.26" y="-1.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="5" x="-13.26" y="-4.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="6" x="-13.26" y="-7.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="1" x="-13.26" y="7.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="12" x="13.26" y="7.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="11" x="13.26" y="4.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="10" x="13.26" y="1.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="9" x="13.26" y="-1.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="8" x="13.26" y="-4.5" dx="3.05" dy="1.27" layer="1"/>
+<smd name="7" x="13.26" y="-7.5" dx="3.05" dy="1.27" layer="1"/>
+<wire x1="-14.54" y1="11.555" x2="-14.54" y2="-11.555" width="0.1" layer="51"/>
+<wire x1="-14.54" y1="-11.555" x2="14.54" y2="-11.555" width="0.1" layer="51"/>
+<wire x1="14.54" y1="-11.555" x2="14.54" y2="11.555" width="0.1" layer="51"/>
+<wire x1="14.54" y1="11.555" x2="-14.54" y2="11.555" width="0.1" layer="51"/>
+<wire x1="-14.64" y1="8.5" x2="-14.64" y2="11.655" width="0.2" layer="21"/>
+<wire x1="-14.64" y1="11.655" x2="14.64" y2="11.655" width="0.2" layer="21"/>
+<wire x1="14.64" y1="11.655" x2="14.64" y2="8.5" width="0.2" layer="21"/>
+<wire x1="-14.64" y1="-8.5" x2="-14.64" y2="-11.655" width="0.2" layer="21"/>
+<wire x1="-14.64" y1="-11.655" x2="14.64" y2="-11.655" width="0.2" layer="21"/>
+<wire x1="14.64" y1="-11.655" x2="14.64" y2="-8.5" width="0.2" layer="21"/>
+<wire x1="-14.64" y1="-5.5" x2="-14.64" y2="-6.5" width="0.2" layer="21"/>
+<wire x1="-14.64" y1="-2.5" x2="-14.64" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="-14.64" y1="0.51" x2="-14.64" y2="-0.49" width="0.2" layer="21"/>
+<wire x1="-14.64" y1="6.51" x2="-14.64" y2="5.51" width="0.2" layer="21"/>
+<wire x1="-14.64" y1="3.5" x2="-14.64" y2="2.5" width="0.2" layer="21"/>
+<wire x1="14.64" y1="-6.51" x2="14.64" y2="-5.51" width="0.2" layer="21"/>
+<wire x1="14.64" y1="-3.5" x2="14.64" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="14.64" y1="-0.49" x2="14.64" y2="0.51" width="0.2" layer="21"/>
+<wire x1="14.65" y1="5.49" x2="14.65" y2="6.49" width="0.2" layer="21"/>
+<wire x1="14.64" y1="2.51" x2="14.64" y2="3.51" width="0.2" layer="21"/>
+<text x="0" y="12.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.11" y="-13.57" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-10.8" y="6.9" size="1.27" layer="48">1</text>
+<text x="-10.7" y="-8.1" size="1.27" layer="48">6</text>
+<text x="10.4" y="-8.2" size="1.27" layer="48">7</text>
+<text x="9.3" y="6.8" size="1.27" layer="48">12</text>
+<polygon width="0.1" layer="39">
+<vertex x="-14.985" y="11.855"/>
+<vertex x="14.985" y="11.855"/>
+<vertex x="14.985" y="-11.855"/>
+<vertex x="-14.985" y="-11.855"/>
+</polygon>
+<circle x="-11.17" y="7.59" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-FB_EE20/10/6" urn="urn:adsk.eagle:footprint:12911998/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EE20/10/6 THT 14Pin</description>
+<pad name="1" x="-10" y="7.48" drill="1.32"/>
+<pad name="2" x="-10" y="4.99" drill="1.32"/>
+<pad name="3" x="-10" y="2.5" drill="1.32"/>
+<pad name="4" x="-10" y="-2.5" drill="1.32"/>
+<pad name="5" x="-10" y="-4.99" drill="1.32"/>
+<pad name="6" x="-10" y="-7.48" drill="1.32"/>
+<pad name="13" x="10" y="6.225" drill="1.32"/>
+<pad name="12" x="10" y="3.735" drill="1.32"/>
+<pad name="11" x="10" y="1.245" drill="1.32"/>
+<pad name="10" x="10" y="-1.245" drill="1.32"/>
+<pad name="9" x="10" y="-3.735" drill="1.32"/>
+<pad name="8" x="10" y="-6.225" drill="1.32"/>
+<pad name="7" x="10" y="-8.715" drill="1.32"/>
+<pad name="14" x="10" y="8.715" drill="1.32"/>
+<wire x1="-12.5" y1="11.1" x2="-12.5" y2="-11.1" width="0.1" layer="51"/>
+<wire x1="-12.5" y1="-11.1" x2="12.5" y2="-11.1" width="0.1" layer="51"/>
+<wire x1="12.5" y1="-11.1" x2="12.5" y2="11.1" width="0.1" layer="51"/>
+<wire x1="12.5" y1="11.1" x2="-12.5" y2="11.1" width="0.1" layer="51"/>
+<text x="0" y="12.065" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.54" y="-13.335" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-8" y="6.7" size="1.27" layer="48">1</text>
+<text x="-8" y="2" size="1.27" layer="48">3</text>
+<text x="-8" y="-3" size="1.27" layer="48">4</text>
+<text x="-8" y="-8" size="1.27" layer="48">6</text>
+<text x="7.25" y="-9.5" size="1.27" layer="48">7</text>
+<text x="6.5" y="7.75" size="1.27" layer="48">14</text>
+<polygon width="0.1" layer="39">
+<vertex x="-12.75" y="11.35"/>
+<vertex x="12.75" y="11.35"/>
+<vertex x="12.75" y="-11.35"/>
+<vertex x="-12.75" y="-11.35"/>
+</polygon>
+<circle x="-8.53" y="7.39" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-FB_EFD25" urn="urn:adsk.eagle:footprint:12911996/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EFD25 SMD12 Pin</description>
+<smd name="1" x="-15.19" y="9.4" dx="2.5" dy="1.52" layer="1"/>
+<smd name="2" x="-15.19" y="5.64" dx="2.5" dy="1.52" layer="1"/>
+<smd name="3" x="-15.19" y="1.88" dx="2.5" dy="1.52" layer="1"/>
+<smd name="4" x="-15.19" y="-1.88" dx="2.5" dy="1.52" layer="1"/>
+<smd name="5" x="-15.19" y="-5.64" dx="2.5" dy="1.52" layer="1"/>
+<smd name="6" x="-15.19" y="-9.4" dx="2.5" dy="1.52" layer="1"/>
+<smd name="12" x="15.19" y="9.4" dx="2.5" dy="1.52" layer="1"/>
+<smd name="11" x="15.19" y="5.64" dx="2.5" dy="1.52" layer="1"/>
+<smd name="10" x="15.19" y="1.88" dx="2.5" dy="1.52" layer="1"/>
+<smd name="9" x="15.19" y="-1.88" dx="2.5" dy="1.52" layer="1"/>
+<smd name="8" x="15.19" y="-5.64" dx="2.5" dy="1.52" layer="1"/>
+<smd name="7" x="15.19" y="-9.4" dx="2.5" dy="1.52" layer="1"/>
+<wire x1="-16.155" y1="13.515" x2="-16.155" y2="-13.515" width="0.1" layer="51"/>
+<wire x1="-16.155" y1="-13.515" x2="16.155" y2="-13.515" width="0.1" layer="51"/>
+<wire x1="16.155" y1="-13.515" x2="16.155" y2="13.515" width="0.1" layer="51"/>
+<wire x1="16.155" y1="13.515" x2="-16.155" y2="13.515" width="0.1" layer="51"/>
+<wire x1="-16.255" y1="10.5" x2="-16.255" y2="13.615" width="0.2" layer="21"/>
+<wire x1="-16.255" y1="13.615" x2="16.255" y2="13.615" width="0.2" layer="21"/>
+<wire x1="16.255" y1="13.615" x2="16.255" y2="10.5" width="0.2" layer="21"/>
+<wire x1="-16.255" y1="-10.5" x2="-16.255" y2="-13.615" width="0.2" layer="21"/>
+<wire x1="-16.255" y1="-13.615" x2="16.255" y2="-13.615" width="0.2" layer="21"/>
+<wire x1="16.255" y1="-13.615" x2="16.255" y2="-10.5" width="0.2" layer="21"/>
+<text x="0.99" y="14.74" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.26" y="-15.51" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-13.1" y="8.7" size="1.27" layer="48">1</text>
+<text x="-13.1" y="-10" size="1.27" layer="48">6</text>
+<text x="12.7" y="-10.1" size="1.27" layer="48">7</text>
+<text x="11.6" y="8.7" size="1.27" layer="48">12</text>
+<polygon width="0.1" layer="39">
+<vertex x="-16.63" y="13.815"/>
+<vertex x="16.63" y="13.815"/>
+<vertex x="16.63" y="-13.815"/>
+<vertex x="-16.63" y="-13.815"/>
+</polygon>
+<circle x="-13.4" y="9.4" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-FB_EP13_P15.77" urn="urn:adsk.eagle:footprint:12912001/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP13 SMD12Pin ,Pitch of PAD =15.77</description>
+<smd name="5" x="-7.885" y="0.85" dx="1.88" dy="1.07" layer="1"/>
+<smd name="4" x="-7.885" y="-0.85" dx="1.88" dy="1.07" layer="1"/>
+<smd name="3" x="-7.885" y="-2.55" dx="1.88" dy="1.07" layer="1"/>
+<smd name="6" x="-7.885" y="2.55" dx="1.88" dy="1.07" layer="1"/>
+<smd name="11" x="7.885" y="2.55" dx="1.88" dy="1.07" layer="1"/>
+<smd name="14" x="7.885" y="-2.55" dx="1.88" dy="1.07" layer="1"/>
+<smd name="16" x="7.885" y="-5.95" dx="1.88" dy="1.07" layer="1"/>
+<smd name="7" x="-7.885" y="4.25" dx="1.88" dy="1.07" layer="1"/>
+<smd name="9" x="7.885" y="5.95" dx="1.88" dy="1.07" layer="1"/>
+<smd name="8" x="-7.885" y="5.95" dx="1.88" dy="1.07" layer="1"/>
+<smd name="2" x="-7.885" y="-4.25" dx="1.88" dy="1.07" layer="1"/>
+<smd name="1" x="-7.885" y="-5.95" dx="1.88" dy="1.07" layer="1"/>
+<wire x1="-8.585" y1="6.985" x2="-8.585" y2="-6.985" width="0.1" layer="51"/>
+<wire x1="-8.585" y1="-6.985" x2="8.585" y2="-6.985" width="0.1" layer="51"/>
+<wire x1="8.585" y1="-6.985" x2="8.585" y2="6.985" width="0.1" layer="51"/>
+<wire x1="8.585" y1="6.985" x2="-8.584" y2="6.985" width="0.1" layer="51"/>
+<wire x1="-8.695" y1="7.085" x2="8.685" y2="7.085" width="0.2" layer="21"/>
+<wire x1="8.685" y1="7.085" x2="8.685" y2="6.8" width="0.2" layer="21"/>
+<wire x1="-8.695" y1="7.085" x2="-8.695" y2="6.8" width="0.2" layer="21"/>
+<wire x1="-8.685" y1="-6.8" x2="-8.685" y2="-7.085" width="0.2" layer="21"/>
+<wire x1="-8.685" y1="-7.085" x2="8.685" y2="-7.085" width="0.2" layer="21"/>
+<wire x1="8.685" y1="-7.085" x2="8.685" y2="-6.8" width="0.2" layer="21"/>
+<wire x1="8.685" y1="5.1" x2="8.685" y2="3.4" width="0.2" layer="21"/>
+<wire x1="8.685" y1="-3.4" x2="8.685" y2="-5.1" width="0.2" layer="21"/>
+<wire x1="8.7" y1="1.7" x2="8.7" y2="-1.7" width="0.2" layer="21"/>
+<text x="0.72" y="8.055" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.505" y="-9.025" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-5.883" y="-6.48" size="1.016" layer="48">1</text>
+<text x="-6.21" y="5.453" size="1.016" layer="48">8</text>
+<text x="5.821" y="5.417" size="1.016" layer="48">9</text>
+<text x="5.054" y="-6.461" size="1.016" layer="48">16</text>
+<text x="5.321" y="2.017" size="1.016" layer="48">11</text>
+<text x="5.121" y="-3.183" size="1.016" layer="48">14</text>
+<polygon width="0.1" layer="39">
+<vertex x="9.025" y="7.285"/>
+<vertex x="9.025" y="-7.235"/>
+<vertex x="-9.025" y="-7.235"/>
+<vertex x="-9.025" y="7.285"/>
+</polygon>
+<circle x="-6.4" y="-6" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE_FB_EP5" urn="urn:adsk.eagle:footprint:12912007/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP5 SMD 6Pin</description>
+<wire x1="4.13" y1="3.3" x2="-4.13" y2="3.3" width="0.1" layer="51"/>
+<wire x1="4.13" y1="-3.3" x2="-4.13" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-4.13" y1="-3.3" x2="-4.13" y2="3.3" width="0.1" layer="51"/>
+<wire x1="4.13" y1="-3.3" x2="4.13" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-4.23" y1="3.4" x2="4.23" y2="3.4" width="0.2" layer="21"/>
+<wire x1="4.23" y1="3.4" x2="4.23" y2="2.7" width="0.2" layer="21"/>
+<wire x1="-4.23" y1="3.4" x2="-4.23" y2="2.7" width="0.2" layer="21"/>
+<wire x1="-4.23" y1="-2.7" x2="-4.23" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-4.23" y1="-3.4" x2="4.23" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="4.23" y1="-3.4" x2="4.23" y2="-2.7" width="0.2" layer="21"/>
+<smd name="4" x="3.645" y="1.85" dx="1.63" dy="1.07" layer="1" rot="R180"/>
+<smd name="6" x="3.645" y="-1.85" dx="1.63" dy="1.07" layer="1" rot="R180"/>
+<smd name="3" x="-3.645" y="1.85" dx="1.63" dy="1.07" layer="1" rot="R180"/>
+<smd name="1" x="-3.645" y="-1.85" dx="1.63" dy="1.07" layer="1" rot="R180"/>
+<smd name="5" x="3.645" y="0" dx="1.63" dy="1.07" layer="1" rot="R180"/>
+<smd name="2" x="-3.645" y="0" dx="1.63" dy="1.07" layer="1" rot="R180"/>
+<text x="-0.15" y="4.25" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.15" y="-5" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-2.1" y="-2.4" size="0.8128" layer="48">1</text>
+<text x="-2.2" y="1.4" size="0.8128" layer="48">3</text>
+<text x="2" y="1.4" size="0.8128" layer="48">4</text>
+<text x="2" y="-2.3" size="0.8128" layer="48">6</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.66" y="3.6"/>
+<vertex x="4.66" y="3.6"/>
+<vertex x="4.66" y="-3.6"/>
+<vertex x="-4.66" y="-3.6"/>
+</polygon>
+<circle x="-2.4" y="-2" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-FB_ER9.5" urn="urn:adsk.eagle:footprint:12912000/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;ER9.5 SMD 8Pin</description>
+<smd name="6" x="5.46" y="-1" dx="1.7" dy="1.12" layer="1"/>
+<smd name="7" x="5.46" y="1" dx="1.7" dy="1.12" layer="1"/>
+<smd name="8" x="5.46" y="3" dx="1.7" dy="1.12" layer="1"/>
+<smd name="5" x="5.46" y="-3" dx="1.7" dy="1.12" layer="1"/>
+<smd name="4" x="-5.46" y="-3" dx="1.7" dy="1.12" layer="1"/>
+<smd name="3" x="-5.46" y="-1" dx="1.7" dy="1.12" layer="1"/>
+<smd name="2" x="-5.46" y="1" dx="1.7" dy="1.12" layer="1"/>
+<smd name="1" x="-5.46" y="3" dx="1.7" dy="1.12" layer="1"/>
+<wire x1="-6.475" y1="5.205" x2="-6.475" y2="-5.205" width="0.1" layer="51"/>
+<wire x1="-6.475" y1="-5.205" x2="6.475" y2="-5.205" width="0.1" layer="51"/>
+<wire x1="6.475" y1="-5.205" x2="6.475" y2="5.205" width="0.1" layer="51"/>
+<wire x1="6.475" y1="5.205" x2="-6.475" y2="5.205" width="0.1" layer="51"/>
+<wire x1="-6.575" y1="5.305" x2="6.575" y2="5.305" width="0.2" layer="21"/>
+<wire x1="6.575" y1="-5.305" x2="-6.575" y2="-5.305" width="0.2" layer="21"/>
+<wire x1="-6.575" y1="5.3" x2="-6.575" y2="3.9" width="0.2" layer="21"/>
+<wire x1="-6.575" y1="-5.3" x2="-6.575" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="6.575" y1="-5.3" x2="6.575" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="6.575" y1="5.3" x2="6.575" y2="3.9" width="0.2" layer="21"/>
+<text x="-0.465" y="6.25" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.445" y="-7.135" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.95" y="-3.5" size="1.016" layer="48">4</text>
+<text x="3.4" y="-3.65" size="1.016" layer="48">5</text>
+<text x="3.55" y="2.45" size="1.016" layer="48">8</text>
+<text x="-3.65" y="2.45" size="1.016" layer="48">1</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.775" y="5.455"/>
+<vertex x="6.775" y="5.455"/>
+<vertex x="6.775" y="-5.505"/>
+<vertex x="-6.775" y="-5.505"/>
+</polygon>
+<circle x="-4.1" y="3" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-FB_EP10" urn="urn:adsk.eagle:footprint:12912003/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP10 SMD 6Pin</description>
+<smd name="4" x="-6.78" y="3.735" dx="2.08" dy="1.07" layer="1"/>
+<smd name="5" x="6.78" y="3.735" dx="2.08" dy="1.07" layer="1"/>
+<smd name="6" x="6.78" y="1.245" dx="2.08" dy="1.07" layer="1"/>
+<smd name="7" x="6.78" y="-1.245" dx="2.08" dy="1.07" layer="1"/>
+<smd name="8" x="6.78" y="-3.735" dx="2.08" dy="1.07" layer="1"/>
+<smd name="3" x="-6.78" y="1.245" dx="2.08" dy="1.07" layer="1"/>
+<smd name="2" x="-6.78" y="-1.245" dx="2.08" dy="1.07" layer="1"/>
+<smd name="1" x="-6.78" y="-3.735" dx="2.08" dy="1.07" layer="1"/>
+<wire x1="-7.62" y1="6.67" x2="-7.62" y2="-6.67" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="-6.67" x2="7.62" y2="-6.67" width="0.1" layer="51"/>
+<wire x1="7.62" y1="-6.67" x2="7.62" y2="6.67" width="0.1" layer="51"/>
+<wire x1="7.62" y1="6.67" x2="-7.62" y2="6.67" width="0.1" layer="51"/>
+<wire x1="-7.72" y1="4.6" x2="-7.72" y2="6.77" width="0.2" layer="21"/>
+<wire x1="-7.72" y1="6.77" x2="7.7" y2="6.77" width="0.2" layer="21"/>
+<wire x1="7.7" y1="6.77" x2="7.7" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-7.7" y1="-4.6" x2="-7.7" y2="-6.77" width="0.2" layer="21"/>
+<wire x1="-7.7" y1="-6.77" x2="7.7" y2="-6.77" width="0.2" layer="21"/>
+<wire x1="7.7" y1="-6.77" x2="7.7" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-7.72" y1="2.9" x2="-7.72" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-7.72" y1="0.4" x2="-7.72" y2="-0.4" width="0.2" layer="21"/>
+<wire x1="-7.72" y1="-2.1" x2="-7.72" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="7.72" y1="-2.9" x2="7.72" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="7.72" y1="-0.4" x2="7.72" y2="0.4" width="0.2" layer="21"/>
+<wire x1="7.72" y1="2.1" x2="7.72" y2="2.9" width="0.2" layer="21"/>
+<text x="-0.195" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.005" y="-8.64" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4.9" y="-4.35" size="1.016" layer="48">1</text>
+<text x="-4.85" y="3.15" size="1.016" layer="48">4</text>
+<text x="4.6" y="3.1" size="1.016" layer="48">5</text>
+<text x="4.6" y="-4.3" size="1.016" layer="48">8</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.02" y="6.97"/>
+<vertex x="8.02" y="6.97"/>
+<vertex x="8.02" y="-6.97"/>
+<vertex x="-8.02" y="-6.97"/>
+</polygon>
+<circle x="-5.2" y="-3.8" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-FB_EP7_P11.66" urn="urn:adsk.eagle:footprint:12912005/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP7 SMD 8Pin Pitch of PAD=11.66mm</description>
+<wire x1="-6.675" y1="5.4" x2="6.675" y2="5.4" width="0.1" layer="51"/>
+<wire x1="-6.675" y1="-5.4" x2="6.675" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="-6.675" y1="5.4" x2="-6.675" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="6.675" y1="5.4" x2="6.675" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="-6.775" y1="4.65" x2="-6.775" y2="5.5" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="5.5" x2="6.775" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.775" y1="5.5" x2="6.775" y2="4.7" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="-4.65" x2="-6.775" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="-5.5" x2="6.775" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="6.775" y1="-5.5" x2="6.775" y2="-4.65" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="2.85" x2="-6.775" y2="2.15" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="0.35" x2="-6.775" y2="-0.35" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="-2.15" x2="-6.775" y2="-2.85" width="0.2" layer="21"/>
+<wire x1="6.775" y1="-2.85" x2="6.775" y2="-2.15" width="0.2" layer="21"/>
+<wire x1="6.775" y1="-0.35" x2="6.775" y2="0.35" width="0.2" layer="21"/>
+<wire x1="6.775" y1="2.15" x2="6.775" y2="2.85" width="0.2" layer="21"/>
+<smd name="5" x="5.83" y="3.75" dx="1.96" dy="1.17" layer="1"/>
+<smd name="8" x="5.83" y="-3.75" dx="1.96" dy="1.17" layer="1"/>
+<smd name="1" x="-5.83" y="-3.75" dx="1.96" dy="1.17" layer="1"/>
+<smd name="4" x="-5.83" y="3.75" dx="1.96" dy="1.17" layer="1"/>
+<smd name="6" x="5.83" y="1.25" dx="1.96" dy="1.17" layer="1"/>
+<smd name="3" x="-5.83" y="1.25" dx="1.96" dy="1.17" layer="1"/>
+<smd name="2" x="-5.83" y="-1.25" dx="1.96" dy="1.17" layer="1"/>
+<smd name="7" x="5.83" y="-1.25" dx="1.96" dy="1.17" layer="1"/>
+<text x="-0.35" y="6.45" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.25" y="-7.05" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-3.95" y="-4.25" size="1.016" layer="48">1</text>
+<text x="-4" y="3.25" size="1.016" layer="48">4</text>
+<text x="3.75" y="3.2" size="1.016" layer="48">5</text>
+<text x="3.75" y="-4.4" size="1.016" layer="48">8</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.01" y="5.7"/>
+<vertex x="7.01" y="5.7"/>
+<vertex x="7.01" y="-5.7"/>
+<vertex x="-7.01" y="-5.7"/>
+</polygon>
+<circle x="-4.4" y="-3.8" radius="0.1" width="0.2" layer="51"/>
+</package>
+<package name="WE-FB_EP7_P8.13" urn="urn:adsk.eagle:footprint:12912006/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP7 SMD 8Pin Pitch of PAD=8.13mm</description>
+<wire x1="-4.57" y1="4.89" x2="4.57" y2="4.89" width="0.1" layer="51"/>
+<wire x1="-4.57" y1="-4.89" x2="4.57" y2="-4.89" width="0.1" layer="51"/>
+<wire x1="-4.57" y1="4.89" x2="-4.57" y2="-4.89" width="0.1" layer="51"/>
+<wire x1="4.57" y1="4.89" x2="4.57" y2="-4.89" width="0.1" layer="51"/>
+<wire x1="-4.67" y1="4.65" x2="-4.67" y2="4.99" width="0.2" layer="21"/>
+<wire x1="-4.67" y1="4.99" x2="4.67" y2="4.99" width="0.2" layer="21"/>
+<wire x1="4.67" y1="4.99" x2="4.67" y2="4.65" width="0.2" layer="21"/>
+<wire x1="-4.67" y1="-4.65" x2="-4.67" y2="-4.99" width="0.2" layer="21"/>
+<wire x1="-4.67" y1="-4.99" x2="4.67" y2="-4.99" width="0.2" layer="21"/>
+<wire x1="4.67" y1="-4.99" x2="4.67" y2="-4.65" width="0.2" layer="21"/>
+<wire x1="-4.67" y1="-2.15" x2="-4.67" y2="-2.85" width="0.2" layer="21"/>
+<wire x1="-4.67" y1="0.35" x2="-4.67" y2="-0.35" width="0.2" layer="21"/>
+<wire x1="-4.67" y1="2.85" x2="-4.67" y2="2.15" width="0.2" layer="21"/>
+<wire x1="4.67" y1="2.85" x2="4.67" y2="2.15" width="0.2" layer="21"/>
+<wire x1="4.67" y1="0.35" x2="4.67" y2="-0.35" width="0.2" layer="21"/>
+<wire x1="4.67" y1="-2.15" x2="4.67" y2="-2.85" width="0.2" layer="21"/>
+<smd name="5" x="4.065" y="3.735" dx="1.91" dy="1.17" layer="1"/>
+<smd name="8" x="4.065" y="-3.735" dx="1.91" dy="1.17" layer="1"/>
+<smd name="1" x="-4.065" y="-3.735" dx="1.91" dy="1.17" layer="1"/>
+<smd name="4" x="-4.065" y="3.735" dx="1.91" dy="1.17" layer="1"/>
+<smd name="6" x="4.065" y="1.245" dx="1.91" dy="1.17" layer="1"/>
+<smd name="3" x="-4.065" y="1.245" dx="1.91" dy="1.17" layer="1"/>
+<smd name="2" x="-4.065" y="-1.245" dx="1.91" dy="1.17" layer="1"/>
+<smd name="7" x="4.065" y="-1.245" dx="1.91" dy="1.17" layer="1"/>
+<text x="-0.39" y="5.9" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.19" y="-6.7" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-2.3" y="-4.25" size="1.016" layer="48">1</text>
+<text x="-2.15" y="3.25" size="1.016" layer="48">4</text>
+<text x="1.75" y="3.25" size="1.016" layer="48">5</text>
+<text x="1.75" y="-4.2" size="1.016" layer="48">8</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5.22" y="5.19"/>
+<vertex x="5.22" y="5.19"/>
+<vertex x="5.22" y="-5.19"/>
+<vertex x="-5.22" y="-5.19"/>
+</polygon>
+<circle x="-2.6" y="-3.8" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-FB_EE16/8/5" urn="urn:adsk.eagle:footprint:12911999/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EE16/8/5 THT 9Pin</description>
+<pad name="3" x="-8.5" y="0" drill="1.42"/>
+<pad name="2" x="-8.5" y="3.5" drill="1.42"/>
+<pad name="8" x="8.5" y="2.5" drill="1.42"/>
+<pad name="1" x="-8.5" y="7" drill="1.42"/>
+<pad name="9" x="8.5" y="7.5" drill="1.42"/>
+<pad name="4" x="-8.5" y="-3.5" drill="1.42"/>
+<pad name="7" x="8.5" y="-2.5" drill="1.42"/>
+<pad name="5" x="-8.5" y="-7" drill="1.42"/>
+<pad name="6" x="8.5" y="-7.5" drill="1.42"/>
+<wire x1="-12.19" y1="10.16" x2="-12.19" y2="-10.16" width="0.1" layer="51"/>
+<wire x1="-12.19" y1="-10.16" x2="12.19" y2="-10.16" width="0.1" layer="51"/>
+<wire x1="12.19" y1="-10.16" x2="12.19" y2="10.16" width="0.1" layer="51"/>
+<wire x1="12.19" y1="10.16" x2="-12.19" y2="10.16" width="0.1" layer="51"/>
+<wire x1="-12.29" y1="10.26" x2="12.29" y2="10.26" width="0.2" layer="21"/>
+<wire x1="12.29" y1="10.26" x2="12.29" y2="-10.26" width="0.2" layer="21"/>
+<wire x1="12.29" y1="-10.26" x2="-12.29" y2="-10.26" width="0.2" layer="21"/>
+<wire x1="-12.29" y1="-10.26" x2="-12.29" y2="10.26" width="0.2" layer="21"/>
+<text x="0.365" y="11.33" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.175" y="-12.065" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-6.5" y="6.3" size="1.27" layer="48">1</text>
+<text x="-6.6" y="-7.6" size="1.27" layer="48">5</text>
+<text x="5.9" y="-8" size="1.27" layer="48">6</text>
+<text x="6.25" y="6.65" size="1.27" layer="48">9</text>
+<polygon width="0.1" layer="39">
+<vertex x="-12.49" y="10.46"/>
+<vertex x="12.49" y="10.46"/>
+<vertex x="12.49" y="-10.46"/>
+<vertex x="-12.49" y="-10.46"/>
+</polygon>
+<circle x="-6.86" y="7.02" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-FB_EP13_P16.36" urn="urn:adsk.eagle:footprint:12912002/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP13 SMD 10Pin ,Pitch of PAD =16.36</description>
+<smd name="3" x="-8.18" y="0" dx="1.88" dy="1.17" layer="1"/>
+<smd name="8" x="8.18" y="0" dx="1.88" dy="1.17" layer="1"/>
+<smd name="2" x="-8.18" y="-2.48" dx="1.88" dy="1.17" layer="1"/>
+<smd name="1" x="-8.18" y="-4.96" dx="1.88" dy="1.17" layer="1"/>
+<smd name="4" x="-8.18" y="2.48" dx="1.88" dy="1.17" layer="1"/>
+<smd name="7" x="8.18" y="2.48" dx="1.88" dy="1.17" layer="1"/>
+<smd name="9" x="8.18" y="-2.48" dx="1.88" dy="1.17" layer="1"/>
+<smd name="10" x="8.18" y="-4.96" dx="1.88" dy="1.17" layer="1"/>
+<smd name="5" x="-8.18" y="4.96" dx="1.88" dy="1.17" layer="1"/>
+<smd name="6" x="8.18" y="4.96" dx="1.88" dy="1.17" layer="1"/>
+<wire x1="-8.875" y1="6.73" x2="-8.875" y2="-6.73" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="-6.73" x2="8.875" y2="-6.73" width="0.1" layer="51"/>
+<wire x1="8.875" y1="-6.73" x2="8.875" y2="6.73" width="0.1" layer="51"/>
+<wire x1="8.875" y1="6.73" x2="-8.875" y2="6.73" width="0.1" layer="51"/>
+<wire x1="-8.975" y1="5.85" x2="-8.975" y2="6.83" width="0.2" layer="21"/>
+<wire x1="-8.975" y1="6.83" x2="8.975" y2="6.83" width="0.2" layer="21"/>
+<wire x1="8.975" y1="6.83" x2="8.975" y2="5.9" width="0.2" layer="21"/>
+<wire x1="-8.975" y1="-5.85" x2="-8.975" y2="-6.83" width="0.2" layer="21"/>
+<wire x1="-8.975" y1="-6.83" x2="8.975" y2="-6.83" width="0.2" layer="21"/>
+<wire x1="8.975" y1="-6.83" x2="8.975" y2="-5.9" width="0.2" layer="21"/>
+<wire x1="-8.975" y1="4.05" x2="-8.975" y2="3.4" width="0.2" layer="21"/>
+<wire x1="-8.975" y1="1.57" x2="-8.975" y2="0.92" width="0.2" layer="21"/>
+<wire x1="-8.975" y1="-0.9" x2="-8.975" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="-8.975" y1="-3.38" x2="-8.975" y2="-4.03" width="0.2" layer="21"/>
+<wire x1="8.995" y1="-4.06" x2="8.995" y2="-3.41" width="0.2" layer="21"/>
+<wire x1="8.985" y1="-1.58" x2="8.985" y2="-0.93" width="0.2" layer="21"/>
+<wire x1="8.975" y1="0.9" x2="8.975" y2="1.55" width="0.2" layer="21"/>
+<wire x1="8.975" y1="3.39" x2="8.975" y2="4.04" width="0.2" layer="21"/>
+<text x="-0.29" y="7.82" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.14" y="-8.84" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-6.2" y="-5.5" size="1.016" layer="48">1</text>
+<text x="-6.45" y="4.4" size="1.016" layer="48">5</text>
+<text x="6" y="4.35" size="1.016" layer="48">6</text>
+<text x="5.2" y="-5.55" size="1.016" layer="48">10</text>
+<polygon width="0.1" layer="39">
+<vertex x="-9.32" y="7.03"/>
+<vertex x="9.32" y="7.03"/>
+<vertex x="9.32" y="-7.03"/>
+<vertex x="-9.32" y="-7.03"/>
+</polygon>
+<circle x="-6.7" y="-5" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="WE-FB_EP7_P11.68" urn="urn:adsk.eagle:footprint:12912004/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP7 SMD 8Pin Pitch of PAD=11.68mm</description>
+<wire x1="-6.675" y1="5.4" x2="6.675" y2="5.4" width="0.1" layer="51"/>
+<wire x1="-6.675" y1="-5.4" x2="6.675" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="-6.675" y1="5.4" x2="-6.675" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="6.675" y1="5.4" x2="6.675" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="-6.775" y1="4.65" x2="-6.775" y2="5.5" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="5.5" x2="6.775" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.775" y1="5.5" x2="6.775" y2="4.7" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="-4.65" x2="-6.775" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="-5.5" x2="6.775" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="6.775" y1="-5.5" x2="6.775" y2="-4.65" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="2.85" x2="-6.775" y2="2.15" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="0.35" x2="-6.775" y2="-0.35" width="0.2" layer="21"/>
+<wire x1="-6.775" y1="-2.15" x2="-6.775" y2="-2.85" width="0.2" layer="21"/>
+<wire x1="6.775" y1="-2.85" x2="6.775" y2="-2.15" width="0.2" layer="21"/>
+<wire x1="6.775" y1="-0.35" x2="6.775" y2="0.35" width="0.2" layer="21"/>
+<wire x1="6.775" y1="2.15" x2="6.775" y2="2.85" width="0.2" layer="21"/>
+<smd name="5" x="5.84" y="3.735" dx="1.96" dy="1.17" layer="1"/>
+<smd name="8" x="5.84" y="-3.735" dx="1.96" dy="1.17" layer="1"/>
+<smd name="1" x="-5.84" y="-3.735" dx="1.96" dy="1.17" layer="1"/>
+<smd name="4" x="-5.84" y="3.735" dx="1.96" dy="1.17" layer="1"/>
+<smd name="6" x="5.84" y="1.245" dx="1.96" dy="1.17" layer="1"/>
+<smd name="3" x="-5.84" y="1.245" dx="1.96" dy="1.17" layer="1"/>
+<smd name="2" x="-5.84" y="-1.245" dx="1.96" dy="1.17" layer="1"/>
+<smd name="7" x="5.84" y="-1.245" dx="1.96" dy="1.17" layer="1"/>
+<text x="-0.35" y="6.45" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.25" y="-7.05" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-3.95" y="-4.25" size="1.016" layer="48">1</text>
+<text x="-4" y="3.25" size="1.016" layer="48">4</text>
+<text x="3.75" y="3.2" size="1.016" layer="48">5</text>
+<text x="3.75" y="-4.4" size="1.016" layer="48">8</text>
+<polygon width="0.1" layer="39">
+<vertex x="-7.01" y="5.7"/>
+<vertex x="7.01" y="5.7"/>
+<vertex x="7.01" y="-5.7"/>
+<vertex x="-7.01" y="-5.7"/>
+</polygon>
+<circle x="-4.4" y="-3.8" radius="0.1" width="0.2" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-FB_EE20/10/6" urn="urn:adsk.eagle:package:12912022/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EE20/10/6 THT 14Pin</description>
+<packageinstances>
+<packageinstance name="WE-FB_EE20/10/6"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_EFD20" urn="urn:adsk.eagle:package:12912021/3" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EFD20 SMD12 Pin</description>
+<packageinstances>
+<packageinstance name="WE-FB_EFD20"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_EFD25" urn="urn:adsk.eagle:package:12912020/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EFD25 SMD12 Pin</description>
+<packageinstances>
+<packageinstance name="WE-FB_EFD25"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_EP13_P15.77" urn="urn:adsk.eagle:package:12912025/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP13 SMD12Pin ,Pitch of PAD =15.77</description>
+<packageinstances>
+<packageinstance name="WE-FB_EP13_P15.77"/>
+</packageinstances>
+</package3d>
+<package3d name="WE_FB_EP5" urn="urn:adsk.eagle:package:12912031/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP5 SMD 6Pin</description>
+<packageinstances>
+<packageinstance name="WE_FB_EP5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_ER9.5" urn="urn:adsk.eagle:package:12912024/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;ER9.5 SMD 8Pin</description>
+<packageinstances>
+<packageinstance name="WE-FB_ER9.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_EP7_P11.66" urn="urn:adsk.eagle:package:12912029/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP7 SMD 8Pin Pitch of PAD=11.66mm</description>
+<packageinstances>
+<packageinstance name="WE-FB_EP7_P11.66"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_EP7_P8.13" urn="urn:adsk.eagle:package:12912030/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP7 SMD 8Pin Pitch of PAD=8.13mm</description>
+<packageinstances>
+<packageinstance name="WE-FB_EP7_P8.13"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_EP10" urn="urn:adsk.eagle:package:12912027/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP10 SMD 6Pin</description>
+<packageinstances>
+<packageinstance name="WE-FB_EP10"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_EP7_P11.68" urn="urn:adsk.eagle:package:12912028/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP7 SMD 8Pin Pitch of PAD=11.68mm</description>
+<packageinstances>
+<packageinstance name="WE-FB_EP7_P11.68"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_EE16/8/5" urn="urn:adsk.eagle:package:12912023/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EE16/8/5 THT 9Pin</description>
+<packageinstances>
+<packageinstance name="WE-FB_EE16/8/5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-FB_EP13_P16.36" urn="urn:adsk.eagle:package:12912026/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;EP13 SMD 10Pin ,Pitch of PAD =16.36</description>
+<packageinstances>
+<packageinstance name="WE-FB_EP13_P16.36"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="3W:4W">
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="15" x2="-0.3" y2="-15" width="0.254" layer="94"/>
+<wire x1="0.3" y1="15" x2="0.3" y2="-15" width="0.254" layer="94"/>
+<wire x1="2.54" y1="13.97" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="13.97" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="11.43" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="11.43" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-11.43" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-11.43" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-8.89" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<pin name="13" x="5.08" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="14" x="5.08" y="15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.54" y="7.04375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.4575" y="-0.57625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.44" y="1.96375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.54" y="14.66375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5575" y="-8.29625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="9.58375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.44" y="-5.65625" radius="0.12" width="0.254" layer="94"/>
+<text x="-6.11" y="-17.38" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-0.01" y="16.21" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-8.9" y="7.5" size="1.27" layer="97">PRI</text>
+<text x="-8.7" y="0.2" size="1.27" layer="97">PRI</text>
+</symbol>
+<symbol name="1W:2W_1">
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="6" x2="-0.3" y2="-6" width="0.254" layer="94"/>
+<wire x1="0.3" y1="6" x2="0.3" y2="-6" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.5107" y="4.48655" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5356" y="-0.62285" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="1.94655" radius="0.12" width="0.254" layer="94"/>
+<text x="-4.3" y="-7.96" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-0.27" y="6.89" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7.5" y="0" size="1.016" layer="97">PRI</text>
+<text x="5" y="2.46" size="1.016" layer="97">SEC</text>
+<text x="5" y="-2.46" size="1.016" layer="97">SEC</text>
+</symbol>
+<symbol name="3W:2W">
+<wire x1="-0.3" y1="10" x2="-0.3" y2="-7.46" width="0.254" layer="94"/>
+<wire x1="0.3" y1="10" x2="0.3" y2="-7.46" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<text x="-4.31" y="-12.44" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-0.57" y="11.37" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<pin name="9" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-5.08" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<circle x="-2.44" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.44" y="9.56625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-5.015" y="7.02625" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.44" y="4.50375" radius="0.12" width="0.254" layer="94"/>
+<circle x="4.98" y="1.96375" radius="0.12" width="0.254" layer="94"/>
+</symbol>
+<symbol name="3W:3W">
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="10" x2="-0.3" y2="-10" width="0.254" layer="94"/>
+<wire x1="0.3" y1="10" x2="0.3" y2="-10" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="8.89" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<text x="-4.31" y="-12.44" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-0.57" y="11.37" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<pin name="10" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="5.08" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="5.08" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<circle x="-2.44" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.44" y="9.56625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-5.015" y="7.02625" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.44" y="9.58375" radius="0.12" width="0.254" layer="94"/>
+<circle x="4.98" y="4.50375" radius="0.12" width="0.254" layer="94"/>
+<circle x="7.52" y="1.96375" radius="0.12" width="0.254" layer="94"/>
+</symbol>
+<symbol name="2W:4W">
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="14" x2="-0.3" y2="-11.46" width="0.254" layer="94"/>
+<wire x1="0.3" y1="14" x2="0.3" y2="-11.46" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="13.97" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="13.97" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="11.43" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="11.43" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-11.43" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-11.43" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="5.08" y="15.24" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="5.08" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.44" y="6.94375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5575" y="-0.57625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="6.94375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.44" y="-0.67625" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.44" y="14.66375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.54" y="-8.29625" radius="0.12" width="0.254" layer="94"/>
+<text x="-3.81" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+<text x="1.27" y="16.51" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-8.74" y="0.6" size="1.27" layer="97">PRI</text>
+</symbol>
+<symbol name="1W:1W">
+<text x="-3.26375" y="-4.99125" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-0.24" y="3.58" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="0" size="1.27" layer="97">PRI</text>
+<text x="5" y="0" size="1.27" layer="97">SEC</text>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3175" y1="2.54" x2="-0.3175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.3175" y1="2.54" x2="0.3175" y2="-2.54" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="-2.4575" y="1.9225" radius="0.1" width="0.254" layer="94"/>
+<circle x="2.4575" y="1.9225" radius="0.1" width="0.254" layer="94"/>
+</symbol>
+<symbol name="2W:2W_2">
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="4.46" x2="-0.3" y2="-7" width="0.254" layer="94"/>
+<wire x1="0.3" y1="4.46" x2="0.3" y2="-7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.54" y="4.40375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5575" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="4.50375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<text x="-5.01" y="-11.1" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-0.07" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="2.46" size="1.016" layer="97">N1</text>
+<text x="-7" y="-5" size="1.016" layer="97">N2</text>
+<text x="5.7" y="-5" size="1.016" layer="97">N4</text>
+<text x="5.7" y="2.62" size="1.016" layer="97">N3</text>
+</symbol>
+<symbol name="1W:2W">
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="6" x2="-0.3" y2="-6" width="0.254" layer="94"/>
+<wire x1="0.3" y1="6" x2="0.3" y2="-6" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.5107" y="7.02655" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5356" y="-3.16285" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="1.94655" radius="0.12" width="0.254" layer="94"/>
+<text x="-3.8" y="-9.46" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="8.39" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7.5" y="0" size="1.016" layer="97">PRI</text>
+<text x="5" y="5" size="1.016" layer="97">SEC</text>
+<text x="5" y="-5" size="1.016" layer="97">SEC</text>
+</symbol>
+<symbol name="2W:2W">
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="4.46" x2="-0.3" y2="-7" width="0.254" layer="94"/>
+<wire x1="0.3" y1="4.46" x2="0.3" y2="-7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="2.54" y="4.40375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.5575" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="4.50375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="-3.21625" radius="0.12" width="0.254" layer="94"/>
+<text x="-5.01" y="-11.1" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-0.07" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="2.46" size="1.016" layer="97">PRI</text>
+<text x="-7" y="-5" size="1.016" layer="97">AUX</text>
+<text x="5.7" y="-5" size="1.016" layer="97">SEC</text>
+<text x="5.7" y="2.62" size="1.016" layer="97">SEC</text>
+</symbol>
+<symbol name="2W:1W">
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="0.3" y1="-6" x2="0.3" y2="6" width="0.254" layer="94"/>
+<wire x1="-0.3" y1="-6" x2="-0.3" y2="6" width="0.254" layer="94"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="7.62" visible="pad" length="short" direction="pas"/>
+<circle x="-2.4575" y="7.02625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.44" y="-3.14375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.44" y="1.93625" radius="0.12" width="0.254" layer="94"/>
+<text x="-3.17" y="-9.26" size="1.27" layer="96">&gt;VALUE</text>
+<text x="0.03" y="8.19" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="5" size="1.016" layer="97">PRI</text>
+<text x="-7" y="-5" size="1.016" layer="97">AUX</text>
+<text x="5" y="0" size="1.016" layer="97">SEC</text>
+</symbol>
+<symbol name="3W:1W">
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-8.89" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-8.89" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="0.3" y1="-8.54" x2="0.3" y2="6" width="0.254" layer="94"/>
+<wire x1="-0.3" y1="-8.54" x2="-0.3" y2="6" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-5.08" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="-2.4575" y="1.94625" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.44" y="-5.68375" radius="0.12" width="0.254" layer="94"/>
+<circle x="2.44" y="-0.60375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.4575" y="7.02625" radius="0.12" width="0.254" layer="94"/>
+<text x="-3.17" y="-11.8" size="1.27" layer="96">&gt;VALUE</text>
+<text x="0.03" y="10.19" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="5" size="1.016" layer="97">PRI</text>
+<text x="-7" y="-7.54" size="1.016" layer="97">AUX</text>
+<text x="5" y="-2.54" size="1.016" layer="97">SEC</text>
+</symbol>
+<symbol name="2W:2W_1">
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.3" y1="6" x2="-0.3" y2="-6" width="0.254" layer="94"/>
+<wire x1="0.3" y1="6" x2="0.3" y2="-6" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="1.27" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-1.27" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<circle x="2.44" y="4.40375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.44" y="7.04375" radius="0.12" width="0.254" layer="94"/>
+<circle x="-2.54" y="-3.11625" radius="0.12" width="0.254" layer="94"/>
+<circle x="4.98" y="1.86375" radius="0.12" width="0.254" layer="94"/>
+<text x="-4.77" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0.73" y="8.39" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-7" y="5" size="1.016" layer="97">PRI</text>
+<text x="-7" y="-5" size="1.016" layer="97">AUX</text>
+<text x="7.54" y="0" size="1.016" layer="97">Output</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-FB_EFD20_SCH2" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3W:3W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EFD20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912021/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_750310617">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750310617?ae"/>
+<attribute name="IOUT" value="3A"/>
+<attribute name="ISAT" value="14A"/>
+<attribute name="L" value="4.5uH"/>
+<attribute name="LSMIN" value="0.15uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1.16"/>
+<attribute name="PART-NUMBER" value=" 750310617 "/>
+<attribute name="VALUE" value=" 750310617 "/>
+<attribute name="VIN" value="9-36V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311385">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311385?ae"/>
+<attribute name="IOUT" value="2.3A"/>
+<attribute name="ISAT" value="6.75A"/>
+<attribute name="L" value="15uH"/>
+<attribute name="LSMIN" value="0.1uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1.25:1"/>
+<attribute name="PART-NUMBER" value=" 750311385 "/>
+<attribute name="VALUE" value=" 750311385 "/>
+<attribute name="VIN" value="18-60V(DC)"/>
+<attribute name="VOUT" value="13V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EFD20_SCH1" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3W:3W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EFD20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="9"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912021/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311597">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311597?ae"/>
+<attribute name="IOUT" value="6A"/>
+<attribute name="ISAT" value="9.5A"/>
+<attribute name="L" value="6uH"/>
+<attribute name="LSMIN" value="0.3uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750311597 "/>
+<attribute name="VALUE" value=" 750311597 "/>
+<attribute name="VIN" value="20-48V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311598">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311598?ae"/>
+<attribute name="IOUT" value="2.5A"/>
+<attribute name="ISAT" value="9A"/>
+<attribute name="L" value="8.3uH"/>
+<attribute name="LSMIN" value="0.3uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1"/>
+<attribute name="PART-NUMBER" value=" 750311598 "/>
+<attribute name="VALUE" value=" 750311598 "/>
+<attribute name="VIN" value="20-48V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311605">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311605?ae"/>
+<attribute name="IOUT" value="6A"/>
+<attribute name="ISAT" value="9.5A"/>
+<attribute name="L" value="15uH"/>
+<attribute name="LSMIN" value="0.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="7:2"/>
+<attribute name="PART-NUMBER" value=" 750311605 "/>
+<attribute name="VALUE" value=" 750311605 "/>
+<attribute name="VIN" value="30-75V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311607">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311607?ae"/>
+<attribute name="IOUT" value="2.5A"/>
+<attribute name="ISAT" value="9.5A"/>
+<attribute name="L" value="14uH"/>
+<attribute name="LSMIN" value="0.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:2"/>
+<attribute name="PART-NUMBER" value=" 750311607 "/>
+<attribute name="VALUE" value=" 750311607 "/>
+<attribute name="VIN" value="30-75V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311797">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311797?ae"/>
+<attribute name="IOUT" value="2.5A"/>
+<attribute name="ISAT" value="11.5A"/>
+<attribute name="L" value="14uH"/>
+<attribute name="LSMIN" value="0.21uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:5:1"/>
+<attribute name="PART-NUMBER" value=" 750311797 "/>
+<attribute name="VALUE" value=" 750311797 "/>
+<attribute name="VIN" value="18-100V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EFD20_SCH3" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EFD20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="9"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="11"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912021/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311599">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311599?ae"/>
+<attribute name="IOUT" value="2A"/>
+<attribute name="ISAT" value="12A"/>
+<attribute name="L" value="8uH"/>
+<attribute name="LSMIN" value="0.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:2"/>
+<attribute name="PART-NUMBER" value=" 750311599 "/>
+<attribute name="VALUE" value=" 750311599 "/>
+<attribute name="VIN" value="20-48V(DC)"/>
+<attribute name="VOUT" value="15V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311600">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311600?ae"/>
+<attribute name="IOUT" value="2A"/>
+<attribute name="ISAT" value="11A"/>
+<attribute name="L" value="12uH"/>
+<attribute name="LSMIN" value="0.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1"/>
+<attribute name="PART-NUMBER" value=" 750311600 "/>
+<attribute name="VALUE" value=" 750311600 "/>
+<attribute name="VIN" value="30-75V(DC)"/>
+<attribute name="VOUT" value="15V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311604">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311604?ae"/>
+<attribute name="IOUT" value="1.3A"/>
+<attribute name="ISAT" value="9.5A"/>
+<attribute name="L" value="8uH"/>
+<attribute name="LSMIN" value="0.3uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1"/>
+<attribute name="PART-NUMBER" value=" 750311604 "/>
+<attribute name="VALUE" value=" 750311604 "/>
+<attribute name="VIN" value="20-48V(DC)"/>
+<attribute name="VOUT" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311608">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311608?ae"/>
+<attribute name="IOUT" value="1.3A"/>
+<attribute name="ISAT" value="9A"/>
+<attribute name="L" value="12uH"/>
+<attribute name="LSMIN" value="0.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:2"/>
+<attribute name="PART-NUMBER" value=" 750311608 "/>
+<attribute name="VALUE" value=" 750311608 "/>
+<attribute name="VIN" value="30-75V(DC)"/>
+<attribute name="VOUT" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EE20/10/6" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3W:4W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EE20/10/6">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="1"/>
+<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912022/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311911">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311911?ae"/>
+<attribute name="IOUT" value="0.2A/0.2A/0.2A/0.2A"/>
+<attribute name="ISAT" value="13A"/>
+<attribute name="L" value="6.8uH"/>
+<attribute name="LSMIN" value="0.1uH"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="1:3:3:3:3"/>
+<attribute name="PART-NUMBER" value=" 750311911 "/>
+<attribute name="VALUE" value=" 750311911 "/>
+<attribute name="VIN" value="16-24V(DC)"/>
+<attribute name="VOUT" value="15V/15V/15V /15V "/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EFD25_SCH2" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="1W:2W_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EFD25">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="11"/>
+<connect gate="G$1" pin="4" pad="5"/>
+<connect gate="G$1" pin="5" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912020/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750310988">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750310988?ae"/>
+<attribute name="IOUT" value="0.85A"/>
+<attribute name="ISAT" value="15A"/>
+<attribute name="L" value="14uH"/>
+<attribute name="LSMIN" value="0.2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:4.42"/>
+<attribute name="PART-NUMBER" value=" 750310988 "/>
+<attribute name="VALUE" value=" 750310988 "/>
+<attribute name="VIN" value="12V(DC)"/>
+<attribute name="VOUT" value="48V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EP13_SCH2" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2W:4W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EP13_P15.77">
+<connects>
+<connect gate="G$1" pin="1" pad="14"/>
+<connect gate="G$1" pin="10" pad="3"/>
+<connect gate="G$1" pin="11" pad="2"/>
+<connect gate="G$1" pin="12" pad="1"/>
+<connect gate="G$1" pin="2" pad="11"/>
+<connect gate="G$1" pin="3" pad="16"/>
+<connect gate="G$1" pin="4" pad="9"/>
+<connect gate="G$1" pin="5" pad="8"/>
+<connect gate="G$1" pin="6" pad="7"/>
+<connect gate="G$1" pin="7" pad="6"/>
+<connect gate="G$1" pin="8" pad="5"/>
+<connect gate="G$1" pin="9" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912025/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311856">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311856?ae"/>
+<attribute name="IOUT" value="0.15A/0.15A/0.15A/0.15A"/>
+<attribute name="ISAT" value="12A"/>
+<attribute name="L" value="3.8uH"/>
+<attribute name="LSMIN" value="0.25uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:4:4:4:4"/>
+<attribute name="PART-NUMBER" value=" 750311856 "/>
+<attribute name="VALUE" value=" 750311856 "/>
+<attribute name="VIN" value="16-24V(DC)"/>
+<attribute name="VOUT" value="15V/15V/15V/15V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EFD25_SCH3" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="1W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EFD25">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="12"/>
+<connect gate="G$1" pin="3" pad="7"/>
+<connect gate="G$1" pin="4" pad="9"/>
+<connect gate="G$1" pin="5" pad="10"/>
+<connect gate="G$1" pin="6" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912020/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311889">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311889?ae"/>
+<attribute name="IOUT" value="0.1A"/>
+<attribute name="ISAT" value="2.95A"/>
+<attribute name="L" value="37uH"/>
+<attribute name="LSMIN" value="0.16uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:5"/>
+<attribute name="PART-NUMBER" value=" 750311889 "/>
+<attribute name="VALUE" value=" 750311889 "/>
+<attribute name="VIN" value="28V(DC)"/>
+<attribute name="VOUT" value="250V"/>
+<attribute name="VT" value="500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EFD25_SCH1" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3W:3W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EFD25">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="9"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912020/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311589">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311589?ae"/>
+<attribute name="IOUT" value="9A"/>
+<attribute name="ISAT" value="18A"/>
+<attribute name="L" value="6uH"/>
+<attribute name="LSMIN" value="0.2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750311589 "/>
+<attribute name="VALUE" value=" 750311589 "/>
+<attribute name="VIN" value="20-48V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311590">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311590?ae"/>
+<attribute name="IOUT" value="3.8A"/>
+<attribute name="ISAT" value="18A"/>
+<attribute name="L" value="8uH"/>
+<attribute name="LSMIN" value="0.2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1"/>
+<attribute name="PART-NUMBER" value=" 750311590 "/>
+<attribute name="VALUE" value=" 750311590 "/>
+<attribute name="VIN" value="20-48V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311591">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311591?ae"/>
+<attribute name="IOUT" value="3A"/>
+<attribute name="ISAT" value="20A"/>
+<attribute name="L" value="8uH"/>
+<attribute name="LSMIN" value="0.2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:2"/>
+<attribute name="PART-NUMBER" value=" 750311591 "/>
+<attribute name="VALUE" value=" 750311591 "/>
+<attribute name="VIN" value="20-48V(DC)"/>
+<attribute name="VOUT" value="15V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311592">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311592?ae"/>
+<attribute name="IOUT" value="1.9A"/>
+<attribute name="ISAT" value="18A"/>
+<attribute name="L" value="8uH"/>
+<attribute name="LSMIN" value="0.2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1"/>
+<attribute name="PART-NUMBER" value=" 750311592 "/>
+<attribute name="VALUE" value=" 750311592 "/>
+<attribute name="VIN" value="20-48V(DC)"/>
+<attribute name="VOUT" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311593">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311593?ae"/>
+<attribute name="IOUT" value="9A"/>
+<attribute name="ISAT" value="18A"/>
+<attribute name="L" value="15uH"/>
+<attribute name="LSMIN" value="0.3uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="7:2"/>
+<attribute name="PART-NUMBER" value=" 750311593 "/>
+<attribute name="VALUE" value=" 750311593 "/>
+<attribute name="VIN" value="30-75V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311594">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311594?ae"/>
+<attribute name="IOUT" value="3.8A"/>
+<attribute name="ISAT" value="18A"/>
+<attribute name="L" value="15uH"/>
+<attribute name="LSMIN" value="0.4uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:2"/>
+<attribute name="PART-NUMBER" value=" 750311594 "/>
+<attribute name="VALUE" value=" 750311594 "/>
+<attribute name="VIN" value="30-75V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311595">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311595?ae"/>
+<attribute name="IOUT" value="3A"/>
+<attribute name="ISAT" value="16A"/>
+<attribute name="L" value="12uH"/>
+<attribute name="LSMIN" value="0.2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1"/>
+<attribute name="PART-NUMBER" value=" 750311595 "/>
+<attribute name="VALUE" value=" 750311595 "/>
+<attribute name="VIN" value="30-75V(DC)"/>
+<attribute name="VOUT" value="15V"/>
+<attribute name="VT" value="2500V(AC)"/>
+</technology>
+<technology name="_750311596">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311596?ae"/>
+<attribute name="IOUT" value="1.9A"/>
+<attribute name="ISAT" value="18A"/>
+<attribute name="L" value="12uH"/>
+<attribute name="LSMIN" value="0.2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:2"/>
+<attribute name="PART-NUMBER" value=" 750311596 "/>
+<attribute name="VALUE" value=" 750311596 "/>
+<attribute name="VIN" value="30-75V(DC)"/>
+<attribute name="VOUT" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311771">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311771?ae"/>
+<attribute name="IOUT" value="3A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="L" value="500uH"/>
+<attribute name="LSMIN" value="5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="6:1"/>
+<attribute name="PART-NUMBER" value=" 750311771 "/>
+<attribute name="VALUE" value=" 750311771 "/>
+<attribute name="VIN" value="100-400V(DC)"/>
+<attribute name="VOUT" value="15V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311783">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311783?ae"/>
+<attribute name="IOUT" value="2.5A"/>
+<attribute name="ISAT" value="16A"/>
+<attribute name="L" value="20uH"/>
+<attribute name="LSMIN" value="0.17uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1.5:1"/>
+<attribute name="PART-NUMBER" value=" 750311783 "/>
+<attribute name="VALUE" value=" 750311783 "/>
+<attribute name="VIN" value="19-70V(DC)"/>
+<attribute name="VOUT" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EP5" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="1W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE_FB_EP5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912031/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311691">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311691?ae"/>
+<attribute name="IOUT" value="0.001A"/>
+<attribute name="ISAT" value="0.25A"/>
+<attribute name="L" value="60uH"/>
+<attribute name="LSMIN" value="1uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:5"/>
+<attribute name="PART-NUMBER" value=" 750311691 "/>
+<attribute name="VALUE" value=" 750311691 "/>
+<attribute name="VIN" value="8-15V(DC)"/>
+<attribute name="VOUT" value="150V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_ER9.5" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2W:2W_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_ER9.5">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="8"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912024/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750370042">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370042?ae"/>
+<attribute name="IOUT" value="0.2A/0.1A/0.1A"/>
+<attribute name="ISAT" value="1.5A"/>
+<attribute name="L" value="15uH"/>
+<attribute name="LSMIN" value="0.25uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1:1:1"/>
+<attribute name="PART-NUMBER" value=" 750370042 "/>
+<attribute name="VALUE" value=" 750370042 "/>
+<attribute name="VIN" value="5V(DC)"/>
+<attribute name="VOUT" value="5V/5V/5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EP10_SCH3" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2W:2W_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EP10">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="7"/>
+<connect gate="G$1" pin="6" pad="8"/>
+<connect gate="G$1" pin="7" pad="6"/>
+<connect gate="G$1" pin="8" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912027/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311342">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311342?ae"/>
+<attribute name="IOUT" value="3A"/>
+<attribute name="ISAT" value="5.8A"/>
+<attribute name="L" value="15uH"/>
+<attribute name="LSMIN" value="0.65uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1"/>
+<attribute name="PART-NUMBER" value=" 750311342 "/>
+<attribute name="VALUE" value=" 750311342 "/>
+<attribute name="VIN" value="36V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311567">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311567?ae"/>
+<attribute name="IOUT" value="3A"/>
+<attribute name="ISAT" value="11.2A"/>
+<attribute name="L" value="7uH"/>
+<attribute name="LSMIN" value="0.8uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1"/>
+<attribute name="PART-NUMBER" value=" 750311567 "/>
+<attribute name="VALUE" value=" 750311567 "/>
+<attribute name="VIN" value="10-40V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EP10_SCH1" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EP10">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="7 8"/>
+<connect gate="G$1" pin="6" pad="5 6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912027/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750310471">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750310471?ae"/>
+<attribute name="IOUT" value="2A"/>
+<attribute name="ISAT" value="2.6A"/>
+<attribute name="L" value="25uH"/>
+<attribute name="LSMIN" value="0.43uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750310471 "/>
+<attribute name="VALUE" value=" 750310471 "/>
+<attribute name="VIN" value="9-30V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750310559">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750310559?ae"/>
+<attribute name="IOUT" value="1.5A"/>
+<attribute name="ISAT" value="2.1A"/>
+<attribute name="L" value="24uH"/>
+<attribute name="LSMIN" value="0.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:1"/>
+<attribute name="PART-NUMBER" value=" 750310559 "/>
+<attribute name="VALUE" value=" 750310559 "/>
+<attribute name="VIN" value="12-30V(DC)"/>
+<attribute name="VOUT" value="3.3V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750310562">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750310562?ae"/>
+<attribute name="IOUT" value="0.8A"/>
+<attribute name="ISAT" value="2.8A"/>
+<attribute name="L" value="25uH"/>
+<attribute name="LSMIN" value="0.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1"/>
+<attribute name="PART-NUMBER" value=" 750310562 "/>
+<attribute name="VALUE" value=" 750310562 "/>
+<attribute name="VIN" value="18-30V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750310563">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750310563?ae"/>
+<attribute name="IOUT" value="0.8A"/>
+<attribute name="ISAT" value="2.8A"/>
+<attribute name="L" value="25uH"/>
+<attribute name="LSMIN" value="0.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1"/>
+<attribute name="PART-NUMBER" value=" 750310563 "/>
+<attribute name="VALUE" value=" 750310563 "/>
+<attribute name="VIN" value="18-30V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311303">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311303?ae"/>
+<attribute name="IOUT" value="3A"/>
+<attribute name="ISAT" value="2.25A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="0.8uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:1"/>
+<attribute name="PART-NUMBER" value=" 750311303 "/>
+<attribute name="VALUE" value=" 750311303 "/>
+<attribute name="VIN" value="9-30V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311304">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311304?ae"/>
+<attribute name="IOUT" value="3A"/>
+<attribute name="ISAT" value="2.4A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="0.85uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:1"/>
+<attribute name="PART-NUMBER" value=" 750311304 "/>
+<attribute name="VALUE" value=" 750311304 "/>
+<attribute name="VIN" value="9-30V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311305">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311305?ae"/>
+<attribute name="IOUT" value="1A"/>
+<attribute name="ISAT" value="2.8A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="1.2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750311305 "/>
+<attribute name="VALUE" value=" 750311305 "/>
+<attribute name="VIN" value="9-30V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311306">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311306?ae"/>
+<attribute name="IOUT" value="1A"/>
+<attribute name="ISAT" value="1.65A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="LSMIN" value="1.75uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750311306 "/>
+<attribute name="VALUE" value=" 750311306 "/>
+<attribute name="VIN" value="9-30V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311307">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311307?ae"/>
+<attribute name="IOUT" value="0.5A"/>
+<attribute name="ISAT" value="1.9A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="LSMIN" value="2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1"/>
+<attribute name="PART-NUMBER" value=" 750311307 "/>
+<attribute name="VALUE" value=" 750311307 "/>
+<attribute name="VIN" value="9-30V(DC)"/>
+<attribute name="VOUT" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311308">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311308?ae"/>
+<attribute name="IOUT" value="0.5A"/>
+<attribute name="ISAT" value="2.1A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="LSMIN" value="2.1uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1"/>
+<attribute name="PART-NUMBER" value=" 750311308 "/>
+<attribute name="VALUE" value=" 750311308 "/>
+<attribute name="VIN" value="9-30V(DC)"/>
+<attribute name="VOUT" value="24V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311675">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311675?ae"/>
+<attribute name="IOUT" value="2A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="L" value="25uH"/>
+<attribute name="LSMIN" value="0.13uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750311675 "/>
+<attribute name="VALUE" value=" 750311675 "/>
+<attribute name="VIN" value="9-30V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EP10_SCH2" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EP10">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="7"/>
+<connect gate="G$1" pin="6" pad="5"/>
+<connect gate="G$1" pin="7" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912027/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750310564">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750310564?ae"/>
+<attribute name="IOUT" value="1A/1A"/>
+<attribute name="ISAT" value="1.45A"/>
+<attribute name="L" value="63uH"/>
+<attribute name="LSMIN" value="0.6uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750310564 "/>
+<attribute name="VALUE" value=" 750310564 "/>
+<attribute name="VIN" value="12-30V(DC)"/>
+<attribute name="VOUT" value="5V/5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EP13_SCH1" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EP13_P16.36">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="5"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="9 10"/>
+<connect gate="G$1" pin="6" pad="6 7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912026/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311422">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311422?ae"/>
+<attribute name="IOUT" value="4A"/>
+<attribute name="ISAT" value="3.3A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="0.6uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:1"/>
+<attribute name="PART-NUMBER" value=" 750311422 "/>
+<attribute name="VALUE" value=" 750311422 "/>
+<attribute name="VIN" value="36V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311423">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311423?ae"/>
+<attribute name="IOUT" value="4A"/>
+<attribute name="ISAT" value="3.85A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="0.6uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:1"/>
+<attribute name="PART-NUMBER" value=" 750311423 "/>
+<attribute name="VALUE" value=" 750311423 "/>
+<attribute name="VIN" value="36V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311424">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311424?ae"/>
+<attribute name="IOUT" value="1A"/>
+<attribute name="ISAT" value="2.4A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="LSMIN" value="0.9uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750311424 "/>
+<attribute name="VALUE" value=" 750311424 "/>
+<attribute name="VIN" value="36V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311439">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311439?ae"/>
+<attribute name="IOUT" value="2.1A"/>
+<attribute name="ISAT" value="2.8A"/>
+<attribute name="L" value="37uH"/>
+<attribute name="LSMIN" value="0.75uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:1"/>
+<attribute name="PART-NUMBER" value=" 750311439 "/>
+<attribute name="VALUE" value=" 750311439 "/>
+<attribute name="VIN" value="37-57V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311456">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311456?ae"/>
+<attribute name="IOUT" value="1A"/>
+<attribute name="ISAT" value="2.4A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="LSMIN" value="0.9uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750311456 "/>
+<attribute name="VALUE" value=" 750311456 "/>
+<attribute name="VIN" value="36V(DC)"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311457">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311457?ae"/>
+<attribute name="IOUT" value="4A"/>
+<attribute name="ISAT" value="3.7A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="0.6uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:1"/>
+<attribute name="PART-NUMBER" value=" 750311457 "/>
+<attribute name="VALUE" value=" 750311457 "/>
+<attribute name="VIN" value="36V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311458">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311458?ae"/>
+<attribute name="IOUT" value="4A"/>
+<attribute name="ISAT" value="5A"/>
+<attribute name="L" value="15uH"/>
+<attribute name="LSMIN" value="0.175uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750311458 "/>
+<attribute name="VALUE" value=" 750311458 "/>
+<attribute name="VIN" value="36V(DC)"/>
+<attribute name="VOUT" value="3.3V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311486">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311486?ae"/>
+<attribute name="IOUT" value="0.002A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="LSMIN" value="4.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:10:10"/>
+<attribute name="PART-NUMBER" value=" 750311486 "/>
+<attribute name="VALUE" value=" 750311486 "/>
+<attribute name="VIN" value="12V(DC)"/>
+<attribute name="VOUT" value="200V/200V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311564">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311564?ae"/>
+<attribute name="IOUT" value="3A"/>
+<attribute name="ISAT" value="8A"/>
+<attribute name="L" value="9.07uH"/>
+<attribute name="LSMIN" value="0.12uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750311564 "/>
+<attribute name="VALUE" value=" 750311564 "/>
+<attribute name="VIN" value="10-40V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311624">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311624?ae"/>
+<attribute name="IOUT" value="1A"/>
+<attribute name="ISAT" value="8A"/>
+<attribute name="L" value="9uH"/>
+<attribute name="LSMIN" value="0.18uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1.5:1"/>
+<attribute name="PART-NUMBER" value=" 750311624 "/>
+<attribute name="VALUE" value=" 750311624 "/>
+<attribute name="VIN" value="10-40V(DC)"/>
+<attribute name="VOUT" value="15V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311625">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311625?ae"/>
+<attribute name="IOUT" value="4A"/>
+<attribute name="ISAT" value="8A"/>
+<attribute name="L" value="9uH"/>
+<attribute name="LSMIN" value="0.35uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:1"/>
+<attribute name="PART-NUMBER" value=" 750311625 "/>
+<attribute name="VALUE" value=" 750311625 "/>
+<attribute name="VIN" value="10-40V(DC)"/>
+<attribute name="VOUT" value="3.3V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311688">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311688?ae"/>
+<attribute name="IOUT" value="4A"/>
+<attribute name="ISAT" value="3.1A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="0.6uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:1"/>
+<attribute name="PART-NUMBER" value=" 750311688 "/>
+<attribute name="VALUE" value=" 750311688 "/>
+<attribute name="VIN" value="36V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750311689">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311689?ae"/>
+<attribute name="IOUT" value="4A"/>
+<attribute name="ISAT" value="3.7A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="0.6uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:1"/>
+<attribute name="PART-NUMBER" value=" 750311689 "/>
+<attribute name="VALUE" value=" 750311689 "/>
+<attribute name="VIN" value="36V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EE16/8/5" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EE16/8/5">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="1"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="7"/>
+<connect gate="G$1" pin="7" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912023/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750811048">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750811048?ae"/>
+<attribute name="IOUT" value="0.3A"/>
+<attribute name="ISAT" value="0.65A"/>
+<attribute name="L" value="1500uH"/>
+<attribute name="LSMIN" value="22uH"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="4.5:1"/>
+<attribute name="PART-NUMBER" value=" 750811048 "/>
+<attribute name="VALUE" value=" 750811048 "/>
+<attribute name="VIN" value="100-400V(DC)"/>
+<attribute name="VOUT" value="30V"/>
+<attribute name="VT" value="4500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EP13_SCH3" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="1W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EP13_P16.36">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="7"/>
+<connect gate="G$1" pin="4" pad="9"/>
+<connect gate="G$1" pin="5" pad="8"/>
+<connect gate="G$1" pin="6" pad="10"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912026/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311681">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311681?ae"/>
+<attribute name="IOUT" value="0.002A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="L" value="100uH"/>
+<attribute name="LSMIN" value="3uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:10:10"/>
+<attribute name="PART-NUMBER" value=" 750311681 "/>
+<attribute name="VALUE" value=" 750311681 "/>
+<attribute name="VIN" value="12V(DC)"/>
+<attribute name="VOUT" value="200V/200V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EP7_SCH1" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2W:1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_P11.66" package="WE-FB_EP7_P11.66">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="7 8"/>
+<connect gate="G$1" pin="6" pad="5 6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912029/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750370047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370047?ae"/>
+<attribute name="IOUT" value="1A"/>
+<attribute name="ISAT" value="1.7A"/>
+<attribute name="L" value="30uH"/>
+<attribute name="LSMIN" value="1uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750370047 "/>
+<attribute name="VALUE" value=" 750370047 "/>
+<attribute name="VIN" value="18-30V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="_P8.13" package="WE-FB_EP7_P8.13">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="7 8"/>
+<connect gate="G$1" pin="6" pad="5 6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912030/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750310799">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750310799?ae"/>
+<attribute name="IOUT" value="0.4A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="L" value="25uH"/>
+<attribute name="LSMIN" value="0.15uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1"/>
+<attribute name="PART-NUMBER" value=" 750310799 "/>
+<attribute name="VALUE" value=" 750310799 "/>
+<attribute name="VIN" value="18-30V(DC)"/>
+<attribute name="VOUT" value="15V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750370040">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370040?ae"/>
+<attribute name="IOUT" value="1A"/>
+<attribute name="ISAT" value="1.7A"/>
+<attribute name="L" value="30uH"/>
+<attribute name="LSMIN" value="1uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750370040 "/>
+<attribute name="VALUE" value=" 750370040 "/>
+<attribute name="VIN" value="18-30V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750370041">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370041?ae"/>
+<attribute name="IOUT" value="1A"/>
+<attribute name="ISAT" value="1.6A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="0.45uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750370041 "/>
+<attribute name="VALUE" value=" 750370041 "/>
+<attribute name="VIN" value="18-30V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+<device name="_P11.68" package="WE-FB_EP7_P11.68">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
+<connect gate="G$1" pin="5" pad="7 8"/>
+<connect gate="G$1" pin="6" pad="5 6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912028/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750370058">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370058?ae"/>
+<attribute name="IOUT" value="0.4A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="L" value="25uH"/>
+<attribute name="LSMIN" value="0.185uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1"/>
+<attribute name="PART-NUMBER" value=" 750370058 "/>
+<attribute name="VALUE" value=" 750370058 "/>
+<attribute name="VIN" value="18-30V(DC)"/>
+<attribute name="VOUT" value="15V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+<technology name="_750370059">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370059?ae"/>
+<attribute name="IOUT" value="1A"/>
+<attribute name="ISAT" value="1.6A"/>
+<attribute name="L" value="50uH"/>
+<attribute name="LSMIN" value="0.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:1"/>
+<attribute name="PART-NUMBER" value=" 750370059 "/>
+<attribute name="VALUE" value=" 750370059 "/>
+<attribute name="VIN" value="18-30V(DC)"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-FB_EP7_SCH2" prefix="T">
+<description>&lt;b&gt; WE-FB Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Easy design-in solution
+&lt;br&gt;Less external components needed
+&lt;br&gt;Small board space
+&lt;br&gt;Low cost
+&lt;br&gt;No optocoupler needed!
+&lt;br&gt;Long term reliability voltage control
+&lt;br&gt;No aging
+&lt;br&gt;Same external parts for different output voltages
+&lt;br&gt;Easy design of custom power supply due to standard circuit and change of transformers and two components for feedback loop
+&lt;br&gt;Isolation voltage up to 2.5 kV
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Isolated power design
+&lt;br&gt;Sensor interfaces
+&lt;br&gt;Isolated telecom converters
+&lt;br&gt;Power over Ethernet
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o35283v209%20Family_we-fb_LT%20Kits_gruppe.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-FB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-FB&lt;/a&gt;&lt;p&gt;
+
+
+&lt;br&gt;Updated by Ella Wu 2022-07-21&lt;br&gt;
+&lt;br&gt;2022 Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="1W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-FB_EP7_P8.13">
+<connects>
+<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="7"/>
+<connect gate="G$1" pin="5" pad="6"/>
+<connect gate="G$1" pin="6" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12912030/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_750311692">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750311692?ae"/>
+<attribute name="IOUT" value="0.001A/0.01A"/>
+<attribute name="ISAT" value="1A"/>
+<attribute name="L" value="80uH"/>
+<attribute name="LSMIN" value="2uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:5"/>
+<attribute name="PART-NUMBER" value=" 750311692 "/>
+<attribute name="VALUE" value=" 750311692 "/>
+<attribute name="VIN" value="8-15V(DC)"/>
+<attribute name="VOUT" value="150V/150V"/>
+<attribute name="VT" value="1500V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

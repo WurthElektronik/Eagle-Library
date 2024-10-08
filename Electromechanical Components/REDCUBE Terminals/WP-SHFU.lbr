@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Release" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Heatsink" color="1" fill="7" visible="no" active="no"/>
+<layer number="102" name="tMarkings" color="1" fill="7" visible="no" active="no"/>
+<layer number="103" name="bMarkings" color="1" fill="7" visible="no" active="no"/>
+<layer number="104" name="tSchirm" color="7" fill="4" visible="no" active="no"/>
+<layer number="105" name="bSchirm" color="7" fill="5" visible="no" active="no"/>
+<layer number="106" name="shield" color="11" fill="1" visible="no" active="no"/>
+<layer number="107" name="ShieldTop" color="12" fill="1" visible="no" active="no"/>
+<layer number="108" name="MeasuresWall" color="7" fill="1" visible="no" active="no"/>
+<layer number="109" name="SYSONDER" color="7" fill="1" visible="no" active="no"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="tStopDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="bStopDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="bTPoint" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Änderung" color="7" fill="1" visible="no" active="no"/>
+<layer number="115" name="Component" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
+<layer number="117" name="housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="PCB" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="Layout_Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="lotbs" color="7" fill="1" visible="no" active="no"/>
+<layer number="121" name="lotls" color="7" fill="1" visible="no" active="no"/>
+<layer number="122" name="bTestdril" color="7" fill="1" visible="no" active="no"/>
+<layer number="123" name="BOHRFILM" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="127" name="Mods" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
+<layer number="150" name="References" color="4" fill="1" visible="no" active="no"/>
+<layer number="151" name="FaceHelp" color="5" fill="1" visible="no" active="no"/>
+<layer number="152" name="FaceFrame" color="6" fill="1" visible="no" active="no"/>
+<layer number="153" name="FacePlate" color="2" fill="1" visible="no" active="no"/>
+<layer number="154" name="FaceLabel" color="7" fill="1" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
+<layer number="199" name="Bauteile" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="bBauteile" color="1" fill="7" visible="no" active="no"/>
+<layer number="202" name="value" color="7" fill="1" visible="no" active="no"/>
+<layer number="203" name="no" color="7" fill="1" visible="no" active="no"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="210" name="tPNR" color="7" fill="1" visible="no" active="no"/>
+<layer number="211" name="bPNR" color="7" fill="1" visible="no" active="no"/>
+<layer number="220" name="ausheb_u" color="7" fill="1" visible="no" active="no"/>
+<layer number="221" name="ausheb_o" color="7" fill="1" visible="no" active="no"/>
+<layer number="222" name="frontpla" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="PLCDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="MillDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="BR-LS" color="7" fill="1" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+<layer number="255" name="ZchnBlatt" color="7" fill="1" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - REDCUBE - REDCUBE PRESS-FIT - WP-SHFU&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2022a, 2022-09-30&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WP-SHFU_7461383" urn="urn:adsk.eagle:footprint:14420601/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M5 , 16pins
+&lt;br&gt;Max Height = 12.5mm</description>
+<pad name="1" x="-3.81" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="2" x="-1.27" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="3" x="1.27" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="4" x="3.81" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="5" x="3.81" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="6" x="1.27" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="7" x="-1.27" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="8" x="-3.81" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="9" x="-3.81" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="10" x="-1.27" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="11" x="1.27" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="12" x="3.81" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="13" x="3.81" y="-3.81" drill="1.475" diameter="1.8"/>
+<pad name="14" x="1.27" y="-3.81" drill="1.475" diameter="1.8"/>
+<pad name="15" x="-1.27" y="-3.81" drill="1.475" diameter="1.8"/>
+<pad name="16" x="-3.81" y="-3.81" drill="1.475" diameter="1.8"/>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-4.5" x2="-4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="4.6" x2="0.4" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-2.9" y1="4.6" x2="-2.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="2.2" y1="4.6" x2="3" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-0.4" x2="-4.6" y2="0.4" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-2.9" x2="-4.6" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="2.2" x2="-4.6" y2="3" width="0.2" layer="21"/>
+<wire x1="0.4" y1="-4.6" x2="-0.4" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="2.9" y1="-4.6" x2="2.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="-4.6" x2="-3" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="0.4" x2="4.6" y2="-0.4" width="0.2" layer="21"/>
+<wire x1="4.6" y1="2.9" x2="4.6" y2="2.1" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-2.2" x2="4.6" y2="-3" width="0.2" layer="21"/>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME </text>
+<text x="-3.5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="4.9"/>
+<vertex x="4.9" y="4.9"/>
+<vertex x="4.9" y="-4.9"/>
+<vertex x="-4.9" y="-4.9"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7460719" urn="urn:adsk.eagle:footprint:14420605/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M8 , 25pins
+&lt;br&gt;Max Height = 20.5mm</description>
+<pad name="1" x="-5.08" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="2" x="-2.54" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="3" x="0" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="4" x="2.54" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="5" x="5.08" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="6" x="5.08" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="7" x="2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="8" x="0" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="9" x="-2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="10" x="-5.08" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="11" x="-5.08" y="0" drill="1.475" diameter="1.8"/>
+<pad name="12" x="-2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="13" x="0" y="0" drill="1.475" diameter="1.8"/>
+<pad name="14" x="2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="15" x="5.08" y="0" drill="1.475" diameter="1.8"/>
+<pad name="16" x="5.08" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="17" x="2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="18" x="0" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="19" x="-2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="20" x="-5.08" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="21" x="-5.08" y="-5.08" drill="1.475" diameter="1.8"/>
+<pad name="22" x="-2.54" y="-5.08" drill="1.475" diameter="1.8"/>
+<pad name="23" x="0" y="-5.08" drill="1.475" diameter="1.8"/>
+<pad name="24" x="2.54" y="-5.08" drill="1.475" diameter="1.8"/>
+<pad name="25" x="5.08" y="-5.08" drill="1.475" diameter="1.8"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="6.6" x2="6.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="6.6" x2="6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-6.6" x2="-6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-6.6" x2="-6.6" y2="6.6" width="0.2" layer="21"/>
+<text x="0" y="7.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="6.8"/>
+<vertex x="6.8" y="6.8"/>
+<vertex x="6.8" y="-6.8"/>
+<vertex x="-6.8" y="-6.8"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461001" urn="urn:adsk.eagle:footprint:14420603/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M5 , 9pins
+&lt;br&gt;Max Height = 12mm</description>
+<pad name="1" x="-2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="2" x="0" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="3" x="2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="4" x="2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="5" x="0" y="0" drill="1.475" diameter="1.8"/>
+<pad name="6" x="-2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="7" x="-2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="8" x="0" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="9" x="2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.6" x2="-0.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="0.6" y1="3.6" x2="2" y2="3.6" width="0.2" layer="21"/>
+<wire x1="2" y1="-3.6" x2="0.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="-3.6" x2="-2" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-2" x2="-3.6" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="0.6" x2="-3.6" y2="2" width="0.2" layer="21"/>
+<wire x1="3.6" y1="2" x2="3.6" y2="0.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-0.6" x2="3.6" y2="-2" width="0.2" layer="21"/>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.4" y="-5.6" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="3.8"/>
+<vertex x="3.8" y="3.8"/>
+<vertex x="3.8" y="-3.8"/>
+<vertex x="-3.8" y="-3.8"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7460719_HAL" urn="urn:adsk.eagle:footprint:14420604/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M8 , 25pins
+&lt;br&gt;Max Height = 20.5mm</description>
+<pad name="1" x="-5.08" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="2" x="-2.54" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="3" x="0" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="4" x="2.54" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="5" x="5.08" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="6" x="5.08" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="7" x="2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="8" x="0" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="9" x="-2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="10" x="-5.08" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="11" x="-5.08" y="0" drill="1.45" diameter="1.8"/>
+<pad name="12" x="-2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="13" x="0" y="0" drill="1.45" diameter="1.8"/>
+<pad name="14" x="2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="15" x="5.08" y="0" drill="1.45" diameter="1.8"/>
+<pad name="16" x="5.08" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="17" x="2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="18" x="0" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="19" x="-2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="20" x="-5.08" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="21" x="-5.08" y="-5.08" drill="1.45" diameter="1.8"/>
+<pad name="22" x="-2.54" y="-5.08" drill="1.45" diameter="1.8"/>
+<pad name="23" x="0" y="-5.08" drill="1.45" diameter="1.8"/>
+<pad name="24" x="2.54" y="-5.08" drill="1.45" diameter="1.8"/>
+<pad name="25" x="5.08" y="-5.08" drill="1.45" diameter="1.8"/>
+<text x="0" y="7.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.8" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="6.6" x2="6.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="6.6" x2="6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-6.6" x2="-6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-6.6" x2="-6.6" y2="6.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="6.8"/>
+<vertex x="6.8" y="6.8"/>
+<vertex x="6.8" y="-6.8"/>
+<vertex x="-6.8" y="-6.8"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461094_HAL" urn="urn:adsk.eagle:footprint:14420594/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M3 , 9pins
+&lt;br&gt;Max Height = 7.5mm</description>
+<pad name="1" x="-2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="2" x="0" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="3" x="2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="4" x="2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="5" x="0" y="0" drill="1.45" diameter="1.8"/>
+<pad name="6" x="-2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="7" x="-2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="8" x="0" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="9" x="2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.6" x2="-0.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="0.6" y1="3.6" x2="2" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-2" x2="-3.6" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="0.6" x2="-3.6" y2="2" width="0.2" layer="21"/>
+<wire x1="2" y1="-3.6" x2="0.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="-3.6" x2="-2" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="2" x2="3.6" y2="0.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-0.6" x2="3.6" y2="-2" width="0.2" layer="21"/>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.4" y="-5.6" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="3.8"/>
+<vertex x="3.8" y="3.8"/>
+<vertex x="3.8" y="-3.8"/>
+<vertex x="-3.8" y="-3.8"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461001_HAL" urn="urn:adsk.eagle:footprint:14420602/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M5 , 9pins
+&lt;br&gt;Max Height = 12mm</description>
+<pad name="1" x="-2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="2" x="0" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="3" x="2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="4" x="2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="5" x="0" y="0" drill="1.45" diameter="1.8"/>
+<pad name="6" x="-2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="7" x="-2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="8" x="0" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="9" x="2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.6" x2="-0.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="0.6" y1="3.6" x2="2" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-2" x2="-3.6" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="0.6" x2="-3.6" y2="2" width="0.2" layer="21"/>
+<wire x1="2" y1="-3.6" x2="0.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="-3.6" x2="-2" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="2" x2="3.6" y2="0.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-0.6" x2="3.6" y2="-2" width="0.2" layer="21"/>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.4" y="-5.6" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="3.8"/>
+<vertex x="3.8" y="3.8"/>
+<vertex x="3.8" y="-3.8"/>
+<vertex x="-3.8" y="-3.8"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461100" urn="urn:adsk.eagle:footprint:14420599/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M10 , 36pins
+&lt;br&gt;Max Height = 24mm</description>
+<pad name="1" x="-6.35" y="6.35" drill="1.475" diameter="1.8"/>
+<pad name="2" x="-3.81" y="6.35" drill="1.475" diameter="1.8"/>
+<pad name="3" x="-1.27" y="6.35" drill="1.475" diameter="1.8"/>
+<pad name="4" x="1.27" y="6.35" drill="1.475" diameter="1.8"/>
+<pad name="5" x="3.81" y="6.35" drill="1.475" diameter="1.8"/>
+<pad name="6" x="6.35" y="6.35" drill="1.475" diameter="1.8"/>
+<pad name="7" x="6.35" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="8" x="3.81" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="9" x="1.27" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="10" x="-1.27" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="11" x="-3.81" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="12" x="-6.35" y="3.81" drill="1.475" diameter="1.8"/>
+<pad name="13" x="-6.35" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="14" x="-3.81" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="15" x="-1.27" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="16" x="1.27" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="17" x="3.81" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="18" x="6.35" y="1.27" drill="1.475" diameter="1.8"/>
+<pad name="19" x="6.35" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="20" x="3.81" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="21" x="1.27" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="22" x="-1.27" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="23" x="-3.81" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="24" x="-6.35" y="-1.27" drill="1.475" diameter="1.8"/>
+<pad name="25" x="-6.35" y="-3.81" drill="1.475" diameter="1.8"/>
+<pad name="26" x="-3.81" y="-3.81" drill="1.475" diameter="1.8"/>
+<pad name="27" x="-1.27" y="-3.81" drill="1.475" diameter="1.8"/>
+<pad name="28" x="1.27" y="-3.81" drill="1.475" diameter="1.8"/>
+<pad name="29" x="3.81" y="-3.81" drill="1.475" diameter="1.8"/>
+<pad name="30" x="6.35" y="-3.81" drill="1.475" diameter="1.8"/>
+<pad name="31" x="6.35" y="-6.35" drill="1.475" diameter="1.8"/>
+<pad name="32" x="3.81" y="-6.35" drill="1.475" diameter="1.8"/>
+<pad name="33" x="1.27" y="-6.35" drill="1.475" diameter="1.8"/>
+<pad name="34" x="-1.27" y="-6.35" drill="1.475" diameter="1.8"/>
+<pad name="35" x="-3.81" y="-6.35" drill="1.475" diameter="1.8"/>
+<pad name="36" x="-6.35" y="-6.35" drill="1.475" diameter="1.8"/>
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.1" layer="51"/>
+<wire x1="8" y1="8" x2="8" y2="-8" width="0.1" layer="51"/>
+<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.1" layer="51"/>
+<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.1" layer="51"/>
+<wire x1="-8.1" y1="8.1" x2="8.1" y2="8.1" width="0.2" layer="21"/>
+<wire x1="8.1" y1="8.1" x2="8.1" y2="-8.1" width="0.2" layer="21"/>
+<wire x1="8.1" y1="-8.1" x2="-8.1" y2="-8.1" width="0.2" layer="21"/>
+<wire x1="-8.1" y1="-8.1" x2="-8.1" y2="8.1" width="0.2" layer="21"/>
+<text x="0" y="9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-10.8" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.3" y="-8.3"/>
+<vertex x="8.3" y="-8.3"/>
+<vertex x="8.3" y="8.3"/>
+<vertex x="-8.3" y="8.3"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461100_HAL" urn="urn:adsk.eagle:footprint:14420598/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M10 , 36pins
+&lt;br&gt;Max Height = 24mm</description>
+<pad name="1" x="-6.35" y="6.35" drill="1.45" diameter="1.8"/>
+<pad name="2" x="-3.81" y="6.35" drill="1.45" diameter="1.8"/>
+<pad name="3" x="-1.27" y="6.35" drill="1.45" diameter="1.8"/>
+<pad name="4" x="1.27" y="6.35" drill="1.45" diameter="1.8"/>
+<pad name="5" x="3.81" y="6.35" drill="1.45" diameter="1.8"/>
+<pad name="6" x="6.35" y="6.35" drill="1.45" diameter="1.8"/>
+<pad name="7" x="6.35" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="8" x="3.81" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="9" x="1.27" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="10" x="-1.27" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="11" x="-3.81" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="12" x="-6.35" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="13" x="-6.35" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="14" x="-3.81" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="15" x="-1.27" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="16" x="1.27" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="17" x="3.81" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="18" x="6.35" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="19" x="6.35" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="20" x="3.81" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="21" x="1.27" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="22" x="-1.27" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="23" x="-3.81" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="24" x="-6.35" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="25" x="-6.35" y="-3.81" drill="1.45" diameter="1.8"/>
+<pad name="26" x="-3.81" y="-3.81" drill="1.45" diameter="1.8"/>
+<pad name="27" x="-1.27" y="-3.81" drill="1.45" diameter="1.8"/>
+<pad name="28" x="1.27" y="-3.81" drill="1.45" diameter="1.8"/>
+<pad name="29" x="3.81" y="-3.81" drill="1.45" diameter="1.8"/>
+<pad name="30" x="6.35" y="-3.81" drill="1.45" diameter="1.8"/>
+<pad name="31" x="6.35" y="-6.35" drill="1.45" diameter="1.8"/>
+<pad name="32" x="3.81" y="-6.35" drill="1.45" diameter="1.8"/>
+<pad name="33" x="1.27" y="-6.35" drill="1.45" diameter="1.8"/>
+<pad name="34" x="-1.27" y="-6.35" drill="1.45" diameter="1.8"/>
+<pad name="35" x="-3.81" y="-6.35" drill="1.45" diameter="1.8"/>
+<pad name="36" x="-6.35" y="-6.35" drill="1.45" diameter="1.8"/>
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.1" layer="51"/>
+<wire x1="8" y1="8" x2="8" y2="-8" width="0.1" layer="51"/>
+<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.1" layer="51"/>
+<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.1" layer="51"/>
+<wire x1="-8.1" y1="8.1" x2="8.1" y2="8.1" width="0.2" layer="21"/>
+<wire x1="8.1" y1="8.1" x2="8.1" y2="-8.1" width="0.2" layer="21"/>
+<wire x1="8.1" y1="-8.1" x2="-8.1" y2="-8.1" width="0.2" layer="21"/>
+<wire x1="-8.1" y1="-8.1" x2="-8.1" y2="8.1" width="0.2" layer="21"/>
+<text x="0" y="9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-10.8" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.3" y="-8.3"/>
+<vertex x="8.3" y="-8.3"/>
+<vertex x="8.3" y="8.3"/>
+<vertex x="-8.3" y="8.3"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461383_HAL" urn="urn:adsk.eagle:footprint:14420600/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M5 , 16pins
+&lt;br&gt;Max Height = 12.5mm</description>
+<pad name="1" x="-3.81" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="2" x="-1.27" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="3" x="1.27" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="4" x="3.81" y="3.81" drill="1.45" diameter="1.8"/>
+<pad name="5" x="3.81" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="6" x="1.27" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="7" x="-1.27" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="8" x="-3.81" y="1.27" drill="1.45" diameter="1.8"/>
+<pad name="9" x="-3.81" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="10" x="-1.27" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="11" x="1.27" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="12" x="3.81" y="-1.27" drill="1.45" diameter="1.8"/>
+<pad name="13" x="3.81" y="-3.81" drill="1.45" diameter="1.8"/>
+<pad name="14" x="1.27" y="-3.81" drill="1.45" diameter="1.8"/>
+<pad name="15" x="-1.27" y="-3.81" drill="1.45" diameter="1.8"/>
+<pad name="16" x="-3.81" y="-3.81" drill="1.45" diameter="1.8"/>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-4.5" x2="-4.5" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="4.5" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="4.6" x2="0.4" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-2.9" y1="4.6" x2="-2.1" y2="4.6" width="0.2" layer="21"/>
+<wire x1="2.2" y1="4.6" x2="3" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-0.4" x2="-4.6" y2="0.4" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-2.9" x2="-4.6" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="2.2" x2="-4.6" y2="3" width="0.2" layer="21"/>
+<wire x1="0.4" y1="-4.6" x2="-0.4" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="2.9" y1="-4.6" x2="2.1" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="-4.6" x2="-3" y2="-4.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="0.4" x2="4.6" y2="-0.4" width="0.2" layer="21"/>
+<wire x1="4.6" y1="2.9" x2="4.6" y2="2.1" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-2.2" x2="4.6" y2="-3" width="0.2" layer="21"/>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME </text>
+<text x="-3.5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="4.9"/>
+<vertex x="4.9" y="4.9"/>
+<vertex x="4.9" y="-4.9"/>
+<vertex x="-4.9" y="-4.9"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461098_HAL" urn="urn:adsk.eagle:footprint:14420596/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M6 , 25pins
+&lt;br&gt;Max Height = 15.5mm</description>
+<pad name="1" x="-5.08" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="2" x="-2.54" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="3" x="0" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="4" x="2.54" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="5" x="5.08" y="5.08" drill="1.45" diameter="1.8"/>
+<pad name="6" x="5.08" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="7" x="2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="8" x="0" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="9" x="-2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="10" x="-5.08" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="11" x="-5.08" y="0" drill="1.45" diameter="1.8"/>
+<pad name="12" x="-2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="13" x="0" y="0" drill="1.45" diameter="1.8"/>
+<pad name="14" x="2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="15" x="5.08" y="0" drill="1.45" diameter="1.8"/>
+<pad name="16" x="5.08" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="17" x="2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="18" x="0" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="19" x="-2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="20" x="-5.08" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="21" x="-5.08" y="-5.08" drill="1.45" diameter="1.8"/>
+<pad name="22" x="-2.54" y="-5.08" drill="1.45" diameter="1.8"/>
+<pad name="23" x="0" y="-5.08" drill="1.45" diameter="1.8"/>
+<pad name="24" x="2.54" y="-5.08" drill="1.45" diameter="1.8"/>
+<pad name="25" x="5.08" y="-5.08" drill="1.45" diameter="1.8"/>
+<text x="0" y="7.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.8" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="6.6" x2="6.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="6.6" x2="6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-6.6" x2="-6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-6.6" x2="-6.6" y2="6.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="6.8"/>
+<vertex x="6.8" y="6.8"/>
+<vertex x="6.8" y="-6.8"/>
+<vertex x="-6.8" y="-6.8"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461094" urn="urn:adsk.eagle:footprint:14420595/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M3 , 9pins
+&lt;br&gt;Max Height = 7.5mm</description>
+<pad name="1" x="-2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="2" x="0" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="3" x="2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="4" x="2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="5" x="0" y="0" drill="1.475" diameter="1.8"/>
+<pad name="6" x="-2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="7" x="-2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="8" x="0" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="9" x="2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.6" x2="-0.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="0.6" y1="3.6" x2="2" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-2" x2="-3.6" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="0.6" x2="-3.6" y2="2" width="0.2" layer="21"/>
+<wire x1="2" y1="-3.6" x2="0.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="-3.6" x2="-2" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="2" x2="3.6" y2="0.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-0.6" x2="3.6" y2="-2" width="0.2" layer="21"/>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.4" y="-5.6" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="3.8"/>
+<vertex x="3.8" y="3.8"/>
+<vertex x="3.8" y="-3.8"/>
+<vertex x="-3.8" y="-3.8"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461096" urn="urn:adsk.eagle:footprint:14420593/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M4 , 9pins
+&lt;br&gt;Max Height = 9mm</description>
+<pad name="1" x="-2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="2" x="0" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="3" x="2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="4" x="2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="5" x="0" y="0" drill="1.475" diameter="1.8"/>
+<pad name="6" x="-2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="7" x="-2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="8" x="0" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="9" x="2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.6" x2="-0.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="0.6" y1="3.6" x2="2" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-2" x2="-3.6" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="0.6" x2="-3.6" y2="2" width="0.2" layer="21"/>
+<wire x1="2" y1="-3.6" x2="0.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="-3.6" x2="-2" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="2" x2="3.6" y2="0.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-0.6" x2="3.6" y2="-2" width="0.2" layer="21"/>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.4" y="-5.6" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="3.8"/>
+<vertex x="3.8" y="3.8"/>
+<vertex x="3.8" y="-3.8"/>
+<vertex x="-3.8" y="-3.8"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461098" urn="urn:adsk.eagle:footprint:14420597/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M6 , 25pins
+&lt;br&gt;Max Height = 15.5mm</description>
+<pad name="1" x="-5.08" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="2" x="-2.54" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="3" x="0" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="4" x="2.54" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="5" x="5.08" y="5.08" drill="1.475" diameter="1.8"/>
+<pad name="6" x="5.08" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="7" x="2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="8" x="0" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="9" x="-2.54" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="10" x="-5.08" y="2.54" drill="1.475" diameter="1.8"/>
+<pad name="11" x="-5.08" y="0" drill="1.475" diameter="1.8"/>
+<pad name="12" x="-2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="13" x="0" y="0" drill="1.475" diameter="1.8"/>
+<pad name="14" x="2.54" y="0" drill="1.475" diameter="1.8"/>
+<pad name="15" x="5.08" y="0" drill="1.475" diameter="1.8"/>
+<pad name="16" x="5.08" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="17" x="2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="18" x="0" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="19" x="-2.54" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="20" x="-5.08" y="-2.54" drill="1.475" diameter="1.8"/>
+<pad name="21" x="-5.08" y="-5.08" drill="1.475" diameter="1.8"/>
+<pad name="22" x="-2.54" y="-5.08" drill="1.475" diameter="1.8"/>
+<pad name="23" x="0" y="-5.08" drill="1.475" diameter="1.8"/>
+<pad name="24" x="2.54" y="-5.08" drill="1.475" diameter="1.8"/>
+<pad name="25" x="5.08" y="-5.08" drill="1.475" diameter="1.8"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="-6.6" y1="6.6" x2="6.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="6.6" x2="6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="6.6" y1="-6.6" x2="-6.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-6.6" y1="-6.6" x2="-6.6" y2="6.6" width="0.2" layer="21"/>
+<text x="0" y="7.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.8" y="6.8"/>
+<vertex x="6.8" y="6.8"/>
+<vertex x="6.8" y="-6.8"/>
+<vertex x="-6.8" y="-6.8"/>
+</polygon>
+</package>
+<package name="WP-SHFU_7461096_HAL" urn="urn:adsk.eagle:footprint:14420592/2">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M4 , 9pins
+&lt;br&gt;Max Height = 9mm</description>
+<pad name="1" x="-2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="2" x="0" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="3" x="2.54" y="2.54" drill="1.45" diameter="1.8"/>
+<pad name="4" x="2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="5" x="0" y="0" drill="1.45" diameter="1.8"/>
+<pad name="6" x="-2.54" y="0" drill="1.45" diameter="1.8"/>
+<pad name="7" x="-2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="8" x="0" y="-2.54" drill="1.45" diameter="1.8"/>
+<pad name="9" x="2.54" y="-2.54" drill="1.45" diameter="1.8"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.6" x2="-0.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="0.6" y1="3.6" x2="2" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-2" x2="-3.6" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="0.6" x2="-3.6" y2="2" width="0.2" layer="21"/>
+<wire x1="2" y1="-3.6" x2="0.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-0.6" y1="-3.6" x2="-2" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="2" x2="3.6" y2="0.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-0.6" x2="3.6" y2="-2" width="0.2" layer="21"/>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.4" y="-5.6" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="3.8"/>
+<vertex x="3.8" y="3.8"/>
+<vertex x="3.8" y="-3.8"/>
+<vertex x="-3.8" y="-3.8"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WP-SHFU_7460719" urn="urn:adsk.eagle:package:14420620/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M8 , 25pins
+&lt;br&gt;Max Height = 20.5mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7460719"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461383" urn="urn:adsk.eagle:package:14420616/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M5 , 16pins
+&lt;br&gt;Max Height = 12.5mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461383"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7460719_HAL" urn="urn:adsk.eagle:package:14420619/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M8 , 25pins
+&lt;br&gt;Max Height = 20.5mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7460719_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461094_HAL" urn="urn:adsk.eagle:package:14420609/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M3 , 9pins
+&lt;br&gt;Max Height = 7.5mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461094_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461001" urn="urn:adsk.eagle:package:14420618/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M5 , 9pins
+&lt;br&gt;Max Height = 12mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461001"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461001_HAL" urn="urn:adsk.eagle:package:14420617/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M5 , 9pins
+&lt;br&gt;Max Height = 12mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461001_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461100" urn="urn:adsk.eagle:package:14420614/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M10 , 36pins
+&lt;br&gt;Max Height = 24mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461100"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461096" urn="urn:adsk.eagle:package:14420608/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M4 , 9pins
+&lt;br&gt;Max Height = 9mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461096"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461100_HAL" urn="urn:adsk.eagle:package:14420613/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M10 , 36pins
+&lt;br&gt;Max Height = 24mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461100_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461383_HAL" urn="urn:adsk.eagle:package:14420615/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M5 , 16pins
+&lt;br&gt;Max Height = 12.5mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461383_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461098_HAL" urn="urn:adsk.eagle:package:14420611/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M6 , 25pins
+&lt;br&gt;Max Height = 15.5mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461098_HAL"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461094" urn="urn:adsk.eagle:package:14420610/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M3 , 9pins
+&lt;br&gt;Max Height = 7.5mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461094"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461098" urn="urn:adsk.eagle:package:14420612/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for chemical surfaces
+&lt;br&gt;Thread M6 , 25pins
+&lt;br&gt;Max Height = 15.5mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461098"/>
+</packageinstances>
+</package3d>
+<package3d name="WP-SHFU_7461096_HAL" urn="urn:adsk.eagle:package:14420607/3" type="model">
+<description>&lt;b&gt;WP-SHFU External thread, full plain
+&lt;br&gt;&lt;/b&gt;Drill hole specification for HAL
+&lt;br&gt;Thread M4 , 9pins
+&lt;br&gt;Max Height = 9mm</description>
+<packageinstances>
+<packageinstance name="WP-SHFU_7461096_HAL"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WP-SHFU">
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="-1.27" layer="94"/>
+<text x="3.302" y="1.27" size="1.016" layer="95">&gt;NAME</text>
+<text x="3.302" y="-0.508" size="1.016" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WP-SHFU" prefix="MP">
+<description>&lt;b&gt; WP-SHFU REDCUBE PRESS-FIT with external thread
+&lt;br&gt;
+&lt;br&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;High current Wire-to-Board connections up to 500 A
+&lt;br&gt;Mounting of copper bars on PCBs
+&lt;br&gt;Installation of laminated fuses
+&lt;br&gt;Suitable for rough environmental conditions
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o55769v209%20Family_WP-SHFU.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o55769v209%20Family_WP-SHFU.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WP-SHFU_FULL_PLAIN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/katalog/em/WP-SHFU_FULL_PLAIN&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu  2022-09-30
+&lt;br&gt;2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WP-SHFU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_7460719" package="WP-SHFU_7460719">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420620/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7460719?ae"/>
+<attribute name="IR" value="250A"/>
+<attribute name="PART-NUMBER" value=" 7460719 "/>
+<attribute name="PINS" value=" 25 "/>
+<attribute name="THREAD" value="M8"/>
+<attribute name="VALUE" value=" 7460719 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7460719_HAL" package="WP-SHFU_7460719_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420619/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7460719?ae"/>
+<attribute name="IR" value="250A"/>
+<attribute name="PART-NUMBER" value=" 7460719 "/>
+<attribute name="PINS" value=" 25 "/>
+<attribute name="THREAD" value="M8"/>
+<attribute name="VALUE" value=" 7460719 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461001" package="WP-SHFU_7461001">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420618/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461001?ae"/>
+<attribute name="IR" value="130A"/>
+<attribute name="PART-NUMBER" value=" 7461001 "/>
+<attribute name="PINS" value=" 9 "/>
+<attribute name="THREAD" value="M5"/>
+<attribute name="VALUE" value=" 7461001 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461001_HAL" package="WP-SHFU_7461001_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420617/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461001?ae"/>
+<attribute name="IR" value="130A"/>
+<attribute name="PART-NUMBER" value=" 7461001 "/>
+<attribute name="PINS" value=" 9 "/>
+<attribute name="THREAD" value="M5"/>
+<attribute name="VALUE" value=" 7461001 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461383" package="WP-SHFU_7461383">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420616/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461383?ae"/>
+<attribute name="IR" value="180A"/>
+<attribute name="PART-NUMBER" value=" 7461383 "/>
+<attribute name="PINS" value=" 16 "/>
+<attribute name="THREAD" value="M5"/>
+<attribute name="VALUE" value=" 7461383 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461383_HAL" package="WP-SHFU_7461383_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420615/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461383?ae"/>
+<attribute name="IR" value="180A"/>
+<attribute name="PART-NUMBER" value=" 7461383 "/>
+<attribute name="PINS" value=" 16 "/>
+<attribute name="THREAD" value="M5"/>
+<attribute name="VALUE" value=" 7461383 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461100" package="WP-SHFU_7461100">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420614/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461100?ae"/>
+<attribute name="IR" value="350A"/>
+<attribute name="PART-NUMBER" value=" 7461100 "/>
+<attribute name="PINS" value=" 36 "/>
+<attribute name="THREAD" value="M10"/>
+<attribute name="VALUE" value=" 7461100 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461100_HAL" package="WP-SHFU_7461100_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420613/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461100?ae"/>
+<attribute name="IR" value="350A"/>
+<attribute name="PART-NUMBER" value=" 7461100 "/>
+<attribute name="PINS" value=" 36 "/>
+<attribute name="THREAD" value="M10"/>
+<attribute name="VALUE" value=" 7461100 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461094" package="WP-SHFU_7461094">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420610/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461094?ae"/>
+<attribute name="IR" value="130A"/>
+<attribute name="PART-NUMBER" value=" 7461094 "/>
+<attribute name="PINS" value=" 9 "/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value=" 7461094 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461094_HAL" package="WP-SHFU_7461094_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420609/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461094?ae"/>
+<attribute name="IR" value="130A"/>
+<attribute name="PART-NUMBER" value=" 7461094 "/>
+<attribute name="PINS" value=" 9 "/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value=" 7461094 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461096" package="WP-SHFU_7461096">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420608/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461096?ae"/>
+<attribute name="IR" value="130A"/>
+<attribute name="PART-NUMBER" value=" 7461096 "/>
+<attribute name="PINS" value=" 9 "/>
+<attribute name="THREAD" value="M4"/>
+<attribute name="VALUE" value=" 7461096 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461096_HAL" package="WP-SHFU_7461096_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420607/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461096?ae"/>
+<attribute name="IR" value="130A"/>
+<attribute name="PART-NUMBER" value=" 7461096 "/>
+<attribute name="PINS" value=" 9 "/>
+<attribute name="THREAD" value="M4"/>
+<attribute name="VALUE" value=" 7461096 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461098" package="WP-SHFU_7461098">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420612/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461098?ae"/>
+<attribute name="IR" value="250A"/>
+<attribute name="PART-NUMBER" value=" 7461098 "/>
+<attribute name="PINS" value=" 25 "/>
+<attribute name="THREAD" value="M6"/>
+<attribute name="VALUE" value=" 7461098 "/>
+</technology>
+</technologies>
+</device>
+<device name="_7461098_HAL" package="WP-SHFU_7461098_HAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14420611/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7461098?ae"/>
+<attribute name="IR" value="250A"/>
+<attribute name="PART-NUMBER" value=" 7461098 "/>
+<attribute name="PINS" value=" 25 "/>
+<attribute name="THREAD" value="M6"/>
+<attribute name="VALUE" value=" 7461098 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

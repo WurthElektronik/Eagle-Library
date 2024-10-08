@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Optoelectronic Components - LEDs - Signal LEDs - TOP LED - WL-SMTD&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-08-27&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WL-SMTD_3528_DOME_150141XX661X0" urn="urn:adsk.eagle:footprint:33654596/1">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+
+Size: 3528 60° dome, SMT, 4pins&lt;br&gt;
+2.8x3.5x3.25mm(LXWXH)</description>
+<smd name="1" x="-0.85" y="-1.55" dx="0.9" dy="1.5" layer="1"/>
+<smd name="4" x="0.85" y="-1.55" dx="0.9" dy="1.5" layer="1"/>
+<smd name="3" x="0.85" y="1.55" dx="0.9" dy="1.5" layer="1"/>
+<smd name="2" x="-0.85" y="1.55" dx="0.9" dy="1.5" layer="1"/>
+<wire x1="-1.4" y1="1.75" x2="-0.95" y2="1.75" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="1.75" x2="1.4" y2="1.75" width="0.1" layer="51"/>
+<wire x1="1.4" y1="1.75" x2="1.4" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="1.4" y1="-1.75" x2="-1.4" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="-1.75" x2="-1.4" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="1.3" x2="-1.4" y2="1.75" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.5" x2="-1.5" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-0.5" x2="1.5" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-1.4" y1="1.3" x2="-0.95" y2="1.75" width="0.1" layer="51"/>
+<circle x="-1.9" y="-2.1" radius="0.1" width="0.2" layer="21"/>
+<text x="0" y="2.7" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.4" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.7" y="2.5"/>
+<vertex x="1.7" y="2.5"/>
+<vertex x="1.7" y="-2.5"/>
+<vertex x="-1.7" y="-2.5"/>
+</polygon>
+</package>
+<package name="WL-SMTD_3528_DOME_150141XX631X0" urn="urn:adsk.eagle:footprint:19063399/3">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+
+Size: 3528 30° dome, SMT, 4pins&lt;br&gt;
+2.8x3.5x3.25mm(LXWXH)</description>
+<smd name="1" x="-0.85" y="-1.55" dx="0.9" dy="1.5" layer="1"/>
+<smd name="4" x="0.85" y="-1.55" dx="0.9" dy="1.5" layer="1"/>
+<smd name="3" x="0.85" y="1.55" dx="0.9" dy="1.5" layer="1"/>
+<smd name="2" x="-0.85" y="1.55" dx="0.9" dy="1.5" layer="1"/>
+<wire x1="-1.4" y1="1.75" x2="-0.95" y2="1.75" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="1.75" x2="1.4" y2="1.75" width="0.1" layer="51"/>
+<wire x1="1.4" y1="1.75" x2="1.4" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="1.4" y1="-1.75" x2="-1.4" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="-1.75" x2="-1.4" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="1.3" x2="-1.4" y2="1.75" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.5" x2="-1.5" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-0.5" x2="1.5" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-1.4" y1="1.3" x2="-0.95" y2="1.75" width="0.1" layer="51"/>
+<circle x="-1.9" y="-2.1" radius="0.1" width="0.2" layer="21"/>
+<text x="0" y="2.7" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.4" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.7" y="2.5"/>
+<vertex x="1.7" y="2.5"/>
+<vertex x="1.7" y="-2.5"/>
+<vertex x="-1.7" y="-2.5"/>
+</polygon>
+</package>
+<package name="WL-SMTD_3528_DOME_150141XX63120" urn="urn:adsk.eagle:footprint:45183204/1">
+<smd name="1" x="-1.425" y="0" dx="1.6" dy="2.4" layer="1"/>
+<smd name="2" x="1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
+<wire x1="-1.75" y1="1.4" x2="-1.75" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.9" x2="-1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-1.4" x2="1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.4" x2="1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="-1.25" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="1.4" x2="-1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="1.5" x2="1.85" y2="1.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="-1.5" x2="-1.85" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="0.9" x2="-1.25" y2="1.4" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.425" y="1.7"/>
+<vertex x="-2.425" y="-1.7"/>
+<vertex x="2.425" y="-1.7"/>
+<vertex x="2.425" y="1.7"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
+<text x="-3" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="-3" y="0" size="1.27" layer="21" align="center">+</text>
+</package>
+<package name="WL-SMTD_3528_DOME_150141XX66120" urn="urn:adsk.eagle:footprint:45183203/1">
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.4" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
+<wire x1="-1.75" y1="1.4" x2="-1.75" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.9" x2="-1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-1.4" x2="1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.4" x2="1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="-1.25" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="1.4" x2="-1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="1.5" x2="1.85" y2="1.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="-1.5" x2="-1.85" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="0.9" x2="-1.25" y2="1.4" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.4" y="1.7"/>
+<vertex x="-2.4" y="-1.7"/>
+<vertex x="2.4" y="-1.7"/>
+<vertex x="2.4" y="1.7"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
+<text x="-3" y="0" size="1.27" layer="51" align="center">+</text>
+<text x="-3" y="0" size="1.27" layer="21" align="center">+</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WL-SMTD_3528_DOME_150141XX631X0" urn="urn:adsk.eagle:package:33654598/2" type="model">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+
+Size: 3528 30° dome, SMT, 4pins&lt;br&gt;
+2.8x3.5x3.25mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMTD_3528_DOME_150141XX631X0"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTD_3528_DOME_150141XX661X0" urn="urn:adsk.eagle:package:33654597/2" type="model">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+
+Size: 3528 60° dome, SMT, 4pins&lt;br&gt;
+2.8x3.5x3.25mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMTD_3528_DOME_150141XX661X0"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTD_3528_DOME_150141XX66120" urn="urn:adsk.eagle:package:45183206/2" type="model">
+<packageinstances>
+<packageinstance name="WL-SMTD_3528_DOME_150141XX66120"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTD_3528_DOME_150141XX63120" urn="urn:adsk.eagle:package:45183207/3" type="model">
+<packageinstances>
+<packageinstance name="WL-SMTD_3528_DOME_150141XX63120"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WL-SMTD_3528_DOME_150141XX6X130">
+<text x="-0.528" y="8.492" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-0.158" y="-4.938" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-1.8" y="-1.85" size="1.778" layer="94">-</text>
+<text x="3.31" y="-1.93" size="1.778" layer="94">+</text>
+<text x="3.3" y="6" size="1.778" layer="94">-</text>
+<text x="-1.5" y="6.1" size="1.778" layer="94">-</text>
+<pin name="2" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="1" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="2.54" y1="3.81" x2="-2.54" y2="3.81" width="0.15" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="3.81" width="0.15" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.15" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="5.08" width="0.15" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.872" y1="0.362" x2="5.269" y2="1.759" width="0.1524" layer="94"/>
+<wire x1="3.745" y1="1.505" x2="5.142" y2="2.902" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="5.269" y="1.759"/>
+<vertex x="4.888" y="0.87"/>
+<vertex x="4.38" y="1.378"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="5.142" y="2.902"/>
+<vertex x="4.761" y="2.013"/>
+<vertex x="4.253" y="2.521"/>
+</polygon>
+</symbol>
+<symbol name="WL-SMTW_1+">
+<text x="1.27" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-3.81" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-1.76" y="-1.44" size="1.27" layer="94">+</text>
+<pin name="-" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="+" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<wire x1="0" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.665" y1="1.245" x2="3.062" y2="2.642" width="0.1524" layer="94"/>
+<wire x1="0.592" y1="1.502" x2="1.989" y2="2.899" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.062" y="2.642"/>
+<vertex x="2.681" y="1.753"/>
+<vertex x="2.173" y="2.261"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.989" y="2.899"/>
+<vertex x="1.608" y="2.01"/>
+<vertex x="1.1" y="2.518"/>
+</polygon>
+</symbol>
+<symbol name="WL-SMTD_3528_DOME_150141XX6X140">
+<text x="-0.528" y="8.492" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-0.158" y="-4.938" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-1.8" y="-1.85" size="1.778" layer="94">+</text>
+<text x="3.31" y="-1.93" size="1.778" layer="94">+</text>
+<text x="3.3" y="6" size="1.778" layer="94">+</text>
+<text x="-1.5" y="6.1" size="1.778" layer="94">-</text>
+<pin name="2" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="1" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-3.81" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.208" y1="2.902" x2="0.189" y2="4.299" width="0.1524" layer="94"/>
+<wire x1="-1.335" y1="4.045" x2="0.062" y2="5.442" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.15" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.15" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="1.27" width="0.15" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.15" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.15" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.189" y="4.299"/>
+<vertex x="-0.192" y="3.41"/>
+<vertex x="-0.7" y="3.918"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.062" y="5.442"/>
+<vertex x="-0.319" y="4.553"/>
+<vertex x="-0.827" y="5.061"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WL-SMTD_3528_DOME_150141XX66140" prefix="D">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Industry standard PLCC-4
+&lt;br&gt;High reliability LED package
+&lt;br&gt;High optical efficiency
+&lt;br&gt;Narrow viewing angle at 30°
+&lt;br&gt;Compatible with both IR soldering process
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Traffic lights
+&lt;br&gt;Backlighting
+&lt;br&gt;For central console, cabin or push button
+&lt;br&gt;Signal and symbol luminary
+&lt;br&gt;Instrument panel backlighting
+&lt;br&gt;Navigation and audio system
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTD/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL-SMTD&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu, 2022-06-20&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTD_3528_DOME_150141XX6X140" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTD_3528_DOME_150141XX661X0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33654597/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141BS66140">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141BS66140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="3500mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS66140"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS66140"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141GS66140">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141GS66140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="520nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="20000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS66140"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS66140"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141RS66140">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141RS66140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5500mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS66140"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS66140"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141SS66140">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141SS66140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5200mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141SS66140"/>
+<attribute name="PEAK-WAVELENGTH" value="640nm"/>
+<attribute name="VALUE" value="150141SS66140"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141YS66140">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141YS66140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5300mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS66140"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS66140"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTD_3528_DOME_150141XX63140" prefix="D">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Industry standard PLCC-4
+&lt;br&gt;High reliability LED package
+&lt;br&gt;High optical efficiency
+&lt;br&gt;Narrow viewing angle at 30°
+&lt;br&gt;Compatible with both IR soldering process
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Traffic lights
+&lt;br&gt;Backlighting
+&lt;br&gt;For central console, cabin or push button
+&lt;br&gt;Signal and symbol luminary
+&lt;br&gt;Instrument panel backlighting
+&lt;br&gt;Navigation and audio system
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTD/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL-SMTD&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu, 2022-06-20&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTD_3528_DOME_150141XX6X140" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTD_3528_DOME_150141XX631X0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33654598/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141BS63140">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141BS63140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="6000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS63140"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS63140"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141GS63140">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141GS63140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="520nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="30000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS63140"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS63140"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141RS63140">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141RS63140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="16000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS63140"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS63140"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141SS63140">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141SS63140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="13000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141SS63140"/>
+<attribute name="PEAK-WAVELENGTH" value="640nm"/>
+<attribute name="VALUE" value="150141SS63140"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141YS63140">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141YS63140.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="15000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS63140"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS63140"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTD_3528_DOME_150141XX63120" prefix="D">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Industry standard PLCC-4
+&lt;br&gt;High reliability LED package
+&lt;br&gt;High optical efficiency
+&lt;br&gt;Narrow viewing angle at 30°
+&lt;br&gt;Compatible with both IR soldering process
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Traffic lights
+&lt;br&gt;Backlighting
+&lt;br&gt;For central console, cabin or push button
+&lt;br&gt;Signal and symbol luminary
+&lt;br&gt;Instrument panel backlighting
+&lt;br&gt;Navigation and audio system
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTD/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL-SMTD&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu, 2024-08-26&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_1+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTD_3528_DOME_150141XX63120">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45183207/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141BS63120">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141BS63120.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="4000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS63120"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS63120"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141GS63120">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141GS63120.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="8000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS63120"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS63120"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141RS63120">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141RS63120.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="6000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS63120"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS63120"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141YS63120">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141YS63120.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="4000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS63120"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS63120"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTD_3528_DOME_150141XX66130" prefix="D">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Industry standard PLCC-4
+&lt;br&gt;High reliability LED package
+&lt;br&gt;High optical efficiency
+&lt;br&gt;Narrow viewing angle at 30°
+&lt;br&gt;Compatible with both IR soldering process
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Traffic lights
+&lt;br&gt;Backlighting
+&lt;br&gt;For central console, cabin or push button
+&lt;br&gt;Signal and symbol luminary
+&lt;br&gt;Instrument panel backlighting
+&lt;br&gt;Navigation and audio system
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTD/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL-SMTD&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu, 2022-06-20&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTD_3528_DOME_150141XX6X130" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTD_3528_DOME_150141XX661X0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33654597/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141BS66130">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141BS66130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="3500mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS66130"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS66130"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141GS66130">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141GS66130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="520nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="20000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS66130"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS66130"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141RS66130">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141RS66130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5500mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS66130"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS66130"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141SS66130">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141SS66130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5200mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141SS66130"/>
+<attribute name="PEAK-WAVELENGTH" value="640nm"/>
+<attribute name="VALUE" value="150141SS66130"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141YS66130">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141YS66130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5300mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS66130"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS66130"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTD_3528_DOME_150141XX63130" prefix="D">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Industry standard PLCC-4
+&lt;br&gt;High reliability LED package
+&lt;br&gt;High optical efficiency
+&lt;br&gt;Narrow viewing angle at 30°
+&lt;br&gt;Compatible with both IR soldering process
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Traffic lights
+&lt;br&gt;Backlighting
+&lt;br&gt;For central console, cabin or push button
+&lt;br&gt;Signal and symbol luminary
+&lt;br&gt;Instrument panel backlighting
+&lt;br&gt;Navigation and audio system
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTD/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL-SMTD&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu, 2022-06-20&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTD_3528_DOME_150141XX6X130" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTD_3528_DOME_150141XX631X0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33654598/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141BS63130">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141BS63130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="6000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS63130"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS63130"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141GS63130">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141GS63130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="520nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="30000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS63130"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS63130"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141RS63130">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141RS63130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="16000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS63130"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS63130"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141SS63130">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141SS63130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="13000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141SS63130"/>
+<attribute name="PEAK-WAVELENGTH" value="640nm"/>
+<attribute name="VALUE" value="150141SS63130"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+<technology name="_150141YS63130">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141YS63130.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="15000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS63130"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS63130"/>
+<attribute name="VIEWING-ANGLE" value="30°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTD_3528_DOME_150141XX66120" prefix="D">
+<description>&lt;b&gt;WL-SMTD SMT Mono-color TOP LED Diffused Dome
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Industry standard PLCC-4
+&lt;br&gt;High reliability LED package
+&lt;br&gt;High optical efficiency
+&lt;br&gt;Narrow viewing angle at 30°
+&lt;br&gt;Compatible with both IR soldering process
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Traffic lights
+&lt;br&gt;Backlighting
+&lt;br&gt;For central console, cabin or push button
+&lt;br&gt;Signal and symbol luminary
+&lt;br&gt;Instrument panel backlighting
+&lt;br&gt;Navigation and audio system
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o134478v209%20Family_WL-SMTD_3528.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTD/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL-SMTD&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu, 2024-08-26&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_1+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTD_3528_DOME_150141XX66120">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45183206/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141BS66120">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141BS66120.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="3000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS66120"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS66120"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141GS66120">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141GS66120.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS66120"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS66120"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141RS66120">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141RS66120.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1800mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS66120"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS66120"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+<technology name="_150141YS66120">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/150141YS66120.pdf"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS66120"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS66120"/>
+<attribute name="VIEWING-ANGLE" value="60°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

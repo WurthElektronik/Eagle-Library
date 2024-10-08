@@ -1,0 +1,2664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Wire-to-Board Connectors - WR-WST &lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019b, 2019-11-04&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="490107672012" urn="urn:adsk.eagle:footprint:15269964/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<hole x="-13.395" y="1.27" drill="2.1"/>
+<hole x="13.395" y="-1.27" drill="2.5"/>
+<pad name="5" x="6.985" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="3" x="9.525" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="1" x="12.065" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="6" x="5.715" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="4" x="8.255" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="2" x="10.795" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="7" x="4.445" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="8" x="3.175" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="9" x="1.905" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="10" x="0.635" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="11" x="-0.635" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="12" x="-1.905" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="13" x="-3.175" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="14" x="-4.445" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="15" x="-5.715" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="16" x="-6.985" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="17" x="-8.255" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="18" x="-9.525" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="19" x="-10.795" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="20" x="-12.065" y="-1.27" drill="1.4" diameter="1.75"/>
+<wire x1="-16.495" y1="2.8" x2="16.495" y2="2.8" width="0.1" layer="51"/>
+<wire x1="16.495" y1="2.8" x2="16.495" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="16.495" y1="-2.8" x2="-16.495" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-16.495" y1="-2.8" x2="-16.495" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-16.595" y1="2.9" x2="16.595" y2="2.9" width="0.2" layer="21"/>
+<wire x1="16.595" y1="2.9" x2="16.595" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="16.595" y1="-2.9" x2="-16.595" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-16.595" y1="-2.9" x2="-16.595" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-16.795" y="3.1"/>
+<vertex x="16.795" y="3.1"/>
+<vertex x="16.795" y="-3.1"/>
+<vertex x="-16.795" y="-3.1"/>
+</polygon>
+<circle x="13.8" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="17.5" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="17.4" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107672012_DEBUGGING" urn="urn:adsk.eagle:footprint:15269963/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<hole x="-13.295" y="1.27" drill="2.2"/>
+<hole x="13.295" y="-1.27" drill="2.6"/>
+<pad name="5" x="6.985" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="9.525" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="12.065" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="5.715" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="8.255" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="10.795" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="7" x="4.445" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="8" x="3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="9" x="1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="10" x="0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="11" x="-0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="12" x="-1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="13" x="-3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="14" x="-4.445" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="15" x="-5.715" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="16" x="-6.985" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="17" x="-8.255" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="18" x="-9.525" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="19" x="-10.795" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="20" x="-12.065" y="-1.27" drill="1.5" diameter="1.825"/>
+<wire x1="-16.495" y1="2.8" x2="16.495" y2="2.8" width="0.1" layer="51"/>
+<wire x1="16.495" y1="2.8" x2="16.495" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="16.495" y1="-2.8" x2="-16.495" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-16.495" y1="-2.8" x2="-16.495" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-16.595" y1="2.9" x2="16.595" y2="2.9" width="0.2" layer="21"/>
+<wire x1="16.595" y1="2.9" x2="16.595" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="16.595" y1="-2.9" x2="-16.595" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-16.595" y1="-2.9" x2="-16.595" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-16.795" y="3.1"/>
+<vertex x="16.795" y="3.1"/>
+<vertex x="16.795" y="-3.1"/>
+<vertex x="-16.795" y="-3.1"/>
+</polygon>
+<circle x="13.8" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="17.5" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="17.4" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671812_DEBUGGING" urn="urn:adsk.eagle:footprint:15269965/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<hole x="-12.025" y="1.27" drill="2.2"/>
+<hole x="12.025" y="-1.27" drill="2.6"/>
+<pad name="5" x="5.715" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="8.255" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="10.795" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="4.445" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="6.985" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="9.525" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="7" x="3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="8" x="1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="9" x="0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="10" x="-0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="11" x="-1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="12" x="-3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="13" x="-4.445" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="14" x="-5.715" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="15" x="-6.985" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="16" x="-8.255" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="17" x="-9.525" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="18" x="-10.795" y="-1.27" drill="1.5" diameter="1.825"/>
+<wire x1="-15.225" y1="2.8" x2="15.225" y2="2.8" width="0.1" layer="51"/>
+<wire x1="15.225" y1="2.8" x2="15.225" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="15.225" y1="-2.8" x2="-15.225" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-15.225" y1="-2.8" x2="-15.225" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-15.325" y1="2.9" x2="15.325" y2="2.9" width="0.2" layer="21"/>
+<wire x1="15.325" y1="2.9" x2="15.325" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="15.325" y1="-2.9" x2="-15.325" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-15.325" y1="-2.9" x2="-15.325" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-15.525" y="3.1"/>
+<vertex x="15.525" y="3.1"/>
+<vertex x="15.525" y="-3.1"/>
+<vertex x="-15.525" y="-3.1"/>
+</polygon>
+<circle x="12.2" y="2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="16.23" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="16.13" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671612_DEBUGGING" urn="urn:adsk.eagle:footprint:15269967/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<hole x="-10.755" y="1.27" drill="2.2"/>
+<hole x="10.755" y="-1.27" drill="2.6"/>
+<pad name="5" x="4.445" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="6.985" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="9.525" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="5.715" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="8.255" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="7" x="1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="8" x="0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="9" x="-0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="10" x="-1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="11" x="-3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="12" x="-4.445" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="13" x="-5.715" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="14" x="-6.985" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="15" x="-8.255" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="16" x="-9.525" y="-1.27" drill="1.5" diameter="1.825"/>
+<wire x1="-13.955" y1="2.8" x2="13.955" y2="2.8" width="0.1" layer="51"/>
+<wire x1="13.955" y1="2.8" x2="13.955" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="13.955" y1="-2.8" x2="-13.955" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-13.955" y1="-2.8" x2="-13.955" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-14.055" y1="2.9" x2="14.055" y2="2.9" width="0.2" layer="21"/>
+<wire x1="14.055" y1="2.9" x2="14" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="14" y1="-2.9" x2="-14" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-14" y1="-2.9" x2="-14.055" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-14.255" y="3.1"/>
+<vertex x="14.255" y="3.1"/>
+<vertex x="14.205" y="-3.05"/>
+<vertex x="-14.205" y="-3.05"/>
+</polygon>
+<circle x="11.1" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="14.96" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="14.86" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671612" urn="urn:adsk.eagle:footprint:15269968/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<hole x="-10.855" y="1.27" drill="2.1"/>
+<hole x="10.855" y="-1.27" drill="2.5"/>
+<pad name="5" x="4.445" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="3" x="6.985" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="1" x="9.525" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="6" x="3.175" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="4" x="5.715" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="2" x="8.255" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="7" x="1.905" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="8" x="0.635" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="9" x="-0.635" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="10" x="-1.905" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="11" x="-3.175" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="12" x="-4.445" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="13" x="-5.715" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="14" x="-6.985" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="15" x="-8.255" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="16" x="-9.525" y="-1.27" drill="1.4" diameter="1.75"/>
+<wire x1="-13.955" y1="2.8" x2="13.955" y2="2.8" width="0.1" layer="51"/>
+<wire x1="13.955" y1="2.8" x2="13.955" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="13.955" y1="-2.8" x2="-13.955" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-13.955" y1="-2.8" x2="-13.955" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-14.055" y1="2.9" x2="14.055" y2="2.9" width="0.2" layer="21"/>
+<wire x1="14.055" y1="2.9" x2="14" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="14" y1="-2.9" x2="-14" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-14" y1="-2.9" x2="-14.055" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-14.255" y="3.1"/>
+<vertex x="14.255" y="3.1"/>
+<vertex x="14.205" y="-3.05"/>
+<vertex x="-14.205" y="-3.05"/>
+</polygon>
+<circle x="11.1" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="14.96" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="14.86" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671212_DEBUGGING" urn="urn:adsk.eagle:footprint:15269971/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<hole x="-8.215" y="1.27" drill="2.2"/>
+<hole x="8.215" y="-1.27" drill="2.6"/>
+<pad name="5" x="1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="4.445" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="6.985" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="5.715" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="7" x="-0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="8" x="-1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="9" x="-3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="10" x="-4.445" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="11" x="-5.715" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="12" x="-6.985" y="-1.27" drill="1.5" diameter="1.825"/>
+<wire x1="-11.415" y1="2.8" x2="11.415" y2="2.8" width="0.1" layer="51"/>
+<wire x1="11.415" y1="2.8" x2="11.415" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="11.415" y1="-2.8" x2="-11.415" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-11.415" y1="-2.8" x2="-11.415" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-11.515" y1="2.9" x2="11.515" y2="2.9" width="0.2" layer="21"/>
+<wire x1="11.515" y1="2.9" x2="11.515" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="11.515" y1="-2.9" x2="-11.515" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-11.515" y1="-2.9" x2="-11.515" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-11.715" y="3.1"/>
+<vertex x="11.715" y="3.1"/>
+<vertex x="11.715" y="-3.1"/>
+<vertex x="-11.715" y="-3.1"/>
+</polygon>
+<circle x="8.4" y="2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="12.42" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="12.32" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671812" urn="urn:adsk.eagle:footprint:15269966/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<hole x="-12.125" y="1.27" drill="2.1"/>
+<hole x="12.125" y="-1.27" drill="2.5"/>
+<pad name="5" x="5.715" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="3" x="8.255" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="1" x="10.795" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="6" x="4.445" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="4" x="6.985" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="2" x="9.525" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="7" x="3.175" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="8" x="1.905" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="9" x="0.635" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="10" x="-0.635" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="11" x="-1.905" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="12" x="-3.175" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="13" x="-4.445" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="14" x="-5.715" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="15" x="-6.985" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="16" x="-8.255" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="17" x="-9.525" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="18" x="-10.795" y="-1.27" drill="1.4" diameter="1.75"/>
+<wire x1="-15.225" y1="2.8" x2="15.225" y2="2.8" width="0.1" layer="51"/>
+<wire x1="15.225" y1="2.8" x2="15.225" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="15.225" y1="-2.8" x2="-15.225" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-15.225" y1="-2.8" x2="-15.225" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-15.325" y1="2.9" x2="15.325" y2="2.9" width="0.2" layer="21"/>
+<wire x1="15.325" y1="2.9" x2="15.325" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="15.325" y1="-2.9" x2="-15.325" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-15.325" y1="-2.9" x2="-15.325" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-15.525" y="3.1"/>
+<vertex x="15.525" y="3.1"/>
+<vertex x="15.525" y="-3.1"/>
+<vertex x="-15.525" y="-3.1"/>
+</polygon>
+<circle x="12.2" y="2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="16.23" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="16.13" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671412" urn="urn:adsk.eagle:footprint:15269970/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<hole x="-9.585" y="1.27" drill="2.1"/>
+<hole x="9.585" y="-1.27" drill="2.5"/>
+<pad name="5" x="3.175" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="3" x="5.715" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="1" x="8.255" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="6" x="1.905" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="4" x="4.445" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="2" x="6.985" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="7" x="0.635" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="8" x="-0.635" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="9" x="-1.905" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="10" x="-3.175" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="11" x="-4.445" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="12" x="-5.715" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="13" x="-6.985" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="14" x="-8.255" y="-1.27" drill="1.4" diameter="1.75"/>
+<wire x1="-12.685" y1="2.8" x2="12.685" y2="2.8" width="0.1" layer="51"/>
+<wire x1="12.685" y1="2.8" x2="12.685" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="12.685" y1="-2.8" x2="-12.685" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-12.685" y1="-2.8" x2="-12.685" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-12.785" y1="2.9" x2="12.785" y2="2.9" width="0.2" layer="21"/>
+<wire x1="12.785" y1="2.9" x2="12.785" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="12.785" y1="-2.9" x2="-12.785" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-12.785" y1="-2.9" x2="-12.785" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-12.985" y="3.1"/>
+<vertex x="12.985" y="3.1"/>
+<vertex x="12.935" y="-3.1"/>
+<vertex x="-12.935" y="-3.1"/>
+</polygon>
+<circle x="9.6" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="13.69" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="13.59" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671412_DEBUGGING" urn="urn:adsk.eagle:footprint:15269969/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<hole x="-9.485" y="1.27" drill="2.2"/>
+<hole x="9.485" y="-1.27" drill="2.6"/>
+<pad name="5" x="3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="5.715" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="8.255" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="4.445" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="6.985" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="7" x="0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="8" x="-0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="9" x="-1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="10" x="-3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="11" x="-4.445" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="12" x="-5.715" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="13" x="-6.985" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="14" x="-8.255" y="-1.27" drill="1.5" diameter="1.825"/>
+<wire x1="-12.685" y1="2.8" x2="12.685" y2="2.8" width="0.1" layer="51"/>
+<wire x1="12.685" y1="2.8" x2="12.685" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="12.685" y1="-2.8" x2="-12.685" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-12.685" y1="-2.8" x2="-12.685" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-12.785" y1="2.9" x2="12.785" y2="2.9" width="0.2" layer="21"/>
+<wire x1="12.785" y1="2.9" x2="12.785" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="12.785" y1="-2.9" x2="-12.785" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-12.785" y1="-2.9" x2="-12.785" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-12.985" y="3.1"/>
+<vertex x="12.985" y="3.1"/>
+<vertex x="12.935" y="-3.1"/>
+<vertex x="-12.935" y="-3.1"/>
+</polygon>
+<circle x="9.6" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="13.69" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="13.59" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671212" urn="urn:adsk.eagle:footprint:15269972/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<hole x="-8.315" y="1.27" drill="2.1"/>
+<hole x="8.315" y="-1.27" drill="2.5"/>
+<pad name="5" x="1.905" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="3" x="4.445" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="1" x="6.985" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="6" x="0.635" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="4" x="3.175" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="2" x="5.715" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="7" x="-0.635" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="8" x="-1.905" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="9" x="-3.175" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="10" x="-4.445" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="11" x="-5.715" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="12" x="-6.985" y="-1.27" drill="1.4" diameter="1.75"/>
+<wire x1="-11.415" y1="2.8" x2="11.415" y2="2.8" width="0.1" layer="51"/>
+<wire x1="11.415" y1="2.8" x2="11.415" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="11.415" y1="-2.8" x2="-11.415" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-11.415" y1="-2.8" x2="-11.415" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-11.515" y1="2.9" x2="11.515" y2="2.9" width="0.2" layer="21"/>
+<wire x1="11.515" y1="2.9" x2="11.515" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="11.515" y1="-2.9" x2="-11.515" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-11.515" y1="-2.9" x2="-11.515" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-11.715" y="3.1"/>
+<vertex x="11.715" y="3.1"/>
+<vertex x="11.715" y="-3.1"/>
+<vertex x="-11.715" y="-3.1"/>
+</polygon>
+<circle x="8.4" y="2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="12.42" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="12.32" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671012_DEBUGGING" urn="urn:adsk.eagle:footprint:15269973/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<hole x="-6.945" y="1.27" drill="2.2"/>
+<hole x="6.945" y="-1.27" drill="2.6"/>
+<pad name="5" x="0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="5.715" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="-0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="4.445" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="7" x="-1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="8" x="-3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="9" x="-4.445" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="10" x="-5.715" y="-1.27" drill="1.5" diameter="1.825"/>
+<wire x1="-10.145" y1="2.8" x2="10.145" y2="2.8" width="0.1" layer="51"/>
+<wire x1="10.145" y1="2.8" x2="10.145" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="10.145" y1="-2.8" x2="-10.145" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-10.145" y1="-2.8" x2="-10.145" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-10.245" y1="2.9" x2="10.245" y2="2.9" width="0.2" layer="21"/>
+<wire x1="10.245" y1="2.9" x2="10.245" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="10.245" y1="-2.9" x2="-10.245" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-10.245" y1="-2.9" x2="-10.245" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-10.445" y="3.1"/>
+<vertex x="10.445" y="3.1"/>
+<vertex x="10.445" y="-3.1"/>
+<vertex x="-10.445" y="-3.1"/>
+</polygon>
+<circle x="7" y="2.3" radius="0.1" width="0.2" layer="21"/>
+<text x="11.15" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="11.05" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107670612" urn="urn:adsk.eagle:footprint:15269978/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<hole x="-4.505" y="1.27" drill="2.1"/>
+<hole x="4.505" y="-1.27" drill="2.5"/>
+<pad name="5" x="-1.905" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="3" x="0.635" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="1" x="3.175" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="6" x="-3.175" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="4" x="-0.635" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="2" x="1.905" y="-1.27" drill="1.4" diameter="1.75"/>
+<wire x1="-7.605" y1="2.8" x2="7.605" y2="2.8" width="0.1" layer="51"/>
+<wire x1="7.605" y1="2.8" x2="7.605" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="7.605" y1="-2.8" x2="-7.605" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-7.605" y1="-2.8" x2="-7.605" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-7.705" y1="2.9" x2="7.705" y2="2.9" width="0.2" layer="21"/>
+<wire x1="7.705" y1="2.9" x2="7.705" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="7.705" y1="-2.9" x2="-7.705" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-7.705" y1="-2.9" x2="-7.705" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.905" y="3.1"/>
+<vertex x="7.905" y="3.1"/>
+<vertex x="7.905" y="-3.05"/>
+<vertex x="-7.905" y="-3.05"/>
+</polygon>
+<circle x="4.6" y="2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="8.61" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="8.51" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107670812" urn="urn:adsk.eagle:footprint:15269976/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<hole x="-5.775" y="1.27" drill="2.1"/>
+<hole x="5.775" y="-1.27" drill="2.5"/>
+<pad name="5" x="-0.635" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="3" x="1.905" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="1" x="4.445" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="6" x="-1.905" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="4" x="0.635" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="2" x="3.175" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="7" x="-3.175" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="8" x="-4.445" y="-1.27" drill="1.4" diameter="1.75"/>
+<wire x1="-8.875" y1="2.8" x2="8.875" y2="2.8" width="0.1" layer="51"/>
+<wire x1="8.875" y1="2.8" x2="8.875" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="8.875" y1="-2.8" x2="-8.875" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="-2.8" x2="-8.875" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-8.975" y1="2.9" x2="8.975" y2="2.9" width="0.2" layer="21"/>
+<wire x1="8.975" y1="2.9" x2="8.975" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="8.975" y1="-2.9" x2="-8.975" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-8.975" y1="-2.9" x2="-8.975" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.175" y="3.1"/>
+<vertex x="9.175" y="3.1"/>
+<vertex x="9.175" y="-3.1"/>
+<vertex x="-9.175" y="-3.1"/>
+</polygon>
+<circle x="6" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="9.88" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="9.78" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107670812_DEBUGGING" urn="urn:adsk.eagle:footprint:15269975/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<hole x="-5.675" y="1.27" drill="2.2"/>
+<hole x="5.675" y="-1.27" drill="2.6"/>
+<pad name="5" x="-0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="4.445" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="-1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="7" x="-3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="8" x="-4.445" y="-1.27" drill="1.5" diameter="1.825"/>
+<polygon width="0.127" layer="39">
+<vertex x="-9.125" y="3.05"/>
+<vertex x="9.125" y="3.05"/>
+<vertex x="9.125" y="-3.05"/>
+<vertex x="-9.125" y="-3.05"/>
+</polygon>
+<wire x1="-8.875" y1="2.8" x2="8.875" y2="2.8" width="0.1" layer="51"/>
+<wire x1="8.875" y1="2.8" x2="8.875" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="8.875" y1="-2.8" x2="-8.875" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-8.875" y1="-2.8" x2="-8.875" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-8.975" y1="2.9" x2="8.975" y2="2.9" width="0.2" layer="21"/>
+<wire x1="8.975" y1="2.9" x2="8.975" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="8.975" y1="-2.9" x2="-8.975" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-8.975" y1="-2.9" x2="-8.975" y2="2.9" width="0.2" layer="21"/>
+<circle x="5.8" y="2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="9.88" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="9.78" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107670412_DEBUGGING" urn="urn:adsk.eagle:footprint:15269979/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<pad name="1" x="1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="-0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="-1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<hole x="-3.135" y="1.27" drill="2.2"/>
+<hole x="3.135" y="-1.27" drill="2.6"/>
+<wire x1="-6.335" y1="2.8" x2="6.335" y2="2.8" width="0.1" layer="51"/>
+<wire x1="6.335" y1="2.8" x2="6.335" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="6.335" y1="-2.8" x2="-6.335" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-6.335" y1="-2.8" x2="-6.335" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-6.435" y1="2.9" x2="6.435" y2="2.9" width="0.2" layer="21"/>
+<wire x1="6.435" y1="2.9" x2="6.435" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="6.435" y1="-2.9" x2="-6.435" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-6.435" y1="-2.9" x2="-6.435" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.635" y="3.1"/>
+<vertex x="6.635" y="3.1"/>
+<vertex x="6.635" y="-3.1"/>
+<vertex x="-6.635" y="-3.1"/>
+</polygon>
+<circle x="3.2" y="2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="7.34" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="7.24" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107670612_DEBUGGING" urn="urn:adsk.eagle:footprint:15269977/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<hole x="-4.405" y="1.27" drill="2.2"/>
+<hole x="4.405" y="-1.27" drill="2.6"/>
+<pad name="5" x="-1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="-3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="-0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<wire x1="-7.605" y1="2.8" x2="7.605" y2="2.8" width="0.1" layer="51"/>
+<wire x1="7.605" y1="2.8" x2="7.605" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="7.605" y1="-2.8" x2="-7.605" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-7.605" y1="-2.8" x2="-7.605" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-7.705" y1="2.9" x2="7.705" y2="2.9" width="0.2" layer="21"/>
+<wire x1="7.705" y1="2.9" x2="7.705" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="7.705" y1="-2.9" x2="-7.705" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-7.705" y1="-2.9" x2="-7.705" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.905" y="3.1"/>
+<vertex x="7.905" y="3.1"/>
+<vertex x="7.905" y="-3.05"/>
+<vertex x="-7.905" y="-3.05"/>
+</polygon>
+<circle x="4.5" y="2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="8.61" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="8.51" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107671012" urn="urn:adsk.eagle:footprint:15269974/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<hole x="-7.045" y="1.27" drill="2.1"/>
+<hole x="7.045" y="-1.27" drill="2.5"/>
+<pad name="5" x="0.635" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="3" x="3.175" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="1" x="5.715" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="6" x="-0.635" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="4" x="1.905" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="2" x="4.445" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="7" x="-1.905" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="8" x="-3.175" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="9" x="-4.445" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="10" x="-5.715" y="-1.27" drill="1.4" diameter="1.75"/>
+<wire x1="-10.145" y1="2.8" x2="10.145" y2="2.8" width="0.1" layer="51"/>
+<wire x1="10.145" y1="2.8" x2="10.145" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="10.145" y1="-2.8" x2="-10.145" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-10.145" y1="-2.8" x2="-10.145" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-10.245" y1="2.9" x2="10.245" y2="2.9" width="0.2" layer="21"/>
+<wire x1="10.245" y1="2.9" x2="10.245" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="10.245" y1="-2.9" x2="-10.245" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-10.245" y1="-2.9" x2="-10.245" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-10.445" y="3.1"/>
+<vertex x="10.445" y="3.1"/>
+<vertex x="10.445" y="-3.1"/>
+<vertex x="-10.445" y="-3.1"/>
+</polygon>
+<circle x="7" y="2.3" radius="0.1" width="0.2" layer="21"/>
+<text x="11.15" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="11.05" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="490107670412" urn="urn:adsk.eagle:footprint:15269980/1">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<pad name="1" x="1.905" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="2" x="0.635" y="-1.27" drill="1.4" diameter="1.75"/>
+<pad name="3" x="-0.635" y="1.27" drill="1.4" diameter="1.75"/>
+<pad name="4" x="-1.905" y="-1.27" drill="1.4" diameter="1.75"/>
+<hole x="-3.235" y="1.27" drill="2.1"/>
+<hole x="3.235" y="-1.27" drill="2.5"/>
+<wire x1="-6.335" y1="2.8" x2="6.335" y2="2.8" width="0.1" layer="51"/>
+<wire x1="6.335" y1="2.8" x2="6.335" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="6.335" y1="-2.8" x2="-6.335" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-6.335" y1="-2.8" x2="-6.335" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-6.435" y1="2.9" x2="6.435" y2="2.9" width="0.2" layer="21"/>
+<wire x1="6.435" y1="2.9" x2="6.435" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="6.435" y1="-2.9" x2="-6.435" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-6.435" y1="-2.9" x2="-6.435" y2="2.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.635" y="3.1"/>
+<vertex x="6.635" y="3.1"/>
+<vertex x="6.635" y="-3.1"/>
+<vertex x="-6.635" y="-3.1"/>
+</polygon>
+<circle x="3.2" y="2.2" radius="0.1" width="0.2" layer="21"/>
+<text x="7.34" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="7.24" y="-1.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="490107672012" urn="urn:adsk.eagle:package:15269991/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<packageinstances>
+<packageinstance name="490107672012"/>
+</packageinstances>
+</package3d>
+<package3d name="490107672012_DEBUGGING" urn="urn:adsk.eagle:package:15269990/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107672012_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671812_DEBUGGING" urn="urn:adsk.eagle:package:15269992/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107671812_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671812" urn="urn:adsk.eagle:package:15269993/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<packageinstances>
+<packageinstance name="490107671812"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671612_DEBUGGING" urn="urn:adsk.eagle:package:15269994/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107671612_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671612" urn="urn:adsk.eagle:package:15269995/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<packageinstances>
+<packageinstance name="490107671612"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671212_DEBUGGING" urn="urn:adsk.eagle:package:15269998/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107671212_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671412" urn="urn:adsk.eagle:package:15269997/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<packageinstances>
+<packageinstance name="490107671412"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671412_DEBUGGING" urn="urn:adsk.eagle:package:15269996/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107671412_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671012_DEBUGGING" urn="urn:adsk.eagle:package:15270000/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107671012_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671212" urn="urn:adsk.eagle:package:15269999/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<packageinstances>
+<packageinstance name="490107671212"/>
+</packageinstances>
+</package3d>
+<package3d name="490107670812" urn="urn:adsk.eagle:package:15270003/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<packageinstances>
+<packageinstance name="490107670812"/>
+</packageinstances>
+</package3d>
+<package3d name="490107670612_DEBUGGING" urn="urn:adsk.eagle:package:15270004/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107670612_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="490107670612" urn="urn:adsk.eagle:package:15270005/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<packageinstances>
+<packageinstance name="490107670612"/>
+</packageinstances>
+</package3d>
+<package3d name="490107670812_DEBUGGING" urn="urn:adsk.eagle:package:15270002/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107670812_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="490107670412_DEBUGGING" urn="urn:adsk.eagle:package:15270006/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107670412_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="490107670412" urn="urn:adsk.eagle:package:15270007/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<packageinstances>
+<packageinstance name="490107670412"/>
+</packageinstances>
+</package3d>
+<package3d name="490107671012" urn="urn:adsk.eagle:package:15270001/2" type="model">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;br&gt;&lt;/b&gt;For permanent application up to 10g vibration stable</description>
+<packageinstances>
+<packageinstance name="490107671012"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="9X2">
+<pin name="1" x="22.86" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="20.32" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="17.78" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="8" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="10" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="11" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="12" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="13" x="-7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="14" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="15" x="-12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="16" x="-15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="17" x="-17.78" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="18" x="-20.32" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="25.09" y="0.85" size="1.016" layer="95">&gt;NAME</text>
+<text x="25.13" y="-1.07" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="24.13" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="2.54" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="2.54" x2="-21.59" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-21.59" y1="2.54" x2="-21.59" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-21.59" y1="-2.54" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-2.54" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-2.54" x2="24.13" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="24.13" y1="-2.54" x2="24.13" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="1.705" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<circle x="22.86" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="17.78" y1="1.705" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<circle x="17.78" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="12.7" y1="1.705" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<circle x="12.7" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="7.62" y1="1.705" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<circle x="7.62" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.705" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.705" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="1.705" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<circle x="-7.62" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="1.705" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
+<circle x="-12.7" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-1.705" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-1.705" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.705" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.705" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.705" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-1.705" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<circle x="10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-1.705" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<circle x="15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-1.705" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
+<circle x="20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-17.78" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="1.705" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
+<circle x="-20.32" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-1.705" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="8X2">
+<pin name="1" x="20.32" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="15.24" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="8" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="10" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="11" x="-5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="12" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="13" x="-10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="14" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="15" x="-15.24" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="16" x="-17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="21.59" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="2.54" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="-19.05" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-19.05" y1="2.54" x2="-19.05" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-19.05" y1="-2.54" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-2.54" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="21.59" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="21.59" y1="-2.54" x2="21.59" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="1.705" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<circle x="20.32" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="15.24" y1="1.705" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<circle x="15.24" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="10.16" y1="1.705" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<circle x="10.16" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.705" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="0" y1="1.705" x2="0" y2="2.54" width="0.254" layer="94"/>
+<circle x="0" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.705" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="-5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="1.705" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<circle x="-10.16" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-1.705" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.705" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<circle x="7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.705" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<circle x="12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-1.705" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<circle x="17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="1.705" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<circle x="-15.24" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-1.705" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<text x="22.55" y="0.85" size="1.016" layer="95">&gt;NAME</text>
+<text x="22.59" y="-1.07" size="1.016" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="10X2">
+<pin name="1" x="25.4" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="22.86" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="20.32" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="15.24" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="8" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="10" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="11" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="12" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="13" x="-5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="14" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="15" x="-10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="16" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="17" x="-15.24" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="18" x="-17.78" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="19" x="-20.32" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="20" x="-22.86" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="27.63" y="0.85" size="1.016" layer="95">&gt;NAME</text>
+<text x="27.67" y="-1.07" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="26.67" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="-24.13" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-24.13" y1="2.54" x2="-24.13" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-24.13" y1="-2.54" x2="22.86" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-2.54" x2="26.67" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="26.67" y1="-2.54" x2="26.67" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="1.705" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<circle x="25.4" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="20.32" y1="1.705" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<circle x="20.32" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="15.24" y1="1.705" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<circle x="15.24" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="10.16" y1="1.705" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<circle x="10.16" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.705" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="0" y1="1.705" x2="0" y2="2.54" width="0.254" layer="94"/>
+<circle x="0" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.705" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="-5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="1.705" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<circle x="-10.16" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-1.705" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.705" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<circle x="7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.705" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<circle x="12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-1.705" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<circle x="17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-1.705" x2="22.86" y2="-2.54" width="0.254" layer="94"/>
+<circle x="22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="1.705" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<circle x="-15.24" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="1.705" x2="-20.32" y2="2.54" width="0.254" layer="94"/>
+<circle x="-20.32" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-1.705" x2="-22.86" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-22.86" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-1.705" x2="-17.78" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-17.78" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+</symbol>
+<symbol name="6X2">
+<pin name="1" x="12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="8" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="-7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="10" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="11" x="-12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="12" x="-15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="16.2" y="0.85" size="1.016" layer="95">&gt;NAME</text>
+<text x="16.24" y="-1.07" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="13.97" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-16.51" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="2.54" x2="-16.51" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="13.97" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="13.97" y1="-2.54" x2="13.97" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.705" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-1.705" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="1.705" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="1.705" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<circle x="5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="12.7" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="7.62" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.705" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.705" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.705" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.705" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="-5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="2.54" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-2.54" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-1.705" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="1.705" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<circle x="-10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-7.62" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="1.705" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
+<circle x="-12.7" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-1.705" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+</symbol>
+<symbol name="7X2">
+<pin name="1" x="17.78" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="8" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="10" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="11" x="-7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="12" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="13" x="-12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="14" x="-15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="20.01" y="0.85" size="1.016" layer="95">&gt;NAME</text>
+<text x="20.05" y="-1.07" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="19.05" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="2.54" x2="-16.51" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="2.54" x2="-16.51" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="19.05" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="19.05" y1="-2.54" x2="19.05" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="1.705" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<circle x="17.78" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="12.7" y1="1.705" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<circle x="12.7" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="7.62" y1="1.705" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<circle x="7.62" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.705" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.705" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="1.705" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<circle x="-7.62" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="1.705" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
+<circle x="-12.7" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-1.705" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-1.705" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.705" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.705" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.705" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-1.705" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<circle x="10.16" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-1.705" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<circle x="15.24" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+</symbol>
+<symbol name="4X2">
+<pin name="1" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="-5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="8" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="12.39" y="0.85" size="1.016" layer="95">&gt;NAME</text>
+<text x="12.43" y="-1.07" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="11.43" y1="2.54" x2="-8.89" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="11.43" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-2.54" x2="11.43" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.705" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="1.705" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.705" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="10.16" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.705" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.705" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="0" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+</symbol>
+<symbol name="5X2">
+<pin name="1" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="7" x="-5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="8" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="9" x="-10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="10" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="12.39" y="0.85" size="1.016" layer="95">&gt;NAME</text>
+<text x="12.43" y="-1.07" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="11.43" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="-13.97" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="2.54" x2="-13.97" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="11.43" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-2.54" x2="11.43" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.705" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="1.705" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.705" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="10.16" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.705" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.705" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="0" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-1.705" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="1.705" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<circle x="-12.7" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-10.16" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+</symbol>
+<symbol name="3X2">
+<pin name="1" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="-5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="7.31" y="0.85" size="1.016" layer="95">&gt;NAME</text>
+<text x="7.35" y="-1.07" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="6.35" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-8.89" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.705" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.705" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.705" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.705" x2="0" y2="2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="0" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-1.705" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.705" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="-7.62" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-5.08" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+</symbol>
+<symbol name="2X2">
+<pin name="1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="4.77" y="0.85" size="1.016" layer="95">&gt;NAME</text>
+<text x="4.81" y="-1.07" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="-6.35" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.705" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.705" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.705" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.705" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="-5.08" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="0" y="-1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="2.54" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+<circle x="-2.54" y="1.27" radius="0.4445" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="490107672012" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;For permanent application up to 10g vibration stable &lt;/font&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="10X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107672012">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269991/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107672012.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="32.99mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107672012" constant="no"/>
+<attribute name="PINS" value=" 20 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107672012" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107672012_DEBUGGING" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;Only use for debugging or programming application. &lt;/font&gt;
+&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="10X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107672012_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269990/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107672012.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="32.99mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107672012" constant="no"/>
+<attribute name="PINS" value=" 20 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107672012" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671812_DEBUGGING" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;Only use for debugging or programming application. &lt;/font&gt;
+&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="9X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671812_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269992/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671812.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="30.45mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671812" constant="no"/>
+<attribute name="PINS" value=" 18 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671812" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671612_DEBUGGING" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;Only use for debugging or programming application. &lt;/font&gt;
+&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="8X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671612_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269994/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671612.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="27.91mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671612" constant="no"/>
+<attribute name="PINS" value=" 16 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671612" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671612" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;For permanent application up to 10g vibration stable &lt;/font&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="8X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671612">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269995/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671612.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="27.91mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671612" constant="no"/>
+<attribute name="PINS" value=" 16 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671612" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671212_DEBUGGING" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;Only use for debugging or programming application. &lt;/font&gt;
+&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="6X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671212_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269998/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671212.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="22.83mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671212" constant="no"/>
+<attribute name="PINS" value=" 12 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671212" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671812" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;For permanent application up to 10g vibration stable &lt;/font&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="9X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269993/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671812.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="30.45mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671812" constant="no"/>
+<attribute name="PINS" value=" 18 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671812" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671412" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;For permanent application up to 10g vibration stable &lt;/font&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671412">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269997/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671412.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="25.37mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671412" constant="no"/>
+<attribute name="PINS" value=" 14 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671412" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671212" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;For permanent application up to 10g vibration stable &lt;/font&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="6X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671212">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269999/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671212.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="22.83mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671212" constant="no"/>
+<attribute name="PINS" value=" 12 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671212" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671012_DEBUGGING" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;Only use for debugging or programming application. &lt;/font&gt;
+&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="5X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671012_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15270000/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671012.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="20.29mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671012" constant="no"/>
+<attribute name="PINS" value=" 10 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671012" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671412_DEBUGGING" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;Only use for debugging or programming application. &lt;/font&gt;
+&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671412_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15269996/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671412.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="25.37mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671412" constant="no"/>
+<attribute name="PINS" value=" 14 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671412" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107670812_DEBUGGING" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;Only use for debugging or programming application. &lt;/font&gt;
+&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="4X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107670812_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15270002/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107670812.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="17.75mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107670812" constant="no"/>
+<attribute name="PINS" value=" 8 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107670812" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107670412_DEBUGGING" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;Only use for debugging or programming application. &lt;/font&gt;
+&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107670412_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15270006/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107670412.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="12.67mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107670412" constant="no"/>
+<attribute name="PINS" value=" 4 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107670412" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107670612" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;For permanent application up to 10g vibration stable &lt;/font&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107670612">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15270005/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107670612.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="15.21mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107670612" constant="no"/>
+<attribute name="PINS" value=" 6 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107670612" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107670612_DEBUGGING" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;Only use for debugging or programming application. &lt;/font&gt;
+&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="3X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107670612_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15270004/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107670612.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="15.21mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107670612" constant="no"/>
+<attribute name="PINS" value=" 6 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107670612" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107671012" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;For permanent application up to 10g vibration stable &lt;/font&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="5X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107671012">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15270001/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107671012.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="20.29mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107671012" constant="no"/>
+<attribute name="PINS" value=" 10 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107671012" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107670812" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;For permanent application up to 10g vibration stable &lt;/font&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="4X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107670812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15270003/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107670812.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="17.75mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107670812" constant="no"/>
+<attribute name="PINS" value=" 8 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107670812" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="490107670412" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;font color="#0000FF"&gt;For permanent application up to 10g vibration stable &lt;/font&gt;
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PACKAGING PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Packaging  Tube 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;ELECTRICAL PROPERTIES
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;IR1  1 A 
+&lt;br&gt;RISO 1000 MΩ 
+&lt;br&gt;Withstanding Voltage  500 V (AC) 
+&lt;br&gt;Contact Resistance  10 mΩ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Insulator Material   LCP 
+&lt;br&gt;Insulator Flammability Rating UL94 V-0 
+&lt;br&gt;Insulator Color  Black 
+&lt;br&gt;Contact Material  CuNiSi 
+&lt;br&gt;Contact Plating  Au (SKEDD), Sn (IDC) 
+&lt;br&gt;Pitch  2.54 mm 
+&lt;br&gt;Cable  AWG 28/1.27 mm ribbon cable 
+&lt;br&gt;Operating Temperature  -25 up to +105 °C 
+&lt;br&gt;Compliance  Lead free / RoHS 
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o104848v209%20Single_WR-WST_REDFIT.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD"&gt;https://katalog.we-online.com/en/em/REDFIT_IDC_SKEDD&lt;/a&gt;&lt;p&gt;
+
+Updated By Ella Wu  2019-05-21&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="490107670412">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15270007/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/490107670412.pdf" constant="no"/>
+<attribute name="GENDER" value="Transition" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="L" value="12.67mm" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value="490107670412" constant="no"/>
+<attribute name="PINS" value=" 4 " constant="no"/>
+<attribute name="PITCH" value="2.54mm" constant="no"/>
+<attribute name="TOL-R" value="max." constant="no"/>
+<attribute name="USE-WITH" value="WR-CAB 1.27 mm Ribbon Flat Cable/WR-CAB 1.27 mm Ribbon Flat Cable 1 m pieces" constant="no"/>
+<attribute name="WE-NUMBER" value="490107670412" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="100V(AC)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Coaxial Connectors - WR-RPSMA &lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2021a, 2021-11-05&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="63012052121509" urn="urn:adsk.eagle:footprint:28515489/2">
+<description>&lt;b&gt;WR-RPSMA Straight SMA PCB THT Jack IP67</description>
+<pad name="1" x="0" y="0" drill="1.6"/>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<text x="0" y="6" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.3" size="1.27" layer="21" align="bottom-center">&gt;VALUE</text>
+<circle x="0" y="0" radius="5.5" width="0.1" layer="51"/>
+<circle x="0" y="0" radius="5.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="5.8" y="0" curve="180"/>
+<vertex x="-5.8" y="0" curve="180"/>
+</polygon>
+</package>
+<package name="63012002124503" urn="urn:adsk.eagle:footprint:14943002/1">
+<description>&lt;B&gt;WR-RPSMA Straight</description>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="1" x="0" y="0" drill="1.5"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="3.6" x2="1.3" y2="3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="1.3" x2="3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-3.6" x2="1.3" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="1.3" x2="-3.6" y2="-1.3" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4" y="4"/>
+<vertex x="4" y="4"/>
+<vertex x="4" y="-4"/>
+<vertex x="-4" y="-4"/>
+</polygon>
+<text x="0" y="4.5" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.5" y="-6.3" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="63012242121508" urn="urn:adsk.eagle:footprint:17884472/3">
+<description>&lt;b&gt;6.35SQ Flange Round Post Rear Mount Bulkhead for PCB 1.6mm</description>
+<smd name="1" x="0" y="0" dx="0.9" dy="4.1" layer="1"/>
+<smd name="2" x="-2.775" y="0" dx="1.25" dy="4.1" layer="1"/>
+<smd name="3" x="2.775" y="0" dx="1.25" dy="4.1" layer="1"/>
+<smd name="4" x="-2.775" y="0" dx="1.25" dy="4.1" layer="16"/>
+<smd name="5" x="2.775" y="0" dx="1.25" dy="4.1" layer="16"/>
+<wire x1="-3.175" y1="-2.05" x2="-2.365" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="-2.365" y1="-2.05" x2="-0.38" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="-0.38" y1="-2.05" x2="0.38" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="0.38" y1="-2.05" x2="3.175" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="-3.175" y1="-2.05" x2="-3.175" y2="-3.7" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.175" y1="-3.7" x2="-2.9" y2="-3.7" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.9" y1="-3.7" x2="-2.9" y2="-5.1" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.9" y1="-5.1" x2="-3.2" y2="-5.3" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.2" y1="-5.3" x2="-3.2" y2="-13.7" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.2" y1="-13.7" x2="-2.9" y2="-14" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.9" y1="-14" x2="-2.9" y2="-14.75" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.9" y1="-14.75" x2="2.9" y2="-14.75" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.175" y1="-2.05" x2="3.175" y2="-3.7" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.175" y1="-3.7" x2="2.9" y2="-3.7" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.9" y1="-3.7" x2="2.9" y2="-5.1" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.9" y1="-5.1" x2="3.2" y2="-5.3" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.2" y1="-5.3" x2="3.2" y2="-13.7" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.2" y1="-13.7" x2="2.9" y2="-14" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.9" y1="-14" x2="2.9" y2="-14.75" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.175" y1="-2.05" x2="-3.175" y2="1.76" width="0.1" layer="51"/>
+<wire x1="-3.175" y1="1.76" x2="-2.365" y2="1.76" width="0.1" layer="51"/>
+<wire x1="-2.365" y1="1.76" x2="-2.365" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="-0.38" y1="-2.05" x2="-0.38" y2="1.76" width="0.1" layer="51"/>
+<wire x1="-0.38" y1="1.76" x2="0.38" y2="1.76" width="0.1" layer="51"/>
+<wire x1="0.38" y1="1.76" x2="0.38" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="3.175" y1="-2.05" x2="3.175" y2="1.76" width="0.1" layer="51"/>
+<wire x1="3.175" y1="1.76" x2="2.365" y2="1.76" width="0.1" layer="51"/>
+<wire x1="2.365" y1="1.76" x2="2.365" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="-2.8" x2="-1.5" y2="-2.8" width="0.05" layer="48"/>
+<wire x1="-1.5" y1="-2.8" x2="-2.2" y2="-2.2" width="0.05" layer="48"/>
+<wire x1="-2.2" y1="-2.2" x2="-2.2" y2="-2.4" width="0.05" layer="48"/>
+<wire x1="-2.2" y1="-2.2" x2="-2" y2="-2.2" width="0.05" layer="48"/>
+<text x="-2.1" y="-3.8" size="0.3048" layer="48">PCB Thickness: 1.6mm</text>
+<text x="-1.1" y="-3" size="0.4064" layer="48">PCB END</text>
+<text x="4.6" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="4.6" y="-1.4" size="1.27" layer="25">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.6" y="2.3"/>
+<vertex x="3.6" y="2.3"/>
+<vertex x="3.6" y="-2.3"/>
+<vertex x="-3.6" y="-2.3"/>
+</polygon>
+</package>
+<package name="63012042124504" urn="urn:adsk.eagle:footprint:14943001/1">
+<description>&lt;B&gt;WR-RPSMA Straight Rear Mount Bulkhead</description>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="1" x="0" y="0" drill="1.5"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="3.6" x2="1.3" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-3.6" x2="1.3" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="1.3" x2="3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="1.3" x2="-3.6" y2="-1.3" width="0.2" layer="21"/>
+<text x="0" y="5" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.5" y="-6.5" size="1.778" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.1" y="4.1"/>
+<vertex x="4.1" y="4.1"/>
+<vertex x="4.1" y="-4.1"/>
+<vertex x="-4.1" y="-4.1"/>
+</polygon>
+</package>
+<package name="63011042124502" urn="urn:adsk.eagle:footprint:14943003/1">
+<description>&lt;b&gt;WR-RPSMA Right Angle Rear Mount Bulkhead</description>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="1" x="0" y="0" drill="1.5"/>
+<wire x1="-4" y1="4" x2="4" y2="4" width="0.1" layer="51"/>
+<wire x1="4" y1="4" x2="4" y2="-4" width="0.1" layer="51"/>
+<wire x1="4" y1="-4" x2="-4" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="-4" x2="-4" y2="4" width="0.1" layer="51"/>
+<wire x1="4" y1="4" x2="16.5" y2="4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="16.5" y1="4" x2="16.5" y2="-4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="4" y1="-4" x2="16.5" y2="-4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.1" y1="4.1" x2="2.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="4.1" y1="2.1" x2="4.1" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-2.1" x2="-4.1" y2="2.1" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-4.1" x2="-2.1" y2="-4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.25" y="4.25"/>
+<vertex x="4.25" y="4.25"/>
+<vertex x="4.25" y="-4.25"/>
+<vertex x="-4.25" y="-4.25"/>
+</polygon>
+<text x="0" y="4.75" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.5" y="-6.5" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="63011052121510" urn="urn:adsk.eagle:footprint:28515488/2">
+<description>&lt;b&gt;WR-RPSMA Right Angle PCB THT Jack IP67</description>
+<pad name="1" x="0" y="0" drill="1.5"/>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<wire x1="-4" y1="4" x2="4" y2="4" width="0.1" layer="51"/>
+<wire x1="4" y1="4" x2="4" y2="-4" width="0.1" layer="51"/>
+<wire x1="4" y1="-4" x2="-4" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="-4" x2="-4" y2="4" width="0.1" layer="51"/>
+<wire x1="5.1" y1="5.5" x2="7.3" y2="5.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.3" y1="5.5" x2="7.3" y2="3.125" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.3" y1="3.125" x2="7.3" y2="-3.125" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.3" y1="-3.125" x2="7.3" y2="-5.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.3" y1="-5.5" x2="5.1" y2="-5.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="5.1" y1="-5.5" x2="5.1" y2="-4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="5.1" y1="-4" x2="5.1" y2="4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="5.1" y1="4" x2="5.1" y2="5.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="7.3" y1="3.125" x2="16.5" y2="3.125" width="0.1" layer="51" style="shortdash"/>
+<wire x1="16.5" y1="3.125" x2="16.5" y2="-3.125" width="0.1" layer="51" style="shortdash"/>
+<wire x1="16.5" y1="-3.125" x2="7.3" y2="-3.125" width="0.1" layer="51" style="shortdash"/>
+<wire x1="4" y1="4" x2="5.1" y2="4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="4" y1="-4" x2="5.1" y2="-4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="4.1" y1="4.1" x2="-4.1" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="4.1" x2="-4.1" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="4.1" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="4.1" y1="4.1" x2="4.1" y2="-4.1" width="0.2" layer="21"/>
+<text x="0" y="5" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.3" size="1.27" layer="21" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="4.3"/>
+<vertex x="4.3" y="4.3"/>
+<vertex x="4.3" y="-4.3"/>
+<vertex x="-4.3" y="-4.3"/>
+</polygon>
+</package>
+<package name="63012252111511" urn="urn:adsk.eagle:footprint:29391568/2">
+<description>&lt;b&gt;WR-RPSMA PCB End Launch Jack IP67 for PCB 1.6 mm</description>
+<smd name="1" x="0" y="-1.25" dx="1.2" dy="2.6" layer="1"/>
+<smd name="2" x="-2.54" y="0" dx="1.02" dy="5.1" layer="1"/>
+<smd name="3" x="2.54" y="0" dx="1.02" dy="5.1" layer="1"/>
+<smd name="4" x="-2.54" y="0" dx="1.02" dy="5.1" layer="16"/>
+<smd name="5" x="2.54" y="0" dx="1.02" dy="5.1" layer="16"/>
+<wire x1="-3.05" y1="-2.05" x2="-3.05" y2="-2.55" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.05" y1="-2.55" x2="-3.05" y2="-4.44" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.05" y1="-4.44" x2="-2.665" y2="-4.44" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.665" y1="-4.44" x2="-2.665" y2="-5.85" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.09" y1="-7.5" x2="-3.09" y2="-19.03" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.09" y1="-19.03" x2="-2.7" y2="-19.4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.7" y1="-19.4" x2="-2.7" y2="-20.2" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.7" y1="-20.2" x2="2.66" y2="-20.2" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.05" y1="-2.05" x2="3.05" y2="-4.44" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.05" y1="-4.44" x2="2.665" y2="-4.44" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.665" y1="-4.44" x2="2.665" y2="-5.85" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.74" y1="-7.5" x2="2.74" y2="-19.4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.74" y1="-19.4" x2="2.66" y2="-19.4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.66" y1="-19.4" x2="2.66" y2="-20.2" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.05" y1="-2.05" x2="-3.05" y2="2.56" width="0.1" layer="51"/>
+<wire x1="-3.05" y1="2.56" x2="-2.03" y2="2.56" width="0.1" layer="51"/>
+<wire x1="-2.03" y1="2.56" x2="-2.03" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="-0.255" y1="-2.55" x2="-0.255" y2="0" width="0.1" layer="51"/>
+<wire x1="-0.255" y1="0" x2="0.255" y2="0" width="0.1" layer="51"/>
+<wire x1="0.255" y1="0" x2="0.255" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="3.05" y1="-2.05" x2="3.05" y2="2.56" width="0.1" layer="51"/>
+<wire x1="3.05" y1="2.56" x2="2.03" y2="2.56" width="0.1" layer="51"/>
+<wire x1="2.03" y1="2.56" x2="2.03" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="-3.05" y1="-2.55" x2="-2.03" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="-2.03" y1="-2.55" x2="-0.255" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="-0.255" y1="-2.55" x2="0.255" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="0.255" y1="-2.55" x2="2.03" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="2.03" y1="-2.55" x2="3.8" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="-2.665" y1="-5.85" x2="-4.74" y2="-5.85" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-4.74" y1="-5.85" x2="-4.74" y2="-7.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-4.74" y1="-7.5" x2="-3.09" y2="-7.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.665" y1="-5.85" x2="4.74" y2="-5.85" width="0.1" layer="51" style="shortdash"/>
+<wire x1="4.74" y1="-5.85" x2="4.74" y2="-7.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="4.74" y1="-7.5" x2="2.74" y2="-7.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-1.3" y1="-3.2" x2="-1.6" y2="-3.2" width="0.05" layer="48"/>
+<wire x1="-1.6" y1="-3.2" x2="-2.3" y2="-2.6" width="0.05" layer="48"/>
+<wire x1="-2.3" y1="-2.6" x2="-2.3" y2="-2.8" width="0.05" layer="48"/>
+<wire x1="-2.3" y1="-2.6" x2="-2.1" y2="-2.6" width="0.05" layer="48"/>
+<wire x1="-3.05" y1="-2.55" x2="-3.8" y2="-2.55" width="0.1" layer="51"/>
+<text x="4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="4" y="-1.4" size="1.27" layer="25">&gt;VALUE</text>
+<text x="0" y="-4.2" size="0.3048" layer="48" align="bottom-center">PCB Thickness: 1.6mm</text>
+<text x="0" y="-3.4" size="0.4064" layer="48" align="bottom-center">PCB END</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.25" y="2.75"/>
+<vertex x="3.25" y="2.75"/>
+<vertex x="3.25" y="-2.75"/>
+<vertex x="-3.25" y="-2.75"/>
+</polygon>
+</package>
+<package name="63011002124501" urn="urn:adsk.eagle:footprint:14943004/1">
+<description>&lt;B&gt;WR-RPSMA Right Angle</description>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="1" x="0" y="0" drill="1.5"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="11.5" y2="3.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="11.5" y1="3.5" x2="11.5" y2="-3.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="11.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-1.3" y1="3.6" x2="1.3" y2="3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="1.3" x2="3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-3.6" x2="1.3" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="1.3" x2="-3.6" y2="-1.3" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4" y="4"/>
+<vertex x="4" y="4"/>
+<vertex x="4" y="-4"/>
+<vertex x="-4" y="-4"/>
+</polygon>
+<text x="0" y="4.5" size="1.778" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-4.5" y="-6.25" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="63012202124505" urn="urn:adsk.eagle:footprint:14943000/1">
+<description>&lt;B&gt;WR-RPSMA Round Post for PCB 1.6mm</description>
+<smd name="1" x="0" y="0" dx="5.6" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="-4.125" y="0" dx="5.6" dy="1.65" layer="1" rot="R90"/>
+<smd name="3" x="4.125" y="0" dx="5.6" dy="1.65" layer="1" rot="R90"/>
+<smd name="4" x="-4.125" y="0" dx="5.6" dy="1.65" layer="16" rot="R90"/>
+<smd name="5" x="4.125" y="0" dx="5.6" dy="1.65" layer="16" rot="R90"/>
+<wire x1="-4.76" y1="2.58" x2="4.76" y2="2.58" width="0.1" layer="51"/>
+<wire x1="4.76" y1="2.58" x2="4.76" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="3.175" y1="-11.69" x2="-3.175" y2="-11.69" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-4.76" y1="-2.8" x2="-4.76" y2="2.58" width="0.1" layer="51"/>
+<wire x1="-4.76" y1="-2.8" x2="4.76" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-3.175" y1="-11.69" x2="-3.175" y2="-4.07" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.175" y1="-11.69" x2="3.175" y2="-4.07" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-4.76" y1="-2.8" x2="-4.76" y2="-4.07" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-4.76" y1="-4.07" x2="-3.175" y2="-4.07" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.175" y1="-4.07" x2="4.76" y2="-4.07" width="0.1" layer="51" style="shortdash"/>
+<wire x1="4.76" y1="-4.07" x2="4.76" y2="-2.8" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3" y1="2.68" x2="-0.8" y2="2.68" width="0.2" layer="21"/>
+<wire x1="0.8" y1="2.68" x2="3" y2="2.68" width="0.2" layer="21"/>
+<wire x1="-3" y1="-2.9" x2="-0.8" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="0.8" y1="-2.9" x2="3" y2="-2.9" width="0.2" layer="21"/>
+<text x="-2.2" y="-4.6" size="0.8128" layer="48">PCB End</text>
+<text x="6" y="-1.35" size="1.27" layer="27">&gt;VALUE</text>
+<text x="6" y="0.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.9" y="-5.5" size="0.4064" layer="48">PCB Thickness 1.6mm</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5.25" y="3"/>
+<vertex x="5.25" y="3"/>
+<vertex x="5.25" y="-3.1"/>
+<vertex x="-5.25" y="-3.1"/>
+</polygon>
+</package>
+<package name="63012242124506" urn="urn:adsk.eagle:footprint:14942999/1">
+<description>&lt;B&gt;WR-RPSMA Round Post Rear Mount Bulkhead for PCB 1.6mm</description>
+<smd name="1" x="0" y="0" dx="5" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="-4.25" y="0" dx="5" dy="1.4" layer="1" rot="R90"/>
+<smd name="3" x="4.25" y="0" dx="5" dy="1.4" layer="1" rot="R90"/>
+<smd name="4" x="-4.25" y="0" dx="5" dy="1.4" layer="16" rot="R90"/>
+<smd name="5" x="4.25" y="0" dx="5" dy="1.4" layer="16" rot="R90"/>
+<wire x1="-4.76" y1="2.25" x2="4.76" y2="2.25" width="0.1" layer="51"/>
+<wire x1="4.76" y1="2.25" x2="4.76" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-4.76" y1="-2.5" x2="-4.76" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-4.76" y1="-2.5" x2="4.76" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="3.175" y1="-15.2" x2="-3.175" y2="-15.2" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.175" y1="-15.2" x2="-3.175" y2="-4.15" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.175" y1="-15.2" x2="3.175" y2="-4.15" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-4.76" y1="-2.5" x2="-4.76" y2="-4.15" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-4.76" y1="-4.15" x2="-3.175" y2="-4.15" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.175" y1="-4.15" x2="4.76" y2="-4.15" width="0.1" layer="51" style="shortdash"/>
+<wire x1="4.76" y1="-4.15" x2="4.76" y2="-2.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.2" y1="-2.6" x2="-0.8" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="0.8" y1="-2.6" x2="3.2" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="0.8" y1="2.35" x2="3.2" y2="2.35" width="0.2" layer="21"/>
+<wire x1="-3.2" y1="2.35" x2="-0.8" y2="2.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.25" y="2.8"/>
+<vertex x="5.25" y="2.8"/>
+<vertex x="5.25" y="-2.8"/>
+<vertex x="-5.25" y="-2.8"/>
+</polygon>
+<text x="5.9" y="-1.25" size="1.27" layer="27">&gt;VALUE</text>
+<text x="6" y="0.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.2" y="-4.6" size="0.8128" layer="48">PCB End</text>
+<text x="-2.9" y="-5.5" size="0.4064" layer="48">PCB Thickness 1.6mm</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="63012052121509" urn="urn:adsk.eagle:package:28515492/3" type="model">
+<description>&lt;b&gt;WR-RPSMA Straight SMA PCB THT Jack IP67</description>
+<packageinstances>
+<packageinstance name="63012052121509"/>
+</packageinstances>
+</package3d>
+<package3d name="63012002124503" urn="urn:adsk.eagle:package:14943009/2" type="model">
+<description>&lt;B&gt;WR-RPSMA Straight</description>
+<packageinstances>
+<packageinstance name="63012002124503"/>
+</packageinstances>
+</package3d>
+<package3d name="63012042124504" urn="urn:adsk.eagle:package:14943008/2" type="model">
+<description>&lt;B&gt;WR-RPSMA Straight Rear Mount Bulkhead</description>
+<packageinstances>
+<packageinstance name="63012042124504"/>
+</packageinstances>
+</package3d>
+<package3d name="63011042124502" urn="urn:adsk.eagle:package:14943010/2" type="model">
+<description>&lt;b&gt;WR-RPSMA Right Angle Rear Mount Bulkhead</description>
+<packageinstances>
+<packageinstance name="63011042124502"/>
+</packageinstances>
+</package3d>
+<package3d name="63012242121508" urn="urn:adsk.eagle:package:17884476/4" type="model">
+<description>&lt;b&gt;6.35SQ Flange Round Post Rear Mount Bulkhead for PCB 1.6mm</description>
+<packageinstances>
+<packageinstance name="63012242121508"/>
+</packageinstances>
+</package3d>
+<package3d name="63012242124506" urn="urn:adsk.eagle:package:14943006/2" type="model">
+<description>&lt;B&gt;WR-RPSMA Round Post Rear Mount Bulkhead for PCB 1.6mm</description>
+<packageinstances>
+<packageinstance name="63012242124506"/>
+</packageinstances>
+</package3d>
+<package3d name="63011052121510" urn="urn:adsk.eagle:package:28515491/3" type="model">
+<description>&lt;b&gt;WR-RPSMA Right Angle PCB THT Jack IP67</description>
+<packageinstances>
+<packageinstance name="63011052121510"/>
+</packageinstances>
+</package3d>
+<package3d name="63012202124505" urn="urn:adsk.eagle:package:14943007/2" type="model">
+<description>&lt;B&gt;WR-RPSMA Round Post for PCB 1.6mm</description>
+<packageinstances>
+<packageinstance name="63012202124505"/>
+</packageinstances>
+</package3d>
+<package3d name="63011002124501" urn="urn:adsk.eagle:package:14943011/2" type="model">
+<description>&lt;B&gt;WR-RPSMA Right Angle</description>
+<packageinstances>
+<packageinstance name="63011002124501"/>
+</packageinstances>
+</package3d>
+<package3d name="63012252111511" urn="urn:adsk.eagle:package:29391572/3" type="model">
+<description>&lt;b&gt;WR-RPSMA PCB End Launch Jack IP67 for PCB 1.6 mm</description>
+<packageinstances>
+<packageinstance name="63012252111511"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JACK">
+<circle x="0" y="0" radius="2.54" width="0.2" layer="94"/>
+<circle x="0" y="0" radius="0.5" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.556" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.128" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0.54" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="63012052121509" prefix="J">
+<description>&lt;b&gt;WR-RPSMA Straight SMA PCB THT Jack IP67 
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Nut Material Brass 
+&lt;br&gt;Nut Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Lock Washer Material Brass 
+&lt;br&gt;Lock Washer Plating Gold, min. 0.076µm over Nickel 
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~6 GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o659740v209%20family-wr-rpsma-63012052121509.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o659740v209%20family-wr-rpsma-63012052121509.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/RPSMA_STRAIGHT_SMA_THT_JACK_IP67"&gt;https://www.we-online.com/catalog/en/RPSMA_STRAIGHT_SMA_THT_JACK_IP67&lt;/a&gt;&lt;p&gt;
+Created by Ella Wu  2021-11-05&lt;br&gt;
+2021(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63012052121509">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28515492/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63012052121509.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-350"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="63012052121509"/>
+<attribute name="VALUE" value="63012052121509"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="63012002124503" prefix="J">
+<description>&lt;b&gt;WR-RPSMA Straight
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.76µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Straight 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~18 GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o122893v209%20WR-RPSMA_63012002124503.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o122893v209%20WR-RPSMA_63012002124503.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/WR-RPSMA_THT_63012002124503"&gt;https://katalog.we-online.com/en/em/WR-RPSMA_THT_63012002124503&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu  2019-11-04&lt;br&gt;
+2019(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63012002124503">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14943009/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63012002124503.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="63012002124503"/>
+<attribute name="VALUE" value="63012002124503"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="63012242121508" prefix="J">
+<description>&lt;b&gt;6.35SQ Flange Round Post Rear Mount Bulkhead for PCB 1.6mm
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Nut Material Brass 
+&lt;br&gt;Nut Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Lock Washer Material Brass 
+&lt;br&gt;Lock Washer Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Straight 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~6GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o176659v209%20Family_WR-RPSMA_63012242121508.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o176659v209%20Family_WR-RPSMA_63012242121508.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/RPSMA_6.35_SQ_FLANGE_RP_RMBH/"&gt;https://www.we-online.com/catalog/en/RPSMA_6.35_SQ_FLANGE_RP_RMBH/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu  2020-05-29&lt;br&gt;
+2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63012242121508">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17884476/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63012242121508.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="ORIENTATION-TYPE" value="End Launch "/>
+<attribute name="PART-NUMBER" value="63012242121508"/>
+<attribute name="VALUE" value="63012242121508"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="63012042124504" prefix="J">
+<description>&lt;b&gt;WR-RPSMA Straight Rear Mount Bulkhead
+&lt;br&gt;
+&lt;br&gt;
+RTICLE PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;
+&lt;/b&gt;Panel Thickness 1.6-2.4 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.76µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Nut Material Brass 
+&lt;br&gt;Nut Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Lock Washer Material Brass 
+&lt;br&gt;Lock Washer Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Straight 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~18 GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o122895v209%20WR-RPSMA_63012042124504.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o122895v209%20WR-RPSMA_63012042124504.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/WR-RPSMA_THT_63012042124504"&gt;https://katalog.we-online.com/en/em/WR-RPSMA_THT_63012042124504&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu  2019-11-04&lt;br&gt;
+2019(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63012042124504">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14943008/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63012042124504.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="63012042124504"/>
+<attribute name="VALUE" value="63012042124504"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="63011042124502" prefix="J">
+<description>&lt;b&gt;WR-RPSMA Right Angle Rear Mount Bulkhead
+&lt;br&gt;
+&lt;br&gt;
+ARTICLE PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Panel Thickness 2.9 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.76µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Nut Material Brass 
+&lt;br&gt;Nut Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Lock Washer Material Brass 
+&lt;br&gt;Lock Washer Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Right Angle 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~18 GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o122891v209%20WR-RPSMA_63011042124502.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o122891v209%20WR-RPSMA_63011042124502.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/WR-RPSMA_THT_63011042124502"&gt;https://katalog.we-online.com/en/em/WR-RPSMA_THT_63011042124502&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu  2019-11-04&lt;br&gt;
+2019(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63011042124502">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14943010/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63011042124502.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Right Angle"/>
+<attribute name="PART-NUMBER" value="63011042124502"/>
+<attribute name="VALUE" value="63011042124502"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="63011052121510" prefix="J">
+<description>&lt;b&gt;WR-RPSMA Right Angle PCB THT Jack IP67
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Nut Material Brass 
+&lt;br&gt;Nut Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Lock Washer Material Brass 
+&lt;br&gt;Lock Washer Plating Gold, min. 0.076µm over Nickel 
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~6 GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o659748v209%20family-wr-rpsma-63011052121510.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o659748v209%20family-wr-rpsma-63011052121510.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WR_RPSMA_RIGHT_ANGLE_PCB_THT_IP67"&gt;https://www.we-online.com/catalog/en/WR_RPSMA_RIGHT_ANGLE_PCB_THT_IP67&lt;/a&gt;&lt;p&gt;
+Created by Ella Wu  2021-11-05&lt;br&gt;
+2021(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63011052121510">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28515491/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63011052121510.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-349"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Right Angle"/>
+<attribute name="PART-NUMBER" value="63011052121510"/>
+<attribute name="VALUE" value="63011052121510"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="63012252111511" prefix="J">
+<description>&lt;b&gt;WR-RPSMA PCB End Launch Jack IP67 for PCB 1.6 mm 
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Nut Material Brass 
+&lt;br&gt;Nut Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Lock Washer Material Brass 
+&lt;br&gt;Lock Washer Plating Gold, min. 0.076µm over Nickel 
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~6 GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o659750v209%20family-wr-rpsma-63012252111511.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o659750v209%20family-wr-rpsma-63012252111511.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WR_RPSMA_PCB_END_LAUNCH_IP67_1_6MM"&gt;https://www.we-online.com/catalog/en/WR_RPSMA_PCB_END_LAUNCH_IP67_1_6MM&lt;/a&gt;&lt;p&gt;
+Created by Ella Wu  2021-11-05&lt;br&gt;
+2021(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63012252111511">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29391572/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63012252111511.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-351"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="ORIENTATION-TYPE" value="End Launch "/>
+<attribute name="PART-NUMBER" value="63012252111511"/>
+<attribute name="VALUE" value="63012252111511"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="63011002124501" prefix="J">
+<description>&lt;b&gt;WR-RPSMA Right Angle
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.76µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Right Angle 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;&lt;br&gt;Compliance RoHS 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~18 GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o122889v209%20WR-RPSMA_63011002124501.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o122889v209%20WR-RPSMA_63011002124501.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/WR-RPSMA_THT_63011002124501"&gt;https://katalog.we-online.com/en/em/WR-RPSMA_THT_63011002124501&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu  2019-11-04&lt;br&gt;
+2019(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63011002124501">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14943011/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63011002124501.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Right Angle"/>
+<attribute name="PART-NUMBER" value="63011002124501"/>
+<attribute name="VALUE" value="63011002124501"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="63012242124506" prefix="J">
+<description>&lt;b&gt;WR-RPSMA Round Post Rear Mount Bulkhead for PCB 1.6mm
+&lt;br&gt;
+&lt;br&gt;
+RTICLE PROPERTIES 
+&lt;br&gt;
+&lt;br&gt;
+&lt;/b&gt;Panel Thickness 2-2.4 mm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.76µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Nut Material Brass 
+&lt;br&gt;Nut Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Lock Washer Material Brass 
+&lt;br&gt;Lock Washer Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Straight 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~18 GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o122899v209%20WR-RPSMA_63012242124506.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o122899v209%20WR-RPSMA_63012242124506.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/WR-RPSMA_63012242124506"&gt;https://katalog.we-online.com/en/em/WR-RPSMA_63012242124506&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu  2019-11-04&lt;br&gt;
+2019(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63012242124506">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14943006/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63012242124506.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="63012242124506"/>
+<attribute name="VALUE" value="63012242124506"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="63012202124505" prefix="J">
+<description>&lt;b&gt;WR-RPSMA Round Post for PCB 1.6mm
+&lt;br&gt;
+&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Insulator Color White 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.76µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type RP SMA 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Straight 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;Compliance RoHS 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~18 GHz 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o122897v209%20WR-RPSMA_63012202124505.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o122897v209%20WR-RPSMA_63012202124505.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/em/WR-RPSMA_63012202124505"&gt;https://katalog.we-online.com/en/em/WR-RPSMA_63012202124505&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu  2019-11-04&lt;br&gt;
+2019(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="63012202124505">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14943007/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/63012202124505.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="63012202124505"/>
+<attribute name="VALUE" value="63012202124505"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

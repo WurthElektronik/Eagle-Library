@@ -1,0 +1,2757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Release" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Heatsink" color="1" fill="7" visible="no" active="no"/>
+<layer number="102" name="tMarkings" color="1" fill="7" visible="no" active="no"/>
+<layer number="103" name="bMarkings" color="1" fill="7" visible="no" active="no"/>
+<layer number="104" name="tSchirm" color="7" fill="4" visible="no" active="no"/>
+<layer number="105" name="bSchirm" color="7" fill="5" visible="no" active="no"/>
+<layer number="106" name="shield" color="11" fill="1" visible="no" active="no"/>
+<layer number="107" name="ShieldTop" color="12" fill="1" visible="no" active="no"/>
+<layer number="108" name="MeasuresWall" color="7" fill="1" visible="no" active="no"/>
+<layer number="109" name="SYSONDER" color="7" fill="1" visible="no" active="no"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="tStopDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="bStopDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="bTPoint" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Änderung" color="7" fill="1" visible="no" active="no"/>
+<layer number="115" name="Component" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
+<layer number="117" name="housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="PCB" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="Layout_Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="lotbs" color="7" fill="1" visible="no" active="no"/>
+<layer number="121" name="lotls" color="7" fill="1" visible="no" active="no"/>
+<layer number="122" name="bTestdril" color="7" fill="1" visible="no" active="no"/>
+<layer number="123" name="BOHRFILM" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="127" name="Mods" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
+<layer number="150" name="References" color="4" fill="1" visible="no" active="no"/>
+<layer number="151" name="FaceHelp" color="5" fill="1" visible="no" active="no"/>
+<layer number="152" name="FaceFrame" color="6" fill="1" visible="no" active="no"/>
+<layer number="153" name="FacePlate" color="2" fill="1" visible="no" active="no"/>
+<layer number="154" name="FaceLabel" color="7" fill="1" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
+<layer number="199" name="Bauteile" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="bBauteile" color="1" fill="7" visible="no" active="no"/>
+<layer number="202" name="value" color="7" fill="1" visible="no" active="no"/>
+<layer number="203" name="no" color="7" fill="1" visible="no" active="no"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="210" name="tPNR" color="7" fill="1" visible="no" active="no"/>
+<layer number="211" name="bPNR" color="7" fill="1" visible="no" active="no"/>
+<layer number="220" name="ausheb_u" color="7" fill="1" visible="no" active="no"/>
+<layer number="221" name="ausheb_o" color="7" fill="1" visible="no" active="no"/>
+<layer number="222" name="frontpla" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="PLCDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="MillDoku" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="BR-LS" color="7" fill="1" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+<layer number="255" name="ZchnBlatt" color="7" fill="1" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Assembly - SMT Spacers - WA-SMSR&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2021a, 2021-06-09&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WA-SMSR_9775026960" urn="urn:adsk.eagle:footprint:13498721/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 2.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775031960" urn="urn:adsk.eagle:footprint:13498720/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 3.1mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775041960" urn="urn:adsk.eagle:footprint:13498718/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 4.1mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775046960" urn="urn:adsk.eagle:footprint:13498717/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 4.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775036960" urn="urn:adsk.eagle:footprint:13498719/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 3.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775066960" urn="urn:adsk.eagle:footprint:13498714/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 6.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775056960" urn="urn:adsk.eagle:footprint:13498715/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 5.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775076960" urn="urn:adsk.eagle:footprint:13498713/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 7.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775051960" urn="urn:adsk.eagle:footprint:13498716/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 5.1mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775096960" urn="urn:adsk.eagle:footprint:13498711/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 9.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775116960" urn="urn:adsk.eagle:footprint:13498709/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 11.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775106960" urn="urn:adsk.eagle:footprint:13498710/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 10.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775086960" urn="urn:adsk.eagle:footprint:13498712/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 8.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775041360" urn="urn:adsk.eagle:footprint:13498705/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 4.1mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775046360" urn="urn:adsk.eagle:footprint:13498704/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 4.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775036360" urn="urn:adsk.eagle:footprint:13498706/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 3.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775031360" urn="urn:adsk.eagle:footprint:13498707/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 3.1mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775026360" urn="urn:adsk.eagle:footprint:13498708/6">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 2.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775051360" urn="urn:adsk.eagle:footprint:13498703/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 5.1mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775066360" urn="urn:adsk.eagle:footprint:13498701/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 6.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775076360" urn="urn:adsk.eagle:footprint:13498700/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 7.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775056360" urn="urn:adsk.eagle:footprint:13498702/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 5.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775116360" urn="urn:adsk.eagle:footprint:13498696/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 11.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775096360" urn="urn:adsk.eagle:footprint:13498698/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 9.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775086360" urn="urn:adsk.eagle:footprint:13498699/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 8.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+<package name="WA-SMSR_9775106360" urn="urn:adsk.eagle:footprint:13498697/4">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 10.6mm</description>
+<smd name="1" x="0" y="2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0" y="-2.975" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-2.975" y="0" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-2.2" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="0" y="4.3" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.025" width="1.55" layer="29"/>
+<circle x="0.1" y="-0.1" radius="3" width="0.1" layer="51"/>
+<hole x="0" y="0" drill="4.4"/>
+<wire x1="-2.975" y1="0" x2="0" y2="2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="2.975" x2="2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<wire x1="2.975" y1="0" x2="0" y2="-2.975" width="1.45" layer="1" curve="-90"/>
+<wire x1="0" y1="-2.975" x2="-2.975" y2="0" width="1.45" layer="1" curve="-90"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.4" y="3.615"/>
+<vertex x="0.4" y="2.205" curve="-69.436043"/>
+<vertex x="2.205" y="0.4"/>
+<vertex x="3.615" y="0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-3.615" y="0.4"/>
+<vertex x="-2.205" y="0.4" curve="-69.436043"/>
+<vertex x="-0.4" y="2.205"/>
+<vertex x="-0.4" y="3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.4" y="-3.615"/>
+<vertex x="-0.4" y="-2.205" curve="-69.436043"/>
+<vertex x="-2.205" y="-0.4"/>
+<vertex x="-3.615" y="-0.4" curve="77.378769"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.615" y="-0.4"/>
+<vertex x="2.205" y="-0.4" curve="-69.436043"/>
+<vertex x="0.4" y="-2.205"/>
+<vertex x="0.4" y="-3.615" curve="77.378769"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="0" y="3.9" curve="180"/>
+<vertex x="0" y="-3.9" curve="180"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WA-SMSR_9775026960" urn="urn:adsk.eagle:package:13498748/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 2.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775026960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775031960" urn="urn:adsk.eagle:package:13498747/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 3.1mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775031960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775041960" urn="urn:adsk.eagle:package:13498745/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 4.1mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775041960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775036960" urn="urn:adsk.eagle:package:13498746/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 3.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775036960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775046960" urn="urn:adsk.eagle:package:13498744/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 4.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775046960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775066960" urn="urn:adsk.eagle:package:13498741/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 6.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775066960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775056960" urn="urn:adsk.eagle:package:13498742/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 5.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775056960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775076960" urn="urn:adsk.eagle:package:13498740/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 7.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775076960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775051960" urn="urn:adsk.eagle:package:13498743/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 5.1mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775051960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775096960" urn="urn:adsk.eagle:package:13498738/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 9.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775096960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775106960" urn="urn:adsk.eagle:package:13498737/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 10.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775106960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775116960" urn="urn:adsk.eagle:package:13498736/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 11.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775116960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775086960" urn="urn:adsk.eagle:package:13498739/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2
+&lt;BR&gt;&lt;/B&gt;Hole diameter = 3.2mm
+&lt;br&gt;Pin Length= 8.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775086960"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775041360" urn="urn:adsk.eagle:package:13498732/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 4.1mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775041360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775046360" urn="urn:adsk.eagle:package:13498731/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 4.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775046360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775036360" urn="urn:adsk.eagle:package:13498733/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 3.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775036360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775031360" urn="urn:adsk.eagle:package:13498734/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 3.1mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775031360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775026360" urn="urn:adsk.eagle:package:13498735/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 2.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775026360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775051360" urn="urn:adsk.eagle:package:13498730/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 5.1mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775051360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775066360" urn="urn:adsk.eagle:package:13498728/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 6.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775066360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775076360" urn="urn:adsk.eagle:package:13498727/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 7.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775076360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775056360" urn="urn:adsk.eagle:package:13498729/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 5.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775056360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775096360" urn="urn:adsk.eagle:package:13498725/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 9.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775096360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775116360" urn="urn:adsk.eagle:package:13498723/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 11.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775116360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775086360" urn="urn:adsk.eagle:package:13498726/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 8.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775086360"/>
+</packageinstances>
+</package3d>
+<package3d name="WA-SMSR_9775106360" urn="urn:adsk.eagle:package:13498724/5" type="model">
+<description>&lt;B&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3
+&lt;BR&gt;&lt;/B&gt;Thread M3
+&lt;br&gt;Pin Length= 10.6mm</description>
+<packageinstances>
+<packageinstance name="WA-SMSR_9775106360"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WA-SMSR">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<text x="0" y="3.556" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-3.048" y="-4.572" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WA-SMSR_9775XXX960" prefix="MP">
+<description>&lt;B&gt;&lt;b&gt;WA-SMSR SMT Steel Spacer Reverse with through hole Ø 3.2&lt;/B&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;SMT Reverse Spacer for top layer soldering and bottom side assembly
+&lt;br&gt; For distances from 1 to 10 mm (when using standard pcb-thickness of 1.6 mm)
+&lt;br&gt; fast and precise process
+&lt;br&gt; Strong holding forces and torques
+&lt;br&gt; Highest process reliability
+&lt;br&gt; Instant removable Polyimide Tape
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;
+Properties
+&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Material Steel 
+&lt;br&gt;Surface Tin 
+&lt;br&gt;Ø f 3.2 mm 
+&lt;br&gt;Solder Paste Thickness 150 µm 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;General Information
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -55 up to +150 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o84524v209%20Family_WA-SMSR_9775xxxx60_no_thread.jpg"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o84524v209%20Family_WA-SMSR_9775xxxx60_no_thread.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMSR_SMD_STEEL_SPACER_3_2_INTERNAL_NON_STOP/"&gt;https://www.we-online.com/catalog/en/SMSR_SMD_STEEL_SPACER_3_2_INTERNAL_NON_STOP/&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2021-06-09&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WA-SMSR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_9775026960" package="WA-SMSR_9775026960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498748/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775026960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775026960 "/>
+<attribute name="PIN-LENGTH" value="2.6mm"/>
+<attribute name="VALUE" value="D3.2x2.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775031960" package="WA-SMSR_9775031960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498747/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775031960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775031960 "/>
+<attribute name="PIN-LENGTH" value="3.1mm"/>
+<attribute name="VALUE" value="D3.2x3.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775036960" package="WA-SMSR_9775036960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498746/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775036960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775036960 "/>
+<attribute name="PIN-LENGTH" value="3.6mm"/>
+<attribute name="VALUE" value="D3.2x3.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775041960" package="WA-SMSR_9775041960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498745/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775041960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775041960 "/>
+<attribute name="PIN-LENGTH" value="4.1mm"/>
+<attribute name="VALUE" value="D3.2x4.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775046960" package="WA-SMSR_9775046960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498744/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775046960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775046960 "/>
+<attribute name="PIN-LENGTH" value="4.6mm"/>
+<attribute name="VALUE" value="D3.2x4.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775051960" package="WA-SMSR_9775051960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498743/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775051960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775051960 "/>
+<attribute name="PIN-LENGTH" value="5.1mm"/>
+<attribute name="VALUE" value="D3.2x5.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775056960" package="WA-SMSR_9775056960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498742/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775056960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775056960 "/>
+<attribute name="PIN-LENGTH" value="5.6mm"/>
+<attribute name="VALUE" value="D3.2x5.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775066960" package="WA-SMSR_9775066960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498741/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775066960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775066960 "/>
+<attribute name="PIN-LENGTH" value="6.6mm"/>
+<attribute name="VALUE" value="D3.2x6.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775076960" package="WA-SMSR_9775076960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498740/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775076960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775076960 "/>
+<attribute name="PIN-LENGTH" value="7.6mm"/>
+<attribute name="VALUE" value="D3.2x7.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775086960" package="WA-SMSR_9775086960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498739/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775086960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775086960 "/>
+<attribute name="PIN-LENGTH" value="8.6mm"/>
+<attribute name="VALUE" value="D3.2x8.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775096960" package="WA-SMSR_9775096960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498738/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775096960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775096960 "/>
+<attribute name="PIN-LENGTH" value="9.6mm"/>
+<attribute name="VALUE" value="D3.2x9.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775106960" package="WA-SMSR_9775106960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498737/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775106960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775106960 "/>
+<attribute name="PIN-LENGTH" value="10.6mm"/>
+<attribute name="VALUE" value="D3.2x10.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775116960" package="WA-SMSR_9775116960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498736/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775116960.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775116960 "/>
+<attribute name="PIN-LENGTH" value="11.6mm"/>
+<attribute name="VALUE" value="D3.2x11.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775026960R" package="WA-SMSR_9775026960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498748/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775026960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775026960R"/>
+<attribute name="PIN-LENGTH" value="2.6mm"/>
+<attribute name="VALUE" value="D3.2x2.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775031960R" package="WA-SMSR_9775031960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498747/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775031960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775031960R"/>
+<attribute name="PIN-LENGTH" value="3.1mm"/>
+<attribute name="VALUE" value="D3.2x3.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775036960R" package="WA-SMSR_9775036960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498746/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775036960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775036960R"/>
+<attribute name="PIN-LENGTH" value="3.6mm"/>
+<attribute name="VALUE" value="D3.2x3.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775041960R" package="WA-SMSR_9775041960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498745/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775041960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775041960R"/>
+<attribute name="PIN-LENGTH" value="4.1mm"/>
+<attribute name="VALUE" value="D3.2x4.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775046960R" package="WA-SMSR_9775046960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498744/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775046960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775046960R"/>
+<attribute name="PIN-LENGTH" value="4.6mm"/>
+<attribute name="VALUE" value="D3.2x4.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775051960R" package="WA-SMSR_9775051960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498743/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775051960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775051960R"/>
+<attribute name="PIN-LENGTH" value="5.1mm"/>
+<attribute name="VALUE" value="D3.2x5.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775056960R" package="WA-SMSR_9775056960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498742/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775056960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775056960R"/>
+<attribute name="PIN-LENGTH" value="5.6mm"/>
+<attribute name="VALUE" value="D3.2x5.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775066960R" package="WA-SMSR_9775066960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498741/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775066960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775066960R"/>
+<attribute name="PIN-LENGTH" value="6.6mm"/>
+<attribute name="VALUE" value="D3.2x6.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775076960R" package="WA-SMSR_9775076960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498740/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775076960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775076960R"/>
+<attribute name="PIN-LENGTH" value="7.6mm"/>
+<attribute name="VALUE" value="D3.2x7.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775086960R" package="WA-SMSR_9775086960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498739/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775086960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775086960R"/>
+<attribute name="PIN-LENGTH" value="8.6mm"/>
+<attribute name="VALUE" value="D3.2x8.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775096960R" package="WA-SMSR_9775096960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498738/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775096960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775096960R"/>
+<attribute name="PIN-LENGTH" value="9.6mm"/>
+<attribute name="VALUE" value="D3.2x9.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775106960R" package="WA-SMSR_9775106960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498737/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775106960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775106960R"/>
+<attribute name="PIN-LENGTH" value="10.6mm"/>
+<attribute name="VALUE" value="D3.2x10.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775116960R" package="WA-SMSR_9775116960">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498736/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775116960R.pdf"/>
+<attribute name="HOLE-DIAMETER" value="3.2mm"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775116960R"/>
+<attribute name="PIN-LENGTH" value="11.6mm"/>
+<attribute name="VALUE" value="D3.2x11.6mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WA-SMSR_9775XXX360" prefix="MP">
+<description>&lt;B&gt;&lt;b&gt;WA-SMSR SMT Steel Spacer Reverse with internal Thread M3&lt;/B&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;SMT Reverse Spacer for top layer soldering and bottom side assembly
+&lt;br&gt; For distances from 1 to 10 mm (when using standard pcb-thickness of 1.6 mm)
+&lt;br&gt; fast and precise process
+&lt;br&gt; Strong holding forces and torques
+&lt;br&gt; Highest process reliability
+&lt;br&gt; Instant removable Polyimide Tape
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;
+Properties
+&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Material Steel 
+&lt;br&gt;Surface Tin 
+&lt;br&gt;Ti M3 
+&lt;br&gt;Solder Paste Thickness 150 µm 
+&lt;br&gt;Tightening Torque (Value) 0.5 N*m 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;General Information
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -55 up to +150 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o84522v209%20Family_WA-SMSR_9775xxxx60.jpg"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o84522v209%20Family_WA-SMSR_9775xxxx60.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMSR_SMD_STEEL_SPACER_M3_THREAD_INTERNAL"&gt;https://www.we-online.com/catalog/en/SMSR_SMD_STEEL_SPACER_M3_THREAD_INTERNAL&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2021-06-09&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WA-SMSR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_9775026360" package="WA-SMSR_9775026360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498735/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775026360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775026360 "/>
+<attribute name="PIN-LENGTH" value="2.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x2.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775031360" package="WA-SMSR_9775031360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498734/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775031360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775031360 "/>
+<attribute name="PIN-LENGTH" value="3.1mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x3.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775036360" package="WA-SMSR_9775036360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498733/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775036360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775036360 "/>
+<attribute name="PIN-LENGTH" value="3.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x3.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775041360" package="WA-SMSR_9775041360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498732/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775041360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775041360 "/>
+<attribute name="PIN-LENGTH" value="4.1mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x4.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775046360" package="WA-SMSR_9775046360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498731/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775046360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775046360 "/>
+<attribute name="PIN-LENGTH" value="4.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x4.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775051360" package="WA-SMSR_9775051360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498730/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775051360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775051360 "/>
+<attribute name="PIN-LENGTH" value="5.1mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x5.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775056360" package="WA-SMSR_9775056360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498729/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775056360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775056360 "/>
+<attribute name="PIN-LENGTH" value="5.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x5.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775066360" package="WA-SMSR_9775066360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498728/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775066360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775066360 "/>
+<attribute name="PIN-LENGTH" value="6.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x6.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775076360" package="WA-SMSR_9775076360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498727/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775076360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775076360 "/>
+<attribute name="PIN-LENGTH" value="7.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x7.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775086360" package="WA-SMSR_9775086360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498726/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775086360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775086360 "/>
+<attribute name="PIN-LENGTH" value="8.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x8.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775096360" package="WA-SMSR_9775096360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498725/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775096360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775096360 "/>
+<attribute name="PIN-LENGTH" value="9.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x9.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775106360" package="WA-SMSR_9775106360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498724/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775106360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775106360 "/>
+<attribute name="PIN-LENGTH" value="10.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x10.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775116360" package="WA-SMSR_9775116360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498723/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775116360.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Bulk"/>
+<attribute name="PART-NUMBER" value=" 9775116360 "/>
+<attribute name="PIN-LENGTH" value="11.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x11.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775026360R" package="WA-SMSR_9775026360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498735/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775026360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775026360R"/>
+<attribute name="PIN-LENGTH" value="2.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x2.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775031360R" package="WA-SMSR_9775031360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498734/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775031360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775031360R"/>
+<attribute name="PIN-LENGTH" value="3.1mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x3.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775036360R" package="WA-SMSR_9775036360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498733/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775036360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775036360R"/>
+<attribute name="PIN-LENGTH" value="3.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x3.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775041360R" package="WA-SMSR_9775041360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498732/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775041360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775041360R"/>
+<attribute name="PIN-LENGTH" value="4.1mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x4.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775046360R" package="WA-SMSR_9775046360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498731/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775046360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775046360R"/>
+<attribute name="PIN-LENGTH" value="4.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x4.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775051360R" package="WA-SMSR_9775051360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498730/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775051360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775051360R"/>
+<attribute name="PIN-LENGTH" value="5.1mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x5.1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775056360R" package="WA-SMSR_9775056360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498729/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775056360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775056360R"/>
+<attribute name="PIN-LENGTH" value="5.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x5.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775066360R" package="WA-SMSR_9775066360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498728/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775066360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775066360R"/>
+<attribute name="PIN-LENGTH" value="6.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x6.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775076360R" package="WA-SMSR_9775076360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498727/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775076360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775076360R"/>
+<attribute name="PIN-LENGTH" value="7.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x7.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775086360R" package="WA-SMSR_9775086360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498726/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775086360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775086360R"/>
+<attribute name="PIN-LENGTH" value="8.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x8.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775096360R" package="WA-SMSR_9775096360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498725/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775096360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775096360R"/>
+<attribute name="PIN-LENGTH" value="9.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x9.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775106360R" package="WA-SMSR_9775106360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498724/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775106360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775106360R"/>
+<attribute name="PIN-LENGTH" value="10.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x10.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_9775116360R" package="WA-SMSR_9775116360">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2 3 4" route="any"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13498723/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9775116360R.pdf"/>
+<attribute name="INNER-DIAMETER" value="4.2mm"/>
+<attribute name="OUTER-DIAMETER" value="6mm"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="9775116360R"/>
+<attribute name="PIN-LENGTH" value="11.6mm"/>
+<attribute name="THREAD" value="M3"/>
+<attribute name="VALUE" value="M3x11.6mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

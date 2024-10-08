@@ -1,0 +1,2163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Unshielded Power Inductors - WE-PD2&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-02-20&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-PD2_5848" urn="urn:adsk.eagle:footprint:13007425/2">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 5848, SMT, 2pins
+&lt;br&gt;LXWXH=5.2X5.8X4.5mm</description>
+<wire x1="-1.29" y1="2.6" x2="1.29" y2="2.6" width="0.1" layer="51"/>
+<wire x1="1.28" y1="-2.6" x2="-1.29" y2="-2.6" width="0.1" layer="51"/>
+<wire x1="-1.28" y1="-2.6" x2="-1.38" y2="-2.55" width="0.1" layer="51"/>
+<wire x1="-1.38" y1="-2.55" x2="-1.58" y2="-2.43" width="0.1" layer="51"/>
+<wire x1="-1.58" y1="-2.43" x2="-1.75" y2="-2.31" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-2.31" x2="-1.98" y2="-2.12" width="0.1" layer="51"/>
+<wire x1="-1.98" y1="-2.12" x2="-2.15" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-1.95" x2="-2.32" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="-2.32" y1="-1.75" x2="-2.46" y2="-1.53" width="0.1" layer="51"/>
+<wire x1="-2.46" y1="-1.53" x2="-2.58" y2="-1.32" width="0.1" layer="51"/>
+<wire x1="-2.58" y1="-1.32" x2="-2.7" y2="-1.06" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="-1.06" x2="-2.79" y2="-0.79" width="0.1" layer="51"/>
+<wire x1="-2.79" y1="-0.79" x2="-2.86" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="-2.86" y1="-0.5" x2="-2.9" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="-2.9" y1="-0.2" x2="-2.9" y2="0.05" width="0.1" layer="51"/>
+<wire x1="-2.9" y1="0.05" x2="-2.88" y2="0.35" width="0.1" layer="51"/>
+<wire x1="-2.88" y1="0.35" x2="-2.82" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-2.82" y1="0.7" x2="-2.74" y2="0.97" width="0.1" layer="51"/>
+<wire x1="-2.74" y1="0.97" x2="-2.59" y2="1.31" width="0.1" layer="51"/>
+<wire x1="-2.59" y1="1.31" x2="-2.42" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-2.42" y1="1.6" x2="-2.24" y2="1.84" width="0.1" layer="51"/>
+<wire x1="-2.24" y1="1.84" x2="-1.98" y2="2.11" width="0.1" layer="51"/>
+<wire x1="-1.98" y1="2.11" x2="-1.74" y2="2.32" width="0.1" layer="51"/>
+<wire x1="-1.74" y1="2.32" x2="-1.53" y2="2.47" width="0.1" layer="51"/>
+<wire x1="-1.53" y1="2.47" x2="-1.44" y2="2.53" width="0.1" layer="51"/>
+<wire x1="-1.44" y1="2.53" x2="-1.29" y2="2.6" width="0.1" layer="51"/>
+<wire x1="1.29" y1="2.6" x2="1.39" y2="2.56" width="0.1" layer="51"/>
+<wire x1="1.39" y1="2.56" x2="1.55" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.55" y1="2.45" x2="1.75" y2="2.31" width="0.1" layer="51"/>
+<wire x1="1.75" y1="2.31" x2="1.94" y2="2.15" width="0.1" layer="51"/>
+<wire x1="1.94" y1="2.15" x2="2.14" y2="1.97" width="0.1" layer="51"/>
+<wire x1="2.14" y1="1.97" x2="2.33" y2="1.72" width="0.1" layer="51"/>
+<wire x1="2.33" y1="1.72" x2="2.51" y2="1.45" width="0.1" layer="51"/>
+<wire x1="2.51" y1="1.45" x2="2.65" y2="1.17" width="0.1" layer="51"/>
+<wire x1="2.65" y1="1.17" x2="2.77" y2="0.88" width="0.1" layer="51"/>
+<wire x1="2.77" y1="0.88" x2="2.86" y2="0.49" width="0.1" layer="51"/>
+<wire x1="2.86" y1="0.49" x2="2.9" y2="0.05" width="0.1" layer="51"/>
+<wire x1="2.9" y1="0.05" x2="2.88" y2="-0.36" width="0.1" layer="51"/>
+<wire x1="2.88" y1="-0.36" x2="2.81" y2="-0.72" width="0.1" layer="51"/>
+<wire x1="2.81" y1="-0.72" x2="2.71" y2="-1.04" width="0.1" layer="51"/>
+<wire x1="2.71" y1="-1.04" x2="2.55" y2="-1.39" width="0.1" layer="51"/>
+<wire x1="2.55" y1="-1.39" x2="2.34" y2="-1.71" width="0.1" layer="51"/>
+<wire x1="2.34" y1="-1.71" x2="2.11" y2="-1.99" width="0.1" layer="51"/>
+<wire x1="2.11" y1="-1.99" x2="1.84" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="1.84" y1="-2.25" x2="1.54" y2="-2.46" width="0.1" layer="51"/>
+<wire x1="1.56" y1="-2.45" x2="1.28" y2="-2.6" width="0.1" layer="51"/>
+<wire x1="-0.55" y1="2.7" x2="0.55" y2="2.7" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="-2.7" x2="0.55" y2="-2.7" width="0.2" layer="21"/>
+<smd name="1" x="-1.925" y="0" dx="5.5" dy="2.15" layer="1" rot="R90"/>
+<smd name="2" x="1.925" y="0" dx="5.5" dy="2.15" layer="1" rot="R90"/>
+<text x="0" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.2" y="2.95"/>
+<vertex x="3.2" y="2.95"/>
+<vertex x="3.2" y="-2.95"/>
+<vertex x="-3.2" y="-2.95"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-0.8" y="2.75"/>
+<vertex x="0.8" y="2.75"/>
+<vertex x="0.8" y="-2.75"/>
+<vertex x="-0.8" y="-2.75"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-0.8" y="2.75"/>
+<vertex x="0.8" y="2.75"/>
+<vertex x="0.8" y="-2.75"/>
+<vertex x="-0.8" y="-2.75"/>
+</polygon>
+<circle x="-4" y="0" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-PD2_7850" urn="urn:adsk.eagle:footprint:13007424/2">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 7850, SMT, 2pins
+&lt;br&gt;LXWXH=7X7.8X5mm</description>
+<wire x1="-1.72" y1="3.5" x2="-1.71" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-1.71" y1="3.5" x2="1.72" y2="3.5" width="0.1" layer="51"/>
+<wire x1="1.7" y1="-3.5" x2="-1.7" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-1.71" y1="3.5" x2="-1.81" y2="3.45" width="0.1" layer="51"/>
+<wire x1="-1.81" y1="3.45" x2="-2.04" y2="3.33" width="0.1" layer="51"/>
+<wire x1="-2.04" y1="3.33" x2="-2.24" y2="3.19" width="0.1" layer="51"/>
+<wire x1="-2.24" y1="3.19" x2="-2.45" y2="3.04" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="3.04" x2="-2.72" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-2.72" y1="2.8" x2="-2.88" y2="2.63" width="0.1" layer="51"/>
+<wire x1="-2.88" y1="2.63" x2="-3.18" y2="2.27" width="0.1" layer="51"/>
+<wire x1="-3.18" y1="2.27" x2="-3.38" y2="1.96" width="0.1" layer="51"/>
+<wire x1="-3.38" y1="1.96" x2="-3.57" y2="1.58" width="0.1" layer="51"/>
+<wire x1="-3.57" y1="1.58" x2="-3.73" y2="1.16" width="0.1" layer="51"/>
+<wire x1="-3.73" y1="1.16" x2="-3.85" y2="0.66" width="0.1" layer="51"/>
+<wire x1="-3.85" y1="0.66" x2="-3.89" y2="0.25" width="0.1" layer="51"/>
+<wire x1="-3.89" y1="0.25" x2="-3.9" y2="-0.12" width="0.1" layer="51"/>
+<wire x1="-3.9" y1="-0.12" x2="-3.88" y2="-0.42" width="0.1" layer="51"/>
+<wire x1="-3.88" y1="-0.42" x2="-3.82" y2="-0.81" width="0.1" layer="51"/>
+<wire x1="-3.82" y1="-0.81" x2="-3.73" y2="-1.16" width="0.1" layer="51"/>
+<wire x1="-3.73" y1="-1.16" x2="-3.58" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="-3.58" y1="-1.55" x2="-3.38" y2="-1.95" width="0.1" layer="51"/>
+<wire x1="-3.38" y1="-1.95" x2="-3.17" y2="-2.27" width="0.1" layer="51"/>
+<wire x1="-3.17" y1="-2.27" x2="-2.88" y2="-2.64" width="0.1" layer="51"/>
+<wire x1="-2.88" y1="-2.64" x2="-2.52" y2="-2.98" width="0.1" layer="51"/>
+<wire x1="-2.52" y1="-2.98" x2="-2.23" y2="-3.2" width="0.1" layer="51"/>
+<wire x1="-2.23" y1="-3.2" x2="-1.97" y2="-3.37" width="0.1" layer="51"/>
+<wire x1="-1.97" y1="-3.37" x2="-1.7" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="1.71" y1="-3.5" x2="1.85" y2="-3.43" width="0.1" layer="51"/>
+<wire x1="1.85" y1="-3.43" x2="2.06" y2="-3.31" width="0.1" layer="51"/>
+<wire x1="2.06" y1="-3.31" x2="2.25" y2="-3.19" width="0.1" layer="51"/>
+<wire x1="2.25" y1="-3.19" x2="2.53" y2="-2.97" width="0.1" layer="51"/>
+<wire x1="2.53" y1="-2.97" x2="2.75" y2="-2.77" width="0.1" layer="51"/>
+<wire x1="2.75" y1="-2.77" x2="2.97" y2="-2.53" width="0.1" layer="51"/>
+<wire x1="2.97" y1="-2.53" x2="3.15" y2="-2.31" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-2.31" x2="3.33" y2="-2.03" width="0.1" layer="51"/>
+<wire x1="3.33" y1="-2.03" x2="3.5" y2="-1.73" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-1.73" x2="3.66" y2="-1.37" width="0.1" layer="51"/>
+<wire x1="3.66" y1="-1.37" x2="3.77" y2="-1.02" width="0.1" layer="51"/>
+<wire x1="3.77" y1="-1.02" x2="3.85" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="3.85" y1="-0.65" x2="3.89" y2="-0.27" width="0.1" layer="51"/>
+<wire x1="3.89" y1="-0.27" x2="3.9" y2="0.02" width="0.1" layer="51"/>
+<wire x1="3.9" y1="0.02" x2="3.89" y2="0.34" width="0.1" layer="51"/>
+<wire x1="3.89" y1="0.34" x2="3.84" y2="0.73" width="0.1" layer="51"/>
+<wire x1="3.84" y1="0.73" x2="3.74" y2="1.12" width="0.1" layer="51"/>
+<wire x1="3.74" y1="1.12" x2="3.64" y2="1.42" width="0.1" layer="51"/>
+<wire x1="3.64" y1="1.42" x2="3.5" y2="1.72" width="0.1" layer="51"/>
+<wire x1="3.5" y1="1.72" x2="3.32" y2="2.05" width="0.1" layer="51"/>
+<wire x1="3.32" y1="2.05" x2="3.14" y2="2.32" width="0.1" layer="51"/>
+<wire x1="3.14" y1="2.32" x2="2.93" y2="2.57" width="0.1" layer="51"/>
+<wire x1="2.93" y1="2.57" x2="2.63" y2="2.88" width="0.1" layer="51"/>
+<wire x1="2.63" y1="2.88" x2="2.36" y2="3.11" width="0.1" layer="51"/>
+<wire x1="2.36" y1="3.11" x2="2.04" y2="3.32" width="0.1" layer="51"/>
+<wire x1="2.04" y1="3.32" x2="1.72" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="3.6" x2="0.7" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="-3.6" x2="0.7" y2="-3.6" width="0.2" layer="21"/>
+<smd name="1" x="-2.5" y="0" dx="7.5" dy="3" layer="1" rot="R90"/>
+<smd name="2" x="2.5" y="0" dx="7.5" dy="3" layer="1" rot="R90"/>
+<text x="0" y="-5.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="4.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.2" y="4"/>
+<vertex x="4.2" y="4"/>
+<vertex x="4.2" y="-4"/>
+<vertex x="-4.2" y="-4"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-0.95" y="3.75"/>
+<vertex x="0.95" y="3.75"/>
+<vertex x="0.95" y="-3.75"/>
+<vertex x="-0.95" y="-3.75"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-0.95" y="3.75"/>
+<vertex x="0.95" y="3.75"/>
+<vertex x="0.95" y="-3.75"/>
+<vertex x="-0.95" y="-3.75"/>
+</polygon>
+<circle x="-5" y="0" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-PD2_4532" urn="urn:adsk.eagle:footprint:13007426/2">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 4532, SMT, 2pins
+&lt;br&gt;LXWXH=4X4.5X3.2mm</description>
+<wire x1="-1.02" y1="2" x2="1.02" y2="2" width="0.1" layer="51"/>
+<wire x1="1" y1="-2" x2="-1" y2="-2" width="0.1" layer="51"/>
+<wire x1="-1.031" y1="-1.994" x2="-1.109" y2="-1.959" width="0.1" layer="51"/>
+<wire x1="-1.109" y1="-1.959" x2="-1.269" y2="-1.859" width="0.1" layer="51"/>
+<wire x1="-1.269" y1="-1.859" x2="-1.442" y2="-1.732" width="0.1" layer="51"/>
+<wire x1="-1.442" y1="-1.732" x2="-1.573" y2="-1.612" width="0.1" layer="51"/>
+<wire x1="-1.573" y1="-1.612" x2="-1.712" y2="-1.462" width="0.1" layer="51"/>
+<wire x1="-1.712" y1="-1.462" x2="-1.845" y2="-1.293" width="0.1" layer="51"/>
+<wire x1="-1.845" y1="-1.293" x2="-1.971" y2="-1.084" width="0.1" layer="51"/>
+<wire x1="-1.971" y1="-1.084" x2="-2.078" y2="-0.868" width="0.1" layer="51"/>
+<wire x1="-2.078" y1="-0.868" x2="-2.171" y2="-0.583" width="0.1" layer="51"/>
+<wire x1="-2.171" y1="-0.583" x2="-2.219" y2="-0.387" width="0.1" layer="51"/>
+<wire x1="-2.219" y1="-0.387" x2="-2.247" y2="-0.077" width="0.1" layer="51"/>
+<wire x1="-2.247" y1="-0.077" x2="-2.228" y2="0.35" width="0.1" layer="51"/>
+<wire x1="-2.228" y1="0.35" x2="-2.147" y2="0.676" width="0.1" layer="51"/>
+<wire x1="-2.147" y1="0.676" x2="-2.023" y2="0.981" width="0.1" layer="51"/>
+<wire x1="-2.023" y1="0.981" x2="-1.869" y2="1.261" width="0.1" layer="51"/>
+<wire x1="-1.869" y1="1.261" x2="-1.655" y2="1.524" width="0.1" layer="51"/>
+<wire x1="-1.655" y1="1.524" x2="-1.361" y2="1.79" width="0.1" layer="51"/>
+<wire x1="-1.361" y1="1.79" x2="-1.209" y2="1.913" width="0.1" layer="51"/>
+<wire x1="-1.209" y1="1.913" x2="-1.014" y2="2.005" width="0.1" layer="51"/>
+<wire x1="1.013" y1="2.002" x2="1.1" y2="1.964" width="0.1" layer="51"/>
+<wire x1="1.1" y1="1.964" x2="1.274" y2="1.85" width="0.1" layer="51"/>
+<wire x1="1.274" y1="1.85" x2="1.447" y2="1.72" width="0.1" layer="51"/>
+<wire x1="1.447" y1="1.72" x2="1.609" y2="1.572" width="0.1" layer="51"/>
+<wire x1="1.609" y1="1.572" x2="1.74" y2="1.427" width="0.1" layer="51"/>
+<wire x1="1.74" y1="1.427" x2="1.876" y2="1.245" width="0.1" layer="51"/>
+<wire x1="1.876" y1="1.245" x2="2.015" y2="1.003" width="0.1" layer="51"/>
+<wire x1="2.015" y1="1.003" x2="2.097" y2="0.817" width="0.1" layer="51"/>
+<wire x1="2.097" y1="0.817" x2="2.178" y2="0.566" width="0.1" layer="51"/>
+<wire x1="2.178" y1="0.566" x2="2.223" y2="0.337" width="0.1" layer="51"/>
+<wire x1="2.223" y1="0.337" x2="2.251" y2="0.014" width="0.1" layer="51"/>
+<wire x1="2.251" y1="0.014" x2="2.228" y2="-0.33" width="0.1" layer="51"/>
+<wire x1="2.228" y1="-0.33" x2="2.164" y2="-0.612" width="0.1" layer="51"/>
+<wire x1="2.164" y1="-0.612" x2="2.045" y2="-0.94" width="0.1" layer="51"/>
+<wire x1="2.045" y1="-0.94" x2="1.89" y2="-1.228" width="0.1" layer="51"/>
+<wire x1="1.89" y1="-1.228" x2="1.737" y2="-1.433" width="0.1" layer="51"/>
+<wire x1="1.737" y1="-1.433" x2="1.55" y2="-1.629" width="0.1" layer="51"/>
+<wire x1="1.55" y1="-1.629" x2="1.338" y2="-1.813" width="0.1" layer="51"/>
+<wire x1="1.338" y1="-1.813" x2="1.009" y2="-2.006" width="0.1" layer="51"/>
+<wire x1="-0.45" y1="2.1" x2="0.45" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="-2.1" x2="0.45" y2="-2.1" width="0.2" layer="21"/>
+<smd name="1" x="-1.625" y="0" dx="4.5" dy="1.75" layer="1" rot="R90"/>
+<smd name="2" x="1.625" y="0" dx="4.5" dy="1.75" layer="1" rot="R90"/>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.7" y="2.45"/>
+<vertex x="2.7" y="2.45"/>
+<vertex x="2.7" y="-2.45"/>
+<vertex x="-2.7" y="-2.45"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-0.7" y="2.25"/>
+<vertex x="0.7" y="2.25"/>
+<vertex x="0.7" y="-2.25"/>
+<vertex x="-0.7" y="-2.25"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-0.7" y="2.15"/>
+<vertex x="0.7" y="2.25"/>
+<vertex x="0.7" y="-2.25"/>
+<vertex x="-0.7" y="-2.35"/>
+</polygon>
+<circle x="-3.5" y="0" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-PD2_1054" urn="urn:adsk.eagle:footprint:13007428/2">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 1054, SMT, 2pins
+&lt;br&gt;LXWXH=9X10X5.4mm</description>
+<wire x1="-2.17" y1="4.5" x2="2.17" y2="4.5" width="0.1" layer="51"/>
+<wire x1="2.175" y1="-4.5" x2="-2.175" y2="-4.5" width="0.1" layer="51"/>
+<wire x1="-2.175" y1="4.499" x2="-2.228" y2="4.473" width="0.1" layer="51"/>
+<wire x1="-2.228" y1="4.473" x2="-2.429" y2="4.369" width="0.1" layer="51"/>
+<wire x1="-2.429" y1="4.369" x2="-2.64" y2="4.246" width="0.1" layer="51"/>
+<wire x1="-2.64" y1="4.246" x2="-2.861" y2="4.095" width="0.1" layer="51"/>
+<wire x1="-2.861" y1="4.095" x2="-3.104" y2="3.926" width="0.1" layer="51"/>
+<wire x1="-3.104" y1="3.926" x2="-3.362" y2="3.707" width="0.1" layer="51"/>
+<wire x1="-3.362" y1="3.707" x2="-3.566" y2="3.51" width="0.1" layer="51"/>
+<wire x1="-3.566" y1="3.51" x2="-3.831" y2="3.223" width="0.1" layer="51"/>
+<wire x1="-3.831" y1="3.223" x2="-4.054" y2="2.933" width="0.1" layer="51"/>
+<wire x1="-4.054" y1="2.933" x2="-4.28" y2="2.599" width="0.1" layer="51"/>
+<wire x1="-4.28" y1="2.599" x2="-4.427" y2="2.334" width="0.1" layer="51"/>
+<wire x1="-4.427" y1="2.334" x2="-4.599" y2="1.962" width="0.1" layer="51"/>
+<wire x1="-4.599" y1="1.962" x2="-4.715" y2="1.674" width="0.1" layer="51"/>
+<wire x1="-4.715" y1="1.674" x2="-4.817" y2="1.358" width="0.1" layer="51"/>
+<wire x1="-4.817" y1="1.358" x2="-4.915" y2="0.931" width="0.1" layer="51"/>
+<wire x1="-4.915" y1="0.931" x2="-4.964" y2="0.608" width="0.1" layer="51"/>
+<wire x1="-4.964" y1="0.608" x2="-4.996" y2="0.297" width="0.1" layer="51"/>
+<wire x1="-4.996" y1="0.297" x2="-4.999" y2="-0.033" width="0.1" layer="51"/>
+<wire x1="-4.999" y1="-0.033" x2="-4.989" y2="-0.379" width="0.1" layer="51"/>
+<wire x1="-4.989" y1="-0.379" x2="-4.958" y2="-0.652" width="0.1" layer="51"/>
+<wire x1="-4.958" y1="-0.652" x2="-4.91" y2="-0.954" width="0.1" layer="51"/>
+<wire x1="-4.91" y1="-0.954" x2="-4.81" y2="-1.374" width="0.1" layer="51"/>
+<wire x1="-4.81" y1="-1.374" x2="-4.72" y2="-1.667" width="0.1" layer="51"/>
+<wire x1="-4.72" y1="-1.667" x2="-4.586" y2="-2" width="0.1" layer="51"/>
+<wire x1="-4.586" y1="-2" x2="-4.408" y2="-2.368" width="0.1" layer="51"/>
+<wire x1="-4.408" y1="-2.368" x2="-4.226" y2="-2.68" width="0.1" layer="51"/>
+<wire x1="-4.226" y1="-2.68" x2="-3.912" y2="-3.113" width="0.1" layer="51"/>
+<wire x1="-3.912" y1="-3.113" x2="-3.608" y2="-3.457" width="0.1" layer="51"/>
+<wire x1="-3.608" y1="-3.457" x2="-3.451" y2="-3.617" width="0.1" layer="51"/>
+<wire x1="-3.451" y1="-3.617" x2="-3.198" y2="-3.849" width="0.1" layer="51"/>
+<wire x1="-3.198" y1="-3.849" x2="-2.927" y2="-4.06" width="0.1" layer="51"/>
+<wire x1="-2.927" y1="-4.06" x2="-2.602" y2="-4.273" width="0.1" layer="51"/>
+<wire x1="-2.602" y1="-4.273" x2="-2.363" y2="-4.405" width="0.1" layer="51"/>
+<wire x1="-2.363" y1="-4.405" x2="-2.178" y2="-4.497" width="0.1" layer="51"/>
+<wire x1="2.18" y1="-4.499" x2="2.317" y2="-4.435" width="0.1" layer="51"/>
+<wire x1="2.317" y1="-4.435" x2="2.534" y2="-4.314" width="0.1" layer="51"/>
+<wire x1="2.534" y1="-4.314" x2="2.769" y2="-4.16" width="0.1" layer="51"/>
+<wire x1="2.769" y1="-4.16" x2="2.987" y2="-4.007" width="0.1" layer="51"/>
+<wire x1="2.987" y1="-4.007" x2="3.185" y2="-3.857" width="0.1" layer="51"/>
+<wire x1="3.185" y1="-3.857" x2="3.351" y2="-3.711" width="0.1" layer="51"/>
+<wire x1="3.351" y1="-3.711" x2="3.581" y2="-3.487" width="0.1" layer="51"/>
+<wire x1="3.581" y1="-3.487" x2="3.846" y2="-3.21" width="0.1" layer="51"/>
+<wire x1="3.846" y1="-3.21" x2="4.096" y2="-2.882" width="0.1" layer="51"/>
+<wire x1="4.096" y1="-2.882" x2="4.314" y2="-2.548" width="0.1" layer="51"/>
+<wire x1="4.314" y1="-2.548" x2="4.498" y2="-2.19" width="0.1" layer="51"/>
+<wire x1="4.498" y1="-2.19" x2="4.723" y2="-1.666" width="0.1" layer="51"/>
+<wire x1="4.723" y1="-1.666" x2="4.84" y2="-1.298" width="0.1" layer="51"/>
+<wire x1="4.84" y1="-1.298" x2="4.926" y2="-0.855" width="0.1" layer="51"/>
+<wire x1="4.926" y1="-0.855" x2="4.995" y2="-0.346" width="0.1" layer="51"/>
+<wire x1="4.995" y1="-0.346" x2="5.005" y2="0.002" width="0.1" layer="51"/>
+<wire x1="5.005" y1="0.002" x2="4.978" y2="0.45" width="0.1" layer="51"/>
+<wire x1="4.978" y1="0.45" x2="4.92" y2="0.878" width="0.1" layer="51"/>
+<wire x1="4.92" y1="0.878" x2="4.857" y2="1.221" width="0.1" layer="51"/>
+<wire x1="4.857" y1="1.221" x2="4.761" y2="1.523" width="0.1" layer="51"/>
+<wire x1="4.761" y1="1.523" x2="4.634" y2="1.897" width="0.1" layer="51"/>
+<wire x1="4.634" y1="1.897" x2="4.469" y2="2.252" width="0.1" layer="51"/>
+<wire x1="4.469" y1="2.252" x2="4.26" y2="2.623" width="0.1" layer="51"/>
+<wire x1="4.26" y1="2.623" x2="4.054" y2="2.925" width="0.1" layer="51"/>
+<wire x1="4.054" y1="2.925" x2="3.84" y2="3.211" width="0.1" layer="51"/>
+<wire x1="3.84" y1="3.211" x2="3.603" y2="3.471" width="0.1" layer="51"/>
+<wire x1="3.603" y1="3.471" x2="3.237" y2="3.816" width="0.1" layer="51"/>
+<wire x1="3.237" y1="3.816" x2="2.903" y2="4.073" width="0.1" layer="51"/>
+<wire x1="2.903" y1="4.073" x2="2.505" y2="4.341" width="0.1" layer="51"/>
+<wire x1="2.505" y1="4.341" x2="2.172" y2="4.498" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="4.6" x2="0.95" y2="4.6" width="0.2" layer="21"/>
+<wire x1="-0.95" y1="-4.6" x2="0.95" y2="-4.6" width="0.2" layer="21"/>
+<smd name="1" x="-3.125" y="0" dx="9.5" dy="3.75" layer="1" rot="R90"/>
+<smd name="2" x="3.125" y="0" dx="9.5" dy="3.75" layer="1" rot="R90"/>
+<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="41">
+<vertex x="-1.2" y="4.75"/>
+<vertex x="1.2" y="4.75"/>
+<vertex x="1.2" y="-4.75"/>
+<vertex x="-1.2" y="-4.75"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-5.3" y="4.95"/>
+<vertex x="5.3" y="4.95"/>
+<vertex x="5.3" y="-4.95"/>
+<vertex x="-5.3" y="-4.95"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-1.2" y="4.75"/>
+<vertex x="1.2" y="4.75"/>
+<vertex x="1.2" y="-4.75"/>
+<vertex x="-1.2" y="-4.75"/>
+</polygon>
+<circle x="-6" y="0" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-PD2_3521" urn="urn:adsk.eagle:footprint:13007427/2">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=3X3.5X2.1mm</description>
+<smd name="1" x="0" y="1.22" dx="3" dy="1.4" layer="1"/>
+<smd name="2" x="0" y="-1.2" dx="3" dy="1.4" layer="1"/>
+<wire x1="-1.5" y1="0.9" x2="-1.5" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="1.5" y1="0.9" x2="1.5" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-0.9" x2="1.4785" y2="-0.9409" width="0.1" layer="51"/>
+<wire x1="1.5" y1="0.9" x2="1.3094" y2="1.1583" width="0.1" layer="51"/>
+<wire x1="1.3094" y1="1.1583" x2="1.1081" y2="1.3585" width="0.1" layer="51"/>
+<wire x1="1.1081" y1="1.3585" x2="0.8608" y2="1.5213" width="0.1" layer="51"/>
+<wire x1="0.8608" y1="1.5213" x2="0.72" y2="1.5964" width="0.1" layer="51"/>
+<wire x1="0.72" y1="1.5964" x2="0.4633" y2="1.6872" width="0.1" layer="51"/>
+<wire x1="0.4633" y1="1.6872" x2="0.2029" y2="1.74" width="0.1" layer="51"/>
+<wire x1="0.2029" y1="1.74" x2="0.009" y2="1.749" width="0.1" layer="51"/>
+<wire x1="0.009" y1="1.749" x2="-0.2434" y2="1.731" width="0.1" layer="51"/>
+<wire x1="-0.2434" y1="1.731" x2="-0.4778" y2="1.6904" width="0.1" layer="51"/>
+<wire x1="-0.4778" y1="1.6904" x2="-0.7528" y2="1.5777" width="0.1" layer="51"/>
+<wire x1="-0.7528" y1="1.5777" x2="-1.0007" y2="1.4335" width="0.1" layer="51"/>
+<wire x1="-1.0007" y1="1.4335" x2="-1.2577" y2="1.2126" width="0.1" layer="51"/>
+<wire x1="-1.2577" y1="1.2126" x2="-1.437" y2="1.0018" width="0.1" layer="51"/>
+<wire x1="-1.437" y1="1.0018" x2="-1.5" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-0.9" x2="-1.3979" y2="-1.0438" width="0.1" layer="51"/>
+<wire x1="-1.3979" y1="-1.0438" x2="-1.2532" y2="-1.2126" width="0.1" layer="51"/>
+<wire x1="-1.2532" y1="-1.2126" x2="-1.0684" y2="-1.3884" width="0.1" layer="51"/>
+<wire x1="-1.0684" y1="-1.3884" x2="-0.7979" y2="-1.5552" width="0.1" layer="51"/>
+<wire x1="-0.7979" y1="-1.5552" x2="-0.586" y2="-1.6544" width="0.1" layer="51"/>
+<wire x1="-0.586" y1="-1.6544" x2="-0.3471" y2="-1.7265" width="0.1" layer="51"/>
+<wire x1="-0.3471" y1="-1.7265" x2="-0.1623" y2="-1.7445" width="0.1" layer="51"/>
+<wire x1="-0.1623" y1="-1.7445" x2="0.2299" y2="-1.749" width="0.1" layer="51"/>
+<wire x1="0.2299" y1="-1.749" x2="0.4328" y2="-1.6995" width="0.1" layer="51"/>
+<wire x1="0.4328" y1="-1.6995" x2="0.6925" y2="-1.6121" width="0.1" layer="51"/>
+<wire x1="0.6925" y1="-1.6121" x2="0.9521" y2="-1.4715" width="0.1" layer="51"/>
+<wire x1="0.9521" y1="-1.4715" x2="1.1956" y2="-1.2875" width="0.1" layer="51"/>
+<wire x1="1.1956" y1="-1.2875" x2="1.3931" y2="-1.0415" width="0.1" layer="51"/>
+<wire x1="1.3931" y1="-1.0415" x2="1.4867" y2="-0.9243" width="0.1" layer="51"/>
+<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="1.7" y="2.1"/>
+<vertex x="1.7" y="-2.1"/>
+<vertex x="-1.7" y="-2.1"/>
+<vertex x="-1.7" y="2.1"/>
+</polygon>
+<circle x="-2.1" y="1.2" radius="0.1" width="0.3" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-PD2_4532" urn="urn:adsk.eagle:package:13007432/3" type="model">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 4532, SMT, 2pins
+&lt;br&gt;LXWXH=4X4.5X3.2mm</description>
+<packageinstances>
+<packageinstance name="WE-PD2_4532"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PD2_7850" urn="urn:adsk.eagle:package:13007430/3" type="model">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 7850, SMT, 2pins
+&lt;br&gt;LXWXH=7X7.8X5mm</description>
+<packageinstances>
+<packageinstance name="WE-PD2_7850"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PD2_5848" urn="urn:adsk.eagle:package:13007431/3" type="model">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 5848, SMT, 2pins
+&lt;br&gt;LXWXH=5.2X5.8X4.5mm</description>
+<packageinstances>
+<packageinstance name="WE-PD2_5848"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PD2_1054" urn="urn:adsk.eagle:package:13007434/3" type="model">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 1054, SMT, 2pins
+&lt;br&gt;LXWXH=9X10X5.4mm</description>
+<packageinstances>
+<packageinstance name="WE-PD2_1054"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PD2_3521" urn="urn:adsk.eagle:package:13007433/3" type="model">
+<description>&lt;b&gt;WE-PD2 SMD Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: 3521, SMT, 2pins
+&lt;br&gt;LXWXH=3X3.5X2.1mm</description>
+<packageinstances>
+<packageinstance name="WE-PD2_3521"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L_GAP_POINT">
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.842" y="0.508" radius="0.127" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-PD2_4532" prefix="L">
+<description>&lt;b&gt;WE-PD2 SMT Power Inductor
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Open size
+&lt;br&gt;Saturation currents up to 14 A
+&lt;br&gt;Low tolerances at high inductance values
+&lt;br&gt;Operating temperature: –40 °C to +125 °C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Switching regulators with low operating voltages (graphic cards, embedded PC-Cards, mainboards)
+&lt;br&gt;Integrated DC/DC converter
+&lt;br&gt;Optimal attenuation in MHz frequency range
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-PD2"&gt;www.we-online.com/en/components/products/WE-PD2&lt;/a&gt;&lt;p&gt;
+
+
+Updated by Ella 2023-02-20&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD2_4532">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13007432/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_7447730">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447730?ae"/>
+<attribute name="FRES" value="110MHz"/>
+<attribute name="IR" value="4A"/>
+<attribute name="ISAT" value="5.72A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447730 "/>
+<attribute name="RDC-MAX" value="0.049Ohm"/>
+<attribute name="RDC-TYP" value="0.014Ohm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_744773014">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773014?ae"/>
+<attribute name="FRES" value="103MHz"/>
+<attribute name="IR" value="3.4A"/>
+<attribute name="ISAT" value="5.04A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773014 "/>
+<attribute name="RDC-MAX" value="0.056Ohm"/>
+<attribute name="RDC-TYP" value="0.022Ohm"/>
+<attribute name="VALUE" value="1.4uH"/>
+</technology>
+<technology name="_744773018">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773018?ae"/>
+<attribute name="FRES" value="95MHz"/>
+<attribute name="IR" value="2.7A"/>
+<attribute name="ISAT" value="3.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773018 "/>
+<attribute name="RDC-MAX" value="0.064Ohm"/>
+<attribute name="RDC-TYP" value="0.028Ohm"/>
+<attribute name="VALUE" value="1.8uH"/>
+</technology>
+<technology name="_744773022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773022?ae"/>
+<attribute name="FRES" value="85MHz"/>
+<attribute name="IR" value="2.5A"/>
+<attribute name="ISAT" value="3.38A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773022 "/>
+<attribute name="RDC-MAX" value="0.071Ohm"/>
+<attribute name="RDC-TYP" value="0.034Ohm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_744773027">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773027?ae"/>
+<attribute name="FRES" value="72MHz"/>
+<attribute name="IR" value="2.25A"/>
+<attribute name="ISAT" value="2.97A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773027 "/>
+<attribute name="RDC-MAX" value="0.079Ohm"/>
+<attribute name="RDC-TYP" value="0.039Ohm"/>
+<attribute name="VALUE" value="2.7uH"/>
+</technology>
+<technology name="_744773033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773033?ae"/>
+<attribute name="FRES" value="65MHz"/>
+<attribute name="IR" value="2A"/>
+<attribute name="ISAT" value="2.88A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773033 "/>
+<attribute name="RDC-MAX" value="0.086Ohm"/>
+<attribute name="RDC-TYP" value="0.041Ohm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_744773039">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773039?ae"/>
+<attribute name="FRES" value="61MHz"/>
+<attribute name="IR" value="1.88A"/>
+<attribute name="ISAT" value="2.57A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773039 "/>
+<attribute name="RDC-MAX" value="0.094Ohm"/>
+<attribute name="RDC-TYP" value="0.054Ohm"/>
+<attribute name="VALUE" value="3.9uH"/>
+</technology>
+<technology name="_744773047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773047?ae"/>
+<attribute name="FRES" value="50MHz"/>
+<attribute name="IR" value="1.82A"/>
+<attribute name="ISAT" value="2.46A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773047 "/>
+<attribute name="RDC-MAX" value="0.11Ohm"/>
+<attribute name="RDC-TYP" value="0.059Ohm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_744773056">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773056?ae"/>
+<attribute name="FRES" value="48MHz"/>
+<attribute name="IR" value="1.58A"/>
+<attribute name="ISAT" value="2.43A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773056 "/>
+<attribute name="RDC-MAX" value="0.126Ohm"/>
+<attribute name="RDC-TYP" value="0.069Ohm"/>
+<attribute name="VALUE" value="5.6uH"/>
+</technology>
+<technology name="_744773068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773068?ae"/>
+<attribute name="FRES" value="41MHz"/>
+<attribute name="IR" value="1.54A"/>
+<attribute name="ISAT" value="2.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773068 "/>
+<attribute name="RDC-MAX" value="0.131Ohm"/>
+<attribute name="RDC-TYP" value="0.076Ohm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_744773082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773082?ae"/>
+<attribute name="FRES" value="38MHz"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="ISAT" value="1.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773082 "/>
+<attribute name="RDC-MAX" value="0.146Ohm"/>
+<attribute name="RDC-TYP" value="0.116Ohm"/>
+<attribute name="VALUE" value="8.2uH"/>
+</technology>
+<technology name="_74477310">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477310?ae"/>
+<attribute name="FRES" value="37MHz"/>
+<attribute name="IR" value="1.45A"/>
+<attribute name="ISAT" value="1.74A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74477310 "/>
+<attribute name="RDC-MAX" value="0.182Ohm"/>
+<attribute name="RDC-TYP" value="0.118Ohm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_744773112">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773112?ae"/>
+<attribute name="FRES" value="32MHz"/>
+<attribute name="IR" value="1.28A"/>
+<attribute name="ISAT" value="1.62A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773112 "/>
+<attribute name="RDC-MAX" value="0.21Ohm"/>
+<attribute name="RDC-TYP" value="0.156Ohm"/>
+<attribute name="VALUE" value="12uH"/>
+</technology>
+<technology name="_744773115">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773115?ae"/>
+<attribute name="FRES" value="26MHz"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="ISAT" value="1.46A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773115 "/>
+<attribute name="RDC-MAX" value="0.235Ohm"/>
+<attribute name="RDC-TYP" value="0.204Ohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_744773118">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773118?ae"/>
+<attribute name="FRES" value="23MHz"/>
+<attribute name="IR" value="1.1A"/>
+<attribute name="ISAT" value="1.29A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773118 "/>
+<attribute name="RDC-MAX" value="0.338Ohm"/>
+<attribute name="RDC-TYP" value="0.225Ohm"/>
+<attribute name="VALUE" value="18uH"/>
+</technology>
+<technology name="_744773122">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773122?ae"/>
+<attribute name="FRES" value="20MHz"/>
+<attribute name="IR" value="1A"/>
+<attribute name="ISAT" value="1.22A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773122 "/>
+<attribute name="RDC-MAX" value="0.37Ohm"/>
+<attribute name="RDC-TYP" value="0.261Ohm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_744773127">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773127?ae"/>
+<attribute name="FRES" value="21MHz"/>
+<attribute name="IR" value="0.94A"/>
+<attribute name="ISAT" value="1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773127 "/>
+<attribute name="RDC-MAX" value="0.522Ohm"/>
+<attribute name="RDC-TYP" value="0.328Ohm"/>
+<attribute name="VALUE" value="27uH"/>
+</technology>
+<technology name="_744773133">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773133?ae"/>
+<attribute name="FRES" value="20MHz"/>
+<attribute name="IR" value="0.86A"/>
+<attribute name="ISAT" value="0.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773133 "/>
+<attribute name="RDC-MAX" value="0.54Ohm"/>
+<attribute name="RDC-TYP" value="0.37Ohm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_744773139">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773139?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="0.77A"/>
+<attribute name="ISAT" value="0.87A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773139 "/>
+<attribute name="RDC-MAX" value="0.587Ohm"/>
+<attribute name="RDC-TYP" value="0.418Ohm"/>
+<attribute name="VALUE" value="39uH"/>
+</technology>
+<technology name="_744773147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773147?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="IR" value="0.68A"/>
+<attribute name="ISAT" value="0.77A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773147 "/>
+<attribute name="RDC-MAX" value="0.844Ohm"/>
+<attribute name="RDC-TYP" value="0.523Ohm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_744773156">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773156?ae"/>
+<attribute name="FRES" value="16MHz"/>
+<attribute name="IR" value="0.64A"/>
+<attribute name="ISAT" value="0.75A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773156 "/>
+<attribute name="RDC-MAX" value="0.937Ohm"/>
+<attribute name="RDC-TYP" value="0.714Ohm"/>
+<attribute name="VALUE" value="56uH"/>
+</technology>
+<technology name="_744773168">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744773168?ae"/>
+<attribute name="FRES" value="13MHz"/>
+<attribute name="IR" value="0.56A"/>
+<attribute name="ISAT" value="0.68A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744773168 "/>
+<attribute name="RDC-MAX" value="1.117Ohm"/>
+<attribute name="RDC-TYP" value="0.754Ohm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+<technology name="_74477330A">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477330A?ae"/>
+<attribute name="FRES" value="3.5MHz"/>
+<attribute name="IR" value="0.12A"/>
+<attribute name="ISAT" value="0.18A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="74477330A"/>
+<attribute name="RDC-MAX" value="15Ohm"/>
+<attribute name="RDC-TYP" value="12.5Ohm"/>
+<attribute name="VALUE" value="1000uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PD2_7850" prefix="L">
+<description>&lt;b&gt;WE-PD2 SMT Power Inductor
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Open size
+&lt;br&gt;Saturation currents up to 14 A
+&lt;br&gt;Low tolerances at high inductance values
+&lt;br&gt;Operating temperature: –40 °C to +125 °C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Switching regulators with low operating voltages (graphic cards, embedded PC-Cards, mainboards)
+&lt;br&gt;Integrated DC/DC converter
+&lt;br&gt;Optimal attenuation in MHz frequency range
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-PD2"&gt;www.we-online.com/en/components/products/WE-PD2&lt;/a&gt;&lt;p&gt;
+
+
+Updated by Ella 2023-02-20&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD2_7850">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13007430/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_744775022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775022?ae"/>
+<attribute name="FRES" value="70MHz"/>
+<attribute name="IR" value="6A"/>
+<attribute name="ISAT" value="6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775022 "/>
+<attribute name="RDC-MAX" value="0.015Ohm"/>
+<attribute name="RDC-TYP" value="0.008Ohm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_744775033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775033?ae"/>
+<attribute name="FRES" value="54MHz"/>
+<attribute name="IR" value="4.9A"/>
+<attribute name="ISAT" value="4.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775033 "/>
+<attribute name="RDC-MAX" value="0.018Ohm"/>
+<attribute name="RDC-TYP" value="0.012Ohm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_744775047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775047?ae"/>
+<attribute name="FRES" value="42MHz"/>
+<attribute name="IR" value="4.5A"/>
+<attribute name="ISAT" value="4.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775047 "/>
+<attribute name="RDC-MAX" value="0.019Ohm"/>
+<attribute name="RDC-TYP" value="0.016Ohm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_744775056">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775056?ae"/>
+<attribute name="FRES" value="38MHz"/>
+<attribute name="IR" value="4A"/>
+<attribute name="ISAT" value="4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775056 "/>
+<attribute name="RDC-MAX" value="0.022Ohm"/>
+<attribute name="RDC-TYP" value="0.018Ohm"/>
+<attribute name="VALUE" value="5.6uH"/>
+</technology>
+<technology name="_744775068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775068?ae"/>
+<attribute name="FRES" value="36MHz"/>
+<attribute name="IR" value="3.7A"/>
+<attribute name="ISAT" value="3.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775068 "/>
+<attribute name="RDC-MAX" value="0.026Ohm"/>
+<attribute name="RDC-TYP" value="0.022Ohm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_744775082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775082?ae"/>
+<attribute name="FRES" value="30MHz"/>
+<attribute name="IR" value="3.2A"/>
+<attribute name="ISAT" value="3.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775082 "/>
+<attribute name="RDC-MAX" value="0.04Ohm"/>
+<attribute name="RDC-TYP" value="0.029Ohm"/>
+<attribute name="VALUE" value="8.2uH"/>
+</technology>
+<technology name="_74477510">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477510?ae"/>
+<attribute name="FRES" value="28MHz"/>
+<attribute name="IR" value="2.3A"/>
+<attribute name="ISAT" value="2.95A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74477510 "/>
+<attribute name="RDC-MAX" value="0.07Ohm"/>
+<attribute name="RDC-TYP" value="0.044Ohm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_744775112">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775112?ae"/>
+<attribute name="FRES" value="26MHz"/>
+<attribute name="IR" value="2.18A"/>
+<attribute name="ISAT" value="2.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775112 "/>
+<attribute name="RDC-MAX" value="0.08Ohm"/>
+<attribute name="RDC-TYP" value="0.042Ohm"/>
+<attribute name="VALUE" value="12uH"/>
+</technology>
+<technology name="_744775115">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775115?ae"/>
+<attribute name="FRES" value="20MHz"/>
+<attribute name="IR" value="1.93A"/>
+<attribute name="ISAT" value="2.23A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775115 "/>
+<attribute name="RDC-MAX" value="0.09Ohm"/>
+<attribute name="RDC-TYP" value="0.044Ohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_744775118">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775118?ae"/>
+<attribute name="FRES" value="19MHz"/>
+<attribute name="IR" value="1.89A"/>
+<attribute name="ISAT" value="2.14A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775118 "/>
+<attribute name="RDC-MAX" value="0.1Ohm"/>
+<attribute name="RDC-TYP" value="0.053Ohm"/>
+<attribute name="VALUE" value="18uH"/>
+</technology>
+<technology name="_744775122">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775122?ae"/>
+<attribute name="FRES" value="17.5MHz"/>
+<attribute name="IR" value="1.76A"/>
+<attribute name="ISAT" value="1.81A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775122 "/>
+<attribute name="RDC-MAX" value="0.11Ohm"/>
+<attribute name="RDC-TYP" value="0.065Ohm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_744775127">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775127?ae"/>
+<attribute name="FRES" value="15.5MHz"/>
+<attribute name="IR" value="1.48A"/>
+<attribute name="ISAT" value="1.62A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775127 "/>
+<attribute name="RDC-MAX" value="0.12Ohm"/>
+<attribute name="RDC-TYP" value="0.074Ohm"/>
+<attribute name="VALUE" value="27uH"/>
+</technology>
+<technology name="_744775133">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775133?ae"/>
+<attribute name="FRES" value="14.5MHz"/>
+<attribute name="IR" value="1.35A"/>
+<attribute name="ISAT" value="1.47A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775133 "/>
+<attribute name="RDC-MAX" value="0.13Ohm"/>
+<attribute name="RDC-TYP" value="0.088Ohm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_744775139">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775139?ae"/>
+<attribute name="FRES" value="12.5MHz"/>
+<attribute name="IR" value="1.25A"/>
+<attribute name="ISAT" value="1.33A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775139 "/>
+<attribute name="RDC-MAX" value="0.16Ohm"/>
+<attribute name="RDC-TYP" value="0.116Ohm"/>
+<attribute name="VALUE" value="39uH"/>
+</technology>
+<technology name="_744775147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775147?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="IR" value="1.17A"/>
+<attribute name="ISAT" value="1.24A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775147 "/>
+<attribute name="RDC-MAX" value="0.18Ohm"/>
+<attribute name="RDC-TYP" value="0.134Ohm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_744775156">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775156?ae"/>
+<attribute name="FRES" value="10.5MHz"/>
+<attribute name="IR" value="1.04A"/>
+<attribute name="ISAT" value="1.14A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775156 "/>
+<attribute name="RDC-MAX" value="0.24Ohm"/>
+<attribute name="RDC-TYP" value="0.189Ohm"/>
+<attribute name="VALUE" value="56uH"/>
+</technology>
+<technology name="_744775168">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775168?ae"/>
+<attribute name="FRES" value="9.7MHz"/>
+<attribute name="IR" value="0.99A"/>
+<attribute name="ISAT" value="1.05A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775168 "/>
+<attribute name="RDC-MAX" value="0.28Ohm"/>
+<attribute name="RDC-TYP" value="0.218Ohm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+<technology name="_744775182">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775182?ae"/>
+<attribute name="FRES" value="8.6MHz"/>
+<attribute name="IR" value="0.9A"/>
+<attribute name="ISAT" value="0.95A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775182 "/>
+<attribute name="RDC-MAX" value="0.37Ohm"/>
+<attribute name="RDC-TYP" value="0.248Ohm"/>
+<attribute name="VALUE" value="82uH"/>
+</technology>
+<technology name="_74477520">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477520?ae"/>
+<attribute name="FRES" value="8MHz"/>
+<attribute name="IR" value="0.77A"/>
+<attribute name="ISAT" value="0.86A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74477520 "/>
+<attribute name="RDC-MAX" value="0.43Ohm"/>
+<attribute name="RDC-TYP" value="0.208Ohm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_744775210">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775210?ae"/>
+<attribute name="FRES" value="7MHz"/>
+<attribute name="IR" value="0.67A"/>
+<attribute name="ISAT" value="0.81A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775210 "/>
+<attribute name="RDC-MAX" value="0.47Ohm"/>
+<attribute name="RDC-TYP" value="0.308Ohm"/>
+<attribute name="VALUE" value="120uH"/>
+</technology>
+<technology name="_744775215">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775215?ae"/>
+<attribute name="FRES" value="6.2MHz"/>
+<attribute name="IR" value="0.6A"/>
+<attribute name="ISAT" value="0.71A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775215 "/>
+<attribute name="RDC-MAX" value="0.64Ohm"/>
+<attribute name="RDC-TYP" value="0.467Ohm"/>
+<attribute name="VALUE" value="150uH"/>
+</technology>
+<technology name="_744775218">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775218?ae"/>
+<attribute name="FRES" value="5.8MHz"/>
+<attribute name="IR" value="0.55A"/>
+<attribute name="ISAT" value="0.57A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775218 "/>
+<attribute name="RDC-MAX" value="0.71Ohm"/>
+<attribute name="RDC-TYP" value="0.574Ohm"/>
+<attribute name="VALUE" value="180uH"/>
+</technology>
+<technology name="_744775222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775222?ae"/>
+<attribute name="FRES" value="5.4MHz"/>
+<attribute name="IR" value="0.51A"/>
+<attribute name="ISAT" value="0.56A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775222 "/>
+<attribute name="RDC-MAX" value="0.96Ohm"/>
+<attribute name="RDC-TYP" value="0.614Ohm"/>
+<attribute name="VALUE" value="220uH"/>
+</technology>
+<technology name="_744775227">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775227?ae"/>
+<attribute name="FRES" value="4.7MHz"/>
+<attribute name="IR" value="0.47A"/>
+<attribute name="ISAT" value="0.51A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775227 "/>
+<attribute name="RDC-MAX" value="1.11Ohm"/>
+<attribute name="RDC-TYP" value="0.699Ohm"/>
+<attribute name="VALUE" value="270uH"/>
+</technology>
+<technology name="_744775233">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775233?ae"/>
+<attribute name="FRES" value="4.2MHz"/>
+<attribute name="IR" value="0.43A"/>
+<attribute name="ISAT" value="0.48A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775233 "/>
+<attribute name="RDC-MAX" value="1.26Ohm"/>
+<attribute name="RDC-TYP" value="0.81Ohm"/>
+<attribute name="VALUE" value="330uH"/>
+</technology>
+<technology name="_744775239">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775239?ae"/>
+<attribute name="FRES" value="3.9MHz"/>
+<attribute name="IR" value="0.38A"/>
+<attribute name="ISAT" value="0.43A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775239 "/>
+<attribute name="RDC-MAX" value="1.77Ohm"/>
+<attribute name="RDC-TYP" value="1.151Ohm"/>
+<attribute name="VALUE" value="390uH"/>
+</technology>
+<technology name="_744775247">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744775247?ae"/>
+<attribute name="FRES" value="3.4MHz"/>
+<attribute name="IR" value="0.36A"/>
+<attribute name="ISAT" value="0.38A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744775247 "/>
+<attribute name="RDC-MAX" value="1.96Ohm"/>
+<attribute name="RDC-TYP" value="1.37Ohm"/>
+<attribute name="VALUE" value="470uH"/>
+</technology>
+<technology name="_74477530">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477530?ae"/>
+<attribute name="FRES" value="2.4MHz"/>
+<attribute name="IR" value="0.3A"/>
+<attribute name="ISAT" value="0.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74477530 "/>
+<attribute name="RDC-MAX" value="3.3Ohm"/>
+<attribute name="RDC-TYP" value="2.78Ohm"/>
+<attribute name="VALUE" value="1000uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PD2_5848" prefix="L">
+<description>&lt;b&gt;WE-PD2 SMT Power Inductor
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Open size
+&lt;br&gt;Saturation currents up to 14 A
+&lt;br&gt;Low tolerances at high inductance values
+&lt;br&gt;Operating temperature: –40 °C to +125 °C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Switching regulators with low operating voltages (graphic cards, embedded PC-Cards, mainboards)
+&lt;br&gt;Integrated DC/DC converter
+&lt;br&gt;Optimal attenuation in MHz frequency range
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-PD2"&gt;www.we-online.com/en/components/products/WE-PD2&lt;/a&gt;&lt;p&gt;
+
+
+Updated by Ella 2023-02-20&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD2_5848">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13007431/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_744774003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774003?ae"/>
+<attribute name="FRES" value="295MHz"/>
+<attribute name="IR" value="10.8A"/>
+<attribute name="ISAT" value="15.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774003 "/>
+<attribute name="RDC-MAX" value="0.008Ohm"/>
+<attribute name="RDC-TYP" value="0.006Ohm"/>
+<attribute name="VALUE" value="0.33uH"/>
+</technology>
+<technology name="_744774022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774022?ae"/>
+<attribute name="FRES" value="54MHz"/>
+<attribute name="IR" value="4.6A"/>
+<attribute name="ISAT" value="8.2A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774022 "/>
+<attribute name="RDC-MAX" value="0.041Ohm"/>
+<attribute name="RDC-TYP" value="0.026Ohm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_744774027">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774027?ae"/>
+<attribute name="FRES" value="50MHz"/>
+<attribute name="IR" value="4A"/>
+<attribute name="ISAT" value="8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774027 "/>
+<attribute name="RDC-MAX" value="0.045Ohm"/>
+<attribute name="RDC-TYP" value="0.032Ohm"/>
+<attribute name="VALUE" value="2.7uH"/>
+</technology>
+<technology name="_744774033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774033?ae"/>
+<attribute name="FRES" value="43MHz"/>
+<attribute name="IR" value="4A"/>
+<attribute name="ISAT" value="7.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774033 "/>
+<attribute name="RDC-MAX" value="0.06Ohm"/>
+<attribute name="RDC-TYP" value="0.042Ohm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_744774047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774047?ae"/>
+<attribute name="FRES" value="33MHz"/>
+<attribute name="IR" value="3A"/>
+<attribute name="ISAT" value="5.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774047 "/>
+<attribute name="RDC-MAX" value="0.071Ohm"/>
+<attribute name="RDC-TYP" value="0.056Ohm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_744774068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774068?ae"/>
+<attribute name="FRES" value="28MHz"/>
+<attribute name="IR" value="2.4A"/>
+<attribute name="ISAT" value="5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774068 "/>
+<attribute name="RDC-MAX" value="0.082Ohm"/>
+<attribute name="RDC-TYP" value="0.071Ohm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_74477410">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477410?ae"/>
+<attribute name="FRES" value="26MHz"/>
+<attribute name="IR" value="2.2A"/>
+<attribute name="ISAT" value="2.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74477410 "/>
+<attribute name="RDC-MAX" value="0.1Ohm"/>
+<attribute name="RDC-TYP" value="0.078Ohm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_744774112">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774112?ae"/>
+<attribute name="FRES" value="24MHz"/>
+<attribute name="IR" value="2A"/>
+<attribute name="ISAT" value="1.94A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774112 "/>
+<attribute name="RDC-MAX" value="0.11Ohm"/>
+<attribute name="RDC-TYP" value="0.082Ohm"/>
+<attribute name="VALUE" value="12uH"/>
+</technology>
+<technology name="_744774115">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774115?ae"/>
+<attribute name="FRES" value="23MHz"/>
+<attribute name="IR" value="1.53A"/>
+<attribute name="ISAT" value="1.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774115 "/>
+<attribute name="RDC-MAX" value="0.14Ohm"/>
+<attribute name="RDC-TYP" value="0.089Ohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_744774118">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774118?ae"/>
+<attribute name="FRES" value="21MHz"/>
+<attribute name="IR" value="1.45A"/>
+<attribute name="ISAT" value="1.69A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774118 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="RDC-TYP" value="0.104Ohm"/>
+<attribute name="VALUE" value="18uH"/>
+</technology>
+<technology name="_744774122">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774122?ae"/>
+<attribute name="FRES" value="16MHz"/>
+<attribute name="IR" value="1.28A"/>
+<attribute name="ISAT" value="1.53A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774122 "/>
+<attribute name="RDC-MAX" value="0.18Ohm"/>
+<attribute name="RDC-TYP" value="0.109Ohm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_744774127">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774127?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="1.19A"/>
+<attribute name="ISAT" value="1.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774127 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="RDC-TYP" value="0.133Ohm"/>
+<attribute name="VALUE" value="27uH"/>
+</technology>
+<technology name="_744774133">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774133?ae"/>
+<attribute name="FRES" value="14MHz"/>
+<attribute name="IR" value="1.09A"/>
+<attribute name="ISAT" value="1.17A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774133 "/>
+<attribute name="RDC-MAX" value="0.23Ohm"/>
+<attribute name="RDC-TYP" value="0.15Ohm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_744774139">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774139?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="IR" value="0.94A"/>
+<attribute name="ISAT" value="1.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774139 "/>
+<attribute name="RDC-MAX" value="0.32Ohm"/>
+<attribute name="RDC-TYP" value="0.215Ohm"/>
+<attribute name="VALUE" value="39uH"/>
+</technology>
+<technology name="_744774147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774147?ae"/>
+<attribute name="FRES" value="11.5MHz"/>
+<attribute name="IR" value="0.86A"/>
+<attribute name="ISAT" value="1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774147 "/>
+<attribute name="RDC-MAX" value="0.37Ohm"/>
+<attribute name="RDC-TYP" value="0.26Ohm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_744774156">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774156?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="0.77A"/>
+<attribute name="ISAT" value="0.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774156 "/>
+<attribute name="RDC-MAX" value="0.42Ohm"/>
+<attribute name="RDC-TYP" value="0.298Ohm"/>
+<attribute name="VALUE" value="56uH"/>
+</technology>
+<technology name="_744774168">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774168?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="0.64A"/>
+<attribute name="ISAT" value="0.86A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774168 "/>
+<attribute name="RDC-MAX" value="0.46Ohm"/>
+<attribute name="RDC-TYP" value="0.313Ohm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+<technology name="_744774182">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774182?ae"/>
+<attribute name="FRES" value="8MHz"/>
+<attribute name="IR" value="0.6A"/>
+<attribute name="ISAT" value="0.72A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774182 "/>
+<attribute name="RDC-MAX" value="0.6Ohm"/>
+<attribute name="RDC-TYP" value="0.475Ohm"/>
+<attribute name="VALUE" value="82uH"/>
+</technology>
+<technology name="_74477420">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477420?ae"/>
+<attribute name="FRES" value="7.5MHz"/>
+<attribute name="IR" value="0.57A"/>
+<attribute name="ISAT" value="0.68A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74477420 "/>
+<attribute name="RDC-MAX" value="0.65Ohm"/>
+<attribute name="RDC-TYP" value="0.51Ohm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_744774212">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774212?ae"/>
+<attribute name="FRES" value="7MHz"/>
+<attribute name="IR" value="0.49A"/>
+<attribute name="ISAT" value="0.63A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774212 "/>
+<attribute name="RDC-MAX" value="0.93Ohm"/>
+<attribute name="RDC-TYP" value="0.66Ohm"/>
+<attribute name="VALUE" value="120uH"/>
+</technology>
+<technology name="_744774215">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774215?ae"/>
+<attribute name="FRES" value="6.5MHz"/>
+<attribute name="IR" value="0.46A"/>
+<attribute name="ISAT" value="0.54A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774215 "/>
+<attribute name="RDC-MAX" value="1.1Ohm"/>
+<attribute name="RDC-TYP" value="0.72Ohm"/>
+<attribute name="VALUE" value="150uH"/>
+</technology>
+<technology name="_744774218">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774218?ae"/>
+<attribute name="FRES" value="5.8MHz"/>
+<attribute name="IR" value="0.42A"/>
+<attribute name="ISAT" value="0.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774218 "/>
+<attribute name="RDC-MAX" value="1.38Ohm"/>
+<attribute name="RDC-TYP" value="0.85Ohm"/>
+<attribute name="VALUE" value="180uH"/>
+</technology>
+<technology name="_744774222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744774222?ae"/>
+<attribute name="FRES" value="5MHz"/>
+<attribute name="IR" value="0.42A"/>
+<attribute name="ISAT" value="0.47A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744774222 "/>
+<attribute name="RDC-MAX" value="1.57Ohm"/>
+<attribute name="RDC-TYP" value="0.945Ohm"/>
+<attribute name="VALUE" value="20uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PD2_1054" prefix="L">
+<description>&lt;b&gt;WE-PD2 SMT Power Inductor
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Open size
+&lt;br&gt;Saturation currents up to 14 A
+&lt;br&gt;Low tolerances at high inductance values
+&lt;br&gt;Operating temperature: –40 °C to +125 °C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Switching regulators with low operating voltages (graphic cards, embedded PC-Cards, mainboards)
+&lt;br&gt;Integrated DC/DC converter
+&lt;br&gt;Optimal attenuation in MHz frequency range
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-PD2"&gt;www.we-online.com/en/components/products/WE-PD2&lt;/a&gt;&lt;p&gt;
+
+
+Updated by Ella 2023-02-20&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD2_1054">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13007434/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_744776012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776012?ae"/>
+<attribute name="FRES" value="110MHz"/>
+<attribute name="IR" value="7.4A"/>
+<attribute name="ISAT" value="11A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776012 "/>
+<attribute name="RDC-MAX" value="0.006Ohm"/>
+<attribute name="RDC-TYP" value="0.004Ohm"/>
+<attribute name="VALUE" value="1.2uH"/>
+</technology>
+<technology name="_744776022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776022?ae"/>
+<attribute name="FRES" value="75MHz"/>
+<attribute name="IR" value="7A"/>
+<attribute name="ISAT" value="8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776022 "/>
+<attribute name="RDC-MAX" value="0.01Ohm"/>
+<attribute name="RDC-TYP" value="0.007Ohm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_744776033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776033?ae"/>
+<attribute name="FRES" value="45MHz"/>
+<attribute name="IR" value="6A"/>
+<attribute name="ISAT" value="7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776033 "/>
+<attribute name="RDC-MAX" value="0.015Ohm"/>
+<attribute name="RDC-TYP" value="0.009Ohm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_744776047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776047?ae"/>
+<attribute name="FRES" value="41MHz"/>
+<attribute name="IR" value="5A"/>
+<attribute name="ISAT" value="6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776047 "/>
+<attribute name="RDC-MAX" value="0.017Ohm"/>
+<attribute name="RDC-TYP" value="0.012Ohm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_744776056">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776056?ae"/>
+<attribute name="FRES" value="38MHz"/>
+<attribute name="IR" value="4.8A"/>
+<attribute name="ISAT" value="5.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776056 "/>
+<attribute name="RDC-MAX" value="0.019Ohm"/>
+<attribute name="RDC-TYP" value="0.015Ohm"/>
+<attribute name="VALUE" value="5.6uH"/>
+</technology>
+<technology name="_744776068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776068?ae"/>
+<attribute name="FRES" value="34MHz"/>
+<attribute name="IR" value="4.4A"/>
+<attribute name="ISAT" value="5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776068 "/>
+<attribute name="RDC-MAX" value="0.022Ohm"/>
+<attribute name="RDC-TYP" value="0.016Ohm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_744776082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776082?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="IR" value="4.2A"/>
+<attribute name="ISAT" value="4.25A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776082 "/>
+<attribute name="RDC-MAX" value="0.026Ohm"/>
+<attribute name="RDC-TYP" value="0.02Ohm"/>
+<attribute name="VALUE" value="8.2uH"/>
+</technology>
+<technology name="_74477610">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477610?ae"/>
+<attribute name="FRES" value="24MHz"/>
+<attribute name="IR" value="2.98A"/>
+<attribute name="ISAT" value="3.24A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74477610 "/>
+<attribute name="RDC-MAX" value="0.06Ohm"/>
+<attribute name="RDC-TYP" value="0.028Ohm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_744776112">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776112?ae"/>
+<attribute name="FRES" value="23MHz"/>
+<attribute name="IR" value="2.72A"/>
+<attribute name="ISAT" value="3.15A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776112 "/>
+<attribute name="RDC-MAX" value="0.07Ohm"/>
+<attribute name="RDC-TYP" value="0.033Ohm"/>
+<attribute name="VALUE" value="12uH"/>
+</technology>
+<technology name="_744776115">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776115?ae"/>
+<attribute name="FRES" value="20MHz"/>
+<attribute name="IR" value="2.47A"/>
+<attribute name="ISAT" value="2.88A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776115 "/>
+<attribute name="RDC-MAX" value="0.08Ohm"/>
+<attribute name="RDC-TYP" value="0.034Ohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_744776118">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776118?ae"/>
+<attribute name="FRES" value="19MHz"/>
+<attribute name="IR" value="2.36A"/>
+<attribute name="ISAT" value="2.43A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776118 "/>
+<attribute name="RDC-MAX" value="0.09Ohm"/>
+<attribute name="RDC-TYP" value="0.043Ohm"/>
+<attribute name="VALUE" value="18uH"/>
+</technology>
+<technology name="_744776122">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776122?ae"/>
+<attribute name="FRES" value="16MHz"/>
+<attribute name="IR" value="2.04A"/>
+<attribute name="ISAT" value="2.07A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776122 "/>
+<attribute name="RDC-MAX" value="0.1Ohm"/>
+<attribute name="RDC-TYP" value="0.051Ohm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_744776127">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776127?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="IR" value="1.95A"/>
+<attribute name="ISAT" value="1.98A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776127 "/>
+<attribute name="RDC-MAX" value="0.11Ohm"/>
+<attribute name="RDC-TYP" value="0.063Ohm"/>
+<attribute name="VALUE" value="27uH"/>
+</technology>
+<technology name="_744776133">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776133?ae"/>
+<attribute name="FRES" value="13MHz"/>
+<attribute name="IR" value="1.78A"/>
+<attribute name="ISAT" value="1.89A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776133 "/>
+<attribute name="RDC-MAX" value="0.12Ohm"/>
+<attribute name="RDC-TYP" value="0.083Ohm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_744776139">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776139?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="IR" value="1.62A"/>
+<attribute name="ISAT" value="1.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776139 "/>
+<attribute name="RDC-MAX" value="0.14Ohm"/>
+<attribute name="RDC-TYP" value="0.098Ohm"/>
+<attribute name="VALUE" value="39uH"/>
+</technology>
+<technology name="_744776147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776147?ae"/>
+<attribute name="FRES" value="11MHz"/>
+<attribute name="IR" value="1.45A"/>
+<attribute name="ISAT" value="1.62A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776147 "/>
+<attribute name="RDC-MAX" value="0.17Ohm"/>
+<attribute name="RDC-TYP" value="0.095Ohm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_744776156">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776156?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="IR" value="1.36A"/>
+<attribute name="ISAT" value="1.53A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776156 "/>
+<attribute name="RDC-MAX" value="0.19Ohm"/>
+<attribute name="RDC-TYP" value="0.112Ohm"/>
+<attribute name="VALUE" value="56uH"/>
+</technology>
+<technology name="_744776168">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776168?ae"/>
+<attribute name="FRES" value="9MHz"/>
+<attribute name="IR" value="1.19A"/>
+<attribute name="ISAT" value="1.49A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776168 "/>
+<attribute name="RDC-MAX" value="0.22Ohm"/>
+<attribute name="RDC-TYP" value="0.138Ohm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+<technology name="_744776182">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776182?ae"/>
+<attribute name="FRES" value="8MHz"/>
+<attribute name="IR" value="1.11A"/>
+<attribute name="ISAT" value="1.17A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776182 "/>
+<attribute name="RDC-MAX" value="0.25Ohm"/>
+<attribute name="RDC-TYP" value="0.15Ohm"/>
+<attribute name="VALUE" value="82uH"/>
+</technology>
+<technology name="_74477620">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477620?ae"/>
+<attribute name="FRES" value="7.5MHz"/>
+<attribute name="IR" value="1.02A"/>
+<attribute name="ISAT" value="1.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74477620 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="RDC-TYP" value="0.2Ohm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+<technology name="_744776212">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776212?ae"/>
+<attribute name="FRES" value="6.5MHz"/>
+<attribute name="IR" value="0.94A"/>
+<attribute name="ISAT" value="0.99A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776212 "/>
+<attribute name="RDC-MAX" value="0.4Ohm"/>
+<attribute name="RDC-TYP" value="0.243Ohm"/>
+<attribute name="VALUE" value="120uH"/>
+</technology>
+<technology name="_744776215">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776215?ae"/>
+<attribute name="FRES" value="6MHz"/>
+<attribute name="IR" value="0.81A"/>
+<attribute name="ISAT" value="0.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776215 "/>
+<attribute name="RDC-MAX" value="0.47Ohm"/>
+<attribute name="RDC-TYP" value="0.3Ohm"/>
+<attribute name="VALUE" value="150uH"/>
+</technology>
+<technology name="_744776218">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776218?ae"/>
+<attribute name="FRES" value="5.4MHz"/>
+<attribute name="IR" value="0.76A"/>
+<attribute name="ISAT" value="0.78A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776218 "/>
+<attribute name="RDC-MAX" value="0.63Ohm"/>
+<attribute name="RDC-TYP" value="0.32Ohm"/>
+<attribute name="VALUE" value="180uH"/>
+</technology>
+<technology name="_744776222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776222?ae"/>
+<attribute name="FRES" value="5MHz"/>
+<attribute name="IR" value="0.67A"/>
+<attribute name="ISAT" value="0.77A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776222 "/>
+<attribute name="RDC-MAX" value="0.73Ohm"/>
+<attribute name="RDC-TYP" value="0.451Ohm"/>
+<attribute name="VALUE" value="220uH"/>
+</technology>
+<technology name="_744776227">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776227?ae"/>
+<attribute name="FRES" value="4.3MHz"/>
+<attribute name="IR" value="0.62A"/>
+<attribute name="ISAT" value="0.68A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776227 "/>
+<attribute name="RDC-MAX" value="0.97Ohm"/>
+<attribute name="RDC-TYP" value="0.5Ohm"/>
+<attribute name="VALUE" value="270uH"/>
+</technology>
+<technology name="_744776233">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776233?ae"/>
+<attribute name="FRES" value="4.1MHz"/>
+<attribute name="IR" value="0.52A"/>
+<attribute name="ISAT" value="0.59A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776233 "/>
+<attribute name="RDC-MAX" value="1.15Ohm"/>
+<attribute name="RDC-TYP" value="0.75Ohm"/>
+<attribute name="VALUE" value="330uH"/>
+</technology>
+<technology name="_744776239">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776239?ae"/>
+<attribute name="FRES" value="3.9MHz"/>
+<attribute name="IR" value="0.49A"/>
+<attribute name="ISAT" value="0.54A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776239 "/>
+<attribute name="RDC-MAX" value="1.3Ohm"/>
+<attribute name="RDC-TYP" value="0.794Ohm"/>
+<attribute name="VALUE" value="390uH"/>
+</technology>
+<technology name="_744776247">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776247?ae"/>
+<attribute name="FRES" value="3.4MHz"/>
+<attribute name="IR" value="0.44A"/>
+<attribute name="ISAT" value="0.5A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776247 "/>
+<attribute name="RDC-MAX" value="1.48Ohm"/>
+<attribute name="RDC-TYP" value="0.969Ohm"/>
+<attribute name="VALUE" value="470uH"/>
+</technology>
+<technology name="_744776256">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776256?ae"/>
+<attribute name="FRES" value="3MHz"/>
+<attribute name="IR" value="0.39A"/>
+<attribute name="ISAT" value="0.47A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776256 "/>
+<attribute name="RDC-MAX" value="1.9Ohm"/>
+<attribute name="RDC-TYP" value="1.047Ohm"/>
+<attribute name="VALUE" value="560uH"/>
+</technology>
+<technology name="_744776260">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776260?ae"/>
+<attribute name="FRES" value="2.9MHz"/>
+<attribute name="IR" value="0.7A"/>
+<attribute name="ISAT" value="0.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776260 "/>
+<attribute name="RDC-MAX" value="1.39Ohm"/>
+<attribute name="RDC-TYP" value="1.17Ohm"/>
+<attribute name="VALUE" value="600uH"/>
+</technology>
+<technology name="_744776268">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776268?ae"/>
+<attribute name="FRES" value="2.7MHz"/>
+<attribute name="IR" value="0.36A"/>
+<attribute name="ISAT" value="0.43A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776268 "/>
+<attribute name="RDC-MAX" value="2.25Ohm"/>
+<attribute name="RDC-TYP" value="1.245Ohm"/>
+<attribute name="VALUE" value="680uH"/>
+</technology>
+<technology name="_744776282">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776282?ae"/>
+<attribute name="FRES" value="2.5MHz"/>
+<attribute name="IR" value="0.32A"/>
+<attribute name="ISAT" value="0.41A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776282 "/>
+<attribute name="RDC-MAX" value="2.55Ohm"/>
+<attribute name="RDC-TYP" value="1.42Ohm"/>
+<attribute name="VALUE" value="820uH"/>
+</technology>
+<technology name="_74477630">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74477630?ae"/>
+<attribute name="FRES" value="2.3MHz"/>
+<attribute name="IR" value="0.32A"/>
+<attribute name="ISAT" value="0.38A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74477630 "/>
+<attribute name="RDC-MAX" value="2.6Ohm"/>
+<attribute name="RDC-TYP" value="2.2Ohm"/>
+<attribute name="VALUE" value="1000uH"/>
+</technology>
+<technology name="_744776312">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776312?ae"/>
+<attribute name="FRES" value="2.1MHz"/>
+<attribute name="IR" value="0.3A"/>
+<attribute name="ISAT" value="0.38A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776312 "/>
+<attribute name="RDC-MAX" value="3Ohm"/>
+<attribute name="RDC-TYP" value="2.48Ohm"/>
+<attribute name="VALUE" value="1200uH"/>
+</technology>
+<technology name="_744776322">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744776322?ae"/>
+<attribute name="FRES" value="1.4MHz"/>
+<attribute name="IR" value="0.18A"/>
+<attribute name="ISAT" value="0.26A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744776322 "/>
+<attribute name="RDC-MAX" value="5.3Ohm"/>
+<attribute name="RDC-TYP" value="4.4Ohm"/>
+<attribute name="VALUE" value="2200uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PD2_3521" prefix="L">
+<description>&lt;b&gt;WE-PD2 SMT Power Inductor
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Open size
+&lt;br&gt;Saturation currents up to 14 A
+&lt;br&gt;Low tolerances at high inductance values
+&lt;br&gt;Operating temperature: –40 °C to +125 °C
+&lt;br&gt;Recommended solder profile: Reflow
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Switching regulators with low operating voltages (graphic cards, embedded PC-Cards, mainboards)
+&lt;br&gt;Integrated DC/DC converter
+&lt;br&gt;Optimal attenuation in MHz frequency range
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o97350v209%20Family_WE-PD2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-PD2"&gt;www.we-online.com/en/components/products/WE-PD2&lt;/a&gt;&lt;p&gt;
+
+
+Updated by Ella 2023-02-20&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD2_3521">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13007433/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_7447732010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732010?ae"/>
+<attribute name="FRES" value="160MHz"/>
+<attribute name="IR" value="2.55A"/>
+<attribute name="ISAT" value="3.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732010 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="RDC-TYP" value="0.039Ohm"/>
+<attribute name="VALUE" value="1uH"/>
+</technology>
+<technology name="_7447732015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732015?ae"/>
+<attribute name="FRES" value="130MHz"/>
+<attribute name="IR" value="2.08A"/>
+<attribute name="ISAT" value="3.05A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732015 "/>
+<attribute name="RDC-MAX" value="0.07Ohm"/>
+<attribute name="RDC-TYP" value="0.054Ohm"/>
+<attribute name="VALUE" value="1.5uH"/>
+</technology>
+<technology name="_7447732022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732022?ae"/>
+<attribute name="FRES" value="100MHz"/>
+<attribute name="IR" value="1.71A"/>
+<attribute name="ISAT" value="2.54A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732022 "/>
+<attribute name="RDC-MAX" value="0.09Ohm"/>
+<attribute name="RDC-TYP" value="0.07Ohm"/>
+<attribute name="VALUE" value="2.2uH"/>
+</technology>
+<technology name="_7447732033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732033?ae"/>
+<attribute name="FRES" value="80MHz"/>
+<attribute name="IR" value="1.39A"/>
+<attribute name="ISAT" value="2.09A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732033 "/>
+<attribute name="RDC-MAX" value="0.12Ohm"/>
+<attribute name="RDC-TYP" value="0.091Ohm"/>
+<attribute name="VALUE" value="3.3uH"/>
+</technology>
+<technology name="_7447732047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732047?ae"/>
+<attribute name="FRES" value="70MHz"/>
+<attribute name="IR" value="1.16A"/>
+<attribute name="ISAT" value="1.77A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732047 "/>
+<attribute name="RDC-MAX" value="0.16Ohm"/>
+<attribute name="RDC-TYP" value="0.125Ohm"/>
+<attribute name="VALUE" value="4.7uH"/>
+</technology>
+<technology name="_7447732068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732068?ae"/>
+<attribute name="FRES" value="55MHz"/>
+<attribute name="IR" value="0.96A"/>
+<attribute name="ISAT" value="1.48A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732068 "/>
+<attribute name="RDC-MAX" value="0.21Ohm"/>
+<attribute name="RDC-TYP" value="0.17Ohm"/>
+<attribute name="VALUE" value="6.8uH"/>
+</technology>
+<technology name="_7447732110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732110?ae"/>
+<attribute name="FRES" value="45MHz"/>
+<attribute name="IR" value="0.8A"/>
+<attribute name="ISAT" value="1.23A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732110 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="RDC-TYP" value="0.237Ohm"/>
+<attribute name="VALUE" value="10uH"/>
+</technology>
+<technology name="_7447732115">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732115?ae"/>
+<attribute name="FRES" value="36MHz"/>
+<attribute name="IR" value="0.64A"/>
+<attribute name="ISAT" value="1.01A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732115 "/>
+<attribute name="RDC-MAX" value="0.43Ohm"/>
+<attribute name="RDC-TYP" value="0.347Ohm"/>
+<attribute name="VALUE" value="15uH"/>
+</technology>
+<technology name="_7447732122">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732122?ae"/>
+<attribute name="FRES" value="28MHz"/>
+<attribute name="IR" value="0.53A"/>
+<attribute name="ISAT" value="0.84A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732122 "/>
+<attribute name="RDC-MAX" value="0.7Ohm"/>
+<attribute name="RDC-TYP" value="0.561Ohm"/>
+<attribute name="VALUE" value="22uH"/>
+</technology>
+<technology name="_7447732133">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732133?ae"/>
+<attribute name="FRES" value="24MHz"/>
+<attribute name="IR" value="0.43A"/>
+<attribute name="ISAT" value="0.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732133 "/>
+<attribute name="RDC-MAX" value="0.97Ohm"/>
+<attribute name="RDC-TYP" value="0.778Ohm"/>
+<attribute name="VALUE" value="33uH"/>
+</technology>
+<technology name="_7447732147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732147?ae"/>
+<attribute name="FRES" value="20MHz"/>
+<attribute name="IR" value="0.36A"/>
+<attribute name="ISAT" value="0.59A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732147 "/>
+<attribute name="RDC-MAX" value="1.33Ohm"/>
+<attribute name="RDC-TYP" value="1.11Ohm"/>
+<attribute name="VALUE" value="47uH"/>
+</technology>
+<technology name="_7447732168">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732168?ae"/>
+<attribute name="FRES" value="16MHz"/>
+<attribute name="IR" value="0.3A"/>
+<attribute name="ISAT" value="0.49A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732168 "/>
+<attribute name="RDC-MAX" value="1.8Ohm"/>
+<attribute name="RDC-TYP" value="1.57Ohm"/>
+<attribute name="VALUE" value="68uH"/>
+</technology>
+<technology name="_7447732210">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447732210?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="IR" value="0.24A"/>
+<attribute name="ISAT" value="0.41A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447732210 "/>
+<attribute name="RDC-MAX" value="2.8Ohm"/>
+<attribute name="RDC-TYP" value="2.42Ohm"/>
+<attribute name="VALUE" value="100uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

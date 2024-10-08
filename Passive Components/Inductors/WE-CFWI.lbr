@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Dual Coil Power Inductors - WE-CFWI&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-CFWI_1312" urn="urn:adsk.eagle:footprint:12986355/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-CFWI Coupled Flatwire Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1312</description>
+<smd name="4" x="5.35" y="3.7" dx="5" dy="3.4" layer="1"/>
+<smd name="3" x="5.35" y="-3.7" dx="5" dy="3.4" layer="1"/>
+<smd name="2" x="-5.35" y="-3.7" dx="5" dy="3.4" layer="1"/>
+<smd name="1" x="-5.35" y="3.7" dx="5" dy="3.4" layer="1"/>
+<wire x1="-7.75" y1="-6.6" x2="7.75" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="7.75" y1="-6.6" x2="7.75" y2="6.6" width="0.1" layer="51"/>
+<wire x1="7.75" y1="6.6" x2="-7.75" y2="6.6" width="0.1" layer="51"/>
+<wire x1="-7.75" y1="6.6" x2="-7.75" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-7.85" y1="5.7" x2="-7.85" y2="6.7" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="6.7" x2="7.85" y2="6.7" width="0.2" layer="21"/>
+<wire x1="7.85" y1="6.7" x2="7.85" y2="5.7" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="1.7" x2="-7.85" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="7.85" y1="1.7" x2="7.85" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="-5.7" x2="-7.85" y2="-6.7" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="-6.7" x2="7.85" y2="-6.7" width="0.2" layer="21"/>
+<wire x1="7.85" y1="-6.7" x2="7.85" y2="-5.7" width="0.2" layer="21"/>
+<wire x1="-5.35" y1="3.6" x2="5.35" y2="3.6" width="0.1" layer="51"/>
+<wire x1="-5.35" y1="-3.7" x2="5.35" y2="-3.7" width="0.1" layer="51"/>
+<text x="-3.84" y="-8.49" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.24" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.5" y="1.4" size="1.016" layer="48">1</text>
+<text x="-2.5" y="-1.5" size="1.016" layer="48">2</text>
+<text x="1.8" y="-1.5" size="1.016" layer="48">3</text>
+<text x="1.7" y="1.4" size="1.016" layer="48">4</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.05" y="6.9"/>
+<vertex x="8.05" y="6.9"/>
+<vertex x="8.05" y="-6.9"/>
+<vertex x="-8.05" y="-6.9"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-7.65" y="6.5"/>
+<vertex x="7.65" y="6.5"/>
+<vertex x="7.65" y="5.45"/>
+<vertex x="2.8" y="5.45"/>
+<vertex x="2.8" y="1.95"/>
+<vertex x="7.65" y="1.95"/>
+<vertex x="7.65" y="-1.95"/>
+<vertex x="2.8" y="-1.95"/>
+<vertex x="2.8" y="-5.45"/>
+<vertex x="7.65" y="-5.45"/>
+<vertex x="7.65" y="-6.5"/>
+<vertex x="-7.65" y="-6.5"/>
+<vertex x="-7.65" y="-5.5"/>
+<vertex x="-2.8" y="-5.5"/>
+<vertex x="-2.8" y="-1.9"/>
+<vertex x="-7.65" y="-1.9"/>
+<vertex x="-7.65" y="1.95"/>
+<vertex x="-2.8" y="1.95"/>
+<vertex x="-2.8" y="5.45"/>
+<vertex x="-7.65" y="5.45"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-7.65" y="6.5"/>
+<vertex x="7.65" y="6.5"/>
+<vertex x="7.65" y="5.45"/>
+<vertex x="2.8" y="5.45"/>
+<vertex x="2.8" y="1.95"/>
+<vertex x="7.65" y="1.95"/>
+<vertex x="7.65" y="-1.95"/>
+<vertex x="2.8" y="-1.95"/>
+<vertex x="2.8" y="-5.45"/>
+<vertex x="7.65" y="-5.45"/>
+<vertex x="7.65" y="-6.5"/>
+<vertex x="-7.65" y="-6.5"/>
+<vertex x="-7.65" y="-5.5"/>
+<vertex x="-2.8" y="-5.5"/>
+<vertex x="-2.8" y="-1.9"/>
+<vertex x="-7.65" y="-1.9"/>
+<vertex x="-7.65" y="1.95"/>
+<vertex x="-2.8" y="1.95"/>
+<vertex x="-2.8" y="5.45"/>
+<vertex x="-7.65" y="5.45"/>
+</polygon>
+<circle x="-7.3" y="5.9" radius="0.1" width="0.2" layer="21"/>
+<rectangle x1="-0.7" y1="3.4" x2="0.6" y2="3.8" layer="51"/>
+<rectangle x1="-0.5" y1="-3.9" x2="0.8" y2="-3.5" layer="51"/>
+</package>
+<package name="WE-CFWI_1310" urn="urn:adsk.eagle:footprint:12986356/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-CFWI Coupled Flatwire Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1310</description>
+<smd name="4" x="5.35" y="3.7" dx="5" dy="3.4" layer="1"/>
+<smd name="3" x="5.35" y="-3.7" dx="5" dy="3.4" layer="1"/>
+<smd name="2" x="-5.35" y="-3.7" dx="5" dy="3.4" layer="1"/>
+<smd name="1" x="-5.35" y="3.7" dx="5" dy="3.4" layer="1"/>
+<wire x1="-7.75" y1="-6.6" x2="7.75" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="7.75" y1="-6.6" x2="7.75" y2="6.6" width="0.1" layer="51"/>
+<wire x1="7.75" y1="6.6" x2="-7.75" y2="6.6" width="0.1" layer="51"/>
+<wire x1="-7.75" y1="6.6" x2="-7.75" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-7.85" y1="5.7" x2="-7.85" y2="6.7" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="6.7" x2="7.85" y2="6.7" width="0.2" layer="21"/>
+<wire x1="7.85" y1="6.7" x2="7.85" y2="5.7" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="1.7" x2="-7.85" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="7.85" y1="1.7" x2="7.85" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="-5.7" x2="-7.85" y2="-6.7" width="0.2" layer="21"/>
+<wire x1="-7.85" y1="-6.7" x2="7.85" y2="-6.7" width="0.2" layer="21"/>
+<wire x1="7.85" y1="-6.7" x2="7.85" y2="-5.7" width="0.2" layer="21"/>
+<wire x1="-5.35" y1="3.6" x2="5.35" y2="3.6" width="0.1" layer="51"/>
+<wire x1="-5.35" y1="-3.7" x2="5.35" y2="-3.7" width="0.1" layer="51"/>
+<text x="-3.84" y="-8.49" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.24" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.5" y="1.4" size="1.016" layer="48">1</text>
+<text x="-2.5" y="-1.5" size="1.016" layer="48">2</text>
+<text x="1.8" y="-1.5" size="1.016" layer="48">3</text>
+<text x="1.7" y="1.4" size="1.016" layer="48">4</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.05" y="6.9"/>
+<vertex x="8.05" y="6.9"/>
+<vertex x="8.05" y="-6.9"/>
+<vertex x="-8.05" y="-6.9"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-7.65" y="6.5"/>
+<vertex x="7.65" y="6.5"/>
+<vertex x="7.65" y="5.45"/>
+<vertex x="2.8" y="5.45"/>
+<vertex x="2.8" y="1.95"/>
+<vertex x="7.65" y="1.95"/>
+<vertex x="7.65" y="-1.95"/>
+<vertex x="2.8" y="-1.95"/>
+<vertex x="2.8" y="-5.45"/>
+<vertex x="7.65" y="-5.45"/>
+<vertex x="7.65" y="-6.5"/>
+<vertex x="-7.65" y="-6.5"/>
+<vertex x="-7.65" y="-5.5"/>
+<vertex x="-2.8" y="-5.5"/>
+<vertex x="-2.8" y="-1.9"/>
+<vertex x="-7.65" y="-1.9"/>
+<vertex x="-7.65" y="1.95"/>
+<vertex x="-2.8" y="1.95"/>
+<vertex x="-2.8" y="5.45"/>
+<vertex x="-7.65" y="5.45"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-7.65" y="6.5"/>
+<vertex x="7.65" y="6.5"/>
+<vertex x="7.65" y="5.45"/>
+<vertex x="2.8" y="5.45"/>
+<vertex x="2.8" y="1.95"/>
+<vertex x="7.65" y="1.95"/>
+<vertex x="7.65" y="-1.95"/>
+<vertex x="2.8" y="-1.95"/>
+<vertex x="2.8" y="-5.45"/>
+<vertex x="7.65" y="-5.45"/>
+<vertex x="7.65" y="-6.5"/>
+<vertex x="-7.65" y="-6.5"/>
+<vertex x="-7.65" y="-5.5"/>
+<vertex x="-2.8" y="-5.5"/>
+<vertex x="-2.8" y="-1.9"/>
+<vertex x="-7.65" y="-1.9"/>
+<vertex x="-7.65" y="1.95"/>
+<vertex x="-2.8" y="1.95"/>
+<vertex x="-2.8" y="5.45"/>
+<vertex x="-7.65" y="5.45"/>
+</polygon>
+<circle x="-7.3" y="5.9" radius="0.1" width="0.2" layer="21"/>
+<rectangle x1="-0.7" y1="3.4" x2="0.6" y2="3.8" layer="51"/>
+<rectangle x1="-0.5" y1="-3.9" x2="0.8" y2="-3.5" layer="51"/>
+</package>
+<package name="WE-CFWI_1813" urn="urn:adsk.eagle:footprint:12986354/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-CFWI Coupled Flatwire Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1813</description>
+<smd name="1" x="-8" y="5.4" dx="5" dy="4" layer="1"/>
+<smd name="2" x="-8" y="-5.4" dx="5" dy="4" layer="1"/>
+<smd name="3" x="8" y="-5.4" dx="5" dy="4" layer="1"/>
+<smd name="4" x="8" y="5.4" dx="5" dy="4" layer="1"/>
+<wire x1="-10.5" y1="9.25" x2="10.5" y2="9.25" width="0.1" layer="51"/>
+<wire x1="10.5" y1="9.25" x2="10.5" y2="-9.25" width="0.1" layer="51"/>
+<wire x1="10.5" y1="-9.25" x2="-10.5" y2="-9.25" width="0.1" layer="51"/>
+<wire x1="-10.5" y1="-9.25" x2="-10.5" y2="9.25" width="0.1" layer="51"/>
+<wire x1="-8" y1="5.4" x2="8" y2="5.4" width="0.1" layer="51"/>
+<wire x1="-8" y1="-5.4" x2="8" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="-10.6" y1="7.7" x2="-10.6" y2="9.35" width="0.2" layer="21"/>
+<wire x1="-10.6" y1="9.35" x2="10.6" y2="9.35" width="0.2" layer="21"/>
+<wire x1="10.6" y1="9.35" x2="10.6" y2="7.7" width="0.2" layer="21"/>
+<wire x1="-10.6" y1="-7.8" x2="-10.6" y2="-9.35" width="0.2" layer="21"/>
+<wire x1="-10.6" y1="-9.35" x2="10.6" y2="-9.35" width="0.2" layer="21"/>
+<wire x1="10.6" y1="-9.35" x2="10.6" y2="-7.7" width="0.2" layer="21"/>
+<wire x1="-10.6" y1="3.1" x2="-10.6" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="10.6" y1="3.1" x2="10.6" y2="-3.1" width="0.2" layer="21"/>
+<text x="0.22" y="10.16" size="2.54" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-8.08" y="-12.7" size="2.54" layer="27">&gt;VALUE</text>
+<text x="-4.9" y="2.7" size="1.27" layer="48">1</text>
+<text x="-4.9" y="-3" size="1.27" layer="48">2</text>
+<text x="4.4" y="-2.9" size="1.27" layer="48">3</text>
+<text x="4.2" y="2.6" size="1.27" layer="48">4</text>
+<polygon width="0.1" layer="39">
+<vertex x="-10.8" y="9.55"/>
+<vertex x="10.8" y="9.55"/>
+<vertex x="10.8" y="-9.55"/>
+<vertex x="-10.8" y="-9.55"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-10.4" y="9.15"/>
+<vertex x="10.4" y="9.15"/>
+<vertex x="10.4" y="7.45"/>
+<vertex x="5.45" y="7.45"/>
+<vertex x="5.45" y="3.35"/>
+<vertex x="10.4" y="3.35"/>
+<vertex x="10.4" y="-3.35"/>
+<vertex x="5.45" y="-3.35"/>
+<vertex x="5.45" y="-7.45"/>
+<vertex x="10.4" y="-7.45"/>
+<vertex x="10.4" y="-9.15"/>
+<vertex x="-10.4" y="-9.15"/>
+<vertex x="-10.4" y="-7.45"/>
+<vertex x="-5.45" y="-7.45"/>
+<vertex x="-5.45" y="-3.35"/>
+<vertex x="-10.4" y="-3.35"/>
+<vertex x="-10.4" y="3.35"/>
+<vertex x="-5.45" y="3.35"/>
+<vertex x="-5.45" y="7.45"/>
+<vertex x="-10.4" y="7.45"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-10.4" y="9.15"/>
+<vertex x="10.4" y="9.15"/>
+<vertex x="10.4" y="7.45"/>
+<vertex x="5.45" y="7.45"/>
+<vertex x="5.45" y="3.35"/>
+<vertex x="10.4" y="3.35"/>
+<vertex x="10.4" y="-3.35"/>
+<vertex x="5.45" y="-3.35"/>
+<vertex x="5.45" y="-7.45"/>
+<vertex x="10.4" y="-7.45"/>
+<vertex x="10.4" y="-9.15"/>
+<vertex x="-10.4" y="-9.15"/>
+<vertex x="-10.4" y="-7.45"/>
+<vertex x="-5.45" y="-7.45"/>
+<vertex x="-5.45" y="-3.35"/>
+<vertex x="-10.4" y="-3.35"/>
+<vertex x="-10.4" y="3.35"/>
+<vertex x="-5.45" y="3.35"/>
+<vertex x="-5.45" y="7.45"/>
+<vertex x="-10.4" y="7.45"/>
+</polygon>
+<circle x="-10" y="7.9" radius="0.1" width="0.2" layer="21"/>
+<rectangle x1="-1" y1="5.2" x2="0.6" y2="5.6" layer="51"/>
+<rectangle x1="-1" y1="-5.6" x2="0.6" y2="-5.2" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-CFWI_1312" urn="urn:adsk.eagle:package:12986359/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-CFWI Coupled Flatwire Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1312</description>
+<packageinstances>
+<packageinstance name="WE-CFWI_1312"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CFWI_1813" urn="urn:adsk.eagle:package:12986358/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-CFWI Coupled Flatwire Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1813</description>
+<packageinstances>
+<packageinstance name="WE-CFWI_1813"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CFWI_1310" urn="urn:adsk.eagle:package:12986360/2" type="model">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-CFWI Coupled Flatwire Inductor&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1310</description>
+<packageinstances>
+<packageinstance name="WE-CFWI_1310"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-CFWI">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0.74" y="3.44" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-4.34" y="-5.31" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-9.02" y="2.21" size="0.6096" layer="97">1</text>
+<text x="-8.99" y="-2.86" size="0.6096" layer="97">2</text>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="0.635" x2="4.445" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-0.635" x2="4.445" y2="-0.635" width="0.254" layer="94"/>
+<circle x="-5.3" y="0.7" radius="0.1" width="0.254" layer="94"/>
+<circle x="5.1" y="-0.6" radius="0.1" width="0.254" layer="94"/>
+<circle x="-8.74" y="2.5" radius="0.5" width="0.1" layer="97"/>
+<circle x="-8.74" y="-2.58" radius="0.5" width="0.1" layer="97"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-CFWI_1312" prefix="L">
+<description>&lt;b&gt;WE-CFWI Coupled Flatwire Inductor
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Very low RDC
+&lt;BR&gt;Saturation current higher than 50 A
+&lt;BR&gt;Low inductance drift over temperature
+&lt;BR&gt;Coupled inductor with two identical windings
+&lt;BR&gt;More variants due to parallel and series connection possible
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;BR&gt;
+&lt;br&gt;&lt;/b&gt;High power switching regulators
+&lt;BR&gt;1:1 flyback converter
+&lt;BR&gt;Buck, Boost, Sepic and Cuk Converter
+&lt;BR&gt;Switching regulators with second unregulated output voltage
+&lt;BR&gt;Battery Cell Charging Balancer
+&lt;BR&gt;
+&lt;BR&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt; Note: The "VALUE"shown in the symbol and packaging is the Inductance for L1,L2=L1&lt;br&gt;&lt;/b&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14761v209%20Family_WE-CFWI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14761v209%20Family_WE-CFWI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-CFWI"&gt;https://katalog.we-online.com/en/pbs/WE-CFWI&lt;/a&gt;&lt;p&gt;
+
+Updated by Yingchun,Shan 2019-08-14&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-CFWI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CFWI_1312">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12986359/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74485540101">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540101.pdf" constant="no"/>
+<attribute name="IR1" value="13A" constant="no"/>
+<attribute name="IR2" value="13A" constant="no"/>
+<attribute name="ISAT1" value="13.5A" constant="no"/>
+<attribute name="ISAT2" value="13.5A" constant="no"/>
+<attribute name="L2" value="10uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540101 " constant="no"/>
+<attribute name="RDC1" value="13.9mOhm" constant="no"/>
+<attribute name="RDC2" value="13.9mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_74485540680">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540680.pdf" constant="no"/>
+<attribute name="IR1" value="14A" constant="no"/>
+<attribute name="IR2" value="14A" constant="no"/>
+<attribute name="ISAT1" value="16A" constant="no"/>
+<attribute name="ISAT2" value="16A" constant="no"/>
+<attribute name="L2" value="6.8uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540680 " constant="no"/>
+<attribute name="RDC1" value="11.3mOhm" constant="no"/>
+<attribute name="RDC2" value="11.3mOhm" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+<technology name="_74485540820">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540820.pdf" constant="no"/>
+<attribute name="IR1" value="13.5A" constant="no"/>
+<attribute name="IR2" value="13.5A" constant="no"/>
+<attribute name="ISAT1" value="14A" constant="no"/>
+<attribute name="ISAT2" value="14A" constant="no"/>
+<attribute name="L2" value="8.2uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540820 " constant="no"/>
+<attribute name="RDC1" value="13mOhm" constant="no"/>
+<attribute name="RDC2" value="13mOhm" constant="no"/>
+<attribute name="VALUE" value="8.2uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CFWI_1310" prefix="L">
+<description>&lt;b&gt;WE-CFWI Coupled Flatwire Inductor
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Very low RDC
+&lt;BR&gt;Saturation current higher than 50 A
+&lt;BR&gt;Low inductance drift over temperature
+&lt;BR&gt;Coupled inductor with two identical windings
+&lt;BR&gt;More variants due to parallel and series connection possible
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;BR&gt;
+&lt;br&gt;&lt;/b&gt;High power switching regulators
+&lt;BR&gt;1:1 flyback converter
+&lt;BR&gt;Buck, Boost, Sepic and Cuk Converter
+&lt;BR&gt;Switching regulators with second unregulated output voltage
+&lt;BR&gt;Battery Cell Charging Balancer
+&lt;BR&gt;
+&lt;BR&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt; Note: The "VALUE"shown in the symbol and packaging is the Inductance for L1,L2=L1&lt;br&gt;&lt;/b&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14761v209%20Family_WE-CFWI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14761v209%20Family_WE-CFWI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-CFWI"&gt;https://katalog.we-online.com/en/pbs/WE-CFWI&lt;/a&gt;&lt;p&gt;
+
+Updated by Yingchun,Shan 2019-08-14&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-CFWI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CFWI_1310">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12986360/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74485540080">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540080.pdf" constant="no"/>
+<attribute name="IR1" value="28A" constant="no"/>
+<attribute name="IR2" value="28A" constant="no"/>
+<attribute name="ISAT1" value="62A" constant="no"/>
+<attribute name="ISAT2" value="62A" constant="no"/>
+<attribute name="L2" value="0.8uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540080 " constant="no"/>
+<attribute name="RDC1" value="1.6mOhm" constant="no"/>
+<attribute name="RDC2" value="1.6mOhm" constant="no"/>
+<attribute name="VALUE" value="0.8uH" constant="no"/>
+</technology>
+<technology name="_74485540120">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540120.pdf" constant="no"/>
+<attribute name="IR1" value="23A" constant="no"/>
+<attribute name="IR2" value="23A" constant="no"/>
+<attribute name="ISAT1" value="47A" constant="no"/>
+<attribute name="ISAT2" value="47A" constant="no"/>
+<attribute name="L2" value="1.2uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540120 " constant="no"/>
+<attribute name="RDC1" value="2.4mOhm" constant="no"/>
+<attribute name="RDC2" value="2.4mOhm" constant="no"/>
+<attribute name="VALUE" value="1.2uH" constant="no"/>
+</technology>
+<technology name="_74485540170">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540170.pdf" constant="no"/>
+<attribute name="IR1" value="21A" constant="no"/>
+<attribute name="IR2" value="21A" constant="no"/>
+<attribute name="ISAT1" value="39A" constant="no"/>
+<attribute name="ISAT2" value="39A" constant="no"/>
+<attribute name="L2" value="1.7uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540170 " constant="no"/>
+<attribute name="RDC1" value="3.3mOhm" constant="no"/>
+<attribute name="RDC2" value="3.3mOhm" constant="no"/>
+<attribute name="VALUE" value="1.7uH" constant="no"/>
+</technology>
+<technology name="_74485540220">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540220.pdf" constant="no"/>
+<attribute name="IR1" value="18A" constant="no"/>
+<attribute name="IR2" value="18A" constant="no"/>
+<attribute name="ISAT1" value="35A" constant="no"/>
+<attribute name="ISAT2" value="35A" constant="no"/>
+<attribute name="L2" value="2.2uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540220 " constant="no"/>
+<attribute name="RDC1" value="4.2mOhm" constant="no"/>
+<attribute name="RDC2" value="4.2mOhm" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
+<technology name="_74485540290">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540290.pdf" constant="no"/>
+<attribute name="IR1" value="17A" constant="no"/>
+<attribute name="IR2" value="17A" constant="no"/>
+<attribute name="ISAT1" value="29A" constant="no"/>
+<attribute name="ISAT2" value="29A" constant="no"/>
+<attribute name="L2" value="2.9uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540290 " constant="no"/>
+<attribute name="RDC1" value="5.6mOhm" constant="no"/>
+<attribute name="RDC2" value="5.6mOhm" constant="no"/>
+<attribute name="VALUE" value="2.9uH" constant="no"/>
+</technology>
+<technology name="_74485540350">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540350.pdf" constant="no"/>
+<attribute name="IR1" value="14A" constant="no"/>
+<attribute name="IR2" value="14A" constant="no"/>
+<attribute name="ISAT1" value="27A" constant="no"/>
+<attribute name="ISAT2" value="27A" constant="no"/>
+<attribute name="L2" value="3.5uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540350 " constant="no"/>
+<attribute name="RDC1" value="7.5mOhm" constant="no"/>
+<attribute name="RDC2" value="7.5mOhm" constant="no"/>
+<attribute name="VALUE" value="3.5uH" constant="no"/>
+</technology>
+<technology name="_74485540440">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485540440.pdf" constant="no"/>
+<attribute name="IR1" value="12A" constant="no"/>
+<attribute name="IR2" value="12A" constant="no"/>
+<attribute name="ISAT1" value="24A" constant="no"/>
+<attribute name="ISAT2" value="24A" constant="no"/>
+<attribute name="L2" value="4.4uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485540440 " constant="no"/>
+<attribute name="RDC1" value="9.6mOhm" constant="no"/>
+<attribute name="RDC2" value="9.6mOhm" constant="no"/>
+<attribute name="VALUE" value="4.4uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CFWI_1813" prefix="L">
+<description>&lt;b&gt;WE-CFWI Coupled Flatwire Inductor
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Very low RDC
+&lt;BR&gt;Saturation current higher than 50 A
+&lt;BR&gt;Low inductance drift over temperature
+&lt;BR&gt;Coupled inductor with two identical windings
+&lt;BR&gt;More variants due to parallel and series connection possible
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;BR&gt;
+&lt;br&gt;&lt;/b&gt;High power switching regulators
+&lt;BR&gt;1:1 flyback converter
+&lt;BR&gt;Buck, Boost, Sepic and Cuk Converter
+&lt;BR&gt;Switching regulators with second unregulated output voltage
+&lt;BR&gt;Battery Cell Charging Balancer
+&lt;BR&gt;
+&lt;BR&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt; Note: The "VALUE"shown in the symbol and packaging is the Inductance for L1,L2=L1&lt;br&gt;&lt;/b&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14761v209%20Family_WE-CFWI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o14761v209%20Family_WE-CFWI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-CFWI"&gt;https://katalog.we-online.com/en/pbs/WE-CFWI&lt;/a&gt;&lt;p&gt;
+
+Updated by Yingchun,Shan 2019-08-14&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-CFWI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CFWI_1813">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12986358/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74485542101">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485542101.pdf" constant="no"/>
+<attribute name="IR1" value="11.5A" constant="no"/>
+<attribute name="IR2" value="11.5A" constant="no"/>
+<attribute name="ISAT1" value="22A" constant="no"/>
+<attribute name="ISAT2" value="22A" constant="no"/>
+<attribute name="L2" value="10uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485542101 " constant="no"/>
+<attribute name="RDC1" value="11mOhm" constant="no"/>
+<attribute name="RDC2" value="11mOhm" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+<technology name="_74485542680">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485542680.pdf" constant="no"/>
+<attribute name="IR1" value="13.5A" constant="no"/>
+<attribute name="IR2" value="13.5A" constant="no"/>
+<attribute name="ISAT1" value="26A" constant="no"/>
+<attribute name="ISAT2" value="26A" constant="no"/>
+<attribute name="L2" value="6.8uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485542680 " constant="no"/>
+<attribute name="RDC1" value="6.1mOhm" constant="no"/>
+<attribute name="RDC2" value="6.1mOhm" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+<technology name="_74485542820">
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74485542820.pdf" constant="no"/>
+<attribute name="IR1" value="13A" constant="no"/>
+<attribute name="IR2" value="13A" constant="no"/>
+<attribute name="ISAT1" value="24A" constant="no"/>
+<attribute name="ISAT2" value="24A" constant="no"/>
+<attribute name="L2" value="8.2uH" constant="no"/>
+<attribute name="N" value="1:1" constant="no"/>
+<attribute name="PART-NUMBER" value=" 74485542820 " constant="no"/>
+<attribute name="RDC1" value="8.4mOhm" constant="no"/>
+<attribute name="RDC2" value="8.4mOhm" constant="no"/>
+<attribute name="VALUE" value="8.2uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

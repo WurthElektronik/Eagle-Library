@@ -1,0 +1,2926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Transformers For DC/DC Converter - WE-PLN&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-03-14&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-PLN_ER19_L23.37W21.08H10.5" urn="urn:adsk.eagle:footprint:43639168/1">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ER19/4.8/15, SMT, 8Pins
+&lt;br&gt;LXWXH=23.37X21.08X10.5mm</description>
+<wire x1="-11.685" y1="10.54" x2="11.685" y2="10.54" width="0.1" layer="51"/>
+<wire x1="-11.685" y1="-10.54" x2="11.685" y2="-10.54" width="0.1" layer="51"/>
+<wire x1="-11.685" y1="10.54" x2="-11.685" y2="-10.54" width="0.1" layer="51"/>
+<wire x1="11.685" y1="10.54" x2="11.685" y2="-10.54" width="0.1" layer="51"/>
+<wire x1="-11.785" y1="10.64" x2="11.785" y2="10.64" width="0.2" layer="21"/>
+<wire x1="11.785" y1="10.64" x2="11.785" y2="7.7" width="0.2" layer="21"/>
+<wire x1="11.785" y1="1.8" x2="11.785" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="11.785" y1="-7.7" x2="11.785" y2="-10.64" width="0.2" layer="21"/>
+<wire x1="11.785" y1="-10.64" x2="-11.785" y2="-10.64" width="0.2" layer="21"/>
+<wire x1="-11.785" y1="-10.64" x2="-11.785" y2="-6.5" width="0.2" layer="21"/>
+<wire x1="-11.785" y1="-1" x2="-11.785" y2="1" width="0.2" layer="21"/>
+<wire x1="-11.785" y1="6.5" x2="-11.785" y2="10.64" width="0.2" layer="21"/>
+<text x="0" y="11.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-11.985" y="10.84"/>
+<vertex x="11.985" y="10.84"/>
+<vertex x="11.985" y="-10.84"/>
+<vertex x="-11.985" y="-10.84"/>
+</polygon>
+<circle x="-7" y="9" radius="0.3" width="0.6" layer="51"/>
+<smd name="2" x="-10.165" y="5.085" dx="3.13" dy="1.89" layer="1"/>
+<smd name="3" x="-10.165" y="2.285" dx="3.13" dy="1.89" layer="1"/>
+<smd name="4" x="-10.165" y="-2.285" dx="3.13" dy="1.89" layer="1"/>
+<smd name="5" x="-10.165" y="-5.085" dx="3.13" dy="1.89" layer="1"/>
+<smd name="7" x="10.165" y="-6.36" dx="3.13" dy="1.89" layer="1"/>
+<smd name="8" x="10.165" y="-3.18" dx="3.13" dy="1.89" layer="1"/>
+<smd name="10" x="10.165" y="3.18" dx="3.13" dy="1.89" layer="1"/>
+<smd name="11" x="10.165" y="6.36" dx="3.13" dy="1.89" layer="1"/>
+</package>
+<package name="WE-PLN_ERI25_L29.41W26.67H10.5_1446" urn="urn:adsk.eagle:footprint:43639167/1">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ERI25/10/18, SMT, 6Pins
+&lt;br&gt;LXWXH=29.41X26.67X10.5mm</description>
+<wire x1="-14.705" y1="13.335" x2="14.705" y2="13.335" width="0.1" layer="51"/>
+<wire x1="-14.705" y1="-13.335" x2="14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="-14.705" y1="13.335" x2="-14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="14.705" y1="13.335" x2="14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="-14.805" y1="13.435" x2="14.805" y2="13.435" width="0.2" layer="21"/>
+<wire x1="14.805" y1="13.435" x2="14.805" y2="9" width="0.2" layer="21"/>
+<wire x1="14.805" y1="6.2" x2="14.805" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="14.805" y1="-9" x2="14.805" y2="-13.435" width="0.2" layer="21"/>
+<wire x1="14.805" y1="-13.435" x2="-14.805" y2="-13.435" width="0.2" layer="21"/>
+<wire x1="-14.805" y1="-13.435" x2="-14.805" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="-14.805" y1="6.2" x2="-14.805" y2="13.435" width="0.2" layer="21"/>
+<text x="0" y="14" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-15.38" y="13.635"/>
+<vertex x="15.38" y="13.635"/>
+<vertex x="15.38" y="-13.635"/>
+<vertex x="-15.38" y="-13.635"/>
+</polygon>
+<circle x="-9.795" y="11.795" radius="0.3" width="0.6" layer="51"/>
+<smd name="2" x="-13.655" y="4.8" dx="3.05" dy="1.89" layer="1"/>
+<smd name="3" x="-13.655" y="1.6" dx="3.05" dy="1.89" layer="1"/>
+<smd name="4" x="-13.655" y="-1.6" dx="3.05" dy="1.89" layer="1"/>
+<smd name="5" x="-13.655" y="-4.8" dx="3.05" dy="1.89" layer="1"/>
+<smd name="7" x="13.655" y="-7.62" dx="3.05" dy="1.89" layer="1"/>
+<smd name="11" x="13.655" y="7.62" dx="3.05" dy="1.89" layer="1"/>
+</package>
+<package name="WE-PLN_ERI25_L29.41W26.67H10.5_1447" urn="urn:adsk.eagle:footprint:43639166/1">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ERI25/10/18, SMT, 5Pins
+&lt;br&gt;LXWXH=29.41X26.67X10.5mm</description>
+<wire x1="-14.705" y1="13.335" x2="14.705" y2="13.335" width="0.1" layer="51"/>
+<wire x1="-14.705" y1="-13.335" x2="14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="-14.705" y1="13.335" x2="-14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="14.705" y1="13.335" x2="14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="-14.805" y1="13.435" x2="14.805" y2="13.435" width="0.2" layer="21"/>
+<wire x1="14.805" y1="13.435" x2="14.805" y2="9" width="0.2" layer="21"/>
+<wire x1="14.805" y1="6.2" x2="14.805" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="14.805" y1="-9" x2="14.805" y2="-13.435" width="0.2" layer="21"/>
+<wire x1="14.805" y1="-13.435" x2="-14.805" y2="-13.435" width="0.2" layer="21"/>
+<wire x1="-14.805" y1="-13.435" x2="-14.805" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="-14.805" y1="3" x2="-14.805" y2="13.435" width="0.2" layer="21"/>
+<text x="0" y="14" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-15.38" y="13.635"/>
+<vertex x="15.38" y="13.635"/>
+<vertex x="15.38" y="-13.635"/>
+<vertex x="-15.38" y="-13.635"/>
+</polygon>
+<circle x="-9.795" y="11.795" radius="0.3" width="0.6" layer="51"/>
+<smd name="3" x="-13.655" y="1.6" dx="3.05" dy="1.89" layer="1"/>
+<smd name="4" x="-13.655" y="-1.6" dx="3.05" dy="1.89" layer="1"/>
+<smd name="5" x="-13.655" y="-4.8" dx="3.05" dy="1.89" layer="1"/>
+<smd name="7" x="13.655" y="-7.62" dx="3.05" dy="1.89" layer="1"/>
+<smd name="11" x="13.655" y="7.62" dx="3.05" dy="1.89" layer="1"/>
+</package>
+<package name="WE-PLN_ERI25_L29.41W26.67H10.5_1449" urn="urn:adsk.eagle:footprint:43639164/1">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ERI25/10/18, SMT, 5Pins
+&lt;br&gt;LXWXH=29.41X26.67X10.5mm</description>
+<wire x1="-14.705" y1="13.335" x2="14.705" y2="13.335" width="0.1" layer="51"/>
+<wire x1="-14.705" y1="-13.335" x2="14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="-14.705" y1="13.335" x2="-14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="14.705" y1="13.335" x2="14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="-14.805" y1="13.435" x2="14.805" y2="13.435" width="0.2" layer="21"/>
+<wire x1="14.805" y1="13.435" x2="14.805" y2="5.19" width="0.2" layer="21"/>
+<wire x1="14.805" y1="2.39" x2="14.805" y2="-2.39" width="0.2" layer="21"/>
+<wire x1="14.805" y1="-5.19" x2="14.805" y2="-13.435" width="0.2" layer="21"/>
+<wire x1="14.805" y1="-13.435" x2="-14.805" y2="-13.435" width="0.2" layer="21"/>
+<wire x1="-14.805" y1="-13.435" x2="-14.805" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="-14.805" y1="3" x2="-14.805" y2="13.435" width="0.2" layer="21"/>
+<text x="0" y="14" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-15.38" y="13.635"/>
+<vertex x="15.38" y="13.635"/>
+<vertex x="15.38" y="-13.635"/>
+<vertex x="-15.38" y="-13.635"/>
+</polygon>
+<circle x="-9.795" y="11.795" radius="0.3" width="0.6" layer="51"/>
+<smd name="3" x="-13.655" y="1.6" dx="3.05" dy="1.89" layer="1"/>
+<smd name="4" x="-13.655" y="-1.6" dx="3.05" dy="1.89" layer="1"/>
+<smd name="5" x="-13.655" y="-4.8" dx="3.05" dy="1.89" layer="1"/>
+<smd name="10" x="13.655" y="3.81" dx="3.05" dy="1.89" layer="1"/>
+<smd name="8" x="13.655" y="-3.81" dx="3.05" dy="1.89" layer="1"/>
+</package>
+<package name="WE-PLN_ERI25_L29.41W26.67H10.5_1448" urn="urn:adsk.eagle:footprint:43639165/1">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ERI25/10/18, SMT, 6Pins
+&lt;br&gt;LXWXH=29.41X26.67X10.5mm</description>
+<wire x1="-14.705" y1="13.335" x2="14.705" y2="13.335" width="0.1" layer="51"/>
+<wire x1="-14.705" y1="-13.335" x2="14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="-14.705" y1="13.335" x2="-14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="14.705" y1="13.335" x2="14.705" y2="-13.335" width="0.1" layer="51"/>
+<wire x1="-14.805" y1="13.435" x2="14.805" y2="13.435" width="0.2" layer="21"/>
+<wire x1="14.805" y1="13.435" x2="14.805" y2="5.19" width="0.2" layer="21"/>
+<wire x1="14.805" y1="2.39" x2="14.805" y2="-2.39" width="0.2" layer="21"/>
+<wire x1="14.805" y1="-5.19" x2="14.805" y2="-13.435" width="0.2" layer="21"/>
+<wire x1="14.805" y1="-13.435" x2="-14.805" y2="-13.435" width="0.2" layer="21"/>
+<wire x1="-14.805" y1="-13.435" x2="-14.805" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="-14.805" y1="6.2" x2="-14.805" y2="13.435" width="0.2" layer="21"/>
+<text x="0" y="14" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-15.38" y="13.635"/>
+<vertex x="15.38" y="13.635"/>
+<vertex x="15.38" y="-13.635"/>
+<vertex x="-15.38" y="-13.635"/>
+</polygon>
+<circle x="-9.795" y="11.795" radius="0.3" width="0.6" layer="51"/>
+<smd name="2" x="-13.655" y="4.8" dx="3.05" dy="1.89" layer="1"/>
+<smd name="3" x="-13.655" y="1.6" dx="3.05" dy="1.89" layer="1"/>
+<smd name="4" x="-13.655" y="-1.6" dx="3.05" dy="1.89" layer="1"/>
+<smd name="5" x="-13.655" y="-4.8" dx="3.05" dy="1.89" layer="1"/>
+<smd name="10" x="13.655" y="3.81" dx="3.05" dy="1.89" layer="1"/>
+<smd name="8" x="13.655" y="-3.81" dx="3.05" dy="1.89" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-PLN_ER19_L23.37W21.08H10.5" urn="urn:adsk.eagle:package:43639178/2" type="model">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ER19/4.8/15, SMT, 8Pins
+&lt;br&gt;LXWXH=23.37X21.08X10.5mm</description>
+<packageinstances>
+<packageinstance name="WE-PLN_ER19_L23.37W21.08H10.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PLN_ERI25_L29.41W26.67H10.5_1446" urn="urn:adsk.eagle:package:43639177/2" type="model">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ERI25/10/18, SMT, 6Pins
+&lt;br&gt;LXWXH=29.41X26.67X10.5mm</description>
+<packageinstances>
+<packageinstance name="WE-PLN_ERI25_L29.41W26.67H10.5_1446"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PLN_ERI25_L29.41W26.67H10.5_1447" urn="urn:adsk.eagle:package:43639176/2" type="model">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ERI25/10/18, SMT, 5Pins
+&lt;br&gt;LXWXH=29.41X26.67X10.5mm</description>
+<packageinstances>
+<packageinstance name="WE-PLN_ERI25_L29.41W26.67H10.5_1447"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PLN_ERI25_L29.41W26.67H10.5_1448" urn="urn:adsk.eagle:package:43639175/2" type="model">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ERI25/10/18, SMT, 6Pins
+&lt;br&gt;LXWXH=29.41X26.67X10.5mm</description>
+<packageinstances>
+<packageinstance name="WE-PLN_ERI25_L29.41W26.67H10.5_1448"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PLN_ERI25_L29.41W26.67H10.5_1449" urn="urn:adsk.eagle:package:43639174/2" type="model">
+<description>&lt;b&gt;WE-PLN Planar Transformers&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size: ERI25/10/18, SMT, 5Pins
+&lt;br&gt;LXWXH=29.41X26.67X10.5mm</description>
+<packageinstances>
+<packageinstance name="WE-PLN_ERI25_L29.41W26.67H10.5_1449"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WE-PLN_ER19_2W:2W">
+<pin name="2" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="11" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N3</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N4</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="WE-PLN_ERI25_2W:1W_1446">
+<pin name="2" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="WE-PLN_ERI25_2W:1W_1447">
+<pin name="7" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="11" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<text x="0" y="11.43" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="5.08" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-5.08" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<circle x="-2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-1.27" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="WE-PLN_ERI25_2W:1W_1448">
+<pin name="2" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+<symbol name="WE-PLN_ERI25_2W:1W_1449">
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="10" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<text x="0" y="11.43" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="5.08" size="1.27" layer="94" align="center">N1</text>
+<text x="-7.62" y="-5.08" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<circle x="-2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-1.27" radius="0.2032" width="0.381" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="750341198" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341198?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="194uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:5:3:3"/>
+<attribute name="PART-NUMBER" value=" 750341198 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341198 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="270Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341184" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341184?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="194uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:5:1:1"/>
+<attribute name="PART-NUMBER" value=" 750341184 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341184 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="270Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341197" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341197?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="153uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:4:3:3"/>
+<attribute name="PART-NUMBER" value=" 750341197 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341197 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="240Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341195" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341195?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="86uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:3:3:3"/>
+<attribute name="PART-NUMBER" value=" 750341195 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341195 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="180Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341145" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1446" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1446">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639177/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341145?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="410uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:5:2"/>
+<attribute name="PART-NUMBER" value=" 750341145 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341145 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="400Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341134" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1446" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1446">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639177/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341134?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="65uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:2:4"/>
+<attribute name="PART-NUMBER" value=" 750341134 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341134 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="160Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341137" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1446" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1446">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639177/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341137?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="410uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:5:4"/>
+<attribute name="PART-NUMBER" value=" 750341137 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341137 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="400Vus"/>
+<attribute name="WIDTH" value="29.3mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341144" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1446" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1446">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639177/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341144?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="260uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:4:2"/>
+<attribute name="PART-NUMBER" value=" 750341144 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341144 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="320Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341142" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1446" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1446">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639177/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341142?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="65uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:2:2"/>
+<attribute name="PART-NUMBER" value=" 750341142 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341142 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="160Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341191" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341191?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="194uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:5:2:2"/>
+<attribute name="PART-NUMBER" value=" 750341191 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341191 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="270Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341183" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341183?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="153uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:4:1:1"/>
+<attribute name="PART-NUMBER" value=" 750341183 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341183 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="240Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341187" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341187?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="345uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="6:6:1:1"/>
+<attribute name="PART-NUMBER" value=" 750341187 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341187 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="360Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341192" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341192?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="240uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:5:2:2"/>
+<attribute name="PART-NUMBER" value=" 750341192 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341192 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="300Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341208" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341208?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="345uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="6:6:4:4"/>
+<attribute name="PART-NUMBER" value=" 750341208 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341208 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="360Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341206" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341206?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="240uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:5:4:4"/>
+<attribute name="PART-NUMBER" value=" 750341206 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341206 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="300Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341201" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341201?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="345uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="6:6:3:3"/>
+<attribute name="PART-NUMBER" value=" 750341201 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341201 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="360Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341205" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341205?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="194uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:5:4:4"/>
+<attribute name="PART-NUMBER" value=" 750341205 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341205 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="270Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341202" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341202?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="86uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:3:4:4"/>
+<attribute name="PART-NUMBER" value=" 750341202 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341202 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="180Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341193" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341193?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="290uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:6:2:2"/>
+<attribute name="PART-NUMBER" value=" 750341193 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341193 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="330Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341207" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341207?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="290uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:6:4:4"/>
+<attribute name="PART-NUMBER" value=" 750341207 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341207 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="330Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341185" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341185?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="240uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:5:1:1"/>
+<attribute name="PART-NUMBER" value=" 750341185 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341185 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="300Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341199" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341199?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="240uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:5:3:3"/>
+<attribute name="PART-NUMBER" value=" 750341199 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341199 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="300Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341181" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341181?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="86uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:3:1:1"/>
+<attribute name="PART-NUMBER" value=" 750341181 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341181 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="180Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341204" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341204?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="153uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:4:4:4"/>
+<attribute name="PART-NUMBER" value=" 750341204 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341204 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="240Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341135" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1447" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1447">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639176/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341135?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="145uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:3:4"/>
+<attribute name="PART-NUMBER" value=" 750341135 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341135 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="240Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341200" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341200?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="290uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:6:3:3"/>
+<attribute name="PART-NUMBER" value=" 750341200 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341200 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="330Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341182" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341182?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="117uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:4:1:1"/>
+<attribute name="PART-NUMBER" value=" 750341182 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341182 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="210Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341189" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341189?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="117uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:4:2:2"/>
+<attribute name="PART-NUMBER" value=" 750341189 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341189 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="210Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341194" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341194?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="345uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="6:6:2:2"/>
+<attribute name="PART-NUMBER" value=" 750341194 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341194 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="360Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341188" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341188?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="86uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:3:2:2"/>
+<attribute name="PART-NUMBER" value=" 750341188 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341188 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="180Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341196" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341196?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="117uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:4:3:3"/>
+<attribute name="PART-NUMBER" value=" 750341196 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341196 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="210Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341190" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341190?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="153uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:4:2:2"/>
+<attribute name="PART-NUMBER" value=" 750341190 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341190 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="240Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341143" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1447" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1447">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639176/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341143?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="143uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:3:2"/>
+<attribute name="PART-NUMBER" value=" 750341143 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341143 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="240Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341186" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341186?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="290uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:6:1:1"/>
+<attribute name="PART-NUMBER" value=" 750341186 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341186 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="330Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341203" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ER19_2W:2W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ER19_L23.37W21.08H10.5">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639178/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341203?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="117uH"/>
+<attribute name="LENGTH" value="21.08mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:4:4:4"/>
+<attribute name="PART-NUMBER" value=" 750341203 "/>
+<attribute name="SIZE" value="ER19/4.8/15"/>
+<attribute name="VALUE" value=" 750341203 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="210Vus"/>
+<attribute name="WIDTH" value="23.37mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341136" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1446" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1446">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639177/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341136?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="260uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:4:4"/>
+<attribute name="PART-NUMBER" value=" 750341136 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341136 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="320Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341139" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1449" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1449">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639174/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341139?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="145uH"/>
+<attribute name="LENGTH" value="29.41mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3:3:3"/>
+<attribute name="PART-NUMBER" value=" 750341139 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341139 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="240Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341140" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1448" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1448">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639175/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341140?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="260uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="4:4:3"/>
+<attribute name="PART-NUMBER" value=" 750341140 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341140 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="320Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341141" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1448" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1448">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639175/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341141?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="410uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="5:5:3"/>
+<attribute name="PART-NUMBER" value=" 750341141 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341141 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="400Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750341138" prefix="T">
+<description>&lt;b&gt;WE-PLN Planar Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Switching frequency: 200kHz to 700kHz optimized
+&lt;br&gt;Isolation voltage: 2250VDC
+&lt;br&gt;Operating temp: -40°C to 125°C
+&lt;br&gt;Flat wire windings with low DCR
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Telecom PSU
+&lt;br&gt;Industrial Power Supplies
+&lt;br&gt;DC/DC Converters
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o780001v209%20FAMILY-MID-PLN.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-PLN/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PLN&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2024-03-14&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-PLN_ERI25_2W:1W_1448" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PLN_ERI25_L29.41W26.67H10.5_1448">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43639175/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750341138?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="L" value="65uH"/>
+<attribute name="LENGTH" value="26.67mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:2:3"/>
+<attribute name="PART-NUMBER" value=" 750341138 "/>
+<attribute name="SIZE" value="ERI25/10/18"/>
+<attribute name="VALUE" value=" 750341138 "/>
+<attribute name="VT" value="2250V(DC)"/>
+<attribute name="VUS" value="160Vus"/>
+<attribute name="WIDTH" value="29.41mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,2251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Transformers For DC/DC Converter - WE-AGDT&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; 
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2022a, 2022-07-20&lt;br&gt;
+&lt;HR&gt;&lt;br&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-AGDT_EP7" urn="urn:adsk.eagle:footprint:23596378/3">
+<description>&lt;B&gt;WE-AGDT Auxiliary Gate Drive Transformer
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: EP7,SMT,8Pins
+&lt;br&gt;L X W X H= 11.3mm X 10.95mm X 11.94mm</description>
+<smd name="1" x="-3.75" y="4.445" dx="1.17" dy="2.39" layer="1"/>
+<smd name="2" x="-1.25" y="4.445" dx="1.17" dy="2.39" layer="1"/>
+<smd name="3" x="1.25" y="4.445" dx="1.17" dy="2.39" layer="1"/>
+<smd name="4" x="3.75" y="4.445" dx="1.17" dy="2.39" layer="1"/>
+<smd name="5" x="3.75" y="-4.445" dx="1.17" dy="2.39" layer="1"/>
+<smd name="6" x="1.25" y="-4.445" dx="1.17" dy="2.39" layer="1"/>
+<smd name="7" x="-1.25" y="-4.445" dx="1.17" dy="2.39" layer="1"/>
+<smd name="8" x="-3.75" y="-4.445" dx="1.17" dy="2.39" layer="1"/>
+<wire x1="-5.65" y1="5.475" x2="5.65" y2="5.475" width="0.1" layer="51"/>
+<wire x1="5.65" y1="5.475" x2="5.65" y2="-5.475" width="0.1" layer="51"/>
+<wire x1="5.65" y1="-5.475" x2="-5.65" y2="-5.475" width="0.1" layer="51"/>
+<wire x1="-5.65" y1="-5.475" x2="-5.65" y2="5.475" width="0.1" layer="51"/>
+<wire x1="4.7" y1="5.575" x2="5.75" y2="5.575" width="0.2" layer="21"/>
+<wire x1="5.75" y1="5.575" x2="5.75" y2="-5.575" width="0.2" layer="21"/>
+<wire x1="5.75" y1="-5.575" x2="4.67" y2="-5.575" width="0.2" layer="21"/>
+<wire x1="-4.7" y1="-5.575" x2="-5.75" y2="-5.575" width="0.2" layer="21"/>
+<wire x1="-5.75" y1="-5.575" x2="-5.75" y2="5.575" width="0.2" layer="21"/>
+<wire x1="-5.75" y1="5.575" x2="-4.67" y2="5.575" width="0.2" layer="21"/>
+<wire x1="-2.8" y1="5.575" x2="-2.2" y2="5.575" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="5.575" x2="0.3" y2="5.575" width="0.2" layer="21"/>
+<wire x1="2.2" y1="5.575" x2="2.8" y2="5.575" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="-5.575" x2="-2.8" y2="-5.575" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-5.575" x2="-0.3" y2="-5.575" width="0.2" layer="21"/>
+<wire x1="2.8" y1="-5.575" x2="2.2" y2="-5.575" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.95" y="5.775"/>
+<vertex x="5.95" y="5.775"/>
+<vertex x="5.95" y="-5.775"/>
+<vertex x="-5.95" y="-5.775"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.5" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
+<circle x="-4.7" y="6.4" radius="0.2" width="0.5" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-AGDT_EP7" urn="urn:adsk.eagle:package:23596384/6" type="model">
+<description>&lt;B&gt;WE-AGDT Auxiliary Gate Drive Transformer
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: EP7,SMT,8Pins
+&lt;br&gt;L X W X H= 11.3mm X 10.95mm X 11.94mm</description>
+<packageinstances>
+<packageinstance name="WE-AGDT_EP7"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="750318131">
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="-10.16" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="8" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-10.16" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-10.16" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-15.24" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750318208">
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="8" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-15.24" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750318207">
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750318114">
+<wire x1="0" y1="10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-10.16" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-10.16" y="10.16" visible="pad" length="short" direction="pas"/>
+<text x="0" y="-12.7" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="11.43" size="1.778" layer="95" rot="MR0" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750317894">
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="8" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-15.24" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750319282">
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="15.24" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N5</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N3</text>
+<text x="7.62" y="-15.24" size="1.27" layer="94" align="center">N4</text>
+<text x="6.35" y="6.35" size="1.27" layer="94" align="center">6</text>
+<text x="6.35" y="-19.05" size="1.27" layer="94" align="center">6</text>
+<wire x1="0" y1="20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="20.32" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-20.32" x2="2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-17.78" x2="2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-20.32" x2="7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="19.05" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-11.43" radius="0.2032" width="0.381" layer="94"/>
+<pin name="2" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="7.62" y="20.32" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-22.86" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="21.59" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750317893">
+<wire x1="0" y1="10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-10.16" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-10.16" y="10.16" visible="pad" length="short" direction="pas"/>
+<text x="0" y="-12.7" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="11.43" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750319565">
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750319331">
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750319177">
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750319496">
+<text x="-10.16" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="2" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-7.62" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-15.24" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750319497">
+<text x="-10.16" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="7.62" size="1.27" layer="94" align="center">N2</text>
+<text x="7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-4.826" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="8.89" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="2" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-7.62" y="10.16" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="7.62" y="-12.7" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-15.24" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750319077">
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="15.24" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N5</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N3</text>
+<text x="7.62" y="-15.24" size="1.27" layer="94" align="center">N4</text>
+<text x="6.35" y="11.43" size="1.27" layer="94" align="center">6</text>
+<text x="6.35" y="-8.89" size="1.27" layer="94" align="center">6</text>
+<wire x1="0" y1="20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="20.32" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-20.32" x2="2.54" y2="-17.78" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-17.78" x2="2.54" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="19.05" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="-11.43" radius="0.2032" width="0.381" layer="94"/>
+<pin name="2" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="7.62" y="20.32" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="7.62" y="-20.32" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-22.86" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="21.59" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="750318616">
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="1" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<text x="0" y="-15.24" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+<symbol name="WE-AGDT_EP7_75031983X">
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="750318207" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750318207" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="8.2pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750318207?ae"/>
+<attribute name="FSWITCH" value="350kHz"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="L" value="27uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1.2"/>
+<attribute name="PART-NUMBER" value=" 750318207 "/>
+<attribute name="PO" value="5W"/>
+<attribute name="VALUE" value="18-36Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="18-36V"/>
+<attribute name="VOUT1" value="19V"/>
+<attribute name="VOUT2" value="4V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319565" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750319565" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="2.1pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319565?ae"/>
+<attribute name="FSWITCH" value="250kHz"/>
+<attribute name="L" value="256uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:2"/>
+<attribute name="PART-NUMBER" value=" 750319565 "/>
+<attribute name="PO" value="3W"/>
+<attribute name="VALUE" value="15Vin"/>
+<attribute name="VERSION" value="Half-Bridge"/>
+<attribute name="VIN" value="15V"/>
+<attribute name="VOUT1" value="30V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319177" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750319177" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="0.68pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319177?ae"/>
+<attribute name="FSWITCH" value="500kHz"/>
+<attribute name="L" value="16.5uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1.67"/>
+<attribute name="PART-NUMBER" value=" 750319177 "/>
+<attribute name="PO" value="4.55W"/>
+<attribute name="VALUE" value="7.5Vin"/>
+<attribute name="VERSION" value="LLC"/>
+<attribute name="VIN" value="7.5V"/>
+<attribute name="VOUT1" value="13V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750318131" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750318131" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="7.5pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750318131?ae"/>
+<attribute name="FSWITCH" value="350kHz"/>
+<attribute name="ISAT" value="5A"/>
+<attribute name="L" value="7uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2.25:3.5:1"/>
+<attribute name="PART-NUMBER" value=" 750318131 "/>
+<attribute name="PO" value="6W"/>
+<attribute name="VALUE" value="9-18Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="9-18V"/>
+<attribute name="VOUT1" value="15V"/>
+<attribute name="VOUT2" value="-4V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319331" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750319331" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="1.3pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319331?ae"/>
+<attribute name="FSWITCH" value="500kHz"/>
+<attribute name="L" value="50uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1"/>
+<attribute name="PART-NUMBER" value=" 750319331 "/>
+<attribute name="PO" value="6W"/>
+<attribute name="VALUE" value="13Vin"/>
+<attribute name="VERSION" value="LLC"/>
+<attribute name="VIN" value="13V"/>
+<attribute name="VOUT1" value="11.5V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750318208" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750318208" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="7pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750318208?ae"/>
+<attribute name="FSWITCH" value="350kHz"/>
+<attribute name="ISAT" value="1.5A"/>
+<attribute name="L" value="27uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="3.5:3.5:1"/>
+<attribute name="PART-NUMBER" value=" 750318208 "/>
+<attribute name="PO" value="5W"/>
+<attribute name="VALUE" value="18-36Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="18-36V"/>
+<attribute name="VOUT1" value="15V"/>
+<attribute name="VOUT2" value="-4V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319282" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750319282" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="6.4pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319282?ae"/>
+<attribute name="FSWITCH" value="150kHz"/>
+<attribute name="ISAT" value="1.2A"/>
+<attribute name="L" value="42uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1.56:3.89:1:1:1"/>
+<attribute name="PART-NUMBER" value=" 750319282 "/>
+<attribute name="PO" value="1.5W"/>
+<attribute name="VALUE" value="6-18Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="6-18V"/>
+<attribute name="VOUT1" value="20V"/>
+<attribute name="VOUT2" value="5V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319497" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750319497" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="7.5pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319497?ae"/>
+<attribute name="FSWITCH" value="350kHz"/>
+<attribute name="ISAT" value="4.5A"/>
+<attribute name="L" value="7uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2.25:4.25:1"/>
+<attribute name="PART-NUMBER" value=" 750319497 "/>
+<attribute name="PO" value="6W"/>
+<attribute name="VALUE" value="9-18Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="9-18V"/>
+<attribute name="VOUT1" value="19V"/>
+<attribute name="VOUT2" value="4V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750318616" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750318616" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="3.25pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750318616?ae"/>
+<attribute name="FSWITCH" value="400kHz"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="L" value="10uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1.2:2:1"/>
+<attribute name="PART-NUMBER" value=" 750318616 "/>
+<attribute name="PO" value="2.7W"/>
+<attribute name="VALUE" value="7-31Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="7-31V"/>
+<attribute name="VOUT1" value="27V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750317893" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750317893" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="6.8pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750317893?ae"/>
+<attribute name="FSWITCH" value="350kHz"/>
+<attribute name="ISAT" value="1.95A"/>
+<attribute name="L" value="18uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:2"/>
+<attribute name="PART-NUMBER" value=" 750317893 "/>
+<attribute name="PO" value="3W"/>
+<attribute name="V" value="9-18V"/>
+<attribute name="VALUE" value="9-18Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="9-18V"/>
+<attribute name="VOUT1" value="19V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319077" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750319077" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="7.8pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319077?ae"/>
+<attribute name="FSWITCH" value="150kHz"/>
+<attribute name="ISAT" value="1.25A"/>
+<attribute name="L" value="42uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2:2.86:1.43:1.43:1"/>
+<attribute name="PART-NUMBER" value=" 750319077 "/>
+<attribute name="PO" value="1.5W"/>
+<attribute name="VALUE" value="12-18Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="12-18V"/>
+<attribute name="VOUT1" value="15V"/>
+<attribute name="VOUT2" value="7.5V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319496" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750319496" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="7.3pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750319496?ae"/>
+<attribute name="FSWITCH" value="350kHz"/>
+<attribute name="ISAT" value="4.5A"/>
+<attribute name="L" value="7uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1.8:3.6:1"/>
+<attribute name="PART-NUMBER" value=" 750319496 "/>
+<attribute name="PO" value="6W"/>
+<attribute name="VALUE" value="9-18Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="9-18V"/>
+<attribute name="VOUT1" value="20V"/>
+<attribute name="VOUT2" value="5V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750317894" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750317894" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="7pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750317894?ae"/>
+<attribute name="FSWITCH" value="350kHz"/>
+<attribute name="ISAT" value="1.6A"/>
+<attribute name="L" value="18uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="2.25:3.5:1"/>
+<attribute name="PART-NUMBER" value=" 750317894 "/>
+<attribute name="PO" value="3W"/>
+<attribute name="VALUE" value="9-18Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="9-18V"/>
+<attribute name="VOUT1" value="15V"/>
+<attribute name="VOUT2" value="-4V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750318114" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-07-20&lt;br&gt;
+2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750318114" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CWW" value="6.8pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750318114?ae"/>
+<attribute name="FSWITCH" value="350kHz"/>
+<attribute name="ISAT" value="6.2A"/>
+<attribute name="L" value="6uH"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:2"/>
+<attribute name="PART-NUMBER" value=" 750318114 "/>
+<attribute name="PO" value="6W"/>
+<attribute name="VALUE" value="9-18Vin"/>
+<attribute name="VERSION" value="Flyback"/>
+<attribute name="VIN" value="9-18V"/>
+<attribute name="VOUT1" value="19V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319831" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-01-30&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-AGDT_EP7_75031983X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319832" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-01-30&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-AGDT_EP7_75031983X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319833" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-01-30&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-AGDT_EP7_75031983X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319834" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-01-30&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-AGDT_EP7_75031983X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319835" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-01-30&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-AGDT_EP7_75031983X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750319836" prefix="T">
+<description>&lt;b&gt; WE-AGDT Auxiliary Gate Drive Transformer 
+&lt;br&gt;&lt;/b&gt;for SiC-MOSFET and IGBT 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Interwinding capacitance down to 6.8 pF
+&lt;br&gt;Tiny surface mount EP7 package
+&lt;br&gt;Dielectric insulation up to 4 kV AC
+&lt;br&gt;Basic insulation for 568 Vrms / 800 Vpk
+&lt;br&gt;Safety: IEC62368-1 / IEC61558-2-16
+&lt;br&gt;AEC-Q200 qualification
+&lt;br&gt;Operating temperature: -40 °C up to +130 °C
+&lt;br&gt;Common control voltages for SiC MOSFET’s
+&lt;br&gt;High Common-mode Transient Immunity (CMTI)
+&lt;br&gt;Flyback with primary side regulation
+&lt;br&gt;Up to 6 W output power
+&lt;br&gt;Wide range input voltages 9 V to 36 V
+&lt;br&gt;Different unipolar and bipolar voltages
+&lt;br&gt;High efficiency and very compact solution
+&lt;br&gt;Reference designs with Analog Devices and Texas Instruments
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Industrial drives
+&lt;br&gt;AC motor inverters
+&lt;br&gt;HEV/EV charging station
+&lt;br&gt;Battery chargers
+&lt;br&gt;Solar inverters
+&lt;br&gt;Data centers
+&lt;br&gt;Uninterruptible power supplies
+&lt;br&gt;Active power factor correction
+&lt;br&gt;SiC-MOSFET based power converter
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o179549v209%2075031xxxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-AGDT/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-AGDT&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2024-01-30&lt;br&gt;
+2024 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-AGDT_EP7_75031983X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-AGDT_EP7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23596384/6"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - EMC Components - EMI Shielding - WE-SECF&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-04-25&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-SECF_331051472057" urn="urn:adsk.eagle:footprint:40160455/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0557
+&lt;br&gt;4.7x2x5.9mm</description>
+<smd name="1" x="-0.4" y="0" dx="3.7" dy="2" layer="1"/>
+<wire x1="-2.35" y1="1" x2="2.35" y2="1" width="0.1" layer="51"/>
+<wire x1="2.45" y1="1.1" x2="2.45" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="2.35" y1="-1" x2="-2.35" y2="-1" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="1" x2="-2.35" y2="-1" width="0.1" layer="51"/>
+<wire x1="2.35" y1="-1" x2="2.35" y2="1" width="0.1" layer="51"/>
+<wire x1="2.45" y1="1.1" x2="1.8" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.45" y1="-1.1" x2="1.8" y2="-1.1" width="0.2" layer="21"/>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="-3.85" y="2"/>
+<vertex x="3.85" y="2"/>
+<vertex x="3.85" y="-2"/>
+<vertex x="-3.85" y="-2"/>
+</polygon>
+</package>
+<package name="WE-SECF_331151702562" urn="urn:adsk.eagle:footprint:40160459/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1562
+&lt;br&gt;7x2.5x6.4mm</description>
+<smd name="1" x="-0.25" y="0" dx="4.4" dy="2.5" layer="1"/>
+<wire x1="-3.5" y1="1.25" x2="3.5" y2="1.25" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-1.25" x2="-3.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-3.6" y1="-1.35" x2="-3.6" y2="1.35" width="0.2" layer="21"/>
+<wire x1="-2.8" y1="1.35" x2="-3.6" y2="1.35" width="0.2" layer="21"/>
+<wire x1="2.3" y1="1.35" x2="3.6" y2="1.35" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="1.25" x2="-3.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="3.5" y1="1.25" x2="3.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="-1.35" x2="-3.6" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-1.35" x2="3.6" y2="1.35" width="0.2" layer="21"/>
+<wire x1="2.3" y1="-1.35" x2="3.6" y2="-1.35" width="0.2" layer="21"/>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="4.25" y="1.75"/>
+<vertex x="4.25" y="-1.75"/>
+<vertex x="-4.25" y="-1.75"/>
+<vertex x="-4.25" y="1.75"/>
+</polygon>
+</package>
+<package name="WE-SECF_331031271520" urn="urn:adsk.eagle:footprint:40160452/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0320
+&lt;br&gt;2.7x1.5x2.2mm</description>
+<smd name="1" x="-0.15" y="0" dx="2" dy="1.5" layer="1" rot="R180"/>
+<wire x1="-1.35" y1="-0.75" x2="1.35" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="1.45" y1="-0.85" x2="1.45" y2="0.85" width="0.2" layer="21"/>
+<wire x1="-1.35" y1="0.75" x2="1.35" y2="0.75" width="0.1" layer="51"/>
+<wire x1="1.2" y1="0.85" x2="1.45" y2="0.85" width="0.2" layer="21"/>
+<wire x1="1.2" y1="-0.85" x2="1.45" y2="-0.85" width="0.2" layer="21"/>
+<wire x1="-1.35" y1="0.75" x2="-1.35" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="1.35" y1="0.75" x2="1.35" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="-1.45" y1="-0.85" x2="-1.45" y2="0.85" width="0.2" layer="21"/>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.85" y="1.75"/>
+<vertex x="1.85" y="1.75"/>
+<vertex x="1.85" y="-1.75"/>
+<vertex x="-1.85" y="-1.75"/>
+</polygon>
+</package>
+<package name="WE-SECF_331011452048" urn="urn:adsk.eagle:footprint:40160450/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0135
+&lt;br&gt;4.7x2x5mm</description>
+<smd name="1" x="-0.25" y="0" dx="3" dy="2.4" layer="1"/>
+<text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.25" y1="1" x2="2.25" y2="1" width="0.1" layer="51"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="1.1" x2="-2.35" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.6" y1="1.1" x2="2.35" y2="1.1" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="1" x2="-2.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="2.25" y1="1" x2="2.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.1" x2="2.35" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-1.1" x2="-2.35" y2="-1.1" width="0.2" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="3.25" y="1.4"/>
+<vertex x="3.25" y="-1.4"/>
+<vertex x="-3.25" y="-1.4"/>
+<vertex x="-3.25" y="1.4"/>
+</polygon>
+</package>
+<package name="WE-SECF_331081302025" urn="urn:adsk.eagle:footprint:40160457/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0825
+&lt;br&gt;3x2x2.7mm</description>
+<smd name="1" x="-0.125" y="0" dx="1.75" dy="2" layer="1"/>
+<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1" x2="-1.5" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.1" x2="-1.6" y2="1.1" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="1.1" x2="-1.6" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.05" y1="1.1" x2="1.6" y2="1.1" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="-1.1" x2="-1.6" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-1.1" x2="1.6" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.05" y1="-1.1" x2="1.6" y2="-1.1" width="0.2" layer="21"/>
+<text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.25" y="1.5"/>
+<vertex x="2.25" y="1.5"/>
+<vertex x="2.25" y="-1.5"/>
+<vertex x="-2.25" y="-1.5"/>
+</polygon>
+</package>
+<package name="WE-SECF_331161702513" urn="urn:adsk.eagle:footprint:40160461/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1613
+&lt;br&gt;7x2.5x13.2mm</description>
+<smd name="1" x="0.05" y="0" dx="5.8" dy="2.5" layer="1"/>
+<wire x1="-3.5" y1="1.25" x2="3.5" y2="1.25" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-1.25" x2="-3.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-3.6" y1="1.35" x2="-3.6" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="-3.2" y1="1.35" x2="-3.6" y2="1.35" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="1.25" x2="-3.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="3.5" y1="1.25" x2="3.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-1.35" x2="-3.6" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-1.35" x2="3.6" y2="1.35" width="0.2" layer="21"/>
+<wire x1="3.3" y1="1.35" x2="3.6" y2="1.35" width="0.2" layer="21"/>
+<wire x1="3.3" y1="-1.35" x2="3.6" y2="-1.35" width="0.2" layer="21"/>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5.25" y="2.25"/>
+<vertex x="5.25" y="2.25"/>
+<vertex x="5.25" y="-2.25"/>
+<vertex x="-5.25" y="-2.25"/>
+</polygon>
+</package>
+<package name="WE-SECF_331041402053" urn="urn:adsk.eagle:footprint:40160454/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0453
+&lt;br&gt;4.1x2x5.5mm</description>
+<smd name="1" x="-0.425" y="0" dx="2.85" dy="2" layer="1"/>
+<wire x1="-2" y1="1" x2="2" y2="1" width="0.1" layer="51"/>
+<wire x1="2.1" y1="1.1" x2="2.1" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.3" y1="1.1" x2="2.1" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.3" y1="-1.1" x2="2.1" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2" y1="1" x2="-2" y2="-1" width="0.1" layer="51"/>
+<wire x1="2" y1="-1" x2="2" y2="1" width="0.1" layer="51"/>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.5" y="2"/>
+<vertex x="3.5" y="2"/>
+<vertex x="3.5" y="-2"/>
+<vertex x="-3.5" y="-2"/>
+</polygon>
+</package>
+<package name="WE-SECF_331161452070" urn="urn:adsk.eagle:footprint:40160460/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1670
+&lt;br&gt;4.5x2x7.2mm</description>
+<smd name="1" x="0" y="0" dx="3" dy="2.2" layer="1"/>
+<wire x1="-2.25" y1="1" x2="2.25" y2="1" width="0.1" layer="51"/>
+<wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="1.1" x2="-2.35" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="1" x2="-2.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="2.25" y1="-1" x2="2.25" y2="1" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="1.1" x2="-1.8" y2="1.1" width="0.2" layer="21"/>
+<wire x1="-2.35" y1="-1.1" x2="-1.8" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="2.35" y1="-1.1" x2="2.35" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.35" y1="-1.1" x2="1.8" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="2.35" y1="1.1" x2="1.8" y2="1.1" width="0.2" layer="21"/>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.35" y="2.1"/>
+<vertex x="2.35" y="2.1"/>
+<vertex x="2.35" y="-2.1"/>
+<vertex x="-2.35" y="-2.1"/>
+</polygon>
+</package>
+<package name="WE-SECF_331141352540" urn="urn:adsk.eagle:footprint:40160458/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1440
+&lt;br&gt;3.5x2.5x4.2mm</description>
+<smd name="1" x="0" y="0" dx="3.5" dy="2.7" layer="1"/>
+<wire x1="-1.75" y1="1.25" x2="1.75" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.25" x2="1.75" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.25" x2="-1.75" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-1.25" x2="-1.75" y2="1.25" width="0.1" layer="51"/>
+<text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.2" layer="39">
+<vertex x="-1.95" y="1.55"/>
+<vertex x="1.95" y="1.55"/>
+<vertex x="1.95" y="-1.55"/>
+<vertex x="-1.95" y="-1.55"/>
+</polygon>
+</package>
+<package name="WE-SECF_331171302035" urn="urn:adsk.eagle:footprint:40160462/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1735
+&lt;br&gt;3x2x3.7mm</description>
+<smd name="1" x="-0.375" y="0" dx="2.25" dy="2" layer="1"/>
+<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.1" x2="1.6" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-1" x2="-1.5" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1" x2="-1.5" y2="1" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1" x2="1.5" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.1" x2="1.1" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-1.1" x2="1.1" y2="-1.1" width="0.2" layer="21"/>
+<text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2" y="1.2"/>
+<vertex x="2" y="1.2"/>
+<vertex x="2" y="-1.2"/>
+<vertex x="-2" y="-1.2"/>
+</polygon>
+</package>
+<package name="WE-SECF_331211503040" urn="urn:adsk.eagle:footprint:40160465/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2140
+&lt;br&gt;5x3x4.2mm</description>
+<smd name="1" x="0.35" y="0" dx="3.8" dy="2.6" layer="1"/>
+<wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-1.5" x2="-2.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-1.5" x2="-2.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="1.6" x2="-2.6" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-1.6" x2="2.6" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="2.6" y1="-1.6" x2="2.6" y2="1.6" width="0.2" layer="21"/>
+<wire x1="2.6" y1="1.6" x2="-2.6" y2="1.6" width="0.2" layer="21"/>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.25" y="1.5"/>
+<vertex x="3.25" y="1.5"/>
+<vertex x="3.25" y="-1.5"/>
+<vertex x="-3.25" y="-1.5"/>
+</polygon>
+</package>
+<package name="WE-SECF_331236362553" urn="urn:adsk.eagle:footprint:40160466/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2353
+&lt;br&gt;3.6x2.8x5.3mm</description>
+<smd name="1" x="0" y="-0.95" dx="1" dy="3.1" layer="1" rot="R90"/>
+<smd name="2" x="0" y="0.95" dx="1" dy="3.1" layer="1" rot="R90"/>
+<wire x1="-2.1" y1="-1.25" x2="-2.1" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-2.1" y1="1.25" x2="1.5" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="-2.1" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.15" x2="1.6" y2="0.15" width="0.2" layer="21"/>
+<wire x1="-1.88" y1="-1.35" x2="-2.2" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="-1.35" x2="-2.2" y2="1.35" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="1.35" x2="-1.88" y2="1.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.4" y="-1.75"/>
+<vertex x="-2.4" y="1.75"/>
+<vertex x="1.8" y="1.75"/>
+<vertex x="1.8" y="-1.75"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-SECF_331265563040" urn="urn:adsk.eagle:footprint:40160469/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2640
+&lt;br&gt;5.6x3x4mm</description>
+<smd name="1" x="0" y="-1.15" dx="3.6" dy="0.7" layer="1"/>
+<smd name="2" x="0" y="1.15" dx="3.6" dy="0.7" layer="1"/>
+<wire x1="2.5" y1="0.9" x2="2.5" y2="-0.9" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="-0.9" x2="-3.3" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-3.2" y1="-0.8" x2="-3.2" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="0.8" x2="2.4" y2="0.8" width="0.1" layer="51"/>
+<wire x1="2.4" y1="0.8" x2="2.4" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="2.4" y1="-0.8" x2="-3.2" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="0.9" x2="-2.2" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="-0.9" x2="-2.2" y2="-0.9" width="0.2" layer="21"/>
+<wire x1="2.5" y1="0.9" x2="2.2" y2="0.9" width="0.2" layer="21"/>
+<wire x1="2.5" y1="-0.9" x2="2.2" y2="-0.9" width="0.2" layer="21"/>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.5" y="-1.7"/>
+<vertex x="-3.5" y="1.7"/>
+<vertex x="2.7" y="1.7"/>
+<vertex x="2.7" y="-1.7"/>
+</polygon>
+</package>
+<package name="WE-SECF_331031321515" urn="urn:adsk.eagle:footprint:40160453/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0315
+&lt;br&gt;3.2x1.5x1.7mm</description>
+<smd name="1" x="0.1" y="0" dx="2.3" dy="1.5" layer="1"/>
+<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.1" layer="51"/>
+<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.7" y2="0.85" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.75" x2="1.6" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="0.85" x2="-1.7" y2="0.85" width="0.2" layer="21"/>
+<wire x1="1.55" y1="0.85" x2="1.7" y2="0.85" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="0.75" x2="-1.6" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="1.55" y1="-0.85" x2="1.7" y2="-0.85" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="0.85" x2="-1.7" y2="-0.85" width="0.2" layer="21"/>
+<wire x1="-1.4" y1="-0.85" x2="-1.7" y2="-0.85" width="0.2" layer="21"/>
+<text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.25" y="1.05"/>
+<vertex x="2.25" y="1.05"/>
+<vertex x="2.25" y="-1.05"/>
+<vertex x="-2.25" y="-1.05"/>
+</polygon>
+</package>
+<package name="WE-SECF_331221602040" urn="urn:adsk.eagle:footprint:40160463/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2240
+&lt;br&gt;6x2x4.2mm</description>
+<smd name="1" x="-1.25" y="0" dx="3" dy="2" layer="1"/>
+<wire x1="-3" y1="1" x2="3" y2="1" width="0.1" layer="51"/>
+<wire x1="3.1" y1="1.1" x2="3.1" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="3" y1="-1" x2="-3" y2="-1" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-1.1" x2="-3.1" y2="1.1" width="0.2" layer="21"/>
+<wire x1="0.65" y1="1.1" x2="3.1" y2="1.1" width="0.2" layer="21"/>
+<wire x1="0.65" y1="-1.1" x2="3.1" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="3" y1="1" x2="3" y2="-1" width="0.1" layer="51"/>
+<wire x1="-3" y1="1" x2="-3" y2="-1" width="0.1" layer="51"/>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.5" y="2"/>
+<vertex x="4.5" y="2"/>
+<vertex x="4.5" y="-2"/>
+<vertex x="-4.5" y="-2"/>
+</polygon>
+</package>
+<package name="WE-SECF_331061603010" urn="urn:adsk.eagle:footprint:40160456/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0610
+&lt;br&gt;6x3x10.2mm</description>
+<smd name="1" x="0.5" y="0" dx="4" dy="3" layer="1"/>
+<wire x1="-3" y1="1.5" x2="3" y2="1.5" width="0.1" layer="51"/>
+<wire x1="3.1" y1="1.6" x2="3.1" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="3" y1="-1.5" x2="-3" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-1.6" x2="-3.1" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="1.6" x2="-3.1" y2="1.6" width="0.2" layer="21"/>
+<wire x1="2.8" y1="1.6" x2="3.1" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-3" y1="1.5" x2="-3" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="3" y1="-1.5" x2="3" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="-1.6" x2="-3.1" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="2.8" y1="-1.6" x2="3.1" y2="-1.6" width="0.2" layer="21"/>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.5" y="2.5"/>
+<vertex x="4.5" y="2.5"/>
+<vertex x="4.5" y="-2.5"/>
+<vertex x="-4.5" y="-2.5"/>
+</polygon>
+</package>
+<package name="WE-SECF_331256381840" urn="urn:adsk.eagle:footprint:40160468/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2540
+&lt;br&gt;3.75x2.5x4mm</description>
+<smd name="1" x="0" y="0" dx="1.5" dy="2.2" layer="1"/>
+<wire x1="1.2" y1="1.25" x2="1.2" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.2" y1="-1.25" x2="-1.2" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="1.25" x2="1.2" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="1.35" x2="1.3" y2="1.35" width="0.2" layer="21"/>
+<wire x1="1.3" y1="1.35" x2="1.3" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="1.3" y1="-1.35" x2="-1.3" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="-1.25" x2="-1.2" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="-0.7" x2="-2.55" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="-2.55" y1="-0.7" x2="-2.55" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-2.55" y1="0.7" x2="-1.2" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="0.7" x2="-1.2" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="1.35" x2="-1.3" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="0.8" x2="-2.65" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-2.65" y1="0.8" x2="-2.65" y2="-0.8" width="0.2" layer="21"/>
+<wire x1="-2.65" y1="-0.8" x2="-1.3" y2="-0.8" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-0.8" x2="-1.3" y2="-1.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.85" y="1.55"/>
+<vertex x="1.5" y="1.55"/>
+<vertex x="1.5" y="-1.55"/>
+<vertex x="-2.85" y="-1.55"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-SECF_331246501860" urn="urn:adsk.eagle:footprint:40160467/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2460
+&lt;br&gt;5x2.6x6mm</description>
+<smd name="1" x="0" y="0" dx="2" dy="2.2" layer="1"/>
+<wire x1="1.6" y1="1.3" x2="1.6" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.3" x2="-1.7" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="1.3" x2="1.6" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="1.4" x2="1.7" y2="1.4" width="0.2" layer="21"/>
+<wire x1="1.7" y1="1.4" x2="1.7" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-1.4" x2="-1.8" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="1.3" x2="-1.7" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="0.7" x2="-3.4" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="0.7" x2="-3.4" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="-0.7" x2="-1.7" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="-0.7" x2="-1.7" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="1.4" x2="-1.8" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="0.8" x2="-3.5" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="0.8" x2="-3.5" y2="-0.8" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="-0.8" x2="-1.8" y2="-0.8" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="-0.8" x2="-1.8" y2="-1.4" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.7" y="1.6"/>
+<vertex x="1.9" y="1.6"/>
+<vertex x="1.9" y="-1.6"/>
+<vertex x="-3.7" y="-1.6"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-SECF_331011452535" urn="urn:adsk.eagle:footprint:40160451/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0135
+&lt;br&gt;4.7x2.5x3.7mm</description>
+<smd name="1" x="-0.375" y="0" dx="3.35" dy="2.5" layer="1"/>
+<wire x1="2.25" y1="-1.25" x2="-2.25" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="1.35" x2="-2.35" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="2.35" y1="1.35" x2="2.35" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="1.25" x2="2.25" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.35" x2="2.35" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="1.6" y1="1.35" x2="2.35" y2="1.35" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="1.25" x2="-2.25" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="2.25" y1="1.25" x2="2.25" y2="-1.25" width="0.1" layer="51"/>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.55" y="1.65"/>
+<vertex x="2.55" y="1.65"/>
+<vertex x="2.55" y="-1.55"/>
+<vertex x="-2.55" y="-1.55"/>
+</polygon>
+</package>
+<package name="WE-SECF_331171302030" urn="urn:adsk.eagle:footprint:40160464/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1730
+&lt;br&gt;3x2x3.2mm</description>
+<smd name="1" x="-0.3" y="0" dx="2.7" dy="2" layer="1"/>
+<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.1" x2="1.6" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-1" x2="-1.5" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1" x2="-1.5" y2="1" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.1" x2="1.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-1.1" x2="1.4" y2="-1.1" width="0.2" layer="21"/>
+<text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.85" y="1.2"/>
+<vertex x="1.85" y="1.2"/>
+<vertex x="1.85" y="-1.2"/>
+<vertex x="-1.85" y="-1.2"/>
+</polygon>
+</package>
+<package name="WE-SECF_331276483050" urn="urn:adsk.eagle:footprint:40160470/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2750
+&lt;br&gt;4.9x3x5mm</description>
+<smd name="1" x="0" y="0" dx="3.3" dy="3" layer="1"/>
+<wire x1="1.65" y1="1.5" x2="1.65" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.65" y1="-1.5" x2="-3.25" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="-1.5" x2="-3.25" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-3.25" y1="1.5" x2="1.65" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.9" y1="1.6" x2="-3.35" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="1.6" x2="-3.35" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="-3.35" y1="-1.6" x2="-1.9" y2="-1.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.55" y="1.8"/>
+<vertex x="1.85" y="1.8"/>
+<vertex x="1.85" y="-1.8"/>
+<vertex x="-3.55" y="-1.8"/>
+</polygon>
+<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-SECF_331061603012" urn="urn:adsk.eagle:footprint:40160449/1">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0612
+&lt;br&gt;6x3x12mm</description>
+<smd name="1" x="0.5" y="0" dx="4" dy="3" layer="1"/>
+<wire x1="-3" y1="1.5" x2="3" y2="1.5" width="0.1" layer="51"/>
+<wire x1="3.1" y1="1.6" x2="3.1" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="3" y1="-1.5" x2="-3" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-1.6" x2="-3.1" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="1.6" x2="-3.1" y2="1.6" width="0.2" layer="21"/>
+<wire x1="2.8" y1="1.6" x2="3.1" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-3" y1="1.5" x2="-3" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="3" y1="-1.5" x2="3" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="-1.6" x2="-3.1" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="2.8" y1="-1.6" x2="3.1" y2="-1.6" width="0.2" layer="21"/>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.5" y="2.5"/>
+<vertex x="4.5" y="2.5"/>
+<vertex x="4.5" y="-2.5"/>
+<vertex x="-4.5" y="-2.5"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-SECF_331051472057" urn="urn:adsk.eagle:package:40160477/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0557
+&lt;br&gt;4.7x2x5.9mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331051472057"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331151702562" urn="urn:adsk.eagle:package:40160481/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1562
+&lt;br&gt;7x2.5x6.4mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331151702562"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331031271520" urn="urn:adsk.eagle:package:40160474/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0320
+&lt;br&gt;2.7x1.5x2.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331031271520"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331011452048" urn="urn:adsk.eagle:package:40160472/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0135
+&lt;br&gt;4.7x2x5mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331011452048"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331161702513" urn="urn:adsk.eagle:package:40160483/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1613
+&lt;br&gt;7x2.5x13.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331161702513"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331081302025" urn="urn:adsk.eagle:package:40160479/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0825
+&lt;br&gt;3x2x2.7mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331081302025"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331041402053" urn="urn:adsk.eagle:package:40160476/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0453
+&lt;br&gt;4.1x2x5.5mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331041402053"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331031321515" urn="urn:adsk.eagle:package:40160475/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0315
+&lt;br&gt;3.2x1.5x1.7mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331031321515"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331141352540" urn="urn:adsk.eagle:package:40160480/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1440
+&lt;br&gt;3.5x2.5x4.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331141352540"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331171302035" urn="urn:adsk.eagle:package:40160484/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1735
+&lt;br&gt;3x2x3.7mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331171302035"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331161452070" urn="urn:adsk.eagle:package:40160482/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1670
+&lt;br&gt;4.5x2x7.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331161452070"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331236362553" urn="urn:adsk.eagle:package:40160488/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2353
+&lt;br&gt;3.6x2.8x5.3mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331236362553"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331061603010" urn="urn:adsk.eagle:package:40160478/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0610
+&lt;br&gt;6x3x10.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331061603010"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331211503040" urn="urn:adsk.eagle:package:40160487/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2140
+&lt;br&gt;5x3x4.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331211503040"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331265563040" urn="urn:adsk.eagle:package:40160491/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2640
+&lt;br&gt;5.6x3x4mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331265563040"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331221602040" urn="urn:adsk.eagle:package:40160485/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2240
+&lt;br&gt;6x2x4.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331221602040"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331011452535" urn="urn:adsk.eagle:package:40160473/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0135
+&lt;br&gt;4.7x2.5x3.7mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331011452535"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331256381840" urn="urn:adsk.eagle:package:40160490/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2540
+&lt;br&gt;3.75x2.5x4mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331256381840"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331246501860" urn="urn:adsk.eagle:package:40160489/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2460
+&lt;br&gt;5x2.6x6mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331246501860"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331171302030" urn="urn:adsk.eagle:package:40160486/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 1730
+&lt;br&gt;3x2x3.2mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331171302030"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331276483050" urn="urn:adsk.eagle:package:40160492/3" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 2750
+&lt;br&gt;4.9x3x5mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331276483050"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SECF_331061603012" urn="urn:adsk.eagle:package:40160471/2" type="model">
+<description>&lt;b&gt;WE-SECF SMD EMI Contact Finger
+&lt;/b&gt;&lt;br&gt;Size: 0612
+&lt;br&gt;6x3x12mm</description>
+<packageinstances>
+<packageinstance name="WE-SECF_331061603012"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="GNDPIN">
+<pin name="GND" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-SECF" prefix="H">
+<description>&lt;b&gt; WE-SECF SMT EMI Contact Finger
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Customizable Product Series:
+&lt;br&gt;- Dimensions
+&lt;br&gt;- Shape
+&lt;br&gt;- Base material
+&lt;br&gt;- Plating
+&lt;br&gt;Suitable for automated placement
+&lt;br&gt;Material: copper-beryllium (CuBe) gold-plated (Au)
+&lt;br&gt;Different types and sizes available
+&lt;br&gt;Corrossion-resistant
+&lt;br&gt;Wear-resistant
+&lt;br&gt;High temperatures and mechanical weight have no influence on the excellent connection properties
+&lt;br&gt;Reliable solderability
+&lt;br&gt;Customized materials and platings are possible
+&lt;br&gt;Customized types and sizes are possible
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Contact between PCB's earth and housing
+&lt;br&gt;Low Ω HF connection between earthing points of two PCB's lying upon each other
+&lt;br&gt;Earthing of cooling units on high frequency
+&lt;br&gt;Connection between signal and power supply of two PCB's on track
+&lt;br&gt;Connection between PCB's and extern elements
+&lt;br&gt;
+&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14847v209%20Family_WE-SECF_bearbeitet.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14847v209%20Family_WE-SECF_bearbeitet.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-SECF"&gt;www.we-online.com/en/components/products/WE-SECF&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;
+&lt;/b&gt;Updated  by  Ella Wu 2023-04-25&lt;br&gt;
+&lt;/b&gt;2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="GNDPIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_331051472057" package="WE-SECF_331051472057">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160477/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331051472057?ae"/>
+<attribute name="HEIGHT" value="5.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331051472057"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="4.6 - 5.4mm"/>
+<attribute name="VALUE" value="331051472057"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331151702562" package="WE-SECF_331151702562">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160481/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331151702562?ae"/>
+<attribute name="HEIGHT" value="6.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331151702562"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="5 - 5.9mm"/>
+<attribute name="VALUE" value="331151702562"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331011452048" package="WE-SECF_331011452048">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160472/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331011452048?ae"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331011452048"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="4 - 4.5mm"/>
+<attribute name="VALUE" value="331011452048"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331031321515" package="WE-SECF_331031321515">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160475/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331031321515?ae"/>
+<attribute name="HEIGHT" value="1.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331031321515"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="1 - 1.2mm"/>
+<attribute name="VALUE" value="331031321515"/>
+<attribute name="WIDTH" value="1.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331031271520" package="WE-SECF_331031271520">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160474/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331031271520?ae"/>
+<attribute name="HEIGHT" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331031271520"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="1.6 - 1.7mm"/>
+<attribute name="VALUE" value="331031271520"/>
+<attribute name="WIDTH" value="1.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331041402053" package="WE-SECF_331041402053">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160476/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331041402053?ae"/>
+<attribute name="HEIGHT" value="5.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331041402053"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="4.4 - 5mm"/>
+<attribute name="VALUE" value="331041402053"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331061603010" package="WE-SECF_331061603010">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160478/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331061603010?ae"/>
+<attribute name="HEIGHT" value="10mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331061603010"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="8.3 - 9.7mm"/>
+<attribute name="VALUE" value="331061603010"/>
+<attribute name="WIDTH" value="3mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331081302025" package="WE-SECF_331081302025">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160479/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331081302025?ae"/>
+<attribute name="HEIGHT" value="2.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331081302025"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="2 - 2.2mm"/>
+<attribute name="VALUE" value="331081302025"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331141352540" package="WE-SECF_331141352540">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160480/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331141352540?ae"/>
+<attribute name="HEIGHT" value="4mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331141352540"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="3.4 - 3.7mm"/>
+<attribute name="VALUE" value="331141352540"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331161702513" package="WE-SECF_331161702513">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160483/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331161702513?ae"/>
+<attribute name="HEIGHT" value="13mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331161702513"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="10 - 12.5mm"/>
+<attribute name="VALUE" value="331161702513"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331161452070" package="WE-SECF_331161452070">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160482/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331161452070?ae"/>
+<attribute name="HEIGHT" value="7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331161452070"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="6 - 6.7mm"/>
+<attribute name="VALUE" value="331161452070"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331171302030" package="WE-SECF_331171302030">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160486/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331171302030?ae"/>
+<attribute name="HEIGHT" value="3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331171302030"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="2.5 - 2.7mm"/>
+<attribute name="VALUE" value="331171302030"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331171302035" package="WE-SECF_331171302035">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160484/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331171302035?ae"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331171302035"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="3.2 - 3mm"/>
+<attribute name="VALUE" value="331171302035"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331211503040" package="WE-SECF_331211503040">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160487/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331211503040?ae"/>
+<attribute name="HEIGHT" value="4mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331211503040"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="2.5 - 3.7mm"/>
+<attribute name="VALUE" value="331211503040"/>
+<attribute name="WIDTH" value="3mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331221602040" package="WE-SECF_331221602040">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160485/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331221602040?ae"/>
+<attribute name="HEIGHT" value="4mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331221602040"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="5 - 5.7mm"/>
+<attribute name="VALUE" value="331221602040"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331011452535" package="WE-SECF_331011452535">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160473/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331011452535?ae"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331011452535"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="3 - 3.2mm"/>
+<attribute name="VALUE" value="331011452535"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331236362553" package="WE-SECF_331236362553">
+<connects>
+<connect gate="G$1" pin="GND" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160488/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331236362553?ae"/>
+<attribute name="HEIGHT" value="5.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331236362553"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="3.4 - 5mm"/>
+<attribute name="VALUE" value="331236362553"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331265563040" package="WE-SECF_331265563040">
+<connects>
+<connect gate="G$1" pin="GND" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160491/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331265563040?ae"/>
+<attribute name="HEIGHT" value="4mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331265563040"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="2.2 - 3.4mm"/>
+<attribute name="VALUE" value="331265563040"/>
+<attribute name="WIDTH" value="3mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331246501860" package="WE-SECF_331246501860">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160489/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331246501860?ae"/>
+<attribute name="HEIGHT" value="6mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331246501860"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="3.7 - 5.8mm"/>
+<attribute name="VALUE" value="331246501860"/>
+<attribute name="WIDTH" value="2.2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331256381840" package="WE-SECF_331256381840">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160490/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331256381840?ae"/>
+<attribute name="HEIGHT" value="4mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331256381840"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="2.5 - 3.8mm"/>
+<attribute name="VALUE" value="331256381840"/>
+<attribute name="WIDTH" value="2.2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331276483050" package="WE-SECF_331276483050">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160492/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331276483050?ae"/>
+<attribute name="HEIGHT" value="5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331276483050"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="2.1 - 4.8mm"/>
+<attribute name="VALUE" value="331276483050"/>
+<attribute name="WIDTH" value="3mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_331061603012" package="WE-SECF_331061603012">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40160471/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/331061603012?ae"/>
+<attribute name="HEIGHT" value="12mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="331061603012"/>
+<attribute name="RECOMMENDED-WORKING-HEIGHT" value="8 - 11.5mm"/>
+<attribute name="VALUE" value="331061603012"/>
+<attribute name="WIDTH" value="3mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,2148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Optoelectronic Components - LEDs - Signal LEDs &amp; Horticulture LEDs - TOP LED  - WL-SMTW&lt;br&gt;&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-08-27&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WL-SMTW_3528_PLCC4" urn="urn:adsk.eagle:footprint:25398888/2">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:3528 PLCC4, SMT, 4pins
+&lt;br&gt;3.5x2.8x1.9mm(LXWXH)</description>
+<smd name="4" x="-1.35" y="0.75" dx="1" dy="0.9" layer="1"/>
+<smd name="1" x="-1.35" y="-0.75" dx="1" dy="0.9" layer="1"/>
+<smd name="2" x="1.35" y="-0.75" dx="1" dy="0.9" layer="1"/>
+<smd name="3" x="1.35" y="0.75" dx="1" dy="0.9" layer="1"/>
+<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.4" x2="1.6" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.4" x2="-1.1" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="-1.4" x2="-1.6" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.9" x2="-1.6" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="1.5" x2="1.7" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="-1.5" x2="1.7" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-0.9" x2="-1.1" y2="-1.4" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.05" y="1.7"/>
+<vertex x="2.05" y="1.7"/>
+<vertex x="2.05" y="-1.7"/>
+<vertex x="-2.05" y="-1.7"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-2.4" y="-1.4" radius="0.1" width="0.3" layer="21"/>
+</package>
+<package name="WL-SMTW_3528_150141XX73103" urn="urn:adsk.eagle:footprint:45188774/2">
+<smd name="2" x="1.425" y="0" dx="1.6" dy="2.4" layer="1"/>
+<smd name="1" x="-1.425" y="0" dx="1.6" dy="2.4" layer="1"/>
+<wire x1="-1.6" y1="1.4" x2="-1.1" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="1.4" x2="1.6" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.4" x2="1.6" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.4" x2="-1.6" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="0.9" x2="-1.6" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="1.4" x2="-1.6" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="1.5" x2="1.7" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="-1.5" x2="1.7" y2="-1.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.425" y="1.7"/>
+<vertex x="2.425" y="1.7"/>
+<vertex x="2.425" y="-1.7"/>
+<vertex x="-2.425" y="-1.7"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.2" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="3" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="3" y="0" size="1.27" layer="51" align="center">+</text>
+</package>
+<package name="WL-SMTW_1608" urn="urn:adsk.eagle:footprint:45188775/2">
+<smd name="2" x="0.7" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="1" x="-0.6" y="0" dx="1.2" dy="0.6" layer="1"/>
+<wire x1="-0.8" y1="0.4" x2="-0.5" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.1" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.1" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.4" x2="-0.8" y2="0.1" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.4" y="0.5"/>
+<vertex x="1.4" y="0.5"/>
+<vertex x="1.4" y="-0.5"/>
+<vertex x="-1.4" y="-0.5"/>
+</polygon>
+<text x="0" y="0.7" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.7" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-2" y="0" size="1.27" layer="21" align="center">+</text>
+<text x="-2" y="0" size="1.27" layer="51" align="center">+</text>
+</package>
+<package name="WL-SMTW_5050" urn="urn:adsk.eagle:footprint:19062488/5">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:5050, SMT, 6pins
+&lt;br&gt;5.4x5x1.6mm(LXWXH)</description>
+<smd name="1" x="-2.2" y="1.63" dx="2.8" dy="1" layer="1"/>
+<smd name="3" x="-2.2" y="0" dx="2.8" dy="1" layer="1"/>
+<smd name="5" x="-2.2" y="-1.63" dx="2.8" dy="1" layer="1"/>
+<smd name="6" x="2.2" y="-1.63" dx="2.8" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="2.2" y="0" dx="2.8" dy="1" layer="1" rot="R180"/>
+<smd name="2" x="2.2" y="1.63" dx="2.8" dy="1" layer="1" rot="R180"/>
+<wire x1="-2.5" y1="2.5" x2="-1.9" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-1.9" y1="2.5" x2="2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="1.9" x2="-2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="2.6" x2="2.6" y2="2.6" width="0.2" layer="21"/>
+<wire x1="2.6" y1="2.6" x2="2.6" y2="2.5" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="2.6" x2="-2.6" y2="2.5" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-2.5" x2="-2.6" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="2.6" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="2.6" y1="-2.6" x2="2.6" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="0.23" y1="0.33" x2="0.23" y2="-0.33" width="0.1" layer="51"/>
+<wire x1="0.23" y1="-0.33" x2="-0.31" y2="0.02" width="0.1" layer="51"/>
+<wire x1="-0.31" y1="0.02" x2="0.23" y2="0.33" width="0.1" layer="51"/>
+<wire x1="0.23" y1="0.33" x2="0.23" y2="-0.33" width="0.1" layer="21"/>
+<wire x1="0.23" y1="-0.33" x2="-0.31" y2="0.02" width="0.1" layer="21"/>
+<wire x1="-0.31" y1="0.02" x2="0.23" y2="0.33" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="1.9" x2="-1.9" y2="2.5" width="0.1" layer="51"/>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.8" y="2.8"/>
+<vertex x="3.8" y="2.8"/>
+<vertex x="3.8" y="-2.8"/>
+<vertex x="-3.8" y="-2.8"/>
+</polygon>
+<circle x="-4.3" y="2.4" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WL-SMTW_2214" urn="urn:adsk.eagle:footprint:19062493/5">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:2214, SMT, 2pins
+&lt;br&gt;2x1.4x1.31mm(LXWXH)</description>
+<smd name="1" x="-1" y="0" dx="1" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="1" y="0" dx="1" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-1.15" y1="0.7" x2="-0.9" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-0.9" y1="0.7" x2="1.15" y2="0.7" width="0.1" layer="51"/>
+<wire x1="1.15" y1="0.7" x2="1.15" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="1.15" y1="-0.7" x2="-1.15" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="-1.15" y1="-0.7" x2="-1.15" y2="0.45" width="0.1" layer="51"/>
+<wire x1="-1.15" y1="0.45" x2="-1.15" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="0.8" x2="1.1" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-1.1" y1="-0.8" x2="1.1" y2="-0.8" width="0.2" layer="21"/>
+<wire x1="0.2" y1="0.24" x2="0.2" y2="-0.27" width="0.1" layer="21"/>
+<wire x1="0.2" y1="-0.27" x2="-0.28" y2="-0.01" width="0.1" layer="21"/>
+<wire x1="0.2" y1="0.24" x2="-0.28" y2="-0.01" width="0.1" layer="21"/>
+<wire x1="0.21" y1="0.25" x2="0.21" y2="-0.26" width="0.1" layer="51"/>
+<wire x1="0.21" y1="-0.26" x2="-0.27" y2="0" width="0.1" layer="51"/>
+<wire x1="0.21" y1="0.25" x2="-0.27" y2="0" width="0.1" layer="51"/>
+<wire x1="-1.15" y1="0.45" x2="-0.9" y2="0.7" width="0.1" layer="51"/>
+<text x="0" y="1.3" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="2" y="0" size="0.6096" layer="21" align="center">+</text>
+<text x="2" y="0" size="0.6096" layer="51" align="center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.6" y="1"/>
+<vertex x="1.6" y="1"/>
+<vertex x="1.6" y="-1"/>
+<vertex x="-1.6" y="-1"/>
+</polygon>
+</package>
+<package name="WL-SMTW_2835" urn="urn:adsk.eagle:footprint:19062492/4">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:2835, SMT, 2pins
+&lt;br&gt;3.5x2.8x0.8mm(LXWXH)</description>
+<text x="0" y="2" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-2.37" y="-0.01" size="0.8128" layer="51" align="center">+</text>
+<text x="-2.37" y="-0.01" size="0.8128" layer="21" align="center">+</text>
+<smd name="1" x="-0.7" y="0" dx="2.1" dy="2.1" layer="1"/>
+<smd name="2" x="1.25" y="0" dx="1" dy="2.1" layer="1"/>
+<wire x1="-1.75" y1="1.4" x2="-1.2" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="1.4" x2="1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.4" x2="-1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="0.85" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.85" x2="-1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="1.35" x2="-1.85" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="1.85" y2="1.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="1.5" x2="1.85" y2="1.35" width="0.2" layer="21"/>
+<wire x1="1.85" y1="-1.35" x2="1.85" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="-1.5" x2="-1.85" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="-1.5" x2="-1.85" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="0.85" x2="-1.2" y2="1.4" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.05" y="1.7"/>
+<vertex x="2.05" y="1.7"/>
+<vertex x="2.05" y="-1.7"/>
+<vertex x="-2.05" y="-1.7"/>
+</polygon>
+</package>
+<package name="WL-SMTW_3528" urn="urn:adsk.eagle:footprint:19062490/5">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:3528, SMT, 2pins
+&lt;br&gt;3.5x2.8x1.9mm(LXWXH)</description>
+<wire x1="-1.75" y1="1.4" x2="-1.15" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.15" y1="1.4" x2="1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.4" x2="-1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.8" x2="-1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="1.5" x2="1.85" y2="1.5" width="0.2" layer="21"/>
+<wire x1="0.2" y1="0.25" x2="0.2" y2="-0.3" width="0.1" layer="21"/>
+<wire x1="0.2" y1="-0.3" x2="-0.2" y2="0" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="0" x2="0.2" y2="0.25" width="0.1" layer="21"/>
+<wire x1="0.21" y1="0.25" x2="0.21" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="0.21" y1="-0.3" x2="-0.19" y2="0" width="0.1" layer="51"/>
+<wire x1="-0.19" y1="0" x2="0.21" y2="0.25" width="0.1" layer="51"/>
+<wire x1="1.85" y1="-1.5" x2="-1.85" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="0.8" x2="-1.15" y2="1.4" width="0.1" layer="51"/>
+<smd name="1" x="-1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
+<smd name="2" x="1.425" y="0" dx="1.6" dy="2.4" layer="1" rot="R180"/>
+<text x="0" y="2" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="2.8" y="0" size="0.8128" layer="21" align="center">+</text>
+<text x="2.8" y="0" size="0.8128" layer="51" align="center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="2.4" y="1.7"/>
+<vertex x="2.4" y="-1.7"/>
+<vertex x="-2.4" y="-1.7"/>
+<vertex x="-2.4" y="1.7"/>
+</polygon>
+</package>
+<package name="WL-SMTW_3020" urn="urn:adsk.eagle:footprint:19062491/5">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:3020, SMT, 2pins
+&lt;br&gt;3x2x1.3mm(LXWXH)</description>
+<smd name="1" x="-1.2" y="0" dx="0.8" dy="1.6" layer="1"/>
+<smd name="2" x="1.2" y="0" dx="0.8" dy="1.6" layer="1"/>
+<wire x1="-1.35" y1="1" x2="-1" y2="1" width="0.1" layer="51"/>
+<wire x1="-1" y1="1" x2="1.35" y2="1" width="0.1" layer="51"/>
+<wire x1="1.35" y1="1" x2="1.35" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.35" y1="-1" x2="-1.35" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="-1" x2="-1.35" y2="0.65" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="0.65" x2="-1.35" y2="1" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="1.1" x2="1.35" y2="1.1" width="0.2" layer="21"/>
+<wire x1="-1.35" y1="-1.1" x2="1.35" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.1" layer="21"/>
+<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.1" layer="21"/>
+<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.1" layer="21"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="0.2" y1="-0.3" x2="-0.3" y2="0" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="0" x2="0.2" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="0.65" x2="-1" y2="1" width="0.1" layer="51"/>
+<text x="0" y="1.5" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.5" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="2.2" y="0" size="0.6096" layer="21" align="center">+</text>
+<text x="2.2" y="0" size="0.6096" layer="51" align="center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.8" y="1.3"/>
+<vertex x="1.8" y="1.3"/>
+<vertex x="1.8" y="-1.3"/>
+<vertex x="-1.8" y="-1.3"/>
+</polygon>
+</package>
+<package name="WL-SMTW_3528_ADV" urn="urn:adsk.eagle:footprint:19062489/5">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:3528 advance, SMT, 2pins
+&lt;br&gt;3.5x2.8x1.9mm(LXWXH)</description>
+<smd name="1" x="-1.425" y="0" dx="1.6" dy="2.4" layer="1"/>
+<smd name="2" x="1.425" y="0" dx="1.6" dy="2.4" layer="1"/>
+<wire x1="-1.75" y1="1.4" x2="-1.1" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="1.4" x2="1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.4" x2="-1.75" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="0.75" x2="-1.75" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="-1.5" x2="1.85" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="0.2" x2="-0.2" y2="-0.2" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-0.2" x2="0.2" y2="0" width="0.1" layer="21"/>
+<wire x1="0.2" y1="0" x2="-0.2" y2="0.2" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="0.2" x2="-0.2" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="-0.2" x2="0.2" y2="0" width="0.1" layer="51"/>
+<wire x1="0.2" y1="0" x2="-0.2" y2="0.2" width="0.1" layer="51"/>
+<wire x1="1.85" y1="1.5" x2="-1.85" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="0.75" x2="-1.1" y2="1.4" width="0.1" layer="51"/>
+<text x="0" y="2.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-2.9" y="0.1" size="0.8128" layer="21" align="center">+</text>
+<text x="-2.9" y="0.1" size="0.8128" layer="51" align="center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.4" y="1.7"/>
+<vertex x="2.4" y="1.7"/>
+<vertex x="2.4" y="-1.7"/>
+<vertex x="-2.4" y="-1.7"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WL-SMTW_3528_PLCC4" urn="urn:adsk.eagle:package:25398891/3" type="model">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:3528 PLCC4, SMT, 4pins
+&lt;br&gt;3.5x2.8x1.9mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMTW_3528_PLCC4"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTW_3528_150141XX73103" urn="urn:adsk.eagle:package:45188777/3" type="model">
+<packageinstances>
+<packageinstance name="WL-SMTW_3528_150141XX73103"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTW_1608" urn="urn:adsk.eagle:package:45188778/3" type="model">
+<packageinstances>
+<packageinstance name="WL-SMTW_1608"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTW_5050" urn="urn:adsk.eagle:package:19062498/7" type="model">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:5050, SMT, 6pins
+&lt;br&gt;5.4x5x1.6mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMTW_5050"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTW_2214" urn="urn:adsk.eagle:package:19062503/6" type="model">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:2214, SMT, 2pins
+&lt;br&gt;2x1.4x1.31mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMTW_2214"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTW_3020" urn="urn:adsk.eagle:package:19062501/6" type="model">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:3020, SMT, 2pins
+&lt;br&gt;3x2x1.3mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMTW_3020"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTW_2835" urn="urn:adsk.eagle:package:19062502/5" type="model">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:2835, SMT, 2pins
+&lt;br&gt;3.5x2.8x0.8mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMTW_2835"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTW_3528" urn="urn:adsk.eagle:package:19062500/6" type="model">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:3528, SMT, 2pins
+&lt;br&gt;3.5x2.8x1.9mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMTW_3528"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SMTW_3528_ADV" urn="urn:adsk.eagle:package:19062499/6" type="model">
+<description>&lt;B&gt;WL-SMTW SMT Mono-color TOP LED Waterclear &lt;/B&gt;
+&lt;br&gt;&lt;br&gt;Size:3528 advance, SMT, 2pins
+&lt;br&gt;3.5x2.8x1.9mm(LXWXH)</description>
+<packageinstances>
+<packageinstance name="WL-SMTW_3528_ADV"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WL-SMTW_150141XX73130">
+<text x="1.27" y="3.772" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="6.858" y="0.254" size="1.27" layer="94">+</text>
+<text x="-2.168" y="-7.138" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="0.254" size="1.27" layer="94">-</text>
+<text x="6.858" y="-4.826" size="1.27" layer="94">-</text>
+<text x="-5.08" y="-4.826" size="1.27" layer="94">-</text>
+<pin name="4" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.032" x2="0.381" y2="3.429" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="3.429"/>
+<vertex x="1.27" y="3.048"/>
+<vertex x="0.762" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="3.302"/>
+<vertex x="0.127" y="2.921"/>
+<vertex x="-0.381" y="2.413"/>
+</polygon>
+</symbol>
+<symbol name="WL-SMTW_150141XX73140">
+<text x="6.858" y="0.254" size="1.27" layer="94">+</text>
+<text x="-2.168" y="-8.89" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="0.254" size="1.27" layer="94">+</text>
+<text x="6.858" y="-4.826" size="1.27" layer="94">+</text>
+<text x="-5.08" y="-4.826" size="1.27" layer="94">-</text>
+<text x="1.27" y="1.232" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<pin name="4" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="2.54" y1="-6.35" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-3.048" x2="0.381" y2="-1.651" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-3.175" x2="-0.762" y2="-1.778" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="-1.651"/>
+<vertex x="1.27" y="-2.032"/>
+<vertex x="0.762" y="-2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="-1.778"/>
+<vertex x="0.127" y="-2.159"/>
+<vertex x="-0.381" y="-2.667"/>
+</polygon>
+</symbol>
+<symbol name="WL-SMTW_1+">
+<text x="-1.76" y="-1.44" size="1.27" layer="94">+</text>
+<text x="1.27" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-3.81" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="-" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="+" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<wire x1="0" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.665" y1="1.245" x2="3.062" y2="2.642" width="0.1524" layer="94"/>
+<wire x1="0.592" y1="1.502" x2="1.989" y2="2.899" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.062" y="2.642"/>
+<vertex x="2.681" y="1.753"/>
+<vertex x="2.173" y="2.261"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.989" y="2.899"/>
+<vertex x="1.608" y="2.01"/>
+<vertex x="1.1" y="2.518"/>
+</polygon>
+</symbol>
+<symbol name="WL-SMTW_5050">
+<text x="1.27" y="9.652" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.89" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="3.32" y="3.64" size="1.27" layer="94">+</text>
+<text x="3.32" y="-1.44" size="1.27" layer="94">+</text>
+<text x="3.32" y="-6.52" size="1.27" layer="94">+</text>
+<wire x1="1.778" y1="7.112" x2="0.381" y2="8.509" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="6.985" x2="-0.762" y2="8.382" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.032" x2="0.381" y2="3.429" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-3.048" x2="0.381" y2="-1.651" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-3.175" x2="-0.762" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="8.509"/>
+<vertex x="1.27" y="8.128"/>
+<vertex x="0.762" y="7.62"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="8.382"/>
+<vertex x="0.127" y="8.001"/>
+<vertex x="-0.381" y="7.493"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="3.429"/>
+<vertex x="1.27" y="3.048"/>
+<vertex x="0.762" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="3.302"/>
+<vertex x="0.127" y="2.921"/>
+<vertex x="-0.381" y="2.413"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="-1.651"/>
+<vertex x="1.27" y="-2.032"/>
+<vertex x="0.762" y="-2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="-1.778"/>
+<vertex x="0.127" y="-2.159"/>
+<vertex x="-0.381" y="-2.667"/>
+</polygon>
+<pin name="2" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="WL-SMTW_2+">
+<description>LED</description>
+<text x="3.08" y="-1.74" size="1.27" layer="94">+</text>
+<text x="1.27" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-3.81" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="-" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.778" y1="2.032" x2="0.381" y2="3.429" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="3.429"/>
+<vertex x="1.27" y="3.048"/>
+<vertex x="0.762" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="3.302"/>
+<vertex x="0.127" y="2.921"/>
+<vertex x="-0.381" y="2.413"/>
+</polygon>
+</symbol>
+<symbol name="WL-SMTW_2214">
+<wire x1="0" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.508" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.508" y2="0.508" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.375" y1="3.745" x2="2.772" y2="5.142" width="0.1524" layer="94"/>
+<wire x1="0.302" y1="4.002" x2="1.699" y2="5.399" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.1" y1="-1.3" x2="2.5" y2="-1.3" width="0.254" layer="94"/>
+<pin name="-" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="+" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<text x="2.19" y="5.99" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0.446" y="-4.67" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-2.53" y="0.5" size="1.778" layer="94" align="bottom-center">+</text>
+<text x="4.77" y="1.1" size="1.778" layer="94" align="bottom-center">-</text>
+<polygon width="0.1524" layer="94">
+<vertex x="2.772" y="5.142"/>
+<vertex x="2.391" y="4.253"/>
+<vertex x="1.883" y="4.761"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.699" y="5.399"/>
+<vertex x="1.318" y="4.51"/>
+<vertex x="0.81" y="5.018"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WL-SMTW_3528_150141XX73103" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o244324v209%20Unbenannt.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o244324v209%20Unbenannt.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella 2024-08-27&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_2+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_3528_150141XX73103">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45188777/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141AS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141AS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="605nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value=" 2.1 "/>
+<attribute name="LUMINOUS-INTENSITY" value="320mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141AS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="610nm"/>
+<attribute name="VALUE" value="150141AS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+<technology name="_150141BS73103">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141BS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3"/>
+<attribute name="LUMINOUS-INTENSITY" value="440mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+<technology name="_150141GS73103">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141GS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value=" 3 "/>
+<attribute name="LUMINOUS-INTENSITY" value="2100mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+<technology name="_150141RS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141RS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="625nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value=" 2.1 "/>
+<attribute name="LUMINOUS-INTENSITY" value="280mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+<technology name="_150141YS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141YS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value=" 2.1 "/>
+<attribute name="LUMINOUS-INTENSITY" value="370mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_3528_150141XX73140" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_150141XX73140" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_3528_PLCC4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25398891/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141BS73140">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141BS73140?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS73140"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS73140"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141GS73140">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141GS73140?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="520nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS73140"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS73140"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141RS73140">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141RS73140?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="3000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS73140"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS73140"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141YS73140">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141YS73140?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS73140"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS73140"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_3528_150141XX73130" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_150141XX73130" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_3528_PLCC4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25398891/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141BS73130">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141BS73130?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS73130"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS73130"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141GS73130">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141GS73130?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="520nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="5000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS73130"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS73130"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141RS73130">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141RS73130?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="3000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS73130"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS73130"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141YS73130">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141YS73130?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.4V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS73130"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS73130"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_1608" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o244324v209%20Unbenannt.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o244324v209%20Unbenannt.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella 2024-08-27&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_1+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_1608">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45188778/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_150160AS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150160AS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="605nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="700mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150160AS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="610nm"/>
+<attribute name="VALUE" value="150160AS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+<technology name="_150160BS73103">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150160BS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="400mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150160BS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150160BS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+<technology name="_150160GS73103">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150160GS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.3V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1350mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150160GS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150160GS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+<technology name="_150160RS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150160RS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="625nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="800mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150160RS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150160RS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+<technology name="_150160SS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150160SS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="630nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="540mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150160SS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="640nm"/>
+<attribute name="VALUE" value="150160SS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+<technology name="_150160YS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlGaInP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150160YS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="700mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150160YS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150160YS73103"/>
+<attribute name="VIEWING-ANGLE" value=" 120 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_2214_A" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_2+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_2214">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19062503/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_150224BS73100A">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224BS73100A?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="320mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224BS73100A"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150224BS73100A"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150224GS73100A">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224GS73100A?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1500mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224GS73100A"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150224GS73100A"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150224RS73100A">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224RS73100A?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="625nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="350mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224RS73100A"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150224RS73100A"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150224VS73100A">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224VS73100A?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="70mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224VS73100A"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm"/>
+<attribute name="VALUE" value="150224VS73100A"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150224YS73100A">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224YS73100A?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="330mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224YS73100A"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150224YS73100A"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_2214" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o244324v209%20Unbenannt.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o244324v209%20Unbenannt.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_2214" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_2214">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19062503/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_150224AS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224AS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="605nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="210mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224AS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="609nm"/>
+<attribute name="VALUE" value="150224AS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150224BS73100">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224BS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="456nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3V"/>
+<attribute name="LUMINOUS-INTENSITY" value="220mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224BS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="452nm"/>
+<attribute name="VALUE" value="150224BS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150224GS73100">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224GS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="528nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1200mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224GS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="519nm"/>
+<attribute name="VALUE" value="150224GS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150224SS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224SS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="636nm"/>
+<attribute name="EMITTING-COLOR" value="Super Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="130mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224SS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="652nm"/>
+<attribute name="VALUE" value="150224SS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150224YS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150224YS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="586nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="290mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150224YS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="589nm"/>
+<attribute name="VALUE" value="150224YS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_5050" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-11-09&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_5050" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_5050">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19062498/7"/>
+</package3dinstances>
+<technologies>
+<technology name="_150505BS73300">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150505BS73300?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.3V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150505BS73300"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150505BS73300"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150505GS73300">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150505GS73300?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="4300mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150505GS73300"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150505GS73300"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150505RS73300">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150505RS73300?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="625nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2300mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150505RS73300"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150505RS73300"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150505YS73300">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150505YS73300?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2400mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150505YS73300"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150505YS73300"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_2835_HORTICULTURE" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL_SMTW_HORTICULTURE/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_1+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_2835">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19062502/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_150283DS73103">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150283DS73103?ae"/>
+<attribute name="EMITTING-COLOR" value="Deep Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150283DS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="450nm"/>
+<attribute name="RADIANT-FLUX" value="250mW"/>
+<attribute name="VALUE" value="150283DS73103"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150283FS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150283FS73103?ae"/>
+<attribute name="EMITTING-COLOR" value="Far Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.2V"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150283FS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="730nm"/>
+<attribute name="RADIANT-FLUX" value="110mW"/>
+<attribute name="VALUE" value="150283FS73103"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150283HS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150283HS73103?ae"/>
+<attribute name="EMITTING-COLOR" value="Hyper Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.2V"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150283HS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="660nm"/>
+<attribute name="RADIANT-FLUX" value="120mW"/>
+<attribute name="VALUE" value="150283HS73103"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_2835" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_1+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_2835">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19062502/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_150283BS73103">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150283BS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="467nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-FLUX" value="12lm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150283BS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="463nm"/>
+<attribute name="VALUE" value="150283BS73103"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150283GS73103">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150283GS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3V"/>
+<attribute name="LUMINOUS-FLUX" value="40lm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150283GS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="517nm"/>
+<attribute name="VALUE" value="150283GS73103"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150283RS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150283RS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.2V"/>
+<attribute name="LUMINOUS-FLUX" value="19lm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150283RS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="629nm"/>
+<attribute name="VALUE" value="150283RS73103"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150283YS73103">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150283YS73103?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.2V"/>
+<attribute name="LUMINOUS-FLUX" value="18lm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150283YS73103"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150283YS73103"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_3528" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_2+" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_3528">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19062500/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141AS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141AS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="605nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="330mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141AS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="610nm"/>
+<attribute name="VALUE" value="150141AS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141BS73100">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141BS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="270mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150141BS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141GS73100">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141GS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.1V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150141GS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141RS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141RS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="625nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="300mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150141RS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141VS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141VS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="90mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141VS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm"/>
+<attribute name="VALUE" value="150141VS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141YS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141YS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="260mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_3020" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_2+" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_3020">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19062501/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_150302BS73100">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150302BS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="470nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="280mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150302BS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="465nm"/>
+<attribute name="VALUE" value="150302BS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150302GS73100">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150302GS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="525nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3.5V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1200mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150302GS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="515nm"/>
+<attribute name="VALUE" value="150302GS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150302RS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150302RS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="625nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="180mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150302RS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="630nm"/>
+<attribute name="VALUE" value="150302RS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150302VS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150302VS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="570nm"/>
+<attribute name="EMITTING-COLOR" value="Bright Green"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="70mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150302VS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="572nm"/>
+<attribute name="VALUE" value="150302VS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150302YS73100">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150302YS73100?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="250mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150302YS73100"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150302YS73100"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WL-SMTW_3528_ADV" prefix="D">
+<description>&lt;B&gt; WL-SMTW SMT Mono-color TOP LED Waterclear
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Characteristics
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Low energy consumption 
+&lt;br&gt;High reliability 
+&lt;br&gt;Low current requirement 
+&lt;br&gt;Fast switching 
+&lt;br&gt;No UV/IR radiation 
+&lt;br&gt;Slim 
+&lt;br&gt;Miniature size 
+&lt;br&gt;Flexibility in design 
+&lt;br&gt;Top view 
+&lt;br&gt;LED PLCC 2 white package 
+&lt;br&gt;Compact package outline, ideal for miniature applications 
+&lt;br&gt;Variety of colors 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Signage and indirect illumination 
+&lt;br&gt;Flat lamp 
+&lt;br&gt;Indicator and backlight in telecommunication 
+&lt;br&gt;Consumer application: dash-board, telephone or A/V equipments 
+&lt;br&gt;Flat backlight for LCDs, switches and symbols 
+&lt;br&gt;Optical indicators 
+&lt;br&gt;Indoor and outdoor displays 
+&lt;br&gt;Scanner 
+&lt;br&gt;Backlight in LCD, cellular phones, switches, keys, displays 
+&lt;br&gt;lluminated advertising, panel 
+&lt;br&gt;Lighting device: indicator, general lighting 
+&lt;br&gt;Camera flash, hand carrier flash 
+&lt;br&gt;Coupling into light guides 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14908v209%20WL-SMTW_150285BSxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-SMTW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-SMTW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2022-06-21&lt;br&gt;
+&lt;/b&gt;2022(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SMTW_1+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-SMTW_3528_ADV">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19062499/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_150141AS73113">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141AS73113?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="609nm"/>
+<attribute name="EMITTING-COLOR" value="Amber"/>
+<attribute name="FORWARD-VOLTAGE" value="2.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="800mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141AS73113"/>
+<attribute name="PEAK-WAVELENGTH" value="615nm"/>
+<attribute name="VALUE" value="150141AS73113"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141BS73113">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141BS73113?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="467nm"/>
+<attribute name="EMITTING-COLOR" value="Blue"/>
+<attribute name="FORWARD-VOLTAGE" value="3.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="530mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141BS73113"/>
+<attribute name="PEAK-WAVELENGTH" value="463nm"/>
+<attribute name="VALUE" value="150141BS73113"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141GS73113">
+<attribute name="CHIP-TECHNOLOGY" value="InGaN"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141GS73113?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="522nm"/>
+<attribute name="EMITTING-COLOR" value="Green"/>
+<attribute name="FORWARD-VOLTAGE" value="3V"/>
+<attribute name="LUMINOUS-INTENSITY" value="2500mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141GS73113"/>
+<attribute name="PEAK-WAVELENGTH" value="517nm"/>
+<attribute name="VALUE" value="150141GS73113"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141RS73113">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141RS73113?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="620nm"/>
+<attribute name="EMITTING-COLOR" value="Red"/>
+<attribute name="FORWARD-VOLTAGE" value="2.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="900mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141RS73113"/>
+<attribute name="PEAK-WAVELENGTH" value="629nm"/>
+<attribute name="VALUE" value="150141RS73113"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+<technology name="_150141YS73113">
+<attribute name="CHIP-TECHNOLOGY" value="AlInGaP"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/150141YS73113?ae"/>
+<attribute name="DOMINANT-WAVELENGTH" value="590nm"/>
+<attribute name="EMITTING-COLOR" value="Yellow"/>
+<attribute name="FORWARD-VOLTAGE" value="2.2V"/>
+<attribute name="LUMINOUS-INTENSITY" value="1000mcd"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="150141YS73113"/>
+<attribute name="PEAK-WAVELENGTH" value="592nm"/>
+<attribute name="VALUE" value="150141YS73113"/>
+<attribute name="VIEWING-ANGLE" value="120°"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
