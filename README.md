@@ -1,4 +1,4 @@
-**Eagle Libraries for Würth Elektronik Products**
+**Eagle Library for Würth Elektronik Products**
 =
 
 ## Introduction
