@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -63,7 +63,7 @@
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - Power Modules - Step Down Converter - Variable Output Voltage - WPME-VDLM &lt;br&gt;
+<description>&lt;BR&gt;Wurth Elektronik - Power Modules (MagI³C Series) - Step Down Converter - Variable Output Voltage - WPME-VDLM &lt;br&gt;
 &lt;Hr&gt;
 &lt;BR&gt;
 &lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
@@ -133,7 +133,7 @@ Würth Elektronik eiSos expressly disclaims all implied warranties regarding thi
  &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-06-05&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-11-12&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
@@ -370,6 +370,58 @@ Copyright: Würth Elektronik</description>
 </package3d>
 </packages3d>
 <symbols>
+<symbol name="WPME-VDLM_1710X3802">
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="VIN" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="EN/SYNC" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="PG" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="AGND" x="2.54" y="-10.16" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="FB" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="VOUT" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="PGND" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="FSW" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="VCC" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<text x="0" y="11.43" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-6.35" y="2.54" size="1.27" layer="94" align="center-left">PG</text>
+<text x="-6.35" y="5.08" size="1.27" layer="94" align="center-left">EN/SYNC</text>
+<text x="-6.35" y="7.62" size="1.27" layer="94" align="center-left">VIN</text>
+<text x="6.35" y="7.62" size="1.27" layer="94" align="center-right">VOUT</text>
+<text x="6.35" y="0" size="1.27" layer="94" align="center-right">FB</text>
+<text x="-3.302" y="-6.35" size="1.27" layer="94" align="center">PGND</text>
+<text x="3.302" y="-6.35" size="1.27" layer="94" align="center">AGND</text>
+<text x="-6.35" y="0" size="1.27" layer="94" align="center-left">FSW</text>
+<text x="-6.35" y="-2.54" size="1.27" layer="94" align="center-left">VCC</text>
+</symbol>
+<symbol name="WPME-VDLM_1710X3801">
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="VIN" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="EN" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="PG" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="AGND" x="2.54" y="-10.16" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="FB" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="VOUT" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="PGND" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="FSW" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="VCC" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<text x="0" y="11.43" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-6.35" y="2.54" size="1.27" layer="94" align="center-left">PG</text>
+<text x="-6.35" y="5.08" size="1.27" layer="94" align="center-left">EN</text>
+<text x="-6.35" y="7.62" size="1.27" layer="94" align="center-left">VIN</text>
+<text x="6.35" y="7.62" size="1.27" layer="94" align="center-right">VOUT</text>
+<text x="6.35" y="0" size="1.27" layer="94" align="center-right">FB</text>
+<text x="-3.302" y="-6.35" size="1.27" layer="94" align="center">PGND</text>
+<text x="3.302" y="-6.35" size="1.27" layer="94" align="center">AGND</text>
+<text x="-6.35" y="0" size="1.27" layer="94" align="center-left">FSW</text>
+<text x="-6.35" y="-2.54" size="1.27" layer="94" align="center-left">VCC</text>
+</symbol>
 <symbol name="WPME-VDLM_LGA-16EP">
 <pin name="13FB" x="15.24" y="-2.54" visible="pad" length="middle" direction="in" rot="R180"/>
 <pin name="16EN" x="-15.24" y="-2.54" visible="pad" length="middle" direction="in"/>
@@ -400,35 +452,9 @@ Copyright: Würth Elektronik</description>
 <text x="8.89" y="2.54" size="1.4224" layer="94" align="center-right">VOUT</text>
 <text x="8.89" y="0" size="1.4224" layer="94" align="center-right">VOUT</text>
 </symbol>
-<symbol name="WPME-VDLM_LGA-12EP">
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<pin name="VIN" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
-<pin name="EN" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
-<pin name="PG" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="AGND" x="2.54" y="-10.16" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="FB" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="VOUT" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="PGND" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="FSW" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="VCC" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
-<text x="0" y="11.43" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-12.7" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<text x="-6.35" y="2.54" size="1.27" layer="94" align="center-left">PG</text>
-<text x="-6.35" y="5.08" size="1.27" layer="94" align="center-left">EN</text>
-<text x="-6.35" y="7.62" size="1.27" layer="94" align="center-left">VIN</text>
-<text x="6.35" y="7.62" size="1.27" layer="94" align="center-right">VOUT</text>
-<text x="6.35" y="0" size="1.27" layer="94" align="center-right">FB</text>
-<text x="-3.302" y="-6.35" size="1.27" layer="94" align="center">PGND</text>
-<text x="3.302" y="-6.35" size="1.27" layer="94" align="center">AGND</text>
-<text x="-6.35" y="0" size="1.27" layer="94" align="center-left">FSW</text>
-<text x="-6.35" y="-2.54" size="1.27" layer="94" align="center-left">VCC</text>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="WPME-VDLM_LGA-12EP" prefix="U">
+<deviceset name="171013802" prefix="U">
 <description>&lt;b&gt;MagI³C-VDLM Variable Step Down LGA Module &lt;/b&gt;&lt;br&gt;
 &lt;br&gt;
 
@@ -439,6 +465,13 @@ Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
 &lt;br&gt;&lt;b&gt;LGA-12EP&lt;/b&gt;
 &lt;br&gt;For direct connection to 24 V industrial voltage network
 &lt;br&gt;Low profile LGA-package
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Stand alone solution (CIN and COUT integrated, 2 external components to set VOUT)
 &lt;br&gt;Ideal for space constrained applications
 &lt;br&gt;2 solder cycles supported
 &lt;br&gt;&lt;br&gt;
@@ -452,16 +485,163 @@ Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
 &lt;br&gt;Industrial electronics
 &lt;br&gt;Telecommunications
 
-
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o683498v209%20171031801_multi-parts.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o683498v209%20171031801_multi-parts.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-VDLM&lt;/a&gt;&lt;p&gt;
 
-&lt;/b&gt;Updated by Ella Wu 2023-06-05&lt;br&gt;
-&lt;/b&gt;2023(C) Wurth Elektronik</description>
+&lt;/b&gt;Created by Ella Wu 2024-11-12&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="WPME-VDLM_LGA-12EP" x="0" y="0"/>
+<gate name="G$1" symbol="WPME-VDLM_1710X3802" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WPME-VDLM_LGA-12EP">
+<connects>
+<connect gate="G$1" pin="AGND" pad="10"/>
+<connect gate="G$1" pin="EN/SYNC" pad="12"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="FSW" pad="1"/>
+<connect gate="G$1" pin="PG" pad="11"/>
+<connect gate="G$1" pin="PGND" pad="EP"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4 5 9"/>
+<connect gate="G$1" pin="VOUT" pad="6 7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38668746/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171013802?ae"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="I-OUTPUT" value="3A"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 171013802 "/>
+<attribute name="SIZE" value="LGA-12EP"/>
+<attribute name="V-INPUT" value="3.5 - 38Vin"/>
+<attribute name="V-OUTPUT" value="0.85 - 13Vout"/>
+<attribute name="VALUE" value="3.5 - 38Vin, 0.85 - 13Vout, 3A"/>
+<attribute name="WIDTH" value="6mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="171033802" prefix="U">
+<description>&lt;b&gt;MagI³C-VDLM Variable Step Down LGA Module &lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Characteristics&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-12EP&lt;/b&gt;
+&lt;br&gt;For direct connection to 24 V industrial voltage network
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Stand alone solution (CIN and COUT integrated, 2 external components to set VOUT)
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Applications &lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Point-of-Load DC-DC applications from 18V, 15V, 12V, 9V, 5V industrial rails
+&lt;br&gt;Test and measurement equipment
+&lt;br&gt;Medical equipment
+&lt;br&gt;Interface supply
+&lt;br&gt;Supply of microcontrollers, microprocessors, DSPs, FPGAs
+&lt;br&gt;Industrial electronics
+&lt;br&gt;Telecommunications
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-VDLM&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu 2024-11-12&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WPME-VDLM_1710X3802" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WPME-VDLM_LGA-12EP">
+<connects>
+<connect gate="G$1" pin="AGND" pad="10"/>
+<connect gate="G$1" pin="EN/SYNC" pad="12"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="FSW" pad="1"/>
+<connect gate="G$1" pin="PG" pad="11"/>
+<connect gate="G$1" pin="PGND" pad="EP"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4 5 9"/>
+<connect gate="G$1" pin="VOUT" pad="6 7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38668746/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171033802?ae"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="I-OUTPUT" value="1A"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 171033802 "/>
+<attribute name="SIZE" value="LGA-12EP"/>
+<attribute name="V-INPUT" value="3.5 - 38Vin"/>
+<attribute name="V-OUTPUT" value="0.85 - 6Vout"/>
+<attribute name="VALUE" value="3.5 - 38Vin, 0.85 - 6Vout, 1A"/>
+<attribute name="WIDTH" value="6mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="171033801" prefix="U">
+<description>&lt;b&gt;MagI³C-VDLM Variable Step Down LGA Module &lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Characteristics&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-12EP&lt;/b&gt;
+&lt;br&gt;For direct connection to 24 V industrial voltage network
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Stand alone solution (CIN and COUT integrated, 2 external components to set VOUT)
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Applications &lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Point-of-Load DC-DC applications from 18V, 15V, 12V, 9V, 5V industrial rails
+&lt;br&gt;Test and measurement equipment
+&lt;br&gt;Medical equipment
+&lt;br&gt;Interface supply
+&lt;br&gt;Supply of microcontrollers, microprocessors, DSPs, FPGAs
+&lt;br&gt;Industrial electronics
+&lt;br&gt;Telecommunications
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-VDLM&lt;/a&gt;&lt;p&gt;
+
+
+&lt;/b&gt;Updated by Ella Wu 2024-11-12&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WPME-VDLM_1710X3801" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="WPME-VDLM_LGA-12EP">
@@ -480,38 +660,24 @@ Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_
 <package3dinstance package3d_urn="urn:adsk.eagle:package:38668746/4"/>
 </package3dinstances>
 <technologies>
-<technology name="_171013801">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171013801?ae"/>
-<attribute name="I-OUTPUT" value="1A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 171013801 "/>
-<attribute name="V-INPUT" value="3.5 - 38Vin"/>
-<attribute name="V-OUTPUT" value="0.85 - 13Vout"/>
-<attribute name="VALUE" value=" 171013801 "/>
-</technology>
-<technology name="_171023801">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171023801?ae"/>
-<attribute name="I-OUTPUT" value="2A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 171023801 "/>
-<attribute name="V-INPUT" value="3.5 - 38Vin"/>
-<attribute name="V-OUTPUT" value="0.85 - 13Vout"/>
-<attribute name="VALUE" value=" 171023801 "/>
-</technology>
-<technology name="_171033801">
+<technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171033801?ae"/>
+<attribute name="HEIGHT" value="3.1mm"/>
 <attribute name="I-OUTPUT" value="3A"/>
+<attribute name="LENGTH" value="10mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value=" 171033801 "/>
+<attribute name="SIZE" value="LGA-12EP"/>
 <attribute name="V-INPUT" value="3.5 - 38Vin"/>
 <attribute name="V-OUTPUT" value="0.85 - 6Vout"/>
-<attribute name="VALUE" value=" 171033801 "/>
+<attribute name="VALUE" value="3.5 - 38Vin, 0.85 - 6Vout, 3A"/>
+<attribute name="WIDTH" value="6mm"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WPME-VDLM_LGA-16EP" prefix="U">
+<deviceset name="171023801" prefix="U">
 <description>&lt;b&gt;MagI³C-VDLM Variable Step Down LGA Module &lt;/b&gt;&lt;br&gt;
 &lt;br&gt;
 
@@ -519,8 +685,15 @@ Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_
 &lt;br&gt;
 Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
 &lt;br&gt;
-&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;&lt;br&gt;
-Low profile LGA-package
+&lt;br&gt;&lt;b&gt;LGA-12EP&lt;/b&gt;
+&lt;br&gt;For direct connection to 24 V industrial voltage network
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;
+&lt;br&gt;Low profile LGA-package
 &lt;br&gt;Stand alone solution (CIN and COUT integrated, 2 external components to set VOUT)
 &lt;br&gt;Ideal for space constrained applications
 &lt;br&gt;2 solder cycles supported
@@ -535,14 +708,86 @@ Low profile LGA-package
 &lt;br&gt;Industrial electronics
 &lt;br&gt;Telecommunications
 
-
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o683498v209%20171031801_multi-parts.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o683498v209%20171031801_multi-parts.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-VDLM&lt;/a&gt;&lt;p&gt;
 
-&lt;/b&gt;Updated by Ella Wu 2023-06-05&lt;br&gt;
-&lt;/b&gt;2023(C) Wurth Elektronik</description>
+&lt;/b&gt;Updated by Ella Wu 2024-11-12&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WPME-VDLM_1710X3801" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WPME-VDLM_LGA-12EP">
+<connects>
+<connect gate="G$1" pin="AGND" pad="10"/>
+<connect gate="G$1" pin="EN" pad="12"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="FSW" pad="1"/>
+<connect gate="G$1" pin="PG" pad="11"/>
+<connect gate="G$1" pin="PGND" pad="EP"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4 5 9" route="any"/>
+<connect gate="G$1" pin="VOUT" pad="6 7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38668746/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171023801?ae"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="I-OUTPUT" value="2A"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 171023801 "/>
+<attribute name="SIZE" value="LGA-12EP"/>
+<attribute name="V-INPUT" value="3.5 - 38Vin"/>
+<attribute name="V-OUTPUT" value="0.85 - 13Vout"/>
+<attribute name="VALUE" value="3.5 - 38Vin, 0.85 - 13Vout, 2A"/>
+<attribute name="WIDTH" value="6mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="171021801" prefix="U">
+<description>&lt;b&gt;MagI³C-VDLM Variable Step Down LGA Module &lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Characteristics&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-12EP&lt;/b&gt;
+&lt;br&gt;For direct connection to 24 V industrial voltage network
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Stand alone solution (CIN and COUT integrated, 2 external components to set VOUT)
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Applications &lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Point-of-Load DC-DC applications from 18V, 15V, 12V, 9V, 5V industrial rails
+&lt;br&gt;Test and measurement equipment
+&lt;br&gt;Medical equipment
+&lt;br&gt;Interface supply
+&lt;br&gt;Supply of microcontrollers, microprocessors, DSPs, FPGAs
+&lt;br&gt;Industrial electronics
+&lt;br&gt;Telecommunications
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-VDLM&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu 2024-11-12&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="WPME-VDLM_LGA-16EP" x="0" y="0"/>
 </gates>
@@ -565,32 +810,318 @@ Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_
 <package3dinstance package3d_urn="urn:adsk.eagle:package:40565719/2"/>
 </package3dinstances>
 <technologies>
-<technology name="_171011801">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171011801?ae"/>
-<attribute name="I-OUTPUT" value="1A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 171011801 "/>
-<attribute name="V-INPUT" value="4 - 18Vin"/>
-<attribute name="V-OUTPUT" value="0.8 - 17Vout"/>
-<attribute name="VALUE" value=" 171011801 "/>
-</technology>
-<technology name="_171021801">
+<technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171021801?ae"/>
+<attribute name="HEIGHT" value="3mm"/>
 <attribute name="I-OUTPUT" value="2A"/>
+<attribute name="LENGTH" value="9mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value=" 171021801 "/>
+<attribute name="SIZE" value="LGA-16EP"/>
 <attribute name="V-INPUT" value="4 - 18Vin"/>
 <attribute name="V-OUTPUT" value="0.8 - 17Vout"/>
-<attribute name="VALUE" value=" 171021801 "/>
+<attribute name="VALUE" value="4 - 18Vin, 0.8 - 17Vout, 2A"/>
+<attribute name="WIDTH" value="9mm"/>
 </technology>
-<technology name="_171031801">
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="171031801" prefix="U">
+<description>&lt;b&gt;MagI³C-VDLM Variable Step Down LGA Module &lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Characteristics&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-12EP&lt;/b&gt;
+&lt;br&gt;For direct connection to 24 V industrial voltage network
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Stand alone solution (CIN and COUT integrated, 2 external components to set VOUT)
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Applications &lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Point-of-Load DC-DC applications from 18V, 15V, 12V, 9V, 5V industrial rails
+&lt;br&gt;Test and measurement equipment
+&lt;br&gt;Medical equipment
+&lt;br&gt;Interface supply
+&lt;br&gt;Supply of microcontrollers, microprocessors, DSPs, FPGAs
+&lt;br&gt;Industrial electronics
+&lt;br&gt;Telecommunications
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-VDLM&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu 2024-11-12&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WPME-VDLM_LGA-16EP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WPME-VDLM_LGA-16EP">
+<connects>
+<connect gate="G$1" pin="10VOUT" pad="10"/>
+<connect gate="G$1" pin="11VOUT" pad="11"/>
+<connect gate="G$1" pin="12VOUT" pad="12"/>
+<connect gate="G$1" pin="13FB" pad="13"/>
+<connect gate="G$1" pin="16EN" pad="16"/>
+<connect gate="G$1" pin="9VOUT" pad="9"/>
+<connect gate="G$1" pin="GND" pad="EP1 EP2 EP3 EP4"/>
+<connect gate="G$1" pin="VIN1" pad="1"/>
+<connect gate="G$1" pin="VIN2" pad="2"/>
+<connect gate="G$1" pin="VIN3" pad="3"/>
+<connect gate="G$1" pin="VIN4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40565719/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171031801?ae"/>
+<attribute name="HEIGHT" value="3mm"/>
 <attribute name="I-OUTPUT" value="3A"/>
+<attribute name="LENGTH" value="9mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value=" 171031801 "/>
+<attribute name="SIZE" value="LGA-16EP"/>
 <attribute name="V-INPUT" value="4 - 18Vin"/>
 <attribute name="V-OUTPUT" value="0.8 - 17Vout"/>
-<attribute name="VALUE" value=" 171031801 "/>
+<attribute name="VALUE" value="4 - 18Vin, 0.8 - 17Vout, 3A"/>
+<attribute name="WIDTH" value="9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="171011801" prefix="U">
+<description>&lt;b&gt;MagI³C-VDLM Variable Step Down LGA Module &lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Characteristics&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-12EP&lt;/b&gt;
+&lt;br&gt;For direct connection to 24 V industrial voltage network
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Stand alone solution (CIN and COUT integrated, 2 external components to set VOUT)
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Applications &lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Point-of-Load DC-DC applications from 18V, 15V, 12V, 9V, 5V industrial rails
+&lt;br&gt;Test and measurement equipment
+&lt;br&gt;Medical equipment
+&lt;br&gt;Interface supply
+&lt;br&gt;Supply of microcontrollers, microprocessors, DSPs, FPGAs
+&lt;br&gt;Industrial electronics
+&lt;br&gt;Telecommunications
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-VDLM&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu 2024-11-12&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WPME-VDLM_LGA-16EP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WPME-VDLM_LGA-16EP">
+<connects>
+<connect gate="G$1" pin="10VOUT" pad="10"/>
+<connect gate="G$1" pin="11VOUT" pad="11"/>
+<connect gate="G$1" pin="12VOUT" pad="12"/>
+<connect gate="G$1" pin="13FB" pad="13"/>
+<connect gate="G$1" pin="16EN" pad="16"/>
+<connect gate="G$1" pin="9VOUT" pad="9"/>
+<connect gate="G$1" pin="GND" pad="EP1 EP2 EP3 EP4"/>
+<connect gate="G$1" pin="VIN1" pad="1"/>
+<connect gate="G$1" pin="VIN2" pad="2"/>
+<connect gate="G$1" pin="VIN3" pad="3"/>
+<connect gate="G$1" pin="VIN4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40565719/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171011801?ae"/>
+<attribute name="HEIGHT" value="3mm"/>
+<attribute name="I-OUTPUT" value="1A"/>
+<attribute name="LENGTH" value="9mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 171011801 "/>
+<attribute name="SIZE" value="LGA-16EP"/>
+<attribute name="V-INPUT" value="4 - 18Vin"/>
+<attribute name="V-OUTPUT" value="0.8 - 17Vout"/>
+<attribute name="VALUE" value="4 - 18Vin, 0.8 - 17Vout, 1A"/>
+<attribute name="WIDTH" value="9mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="171023802" prefix="U">
+<description>&lt;b&gt;MagI³C-VDLM Variable Step Down LGA Module &lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Characteristics&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-12EP&lt;/b&gt;
+&lt;br&gt;For direct connection to 24 V industrial voltage network
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Stand alone solution (CIN and COUT integrated, 2 external components to set VOUT)
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Applications &lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Point-of-Load DC-DC applications from 18V, 15V, 12V, 9V, 5V industrial rails
+&lt;br&gt;Test and measurement equipment
+&lt;br&gt;Medical equipment
+&lt;br&gt;Interface supply
+&lt;br&gt;Supply of microcontrollers, microprocessors, DSPs, FPGAs
+&lt;br&gt;Industrial electronics
+&lt;br&gt;Telecommunications
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-VDLM&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella Wu 2024-11-12&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WPME-VDLM_1710X3802" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WPME-VDLM_LGA-12EP">
+<connects>
+<connect gate="G$1" pin="AGND" pad="10"/>
+<connect gate="G$1" pin="EN/SYNC" pad="12"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="FSW" pad="1"/>
+<connect gate="G$1" pin="PG" pad="11"/>
+<connect gate="G$1" pin="PGND" pad="EP"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4 5 9"/>
+<connect gate="G$1" pin="VOUT" pad="6 7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38668746/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171023802?ae"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="I-OUTPUT" value="2A"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 171023802 "/>
+<attribute name="SIZE" value="LGA-12EP"/>
+<attribute name="V-INPUT" value="3.5 - 38Vin"/>
+<attribute name="V-OUTPUT" value="0.85 - 13Vout"/>
+<attribute name="VALUE" value="3.5 - 38Vin, 0.85 - 13Vout, 2A"/>
+<attribute name="WIDTH" value="6mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="171013801" prefix="U">
+<description>&lt;b&gt;MagI³C-VDLM Variable Step Down LGA Module &lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+
+&lt;b&gt;Characteristics&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Low conducted and radiated EMI (compliant to EN55022 class B / CISPR-22)
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-12EP&lt;/b&gt;
+&lt;br&gt;For direct connection to 24 V industrial voltage network
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;LGA-16EP&lt;/b&gt;
+&lt;br&gt;Low profile LGA-package
+&lt;br&gt;Stand alone solution (CIN and COUT integrated, 2 external components to set VOUT)
+&lt;br&gt;Ideal for space constrained applications
+&lt;br&gt;2 solder cycles supported
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Applications &lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Point-of-Load DC-DC applications from 18V, 15V, 12V, 9V, 5V industrial rails
+&lt;br&gt;Test and measurement equipment
+&lt;br&gt;Medical equipment
+&lt;br&gt;Interface supply
+&lt;br&gt;Supply of microcontrollers, microprocessors, DSPs, FPGAs
+&lt;br&gt;Industrial electronics
+&lt;br&gt;Telecommunications
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o683498v209%20Family_Magic-VDLM_171013801_171011801.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MAGIC-VDLM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-VDLM&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu 2024-11-12&lt;br&gt;
+&lt;/b&gt;2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WPME-VDLM_1710X3801" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WPME-VDLM_LGA-12EP">
+<connects>
+<connect gate="G$1" pin="AGND" pad="10"/>
+<connect gate="G$1" pin="EN" pad="12"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="FSW" pad="1"/>
+<connect gate="G$1" pin="PG" pad="11"/>
+<connect gate="G$1" pin="PGND" pad="EP"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4 5 9" route="any"/>
+<connect gate="G$1" pin="VOUT" pad="6 7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38668746/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/171013801?ae"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="I-OUTPUT" value="1A"/>
+<attribute name="LENGTH" value="10mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 171013801 "/>
+<attribute name="SIZE" value="LGA-12EP"/>
+<attribute name="V-INPUT" value="3.5 - 38Vin"/>
+<attribute name="V-OUTPUT" value="0.85 - 13Vout"/>
+<attribute name="VALUE" value="3.5 - 38Vin, 0.85 - 13Vout, 1A"/>
+<attribute name="WIDTH" value="6mm"/>
 </technology>
 </technologies>
 </device>
