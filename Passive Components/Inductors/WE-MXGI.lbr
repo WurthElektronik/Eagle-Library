@@ -133,10 +133,34 @@ Würth Elektronik eiSos expressly disclaims all implied warranties regarding thi
  &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-06-07&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2024b, 2024-12-18&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
+<package name="WE-MXGI_5030" urn="urn:adsk.eagle:footprint:44552240/1">
+<description>&lt;b&gt;WE-MXGI SMT Power Inductor&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;Size:5030,SMT,2pins
+&lt;br&gt;LXWXH=5.4X5.4X3.1mm</description>
+<smd name="1" x="-1.95" y="0" dx="1.7" dy="5.6" layer="1"/>
+<smd name="2" x="1.95" y="0" dx="1.7" dy="5.6" layer="1"/>
+<wire x1="-2.7" y1="2.7" x2="2.7" y2="2.7" width="0.1" layer="51"/>
+<wire x1="2.7" y1="2.7" x2="2.7" y2="-2.7" width="0.1" layer="51"/>
+<wire x1="2.7" y1="-2.7" x2="-2.7" y2="-2.7" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="-2.7" x2="-2.7" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="2.8" x2="0.7" y2="2.8" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="-2.8" x2="0.7" y2="-2.8" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3" y="3"/>
+<vertex x="3" y="3"/>
+<vertex x="3" y="-3"/>
+<vertex x="-3" y="-3"/>
+</polygon>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-3.5" y="2.5" radius="0.1" width="0.4" layer="21"/>
+<rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="41"/>
+<rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="43"/>
+</package>
 <package name="WE-MXGI_4020" urn="urn:adsk.eagle:footprint:44552242/1">
 <description>&lt;b&gt;WE-MXGI SMT Power Inductor&lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size:4020,SMT,2pins
@@ -188,32 +212,16 @@ Copyright: Würth Elektronik</description>
 <rectangle x1="-0.6" y1="-2.15" x2="0.6" y2="2.15" layer="41"/>
 <rectangle x1="-0.6" y1="-2.15" x2="0.6" y2="2.15" layer="43"/>
 </package>
-<package name="WE-MXGI_5030" urn="urn:adsk.eagle:footprint:44552240/1">
+</packages>
+<packages3d>
+<package3d name="WE-MXGI_5030" urn="urn:adsk.eagle:package:44552244/2" type="model">
 <description>&lt;b&gt;WE-MXGI SMT Power Inductor&lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size:5030,SMT,2pins
 &lt;br&gt;LXWXH=5.4X5.4X3.1mm</description>
-<smd name="1" x="-1.95" y="0" dx="1.7" dy="5.6" layer="1"/>
-<smd name="2" x="1.95" y="0" dx="1.7" dy="5.6" layer="1"/>
-<wire x1="-2.7" y1="2.7" x2="2.7" y2="2.7" width="0.1" layer="51"/>
-<wire x1="2.7" y1="2.7" x2="2.7" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="2.7" y1="-2.7" x2="-2.7" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="-2.7" y1="-2.7" x2="-2.7" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-0.7" y1="2.8" x2="0.7" y2="2.8" width="0.2" layer="21"/>
-<wire x1="-0.7" y1="-2.8" x2="0.7" y2="-2.8" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-3" y="3"/>
-<vertex x="3" y="3"/>
-<vertex x="3" y="-3"/>
-<vertex x="-3" y="-3"/>
-</polygon>
-<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<circle x="-3.5" y="2.5" radius="0.1" width="0.4" layer="21"/>
-<rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="41"/>
-<rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="43"/>
-</package>
-</packages>
-<packages3d>
+<packageinstances>
+<packageinstance name="WE-MXGI_5030"/>
+</packageinstances>
+</package3d>
 <package3d name="WE-MXGI_4020" urn="urn:adsk.eagle:package:44552246/2" type="model">
 <description>&lt;b&gt;WE-MXGI SMT Power Inductor&lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size:4020,SMT,2pins
@@ -229,14 +237,6 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;This Land pattern is based on the IPC-7351 Standard</description>
 <packageinstances>
 <packageinstance name="WE-MXGI_4020_IPC-7351"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-MXGI_5030" urn="urn:adsk.eagle:package:44552244/2" type="model">
-<description>&lt;b&gt;WE-MXGI SMT Power Inductor&lt;br&gt;&lt;/b&gt;
-&lt;br&gt;Size:5030,SMT,2pins
-&lt;br&gt;LXWXH=5.4X5.4X3.1mm</description>
-<packageinstances>
-<packageinstance name="WE-MXGI_5030"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -256,245 +256,6 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-MXGI_4020" prefix="L">
-<description>&lt;b&gt; WE-MXGI SMT Power Inductor
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Innovative iron alloy material
-&lt;br&gt;Ultra low RDC and AC losses
-&lt;br&gt;High efficiency and current capability
-&lt;br&gt;Optimized for high switching frequencies beyond 1 MHz
-&lt;br&gt;Compact design
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Operating temperature: -40 °C to 125°C
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;DC/DC-converter for high current power supplies
-&lt;br&gt;DC/DC-converter for Field Programmable Gate Array (FPGA)
-&lt;br&gt;POL-converters
-&lt;br&gt;Portable power like PDA, digital camera
-&lt;br&gt;Mainboards/graphic cards
-&lt;br&gt;Battery powered devices
-&lt;br&gt;Wireless communication devices
-&lt;br&gt;Power supplies for smartphones, tablet PCs and other mobile devices
-&lt;br&gt;
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o798531v209%20FAMILY-WE-MXGI.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o798531v209%20FAMILY-WE-MXGI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-MXGI"&gt;www.we-online.com/en/components/products/WE-MXGI&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella 2024-09-27&lt;br&gt;
-2024(C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-MXGI_4020">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:44552246/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_74438440200016">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200016?ae"/>
-<attribute name="FRES" value="197MHz"/>
-<attribute name="IR" value="24.2A"/>
-<attribute name="ISAT" value="27.9A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 74438440200016 "/>
-<attribute name="RDC-TYP" value="1.5mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.16uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020010">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020010?ae"/>
-<attribute name="FRES" value="59MHz"/>
-<attribute name="IR" value="12.1A"/>
-<attribute name="ISAT" value="9.8A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020010 "/>
-<attribute name="RDC-TYP" value="6.9mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020022">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020022?ae"/>
-<attribute name="FRES" value="37MHz"/>
-<attribute name="IR" value="7.8A"/>
-<attribute name="ISAT" value="5.8A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020022 "/>
-<attribute name="RDC-TYP" value="15.6mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="2.2uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020047">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020047?ae"/>
-<attribute name="FRES" value="25MHz"/>
-<attribute name="IR" value="5.2A"/>
-<attribute name="ISAT" value="5.7A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020047 "/>
-<attribute name="RDC-TYP" value="40.3mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="4.7uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-</technologies>
-</device>
-<device name="_IPC-7351" package="WE-MXGI_4020_IPC-7351">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:44552245/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_74438440200016">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200016?ae"/>
-<attribute name="FRES" value="197MHz"/>
-<attribute name="IR" value="24.2A"/>
-<attribute name="ISAT" value="27.9A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 74438440200016 "/>
-<attribute name="RDC-TYP" value="1.5mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.16uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_74438440200030">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200030?ae"/>
-<attribute name="FRES" value="135MHz"/>
-<attribute name="IR" value="23.2A"/>
-<attribute name="ISAT" value="17.6A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 74438440200030 "/>
-<attribute name="RDC-TYP" value="2mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.3uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_74438440200040">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200040?ae"/>
-<attribute name="FRES" value="122MHz"/>
-<attribute name="IR" value="16.9A"/>
-<attribute name="ISAT" value="14.8A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 74438440200040 "/>
-<attribute name="RDC-TYP" value="3.8mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.4uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_74438440200065">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200065?ae"/>
-<attribute name="FRES" value="80MHz"/>
-<attribute name="IR" value="15.2A"/>
-<attribute name="ISAT" value="12.6A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 74438440200065 "/>
-<attribute name="RDC-TYP" value="4.8mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.65uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020010">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020010?ae"/>
-<attribute name="FRES" value="59MHz"/>
-<attribute name="IR" value="12.1A"/>
-<attribute name="ISAT" value="9.8A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020010 "/>
-<attribute name="RDC-TYP" value="6.9mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020012">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020012?ae"/>
-<attribute name="FRES" value="53MHz"/>
-<attribute name="IR" value="11A"/>
-<attribute name="ISAT" value="8.8A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020012 "/>
-<attribute name="RDC-TYP" value="8.4mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1.2uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020015">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020015?ae"/>
-<attribute name="FRES" value="50MHz"/>
-<attribute name="IR" value="10.3A"/>
-<attribute name="ISAT" value="8.4A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020015 "/>
-<attribute name="RDC-TYP" value="10mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1.5uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020018">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020018?ae"/>
-<attribute name="FRES" value="42MHz"/>
-<attribute name="IR" value="9.5A"/>
-<attribute name="ISAT" value="7.1A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020018 "/>
-<attribute name="RDC-TYP" value="11.9mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1.8uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020022">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020022?ae"/>
-<attribute name="FRES" value="37MHz"/>
-<attribute name="IR" value="7.8A"/>
-<attribute name="ISAT" value="5.8A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020022 "/>
-<attribute name="RDC-TYP" value="15.6mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="2.2uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020033">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020033?ae"/>
-<attribute name="FRES" value="29MHz"/>
-<attribute name="IR" value="6.1A"/>
-<attribute name="ISAT" value="5.3A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020033 "/>
-<attribute name="RDC-TYP" value="26.6mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="3.3uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-<technology name="_7443844020047">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020047?ae"/>
-<attribute name="FRES" value="25MHz"/>
-<attribute name="IR" value="5.2A"/>
-<attribute name="ISAT" value="5.7A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7443844020047 "/>
-<attribute name="RDC-TYP" value="40.3mOhm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="4.7uH"/>
-<attribute name="VDC" value="80V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="WE-MXGI_5030" prefix="L">
 <description>&lt;b&gt; WE-MXGI SMT Power Inductor
 &lt;br&gt;
@@ -729,6 +490,245 @@ Created by Ella 2024-06-07&lt;br&gt;
 <attribute name="RDC-TYP" value="64.5mOhm"/>
 <attribute name="SIZE" value=" 5030 "/>
 <attribute name="VALUE" value="15uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-MXGI_4020" prefix="L">
+<description>&lt;b&gt; WE-MXGI SMT Power Inductor
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Innovative iron alloy material
+&lt;br&gt;Ultra low RDC and AC losses
+&lt;br&gt;High efficiency and current capability
+&lt;br&gt;Optimized for high switching frequencies beyond 1 MHz
+&lt;br&gt;Compact design
+&lt;br&gt;Magnetically shielded construction
+&lt;br&gt;Operating temperature: -40 °C to 125°C
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;DC/DC-converter for high current power supplies
+&lt;br&gt;DC/DC-converter for Field Programmable Gate Array (FPGA)
+&lt;br&gt;POL-converters
+&lt;br&gt;Portable power like PDA, digital camera
+&lt;br&gt;Mainboards/graphic cards
+&lt;br&gt;Battery powered devices
+&lt;br&gt;Wireless communication devices
+&lt;br&gt;Power supplies for smartphones, tablet PCs and other mobile devices
+&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o798531v209%20FAMILY-WE-MXGI.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o798531v209%20FAMILY-WE-MXGI.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-MXGI"&gt;www.we-online.com/en/components/products/WE-MXGI&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2024-09-27&lt;br&gt;
+2024(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-MXGI_4020">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44552246/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74438440200016">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200016?ae"/>
+<attribute name="FRES" value="197MHz"/>
+<attribute name="IR" value="24.2A"/>
+<attribute name="ISAT" value="27.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74438440200016 "/>
+<attribute name="RDC-TYP" value="1.5mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="0.16uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020010?ae"/>
+<attribute name="FRES" value="59MHz"/>
+<attribute name="IR" value="12.1A"/>
+<attribute name="ISAT" value="9.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020010 "/>
+<attribute name="RDC-TYP" value="6.9mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="1uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020022?ae"/>
+<attribute name="FRES" value="37MHz"/>
+<attribute name="IR" value="7.8A"/>
+<attribute name="ISAT" value="5.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020022 "/>
+<attribute name="RDC-TYP" value="15.6mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020047?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="IR" value="5.2A"/>
+<attribute name="ISAT" value="5.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020047 "/>
+<attribute name="RDC-TYP" value="40.3mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+</technologies>
+</device>
+<device name="_IPC-7351" package="WE-MXGI_4020_IPC-7351">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44552245/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74438440200016">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200016?ae"/>
+<attribute name="FRES" value="197MHz"/>
+<attribute name="IR" value="24.2A"/>
+<attribute name="ISAT" value="27.9A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74438440200016 "/>
+<attribute name="RDC-TYP" value="1.5mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="0.16uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_74438440200030">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200030?ae"/>
+<attribute name="FRES" value="135MHz"/>
+<attribute name="IR" value="23.2A"/>
+<attribute name="ISAT" value="17.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74438440200030 "/>
+<attribute name="RDC-TYP" value="2mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="0.3uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_74438440200040">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200040?ae"/>
+<attribute name="FRES" value="122MHz"/>
+<attribute name="IR" value="16.9A"/>
+<attribute name="ISAT" value="14.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74438440200040 "/>
+<attribute name="RDC-TYP" value="3.8mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="0.4uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_74438440200065">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74438440200065?ae"/>
+<attribute name="FRES" value="80MHz"/>
+<attribute name="IR" value="15.2A"/>
+<attribute name="ISAT" value="12.6A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74438440200065 "/>
+<attribute name="RDC-TYP" value="4.8mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="0.65uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020010?ae"/>
+<attribute name="FRES" value="59MHz"/>
+<attribute name="IR" value="12.1A"/>
+<attribute name="ISAT" value="9.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020010 "/>
+<attribute name="RDC-TYP" value="6.9mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="1uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020012?ae"/>
+<attribute name="FRES" value="53MHz"/>
+<attribute name="IR" value="11A"/>
+<attribute name="ISAT" value="8.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020012 "/>
+<attribute name="RDC-TYP" value="8.4mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="1.2uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020015?ae"/>
+<attribute name="FRES" value="50MHz"/>
+<attribute name="IR" value="10.3A"/>
+<attribute name="ISAT" value="8.4A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020015 "/>
+<attribute name="RDC-TYP" value="10mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="1.5uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020018">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020018?ae"/>
+<attribute name="FRES" value="42MHz"/>
+<attribute name="IR" value="9.5A"/>
+<attribute name="ISAT" value="7.1A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020018 "/>
+<attribute name="RDC-TYP" value="11.9mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="1.8uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020022?ae"/>
+<attribute name="FRES" value="37MHz"/>
+<attribute name="IR" value="7.8A"/>
+<attribute name="ISAT" value="5.8A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020022 "/>
+<attribute name="RDC-TYP" value="15.6mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020033?ae"/>
+<attribute name="FRES" value="29MHz"/>
+<attribute name="IR" value="6.1A"/>
+<attribute name="ISAT" value="5.3A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020033 "/>
+<attribute name="RDC-TYP" value="26.6mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="3.3uH"/>
+<attribute name="VDC" value="80V"/>
+</technology>
+<technology name="_7443844020047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7443844020047?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="IR" value="5.2A"/>
+<attribute name="ISAT" value="5.7A"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7443844020047 "/>
+<attribute name="RDC-TYP" value="40.3mOhm"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="VALUE" value="4.7uH"/>
 <attribute name="VDC" value="80V"/>
 </technology>
 </technologies>
