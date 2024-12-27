@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -131,7 +131,7 @@ that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
 Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
 
 &lt;HR&gt;
-Eagle Version 9, Library Revision 2024a, 2024-11-04&lt;br&gt;
+Eagle Version 9, Library Revision 2024b, 2024-12-24&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
@@ -144,32 +144,6 @@ Size: SIP-3, THT, 3pins
 <pad name="2" x="0" y="-2.25" drill="1" rot="R180"/>
 <pad name="1" x="-2.54" y="-2.25" drill="1" rot="R180"/>
 <wire x1="-5.8" y1="4.25" x2="5.8" y2="4.25" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-4.25" x2="-5.8" y2="-4.25" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-4.25" x2="-5.8" y2="4.25" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="4.35" x2="5.9" y2="4.35" width="0.2" layer="21"/>
-<wire x1="5.9" y1="4.35" x2="5.9" y2="-4.35" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-4.35" x2="-5.9" y2="-4.35" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="-4.35" x2="-5.9" y2="4.35" width="0.2" layer="21"/>
-<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-6.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="4.55"/>
-<vertex x="6.1" y="4.55"/>
-<vertex x="6.1" y="-4.55"/>
-<vertex x="-6.1" y="-4.55"/>
-</polygon>
-<circle x="-5" y="-5.5" radius="0.2" width="0.4" layer="21"/>
-</package>
-<package name="WPME-FDSM_173010X42" urn="urn:adsk.eagle:footprint:36600576/2">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;
-Size: SIP-3, THT, 3pins
-&lt;br&gt;LXWXH=11.6mmX8.5mmX10.5mm</description>
-<pad name="1" x="-2.54" y="-2.25" drill="1"/>
-<pad name="2" x="0" y="-2.25" drill="1"/>
-<pad name="3" x="2.54" y="-2.25" drill="1"/>
-<wire x1="-5.8" y1="4.25" x2="5.8" y2="4.25" width="0.1" layer="51"/>
-<wire x1="5.8" y1="4.25" x2="5.8" y2="-4.25" width="0.1" layer="51"/>
 <wire x1="5.8" y1="-4.25" x2="-5.8" y2="-4.25" width="0.1" layer="51"/>
 <wire x1="-5.8" y1="-4.25" x2="-5.8" y2="4.25" width="0.1" layer="51"/>
 <wire x1="-5.9" y1="4.35" x2="5.9" y2="4.35" width="0.2" layer="21"/>
@@ -212,6 +186,32 @@ Size: SIP-3, THT, 3pins
 </polygon>
 <circle x="-5" y="-5.5" radius="0.2" width="0.4" layer="21"/>
 </package>
+<package name="WPME-FDSM_173010X42" urn="urn:adsk.eagle:footprint:36600576/2">
+<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Size: SIP-3, THT, 3pins
+&lt;br&gt;LXWXH=11.6mmX8.5mmX10.5mm</description>
+<pad name="1" x="-2.54" y="-2.25" drill="1"/>
+<pad name="2" x="0" y="-2.25" drill="1"/>
+<pad name="3" x="2.54" y="-2.25" drill="1"/>
+<wire x1="-5.8" y1="4.25" x2="5.8" y2="4.25" width="0.1" layer="51"/>
+<wire x1="5.8" y1="4.25" x2="5.8" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="5.8" y1="-4.25" x2="-5.8" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-5.8" y1="-4.25" x2="-5.8" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-5.9" y1="4.35" x2="5.9" y2="4.35" width="0.2" layer="21"/>
+<wire x1="5.9" y1="4.35" x2="5.9" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="5.9" y1="-4.35" x2="-5.9" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="-5.9" y1="-4.35" x2="-5.9" y2="4.35" width="0.2" layer="21"/>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.1" y="4.55"/>
+<vertex x="6.1" y="4.55"/>
+<vertex x="6.1" y="-4.55"/>
+<vertex x="-6.1" y="-4.55"/>
+</polygon>
+<circle x="-5" y="-5.5" radius="0.2" width="0.4" layer="21"/>
+</package>
 <package name="WPME-FDSM_17395XX75" urn="urn:adsk.eagle:footprint:36600577/2">
 <description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;/b&gt;&lt;br&gt;
 &lt;br&gt;
@@ -238,32 +238,6 @@ Size: SIP-3, THT, 3pins
 <vertex x="-6.05" y="2.45"/>
 <vertex x="6.05" y="2.45"/>
 </polygon>
-</package>
-<package name="WPME-FDSM_17301XX35" urn="urn:adsk.eagle:footprint:36600579/2">
-<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;
-Size: SIP-3, THT, 3pins
-&lt;br&gt;LXWXH=11.6mmX8mmX10.4mm</description>
-<pad name="1" x="-2.54" y="-1.7" drill="1"/>
-<pad name="2" x="0" y="-1.7" drill="1"/>
-<pad name="3" x="2.54" y="-1.7" drill="1"/>
-<wire x1="-5.8" y1="4" x2="-5.8" y2="-4" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-4" x2="5.8" y2="-4" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-4" x2="5.8" y2="4" width="0.1" layer="51"/>
-<wire x1="5.8" y1="4" x2="-5.8" y2="4" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="-4.1" x2="5.9" y2="-4.1" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-4.1" x2="5.9" y2="4.1" width="0.2" layer="21"/>
-<wire x1="5.9" y1="4.1" x2="-5.9" y2="4.1" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="4.1" x2="-5.9" y2="-4.1" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="4.3"/>
-<vertex x="6.1" y="4.3"/>
-<vertex x="6.1" y="-4.3"/>
-<vertex x="-6.1" y="-4.3"/>
-</polygon>
-<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<circle x="-5" y="-5" radius="0.2" width="0.4" layer="21"/>
 </package>
 <package name="WPME-FDSM_17395XX36" urn="urn:adsk.eagle:footprint:36600578/2">
 <description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;/b&gt;&lt;br&gt;
@@ -317,6 +291,58 @@ Size: SIP-3, THT, 3pins
 <vertex x="-6.05" y="2.8"/>
 <vertex x="6.05" y="2.8"/>
 </polygon>
+</package>
+<package name="WPME-FDSM_173950536" urn="urn:adsk.eagle:footprint:46089803/1">
+<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Size: SIP-3, THT, 3pins
+&lt;br&gt;LXWXH=11.6mmX7.6mmX10.16mm</description>
+<pad name="1" x="-2.54" y="-1.65" drill="1"/>
+<pad name="2" x="0" y="-1.65" drill="1"/>
+<pad name="3" x="2.54" y="-1.65" drill="1"/>
+<wire x1="-5.8" y1="3.8" x2="-5.8" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-5.8" y1="-3.8" x2="5.8" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="5.8" y1="-3.8" x2="5.8" y2="3.8" width="0.1" layer="51"/>
+<wire x1="5.8" y1="3.8" x2="-5.8" y2="3.8" width="0.1" layer="51"/>
+<wire x1="-5.9" y1="-3.9" x2="5.9" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="5.9" y1="-3.9" x2="5.9" y2="3.9" width="0.2" layer="21"/>
+<wire x1="5.9" y1="3.9" x2="-5.9" y2="3.9" width="0.2" layer="21"/>
+<wire x1="-5.9" y1="3.9" x2="-5.9" y2="-3.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.1" y="4.1"/>
+<vertex x="6.1" y="4.1"/>
+<vertex x="6.1" y="-4.1"/>
+<vertex x="-6.1" y="-4.1"/>
+</polygon>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5" y="-5" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WPME-FDSM_17301XX35" urn="urn:adsk.eagle:footprint:36600579/2">
+<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Size: SIP-3, THT, 3pins
+&lt;br&gt;LXWXH=11.6mmX8mmX10.4mm</description>
+<pad name="1" x="-2.54" y="-1.7" drill="1"/>
+<pad name="2" x="0" y="-1.7" drill="1"/>
+<pad name="3" x="2.54" y="-1.7" drill="1"/>
+<wire x1="-5.8" y1="4" x2="-5.8" y2="-4" width="0.1" layer="51"/>
+<wire x1="-5.8" y1="-4" x2="5.8" y2="-4" width="0.1" layer="51"/>
+<wire x1="5.8" y1="-4" x2="5.8" y2="4" width="0.1" layer="51"/>
+<wire x1="5.8" y1="4" x2="-5.8" y2="4" width="0.1" layer="51"/>
+<wire x1="-5.9" y1="-4.1" x2="5.9" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="5.9" y1="-4.1" x2="5.9" y2="4.1" width="0.2" layer="21"/>
+<wire x1="5.9" y1="4.1" x2="-5.9" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-5.9" y1="4.1" x2="-5.9" y2="-4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.1" y="4.3"/>
+<vertex x="6.1" y="4.3"/>
+<vertex x="6.1" y="-4.3"/>
+<vertex x="-6.1" y="-4.3"/>
+</polygon>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5" y="-5" radius="0.2" width="0.4" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -383,6 +409,15 @@ Size: SIP-3, THT, 3pins
 <packageinstance name="WPME-FDSM_173950575"/>
 </packageinstances>
 </package3d>
+<package3d name="WPME-FDSM_173950536" urn="urn:adsk.eagle:package:46089804/2" type="model">
+<description>&lt;B&gt;MagI³C-FDSM Fixed Step Down Regulator Module&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Size: SIP-3, THT, 3pins
+&lt;br&gt;LXWXH=11.6mmX7.6mmX10.16mm</description>
+<packageinstances>
+<packageinstance name="WPME-FDSM_173950536"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="MAGI³C-FDSM">
@@ -425,7 +460,7 @@ Size: SIP-3, THT, 3pins
 Details see: &lt;a href="www.we-online.com/catalog/MAGIC_FDSM_FIXED_OUTPUT_VOLTAGE/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC_FDSM_FIXED_OUTPUT_VOLTAGE&lt;/a&gt;&lt;p&gt;
 &lt;/b&gt;
 
-Updated by Ella Wu 2024-11-04&lt;br&gt;
+Updated by Ella Wu 2024-12-24&lt;br&gt;
 2024 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="MAGI³C-FDSM" x="0" y="0"/>
@@ -619,19 +654,6 @@ Updated by Ella Wu 2024-11-04&lt;br&gt;
 <attribute name="VALUE" value="4.75 - 36Vin, 3.3Vout"/>
 <attribute name="WIDTH" value="7.55mm"/>
 </technology>
-<technology name="_173950536">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/173950536?ae"/>
-<attribute name="HEIGHT" value="10.16mm"/>
-<attribute name="I-OUTPUT" value="0.5A"/>
-<attribute name="LENGTH" value="11.6mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 173950536 "/>
-<attribute name="PIN-POSITION" value="Type F"/>
-<attribute name="V-INPUT" value="6.5 - 36V"/>
-<attribute name="V-OUTPUT" value="5V"/>
-<attribute name="VALUE" value="6.5 - 36Vin, 5Vout"/>
-<attribute name="WIDTH" value="7.55mm"/>
-</technology>
 <technology name="_173951236">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/173951236?ae"/>
 <attribute name="HEIGHT" value="10.16mm"/>
@@ -746,6 +768,31 @@ Updated by Ella Wu 2024-11-04&lt;br&gt;
 <attribute name="V-OUTPUT" value="5V"/>
 <attribute name="VALUE" value="9 - 74.5Vin, 5Vout"/>
 <attribute name="WIDTH" value="8.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_173950536" package="WPME-FDSM_173950536">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46089804/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/173950536?ae"/>
+<attribute name="HEIGHT" value="10.16mm"/>
+<attribute name="I-OUTPUT" value="0.5A"/>
+<attribute name="LENGTH" value="11.6mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 173950536 "/>
+<attribute name="PIN-POSITION" value="Type F"/>
+<attribute name="V-INPUT" value="6.5 - 36V"/>
+<attribute name="V-OUTPUT" value="5V"/>
+<attribute name="VALUE" value="6.5 - 36Vin, 5Vout"/>
+<attribute name="WIDTH" value="7.6mm"/>
 </technology>
 </technologies>
 </device>
