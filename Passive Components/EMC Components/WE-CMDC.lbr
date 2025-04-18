@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -53,7 +53,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -63,8 +63,8 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - EMC Components - Common Mode Chokes for Low Voltage and Data Lines - WE-CMDC&lt;br&gt;&lt;Hr&gt;
-
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - EMC Components - Common Mode Chokes for Extra-low Voltage and Data Lines - WE-CMDC&lt;br&gt;
+&lt;Hr&gt;
 &lt;BR&gt;
 &lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
 &lt;TR&gt;   
@@ -126,15 +126,80 @@ Fax:+49 (0)7942-945-5000&lt;br&gt;
 &lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
 &lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
 &lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2021b, 2021-05-05&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-04-16&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-CMDC_1211" urn="urn:adsk.eagle:footprint:27280176/4">
+<package name="WE-CMDC_9070" urn="urn:adsk.eagle:footprint:47089571/2">
+<description>&lt;b&gt;WE-CMDC Common Mode Data Line Filter
+&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size: 9070, SMT, 4pins
+&lt;br&gt;L X W X H X FI = 9mm X 7mm X 4.5mm X 1.3mm</description>
+<smd name="1" x="-4.25" y="1.75" dx="2.5" dy="1.5" layer="1"/>
+<smd name="2" x="4.25" y="1.75" dx="2.5" dy="1.5" layer="1"/>
+<smd name="3" x="-4.25" y="-1.75" dx="2.5" dy="1.5" layer="1"/>
+<smd name="4" x="4.25" y="-1.75" dx="2.5" dy="1.5" layer="1"/>
+<wire x1="-4.6" y1="3.6" x2="4.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="3.6" x2="4.6" y2="2.8" width="0.2" layer="21"/>
+<wire x1="4.6" y1="0.7" x2="4.6" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-2.8" x2="4.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-3.6" x2="-4.6" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-3.6" x2="-4.6" y2="-2.8" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-0.7" x2="-4.6" y2="0.7" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="2.8" x2="-4.6" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-4.5" y1="3.5" x2="4.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="3.5" x2="4.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-3.5" x2="-4.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-3.5" x2="-4.5" y2="3.5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.7" y="3.9"/>
+<vertex x="5.7" y="3.9"/>
+<vertex x="5.7" y="-3.9"/>
+<vertex x="-5.7" y="-3.9"/>
+</polygon>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.3" y="3.2" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMDC_7060" urn="urn:adsk.eagle:footprint:47089572/2">
+<description>&lt;b&gt;WE-CMDC Common Mode Data Line Filter
+&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size: 7060, SMT, 4pins
+&lt;br&gt;L X W X H X FI = 7mm X 6mm X 3.5mm X 1.3mm</description>
+<smd name="1" x="-3.25" y="1.5" dx="2.5" dy="1.7" layer="1"/>
+<smd name="2" x="3.25" y="1.5" dx="2.5" dy="1.7" layer="1"/>
+<smd name="3" x="-3.25" y="-1.5" dx="2.5" dy="1.7" layer="1"/>
+<smd name="4" x="3.25" y="-1.5" dx="2.5" dy="1.7" layer="1"/>
+<wire x1="-3.6" y1="3.1" x2="3.6" y2="3.1" width="0.2" layer="21"/>
+<wire x1="3.6" y1="3.1" x2="3.6" y2="2.65" width="0.2" layer="21"/>
+<wire x1="3.6" y1="0.35" x2="3.6" y2="-0.35" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-2.65" x2="3.6" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="3.6" y1="-3.1" x2="-3.6" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-3.1" x2="-3.6" y2="-2.65" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-0.35" x2="-3.6" y2="0.35" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="2.65" x2="-3.6" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="3" x2="3.5" y2="3" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3" x2="3.5" y2="-3" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3" x2="-3.5" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3" x2="-3.5" y2="3" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.7" y="3.4"/>
+<vertex x="4.7" y="3.4"/>
+<vertex x="4.7" y="-3.4"/>
+<vertex x="-4.7" y="-3.4"/>
+</polygon>
+<text x="0" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-4.3" y="3" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMDC_1211" urn="urn:adsk.eagle:footprint:27280176/5">
 <description>&lt;b&gt;WE-CMDC Common Mode Data Line Filter
 &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size: 1211, SMT, 4pins
@@ -163,11 +228,69 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<circle x="-8.1" y="4.6" radius="0.3" width="0.6" layer="21"/>
+<circle x="-7" y="5" radius="0.3" width="0.6" layer="21"/>
+</package>
+<package name="WE-CMDC_1513" urn="urn:adsk.eagle:footprint:47089573/2">
+<description>&lt;b&gt;WE-CMDC Common Mode Data Line Filter
+&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size: 1513, SMT, 4pins
+&lt;br&gt;L X W X H X FI = 15mm X 13mm X 6mm X 2.3mm</description>
+<smd name="1" x="-6.85" y="3.25" dx="3.3" dy="2.7" layer="1"/>
+<smd name="2" x="6.85" y="3.25" dx="3.3" dy="2.7" layer="1"/>
+<smd name="3" x="-6.85" y="-3.25" dx="3.3" dy="2.7" layer="1"/>
+<smd name="4" x="6.85" y="-3.25" dx="3.3" dy="2.7" layer="1"/>
+<wire x1="-7.6" y1="6.6" x2="7.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="6.6" x2="7.6" y2="4.9" width="0.2" layer="21"/>
+<wire x1="7.6" y1="1.6" x2="7.6" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-4.9" x2="7.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-6.6" x2="-7.6" y2="-6.6" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-6.6" x2="-7.6" y2="-4.9" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-1.6" x2="-7.6" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="4.9" x2="-7.6" y2="6.6" width="0.2" layer="21"/>
+<wire x1="-7.5" y1="6.5" x2="7.5" y2="6.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="6.5" x2="7.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-6.5" x2="-7.5" y2="-6.5" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-6.5" x2="-7.5" y2="6.5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-8.7" y="6.9"/>
+<vertex x="8.7" y="6.9"/>
+<vertex x="8.7" y="-6.9"/>
+<vertex x="-8.7" y="-6.9"/>
+</polygon>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-8.3" y="5.5" radius="0.2" width="0.4" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="WE-CMDC_1211" urn="urn:adsk.eagle:package:27280178/5" type="model">
+<package3d name="WE-CMDC_9070" urn="urn:adsk.eagle:package:47089575/4" type="model">
+<description>&lt;b&gt;WE-CMDC Common Mode Data Line Filter
+&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size: 9070, SMT, 4pins
+&lt;br&gt;L X W X H X FI = 9mm X 7mm X 4.5mm X 1.3mm</description>
+<packageinstances>
+<packageinstance name="WE-CMDC_9070"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMDC_7060" urn="urn:adsk.eagle:package:47089576/4" type="model">
+<description>&lt;b&gt;WE-CMDC Common Mode Data Line Filter
+&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size: 7060, SMT, 4pins
+&lt;br&gt;L X W X H X FI = 7mm X 6mm X 3.5mm X 1.3mm</description>
+<packageinstances>
+<packageinstance name="WE-CMDC_7060"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMDC_1513" urn="urn:adsk.eagle:package:47089577/4" type="model">
+<description>&lt;b&gt;WE-CMDC Common Mode Data Line Filter
+&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;Size: 1513, SMT, 4pins
+&lt;br&gt;L X W X H X FI = 15mm X 13mm X 6mm X 2.3mm</description>
+<packageinstances>
+<packageinstance name="WE-CMDC_1513"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMDC_1211" urn="urn:adsk.eagle:package:27280178/6" type="model">
 <description>&lt;b&gt;WE-CMDC Common Mode Data Line Filter
 &lt;br&gt;
 &lt;/b&gt;&lt;br&gt;Size: 1211, SMT, 4pins
@@ -183,8 +306,8 @@ Copyright: Würth Elektronik</description>
 <pin name="2" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
 <pin name="4" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<text x="0" y="3.51" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-4.44" y="-5.12" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
@@ -200,8 +323,8 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-CMDC_1211" prefix="L">
-<description>&lt;b&gt; WE-CNSW SMD Common Mode Line Filter
+<deviceset name="WE-CMDC_9070" prefix="L">
+<description>&lt;b&gt; WE-CMDC Common Mode Data Line Filter
 &lt;br&gt;
 &lt;br&gt;Characteristics 
 &lt;br&gt;
@@ -211,6 +334,100 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt; Compact case
 &lt;br&gt; AEC-Q200 qualification
 &lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;DC/DC converter
+&lt;br&gt; DC low voltage power lines
+&lt;br&gt; Data and signal lines
+ &lt;br&gt;Power supply systems
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o182610v209%20744237xxx_group.jpg"&gt;
+&lt;img src="https://www.we-online.com/components/media/o182610v209%20744237xxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-CMDC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-CMDC&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2025-04-16&lt;br&gt;
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CMDC_9070">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47089575/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_744239252">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744239252?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="4.5mm"/>
+<attribute name="IR" value="1.9A"/>
+<attribute name="L" value="45uH"/>
+<attribute name="LENGTH" value="9mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744239252"/>
+<attribute name="RDC" value="71mOhm"/>
+<attribute name="SIZE" value=" 9070 "/>
+<attribute name="VALUE" value="45uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="7mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="2500Ohm"/>
+</technology>
+<technology name="_744239301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744239301?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="4.5mm"/>
+<attribute name="IR" value="6A"/>
+<attribute name="L" value="4.5uH"/>
+<attribute name="LENGTH" value="9mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744239301"/>
+<attribute name="RDC" value="7mOhm"/>
+<attribute name="SIZE" value=" 9070 "/>
+<attribute name="VALUE" value="4.5uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="7mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="300Ohm"/>
+</technology>
+<technology name="_744239701">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744239701?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="4.5mm"/>
+<attribute name="IR" value="5A"/>
+<attribute name="L" value="8uH"/>
+<attribute name="LENGTH" value="9mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744239701"/>
+<attribute name="RDC" value="10mOhm"/>
+<attribute name="SIZE" value=" 9070 "/>
+<attribute name="VALUE" value="8uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="7mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="700Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CMDC_7060" prefix="L">
+<description>&lt;b&gt; WE-CMDC Common Mode Data Line Filter
+&lt;br&gt;
+&lt;br&gt;Characteristics 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; High current up to 8 A
+&lt;br&gt; High impedance up to 1500 Ω
+&lt;br&gt;Low profile in SMT construction
+&lt;br&gt; Compact case
+&lt;br&gt; AEC-Q200 qualification
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt; Applications
 &lt;br&gt;
@@ -220,12 +437,192 @@ Copyright: Würth Elektronik</description>
  &lt;br&gt;Power supply systems
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o182610v209%20744237xxx_group.jpg"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o182610v209%20744237xxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-CMDC"&gt;https://www.we-online.com/catalog/en/WE-CMDC&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o182610v209%20744237xxx_group.jpg"&gt;
+&lt;img src="https://www.we-online.com/components/media/o182610v209%20744237xxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-CMDC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-CMDC&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2025-04-16&lt;br&gt;
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CMDC_7060">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47089576/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_744238102">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744238102?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="IR" value="3A"/>
+<attribute name="L" value="12.5uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744238102"/>
+<attribute name="RDC" value="20mOhm"/>
+<attribute name="SIZE" value=" 7060 "/>
+<attribute name="VALUE" value="12.5uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="6mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="1000Ohm"/>
+</technology>
+<technology name="_744238132">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744238132?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="IR" value="2.5A"/>
+<attribute name="L" value="14uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744238132"/>
+<attribute name="RDC" value="25mOhm"/>
+<attribute name="SIZE" value=" 7060 "/>
+<attribute name="VALUE" value="14uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="6mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="1300Ohm"/>
+</technology>
+<technology name="_744238182">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744238182?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="IR" value="2A"/>
+<attribute name="L" value="20uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744238182"/>
+<attribute name="RDC" value="53mOhm"/>
+<attribute name="SIZE" value=" 7060 "/>
+<attribute name="VALUE" value="20uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="6mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="1800Ohm"/>
+</technology>
+<technology name="_744238202">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744238202?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="IR" value="1.5A"/>
+<attribute name="L" value="23.5uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744238202"/>
+<attribute name="RDC" value="63mOhm"/>
+<attribute name="SIZE" value=" 7060 "/>
+<attribute name="VALUE" value="23.5uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="6mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="2000Ohm"/>
+</technology>
+<technology name="_744238252">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744238252?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="IR" value="1.2A"/>
+<attribute name="L" value="27uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744238252"/>
+<attribute name="RDC" value="72mOhm"/>
+<attribute name="SIZE" value=" 7060 "/>
+<attribute name="VALUE" value="27uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="6mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="2500Ohm"/>
+</technology>
+<technology name="_744238301">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744238301?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="IR" value="5A"/>
+<attribute name="L" value="4uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744238301"/>
+<attribute name="RDC" value="10mOhm"/>
+<attribute name="SIZE" value=" 7060 "/>
+<attribute name="VALUE" value="4uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="6mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="300Ohm"/>
+</technology>
+<technology name="_744238501">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744238501?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="IR" value="4.5A"/>
+<attribute name="L" value="7uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744238501"/>
+<attribute name="RDC" value="14mOhm"/>
+<attribute name="SIZE" value=" 7060 "/>
+<attribute name="VALUE" value="7uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="6mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="500Ohm"/>
+</technology>
+<technology name="_744238701">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744238701?ae"/>
+<attribute name="FI" value="1.3mm"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="IR" value="4A"/>
+<attribute name="L" value="9uH"/>
+<attribute name="LENGTH" value="7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744238701"/>
+<attribute name="RDC" value="15mOhm"/>
+<attribute name="SIZE" value=" 7060 "/>
+<attribute name="VALUE" value="9uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="6mm"/>
+<attribute name="WINDING-STYLE" value="sectional"/>
+<attribute name="Z" value="700Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CMDC_1211" prefix="L">
+<description>&lt;b&gt; WE-CMDC Common Mode Data Line Filter
+&lt;br&gt;
+&lt;br&gt;Characteristics 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; High current up to 8 A
+&lt;br&gt; High impedance up to 1500 Ω
+&lt;br&gt;Low profile in SMT construction
+&lt;br&gt; Compact case
+&lt;br&gt; AEC-Q200 qualification
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;DC/DC converter
+&lt;br&gt; DC low voltage power lines
+&lt;br&gt; Data and signal lines
+ &lt;br&gt;Power supply systems
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o182610v209%20744237xxx_group.jpg"&gt;
+&lt;img src="https://www.we-online.com/components/media/o182610v209%20744237xxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-CMDC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-CMDC&lt;/a&gt;&lt;p&gt;
 
 Updated by Ella Wu 2021-05-05&lt;br&gt;
-2021 (C) Wurth Elektronik</description>
+2021 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
 </gates>
@@ -238,44 +635,137 @@ Updated by Ella Wu 2021-05-05&lt;br&gt;
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27280178/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27280178/6"/>
 </package3dinstances>
 <technologies>
 <technology name="_744237102">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744237102.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744237102?ae"/>
+<attribute name="FI" value="2.3mm"/>
+<attribute name="HEIGHT" value="6mm"/>
 <attribute name="IR" value="6A"/>
+<attribute name="L" value="13uH"/>
+<attribute name="LENGTH" value="12mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 744237102 "/>
+<attribute name="PART-NUMBER" value="744237102"/>
 <attribute name="RDC" value="14mOhm"/>
+<attribute name="SIZE" value="1211"/>
 <attribute name="VALUE" value="13uH"/>
-<attribute name="VR" value="80V"/>
-<attribute name="VT" value="1000  V (AC) "/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="11mm"/>
 <attribute name="WINDING-STYLE" value="sectional"/>
 <attribute name="Z" value="1000Ohm"/>
 </technology>
 <technology name="_744237152">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744237152.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744237152?ae"/>
+<attribute name="FI" value="2.3mm"/>
+<attribute name="HEIGHT" value="6mm"/>
 <attribute name="IR" value="4.5A"/>
+<attribute name="L" value="17uH"/>
+<attribute name="LENGTH" value="12mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 744237152 "/>
+<attribute name="PART-NUMBER" value="744237152"/>
 <attribute name="RDC" value="21mOhm"/>
+<attribute name="SIZE" value="1211"/>
 <attribute name="VALUE" value="17uH"/>
-<attribute name="VR" value="80V"/>
-<attribute name="VT" value="1000  V (AC) "/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="11mm"/>
 <attribute name="WINDING-STYLE" value="sectional"/>
 <attribute name="Z" value="1500Ohm"/>
 </technology>
 <technology name="_744237701">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744237701.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744237701?ae"/>
+<attribute name="FI" value="2.3mm"/>
+<attribute name="HEIGHT" value="6mm"/>
 <attribute name="IR" value="8A"/>
+<attribute name="L" value="9uH"/>
+<attribute name="LENGTH" value="12mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 744237701 "/>
+<attribute name="PART-NUMBER" value="744237701"/>
 <attribute name="RDC" value="6mOhm"/>
+<attribute name="SIZE" value="1211"/>
 <attribute name="VALUE" value="9uH"/>
-<attribute name="VR" value="80V"/>
-<attribute name="VT" value="1000  V (AC) "/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="11mm"/>
 <attribute name="WINDING-STYLE" value="sectional"/>
 <attribute name="Z" value="700Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CMDC_1513" prefix="L">
+<description>&lt;b&gt; WE-CMDC Common Mode Data Line Filter
+&lt;br&gt;
+&lt;br&gt;Characteristics 
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; High current up to 8 A
+&lt;br&gt; High impedance up to 1500 Ω
+&lt;br&gt;Low profile in SMT construction
+&lt;br&gt; Compact case
+&lt;br&gt; AEC-Q200 qualification
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;DC/DC converter
+&lt;br&gt; DC low voltage power lines
+&lt;br&gt; Data and signal lines
+ &lt;br&gt;Power supply systems
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o182610v209%20744237xxx_group.jpg"&gt;
+&lt;img src="https://www.we-online.com/components/media/o182610v209%20744237xxx_group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-CMDC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-CMDC&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2025-04-16&lt;br&gt;
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CMDC_1513">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47089577/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_744240202">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744240202?ae"/>
+<attribute name="FI" value="2.3mm"/>
+<attribute name="HEIGHT" value="6mm"/>
+<attribute name="IR" value="5A"/>
+<attribute name="L" value="31.5uH"/>
+<attribute name="LENGTH" value="15mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744240202"/>
+<attribute name="RDC" value="21mOhm"/>
+<attribute name="SIZE" value=" 1513 "/>
+<attribute name="VALUE" value="31.5uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="13mm"/>
+<attribute name="WINDING-STYLE" value="bifiliar"/>
+<attribute name="Z" value="2000Ohm"/>
+</technology>
+<technology name="_744240501">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744240501?ae"/>
+<attribute name="FI" value="2.3mm"/>
+<attribute name="HEIGHT" value="6mm"/>
+<attribute name="IR" value="10A"/>
+<attribute name="L" value="6.3uH"/>
+<attribute name="LENGTH" value="15mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="744240501"/>
+<attribute name="RDC" value="5.6mOhm"/>
+<attribute name="SIZE" value=" 1513 "/>
+<attribute name="VALUE" value="6.3uH"/>
+<attribute name="VR" value="80V(DC)"/>
+<attribute name="WIDTH" value="13mm"/>
+<attribute name="WINDING-STYLE" value="bifiliar"/>
+<attribute name="Z" value="500Ohm"/>
 </technology>
 </technologies>
 </device>
