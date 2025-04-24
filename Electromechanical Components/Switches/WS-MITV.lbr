@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -66,7 +66,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -76,8 +76,8 @@
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - Switches - Micro Switches - WS-MITV&lt;br&gt;&lt;Hr&gt;
-
+<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - Switches - Micro Switches - WS-MITV&lt;br&gt;
+&lt;Hr&gt;
 &lt;BR&gt;
 &lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
 &lt;TR&gt;   
@@ -139,52 +139,46 @@ Fax:+49 (0)7942-945-5000&lt;br&gt;
 &lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
 &lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
 &lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2021b, 2021-03-12&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-04-24&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="463091691402" urn="urn:adsk.eagle:footprint:25692233/3">
-<description>&lt;B&gt;WS-MITV THT Terminal with Actuator, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
-&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;12.8 x 5.8 mm Right Angle Operation, THT, 3pins</description>
+<package name="463092370402" urn="urn:adsk.eagle:footprint:18178246/3">
+<description>&lt;B&gt;WS-MITV THT Terminal with Lever Micro Switch, 12.8 x 5.8 mm</description>
 <pad name="1" x="-5.08" y="0" drill="1.2"/>
 <pad name="2" x="0" y="0" drill="1.2"/>
 <pad name="3" x="5.08" y="0" drill="1.2"/>
-<wire x1="-6.4" y1="9.3" x2="-6.4" y2="2.8" width="0.1" layer="51"/>
-<wire x1="-6.4" y1="2.8" x2="-5.58" y2="2.8" width="0.1" layer="51"/>
-<wire x1="-5.58" y1="2.8" x2="-4.58" y2="2.8" width="0.1" layer="51"/>
-<wire x1="-4.58" y1="2.8" x2="6.4" y2="2.8" width="0.1" layer="51"/>
-<wire x1="6.4" y1="2.8" x2="6.4" y2="9.3" width="0.1" layer="51"/>
-<wire x1="6.4" y1="9.3" x2="-6.4" y2="9.3" width="0.1" layer="51"/>
-<wire x1="-5.58" y1="2.8" x2="-5.58" y2="0.05" width="0.1" layer="51"/>
-<wire x1="-5.58" y1="0.05" x2="-4.58" y2="0.05" width="0.1" layer="51"/>
-<wire x1="-4.58" y1="0.05" x2="-4.58" y2="2.8" width="0.1" layer="51"/>
-<wire x1="-0.5" y1="2.8" x2="-0.5" y2="0.05" width="0.1" layer="51"/>
-<wire x1="-0.5" y1="0.05" x2="0.5" y2="0.05" width="0.1" layer="51"/>
-<wire x1="0.5" y1="0.05" x2="0.5" y2="2.8" width="0.1" layer="51"/>
-<wire x1="4.58" y1="2.8" x2="4.58" y2="0.05" width="0.1" layer="51"/>
-<wire x1="4.58" y1="0.05" x2="5.58" y2="0.05" width="0.1" layer="51"/>
-<wire x1="5.58" y1="0.05" x2="5.58" y2="2.8" width="0.1" layer="51"/>
-<wire x1="-6.5" y1="9.4" x2="6.5" y2="9.4" width="0.2" layer="21"/>
-<wire x1="6.5" y1="9.4" x2="6.5" y2="2.7" width="0.2" layer="21"/>
-<wire x1="6.5" y1="2.7" x2="-6.5" y2="2.7" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="2.7" x2="-6.5" y2="9.4" width="0.2" layer="21"/>
-<wire x1="-1.35" y1="9.3" x2="-1.35" y2="9.8" width="0.1" layer="51"/>
-<wire x1="-2.55" y1="9.8" x2="-2.55" y2="9.3" width="0.1" layer="51"/>
-<wire x1="-2.55" y1="9.8" x2="-1.35" y2="9.8" width="0.1" layer="51" curve="-106.260205"/>
+<wire x1="-6.4" y1="2.9" x2="6.4" y2="2.9" width="0.1" layer="51"/>
+<wire x1="6.4" y1="2.9" x2="6.4" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="6.4" y1="-2.9" x2="-6.4" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="-6.4" y1="-2.9" x2="-6.4" y2="2.9" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="3" x2="6.5" y2="3" width="0.2" layer="21"/>
+<wire x1="6.5" y1="3" x2="6.5" y2="-3" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-3" x2="-6.5" y2="-3" width="0.2" layer="21"/>
+<wire x1="-6.5" y1="-3" x2="-6.5" y2="3" width="0.2" layer="21"/>
 <polygon width="0.1" layer="39">
-<vertex x="-6.7" y="10.2"/>
-<vertex x="6.7" y="10.2"/>
-<vertex x="6.7" y="-1.1"/>
-<vertex x="-6.7" y="-1.1"/>
+<vertex x="-6.7" y="3.2"/>
+<vertex x="6.7" y="3.2"/>
+<vertex x="6.7" y="-3.2"/>
+<vertex x="-6.7" y="-3.2"/>
 </polygon>
-<text x="-0.05" y="11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.8" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-5.08" y="-2.2" size="0.6096" layer="21" align="bottom-center">COM</text>
+<text x="0" y="-2.2" size="0.6096" layer="21" align="bottom-center">NO</text>
+<text x="5.08" y="-2.2" size="0.6096" layer="21" align="bottom-center">NC</text>
+<text x="-5.08" y="-2.2" size="0.6096" layer="48" align="bottom-center">COM</text>
+<text x="0" y="-2.2" size="0.6096" layer="48" align="bottom-center">NO</text>
+<text x="5.08" y="-2.2" size="0.6096" layer="48" align="bottom-center">NC</text>
 </package>
-<package name="463092691402" urn="urn:adsk.eagle:footprint:25692232/4">
+<package name="463092691402" urn="urn:adsk.eagle:footprint:25692232/5">
 <description>&lt;B&gt;WS-MITV THT Terminal with Lever, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
 &lt;BR&gt;&lt;BR&gt;&lt;/B&gt;12.8 x 5.8 mm Right Angle Operation, THT, 3pins</description>
 <pad name="1" x="-5.08" y="0" drill="1.2"/>
@@ -221,9 +215,65 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <text x="7.5" y="8.4" size="1.27" layer="25">&gt;NAME</text>
 <text x="7.5" y="6.5" size="1.27" layer="25">&gt;VALUE</text>
+<text x="-5.08" y="1.2" size="0.6096" layer="21" align="bottom-center">COM</text>
+<text x="0" y="1.2" size="0.6096" layer="21" align="bottom-center">NO</text>
+<text x="5.08" y="1.2" size="0.6096" layer="21" align="bottom-center">NC</text>
+<text x="-5.08" y="1.2" size="0.6096" layer="48" align="bottom-center">COM</text>
+<text x="0" y="1.2" size="0.6096" layer="48" align="bottom-center">NO</text>
+<text x="5.08" y="1.2" size="0.6096" layer="48" align="bottom-center">NC</text>
 </package>
-<package name="463091370402" urn="urn:adsk.eagle:footprint:18178247/2">
-<description>&lt;B&gt;WS-MITV&lt;/B&gt; &lt;BR&gt; THT Terminal with Actuator Micro Switch, 12.8 x 5.8 mm</description>
+<package name="463091370403" urn="urn:adsk.eagle:footprint:45525477/3">
+<description>&lt;b&gt;WS-MITV THT Terminal with Lever Micro Switch, 19.8 x 6.4mm</description>
+<pad name="1" x="-8.15" y="0" drill="1.35"/>
+<pad name="2" x="0.65" y="0" drill="1.35"/>
+<pad name="3" x="8.15" y="0" drill="1.35"/>
+<wire x1="-9.9" y1="3.2" x2="9.9" y2="3.2" width="0.1" layer="51"/>
+<wire x1="9.9" y1="3.2" x2="9.9" y2="-3.2" width="0.1" layer="51"/>
+<wire x1="9.9" y1="-3.2" x2="-9.9" y2="-3.2" width="0.1" layer="51"/>
+<wire x1="-9.9" y1="-3.2" x2="-9.9" y2="3.2" width="0.1" layer="51"/>
+<wire x1="-10" y1="3.3" x2="10" y2="3.3" width="0.2" layer="21"/>
+<wire x1="10" y1="3.3" x2="10" y2="-3.3" width="0.2" layer="21"/>
+<wire x1="10" y1="-3.3" x2="-10" y2="-3.3" width="0.2" layer="21"/>
+<wire x1="-10" y1="-3.3" x2="-10" y2="3.3" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-10.2" y="3.5"/>
+<vertex x="10.2" y="3.5"/>
+<vertex x="10.2" y="-3.5"/>
+<vertex x="-10.2" y="-3.5"/>
+</polygon>
+<text x="0" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-8.15" y="-2" size="0.6096" layer="21" align="bottom-center">COM</text>
+<text x="0.65" y="-2" size="0.6096" layer="21" align="bottom-center">NO</text>
+<text x="8.15" y="-2" size="0.6096" layer="21" align="bottom-center">NC</text>
+</package>
+<package name="463093370403" urn="urn:adsk.eagle:footprint:45525475/3">
+<description>&lt;b&gt;WS-MITV THT Terminal with Roller Lever Micro Switch, 19.8 x 6.4mm</description>
+<pad name="1" x="-8.15" y="0" drill="1.35"/>
+<pad name="2" x="0.65" y="0" drill="1.35"/>
+<pad name="3" x="8.15" y="0" drill="1.35"/>
+<wire x1="-9.9" y1="3.2" x2="9.9" y2="3.2" width="0.1" layer="51"/>
+<wire x1="9.9" y1="3.2" x2="9.9" y2="-3.2" width="0.1" layer="51"/>
+<wire x1="9.9" y1="-3.2" x2="-9.9" y2="-3.2" width="0.1" layer="51"/>
+<wire x1="-9.9" y1="-3.2" x2="-9.9" y2="3.2" width="0.1" layer="51"/>
+<wire x1="-10" y1="3.3" x2="10" y2="3.3" width="0.2" layer="21"/>
+<wire x1="10" y1="3.3" x2="10" y2="-3.3" width="0.2" layer="21"/>
+<wire x1="10" y1="-3.3" x2="-10" y2="-3.3" width="0.2" layer="21"/>
+<wire x1="-10" y1="-3.3" x2="-10" y2="3.3" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-10.2" y="3.5"/>
+<vertex x="10.2" y="3.5"/>
+<vertex x="10.2" y="-3.5"/>
+<vertex x="-10.2" y="-3.5"/>
+</polygon>
+<text x="0" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-8.15" y="-2" size="0.6096" layer="21" align="bottom-center">COM</text>
+<text x="0.65" y="-2" size="0.6096" layer="21" align="bottom-center">NO</text>
+<text x="8.15" y="-2" size="0.6096" layer="21" align="bottom-center">NC</text>
+</package>
+<package name="463093370402" urn="urn:adsk.eagle:footprint:18178245/3">
+<description>&lt;B&gt;WS-MITV THT Terminal with Roller Lever Micro Switch, 12.8 x 5.8 mm</description>
 <pad name="1" x="-5.08" y="0" drill="1.2"/>
 <pad name="2" x="0" y="0" drill="1.2"/>
 <pad name="3" x="5.08" y="0" drill="1.2"/>
@@ -235,50 +285,65 @@ Copyright: Würth Elektronik</description>
 <wire x1="6.5" y1="3" x2="6.5" y2="-3" width="0.2" layer="21"/>
 <wire x1="6.5" y1="-3" x2="-6.5" y2="-3" width="0.2" layer="21"/>
 <wire x1="-6.5" y1="-3" x2="-6.5" y2="3" width="0.2" layer="21"/>
-<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-5" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-5.8" y="-2.2" size="0.6096" layer="21">COM</text>
-<text x="-0.5" y="-2.2" size="0.6096" layer="21">NO</text>
-<text x="4.6" y="-2.2" size="0.6096" layer="21">NC</text>
-<text x="-5.8" y="-2.2" size="0.6096" layer="48">COM</text>
-<text x="-0.5" y="-2.2" size="0.6096" layer="48">NO</text>
-<text x="4.6" y="-2.2" size="0.6096" layer="48">NC</text>
 <polygon width="0.1" layer="39">
 <vertex x="-6.7" y="3.2"/>
 <vertex x="6.7" y="3.2"/>
 <vertex x="6.7" y="-3.2"/>
 <vertex x="-6.7" y="-3.2"/>
 </polygon>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-5.08" y="-2.2" size="0.6096" layer="21" align="bottom-center">COM</text>
+<text x="0" y="-2.2" size="0.6096" layer="21" align="bottom-center">NO</text>
+<text x="5.08" y="-2.2" size="0.6096" layer="21" align="bottom-center">NC</text>
+<text x="-5.08" y="-2.2" size="0.6096" layer="48" align="bottom-center">COM</text>
+<text x="0" y="-2.2" size="0.6096" layer="48" align="bottom-center">NO</text>
+<text x="5.08" y="-2.2" size="0.6096" layer="48" align="bottom-center">NC</text>
 </package>
-<package name="463093370402" urn="urn:adsk.eagle:footprint:18178245/2">
-<description>&lt;B&gt;WS-MITV&lt;/B&gt; &lt;BR&gt;THT Terminal with Roller Lever Micro Switch, 12.8 x 5.8 mm</description>
+<package name="463091691402" urn="urn:adsk.eagle:footprint:25692233/4">
+<description>&lt;B&gt;WS-MITV THT Terminal with Actuator, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;12.8 x 5.8 mm Right Angle Operation, THT, 3pins</description>
 <pad name="1" x="-5.08" y="0" drill="1.2"/>
 <pad name="2" x="0" y="0" drill="1.2"/>
 <pad name="3" x="5.08" y="0" drill="1.2"/>
-<wire x1="-6.4" y1="2.9" x2="6.4" y2="2.9" width="0.1" layer="51"/>
-<wire x1="6.4" y1="2.9" x2="6.4" y2="-2.9" width="0.1" layer="51"/>
-<wire x1="6.4" y1="-2.9" x2="-6.4" y2="-2.9" width="0.1" layer="51"/>
-<wire x1="-6.4" y1="-2.9" x2="-6.4" y2="2.9" width="0.1" layer="51"/>
-<wire x1="-6.5" y1="3" x2="6.5" y2="3" width="0.2" layer="21"/>
-<wire x1="6.5" y1="3" x2="6.5" y2="-3" width="0.2" layer="21"/>
-<wire x1="6.5" y1="-3" x2="-6.5" y2="-3" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="-3" x2="-6.5" y2="3" width="0.2" layer="21"/>
-<text x="-5.9" y="-2.2" size="0.6096" layer="48">COM</text>
-<text x="-0.6" y="-2.2" size="0.6096" layer="21">NO</text>
-<text x="4.5" y="-2.2" size="0.6096" layer="21">NC</text>
-<text x="-5.9" y="-2.2" size="0.6096" layer="21">COM</text>
-<text x="-0.6" y="-2.2" size="0.6096" layer="48">NO</text>
-<text x="4.5" y="-2.2" size="0.6096" layer="48">NC</text>
-<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.4" y1="9.3" x2="-6.4" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-6.4" y1="2.8" x2="-5.58" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-5.58" y1="2.8" x2="-4.58" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-4.58" y1="2.8" x2="6.4" y2="2.8" width="0.1" layer="51"/>
+<wire x1="6.4" y1="2.8" x2="6.4" y2="9.3" width="0.1" layer="51"/>
+<wire x1="6.4" y1="9.3" x2="-6.4" y2="9.3" width="0.1" layer="51"/>
+<wire x1="-5.58" y1="2.8" x2="-5.58" y2="0.05" width="0.1" layer="51"/>
+<wire x1="-5.58" y1="0.05" x2="-4.58" y2="0.05" width="0.1" layer="51"/>
+<wire x1="-4.58" y1="0.05" x2="-4.58" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="2.8" x2="-0.5" y2="0.05" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.05" x2="0.5" y2="0.05" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.05" x2="0.5" y2="2.8" width="0.1" layer="51"/>
+<wire x1="4.58" y1="2.8" x2="4.58" y2="0.05" width="0.1" layer="51"/>
+<wire x1="4.58" y1="0.05" x2="5.58" y2="0.05" width="0.1" layer="51"/>
+<wire x1="5.58" y1="0.05" x2="5.58" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="9.4" x2="6.5" y2="9.4" width="0.2" layer="21"/>
+<wire x1="6.5" y1="9.4" x2="6.5" y2="2.7" width="0.2" layer="21"/>
+<wire x1="6.5" y1="2.7" x2="-6.5" y2="2.7" width="0.2" layer="21"/>
+<wire x1="-6.5" y1="2.7" x2="-6.5" y2="9.4" width="0.2" layer="21"/>
+<wire x1="-1.35" y1="9.3" x2="-1.35" y2="9.8" width="0.1" layer="51"/>
+<wire x1="-2.55" y1="9.8" x2="-2.55" y2="9.3" width="0.1" layer="51"/>
+<wire x1="-2.55" y1="9.8" x2="-1.35" y2="9.8" width="0.1" layer="51" curve="-106.260205"/>
 <polygon width="0.1" layer="39">
-<vertex x="-6.7" y="3.2"/>
-<vertex x="6.7" y="3.2"/>
-<vertex x="6.7" y="-3.2"/>
-<vertex x="-6.7" y="-3.2"/>
+<vertex x="-6.7" y="10.2"/>
+<vertex x="6.7" y="10.2"/>
+<vertex x="6.7" y="-1.1"/>
+<vertex x="-6.7" y="-1.1"/>
 </polygon>
+<text x="-5.08" y="1.2" size="0.6096" layer="21" align="bottom-center">COM</text>
+<text x="0" y="1.2" size="0.6096" layer="21" align="bottom-center">NO</text>
+<text x="5.08" y="1.2" size="0.6096" layer="21" align="bottom-center">NC</text>
+<text x="-5.08" y="1.2" size="0.6096" layer="48" align="bottom-center">COM</text>
+<text x="0" y="1.2" size="0.6096" layer="48" align="bottom-center">NO</text>
+<text x="5.08" y="1.2" size="0.6096" layer="48" align="bottom-center">NC</text>
+<text x="7.5" y="8.4" size="1.27" layer="25">&gt;NAME</text>
+<text x="7.5" y="6.5" size="1.27" layer="25">&gt;VALUE</text>
 </package>
-<package name="463093691402" urn="urn:adsk.eagle:footprint:25692231/4">
+<package name="463093691402" urn="urn:adsk.eagle:footprint:25692231/5">
 <description>&lt;B&gt;WS-MITV THT Terminal with Roller Lever, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
 &lt;BR&gt;&lt;BR&gt;&lt;/B&gt;12.8 x 5.8 mm Right Angle Operation, THT, 3pins</description>
 <pad name="1" x="-5.08" y="0" drill="1.2"/>
@@ -312,8 +377,6 @@ Copyright: Würth Elektronik</description>
 <wire x1="8.325646875" y1="14.774703125" x2="8.84206875" y2="12.352490625" width="0.1" layer="51"/>
 <wire x1="5.612675" y1="13.37035" x2="7.464759375" y2="13.740409375" width="0.1" layer="51" curve="-129.280388"/>
 <wire x1="-2.55" y1="9.8" x2="-1.35" y2="9.8" width="0.1" layer="51" curve="-106.260205"/>
-<text x="10" y="8.4" size="1.27" layer="25">&gt;NAME</text>
-<text x="10" y="6.5" size="1.27" layer="25">&gt;VALUE</text>
 <polygon width="0.1" layer="39">
 <vertex x="-6.7" y="18.2"/>
 <vertex x="9.4" y="18.2"/>
@@ -322,9 +385,42 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <circle x="6.12" y="15.67" radius="1.4" width="0.1" layer="51"/>
 <circle x="6.12" y="15.67" radius="2.4" width="0.1" layer="51"/>
+<text x="-5.08" y="1.2" size="0.6096" layer="21" align="bottom-center">COM</text>
+<text x="0" y="1.2" size="0.6096" layer="21" align="bottom-center">NO</text>
+<text x="5.08" y="1.2" size="0.6096" layer="21" align="bottom-center">NC</text>
+<text x="-5.08" y="1.2" size="0.6096" layer="48" align="bottom-center">COM</text>
+<text x="0" y="1.2" size="0.6096" layer="48" align="bottom-center">NO</text>
+<text x="5.08" y="1.2" size="0.6096" layer="48" align="bottom-center">NC</text>
+<text x="7.5" y="8.4" size="1.27" layer="25">&gt;NAME</text>
+<text x="7.5" y="6.5" size="1.27" layer="25">&gt;VALUE</text>
 </package>
-<package name="463092370402" urn="urn:adsk.eagle:footprint:18178246/2">
-<description>&lt;B&gt;WS-MITV&lt;/B&gt;&lt;BR&gt; THT Terminal with Lever Micro Switch, 12.8 x 5.8 mm</description>
+<package name="463092370403" urn="urn:adsk.eagle:footprint:45525476/3">
+<description>&lt;b&gt;WS-MITV THT Terminal with Lever Micro Switch, 19.8 x 6.4mm</description>
+<pad name="1" x="-8.15" y="0" drill="1.35"/>
+<pad name="2" x="0.65" y="0" drill="1.35"/>
+<pad name="3" x="8.15" y="0" drill="1.35"/>
+<wire x1="-9.9" y1="3.2" x2="9.9" y2="3.2" width="0.1" layer="51"/>
+<wire x1="9.9" y1="3.2" x2="9.9" y2="-3.2" width="0.1" layer="51"/>
+<wire x1="9.9" y1="-3.2" x2="-9.9" y2="-3.2" width="0.1" layer="51"/>
+<wire x1="-9.9" y1="-3.2" x2="-9.9" y2="3.2" width="0.1" layer="51"/>
+<wire x1="-10" y1="3.3" x2="10" y2="3.3" width="0.2" layer="21"/>
+<wire x1="10" y1="3.3" x2="10" y2="-3.3" width="0.2" layer="21"/>
+<wire x1="10" y1="-3.3" x2="-10" y2="-3.3" width="0.2" layer="21"/>
+<wire x1="-10" y1="-3.3" x2="-10" y2="3.3" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-10.2" y="3.5"/>
+<vertex x="10.2" y="3.5"/>
+<vertex x="10.2" y="-3.5"/>
+<vertex x="-10.2" y="-3.5"/>
+</polygon>
+<text x="0" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-8.15" y="-2" size="0.6096" layer="21" align="bottom-center">COM</text>
+<text x="0.65" y="-2" size="0.6096" layer="21" align="bottom-center">NO</text>
+<text x="8.15" y="-2" size="0.6096" layer="21" align="bottom-center">NC</text>
+</package>
+<package name="463091370402" urn="urn:adsk.eagle:footprint:18178247/3">
+<description>&lt;B&gt;WS-MITV THT Terminal with Actuator Micro Switch, 12.8 x 5.8 mm</description>
 <pad name="1" x="-5.08" y="0" drill="1.2"/>
 <pad name="2" x="0" y="0" drill="1.2"/>
 <pad name="3" x="5.08" y="0" drill="1.2"/>
@@ -336,14 +432,14 @@ Copyright: Würth Elektronik</description>
 <wire x1="6.5" y1="3" x2="6.5" y2="-3" width="0.2" layer="21"/>
 <wire x1="6.5" y1="-3" x2="-6.5" y2="-3" width="0.2" layer="21"/>
 <wire x1="-6.5" y1="-3" x2="-6.5" y2="3" width="0.2" layer="21"/>
-<text x="-0.4" y="-2.2" size="0.6096" layer="21">NO</text>
-<text x="4.5" y="-2.2" size="0.6096" layer="21">NC</text>
-<text x="-5.9" y="-2.2" size="0.6096" layer="48">COM</text>
-<text x="-5.9" y="-2.2" size="0.6096" layer="48">COM</text>
-<text x="-0.4" y="-2.2" size="0.6096" layer="48">NO</text>
-<text x="4.5" y="-2.2" size="0.6096" layer="48">NC</text>
 <text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-5.08" y="-2.2" size="0.6096" layer="21" align="bottom-center">COM</text>
+<text x="0" y="-2.2" size="0.6096" layer="21" align="bottom-center">NO</text>
+<text x="5.08" y="-2.2" size="0.6096" layer="21" align="bottom-center">NC</text>
+<text x="-5.08" y="-2.2" size="0.6096" layer="48" align="bottom-center">COM</text>
+<text x="0" y="-2.2" size="0.6096" layer="48" align="bottom-center">NO</text>
+<text x="5.08" y="-2.2" size="0.6096" layer="48" align="bottom-center">NC</text>
 <polygon width="0.1" layer="39">
 <vertex x="-6.7" y="3.2"/>
 <vertex x="6.7" y="3.2"/>
@@ -353,162 +449,72 @@ Copyright: Würth Elektronik</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="463091370402" urn="urn:adsk.eagle:package:18178251/4" type="model">
-<description>&lt;B&gt;WS-MITV&lt;/B&gt; &lt;BR&gt; THT Terminal with Actuator Micro Switch, 12.8 x 5.8 mm</description>
+<package3d name="463091370403" urn="urn:adsk.eagle:package:45525481/4" type="model">
+<description>&lt;b&gt;WS-MITV THT Terminal with Lever Micro Switch, 19.8 x 6.4mm</description>
 <packageinstances>
-<packageinstance name="463091370402"/>
+<packageinstance name="463091370403"/>
 </packageinstances>
 </package3d>
-<package3d name="463093370402" urn="urn:adsk.eagle:package:18178249/4" type="model">
-<description>&lt;B&gt;WS-MITV&lt;/B&gt; &lt;BR&gt;THT Terminal with Roller Lever Micro Switch, 12.8 x 5.8 mm</description>
+<package3d name="463092370402" urn="urn:adsk.eagle:package:18178250/5" type="model">
+<description>&lt;B&gt;WS-MITV THT Terminal with Lever Micro Switch, 12.8 x 5.8 mm</description>
 <packageinstances>
-<packageinstance name="463093370402"/>
+<packageinstance name="463092370402"/>
 </packageinstances>
 </package3d>
-<package3d name="463091691402" urn="urn:adsk.eagle:package:26222880/4" type="model">
-<description>&lt;B&gt;WS-MITV THT Terminal with Actuator, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
-&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;12.8 x 5.8 mm Right Angle Operation, THT, 3pins</description>
-<packageinstances>
-<packageinstance name="463091691402"/>
-</packageinstances>
-</package3d>
-<package3d name="463092691402" urn="urn:adsk.eagle:package:26222878/4" type="model">
+<package3d name="463092691402" urn="urn:adsk.eagle:package:26222878/5" type="model">
 <description>&lt;B&gt;WS-MITV THT Terminal with Lever, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
 &lt;BR&gt;&lt;BR&gt;&lt;/B&gt;12.8 x 5.8 mm Right Angle Operation, THT, 3pins</description>
 <packageinstances>
 <packageinstance name="463092691402"/>
 </packageinstances>
 </package3d>
-<package3d name="463093691402" urn="urn:adsk.eagle:package:26222879/4" type="model">
+<package3d name="463091691402" urn="urn:adsk.eagle:package:26222880/5" type="model">
+<description>&lt;B&gt;WS-MITV THT Terminal with Actuator, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;12.8 x 5.8 mm Right Angle Operation, THT, 3pins</description>
+<packageinstances>
+<packageinstance name="463091691402"/>
+</packageinstances>
+</package3d>
+<package3d name="463093370403" urn="urn:adsk.eagle:package:45525479/4" type="model">
+<description>&lt;b&gt;WS-MITV THT Terminal with Roller Lever Micro Switch, 19.8 x 6.4mm</description>
+<packageinstances>
+<packageinstance name="463093370403"/>
+</packageinstances>
+</package3d>
+<package3d name="463093370402" urn="urn:adsk.eagle:package:18178249/5" type="model">
+<description>&lt;B&gt;WS-MITV THT Terminal with Roller Lever Micro Switch, 12.8 x 5.8 mm</description>
+<packageinstances>
+<packageinstance name="463093370402"/>
+</packageinstances>
+</package3d>
+<package3d name="463092370403" urn="urn:adsk.eagle:package:45525480/4" type="model">
+<description>&lt;b&gt;WS-MITV THT Terminal with Lever Micro Switch, 19.8 x 6.4mm</description>
+<packageinstances>
+<packageinstance name="463092370403"/>
+</packageinstances>
+</package3d>
+<package3d name="463093691402" urn="urn:adsk.eagle:package:26222879/5" type="model">
 <description>&lt;B&gt;WS-MITV THT Terminal with Roller Lever, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
 &lt;BR&gt;&lt;BR&gt;&lt;/B&gt;12.8 x 5.8 mm Right Angle Operation, THT, 3pins</description>
 <packageinstances>
 <packageinstance name="463093691402"/>
 </packageinstances>
 </package3d>
-<package3d name="463092370402" urn="urn:adsk.eagle:package:18178250/4" type="model">
-<description>&lt;B&gt;WS-MITV&lt;/B&gt;&lt;BR&gt; THT Terminal with Lever Micro Switch, 12.8 x 5.8 mm</description>
+<package3d name="463091370402" urn="urn:adsk.eagle:package:18178251/5" type="model">
+<description>&lt;B&gt;WS-MITV THT Terminal with Actuator Micro Switch, 12.8 x 5.8 mm</description>
 <packageinstances>
-<packageinstance name="463092370402"/>
+<packageinstance name="463091370402"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="WS-MITV-3">
-<description>WS-MITV</description>
-<text x="2.19" y="4.82" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="7.2" y="0.87" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-4.46" y="-5.355" size="1.016" layer="94">COM</text>
-<text x="0.62" y="-5.435" size="1.016" layer="94">NO</text>
-<text x="5.825" y="-5.335" size="1.016" layer="94">NC</text>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="1.905" x2="5.08" y2="1.905" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.905" x2="5.08" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="3.81" x2="6.35" y2="3.81" width="0.254" layer="94" style="shortdash"/>
-<wire x1="6.35" y1="3.81" x2="6.35" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="6.35" y1="-3.175" x2="5.08" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-5.08" y1="-3.175" x2="-6.35" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-6.35" y1="-3.175" x2="-6.35" y2="3.81" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-3.36" y1="3.88" x2="-1.54" y2="3.82" width="0.254" layer="94" style="shortdash" curve="-191.927391"/>
-<wire x1="-1.97" y1="-0.49" x2="0.35" y2="1.52" width="0.254" layer="94"/>
-<pin name="NO" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="COM" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="NC" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<circle x="0" y="-1.905" radius="0.508" width="0.254" layer="94"/>
-<polygon width="0.254" layer="94">
-<vertex x="-1.532" y="-0.002" curve="-90"/>
-<vertex x="-2.04" y="-0.51" curve="-90"/>
-<vertex x="-2.548" y="-0.002" curve="-90"/>
-<vertex x="-2.04" y="0.506" curve="-90"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="0.438" y="1.838" curve="-90"/>
-<vertex x="-0.07" y="1.33" curve="-90"/>
-<vertex x="-0.578" y="1.838" curve="-90"/>
-<vertex x="-0.07" y="2.346" curve="-90"/>
-</polygon>
-</symbol>
-<symbol name="WS-MITV-2">
-<description>WS-MITV</description>
-<text x="2.19" y="4.82" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="7.2" y="0.87" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-4.46" y="-5.355" size="1.016" layer="94">COM</text>
-<text x="0.62" y="-5.435" size="1.016" layer="94">NO</text>
-<text x="5.825" y="-5.335" size="1.016" layer="94">NC</text>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="1.905" x2="5.08" y2="1.905" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.905" x2="5.08" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="3.81" x2="6.35" y2="3.81" width="0.254" layer="94" style="shortdash"/>
-<wire x1="6.35" y1="3.81" x2="6.35" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="6.35" y1="-3.175" x2="5.08" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-5.08" y1="-3.175" x2="-6.35" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-6.35" y1="-3.175" x2="-6.35" y2="3.81" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-3.36" y1="3.88" x2="-1.54" y2="3.82" width="0.254" layer="94" style="shortdash" curve="-191.927391"/>
-<wire x1="-1.97" y1="-0.49" x2="0.35" y2="1.52" width="0.254" layer="94"/>
-<pin name="NO" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="COM" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="NC" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<circle x="0" y="-1.905" radius="0.508" width="0.254" layer="94"/>
-<polygon width="0.254" layer="94">
-<vertex x="-1.532" y="-0.002" curve="-90"/>
-<vertex x="-2.04" y="-0.51" curve="-90"/>
-<vertex x="-2.548" y="-0.002" curve="-90"/>
-<vertex x="-2.04" y="0.506" curve="-90"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="0.438" y="1.838" curve="-90"/>
-<vertex x="-0.07" y="1.33" curve="-90"/>
-<vertex x="-0.578" y="1.838" curve="-90"/>
-<vertex x="-0.07" y="2.346" curve="-90"/>
-</polygon>
-</symbol>
-<symbol name="WS-MITV-1">
-<description>WS-MITV</description>
-<text x="2.19" y="4.82" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="7.2" y="0.87" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-4.46" y="-5.355" size="1.016" layer="94">COM</text>
-<text x="0.62" y="-5.435" size="1.016" layer="94">NO</text>
-<text x="5.825" y="-5.335" size="1.016" layer="94">NC</text>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="1.905" x2="5.08" y2="1.905" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.905" x2="5.08" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="3.81" x2="6.35" y2="3.81" width="0.254" layer="94" style="shortdash"/>
-<wire x1="6.35" y1="3.81" x2="6.35" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="6.35" y1="-3.175" x2="5.08" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-5.08" y1="-3.175" x2="-6.35" y2="-3.175" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-6.35" y1="-3.175" x2="-6.35" y2="3.81" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-3.36" y1="3.88" x2="-1.54" y2="3.82" width="0.254" layer="94" style="shortdash" curve="-191.927391"/>
-<wire x1="-1.97" y1="-0.49" x2="0.35" y2="1.52" width="0.254" layer="94"/>
-<pin name="NO" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="COM" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="NC" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<circle x="0" y="-1.905" radius="0.508" width="0.254" layer="94"/>
-<polygon width="0.254" layer="94">
-<vertex x="-1.532" y="-0.002" curve="-90"/>
-<vertex x="-2.04" y="-0.51" curve="-90"/>
-<vertex x="-2.548" y="-0.002" curve="-90"/>
-<vertex x="-2.04" y="0.506" curve="-90"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="0.438" y="1.838" curve="-90"/>
-<vertex x="-0.07" y="1.33" curve="-90"/>
-<vertex x="-0.578" y="1.838" curve="-90"/>
-<vertex x="-0.07" y="2.346" curve="-90"/>
-</polygon>
-</symbol>
 <symbol name="WS-MITV">
 <description>WS-MITV</description>
-<text x="2.19" y="4.82" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="7.2" y="0.87" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-4.46" y="-5.355" size="1.016" layer="94">COM</text>
-<text x="0.62" y="-5.435" size="1.016" layer="94">NO</text>
-<text x="5.825" y="-5.335" size="1.016" layer="94">NC</text>
+<text x="7.62" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-4.572" y="-5.08" size="1.016" layer="94">COM</text>
+<text x="0.6096" y="-5.08" size="1.016" layer="94">NO</text>
+<text x="5.588" y="-5.08" size="1.016" layer="94">NC</text>
 <wire x1="-5.08" y1="0" x2="-5.08" y2="-3.175" width="0.254" layer="94"/>
 <wire x1="0" y1="1.905" x2="5.08" y2="1.905" width="0.254" layer="94"/>
 <wire x1="5.08" y1="1.905" x2="5.08" y2="-3.175" width="0.254" layer="94"/>
@@ -540,360 +546,51 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="463091691402" prefix="S">
-<description>&lt;b&gt;WS-MITV THT Terminal with Actuator, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt;Material Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Material PBT 
-&lt;BR&gt; Actuator Flammability Rating UL94 V-0 
-&lt;BR&gt; Actuator Color White 
-&lt;BR&gt; Frame Material PBT 
-&lt;BR&gt; Frame Flammability Rating UL94 V-0 
-&lt;BR&gt; Moveable Contact Material Silver 
-&lt;BR&gt; Stationary Contact Material Silver 
-&lt;BR&gt; Terminal Material Copper Alloy 
-&lt;BR&gt; Terminal Plating Silver 
-&lt;BR&gt;
-&lt;br&gt;&lt;b&gt;Mechanical Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Operating Position 5.5 mm 
-&lt;BR&gt;Pre-travel 0.5 mm 
-&lt;BR&gt;Over travel 0.25 mm 
-&lt;BR&gt;Movement Differential 0.12 mm 
-&lt;BR&gt;Electrical Life 10000 Cycles 
-&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;General Information&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Operating Temperature -40 up to +85 °C 
-&lt;BR&gt;&lt;br&gt;
-&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Packaging Tray 
-
-&lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o320306v209%20Family_WS-MITV_463091691402.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o320306v209%20Family_WS-MITV_463091691402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/MITV_THT_TERMINAL_ACTUATOR_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8"&gt;https://www.we-online.com/catalog/en/MITV_THT_TERMINAL_ACTUATOR_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu, 2021-03-12&lt;br&gt;
-2021 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="463091691402">
-<connects>
-<connect gate="G$1" pin="COM" pad="1"/>
-<connect gate="G$1" pin="NC" pad="3"/>
-<connect gate="G$1" pin="NO" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26222880/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/463091691402.pdf"/>
-<attribute name="OPERATION-FORCE" value=" 150 "/>
-<attribute name="PART-NUMBER" value="463091691402"/>
-<attribute name="RELEASING-FORCE" value=" 20 "/>
-<attribute name="VALUE" value="463091691402"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="463092691402" prefix="S">
-<description>&lt;b&gt;WS-MITV THT Terminal with Lever, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt;Material Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Material PBT 
-&lt;BR&gt; Actuator Flammability Rating UL94 V-0 
-&lt;BR&gt; Actuator Color White 
-&lt;BR&gt; Frame Material PBT 
-&lt;BR&gt; Frame Flammability Rating UL94 V-0 
-&lt;BR&gt; Moveable Contact Material Silver 
-&lt;BR&gt; Stationary Contact Material Silver 
-&lt;BR&gt; Terminal Material Copper Alloy 
-&lt;BR&gt; Terminal Plating Silver 
-
-&lt;BR&gt;
-&lt;br&gt;&lt;b&gt;Mechanical Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Operating Position 6.8 mm 
-&lt;BR&gt;Over travel 0.55 mm 
-&lt;BR&gt;Movement Differential 0.5 mm 
-&lt;BR&gt;Electrical Life 10000 Cycles 
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;General Information&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Operating Temperature -40 up to +85 °C 
-&lt;BR&gt;&lt;br&gt;
-&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Packaging Tray 
-
-&lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o320310v209%20Family_WS-MITV_463092691402.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o320310v209%20Family_WS-MITV_463092691402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/MITV_THT_TERMINAL_LEVER_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8"&gt;https://www.we-online.com/catalog/en/MITV_THT_TERMINAL_LEVER_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu, 2021-03-12&lt;br&gt;
-2021 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="463092691402">
-<connects>
-<connect gate="G$1" pin="COM" pad="1"/>
-<connect gate="G$1" pin="NC" pad="3"/>
-<connect gate="G$1" pin="NO" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26222878/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/463092691402.pdf"/>
-<attribute name="OPERATION-FORCE" value=" 80 "/>
-<attribute name="PART-NUMBER" value="463092691402"/>
-<attribute name="RELEASING-FORCE" value=" 5 "/>
-<attribute name="VALUE" value="463092691402"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="463091370402" prefix="S">
-<description>&lt;b&gt;WS-MITV WS-MITV THT Terminal with Actuator Micro Switch, 12.8 x 5.8 mm
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt;Mechanical Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Operation Force:250 g
-&lt;BR&gt;Releasing Force:20 g
-&lt;br&gt;Operating Position:5.5 mm
-&lt;br&gt;Pre-travel (Value):0.5 mm
-&lt;br&gt;Over travel (Value):0.25 mm
-&lt;br&gt;Movement Differential:0.12 mm
-&lt;br&gt;Electrical Life:10000 Cycles
-&lt;BR&gt;
-
-&lt;br&gt;&lt;b&gt;Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Flammability Rating:UL94 V-0
-&lt;br&gt;Actuator Color:White
-&lt;br&gt;Frame Material:PBT
-&lt;br&gt;Frame Flammability Rating:UL94 V-0
-&lt;br&gt;Moveable Contact Material:Silver
-&lt;br&gt;Stationary Contact:Silver
-&lt;br&gt;Terminal Material:Copper Alloy
-&lt;br&gt;Terminal Plating:Silver
-&lt;br&gt;RISO:100 MΩ
-&lt;br&gt;Schematic:SPDT
-&lt;br&gt;Actuator Material:PBT
-
-&lt;BR&gt;&lt;br&gt;
-&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Packaging:Tray&lt;BR&gt;&lt;br&gt;
-
-&lt;b&gt;General Information&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 up to +85 °C
-&lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o144880v209%20Single_WE-MITV_463091370402.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o144880v209%20Single_WE-MITV_463091370402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/MITV_19_8X6_4_THT_ACTUATOR_LEFT_240GF/"&gt;https://www.we-online.com/catalog/en/MITV_19_8X6_4_THT_ACTUATOR_LEFT_240GF/&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu, 2021-02-08&lt;br&gt;
-2021 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="463091370402">
-<connects>
-<connect gate="G$1" pin="COM" pad="1"/>
-<connect gate="G$1" pin="NC" pad="3"/>
-<connect gate="G$1" pin="NO" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18178251/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/463091370402.pdf"/>
-<attribute name="OPERATION-FORCE" value=" 150 "/>
-<attribute name="PART-NUMBER" value="463091370402"/>
-<attribute name="QTY" value=" 100 "/>
-<attribute name="SCHEMATIC" value="SPDT"/>
-<attribute name="VALUE" value="463091370402"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="463093370402" prefix="S">
-<description>&lt;b&gt;WS-MITV WS-MITV THT Terminal with Roller Lever Micro Switch, 12.8 x 5.8 mm
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt;Mechanical Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Releasing Force:5 g
-&lt;BR&gt; Operating Position:13 mm
-&lt;BR&gt; Over travel (Value):0.55 mm
-&lt;BR&gt; Movement Differential:0.5 mm
-&lt;BR&gt; Electrical Life:10000 Cycles
-&lt;BR&gt;
-
-&lt;br&gt;&lt;b&gt;Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Flammability Rating:UL94 V-0
-&lt;br&gt;Actuator Color:White
-&lt;br&gt;Frame Material:PBT
-&lt;br&gt;Frame Flammability Rating:UL94 V-0
-&lt;br&gt;Moveable Contact Material:Silver
-&lt;br&gt;Stationary Contact:Silver
-&lt;br&gt;Terminal Material:Copper Alloy
-&lt;br&gt;Terminal Plating:Silver
-&lt;br&gt;RISO:100 MΩ
-&lt;br&gt;Schematic:SPDT
-&lt;br&gt;Actuator Material:PBT
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Packaging:Tray&lt;BR&gt;&lt;BR&gt;
-
-&lt;b&gt;General Information&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 up to +85 °C
-&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o144911v209%20Single_WE-MITV_463092370402.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o144911v209%20Single_WE-MITV_463092370402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/MITV_19_8X6_4_THT_LEVER_RIGHT_55GF/"&gt;https://www.we-online.com/catalog/en/MITV_19_8X6_4_THT_LEVER_RIGHT_55GF/&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu, 2021-02-08&lt;br&gt;
-2021 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="463093370402">
-<connects>
-<connect gate="G$1" pin="COM" pad="1"/>
-<connect gate="G$1" pin="NC" pad="3"/>
-<connect gate="G$1" pin="NO" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18178249/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/463093370402.pdf"/>
-<attribute name="OPERATION-FORCE" value=" 80 "/>
-<attribute name="PART-NUMBER" value="463093370402"/>
-<attribute name="QTY" value=" 70 "/>
-<attribute name="SCHEMATIC" value="SPDT"/>
-<attribute name="VALUE" value="463093370402"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="463093691402" prefix="S">
-<description>&lt;b&gt;WS-MITV THT Terminal with Roller Lever, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt;Material Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Material PBT 
-&lt;BR&gt; Actuator Flammability Rating UL94 V-0 
-&lt;BR&gt; Actuator Color White 
-&lt;BR&gt; Frame Material PBT 
-&lt;BR&gt; Frame Flammability Rating UL94 V-0 
-&lt;BR&gt; Moveable Contact Material Silver 
-&lt;BR&gt; Stationary Contact Material Silver 
-&lt;BR&gt; Terminal Material Copper Alloy 
-&lt;BR&gt; Terminal Plating Silver 
-
-&lt;BR&gt;
-&lt;br&gt;&lt;b&gt;Mechanical Properties
-&lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Operating Position 13 mm 
-&lt;BR&gt;Over travel 0.55 mm 
-&lt;BR&gt;Movement Differential 0.5 mm 
-&lt;BR&gt;Electrical Life 10000 Cycles 
-
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;b&gt;General Information&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Operating Temperature -40 up to +85 °C 
-
-&lt;BR&gt;&lt;br&gt;
-&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Packaging Tray 
-
-&lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o320308v209%20Family_WS-MITV_463093691402.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o320308v209%20Family_WS-MITV_463093691402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/MITV_THT_TERMINAL_ROLLER_LEVER_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8"&gt;https://www.we-online.com/catalog/en/MITV_THT_TERMINAL_ROLLER_LEVER_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu, 2021-03-12&lt;br&gt;
-2021 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="463093691402">
-<connects>
-<connect gate="G$1" pin="COM" pad="1"/>
-<connect gate="G$1" pin="NC" pad="3"/>
-<connect gate="G$1" pin="NO" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26222879/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/463093691402.pdf"/>
-<attribute name="OPERATION-FORCE" value=" 80 "/>
-<attribute name="PART-NUMBER" value="463093691402"/>
-<attribute name="RELEASING-FORCE" value=" 5 "/>
-<attribute name="VALUE" value="463093691402"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="463092370402" prefix="S">
-<description>&lt;b&gt;WS-MITV WS-MITV THT Terminal with Lever Micro Switch, 12.8 x 5.8 mm 
+<description>&lt;b&gt;WS-MITV THT Terminal with Lever Micro Switch, 12.8 x 5.8 mm
 &lt;br&gt;
-&lt;br&gt;&lt;b&gt;Mechanical Properties
+&lt;br&gt;&lt;b&gt;Material Properties
 &lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Releasing Force:5 g
-&lt;br&gt;Operating Position:6.8 mm
-&lt;br&gt;Over travel (Value):0.55 mm
-&lt;br&gt;Movement Differential:0.5 mm
-&lt;br&gt;Electrical Life:10000 Cycles
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Material	PBT
+&lt;BR&gt; Actuator Flammability Rating	UL94 V-0
+&lt;BR&gt; Frame Material	PBT
+&lt;BR&gt; Frame Flammability Rating	UL94 V-0
+&lt;BR&gt; Moveable Contact Material	Silver
+&lt;BR&gt; Stationary Contact Material	Silver
+&lt;BR&gt; Terminal Material	Copper Alloy
+&lt;BR&gt; Terminal Plating	Silver
 &lt;BR&gt;
 
-&lt;br&gt;&lt;b&gt;Properties
+&lt;br&gt;&lt;b&gt;General Information
 &lt;BR&gt; 
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Color:White
-Frame Material:PBT
-Frame Flammability Rating:UL94 V-0
-Moveable Contact Material:Silver
-Stationary Contact:Silver
-Terminal Material:Copper Alloy
-Terminal Plating:Silver
-RISO:100 MΩ
-Schematic:SPDT
-Actuator Material:PBT
-&lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Operating Temperature	-40 °C up to +85 °C
+
+&lt;BR&gt;&lt;br&gt;
+&lt;b&gt;Electrical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;Contact Resistance After Life Test	1 Ω
+&lt;BR&gt;RISO	100 MΩ
+&lt;BR&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Schematic	SPDT
+&lt;BR&gt;Over travel	0.55 mm
+&lt;BR&gt;Movement Differential	0.5 mm
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Certification&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;UL Approval	E483308
+&lt;BR&gt;ENEC 15 Approval	ENEC-03305
+&lt;br&gt;&lt;br&gt;
 
 &lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Packaging:Tray&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;Packaging	Tray
+&lt;br&gt;&lt;br&gt;
 
-&lt;b&gt;General Information&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Operating Temperature:-40 up to +85 °C
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o144915v209%20Single_WE-MITV_463093370402.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o144915v209%20Single_WE-MITV_463093370402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/MITV_19_8X6_4_THT_ROLLER_LEVER_LEFT_55GF/"&gt;https://www.we-online.com/catalog/en/MITV_19_8X6_4_THT_ROLLER_LEVER_LEFT_55GF/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o144915v209%20Single_WE-MITV_463093370402.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o144915v209%20Single_WE-MITV_463093370402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MITV_12_8X5_8_THT__LEVER_LEFT_55GF/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MITV_12_8X5_8_THT__LEVER_LEFT_55GF&lt;/a&gt;&lt;p&gt;
 
 Updated by Ella Wu, 2021-02-08&lt;br&gt;
 2021 (C) Wurth Elektronik</description>
@@ -908,16 +605,590 @@ Updated by Ella Wu, 2021-02-08&lt;br&gt;
 <connect gate="G$1" pin="NO" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18178250/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18178250/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/463092370402.pdf"/>
-<attribute name="OPERATION-FORCE" value=" 80 "/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/463092370402?ae"/>
+<attribute name="OPERATING-POSITION" value="6.8mm"/>
+<attribute name="OPERATION-FORCE" value="80g"/>
 <attribute name="PART-NUMBER" value="463092370402"/>
-<attribute name="QTY" value=" 100 "/>
-<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SIZE" value="12.8 x 5.8 mm"/>
 <attribute name="VALUE" value="463092370402"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="463092691402" prefix="S">
+<description>&lt;b&gt;WS-MITV THT Terminal with Lever, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Material Properties
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Material	PBT
+&lt;BR&gt; Actuator Flammability Rating	UL94 V-0
+&lt;BR&gt; Frame Material	PBT
+&lt;BR&gt; Frame Flammability Rating	UL94 V-0
+&lt;BR&gt; Moveable Contact Material	Silver
+&lt;BR&gt; Stationary Contact Material	Silver
+&lt;BR&gt; Terminal Material	Copper Alloy
+&lt;BR&gt; Terminal Plating	Silver
+&lt;BR&gt;
+
+&lt;br&gt;&lt;b&gt;General Information
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Operating Temperature	-40 °C up to +85 °C
+
+&lt;BR&gt;&lt;br&gt;
+&lt;b&gt;Electrical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;Contact Resistance After Life Test	1 Ω
+&lt;BR&gt;RISO	100 MΩ
+&lt;BR&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Schematic	SPDT
+&lt;BR&gt;Over travel	0.55 mm
+&lt;BR&gt;Movement Differential	0.5 mm
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Certification&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;UL Approval	E483308
+&lt;BR&gt;ENEC 15 Approval	ENEC-03305
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Packaging	Tray
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o320310v209 multi-WS-MITV-463092691402.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o320310v209 multi-WS-MITV-463092691402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MITV_THT_TERMINAL_LEVER_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MITV_THT_TERMINAL_LEVER_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2021-02-08&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="463092691402">
+<connects>
+<connect gate="G$1" pin="COM" pad="1"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26222878/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/463092691402?ae"/>
+<attribute name="OPERATING-POSITION" value="6.8mm"/>
+<attribute name="OPERATION-FORCE" value="80g"/>
+<attribute name="PART-NUMBER" value="463092691402"/>
+<attribute name="SIZE" value="12.8 x 5.8 mm"/>
+<attribute name="VALUE" value="463092691402"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="463091370403" prefix="S">
+<description>&lt;b&gt;WS-MITV THT Terminal with Lever Micro Switch, 19.8 x 6.4mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Actuator Material	PBT
+&lt;br&gt;Actuator Flammability Rating	UL94 V-0
+&lt;br&gt;Frame Material	PBT
+&lt;br&gt;Frame Flammability Rating	UL94 V-0
+&lt;br&gt;Moveable Contact Material	Silver
+&lt;br&gt;Stationary Contact Material	Silver
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Silver
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	0 °C up to +105 °C
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Certification
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;UL Approval	E483308
+&lt;br&gt;ENEC 15 Approval	ENEC-04881
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Contact Resistance Initial	30 mΩ
+&lt;br&gt;Contact Resistance After Life Test	5 Ω
+&lt;br&gt;RISO	100 MΩ
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	100000 Cycles
+&lt;br&gt;Schematic	SPDT
+&lt;br&gt;Over travel	0.6 mm
+&lt;br&gt;Movement Differential	0.4 mm
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Packaging Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Packaging	Tray
+
+
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o838187v209 multi-WS-MITV-463091370403.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o838187v209 multi-WS-MITV-463091370403.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_MITV_THT_TERMINAL_WITH_ACTUATOR_MICRO_SWITCH_19_8_X_6_4_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_MITV_THT_TERMINAL_WITH_ACTUATOR_MICRO_SWITCH_19_8_X_6_4_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2025-04-24 &lt;br&gt;
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="463091370403">
+<connects>
+<connect gate="G$1" pin="COM" pad="1"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45525481/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/463091370403?ae"/>
+<attribute name="OPERATING-POSITION" value="8.4mm"/>
+<attribute name="OPERATION-FORCE" value="240g"/>
+<attribute name="PART-NUMBER" value="463091370403"/>
+<attribute name="SIZE" value="19.8 x 6.4mm"/>
+<attribute name="VALUE" value="463091370403"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="463093370403" prefix="S">
+<description>&lt;b&gt;WS-MITV THT Terminal with Roller Lever Micro Switch, 19.8 x 6.4mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Actuator Material	PBT
+&lt;br&gt;Actuator Flammability Rating	UL94 V-0
+&lt;br&gt;Frame Material	PBT
+&lt;br&gt;Frame Flammability Rating	UL94 V-0
+&lt;br&gt;Moveable Contact Material	Silver
+&lt;br&gt;Stationary Contact Material	Silver
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Silver
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	0 °C up to +105 °C
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Certification
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;UL Approval	E483308
+&lt;br&gt;ENEC 15 Approval	ENEC-04881
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Contact Resistance Initial	30 mΩ
+&lt;br&gt;Contact Resistance After Life Test	5 Ω
+&lt;br&gt;RISO	100 MΩ
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	100000 Cycles
+&lt;br&gt;Schematic	SPDT
+&lt;br&gt;Over travel	0.8 mm
+&lt;br&gt;Movement Differential	0.8 mm
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Packaging Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Packaging	Tray
+
+
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o828330v209 multi-WS-MITV-463093370403.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o828330v209 multi-WS-MITV-463093370403.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_MITV_THT_TERMINAL_WITH_ROLLER_LEVER_MICRO_SWITCH_19_8_X_6_4_MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_MITV_THT_TERMINAL_WITH_ROLLER_LEVER_MICRO_SWITCH_19_8_X_6_4_MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2025-04-24 &lt;br&gt;
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="463093370403">
+<connects>
+<connect gate="G$1" pin="COM" pad="1"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45525479/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/463093370403?ae"/>
+<attribute name="OPERATING-POSITION" value="14.9mm"/>
+<attribute name="OPERATION-FORCE" value="55g"/>
+<attribute name="PART-NUMBER" value="463093370403"/>
+<attribute name="SIZE" value="19.8 x 6.4mm"/>
+<attribute name="VALUE" value="463093370403"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="463093370402" prefix="S">
+<description>&lt;b&gt;WS-MITV THT Terminal with Roller Lever Micro Switch, 12.8 x 5.8 mm
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Material Properties
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Material	PBT
+&lt;BR&gt; Actuator Flammability Rating	UL94 V-0
+&lt;BR&gt; Frame Material	PBT
+&lt;BR&gt; Frame Flammability Rating	UL94 V-0
+&lt;BR&gt; Moveable Contact Material	Silver
+&lt;BR&gt; Stationary Contact Material	Silver
+&lt;BR&gt; Terminal Material	Copper Alloy
+&lt;BR&gt; Terminal Plating	Silver
+&lt;BR&gt;
+
+&lt;br&gt;&lt;b&gt;General Information
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Operating Temperature	-40 °C up to +85 °C
+
+&lt;BR&gt;&lt;br&gt;
+&lt;b&gt;Electrical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;Contact Resistance After Life Test	1 Ω
+&lt;BR&gt;RISO	100 MΩ
+&lt;BR&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Schematic	SPDT
+&lt;BR&gt;Over travel	0.55 mm
+&lt;BR&gt;Movement Differential	0.5 mm
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Certification&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;UL Approval	E483308
+&lt;BR&gt;ENEC 15 Approval	ENEC-03305
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Packaging	Tray
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o144911v209%20Single_WE-MITV_463092370402.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o144911v209%20Single_WE-MITV_463092370402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MITV_12_8X5_8_THT_ROLLER_LEVER_RIGHT_55GF/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MITV_12_8X5_8_THT_ROLLER_LEVER_RIGHT_55GF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2021-02-08&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="463093370402">
+<connects>
+<connect gate="G$1" pin="COM" pad="1"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18178249/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/463093370402?ae"/>
+<attribute name="OPERATING-POSITION" value="13mm"/>
+<attribute name="OPERATION-FORCE" value="80g"/>
+<attribute name="PART-NUMBER" value="463093370402"/>
+<attribute name="SIZE" value="12.8 x 5.8 mm"/>
+<attribute name="VALUE" value="463093370402"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="463091691402" prefix="S">
+<description>&lt;b&gt;WS-MITV THT Terminal with Actuator, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Material Properties
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Material	PBT
+&lt;BR&gt; Actuator Flammability Rating	UL94 V-0
+&lt;BR&gt; Frame Material	PBT
+&lt;BR&gt; Frame Flammability Rating	UL94 V-0
+&lt;BR&gt; Moveable Contact Material	Silver
+&lt;BR&gt; Stationary Contact Material	Silver
+&lt;BR&gt; Terminal Material	Copper Alloy
+&lt;BR&gt; Terminal Plating	Silver
+&lt;BR&gt;
+
+&lt;br&gt;&lt;b&gt;General Information
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Operating Temperature	-40 °C up to +85 °C
+
+&lt;BR&gt;&lt;br&gt;
+&lt;b&gt;Electrical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;Contact Resistance After Life Test	1 Ω
+&lt;BR&gt;RISO	100 MΩ
+&lt;BR&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Schematic	SPDT
+&lt;BR&gt;Over travel	0.25 mm
+&lt;BR&gt;Movement Differential	0.12 mm
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Certification&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;UL Approval	E483308
+&lt;BR&gt;ENEC 15 Approval	ENEC-03305
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Packaging	Tray
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o320306v209 multi-WS-MITV-463091691402.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o320306v209 multi-WS-MITV-463091691402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MITV_THT_TERMINAL_ACTUATOR_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MITV_THT_TERMINAL_ACTUATOR_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2021-02-08&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="463091691402">
+<connects>
+<connect gate="G$1" pin="COM" pad="1"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26222880/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/463091691402?ae"/>
+<attribute name="OPERATING-POSITION" value="5.5mm"/>
+<attribute name="OPERATION-FORCE" value="150g"/>
+<attribute name="PART-NUMBER" value="463091691402"/>
+<attribute name="SIZE" value="12.8 x 5.8 mm"/>
+<attribute name="VALUE" value="463091691402"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="463092370403" prefix="S">
+<description>&lt;b&gt;WS-MITV THT Terminal with Lever Micro Switch, 19.8 x 6.4mm&lt;br&gt;
+
+&lt;br&gt;Material Properties
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Actuator Material	PBT
+&lt;br&gt;Actuator Flammability Rating	UL94 V-0
+&lt;br&gt;Frame Material	PBT
+&lt;br&gt;Frame Flammability Rating	UL94 V-0
+&lt;br&gt;Moveable Contact Material	Silver
+&lt;br&gt;Stationary Contact Material	Silver
+&lt;br&gt;Terminal Material	Copper Alloy
+&lt;br&gt;Terminal Plating	Silver
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;General Information
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Operating Temperature	0 °C up to +105 °C
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Certification
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;UL Approval	E483308
+&lt;br&gt;ENEC 15 Approval	ENEC-04881
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Electrical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Contact Resistance Initial	30 mΩ
+&lt;br&gt;Contact Resistance After Life Test	5 Ω
+&lt;br&gt;RISO	100 MΩ
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Mechanical Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Electrical Life	100000 Cycles
+&lt;br&gt;Schematic	SPDT
+&lt;br&gt;Over travel	1 mm
+&lt;br&gt;Movement Differential	1.2 mm
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Packaging Properties
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Packaging	Tray
+
+
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o828326v209 multi-WS-MITV-463092370403.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o828326v209 multi-WS-MITV-463092370403.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS_MITV_THT_TERMINAL_WITH_LEVER_MICRO_SWITCH_19_8_X_6_4__MM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS_MITV_THT_TERMINAL_WITH_LEVER_MICRO_SWITCH_19_8_X_6_4__MM&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2025-04-24 &lt;br&gt;
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="463092370403">
+<connects>
+<connect gate="G$1" pin="COM" pad="1"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45525480/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/463092370403?ae"/>
+<attribute name="OPERATING-POSITION" value="9mm"/>
+<attribute name="OPERATION-FORCE" value="55g"/>
+<attribute name="PART-NUMBER" value="463092370403"/>
+<attribute name="SIZE" value="19.8 x 6.4mm"/>
+<attribute name="VALUE" value="463092370403"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="463091370402" prefix="S">
+<description>&lt;b&gt;WS-MITV THT Terminal with Actuator Micro Switch, 12.8 x 5.8 mm
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Material Properties
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Material	PBT
+&lt;BR&gt; Actuator Flammability Rating	UL94 V-0
+&lt;BR&gt; Frame Material	PBT
+&lt;BR&gt; Frame Flammability Rating	UL94 V-0
+&lt;BR&gt; Moveable Contact Material	Silver
+&lt;BR&gt; Stationary Contact Material	Silver
+&lt;BR&gt; Terminal Material	Copper Alloy
+&lt;BR&gt; Terminal Plating	Silver
+&lt;BR&gt;
+
+&lt;br&gt;&lt;b&gt;General Information
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Operating Temperature	-40 °C up to +85 °C
+
+&lt;BR&gt;&lt;br&gt;
+&lt;b&gt;Electrical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;Contact Resistance After Life Test	1 Ω
+&lt;BR&gt;RISO	100 MΩ
+&lt;BR&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Schematic	SPDT
+&lt;BR&gt;Over travel	0.25 mm
+&lt;BR&gt;Movement Differential	0.12 mm
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Certification&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;UL Approval	E483308
+&lt;BR&gt;ENEC 15 Approval	ENEC-03305
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Packaging	Tray
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o144880v209%20Single_WE-MITV_463091370402.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o144880v209%20Single_WE-MITV_463091370402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MITV_12_8X5_8_THT_ACTUATOR_LEFT_240GF/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MITV_12_8X5_8_THT_ACTUATOR_LEFT_240GF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2021-02-08&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="463091370402">
+<connects>
+<connect gate="G$1" pin="COM" pad="1"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18178251/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/463091370402?ae"/>
+<attribute name="OPERATING-POSITION" value="5.5mm"/>
+<attribute name="OPERATION-FORCE" value="150g"/>
+<attribute name="PART-NUMBER" value="463091370402"/>
+<attribute name="SIZE" value="12.8 x 5.8 mm"/>
+<attribute name="VALUE" value="463091370402"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="463093691402" prefix="S">
+<description>&lt;b&gt;WS-MITV THT Terminal with Roller Lever, Right Angle Operation Micro Switch, 12.8 x 5.8 mm
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Material Properties
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Actuator Material	PBT
+&lt;BR&gt; Actuator Flammability Rating	UL94 V-0
+&lt;BR&gt; Frame Material	PBT
+&lt;BR&gt; Frame Flammability Rating	UL94 V-0
+&lt;BR&gt; Moveable Contact Material	Silver
+&lt;BR&gt; Stationary Contact Material	Silver
+&lt;BR&gt; Terminal Material	Copper Alloy
+&lt;BR&gt; Terminal Plating	Silver
+&lt;BR&gt;
+
+&lt;br&gt;&lt;b&gt;General Information
+&lt;BR&gt; 
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Operating Temperature	-40 °C up to +85 °C
+
+&lt;BR&gt;&lt;br&gt;
+&lt;b&gt;Electrical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;Contact Resistance After Life Test	1 Ω
+&lt;BR&gt;RISO	100 MΩ
+&lt;BR&gt;&lt;br&gt;
+
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Schematic	SPDT
+&lt;BR&gt;Over travel	0.55 mm
+&lt;BR&gt;Movement Differential	0.5 mm
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Certification&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;UL Approval	E483308
+&lt;BR&gt;ENEC 15 Approval	ENEC-03305
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Packaging Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Packaging	Tray
+&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o320308v209%20multi-WS-MITV-463093691402.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o320308v209%20multi-WS-MITV-463093691402.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MITV_THT_TERMINAL_ROLLER_LEVER_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MITV_THT_TERMINAL_ROLLER_LEVER_RIGHT_ANGLE_MICRO_SWITCH_12_8X5_8&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2021-02-08&lt;br&gt;
+2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WS-MITV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="463093691402">
+<connects>
+<connect gate="G$1" pin="COM" pad="1"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="NO" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26222879/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/463093691402?ae"/>
+<attribute name="OPERATING-POSITION" value="13mm"/>
+<attribute name="OPERATION-FORCE" value="80g"/>
+<attribute name="PART-NUMBER" value="463093691402"/>
+<attribute name="SIZE" value="12.8 x 5.8 mm"/>
+<attribute name="VALUE" value="463093691402"/>
 </technology>
 </technologies>
 </device>
