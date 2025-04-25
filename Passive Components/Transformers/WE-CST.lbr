@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -78,8 +78,8 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Current Sense Transformers - WE-CST&lt;br&gt;&lt;Hr&gt;
-
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Current Sense Transformers - WE-CST&lt;br&gt;
+&lt;Hr&gt;
 &lt;BR&gt;
 &lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
 &lt;TR&gt;   
@@ -141,14 +141,53 @@ Fax:+49 (0)7942-945-5000&lt;br&gt;
 &lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
 &lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
 &lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2022a, 2022-02-28&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-04-25&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
+<package name="WE-CST_EE13/7/4" urn="urn:adsk.eagle:footprint:27444692/3">
+<description>&lt;b&gt;WE-CST Current Sense Transformer
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size: EE13/7/4, SMT, 12pins
+&lt;br&gt;L X W X H = 14.48mm X 20.2mm X 10.5mm</description>
+<smd name="1" x="-8.775" y="5.08" dx="2.71" dy="1.21" layer="1"/>
+<smd name="6" x="8.775" y="-5.08" dx="2.71" dy="1.21" layer="1"/>
+<smd name="2" x="-8.775" y="2.54" dx="2.71" dy="1.21" layer="1"/>
+<smd name="3" x="-8.775" y="0" dx="2.71" dy="1.21" layer="1"/>
+<smd name="4" x="-8.775" y="-2.54" dx="2.71" dy="1.21" layer="1"/>
+<smd name="5" x="-8.775" y="-5.08" dx="2.71" dy="1.21" layer="1"/>
+<smd name="7" x="8.775" y="-2.54" dx="2.71" dy="1.21" layer="1"/>
+<smd name="8" x="8.775" y="0" dx="2.71" dy="1.21" layer="1"/>
+<smd name="9" x="8.775" y="2.54" dx="2.71" dy="1.21" layer="1"/>
+<smd name="10" x="8.775" y="5.08" dx="2.71" dy="1.21" layer="1"/>
+<smd name="11" x="0" y="5.62" dx="6.74" dy="4.1" layer="1"/>
+<smd name="12" x="0" y="-5.62" dx="6.74" dy="4.1" layer="1"/>
+<wire x1="-6.65" y1="7.24" x2="6.65" y2="7.24" width="0.1" layer="51"/>
+<wire x1="6.65" y1="7.24" x2="6.65" y2="-7.24" width="0.1" layer="51"/>
+<wire x1="6.65" y1="-7.24" x2="-6.65" y2="-7.24" width="0.1" layer="51"/>
+<wire x1="-6.65" y1="-7.24" x2="-6.65" y2="7.24" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="7.34" x2="-6.75" y2="7.34" width="0.2" layer="21"/>
+<wire x1="-6.75" y1="7.34" x2="-6.75" y2="-7.34" width="0.2" layer="21"/>
+<wire x1="-6.75" y1="-7.34" x2="-3.7" y2="-7.34" width="0.2" layer="21"/>
+<wire x1="3.7" y1="-7.34" x2="6.75" y2="-7.34" width="0.2" layer="21"/>
+<wire x1="6.75" y1="-7.34" x2="6.75" y2="7.34" width="0.2" layer="21"/>
+<wire x1="6.75" y1="7.34" x2="3.7" y2="7.34" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-10.4" y="7.9"/>
+<vertex x="10.4" y="7.9"/>
+<vertex x="10.4" y="-7.9"/>
+<vertex x="-10.4" y="-7.9"/>
+</polygon>
+<text x="0" y="8.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-8.8" y="7" radius="0.3" width="0.6" layer="21"/>
+</package>
 <package name="WE-CST_EE5" urn="urn:adsk.eagle:footprint:12907468/2">
 <description>&lt;b&gt;WE-CST Current Sense Transformer 
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;Size : EE5,SMT,8pins
@@ -243,6 +282,14 @@ Copyright: Würth Elektronik</description>
 </package>
 </packages>
 <packages3d>
+<package3d name="WE-CST_EE13/7/4" urn="urn:adsk.eagle:package:28133235/3" type="model">
+<description>&lt;b&gt;WE-CST Current Sense Transformer
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Size: EE13/7/4, SMT, 12pins
+&lt;br&gt;L X W X H = 14.48mm X 20.2mm X 10.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CST_EE13/7/4"/>
+</packageinstances>
+</package3d>
 <package3d name="WE-CST_EE5" urn="urn:adsk.eagle:package:12907470/4" type="model">
 <description>&lt;b&gt;WE-CST Current Sense Transformer 
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;Size : EE5,SMT,8pins
@@ -261,6 +308,31 @@ Copyright: Würth Elektronik</description>
 </package3d>
 </packages3d>
 <symbols>
+<symbol name="WE-CST_EE13/7/4">
+<text x="0" y="6.35" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-3.81" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
+<text x="-5.08" y="0" size="1.27" layer="94" align="center">N1</text>
+<text x="5.08" y="0" size="1.27" layer="94" align="center">N2</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="2" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="12" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="11" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+</symbol>
 <symbol name="WE-CST_EE5">
 <pin name="8" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
 <pin name="1" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
@@ -313,18 +385,19 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-CST_EE5" prefix="T">
-<description>&lt;b&gt; WE-CST Current Sense Transformer
+<deviceset name="WE-CST_EE13/7/4" prefix="L">
+<description>&lt;b&gt;WE-CST Current Sense Transformer
 &lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics 
+&lt;br&gt;&lt;b&gt; Characteristics
 &lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Compact and low profile
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Compact and low profile
 &lt;br&gt;For SMD assembly
 &lt;br&gt;Frequency up to 1 MHz
-&lt;br&gt;Primary current rating to 20 A
-&lt;br&gt;Operating temperature: -40 °C to +125 °C
+&lt;br&gt;Primary current rating to 40 A
+&lt;br&gt;Operating temperature: -40 °C to +130 °C
+
 &lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;&lt;b&gt; Applications
 &lt;br&gt;
 &lt;br&gt;&lt;/b&gt;AC current detection
 &lt;br&gt;Switch mode power supply
@@ -333,15 +406,268 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;Metering
 &lt;br&gt;Load measurements
 &lt;br&gt;High frequency current sensing
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14773v209%20UtCST_EE5%2BEE4.4.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o14773v209%20UtCST_EE5%2BEE4.4.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-CST/"&gt;https://www.we-online.com/catalog/en/WE-CST/&lt;/a&gt;&lt;p&gt;
 
-&lt;BR&gt;Updated by Ella Wu 2022-02-28
-2020(C) Wurth Elektronik</description>
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o719869v209%20family-CST-749251125.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o719869v209%20family-CST-749251125.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-CST/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-CST&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2025-04-25&lt;br&gt;
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-CST_EE13/7/4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-CST_EE13/7/4">
+<connects>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28133235/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_7492540020">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540020?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="224uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:20"/>
+<attribute name="PART-NUMBER" value="7492540020"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="5.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="224uH"/>
+<attribute name="VDT" value="49uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540030">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540030?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="504uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:30"/>
+<attribute name="PART-NUMBER" value="7492540030"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="2.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="504uH"/>
+<attribute name="VDT" value="74uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540040">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540040?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="896uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:40"/>
+<attribute name="PART-NUMBER" value="7492540040"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="9.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="896uH"/>
+<attribute name="VDT" value="99uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540050">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540050?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="1400uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:50"/>
+<attribute name="PART-NUMBER" value="7492540050"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="9.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="1400uH"/>
+<attribute name="VDT" value="124uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540060">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540060?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="2000uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:60"/>
+<attribute name="PART-NUMBER" value="7492540060"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="2000uH"/>
+<attribute name="VDT" value="148uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540070">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540070?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="2740uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:70"/>
+<attribute name="PART-NUMBER" value="7492540070"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="2740uH"/>
+<attribute name="VDT" value="173uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540100?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="5600uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:100"/>
+<attribute name="PART-NUMBER" value="7492540100"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="5600uH"/>
+<attribute name="VDT" value="248uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540150?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="12600uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:150"/>
+<attribute name="PART-NUMBER" value="7492540150"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="12600uH"/>
+<attribute name="VDT" value="372uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540200">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540200?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="22400uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:200"/>
+<attribute name="PART-NUMBER" value="7492540200"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="22400uH"/>
+<attribute name="VDT" value="496uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540500">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540500?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="135000uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:500"/>
+<attribute name="PART-NUMBER" value="7492540500"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="135000uH"/>
+<attribute name="VDT" value="1240uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492540750">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492540750?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="300000uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:750"/>
+<attribute name="PART-NUMBER" value="7492540750"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="300000uH"/>
+<attribute name="VDT" value="1860uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+<technology name="_7492541000">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7492541000?ae"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="IR" value="40A"/>
+<attribute name="L" value="540000uH"/>
+<attribute name="LENGTH" value="14.48mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:1000"/>
+<attribute name="PART-NUMBER" value="7492541000"/>
+<attribute name="RDC1" value="0.28mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE13/7/4"/>
+<attribute name="VALUE" value="540000uH"/>
+<attribute name="VDT" value="2480uVs"/>
+<attribute name="VT" value="1500VAC"/>
+<attribute name="WIDTH" value="20.2mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CST_EE5" prefix="T">
+<description>&lt;b&gt;WE-CST Current Sense Transformer
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Compact and low profile
+&lt;br&gt;For SMD assembly
+&lt;br&gt;Frequency up to 1 MHz
+&lt;br&gt;Primary current rating to 40 A
+&lt;br&gt;Operating temperature: -40 °C to +130 °C
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;AC current detection
+&lt;br&gt;Switch mode power supply
+&lt;br&gt;Overload sensing
+&lt;br&gt;Load drop/shutdown detection
+&lt;br&gt;Metering
+&lt;br&gt;Load measurements
+&lt;br&gt;High frequency current sensing
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o719869v209%20family-CST-749251125.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o719869v209%20family-CST-749251125.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-CST/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-CST&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2025-04-25&lt;br&gt;
+2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="WE-CST_EE5" x="0" y="0"/>
 </gates>
@@ -358,153 +684,209 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-CST/"&gt;https:
 </package3dinstances>
 <technologies>
 <technology name="_749251020">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251020.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251020?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
 <attribute name="IR" value="20A"/>
+<attribute name="L" value="80uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:20"/>
-<attribute name="PART-NUMBER" value=" 749251020 "/>
-<attribute name="RDC1" value="0.75mOhm"/>
-<attribute name="RDC2" value="0.2Ohm"/>
-<attribute name="VALUE" value="80uH"/>
-<attribute name="VDT" value="10uVs"/>
-<attribute name="VT" value="500V(AC)"/>
-</technology>
-<technology name="_749251030">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251030.pdf"/>
-<attribute name="IR" value="20A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="N" value="1:30"/>
-<attribute name="PART-NUMBER" value=" 749251030 "/>
-<attribute name="RDC1" value="0.75mOhm"/>
-<attribute name="RDC2" value="0.48Ohm"/>
-<attribute name="VALUE" value="180uH"/>
-<attribute name="VDT" value="15uVs"/>
-<attribute name="VT" value="500V(AC)"/>
-</technology>
-<technology name="_749251040">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251040.pdf"/>
-<attribute name="IR" value="20A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="N" value="1:40"/>
-<attribute name="PART-NUMBER" value=" 749251040 "/>
+<attribute name="PART-NUMBER" value="749251020"/>
 <attribute name="RDC1" value="0.75mOhm"/>
 <attribute name="RDC2" value="0.9Ohm"/>
-<attribute name="VALUE" value="320uH"/>
-<attribute name="VDT" value="20uVs"/>
-<attribute name="VT" value="500V(AC)"/>
+<attribute name="SIZE" value="EE5"/>
+<attribute name="VALUE" value="80uH"/>
+<attribute name="VDT" value="10uVs"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
 </technology>
-<technology name="_749251050">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251050.pdf"/>
+<technology name="_749251030">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251030?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
 <attribute name="IR" value="20A"/>
+<attribute name="L" value="180uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="N" value="1:50"/>
-<attribute name="PART-NUMBER" value=" 749251050 "/>
-<attribute name="RDC1" value="0.75mOhm"/>
-<attribute name="RDC2" value="1.4Ohm"/>
-<attribute name="VALUE" value="500uH"/>
-<attribute name="VDT" value="25uVs"/>
-<attribute name="VT" value="500V(AC)"/>
-</technology>
-<technology name="_749251060">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251060.pdf"/>
-<attribute name="IR" value="20A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="N" value="1:60"/>
-<attribute name="PART-NUMBER" value=" 749251060 "/>
+<attribute name="N" value="1:30"/>
+<attribute name="PART-NUMBER" value="749251030"/>
 <attribute name="RDC1" value="0.75mOhm"/>
 <attribute name="RDC2" value="1.75Ohm"/>
+<attribute name="SIZE" value="EE5"/>
+<attribute name="VALUE" value="180uH"/>
+<attribute name="VDT" value="15uVs"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_749251040">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251040?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
+<attribute name="IR" value="20A"/>
+<attribute name="L" value="320uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:40"/>
+<attribute name="PART-NUMBER" value="749251040"/>
+<attribute name="RDC1" value="0.75mOhm"/>
+<attribute name="RDC2" value="0.35Ohm"/>
+<attribute name="SIZE" value="EE5"/>
+<attribute name="VALUE" value="320uH"/>
+<attribute name="VDT" value="20uVs"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_749251050">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251050?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
+<attribute name="IR" value="20A"/>
+<attribute name="L" value="500uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:50"/>
+<attribute name="PART-NUMBER" value="749251050"/>
+<attribute name="RDC1" value="0.75mOhm"/>
+<attribute name="RDC2" value="1.6Ohm"/>
+<attribute name="SIZE" value="EE5"/>
+<attribute name="VALUE" value="500uH"/>
+<attribute name="VDT" value="25uVs"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_749251060">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251060?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
+<attribute name="IR" value="20A"/>
+<attribute name="L" value="720uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:60"/>
+<attribute name="PART-NUMBER" value="749251060"/>
+<attribute name="RDC1" value="0.75mOhm"/>
+<attribute name="RDC2" value="3.6Ohm"/>
+<attribute name="SIZE" value="EE5"/>
 <attribute name="VALUE" value="720uH"/>
 <attribute name="VDT" value="30uVs"/>
-<attribute name="VT" value="500V(AC)"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
 </technology>
 <technology name="_749251070">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251070.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251070?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
 <attribute name="IR" value="20A"/>
+<attribute name="L" value="980uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:70"/>
-<attribute name="PART-NUMBER" value=" 749251070 "/>
+<attribute name="PART-NUMBER" value="749251070"/>
 <attribute name="RDC1" value="0.75mOhm"/>
-<attribute name="RDC2" value="2.2Ohm"/>
+<attribute name="RDC2" value="13Ohm"/>
+<attribute name="SIZE" value="EE5"/>
 <attribute name="VALUE" value="980uH"/>
 <attribute name="VDT" value="35uVs"/>
-<attribute name="VT" value="500V(AC)"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
 </technology>
 <technology name="_749251100">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251100.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251100?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
 <attribute name="IR" value="20A"/>
+<attribute name="L" value="2000uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:100"/>
-<attribute name="PART-NUMBER" value=" 749251100 "/>
-<attribute name="RDC1" value="0.75mOhm"/>
-<attribute name="RDC2" value="5.5Ohm"/>
-<attribute name="VALUE" value="2000uH"/>
-<attribute name="VDT" value="50uVs"/>
-<attribute name="VT" value="500V(AC)"/>
-</technology>
-<technology name="_749251125">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251125.pdf"/>
-<attribute name="IR" value="20A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="N" value="1:125"/>
-<attribute name="PART-NUMBER" value=" 749251125 "/>
-<attribute name="RDC1" value="0.75mOhm"/>
-<attribute name="RDC2" value="6.5Ohm"/>
-<attribute name="VALUE" value="3000uH"/>
-<attribute name="VDT" value="68uVs"/>
-<attribute name="VT" value="500V(AC)"/>
-</technology>
-<technology name="_749251150">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251150.pdf"/>
-<attribute name="IR" value="20A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="N" value="1:150"/>
-<attribute name="PART-NUMBER" value=" 749251150 "/>
-<attribute name="RDC1" value="0.75mOhm"/>
-<attribute name="RDC2" value="9.5Ohm"/>
-<attribute name="VALUE" value="4500uH"/>
-<attribute name="VDT" value="75uVs"/>
-<attribute name="VT" value="500V(AC)"/>
-</technology>
-<technology name="_749251200">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251200.pdf"/>
-<attribute name="IR" value="20A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="N" value="1:200"/>
-<attribute name="PART-NUMBER" value=" 749251200 "/>
-<attribute name="RDC1" value="0.75mOhm"/>
-<attribute name="RDC2" value="16.5Ohm"/>
-<attribute name="VALUE" value="8000uH"/>
-<attribute name="VDT" value="100uVs"/>
-<attribute name="VT" value="500V(AC)"/>
-</technology>
-<technology name="_749251250">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749251250.pdf"/>
-<attribute name="IR" value="20A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="N" value="1:250"/>
-<attribute name="PART-NUMBER" value=" 749251250 "/>
+<attribute name="PART-NUMBER" value="749251100"/>
 <attribute name="RDC1" value="0.75mOhm"/>
 <attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE5"/>
+<attribute name="VALUE" value="2000uH"/>
+<attribute name="VDT" value="50uVs"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_749251125">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251125?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
+<attribute name="IR" value="20A"/>
+<attribute name="L" value="3000uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:125"/>
+<attribute name="PART-NUMBER" value="749251125"/>
+<attribute name="RDC1" value="0.75mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE5"/>
+<attribute name="VALUE" value="3000uH"/>
+<attribute name="VDT" value="68uVs"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_749251150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251150?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
+<attribute name="IR" value="20A"/>
+<attribute name="L" value="4500uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:150"/>
+<attribute name="PART-NUMBER" value="749251150"/>
+<attribute name="RDC1" value="0.75mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE5"/>
+<attribute name="VALUE" value="4500uH"/>
+<attribute name="VDT" value="75uVs"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_749251200">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251200?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
+<attribute name="IR" value="20A"/>
+<attribute name="L" value="8000uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:200"/>
+<attribute name="PART-NUMBER" value="749251200"/>
+<attribute name="RDC1" value="0.75mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE5"/>
+<attribute name="VALUE" value="8000uH"/>
+<attribute name="VDT" value="100uVs"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
+</technology>
+<technology name="_749251250">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749251250?ae"/>
+<attribute name="HEIGHT" value="5.33mm"/>
+<attribute name="IR" value="20A"/>
+<attribute name="L" value="12500uH"/>
+<attribute name="LENGTH" value="7.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:250"/>
+<attribute name="PART-NUMBER" value="749251250"/>
+<attribute name="RDC1" value="0.75mOhm"/>
+<attribute name="RDC2" value="23.5Ohm"/>
+<attribute name="SIZE" value="EE5"/>
 <attribute name="VALUE" value="12500uH"/>
 <attribute name="VDT" value="125uVs"/>
-<attribute name="VT" value="500V(AC)"/>
+<attribute name="VT" value="500VAC"/>
+<attribute name="WIDTH" value="6.9mm"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="WE-CST_EE4.4" prefix="T">
-<description>&lt;b&gt; WE-CST Current Sense Transformer
+<description>&lt;b&gt;WE-CST Current Sense Transformer
 &lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics 
+&lt;br&gt;&lt;b&gt; Characteristics
 &lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Compact and low profile
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Compact and low profile
 &lt;br&gt;For SMD assembly
 &lt;br&gt;Frequency up to 1 MHz
-&lt;br&gt;Primary current rating to 20 A
-&lt;br&gt;Operating temperature: -40 °C to +125 °C
+&lt;br&gt;Primary current rating to 40 A
+&lt;br&gt;Operating temperature: -40 °C to +130 °C
+
 &lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications 
+&lt;br&gt;&lt;b&gt; Applications
 &lt;br&gt;
 &lt;br&gt;&lt;/b&gt;AC current detection
 &lt;br&gt;Switch mode power supply
@@ -513,15 +895,15 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-CST/"&gt;https:
 &lt;br&gt;Metering
 &lt;br&gt;Load measurements
 &lt;br&gt;High frequency current sensing
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14773v209%20UtCST_EE5%2BEE4.4.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o14773v209%20UtCST_EE5%2BEE4.4.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-CST/"&gt;https://www.we-online.com/catalog/en/WE-CST/&lt;/a&gt;&lt;p&gt;
 
-&lt;BR&gt;Updated by Ella Wu 2022-02-28
-2020(C) Wurth Elektronik</description>
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o719869v209%20family-CST-749251125.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o719869v209%20family-CST-749251125.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-CST/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-CST&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2025-04-25&lt;br&gt;
+2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="WE-CST_EE4.4" x="0" y="0"/>
 </gates>
@@ -538,112 +920,157 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-CST/"&gt;https:
 </package3dinstances>
 <technologies>
 <technology name="_749252020">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749252020.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749252020?ae"/>
+<attribute name="HEIGHT" value="3.55mm"/>
 <attribute name="IR" value="7A"/>
+<attribute name="L" value="33uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:20"/>
-<attribute name="PART-NUMBER" value=" 749252020 "/>
+<attribute name="PART-NUMBER" value="749252020"/>
 <attribute name="RDC1" value="3mOhm"/>
-<attribute name="RDC2" value="0.35Ohm"/>
+<attribute name="RDC2" value="0.35mOhm"/>
+<attribute name="SIZE" value="EE4.4"/>
 <attribute name="VALUE" value="33uH"/>
 <attribute name="VDT" value="9uVs"/>
-<attribute name="VT" value="750V(AC)"/>
+<attribute name="VT" value="750VAC"/>
+<attribute name="WIDTH" value="4.65mm"/>
 </technology>
 <technology name="_749252030">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749252030.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749252030?ae"/>
+<attribute name="HEIGHT" value="3.55mm"/>
 <attribute name="IR" value="7A"/>
+<attribute name="L" value="74uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:30"/>
-<attribute name="PART-NUMBER" value=" 749252030 "/>
+<attribute name="PART-NUMBER" value="749252030"/>
 <attribute name="RDC1" value="3mOhm"/>
-<attribute name="RDC2" value="0.8Ohm"/>
+<attribute name="RDC2" value="0.48Ohm"/>
+<attribute name="SIZE" value="EE4.4"/>
 <attribute name="VALUE" value="74uH"/>
 <attribute name="VDT" value="13.5uVs"/>
-<attribute name="VT" value="750V(AC)"/>
+<attribute name="VT" value="750VAC"/>
+<attribute name="WIDTH" value="4.65mm"/>
 </technology>
 <technology name="_749252040">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749252040.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749252040?ae"/>
+<attribute name="HEIGHT" value="3.55mm"/>
 <attribute name="IR" value="7A"/>
+<attribute name="L" value="132uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:40"/>
-<attribute name="PART-NUMBER" value=" 749252040 "/>
+<attribute name="PART-NUMBER" value="749252040"/>
 <attribute name="RDC1" value="3mOhm"/>
-<attribute name="RDC2" value="1.6Ohm"/>
+<attribute name="RDC2" value="1.4Ohm"/>
+<attribute name="SIZE" value="EE4.4"/>
 <attribute name="VALUE" value="132uH"/>
 <attribute name="VDT" value="18uVs"/>
-<attribute name="VT" value="750V(AC)"/>
+<attribute name="VT" value="750VAC"/>
+<attribute name="WIDTH" value="4.65mm"/>
 </technology>
 <technology name="_749252050">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749252050.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749252050?ae"/>
+<attribute name="HEIGHT" value="3.55mm"/>
 <attribute name="IR" value="7A"/>
+<attribute name="L" value="205uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:50"/>
-<attribute name="PART-NUMBER" value=" 749252050 "/>
+<attribute name="PART-NUMBER" value="749252050"/>
 <attribute name="RDC1" value="3mOhm"/>
-<attribute name="RDC2" value="2.5Ohm"/>
+<attribute name="RDC2" value="2.2Ohm"/>
+<attribute name="SIZE" value="EE4.4"/>
 <attribute name="VALUE" value="205uH"/>
 <attribute name="VDT" value="22.5uVs"/>
-<attribute name="VT" value="750V(AC)"/>
+<attribute name="VT" value="750VAC"/>
+<attribute name="WIDTH" value="4.65mm"/>
 </technology>
 <technology name="_749252060">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749252060.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749252060?ae"/>
+<attribute name="HEIGHT" value="3.55mm"/>
 <attribute name="IR" value="7A"/>
+<attribute name="L" value="295uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:60"/>
-<attribute name="PART-NUMBER" value=" 749252060 "/>
+<attribute name="PART-NUMBER" value="749252060"/>
 <attribute name="RDC1" value="3mOhm"/>
-<attribute name="RDC2" value="3.6Ohm"/>
+<attribute name="RDC2" value="6.5Ohm"/>
+<attribute name="SIZE" value="EE4.4"/>
 <attribute name="VALUE" value="295uH"/>
 <attribute name="VDT" value="27uVs"/>
-<attribute name="VT" value="750V(AC)"/>
+<attribute name="VT" value="750VAC"/>
+<attribute name="WIDTH" value="4.65mm"/>
 </technology>
 <technology name="_749252070">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749252070.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749252070?ae"/>
+<attribute name="HEIGHT" value="3.55mm"/>
 <attribute name="IR" value="7A"/>
+<attribute name="L" value="400uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:70"/>
-<attribute name="PART-NUMBER" value=" 749252070 "/>
+<attribute name="PART-NUMBER" value="749252070"/>
 <attribute name="RDC1" value="3mOhm"/>
-<attribute name="RDC2" value="4.6Ohm"/>
+<attribute name="RDC2" value="0.8Ohm"/>
+<attribute name="SIZE" value="EE4.4"/>
 <attribute name="VALUE" value="400uH"/>
 <attribute name="VDT" value="31.5uVs"/>
-<attribute name="VT" value="750V(AC)"/>
+<attribute name="VT" value="750VAC"/>
+<attribute name="WIDTH" value="4.65mm"/>
 </technology>
 <technology name="_749252100">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749252100.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749252100?ae"/>
+<attribute name="HEIGHT" value="3.55mm"/>
 <attribute name="IR" value="7A"/>
+<attribute name="L" value="820uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:100"/>
-<attribute name="PART-NUMBER" value=" 749252100 "/>
+<attribute name="PART-NUMBER" value="749252100"/>
 <attribute name="RDC1" value="3mOhm"/>
-<attribute name="RDC2" value="9.5Ohm"/>
+<attribute name="RDC2" value="4.6Ohm"/>
+<attribute name="SIZE" value="EE4.4"/>
 <attribute name="VALUE" value="820uH"/>
 <attribute name="VDT" value="45uVs"/>
-<attribute name="VT" value="750V(AC)"/>
+<attribute name="VT" value="750VAC"/>
+<attribute name="WIDTH" value="4.65mm"/>
 </technology>
 <technology name="_749252125">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749252125.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749252125?ae"/>
+<attribute name="HEIGHT" value="3.55mm"/>
 <attribute name="IR" value="7A"/>
+<attribute name="L" value="1280uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="N" value="1:125"/>
-<attribute name="PART-NUMBER" value=" 749252125 "/>
-<attribute name="RDC1" value="3mOhm"/>
-<attribute name="RDC2" value="13Ohm"/>
-<attribute name="VALUE" value="1280uH"/>
-<attribute name="VDT" value="56.2uVs"/>
-<attribute name="VT" value="750V(AC)"/>
-</technology>
-<technology name="_749252150">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749252150.pdf"/>
-<attribute name="IR" value="7A"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="N" value="1:150"/>
-<attribute name="PART-NUMBER" value=" 749252150 "/>
+<attribute name="PART-NUMBER" value="749252125"/>
 <attribute name="RDC1" value="3mOhm"/>
 <attribute name="RDC2" value="21Ohm"/>
+<attribute name="SIZE" value="EE4.4"/>
+<attribute name="VALUE" value="1280uH"/>
+<attribute name="VDT" value="56.2uVs"/>
+<attribute name="VT" value="750VAC"/>
+<attribute name="WIDTH" value="4.65mm"/>
+</technology>
+<technology name="_749252150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749252150?ae"/>
+<attribute name="HEIGHT" value="3.55mm"/>
+<attribute name="IR" value="7A"/>
+<attribute name="L" value="1800uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="N" value="1:150"/>
+<attribute name="PART-NUMBER" value="749252150"/>
+<attribute name="RDC1" value="3mOhm"/>
+<attribute name="RDC2" value="16.5Ohm"/>
+<attribute name="SIZE" value="EE4.4"/>
 <attribute name="VALUE" value="1800uH"/>
 <attribute name="VDT" value="67.5uVs"/>
-<attribute name="VT" value="750V(AC)"/>
+<attribute name="VT" value="750VAC"/>
+<attribute name="WIDTH" value="4.65mm"/>
 </technology>
 </technologies>
 </device>

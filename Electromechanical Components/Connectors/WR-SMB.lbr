@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Coaxial Connectors - WR-SMB &lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-05-29&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="61613002111501" urn="urn:adsk.eagle:footprint:17826394/2">
+<description>&lt;b&gt;WR-SMB Right Angle</description>
+<pad name="1" x="0" y="0" drill="1.2"/>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="3.2" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.2" y1="-3.5" x2="-3.2" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-11.4" x2="3.2" y2="-11.4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.2" y1="-11.4" x2="-3.2" y2="-3.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="3.2" y1="-11.4" x2="3.2" y2="-3.5" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-1.3" y1="3.6" x2="1.3" y2="3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="1.3" x2="3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="1.3" x2="-3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-3.6" x2="1.3" y2="-3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4" y="4"/>
+<vertex x="4" y="4"/>
+<vertex x="4" y="-4"/>
+<vertex x="-4" y="-4"/>
+</polygon>
+<text x="5" y="2.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="5" y="0.4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="61612042121504" urn="urn:adsk.eagle:footprint:17826397/2">
+<description>&lt;b&gt;WR-SMB Right Angle Rear Mount Bulkhead</description>
+<pad name="1" x="0" y="0" drill="1.2"/>
+<pad name="2" x="-2.54" y="2.54" drill="1.5"/>
+<pad name="3" x="2.54" y="2.54" drill="1.5"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.5"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.5"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.1" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="3.1" x2="1.2" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-3.1" y1="-1.2" x2="-3.1" y2="1.2" width="0.2" layer="21"/>
+<wire x1="3.1" y1="1.2" x2="3.1" y2="-1.2" width="0.2" layer="21"/>
+<wire x1="1.2" y1="-3.1" x2="-1.2" y2="-3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.9" y="3.9"/>
+<vertex x="3.9" y="3.9"/>
+<vertex x="3.9" y="-3.9"/>
+<vertex x="-3.9" y="-3.9"/>
+</polygon>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-6" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="61612002121503" urn="urn:adsk.eagle:footprint:17826398/2">
+<description>&lt;B&gt;WR-SMB Straight</description>
+<pad name="1" x="0" y="0" drill="1.2"/>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="3.6" x2="1.3" y2="3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="1.3" x2="3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="1.3" x2="-3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-3.6" x2="1.3" y2="-3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4" y="4"/>
+<vertex x="4" y="4"/>
+<vertex x="4" y="-4"/>
+<vertex x="-4" y="-4"/>
+</polygon>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-6" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="61612102121405" urn="urn:adsk.eagle:footprint:17826396/2">
+<description>&lt;B&gt;WR-SMB Straight</description>
+<smd name="1" x="0" y="0" dx="1.7" dy="1.7" layer="1" roundness="100"/>
+<smd name="2" x="-2.5" y="2.5" dx="2" dy="2" layer="1"/>
+<smd name="3" x="2.5" y="2.5" dx="2" dy="2" layer="1"/>
+<smd name="4" x="2.5" y="-2.5" dx="2" dy="2" layer="1"/>
+<smd name="5" x="-2.5" y="-2.5" dx="2" dy="2" layer="1"/>
+<wire x1="-3.15" y1="3.15" x2="3.15" y2="3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="3.15" x2="3.15" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-3.15" x2="-3.15" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.1" layer="51"/>
+<wire x1="-1.15" y1="3.25" x2="1.15" y2="3.25" width="0.2" layer="21"/>
+<wire x1="3.25" y1="1.15" x2="3.25" y2="-1.15" width="0.2" layer="21"/>
+<wire x1="-3.25" y1="-1.15" x2="-3.25" y2="1.15" width="0.2" layer="21"/>
+<wire x1="1.15" y1="-3.25" x2="-1.15" y2="-3.25" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.7" y="3.7"/>
+<vertex x="3.7" y="3.7"/>
+<vertex x="3.7" y="-3.7"/>
+<vertex x="-3.7" y="-3.7"/>
+</polygon>
+<text x="0" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-5.5" size="1.27" layer="25">&gt;VALUE</text>
+</package>
+<package name="61611042121502" urn="urn:adsk.eagle:footprint:17826399/2">
+<description>&lt;B&gt;WR-SMB Right Angle Rear Mount Bulkhead</description>
+<pad name="1" x="0" y="0" drill="1.2"/>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="3.2" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.2" y1="-3.5" x2="-3.2" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-15.2" x2="2.5" y2="-15.2" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.2" y1="-3.5" x2="-3.2" y2="-4" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-4" x2="-2.5" y2="-4" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-4" x2="2.5" y2="-4" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-4" x2="3.2" y2="-4" width="0.1" layer="51"/>
+<wire x1="3.2" y1="-4" x2="3.2" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-15.2" x2="-2.5" y2="-4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.5" y1="-15.2" x2="2.5" y2="-4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-1.3" y1="3.6" x2="1.3" y2="3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="1.3" x2="3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="1.3" x2="-3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-3.6" x2="1.3" y2="-3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4" y="4"/>
+<vertex x="4" y="4"/>
+<vertex x="4" y="-4"/>
+<vertex x="-4" y="-4"/>
+</polygon>
+<text x="5" y="2.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="5" y="0.4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="61611002121501" urn="urn:adsk.eagle:footprint:17826400/2">
+<description>&lt;B&gt;WR-SMB Right Angle</description>
+<pad name="1" x="0" y="0" drill="1.2"/>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="3.2" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.2" y1="-3.5" x2="-3.2" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-10.6" x2="2.5" y2="-10.6" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-3.2" y1="-3.5" x2="-3.2" y2="-4" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="-4" x2="-2.5" y2="-4" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-4" x2="2.5" y2="-4" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-4" x2="3.2" y2="-4" width="0.1" layer="51"/>
+<wire x1="3.2" y1="-4" x2="3.2" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-10.6" x2="-2.5" y2="-4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.5" y1="-10.6" x2="2.5" y2="-4" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-1.3" y1="3.6" x2="1.3" y2="3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="1.3" x2="3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="1.3" x2="-3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-3.6" x2="1.3" y2="-3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4" y="4"/>
+<vertex x="4" y="4"/>
+<vertex x="4" y="-4"/>
+<vertex x="-4" y="-4"/>
+</polygon>
+<text x="5" y="2.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="5" y="0.4" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="61612202121306" urn="urn:adsk.eagle:footprint:17826395/2">
+<description>&lt;B&gt;WR-SMB SMT Edge Card for PCB 1.2 mm Max.</description>
+<smd name="1" x="0" y="0.895" dx="1.2" dy="1.79" layer="1"/>
+<smd name="2" x="-3" y="-2.835" dx="1" dy="3" layer="1" stop="no" cream="no"/>
+<smd name="3" x="3" y="-2.835" dx="1" dy="3" layer="1" stop="no" cream="no"/>
+<wire x1="-2.5" y1="-5.46" x2="-2.5" y2="-0.46" width="0.01" layer="46"/>
+<wire x1="-2.25" y1="-0.21" x2="2.25" y2="-0.21" width="0.01" layer="46"/>
+<wire x1="2.5" y1="-0.46" x2="2.5" y2="-5.46" width="0.01" layer="46"/>
+<wire x1="2.5" y1="-5.46" x2="-2.5" y2="-5.46" width="0.01" layer="46"/>
+<wire x1="-0.25" y1="1.19" x2="0.25" y2="1.19" width="0.1" layer="51" style="shortdash"/>
+<wire x1="0.25" y1="1.19" x2="0.25" y2="-0.21" width="0.1" layer="51"/>
+<wire x1="0.25" y1="-0.21" x2="3" y2="-0.21" width="0.1" layer="51"/>
+<wire x1="3" y1="-0.21" x2="3" y2="-5.46" width="0.1" layer="51"/>
+<wire x1="3" y1="-5.46" x2="2" y2="-5.46" width="0.1" layer="51"/>
+<wire x1="2" y1="-5.46" x2="-2" y2="-5.46" width="0.1" layer="51"/>
+<wire x1="-2" y1="-5.46" x2="-3" y2="-5.46" width="0.1" layer="51"/>
+<wire x1="-3" y1="-5.46" x2="-3" y2="-0.21" width="0.1" layer="51"/>
+<wire x1="-3" y1="-0.21" x2="-0.25" y2="-0.21" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="-0.21" x2="-0.25" y2="1.19" width="0.1" layer="51"/>
+<wire x1="-2" y1="-5.46" x2="-2" y2="-11.66" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2" y1="-11.66" x2="2" y2="-11.66" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2" y1="-11.66" x2="2" y2="-5.46" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.75" y1="-0.21" x2="-2.5" y2="-0.46" width="0.01" layer="46" curve="89.427061"/>
+<wire x1="-2.25" y1="-0.21" x2="-2.5" y2="-0.46" width="0.01" layer="46" curve="270"/>
+<wire x1="2.25" y1="-0.21" x2="2.5" y2="-0.46" width="0.01" layer="46" curve="-270"/>
+<polygon width="0.1" layer="39">
+<vertex x="-3.7" y="2"/>
+<vertex x="3.7" y="2"/>
+<vertex x="3.7" y="-5.7"/>
+<vertex x="-3.7" y="-5.7"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="-2.5" y="-0.46"/>
+<vertex x="-2.5" y="-5.46"/>
+<vertex x="-3.5" y="-5.46"/>
+<vertex x="-3.5" y="-0.21"/>
+<vertex x="-2.75" y="-0.21" curve="90"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-2.5" y="-0.46"/>
+<vertex x="-2.5" y="-5.46"/>
+<vertex x="-3.5" y="-5.46"/>
+<vertex x="-3.5" y="-0.21"/>
+<vertex x="-2.75" y="-0.21" curve="90"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-2.65" y="-0.11"/>
+<vertex x="-3.6" y="-0.11"/>
+<vertex x="-3.6" y="-5.56"/>
+<vertex x="-2.4" y="-5.56"/>
+<vertex x="-2.4" y="-0.36" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="2.5" y="-0.46"/>
+<vertex x="2.5" y="-5.46"/>
+<vertex x="3.5" y="-5.46"/>
+<vertex x="3.5" y="-0.21"/>
+<vertex x="2.75" y="-0.21" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="2.65" y="-0.11"/>
+<vertex x="3.6" y="-0.11"/>
+<vertex x="3.6" y="-5.56"/>
+<vertex x="2.4" y="-5.56"/>
+<vertex x="2.4" y="-0.36" curve="90"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="2.5" y="-0.46"/>
+<vertex x="2.5" y="-5.46"/>
+<vertex x="3.5" y="-5.46"/>
+<vertex x="3.5" y="-0.21"/>
+<vertex x="2.75" y="-0.21" curve="-90"/>
+</polygon>
+<text x="-2.3" y="-3.3" size="0.254" layer="48">P.C.B Thickness: 1,2 mm MAX</text>
+<text x="-1.515" y="-2.76" size="0.4064" layer="48">Cutout Area</text>
+<text x="-1.515" y="-2.76" size="0.4064" layer="46">Cutout Area</text>
+<text x="5" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="5" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="61614002111503" urn="urn:adsk.eagle:footprint:17826393/2">
+<description>&lt;b&gt;WR-SMB Straight</description>
+<pad name="1" x="0" y="0" drill="1.2"/>
+<pad name="2" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="3" x="2.54" y="2.54" drill="1.7"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="5" x="-2.54" y="-2.54" drill="1.7"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="3.6" x2="1.3" y2="3.6" width="0.2" layer="21"/>
+<wire x1="3.6" y1="1.3" x2="3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="1.3" x2="-3.6" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-3.6" x2="1.3" y2="-3.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4" y="4"/>
+<vertex x="4" y="4"/>
+<vertex x="4" y="-4"/>
+<vertex x="-4" y="-4"/>
+</polygon>
+<text x="0" y="4.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-6" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="61612042121504" urn="urn:adsk.eagle:package:17826407/3" type="model">
+<description>&lt;b&gt;WR-SMB Right Angle Rear Mount Bulkhead</description>
+<packageinstances>
+<packageinstance name="61612042121504"/>
+</packageinstances>
+</package3d>
+<package3d name="61613002111501" urn="urn:adsk.eagle:package:17826404/3" type="model">
+<description>&lt;b&gt;WR-SMB Right Angle</description>
+<packageinstances>
+<packageinstance name="61613002111501"/>
+</packageinstances>
+</package3d>
+<package3d name="61612002121503" urn="urn:adsk.eagle:package:17826408/3" type="model">
+<description>&lt;B&gt;WR-SMB Straight</description>
+<packageinstances>
+<packageinstance name="61612002121503"/>
+</packageinstances>
+</package3d>
+<package3d name="61612202121306" urn="urn:adsk.eagle:package:17826405/3" type="model">
+<description>&lt;B&gt;WR-SMB SMT Edge Card for PCB 1.2 mm Max.</description>
+<packageinstances>
+<packageinstance name="61612202121306"/>
+</packageinstances>
+</package3d>
+<package3d name="61612102121405" urn="urn:adsk.eagle:package:17826406/3" type="model">
+<description>&lt;B&gt;WR-SMB Straight</description>
+<packageinstances>
+<packageinstance name="61612102121405"/>
+</packageinstances>
+</package3d>
+<package3d name="61611042121502" urn="urn:adsk.eagle:package:17826409/3" type="model">
+<description>&lt;B&gt;WR-SMB Right Angle Rear Mount Bulkhead</description>
+<packageinstances>
+<packageinstance name="61611042121502"/>
+</packageinstances>
+</package3d>
+<package3d name="61611002121501" urn="urn:adsk.eagle:package:17826410/3" type="model">
+<description>&lt;B&gt;WR-SMB Right Angle</description>
+<packageinstances>
+<packageinstance name="61611002121501"/>
+</packageinstances>
+</package3d>
+<package3d name="61614002111503" urn="urn:adsk.eagle:package:17826403/3" type="model">
+<description>&lt;b&gt;WR-SMB Straight</description>
+<packageinstances>
+<packageinstance name="61614002111503"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PLUG">
+<circle x="0" y="0" radius="2.54" width="0.2" layer="94"/>
+<circle x="0" y="0" radius="0.254" width="0.508" layer="94"/>
+<pin name="1" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-8.08" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0.54" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="JACK">
+<circle x="0" y="0" radius="2.54" width="0.2" layer="94"/>
+<circle x="0" y="0" radius="0.5" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-8.08" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0.54" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="61612042121504" prefix="J">
+<description>&lt;b&gt;WR-SMB Right Angle Rear Mount Bulkhead&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type SMB 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Straight
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~4 GHz  
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+ &lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o176660v209%20Family_WR-SMB_61612042121504.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o176660v209%20Family_WR-SMB_61612042121504.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMB_CONNECTORS_RAR_MOUNT_BULKHEAD/"&gt;https://www.we-online.com/catalog/en/SMB_CONNECTORS_RAR_MOUNT_BULKHEAD/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-05-29&lt;br&gt;
+2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61612042121504">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17826407/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61612042121504.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="61612042121504"/>
+<attribute name="VALUE" value="61612042121504"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="61613002111501" prefix="J">
+<description>&lt;b&gt;WR-SMB Right Angle&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type SMB 
+&lt;br&gt;Gender Plug
+&lt;br&gt;Orientation Type Right Angle
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~4 GHz  
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+ &lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o176666v209%20Family_WR-SMB_61613002111501.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o176666v209%20Family_WR-SMB_61613002111501.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMB_PCB_THT_PLUG_RIGHT__ANGLE/"&gt;https://www.we-online.com/catalog/en/SMB_PCB_THT_PLUG_RIGHT__ANGLE/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-05-29&lt;br&gt;
+2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="PLUG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61613002111501">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17826404/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61613002111501 .pdf"/>
+<attribute name="GENDER" value="Plug"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Right Angle"/>
+<attribute name="PART-NUMBER" value="61613002111501 "/>
+<attribute name="VALUE" value="61613002111501 "/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="61612002121503" prefix="J">
+<description>&lt;b&gt;WR-SMB Straight&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type SMB 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Straight
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~4 GHz  
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+ &lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o176657v209%20Family_WR-SMB_61612002121503.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o176657v209%20Family_WR-SMB_61612002121503.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMB_THT_JACK__STRAIGHT/"&gt;https://www.we-online.com/catalog/en/SMB_THT_JACK__STRAIGHT/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-05-29&lt;br&gt;
+2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61612002121503">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17826408/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61612002121503.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="61612002121503"/>
+<attribute name="VALUE" value="61612002121503"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="61612102121405" prefix="J">
+<description>&lt;b&gt;WR-SMB Straight &lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type SMB 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Straight
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~4 GHz  
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+ &lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o176662v209%20Family_WR-SMB_61612102121405.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o176662v209%20Family_WR-SMB_61612102121405.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMB_SMT_JACK_STRAIGHT/"&gt;https://www.we-online.com/catalog/en/SMB_SMT_JACK_STRAIGHT/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-05-29&lt;br&gt;
+2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61612102121405">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17826406/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61612102121405.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="61612102121405"/>
+<attribute name="VALUE" value="61612102121405"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="61611042121502" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-SMB Right Angle Rear Mount Bulkhead&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type SMB 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Right Angle 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~4 GHz  
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+ &lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o176656v209%20Family_WR-SMB_61611042121502.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o176656v209%20Family_WR-SMB_61611042121502.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMB_THT_JACK_RIGHT_ANGLE_REAR_MOUNT/"&gt;https://www.we-online.com/catalog/en/SMB_THT_JACK_RIGHT_ANGLE_REAR_MOUNT/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-05-29&lt;br&gt;
+2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61611042121502">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17826409/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61611042121502.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Right Angle"/>
+<attribute name="PART-NUMBER" value="61611042121502"/>
+<attribute name="VALUE" value="61611042121502"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="61612202121306" prefix="J">
+<description>&lt;b&gt;WR-SMB SMT Edge Card for PCB 1.2 mm Max.&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type SMB 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Straight
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~4 GHz  
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+ &lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o176664v209%20Family_WR-SMB_61612202121306.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o176664v209%20Family_WR-SMB_61612202121306.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMB_PCB_END_LAUNCH_EDGE_CARD/"&gt;https://www.we-online.com/catalog/en/SMB_PCB_END_LAUNCH_EDGE_CARD/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-05-29&lt;br&gt;
+2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61612202121306">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17826405/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61612202121306 .pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="61612202121306 "/>
+<attribute name="VALUE" value="61612202121306 "/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="61611002121501" prefix="J">
+<description>&lt;b&gt;WR-SMB Right Angle&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type SMB 
+&lt;br&gt;Gender Jack 
+&lt;br&gt;Orientation Type Right Angle 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~4 GHz  
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+ &lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o176655v209%20Family_WR-SMB_61611002121501.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o176655v209%20Family_WR-SMB_61611002121501.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMB_THT_JACK_RIGHT_ANGLE/"&gt;https://www.we-online.com/catalog/en/SMB_THT_JACK_RIGHT_ANGLE/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-05-29&lt;br&gt;
+2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61611002121501">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17826410/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61611002121501.pdf"/>
+<attribute name="GENDER" value="Jack"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Right Angle"/>
+<attribute name="PART-NUMBER" value="61611002121501"/>
+<attribute name="VALUE" value="61611002121501"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="61614002111503" prefix="J">
+<description>&lt;b&gt;WR-SMB Straight&lt;/b&gt;
+&lt;b&gt;&lt;br&gt;&lt;br&gt;
+MATERIAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Insulator Material PTFE 
+&lt;br&gt;Center Contact Material Brass 
+&lt;br&gt;Center Contact Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;Body Material Brass 
+&lt;br&gt;Body Plating Gold, min. 0.076µm over Nickel 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;KIND PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Interface MIL-STD-348 
+&lt;br&gt;Connector Type SMB 
+&lt;br&gt;Gender Plug
+&lt;br&gt;Orientation Type  Straight 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;GENERAL INFORMATION 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Operating Temperature -65 up to +165 °C 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;ELECTRICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;f DC~4 GHz  
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;MECHANICAL PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Mating Cycle 500 Cycles 
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;PACKAGING PROPERTIES 
+&lt;br&gt;&lt;br&gt;
+&lt;/b&gt;Packaging Tray 
+&lt;br&gt;
+ &lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o176669v209%20Family_WR-SMB_61614002111503.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o176669v209%20Family_WR-SMB_61614002111503.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/SMB_PCB_THT_PLUG__STRAIGHT/"&gt;https://www.we-online.com/catalog/en/SMB_PCB_THT_PLUG__STRAIGHT/&lt;/a&gt;&lt;p&gt;
+Updated by Ella Wu 2020-05-29&lt;br&gt;
+2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="PLUG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61614002111503">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17826403/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/61614002111503.pdf"/>
+<attribute name="GENDER" value="Plug"/>
+<attribute name="INTERFACE" value="MIL-STD-348"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="ORIENTATION-TYPE" value="Straight"/>
+<attribute name="PART-NUMBER" value="61614002111503"/>
+<attribute name="VALUE" value="61614002111503"/>
+<attribute name="Z" value="50Ohm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
