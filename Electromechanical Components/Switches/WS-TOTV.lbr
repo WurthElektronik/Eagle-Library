@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -76,8 +76,8 @@
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - Switches - Toggle Switches - WS-TOTV&lt;br&gt;&lt;Hr&gt;
-
+<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - Switches - Toggle Switches - WS-TOTV&lt;br&gt;
+&lt;Hr&gt;
 &lt;BR&gt;
 &lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
 &lt;TR&gt;   
@@ -139,22 +139,56 @@ Fax:+49 (0)7942-945-5000&lt;br&gt;
 &lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
 &lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
 &lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2023b, 2023-02-02&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-06-24&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="472131010111" urn="urn:adsk.eagle:footprint:36686327/2">
-<description>&lt;B&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<pad name="1" x="4.7" y="-2.4" drill="1.85"/>
-<pad name="2" x="0" y="-2.4" drill="1.85"/>
-<pad name="3" x="-4.7" y="-2.4" drill="1.85"/>
-<pad name="4" x="4.7" y="2.4" drill="1.85"/>
-<pad name="5" x="0" y="2.4" drill="1.85"/>
-<pad name="6" x="-4.7" y="2.4" drill="1.85"/>
+<package name="472221010140_WOLOCKING" urn="urn:adsk.eagle:footprint:47075324/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<pad name="1" x="3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.6" rot="R180"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.8128" layer="48" align="center">PCB Cutout Area</text>
+<text x="0" y="0" size="0.8128" layer="46" align="center">PCB Cutout Area</text>
+<polygon width="0.1" layer="46">
+<vertex x="-5.14" y="-0.85"/>
+<vertex x="-5.94" y="-0.85" curve="343.712788"/>
+<vertex x="-5.94" y="0.85"/>
+<vertex x="-5.14" y="0.85"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-6.2" y="0" curve="-180"/>
+<vertex x="6.2" y="0" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-14.7" y="8.2"/>
+<vertex x="-14.7" y="-8.2"/>
+<vertex x="14.7" y="-8.2"/>
+<vertex x="14.7" y="8.2"/>
+</polygon>
+<wire x1="-14.5" y1="8" x2="14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="8" x2="14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="-8" x2="-14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="-14.5" y1="-8" x2="-14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="-14.4" y1="7.9" x2="14.4" y2="7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="7.9" x2="14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="-7.9" x2="-14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="-14.4" y1="-7.9" x2="-14.4" y2="7.9" width="0.1" layer="52"/>
+</package>
+<package name="472133010111" urn="urn:adsk.eagle:footprint:36686324/2">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
 <wire x1="-6.35" y1="5.7" x2="6.35" y2="5.7" width="0.1" layer="51"/>
 <wire x1="6.35" y1="5.7" x2="6.35" y2="-5.7" width="0.1" layer="51"/>
 <wire x1="6.35" y1="-5.7" x2="-6.35" y2="-5.7" width="0.1" layer="51"/>
@@ -177,137 +211,81 @@ Copyright: Würth Elektronik</description>
 <text x="4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">4</text>
 <text x="0" y="4.5" size="0.8128" layer="21" align="bottom-center">5</text>
 <text x="-4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">6</text>
+<pad name="1" x="4.7" y="-2.4" drill="1.85"/>
+<pad name="2" x="0" y="-2.4" drill="1.85"/>
+<pad name="3" x="-4.7" y="-2.4" drill="1.85"/>
+<pad name="4" x="4.7" y="2.4" drill="1.85"/>
+<pad name="5" x="0" y="2.4" drill="1.85"/>
+<pad name="6" x="-4.7" y="2.4" drill="1.85"/>
 <circle x="8" y="-4" radius="0.3" width="0.6" layer="21"/>
 </package>
-<package name="472133020421" urn="urn:adsk.eagle:footprint:36686322/3">
-<description>&lt;B&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
-<pad name="1" x="4.7" y="6.35" drill="1.85"/>
-<pad name="2" x="0" y="6.35" drill="1.85"/>
-<pad name="3" x="-4.7" y="6.35" drill="1.85"/>
-<pad name="G1" x="2.54" y="-6.35" drill="1.85"/>
-<pad name="G2" x="-2.54" y="-6.35" drill="1.85"/>
-<pad name="4" x="4.7" y="10.16" drill="1.85"/>
-<pad name="5" x="0" y="10.16" drill="1.85"/>
-<pad name="6" x="-4.7" y="10.16" drill="1.85"/>
-<wire x1="-6.35" y1="2.7" x2="-5.4" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-5.4" y1="2.7" x2="-0.3755" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-0.3755" y1="2.7" x2="0.375" y2="2.7" width="0.1" layer="51"/>
-<wire x1="0.375" y1="2.7" x2="6.35" y2="2.7" width="0.1" layer="51"/>
-<wire x1="6.35" y1="2.7" x2="6.35" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="6.35" y1="-6.1" x2="-6.35" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="-6.35" y1="-6.1" x2="-6.35" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-6.45" y1="2.8" x2="6.45" y2="2.8" width="0.2" layer="21"/>
-<wire x1="6.45" y1="2.8" x2="6.45" y2="-6.2" width="0.2" layer="21"/>
-<wire x1="6.45" y1="-6.2" x2="-6.45" y2="-6.2" width="0.2" layer="21"/>
-<wire x1="-6.45" y1="-6.2" x2="-6.45" y2="2.8" width="0.2" layer="21"/>
-<wire x1="-3.1" y1="-6.6" x2="-3.1" y2="-12.9" width="0.1" layer="51"/>
-<wire x1="-2.8" y1="-13.2" x2="-0.43" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="-0.43" y1="-13.2" x2="2.27" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="2.27" y1="-13.2" x2="2.8" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="3.1" y1="-12.9" x2="3.1" y2="-6.6" width="0.1" layer="51"/>
-<wire x1="-0.43" y1="-13.2" x2="0.5" y2="-19.24" width="0.1" layer="51" style="shortdash"/>
-<wire x1="2.27" y1="-13.2" x2="3.12" y2="-18.59" width="0.1" layer="51" style="shortdash"/>
-<wire x1="1.6873625" y1="-20.008275" x2="2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash"/>
-<wire x1="0.497971875" y1="-19.23993125" x2="1.6873625" y2="-20.008275" width="0.1" layer="51" style="shortdash" curve="90"/>
-<wire x1="3.118909375" y1="-18.589415625" x2="2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash" curve="-90"/>
-<wire x1="-3.1" y1="-12.9" x2="3.1" y2="-12.9" width="0.1" layer="51"/>
-<wire x1="3.1" y1="-12.9" x2="2.8" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="-3.1" y1="-12.9" x2="-2.8" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="-4.45" y1="-6.6" x2="-3.1" y2="-6.6" width="0.1" layer="51"/>
-<wire x1="3.1" y1="-6.6" x2="4.45" y2="-6.6" width="0.1" layer="51"/>
-<wire x1="-3.1" y1="-6.6" x2="3.1" y2="-6.6" width="0.1" layer="51"/>
-<wire x1="-4.45" y1="-6.6" x2="-4.45" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="4.45" y1="-6.6" x2="4.45" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="0.43" y1="-13.2" x2="-0.5" y2="-19.24" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-2.27" y1="-13.2" x2="-3.12" y2="-18.59" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-1.6873625" y1="-20.008275" x2="-2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-0.497971875" y1="-19.23993125" x2="-1.6873625" y2="-20.008275" width="0.1" layer="51" style="shortdash" curve="-90"/>
-<wire x1="-3.118909375" y1="-18.589415625" x2="-2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash" curve="90"/>
-<wire x1="-0.375" y1="6.35" x2="-0.3755" y2="2.7" width="0.1" layer="51"/>
-<wire x1="0.375" y1="6.35" x2="0.375" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-0.3755" y1="6.35" x2="0.375" y2="6.35" width="0.1" layer="51"/>
-<wire x1="-5.075" y1="6.35" x2="-5.0755" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-4.325" y1="6.35" x2="-4.325" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-5.0755" y1="6.35" x2="-4.325" y2="6.35" width="0.1" layer="51"/>
-<wire x1="4.325" y1="6.35" x2="4.3245" y2="2.7" width="0.1" layer="51"/>
-<wire x1="5.075" y1="6.35" x2="5.075" y2="2.7" width="0.1" layer="51"/>
-<wire x1="4.3245" y1="6.35" x2="5.075" y2="6.35" width="0.1" layer="51"/>
+<package name="472221010140_WITHLOCKING" urn="urn:adsk.eagle:footprint:47075325/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<hole x="0" y="0" drill="12"/>
+<hole x="-9.5" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
 <polygon width="0.1" layer="39">
-<vertex x="-6.65" y="11.8"/>
-<vertex x="6.65" y="11.8"/>
-<vertex x="6.65" y="-20.2"/>
-<vertex x="-6.65" y="-20.2"/>
+<vertex x="-11.35" y="6.2"/>
+<vertex x="-11.35" y="-6.2"/>
+<vertex x="6.2" y="-6.2"/>
+<vertex x="6.2" y="6.2"/>
 </polygon>
-<text x="7.5" y="-3.15" size="1.27" layer="25">&gt;NAME</text>
-<text x="7.5" y="-5.65" size="1.27" layer="27">&gt;VALUE</text>
-<text x="0" y="3.5" size="0.8128" layer="21" align="bottom-center">2</text>
-<text x="-4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">3</text>
-<text x="4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">1</text>
+<polygon width="0.1" layer="40">
+<vertex x="-14.7" y="8.2"/>
+<vertex x="-14.7" y="-8.2"/>
+<vertex x="14.7" y="-8.2"/>
+<vertex x="14.7" y="8.2"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.6" rot="R180"/>
+<wire x1="-14.5" y1="8" x2="14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="8" x2="14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="-8" x2="-14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="-14.5" y1="-8" x2="-14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="-14.4" y1="7.9" x2="14.4" y2="7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="7.9" x2="14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="-7.9" x2="-14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="-14.4" y1="-7.9" x2="-14.4" y2="7.9" width="0.1" layer="52"/>
 </package>
-<package name="472121020421" urn="urn:adsk.eagle:footprint:36686331/3">
-<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
-<pad name="1" x="4.7" y="6.35" drill="1.85"/>
-<pad name="2" x="0" y="6.35" drill="1.85"/>
-<pad name="3" x="-4.7" y="6.35" drill="1.85"/>
-<pad name="G1" x="2.54" y="-6.35" drill="1.85"/>
-<pad name="G2" x="-2.54" y="-6.35" drill="1.85"/>
-<wire x1="-6.35" y1="2.7" x2="-5.4" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-5.4" y1="2.7" x2="-0.3755" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-0.3755" y1="2.7" x2="0.375" y2="2.7" width="0.1" layer="51"/>
-<wire x1="0.375" y1="2.7" x2="6.35" y2="2.7" width="0.1" layer="51"/>
-<wire x1="6.35" y1="2.7" x2="6.35" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="6.35" y1="-6.1" x2="-6.35" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="-6.35" y1="-6.1" x2="-6.35" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-6.45" y1="2.8" x2="6.45" y2="2.8" width="0.2" layer="21"/>
-<wire x1="6.45" y1="2.8" x2="6.45" y2="-6.2" width="0.2" layer="21"/>
-<wire x1="6.45" y1="-6.2" x2="-6.45" y2="-6.2" width="0.2" layer="21"/>
-<wire x1="-6.45" y1="-6.2" x2="-6.45" y2="2.8" width="0.2" layer="21"/>
-<wire x1="-3.1" y1="-6.6" x2="-3.1" y2="-12.9" width="0.1" layer="51"/>
-<wire x1="-2.8" y1="-13.2" x2="-0.43" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="-0.43" y1="-13.2" x2="2.27" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="2.27" y1="-13.2" x2="2.8" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="3.1" y1="-12.9" x2="3.1" y2="-6.6" width="0.1" layer="51"/>
-<wire x1="-0.43" y1="-13.2" x2="0.5" y2="-19.24" width="0.1" layer="51" style="shortdash"/>
-<wire x1="2.27" y1="-13.2" x2="3.12" y2="-18.59" width="0.1" layer="51" style="shortdash"/>
-<wire x1="1.6873625" y1="-20.008275" x2="2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash"/>
-<wire x1="0.497971875" y1="-19.23993125" x2="1.6873625" y2="-20.008275" width="0.1" layer="51" style="shortdash" curve="90"/>
-<wire x1="3.118909375" y1="-18.589415625" x2="2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash" curve="-90"/>
-<wire x1="-3.1" y1="-12.9" x2="3.1" y2="-12.9" width="0.1" layer="51"/>
-<wire x1="3.1" y1="-12.9" x2="2.8" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="-3.1" y1="-12.9" x2="-2.8" y2="-13.2" width="0.1" layer="51"/>
-<wire x1="-4.45" y1="-6.6" x2="-3.1" y2="-6.6" width="0.1" layer="51"/>
-<wire x1="3.1" y1="-6.6" x2="4.45" y2="-6.6" width="0.1" layer="51"/>
-<wire x1="-3.1" y1="-6.6" x2="3.1" y2="-6.6" width="0.1" layer="51"/>
-<wire x1="-4.45" y1="-6.6" x2="-4.45" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="4.45" y1="-6.6" x2="4.45" y2="-6.1" width="0.1" layer="51"/>
-<wire x1="0.43" y1="-13.2" x2="-0.5" y2="-19.24" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-2.27" y1="-13.2" x2="-3.12" y2="-18.59" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-1.6873625" y1="-20.008275" x2="-2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-0.497971875" y1="-19.23993125" x2="-1.6873625" y2="-20.008275" width="0.1" layer="51" style="shortdash" curve="-90"/>
-<wire x1="-3.118909375" y1="-18.589415625" x2="-2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash" curve="90"/>
-<wire x1="-0.375" y1="6.35" x2="-0.3755" y2="2.7" width="0.1" layer="51"/>
-<wire x1="0.375" y1="6.35" x2="0.375" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-0.3755" y1="6.35" x2="0.375" y2="6.35" width="0.1" layer="51"/>
-<wire x1="-5.075" y1="6.35" x2="-5.0755" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-4.325" y1="6.35" x2="-4.325" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-5.0755" y1="6.35" x2="-4.325" y2="6.35" width="0.1" layer="51"/>
-<wire x1="4.325" y1="6.35" x2="4.3245" y2="2.7" width="0.1" layer="51"/>
-<wire x1="5.075" y1="6.35" x2="5.075" y2="2.7" width="0.1" layer="51"/>
-<wire x1="4.3245" y1="6.35" x2="5.075" y2="6.35" width="0.1" layer="51"/>
+<package name="472223010140_WITHLOCKING" urn="urn:adsk.eagle:footprint:47075320/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<hole x="0" y="0" drill="12"/>
+<hole x="-9.5" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
 <polygon width="0.1" layer="39">
-<vertex x="-6.65" y="8"/>
-<vertex x="6.65" y="8"/>
-<vertex x="6.65" y="-20.2"/>
-<vertex x="-6.65" y="-20.2"/>
+<vertex x="-11.35" y="6.2"/>
+<vertex x="-11.35" y="-6.2"/>
+<vertex x="6.2" y="-6.2"/>
+<vertex x="6.2" y="6.2"/>
 </polygon>
-<text x="7.5" y="-3.15" size="1.27" layer="25">&gt;NAME</text>
-<text x="7.5" y="-5.65" size="1.27" layer="27">&gt;VALUE</text>
-<text x="4.7" y="5.45" size="0.8128" layer="21" align="bottom-center">1</text>
-<text x="0" y="3.5" size="0.8128" layer="21" align="bottom-center">2</text>
-<text x="-4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">3</text>
-<text x="4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">1</text>
+<polygon width="0.1" layer="40">
+<vertex x="-14.7" y="8.2"/>
+<vertex x="-14.7" y="-8.2"/>
+<vertex x="14.7" y="-8.2"/>
+<vertex x="14.7" y="8.2"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.6" rot="R180"/>
+<wire x1="-14.5" y1="8" x2="14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="8" x2="14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="-8" x2="-14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="-14.5" y1="-8" x2="-14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="-14.4" y1="7.9" x2="14.4" y2="7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="7.9" x2="14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="-7.9" x2="-14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="-14.4" y1="-7.9" x2="-14.4" y2="7.9" width="0.1" layer="52"/>
 </package>
-<package name="472123020311" urn="urn:adsk.eagle:footprint:36686329/2">
+<package name="472121010111" urn="urn:adsk.eagle:footprint:36686333/2">
 <description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
 <pad name="1" x="4.7" y="0" drill="1.85"/>
 <pad name="2" x="0" y="0" drill="1.85"/>
@@ -332,38 +310,6 @@ Copyright: Würth Elektronik</description>
 <text x="0" y="-2.7" size="0.8128" layer="21" align="bottom-center">2</text>
 <text x="-4.7" y="-2.7" size="0.8128" layer="21" align="bottom-center">3</text>
 <circle x="7.5" y="2" radius="0.2" width="0.4" layer="21"/>
-</package>
-<package name="472133020311" urn="urn:adsk.eagle:footprint:36686323/2">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<wire x1="-6.35" y1="5.7" x2="6.35" y2="5.7" width="0.1" layer="51"/>
-<wire x1="6.35" y1="5.7" x2="6.35" y2="-5.7" width="0.1" layer="51"/>
-<wire x1="6.35" y1="-5.7" x2="-6.35" y2="-5.7" width="0.1" layer="51"/>
-<wire x1="-6.35" y1="-5.7" x2="-6.35" y2="5.7" width="0.1" layer="51"/>
-<wire x1="-6.45" y1="5.8" x2="6.45" y2="5.8" width="0.2" layer="21"/>
-<wire x1="6.45" y1="5.8" x2="6.45" y2="-5.8" width="0.2" layer="21"/>
-<wire x1="6.45" y1="-5.8" x2="-6.45" y2="-5.8" width="0.2" layer="21"/>
-<wire x1="-6.45" y1="-5.8" x2="-6.45" y2="5.8" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.65" y="6"/>
-<vertex x="6.65" y="6"/>
-<vertex x="6.65" y="-6"/>
-<vertex x="-6.65" y="-6"/>
-</polygon>
-<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="4.7" y="-5" size="0.8128" layer="21" align="bottom-center">1</text>
-<text x="0" y="-5" size="0.8128" layer="21" align="bottom-center">2</text>
-<text x="-4.7" y="-5" size="0.8128" layer="21" align="bottom-center">3</text>
-<text x="4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">4</text>
-<text x="0" y="4.5" size="0.8128" layer="21" align="bottom-center">5</text>
-<text x="-4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">6</text>
-<pad name="1" x="4.7" y="-2.4" drill="1.85"/>
-<pad name="2" x="0" y="-2.4" drill="1.85"/>
-<pad name="3" x="-4.7" y="-2.4" drill="1.85"/>
-<pad name="4" x="4.7" y="2.4" drill="1.85"/>
-<pad name="5" x="0" y="2.4" drill="1.85"/>
-<pad name="6" x="-4.7" y="2.4" drill="1.85"/>
-<circle x="8" y="-4" radius="0.3" width="0.6" layer="21"/>
 </package>
 <package name="472123020421" urn="urn:adsk.eagle:footprint:36686328/3">
 <description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
@@ -428,63 +374,42 @@ Copyright: Würth Elektronik</description>
 <text x="-4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">3</text>
 <text x="4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">1</text>
 </package>
-<package name="472131020311" urn="urn:adsk.eagle:footprint:36686326/2">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<wire x1="-6.35" y1="5.7" x2="6.35" y2="5.7" width="0.1" layer="51"/>
-<wire x1="6.35" y1="5.7" x2="6.35" y2="-5.7" width="0.1" layer="51"/>
-<wire x1="6.35" y1="-5.7" x2="-6.35" y2="-5.7" width="0.1" layer="51"/>
-<wire x1="-6.35" y1="-5.7" x2="-6.35" y2="5.7" width="0.1" layer="51"/>
-<wire x1="-6.45" y1="5.8" x2="6.45" y2="5.8" width="0.2" layer="21"/>
-<wire x1="6.45" y1="5.8" x2="6.45" y2="-5.8" width="0.2" layer="21"/>
-<wire x1="6.45" y1="-5.8" x2="-6.45" y2="-5.8" width="0.2" layer="21"/>
-<wire x1="-6.45" y1="-5.8" x2="-6.45" y2="5.8" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.65" y="6"/>
-<vertex x="6.65" y="6"/>
-<vertex x="6.65" y="-6"/>
-<vertex x="-6.65" y="-6"/>
-</polygon>
+<package name="472223010140_WOLOCKING" urn="urn:adsk.eagle:footprint:47075321/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<pad name="1" x="3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.6" rot="R180"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
 <text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="4.7" y="-5" size="0.8128" layer="21" align="bottom-center">1</text>
-<text x="0" y="-5" size="0.8128" layer="21" align="bottom-center">2</text>
-<text x="-4.7" y="-5" size="0.8128" layer="21" align="bottom-center">3</text>
-<text x="4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">4</text>
-<text x="0" y="4.5" size="0.8128" layer="21" align="bottom-center">5</text>
-<text x="-4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">6</text>
-<pad name="1" x="4.7" y="-2.4" drill="1.85"/>
-<pad name="2" x="0" y="-2.4" drill="1.85"/>
-<pad name="3" x="-4.7" y="-2.4" drill="1.85"/>
-<pad name="4" x="4.7" y="2.4" drill="1.85"/>
-<pad name="5" x="0" y="2.4" drill="1.85"/>
-<pad name="6" x="-4.7" y="2.4" drill="1.85"/>
-<circle x="8" y="-4" radius="0.3" width="0.6" layer="21"/>
-</package>
-<package name="472121020311" urn="urn:adsk.eagle:footprint:36686332/2">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<pad name="1" x="4.7" y="0" drill="1.85"/>
-<pad name="2" x="0" y="0" drill="1.85"/>
-<pad name="3" x="-4.7" y="0" drill="1.85"/>
-<wire x1="-6.35" y1="3.3" x2="6.35" y2="3.3" width="0.1" layer="51"/>
-<wire x1="6.35" y1="3.3" x2="6.35" y2="-3.3" width="0.1" layer="51"/>
-<wire x1="6.35" y1="-3.3" x2="-6.35" y2="-3.3" width="0.1" layer="51"/>
-<wire x1="-6.35" y1="-3.3" x2="-6.35" y2="3.3" width="0.1" layer="51"/>
-<wire x1="-6.45" y1="3.4" x2="6.45" y2="3.4" width="0.2" layer="21"/>
-<wire x1="6.45" y1="3.4" x2="6.45" y2="-3.4" width="0.2" layer="21"/>
-<wire x1="6.45" y1="-3.4" x2="-6.45" y2="-3.4" width="0.2" layer="21"/>
-<wire x1="-6.45" y1="-3.4" x2="-6.45" y2="3.4" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.65" y="3.6"/>
-<vertex x="6.65" y="3.6"/>
-<vertex x="6.65" y="-3.6"/>
-<vertex x="-6.65" y="-3.6"/>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.8128" layer="48" align="center">PCB Cutout Area</text>
+<text x="0" y="0" size="0.8128" layer="46" align="center">PCB Cutout Area</text>
+<polygon width="0.1" layer="46">
+<vertex x="-5.14" y="-0.85"/>
+<vertex x="-5.94" y="-0.85" curve="343.712788"/>
+<vertex x="-5.94" y="0.85"/>
+<vertex x="-5.14" y="0.85"/>
 </polygon>
-<text x="0" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="4.7" y="-2.7" size="0.8128" layer="21" align="bottom-center">1</text>
-<text x="0" y="-2.7" size="0.8128" layer="21" align="bottom-center">2</text>
-<text x="-4.7" y="-2.7" size="0.8128" layer="21" align="bottom-center">3</text>
-<circle x="7.5" y="2" radius="0.2" width="0.4" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.2" y="0" curve="-180"/>
+<vertex x="6.2" y="0" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-14.7" y="8.2"/>
+<vertex x="-14.7" y="-8.2"/>
+<vertex x="14.7" y="-8.2"/>
+<vertex x="14.7" y="8.2"/>
+</polygon>
+<wire x1="-14.5" y1="8" x2="14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="8" x2="14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="-8" x2="-14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="-14.5" y1="-8" x2="-14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="-14.4" y1="7.9" x2="14.4" y2="7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="7.9" x2="14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="-7.9" x2="-14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="-14.4" y1="-7.9" x2="-14.4" y2="7.9" width="0.1" layer="52"/>
 </package>
 <package name="472131020421" urn="urn:adsk.eagle:footprint:36686325/3">
 <description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
@@ -578,7 +503,103 @@ Copyright: Würth Elektronik</description>
 <text x="-4.7" y="-2.7" size="0.8128" layer="21" align="bottom-center">3</text>
 <circle x="7.5" y="2" radius="0.2" width="0.4" layer="21"/>
 </package>
-<package name="472133010111" urn="urn:adsk.eagle:footprint:36686324/2">
+<package name="472223010110_WITHLOCKING" urn="urn:adsk.eagle:footprint:47075323/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<hole x="0" y="0" drill="12"/>
+<hole x="-9.5" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-11.35" y="6.2"/>
+<vertex x="-11.35" y="-6.2"/>
+<vertex x="6.2" y="-6.2"/>
+<vertex x="6.2" y="6.2"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-14.7" y="8.2"/>
+<vertex x="-14.7" y="-8.2"/>
+<vertex x="14.7" y="-8.2"/>
+<vertex x="14.7" y="8.2"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.6" rot="R180"/>
+<wire x1="-14.5" y1="8" x2="14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="8" x2="14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="-8" x2="-14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="-14.5" y1="-8" x2="-14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="-14.4" y1="7.9" x2="14.4" y2="7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="7.9" x2="14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="-7.9" x2="-14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="-14.4" y1="-7.9" x2="-14.4" y2="7.9" width="0.1" layer="52"/>
+</package>
+<package name="472121020421" urn="urn:adsk.eagle:footprint:36686331/3">
+<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
+<pad name="1" x="4.7" y="6.35" drill="1.85"/>
+<pad name="2" x="0" y="6.35" drill="1.85"/>
+<pad name="3" x="-4.7" y="6.35" drill="1.85"/>
+<pad name="G1" x="2.54" y="-6.35" drill="1.85"/>
+<pad name="G2" x="-2.54" y="-6.35" drill="1.85"/>
+<wire x1="-6.35" y1="2.7" x2="-5.4" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-5.4" y1="2.7" x2="-0.3755" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-0.3755" y1="2.7" x2="0.375" y2="2.7" width="0.1" layer="51"/>
+<wire x1="0.375" y1="2.7" x2="6.35" y2="2.7" width="0.1" layer="51"/>
+<wire x1="6.35" y1="2.7" x2="6.35" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="6.35" y1="-6.1" x2="-6.35" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-6.1" x2="-6.35" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="2.8" x2="6.45" y2="2.8" width="0.2" layer="21"/>
+<wire x1="6.45" y1="2.8" x2="6.45" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-6.2" x2="-6.45" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="-6.2" x2="-6.45" y2="2.8" width="0.2" layer="21"/>
+<wire x1="-3.1" y1="-6.6" x2="-3.1" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="-13.2" x2="-0.43" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="-0.43" y1="-13.2" x2="2.27" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="2.27" y1="-13.2" x2="2.8" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-12.9" x2="3.1" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-0.43" y1="-13.2" x2="0.5" y2="-19.24" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.27" y1="-13.2" x2="3.12" y2="-18.59" width="0.1" layer="51" style="shortdash"/>
+<wire x1="1.6873625" y1="-20.008275" x2="2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash"/>
+<wire x1="0.497971875" y1="-19.23993125" x2="1.6873625" y2="-20.008275" width="0.1" layer="51" style="shortdash" curve="90"/>
+<wire x1="3.118909375" y1="-18.589415625" x2="2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash" curve="-90"/>
+<wire x1="-3.1" y1="-12.9" x2="3.1" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-12.9" x2="2.8" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-12.9" x2="-2.8" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="-4.45" y1="-6.6" x2="-3.1" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-6.6" x2="4.45" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-6.6" x2="3.1" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-4.45" y1="-6.6" x2="-4.45" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="4.45" y1="-6.6" x2="4.45" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="0.43" y1="-13.2" x2="-0.5" y2="-19.24" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.27" y1="-13.2" x2="-3.12" y2="-18.59" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-1.6873625" y1="-20.008275" x2="-2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-0.497971875" y1="-19.23993125" x2="-1.6873625" y2="-20.008275" width="0.1" layer="51" style="shortdash" curve="-90"/>
+<wire x1="-3.118909375" y1="-18.589415625" x2="-2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash" curve="90"/>
+<wire x1="-0.375" y1="6.35" x2="-0.3755" y2="2.7" width="0.1" layer="51"/>
+<wire x1="0.375" y1="6.35" x2="0.375" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-0.3755" y1="6.35" x2="0.375" y2="6.35" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="6.35" x2="-5.0755" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-4.325" y1="6.35" x2="-4.325" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-5.0755" y1="6.35" x2="-4.325" y2="6.35" width="0.1" layer="51"/>
+<wire x1="4.325" y1="6.35" x2="4.3245" y2="2.7" width="0.1" layer="51"/>
+<wire x1="5.075" y1="6.35" x2="5.075" y2="2.7" width="0.1" layer="51"/>
+<wire x1="4.3245" y1="6.35" x2="5.075" y2="6.35" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.65" y="8"/>
+<vertex x="6.65" y="8"/>
+<vertex x="6.65" y="-20.2"/>
+<vertex x="-6.65" y="-20.2"/>
+</polygon>
+<text x="7.5" y="-3.15" size="1.27" layer="25">&gt;NAME</text>
+<text x="7.5" y="-5.65" size="1.27" layer="27">&gt;VALUE</text>
+<text x="4.7" y="5.45" size="0.8128" layer="21" align="bottom-center">1</text>
+<text x="0" y="3.5" size="0.8128" layer="21" align="bottom-center">2</text>
+<text x="-4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">3</text>
+<text x="4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">1</text>
+</package>
+<package name="472133020311" urn="urn:adsk.eagle:footprint:36686323/2">
 <description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
 <wire x1="-6.35" y1="5.7" x2="6.35" y2="5.7" width="0.1" layer="51"/>
 <wire x1="6.35" y1="5.7" x2="6.35" y2="-5.7" width="0.1" layer="51"/>
@@ -610,7 +631,114 @@ Copyright: Würth Elektronik</description>
 <pad name="6" x="-4.7" y="2.4" drill="1.85"/>
 <circle x="8" y="-4" radius="0.3" width="0.6" layer="21"/>
 </package>
-<package name="472121010111" urn="urn:adsk.eagle:footprint:36686333/2">
+<package name="472223010110_WOLOCKING" urn="urn:adsk.eagle:footprint:47075322/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<pad name="1" x="3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.6" rot="R180"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.8128" layer="48" align="center">PCB Cutout Area</text>
+<text x="0" y="0" size="0.8128" layer="46" align="center">PCB Cutout Area</text>
+<polygon width="0.1" layer="46">
+<vertex x="-5.14" y="-0.85"/>
+<vertex x="-5.94" y="-0.85" curve="343.712788"/>
+<vertex x="-5.94" y="0.85"/>
+<vertex x="-5.14" y="0.85"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-6.2" y="0" curve="-180"/>
+<vertex x="6.2" y="0" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-14.7" y="8.2"/>
+<vertex x="-14.7" y="-8.2"/>
+<vertex x="14.7" y="-8.2"/>
+<vertex x="14.7" y="8.2"/>
+</polygon>
+<wire x1="-14.5" y1="8" x2="14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="8" x2="14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="-8" x2="-14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="-14.5" y1="-8" x2="-14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="-14.4" y1="7.9" x2="14.4" y2="7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="7.9" x2="14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="-7.9" x2="-14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="-14.4" y1="-7.9" x2="-14.4" y2="7.9" width="0.1" layer="52"/>
+</package>
+<package name="472221010110_WITHLOCKING" urn="urn:adsk.eagle:footprint:47075327/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<hole x="0" y="0" drill="12"/>
+<hole x="-9.5" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<polygon width="0.1" layer="40">
+<vertex x="-14.7" y="8.2"/>
+<vertex x="-14.7" y="-8.2"/>
+<vertex x="14.7" y="-8.2"/>
+<vertex x="14.7" y="8.2"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-11.35" y="6.2"/>
+<vertex x="-11.35" y="-6.2"/>
+<vertex x="6.2" y="-6.2"/>
+<vertex x="6.2" y="6.2"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.6" rot="R180"/>
+<wire x1="-14.5" y1="8" x2="14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="8" x2="14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="-8" x2="-14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="-14.5" y1="-8" x2="-14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="-14.4" y1="7.9" x2="14.4" y2="7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="7.9" x2="14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="-7.9" x2="-14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="-14.4" y1="-7.9" x2="-14.4" y2="7.9" width="0.1" layer="52"/>
+</package>
+<package name="472221010110_WOLOCKING" urn="urn:adsk.eagle:footprint:47075326/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<pad name="1" x="3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="0" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.6" rot="R180"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.8128" layer="48" align="center">PCB Cutout Area</text>
+<text x="0" y="0" size="0.8128" layer="46" align="center">PCB Cutout Area</text>
+<polygon width="0.1" layer="46">
+<vertex x="-5.14" y="-0.85"/>
+<vertex x="-5.94" y="-0.85" curve="343.712788"/>
+<vertex x="-5.94" y="0.85"/>
+<vertex x="-5.14" y="0.85"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-6.2" y="0" curve="-180"/>
+<vertex x="6.2" y="0" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-14.7" y="8.2"/>
+<vertex x="-14.7" y="-8.2"/>
+<vertex x="14.7" y="-8.2"/>
+<vertex x="14.7" y="8.2"/>
+</polygon>
+<wire x1="-14.5" y1="8" x2="14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="8" x2="14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="14.5" y1="-8" x2="-14.5" y2="-8" width="0.2" layer="22"/>
+<wire x1="-14.5" y1="-8" x2="-14.5" y2="8" width="0.2" layer="22"/>
+<wire x1="-14.4" y1="7.9" x2="14.4" y2="7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="7.9" x2="14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="14.4" y1="-7.9" x2="-14.4" y2="-7.9" width="0.1" layer="52"/>
+<wire x1="-14.4" y1="-7.9" x2="-14.4" y2="7.9" width="0.1" layer="52"/>
+</package>
+<package name="472121020311" urn="urn:adsk.eagle:footprint:36686332/2">
 <description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
 <pad name="1" x="4.7" y="0" drill="1.85"/>
 <pad name="2" x="0" y="0" drill="1.85"/>
@@ -636,72 +764,481 @@ Copyright: Würth Elektronik</description>
 <text x="-4.7" y="-2.7" size="0.8128" layer="21" align="bottom-center">3</text>
 <circle x="7.5" y="2" radius="0.2" width="0.4" layer="21"/>
 </package>
+<package name="472131020311" urn="urn:adsk.eagle:footprint:36686326/2">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<wire x1="-6.35" y1="5.7" x2="6.35" y2="5.7" width="0.1" layer="51"/>
+<wire x1="6.35" y1="5.7" x2="6.35" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="6.35" y1="-5.7" x2="-6.35" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-5.7" x2="-6.35" y2="5.7" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="5.8" x2="6.45" y2="5.8" width="0.2" layer="21"/>
+<wire x1="6.45" y1="5.8" x2="6.45" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-5.8" x2="-6.45" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="-5.8" x2="-6.45" y2="5.8" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.65" y="6"/>
+<vertex x="6.65" y="6"/>
+<vertex x="6.65" y="-6"/>
+<vertex x="-6.65" y="-6"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="4.7" y="-5" size="0.8128" layer="21" align="bottom-center">1</text>
+<text x="0" y="-5" size="0.8128" layer="21" align="bottom-center">2</text>
+<text x="-4.7" y="-5" size="0.8128" layer="21" align="bottom-center">3</text>
+<text x="4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">4</text>
+<text x="0" y="4.5" size="0.8128" layer="21" align="bottom-center">5</text>
+<text x="-4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">6</text>
+<pad name="1" x="4.7" y="-2.4" drill="1.85"/>
+<pad name="2" x="0" y="-2.4" drill="1.85"/>
+<pad name="3" x="-4.7" y="-2.4" drill="1.85"/>
+<pad name="4" x="4.7" y="2.4" drill="1.85"/>
+<pad name="5" x="0" y="2.4" drill="1.85"/>
+<pad name="6" x="-4.7" y="2.4" drill="1.85"/>
+<circle x="8" y="-4" radius="0.3" width="0.6" layer="21"/>
+</package>
+<package name="472131010111" urn="urn:adsk.eagle:footprint:36686327/2">
+<description>&lt;B&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<pad name="1" x="4.7" y="-2.4" drill="1.85"/>
+<pad name="2" x="0" y="-2.4" drill="1.85"/>
+<pad name="3" x="-4.7" y="-2.4" drill="1.85"/>
+<pad name="4" x="4.7" y="2.4" drill="1.85"/>
+<pad name="5" x="0" y="2.4" drill="1.85"/>
+<pad name="6" x="-4.7" y="2.4" drill="1.85"/>
+<wire x1="-6.35" y1="5.7" x2="6.35" y2="5.7" width="0.1" layer="51"/>
+<wire x1="6.35" y1="5.7" x2="6.35" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="6.35" y1="-5.7" x2="-6.35" y2="-5.7" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-5.7" x2="-6.35" y2="5.7" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="5.8" x2="6.45" y2="5.8" width="0.2" layer="21"/>
+<wire x1="6.45" y1="5.8" x2="6.45" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-5.8" x2="-6.45" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="-5.8" x2="-6.45" y2="5.8" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.65" y="6"/>
+<vertex x="6.65" y="6"/>
+<vertex x="6.65" y="-6"/>
+<vertex x="-6.65" y="-6"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="4.7" y="-5" size="0.8128" layer="21" align="bottom-center">1</text>
+<text x="0" y="-5" size="0.8128" layer="21" align="bottom-center">2</text>
+<text x="-4.7" y="-5" size="0.8128" layer="21" align="bottom-center">3</text>
+<text x="4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">4</text>
+<text x="0" y="4.5" size="0.8128" layer="21" align="bottom-center">5</text>
+<text x="-4.7" y="4.5" size="0.8128" layer="21" align="bottom-center">6</text>
+<circle x="8" y="-4" radius="0.3" width="0.6" layer="21"/>
+</package>
+<package name="472123020311" urn="urn:adsk.eagle:footprint:36686329/2">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<pad name="1" x="4.7" y="0" drill="1.85"/>
+<pad name="2" x="0" y="0" drill="1.85"/>
+<pad name="3" x="-4.7" y="0" drill="1.85"/>
+<wire x1="-6.35" y1="3.3" x2="6.35" y2="3.3" width="0.1" layer="51"/>
+<wire x1="6.35" y1="3.3" x2="6.35" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="6.35" y1="-3.3" x2="-6.35" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-3.3" x2="-6.35" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="3.4" x2="6.45" y2="3.4" width="0.2" layer="21"/>
+<wire x1="6.45" y1="3.4" x2="6.45" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-3.4" x2="-6.45" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="-3.4" x2="-6.45" y2="3.4" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.65" y="3.6"/>
+<vertex x="6.65" y="3.6"/>
+<vertex x="6.65" y="-3.6"/>
+<vertex x="-6.65" y="-3.6"/>
+</polygon>
+<text x="0" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="4.7" y="-2.7" size="0.8128" layer="21" align="bottom-center">1</text>
+<text x="0" y="-2.7" size="0.8128" layer="21" align="bottom-center">2</text>
+<text x="-4.7" y="-2.7" size="0.8128" layer="21" align="bottom-center">3</text>
+<circle x="7.5" y="2" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="472233010110_WITHLOCKING" urn="urn:adsk.eagle:footprint:47075315/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<hole x="0" y="0" drill="12"/>
+<hole x="-9.5" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-11.35" y="6.2"/>
+<vertex x="-11.35" y="-6.2"/>
+<vertex x="6.2" y="-6.2"/>
+<vertex x="6.2" y="6.2"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-17.15" y="11.6"/>
+<vertex x="-17.15" y="-11.6"/>
+<vertex x="17.15" y="-11.6"/>
+<vertex x="17.15" y="11.6"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="2.54" drill="0.6" rot="R180"/>
+<pad name="4" x="3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="5" x="-3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="6" x="0" y="-2.54" drill="0.6" rot="R180"/>
+<wire x1="-16.95" y1="11.4" x2="16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="11.4" x2="16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="-11.4" x2="-16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="-16.95" y1="-11.4" x2="-16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="-16.85" y1="11.3" x2="16.85" y2="11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="11.3" x2="16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="-11.3" x2="-16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="-16.85" y1="-11.3" x2="-16.85" y2="11.3" width="0.1" layer="52"/>
+</package>
+<package name="472233010110_WOLOCKING" urn="urn:adsk.eagle:footprint:47075314/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.8128" layer="48" align="center">PCB Cutout Area</text>
+<text x="0" y="0" size="0.8128" layer="46" align="center">PCB Cutout Area</text>
+<polygon width="0.1" layer="46">
+<vertex x="-5.14" y="-0.85"/>
+<vertex x="-5.94" y="-0.85" curve="343.712788"/>
+<vertex x="-5.94" y="0.85"/>
+<vertex x="-5.14" y="0.85"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-6.2" y="0" curve="-180"/>
+<vertex x="6.2" y="0" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-17.15" y="11.6"/>
+<vertex x="-17.15" y="-11.6"/>
+<vertex x="17.15" y="-11.6"/>
+<vertex x="17.15" y="11.6"/>
+</polygon>
+<wire x1="-16.95" y1="11.4" x2="16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="11.4" x2="16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="-11.4" x2="-16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="-16.95" y1="-11.4" x2="-16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="-16.85" y1="11.3" x2="16.85" y2="11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="11.3" x2="16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="-11.3" x2="-16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="-16.85" y1="-11.3" x2="-16.85" y2="11.3" width="0.1" layer="52"/>
+<pad name="1" x="3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="2.54" drill="0.6" rot="R180"/>
+<pad name="4" x="3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="5" x="-3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="6" x="0" y="-2.54" drill="0.6" rot="R180"/>
+</package>
+<package name="472133020421" urn="urn:adsk.eagle:footprint:36686322/3">
+<description>&lt;B&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
+<pad name="1" x="4.7" y="6.35" drill="1.85"/>
+<pad name="2" x="0" y="6.35" drill="1.85"/>
+<pad name="3" x="-4.7" y="6.35" drill="1.85"/>
+<pad name="G1" x="2.54" y="-6.35" drill="1.85"/>
+<pad name="G2" x="-2.54" y="-6.35" drill="1.85"/>
+<pad name="4" x="4.7" y="10.16" drill="1.85"/>
+<pad name="5" x="0" y="10.16" drill="1.85"/>
+<pad name="6" x="-4.7" y="10.16" drill="1.85"/>
+<wire x1="-6.35" y1="2.7" x2="-5.4" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-5.4" y1="2.7" x2="-0.3755" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-0.3755" y1="2.7" x2="0.375" y2="2.7" width="0.1" layer="51"/>
+<wire x1="0.375" y1="2.7" x2="6.35" y2="2.7" width="0.1" layer="51"/>
+<wire x1="6.35" y1="2.7" x2="6.35" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="6.35" y1="-6.1" x2="-6.35" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-6.1" x2="-6.35" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="2.8" x2="6.45" y2="2.8" width="0.2" layer="21"/>
+<wire x1="6.45" y1="2.8" x2="6.45" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-6.2" x2="-6.45" y2="-6.2" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="-6.2" x2="-6.45" y2="2.8" width="0.2" layer="21"/>
+<wire x1="-3.1" y1="-6.6" x2="-3.1" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="-13.2" x2="-0.43" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="-0.43" y1="-13.2" x2="2.27" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="2.27" y1="-13.2" x2="2.8" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-12.9" x2="3.1" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-0.43" y1="-13.2" x2="0.5" y2="-19.24" width="0.1" layer="51" style="shortdash"/>
+<wire x1="2.27" y1="-13.2" x2="3.12" y2="-18.59" width="0.1" layer="51" style="shortdash"/>
+<wire x1="1.6873625" y1="-20.008275" x2="2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash"/>
+<wire x1="0.497971875" y1="-19.23993125" x2="1.6873625" y2="-20.008275" width="0.1" layer="51" style="shortdash" curve="90"/>
+<wire x1="3.118909375" y1="-18.589415625" x2="2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash" curve="-90"/>
+<wire x1="-3.1" y1="-12.9" x2="3.1" y2="-12.9" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-12.9" x2="2.8" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-12.9" x2="-2.8" y2="-13.2" width="0.1" layer="51"/>
+<wire x1="-4.45" y1="-6.6" x2="-3.1" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="3.1" y1="-6.6" x2="4.45" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="-6.6" x2="3.1" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-4.45" y1="-6.6" x2="-4.45" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="4.45" y1="-6.6" x2="4.45" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="0.43" y1="-13.2" x2="-0.5" y2="-19.24" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-2.27" y1="-13.2" x2="-3.12" y2="-18.59" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-1.6873625" y1="-20.008275" x2="-2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-0.497971875" y1="-19.23993125" x2="-1.6873625" y2="-20.008275" width="0.1" layer="51" style="shortdash" curve="-90"/>
+<wire x1="-3.118909375" y1="-18.589415625" x2="-2.411803125" y2="-19.814159375" width="0.1" layer="51" style="shortdash" curve="90"/>
+<wire x1="-0.375" y1="6.35" x2="-0.3755" y2="2.7" width="0.1" layer="51"/>
+<wire x1="0.375" y1="6.35" x2="0.375" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-0.3755" y1="6.35" x2="0.375" y2="6.35" width="0.1" layer="51"/>
+<wire x1="-5.075" y1="6.35" x2="-5.0755" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-4.325" y1="6.35" x2="-4.325" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-5.0755" y1="6.35" x2="-4.325" y2="6.35" width="0.1" layer="51"/>
+<wire x1="4.325" y1="6.35" x2="4.3245" y2="2.7" width="0.1" layer="51"/>
+<wire x1="5.075" y1="6.35" x2="5.075" y2="2.7" width="0.1" layer="51"/>
+<wire x1="4.3245" y1="6.35" x2="5.075" y2="6.35" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.65" y="11.8"/>
+<vertex x="6.65" y="11.8"/>
+<vertex x="6.65" y="-20.2"/>
+<vertex x="-6.65" y="-20.2"/>
+</polygon>
+<text x="7.5" y="-3.15" size="1.27" layer="25">&gt;NAME</text>
+<text x="7.5" y="-5.65" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="3.5" size="0.8128" layer="21" align="bottom-center">2</text>
+<text x="-4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">3</text>
+<text x="4.7" y="3.5" size="0.8128" layer="21" align="bottom-center">1</text>
+</package>
+<package name="472233010140_WITHLOCKING" urn="urn:adsk.eagle:footprint:47075313/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<hole x="0" y="0" drill="12"/>
+<hole x="-9.5" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-11.35" y="6.2"/>
+<vertex x="-11.35" y="-6.2"/>
+<vertex x="6.2" y="-6.2"/>
+<vertex x="6.2" y="6.2"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-17.15" y="11.6"/>
+<vertex x="-17.15" y="-11.6"/>
+<vertex x="17.15" y="-11.6"/>
+<vertex x="17.15" y="11.6"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="2.54" drill="0.6" rot="R180"/>
+<pad name="4" x="3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="5" x="-3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="6" x="0" y="-2.54" drill="0.6" rot="R180"/>
+<wire x1="-16.95" y1="11.4" x2="16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="11.4" x2="16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="-11.4" x2="-16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="-16.95" y1="-11.4" x2="-16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="-16.85" y1="11.3" x2="16.85" y2="11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="11.3" x2="16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="-11.3" x2="-16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="-16.85" y1="-11.3" x2="-16.85" y2="11.3" width="0.1" layer="52"/>
+</package>
+<package name="472233010140_WOLOCKING" urn="urn:adsk.eagle:footprint:47075312/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.8128" layer="48" align="center">PCB Cutout Area</text>
+<text x="0" y="0" size="0.8128" layer="46" align="center">PCB Cutout Area</text>
+<polygon width="0.1" layer="46">
+<vertex x="-5.14" y="-0.85"/>
+<vertex x="-5.94" y="-0.85" curve="343.712788"/>
+<vertex x="-5.94" y="0.85"/>
+<vertex x="-5.14" y="0.85"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-6.2" y="0" curve="-180"/>
+<vertex x="6.2" y="0" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-17.15" y="11.6"/>
+<vertex x="-17.15" y="-11.6"/>
+<vertex x="17.15" y="-11.6"/>
+<vertex x="17.15" y="11.6"/>
+</polygon>
+<wire x1="-16.95" y1="11.4" x2="16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="11.4" x2="16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="-11.4" x2="-16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="-16.95" y1="-11.4" x2="-16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="-16.85" y1="11.3" x2="16.85" y2="11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="11.3" x2="16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="-11.3" x2="-16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="-16.85" y1="-11.3" x2="-16.85" y2="11.3" width="0.1" layer="52"/>
+<pad name="1" x="3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="2.54" drill="0.6" rot="R180"/>
+<pad name="4" x="3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="5" x="-3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="6" x="0" y="-2.54" drill="0.6" rot="R180"/>
+</package>
+<package name="472231010140_WITHLOCKING" urn="urn:adsk.eagle:footprint:47075317/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<hole x="0" y="0" drill="12"/>
+<hole x="-9.5" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-11.35" y="6.2"/>
+<vertex x="-11.35" y="-6.2"/>
+<vertex x="6.2" y="-6.2"/>
+<vertex x="6.2" y="6.2"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-17.15" y="11.6"/>
+<vertex x="-17.15" y="-11.6"/>
+<vertex x="17.15" y="-11.6"/>
+<vertex x="17.15" y="11.6"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="2.54" drill="0.6" rot="R180"/>
+<pad name="4" x="3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="5" x="-3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="6" x="0" y="-2.54" drill="0.6" rot="R180"/>
+<wire x1="-16.95" y1="11.4" x2="16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="11.4" x2="16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="-11.4" x2="-16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="-16.95" y1="-11.4" x2="-16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="-16.85" y1="11.3" x2="16.85" y2="11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="11.3" x2="16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="-11.3" x2="-16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="-16.85" y1="-11.3" x2="-16.85" y2="11.3" width="0.1" layer="52"/>
+</package>
+<package name="472231010140_WOLOCKING" urn="urn:adsk.eagle:footprint:47075316/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.8128" layer="48" align="center">PCB Cutout Area</text>
+<text x="0" y="0" size="0.8128" layer="46" align="center">PCB Cutout Area</text>
+<polygon width="0.1" layer="46">
+<vertex x="-5.14" y="-0.85"/>
+<vertex x="-5.94" y="-0.85" curve="343.712788"/>
+<vertex x="-5.94" y="0.85"/>
+<vertex x="-5.14" y="0.85"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-6.2" y="0" curve="-180"/>
+<vertex x="6.2" y="0" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-17.15" y="11.6"/>
+<vertex x="-17.15" y="-11.6"/>
+<vertex x="17.15" y="-11.6"/>
+<vertex x="17.15" y="11.6"/>
+</polygon>
+<wire x1="-16.95" y1="11.4" x2="16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="11.4" x2="16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="-11.4" x2="-16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="-16.95" y1="-11.4" x2="-16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="-16.85" y1="11.3" x2="16.85" y2="11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="11.3" x2="16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="-11.3" x2="-16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="-16.85" y1="-11.3" x2="-16.85" y2="11.3" width="0.1" layer="52"/>
+<pad name="1" x="3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="2.54" drill="0.6" rot="R180"/>
+<pad name="4" x="3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="5" x="-3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="6" x="0" y="-2.54" drill="0.6" rot="R180"/>
+</package>
+<package name="472231010110_WOLOCKING" urn="urn:adsk.eagle:footprint:47075318/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="0.8128" layer="48" align="center">PCB Cutout Area</text>
+<text x="0" y="0" size="0.8128" layer="46" align="center">PCB Cutout Area</text>
+<polygon width="0.1" layer="46">
+<vertex x="-5.14" y="-0.85"/>
+<vertex x="-5.94" y="-0.85" curve="343.712788"/>
+<vertex x="-5.94" y="0.85"/>
+<vertex x="-5.14" y="0.85"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-6.2" y="0" curve="-180"/>
+<vertex x="6.2" y="0" curve="-180"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-17.15" y="11.6"/>
+<vertex x="-17.15" y="-11.6"/>
+<vertex x="17.15" y="-11.6"/>
+<vertex x="17.15" y="11.6"/>
+</polygon>
+<wire x1="-16.95" y1="11.4" x2="16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="11.4" x2="16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="-11.4" x2="-16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="-16.95" y1="-11.4" x2="-16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="-16.85" y1="11.3" x2="16.85" y2="11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="11.3" x2="16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="-11.3" x2="-16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="-16.85" y1="-11.3" x2="-16.85" y2="11.3" width="0.1" layer="52"/>
+<pad name="1" x="3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="2.54" drill="0.6" rot="R180"/>
+<pad name="4" x="3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="5" x="-3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="6" x="0" y="-2.54" drill="0.6" rot="R180"/>
+</package>
+<package name="472231010110_WITHLOCKING" urn="urn:adsk.eagle:footprint:47075319/2">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<hole x="0" y="0" drill="12"/>
+<hole x="-9.5" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="5.95" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-11.35" y="6.2"/>
+<vertex x="-11.35" y="-6.2"/>
+<vertex x="6.2" y="-6.2"/>
+<vertex x="6.2" y="6.2"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="-17.15" y="11.6"/>
+<vertex x="-17.15" y="-11.6"/>
+<vertex x="17.15" y="-11.6"/>
+<vertex x="17.15" y="11.6"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="3" x="-3.81" y="2.54" drill="0.6" rot="R180"/>
+<pad name="2" x="0" y="2.54" drill="0.6" rot="R180"/>
+<pad name="4" x="3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="5" x="-3.81" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="6" x="0" y="-2.54" drill="0.6" rot="R180"/>
+<wire x1="-16.95" y1="11.4" x2="16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="11.4" x2="16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="16.95" y1="-11.4" x2="-16.95" y2="-11.4" width="0.2" layer="22"/>
+<wire x1="-16.95" y1="-11.4" x2="-16.95" y2="11.4" width="0.2" layer="22"/>
+<wire x1="-16.85" y1="11.3" x2="16.85" y2="11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="11.3" x2="16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="16.85" y1="-11.3" x2="-16.85" y2="-11.3" width="0.1" layer="52"/>
+<wire x1="-16.85" y1="-11.3" x2="-16.85" y2="11.3" width="0.1" layer="52"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="472131010111" urn="urn:adsk.eagle:package:36686341/5" type="model">
-<description>&lt;B&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<package3d name="472221010140_WOLOCKING" urn="urn:adsk.eagle:package:47075344/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
 <packageinstances>
-<packageinstance name="472131010111"/>
+<packageinstance name="472221010140_WOLOCKING"/>
 </packageinstances>
 </package3d>
-<package3d name="472133020421" urn="urn:adsk.eagle:package:36686336/4" type="model">
-<description>&lt;B&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
+<package3d name="472221010140_WITHLOCKING" urn="urn:adsk.eagle:package:47075345/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
 <packageinstances>
-<packageinstance name="472133020421"/>
-</packageinstances>
-</package3d>
-<package3d name="472121020421" urn="urn:adsk.eagle:package:36686345/5" type="model">
-<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
-<packageinstances>
-<packageinstance name="472121020421"/>
-</packageinstances>
-</package3d>
-<package3d name="472123020311" urn="urn:adsk.eagle:package:36686343/4" type="model">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<packageinstances>
-<packageinstance name="472123020311"/>
-</packageinstances>
-</package3d>
-<package3d name="472133020311" urn="urn:adsk.eagle:package:36686337/3" type="model">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<packageinstances>
-<packageinstance name="472133020311"/>
-</packageinstances>
-</package3d>
-<package3d name="472123020421" urn="urn:adsk.eagle:package:36686342/4" type="model">
-<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
-<packageinstances>
-<packageinstance name="472123020421"/>
-</packageinstances>
-</package3d>
-<package3d name="472131020311" urn="urn:adsk.eagle:package:36686340/4" type="model">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<packageinstances>
-<packageinstance name="472131020311"/>
-</packageinstances>
-</package3d>
-<package3d name="472121020311" urn="urn:adsk.eagle:package:36686346/4" type="model">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<packageinstances>
-<packageinstance name="472121020311"/>
-</packageinstances>
-</package3d>
-<package3d name="472123010111" urn="urn:adsk.eagle:package:36686344/4" type="model">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<packageinstances>
-<packageinstance name="472123010111"/>
-</packageinstances>
-</package3d>
-<package3d name="472131020421" urn="urn:adsk.eagle:package:36686339/4" type="model">
-<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
-<packageinstances>
-<packageinstance name="472131020421"/>
-</packageinstances>
-</package3d>
-<package3d name="472121010111" urn="urn:adsk.eagle:package:36686347/5" type="model">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
-<packageinstances>
-<packageinstance name="472121010111"/>
+<packageinstance name="472221010140_WITHLOCKING"/>
 </packageinstances>
 </package3d>
 <package3d name="472133010111" urn="urn:adsk.eagle:package:36686338/3" type="model">
@@ -710,111 +1247,187 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="472133010111"/>
 </packageinstances>
 </package3d>
+<package3d name="472121010111" urn="urn:adsk.eagle:package:36686347/5" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472121010111"/>
+</packageinstances>
+</package3d>
+<package3d name="472131020421" urn="urn:adsk.eagle:package:36686339/4" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472131020421"/>
+</packageinstances>
+</package3d>
+<package3d name="472123020421" urn="urn:adsk.eagle:package:36686342/4" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472123020421"/>
+</packageinstances>
+</package3d>
+<package3d name="472223010140_WITHLOCKING" urn="urn:adsk.eagle:package:47075340/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<packageinstances>
+<packageinstance name="472223010140_WITHLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472223010140_WOLOCKING" urn="urn:adsk.eagle:package:47075341/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<packageinstances>
+<packageinstance name="472223010140_WOLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472121020421" urn="urn:adsk.eagle:package:36686345/5" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472121020421"/>
+</packageinstances>
+</package3d>
+<package3d name="472123010111" urn="urn:adsk.eagle:package:36686344/4" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472123010111"/>
+</packageinstances>
+</package3d>
+<package3d name="472133020311" urn="urn:adsk.eagle:package:36686337/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472133020311"/>
+</packageinstances>
+</package3d>
+<package3d name="472223010110_WITHLOCKING" urn="urn:adsk.eagle:package:47075343/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<packageinstances>
+<packageinstance name="472223010110_WITHLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472223010110_WOLOCKING" urn="urn:adsk.eagle:package:47075342/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<packageinstances>
+<packageinstance name="472223010110_WOLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472221010110_WITHLOCKING" urn="urn:adsk.eagle:package:47075347/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<packageinstances>
+<packageinstance name="472221010110_WITHLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472221010110_WOLOCKING" urn="urn:adsk.eagle:package:47075346/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 28.8x15.8mm</description>
+<packageinstances>
+<packageinstance name="472221010110_WOLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472121020311" urn="urn:adsk.eagle:package:36686346/4" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472121020311"/>
+</packageinstances>
+</package3d>
+<package3d name="472131020311" urn="urn:adsk.eagle:package:36686340/4" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472131020311"/>
+</packageinstances>
+</package3d>
+<package3d name="472131010111" urn="urn:adsk.eagle:package:36686341/5" type="model">
+<description>&lt;B&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472131010111"/>
+</packageinstances>
+</package3d>
+<package3d name="472123020311" urn="urn:adsk.eagle:package:36686343/4" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472123020311"/>
+</packageinstances>
+</package3d>
+<package3d name="472233010110_WITHLOCKING" urn="urn:adsk.eagle:package:47075335/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<packageinstances>
+<packageinstance name="472233010110_WITHLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472233010110_WOLOCKING" urn="urn:adsk.eagle:package:47075334/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<packageinstances>
+<packageinstance name="472233010110_WOLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472133020421" urn="urn:adsk.eagle:package:36686336/4" type="model">
+<description>&lt;B&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch</description>
+<packageinstances>
+<packageinstance name="472133020421"/>
+</packageinstances>
+</package3d>
+<package3d name="472233010140_WITHLOCKING" urn="urn:adsk.eagle:package:47075333/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<packageinstances>
+<packageinstance name="472233010140_WITHLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472233010140_WOLOCKING" urn="urn:adsk.eagle:package:47075332/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<packageinstances>
+<packageinstance name="472233010140_WOLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472231010140_WITHLOCKING" urn="urn:adsk.eagle:package:47075337/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<packageinstances>
+<packageinstance name="472231010140_WITHLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472231010140_WOLOCKING" urn="urn:adsk.eagle:package:47075336/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<packageinstances>
+<packageinstance name="472231010140_WOLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472231010110_WITHLOCKING" urn="urn:adsk.eagle:package:47075339/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<packageinstances>
+<packageinstance name="472231010110_WITHLOCKING"/>
+</packageinstances>
+</package3d>
+<package3d name="472231010110_WOLOCKING" urn="urn:adsk.eagle:package:47075338/3" type="model">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/b&gt;
+
+&lt;br&gt;&lt;br&gt;Size: 33.7x22.6mm</description>
+<packageinstances>
+<packageinstance name="472231010110_WOLOCKING"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="DPDT_OFF-ON_GND">
-<text x="0" y="6.35" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<text x="-10.16" y="-1.27" size="0.8128" layer="94" align="center">GND</text>
-<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="1" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="5" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
-<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="6" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="7" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="8" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
-<circle x="1.905" y="0" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.905" y="5.08" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.905" y="-7.62" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="-6.985" y="2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="-6.985" y="-5.08" radius="0.508" width="0.254" layer="94"/>
-<polygon width="0.254" layer="94">
-<vertex x="-2.032" y="2.032" curve="-90"/>
-<vertex x="-2.54" y="2.54" curve="-90"/>
-<vertex x="-2.032" y="3.048" curve="-90"/>
-<vertex x="-1.524" y="2.54" curve="-90"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="-2.032" y="-5.588" curve="-90"/>
-<vertex x="-2.54" y="-5.08" curve="-90"/>
-<vertex x="-2.032" y="-4.572" curve="-90"/>
-<vertex x="-1.524" y="-5.08" curve="-90"/>
-</polygon>
-<wire x1="-1.905" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.159" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="2.159" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-6.985" y1="2.032" x2="-6.985" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="-1.27" x2="-6.985" y2="-4.572" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="-1.27" x2="-8.255" y2="-1.27" width="0.127" layer="94"/>
-<wire x1="-8.255" y1="-1.27" x2="-8.255" y2="-2.286" width="0.127" layer="94"/>
-<wire x1="-8.763" y1="-2.286" x2="-7.747" y2="-2.286" width="0.127" layer="94"/>
-<wire x1="-8.509" y1="-2.54" x2="-8.001" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="-8.382" y1="-2.794" x2="-8.128" y2="-2.794" width="0.127" layer="94"/>
-</symbol>
-<symbol name="DPDT_ON-ON">
-<text x="0" y="6.35" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="1" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="5" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
-<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="6" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
-<circle x="1.905" y="0" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.905" y="5.08" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.905" y="-7.62" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<polygon width="0.254" layer="94">
-<vertex x="-2.032" y="2.032" curve="-90"/>
-<vertex x="-2.54" y="2.54" curve="-90"/>
-<vertex x="-2.032" y="3.048" curve="-90"/>
-<vertex x="-1.524" y="2.54" curve="-90"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="-2.032" y="-5.588" curve="-90"/>
-<vertex x="-2.54" y="-5.08" curve="-90"/>
-<vertex x="-2.032" y="-4.572" curve="-90"/>
-<vertex x="-1.524" y="-5.08" curve="-90"/>
-</polygon>
-<wire x1="-1.905" y1="2.54" x2="2.159" y2="0.762" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-5.08" x2="2.159" y2="-6.858" width="0.254" layer="94"/>
-<wire x1="0" y1="1.6764" x2="0" y2="-5.842" width="0.254" layer="94" style="shortdash"/>
-</symbol>
-<symbol name="SPDT_ON_ON_GND">
-<text x="0" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<text x="-10.16" y="0" size="0.8128" layer="94" align="center">GND</text>
-<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="4" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="5" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
-<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.905" y="2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="-6.985" y="2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="-6.985" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<polygon width="0.254" layer="94">
-<vertex x="-2.032" y="-0.508" curve="-90"/>
-<vertex x="-2.54" y="0" curve="-90"/>
-<vertex x="-2.032" y="0.508" curve="-90"/>
-<vertex x="-1.524" y="0" curve="-90"/>
-</polygon>
-<wire x1="-1.905" y1="0" x2="2.1082" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="2.032" x2="-6.985" y2="0" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="0" x2="-6.985" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="0" x2="-8.255" y2="0" width="0.127" layer="94"/>
-<wire x1="-8.255" y1="0" x2="-8.255" y2="-1.016" width="0.127" layer="94"/>
-<wire x1="-8.763" y1="-1.016" x2="-7.747" y2="-1.016" width="0.127" layer="94"/>
-<wire x1="-8.509" y1="-1.27" x2="-8.001" y2="-1.27" width="0.127" layer="94"/>
-<wire x1="-8.382" y1="-1.524" x2="-8.128" y2="-1.524" width="0.127" layer="94"/>
-</symbol>
-<symbol name="SPDT_ON_ON">
-<text x="0" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<symbol name="SPDT_ON_ON_1">
 <pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 <pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
@@ -826,55 +1439,13 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2.032" y="0.508" curve="-90"/>
 <vertex x="-1.524" y="0" curve="-90"/>
 </polygon>
-<wire x1="-1.905" y1="0" x2="2.1082" y2="-1.778" width="0.254" layer="94"/>
-</symbol>
-<symbol name="SPDT_OFF_ON">
-<text x="0" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.905" y="2.54" radius="0.508" width="0.254" layer="94"/>
-<polygon width="0.254" layer="94">
-<vertex x="-2.032" y="-0.508" curve="-90"/>
-<vertex x="-2.54" y="0" curve="-90"/>
-<vertex x="-2.032" y="0.508" curve="-90"/>
-<vertex x="-1.524" y="0" curve="-90"/>
-</polygon>
-<wire x1="-1.905" y1="0" x2="2.159" y2="0" width="0.254" layer="94"/>
-</symbol>
-<symbol name="SPDT_OFF_ON_GND">
-<text x="0" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<text x="-10.16" y="0" size="0.8128" layer="94" align="center">GND</text>
-<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="4" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="5" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
-<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="1.905" y="2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="-6.985" y="2.54" radius="0.508" width="0.254" layer="94"/>
-<circle x="-6.985" y="-2.54" radius="0.508" width="0.254" layer="94"/>
-<polygon width="0.254" layer="94">
-<vertex x="-2.032" y="-0.508" curve="-90"/>
-<vertex x="-2.54" y="0" curve="-90"/>
-<vertex x="-2.032" y="0.508" curve="-90"/>
-<vertex x="-1.524" y="0" curve="-90"/>
-</polygon>
-<wire x1="-1.905" y1="0" x2="1.9812" y2="0" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="2.032" x2="-6.985" y2="0" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="0" x2="-6.985" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="0" x2="-8.255" y2="0" width="0.127" layer="94"/>
-<wire x1="-8.255" y1="0" x2="-8.255" y2="-1.016" width="0.127" layer="94"/>
-<wire x1="-8.763" y1="-1.016" x2="-7.747" y2="-1.016" width="0.127" layer="94"/>
-<wire x1="-8.509" y1="-1.27" x2="-8.001" y2="-1.27" width="0.127" layer="94"/>
-<wire x1="-8.382" y1="-1.524" x2="-8.128" y2="-1.524" width="0.127" layer="94"/>
+<wire x1="-1.905" y1="0" x2="2.1082" y2="1.778" width="0.254" layer="94"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.35" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
 <symbol name="DPDT_OFF-ON">
-<text x="0" y="6.35" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
 <pin name="1" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
@@ -904,9 +1475,9 @@ Copyright: Würth Elektronik</description>
 <wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94" style="shortdash"/>
 </symbol>
 <symbol name="DPDT_ON-ON_GND">
-<text x="0" y="6.35" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
 <text x="-10.16" y="-1.27" size="0.8128" layer="94" align="center">GND</text>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
 <pin name="1" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
@@ -944,8 +1515,1130 @@ Copyright: Würth Elektronik</description>
 <wire x1="-8.509" y1="-2.54" x2="-8.001" y2="-2.54" width="0.127" layer="94"/>
 <wire x1="-8.382" y1="-2.794" x2="-8.128" y2="-2.794" width="0.127" layer="94"/>
 </symbol>
+<symbol name="SPDT_OFF_ON_GND">
+<text x="-10.16" y="0" size="0.8128" layer="94" align="center">GND</text>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.35" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="-6.985" y="2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="-6.985" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="-0.508" curve="-90"/>
+<vertex x="-2.54" y="0" curve="-90"/>
+<vertex x="-2.032" y="0.508" curve="-90"/>
+<vertex x="-1.524" y="0" curve="-90"/>
+</polygon>
+<wire x1="-1.905" y1="0" x2="1.9812" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="2.032" x2="-6.985" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="0" x2="-6.985" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="0" x2="-8.255" y2="0" width="0.127" layer="94"/>
+<wire x1="-8.255" y1="0" x2="-8.255" y2="-1.016" width="0.127" layer="94"/>
+<wire x1="-8.763" y1="-1.016" x2="-7.747" y2="-1.016" width="0.127" layer="94"/>
+<wire x1="-8.509" y1="-1.27" x2="-8.001" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="-8.382" y1="-1.524" x2="-8.128" y2="-1.524" width="0.127" layer="94"/>
+</symbol>
+<symbol name="SPDT_OFF_ON">
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.35" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="2.54" radius="0.508" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="-0.508" curve="-90"/>
+<vertex x="-2.54" y="0" curve="-90"/>
+<vertex x="-2.032" y="0.508" curve="-90"/>
+<vertex x="-1.524" y="0" curve="-90"/>
+</polygon>
+<wire x1="-1.905" y1="0" x2="2.159" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SPDT_ON_ON">
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="2.54" radius="0.508" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="-0.508" curve="-90"/>
+<vertex x="-2.54" y="0" curve="-90"/>
+<vertex x="-2.032" y="0.508" curve="-90"/>
+<vertex x="-1.524" y="0" curve="-90"/>
+</polygon>
+<wire x1="-1.905" y1="0" x2="2.1082" y2="-1.778" width="0.254" layer="94"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.35" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="SPDT_ON_ON_GND">
+<text x="-10.16" y="0" size="0.8128" layer="94" align="center">GND</text>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.35" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="-6.985" y="2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="-6.985" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="-0.508" curve="-90"/>
+<vertex x="-2.54" y="0" curve="-90"/>
+<vertex x="-2.032" y="0.508" curve="-90"/>
+<vertex x="-1.524" y="0" curve="-90"/>
+</polygon>
+<wire x1="-1.905" y1="0" x2="2.1082" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="2.032" x2="-6.985" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="0" x2="-6.985" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="0" x2="-8.255" y2="0" width="0.127" layer="94"/>
+<wire x1="-8.255" y1="0" x2="-8.255" y2="-1.016" width="0.127" layer="94"/>
+<wire x1="-8.763" y1="-1.016" x2="-7.747" y2="-1.016" width="0.127" layer="94"/>
+<wire x1="-8.509" y1="-1.27" x2="-8.001" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="-8.382" y1="-1.524" x2="-8.128" y2="-1.524" width="0.127" layer="94"/>
+</symbol>
+<symbol name="DPDT_ON-ON">
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="1.905" y="0" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="5.08" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="-7.62" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="2.032" curve="-90"/>
+<vertex x="-2.54" y="2.54" curve="-90"/>
+<vertex x="-2.032" y="3.048" curve="-90"/>
+<vertex x="-1.524" y="2.54" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="-5.588" curve="-90"/>
+<vertex x="-2.54" y="-5.08" curve="-90"/>
+<vertex x="-2.032" y="-4.572" curve="-90"/>
+<vertex x="-1.524" y="-5.08" curve="-90"/>
+</polygon>
+<wire x1="-1.905" y1="2.54" x2="2.159" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-5.08" x2="2.159" y2="-6.858" width="0.254" layer="94"/>
+<wire x1="0" y1="1.6764" x2="0" y2="-5.842" width="0.254" layer="94" style="shortdash"/>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="DPDT_OFF-ON_GND">
+<text x="-10.16" y="-1.27" size="0.8128" layer="94" align="center">GND</text>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<circle x="1.905" y="0" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="5.08" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="-7.62" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="-6.985" y="2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="-6.985" y="-5.08" radius="0.508" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="2.032" curve="-90"/>
+<vertex x="-2.54" y="2.54" curve="-90"/>
+<vertex x="-2.032" y="3.048" curve="-90"/>
+<vertex x="-1.524" y="2.54" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="-5.588" curve="-90"/>
+<vertex x="-2.54" y="-5.08" curve="-90"/>
+<vertex x="-2.032" y="-4.572" curve="-90"/>
+<vertex x="-1.524" y="-5.08" curve="-90"/>
+</polygon>
+<wire x1="-1.905" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.159" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="2.159" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-6.985" y1="2.032" x2="-6.985" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="-1.27" x2="-6.985" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="-1.27" x2="-8.255" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="-8.255" y1="-1.27" x2="-8.255" y2="-2.286" width="0.127" layer="94"/>
+<wire x1="-8.763" y1="-2.286" x2="-7.747" y2="-2.286" width="0.127" layer="94"/>
+<wire x1="-8.509" y1="-2.54" x2="-8.001" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-8.382" y1="-2.794" x2="-8.128" y2="-2.794" width="0.127" layer="94"/>
+</symbol>
+<symbol name="DPDT_ON-ON_1">
+<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<circle x="1.905" y="0" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="5.08" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="-7.62" radius="0.508" width="0.254" layer="94"/>
+<circle x="1.905" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="2.032" curve="-90"/>
+<vertex x="-2.54" y="2.54" curve="-90"/>
+<vertex x="-2.032" y="3.048" curve="-90"/>
+<vertex x="-1.524" y="2.54" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="-5.588" curve="-90"/>
+<vertex x="-2.54" y="-5.08" curve="-90"/>
+<vertex x="-2.032" y="-4.572" curve="-90"/>
+<vertex x="-1.524" y="-5.08" curve="-90"/>
+</polygon>
+<wire x1="-1.905" y1="-5.08" x2="2.159" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="2.159" y2="4.318" width="0.254" layer="94"/>
+<wire x1="0" y1="-4.2164" x2="0" y2="3.302" width="0.254" layer="94" style="shortdash"/>
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="472133010111" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-01-13
+&lt;br&gt;2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="DPDT_OFF-ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="472133010111">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686338/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="10.7mm"/>
+<attribute name="BUSHING-LENGTH" value="9mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472133010111?ae"/>
+<attribute name="PART-NUMBER" value="472133010111"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472133010111"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472221010140" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with Screw Terminall&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Aluminium Alloy
+&lt;BR&gt;Frame Material	PA66
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Silver Alloy
+&lt;BR&gt;Stationary Contact Material	Silver Alloy
+&lt;BR&gt;Terminal Material	Copper Alloy
+&lt;BR&gt;Terminal Plating	Nickel
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	20 mΩ
+&lt;BR&gt;RISO	100 MΩ
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o860663v209%20MODEL-WA-Switch-SwTOTV.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o860663v209%20MODEL-WA-Switch-SwTOTV.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="www.we-online.com/catalog/WS-TOTV-12MM-PANEL-CUT-SCREW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS-TOTV-12MM-PANEL-CUT-SCREW&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2025-06-24
+&lt;br&gt;2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SPDT_ON_ON_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WITHLOCKING" package="472221010140_WITHLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075345/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472221010140?ae"/>
+<attribute name="PART-NUMBER" value="472221010140"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472221010140"/>
+</technology>
+</technologies>
+</device>
+<device name="_WOLOCKING" package="472221010140_WOLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075344/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472221010140?ae"/>
+<attribute name="PART-NUMBER" value="472221010140"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472221010140"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472121010111" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-11-11
+&lt;br&gt;2022(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SPDT_ON_ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="472121010111">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686347/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="10.4mm"/>
+<attribute name="BUSHING-LENGTH" value="9mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472121010111?ae"/>
+<attribute name="PART-NUMBER" value="472121010111"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472121010111"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472123020421" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature	-40 up to +85 °C
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-01-13</description>
+<gates>
+<gate name="G$1" symbol="SPDT_OFF_ON_GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="472123020421">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="G1"/>
+<connect gate="G$1" pin="5" pad="G2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686342/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="7mm"/>
+<attribute name="BUSHING-LENGTH" value="7.1mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472123020421?ae"/>
+<attribute name="PART-NUMBER" value="472123020421"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472123020421"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472223010140" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with Screw Terminall&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Aluminium Alloy
+&lt;BR&gt;Frame Material	PA66
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Silver Alloy
+&lt;BR&gt;Stationary Contact Material	Silver Alloy
+&lt;BR&gt;Terminal Material	Copper Alloy
+&lt;BR&gt;Terminal Plating	Nickel
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	20 mΩ
+&lt;BR&gt;RISO	100 MΩ
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o860663v209%20MODEL-WA-Switch-SwTOTV.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o860663v209%20MODEL-WA-Switch-SwTOTV.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="www.we-online.com/catalog/WS-TOTV-12MM-PANEL-CUT-SCREW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS-TOTV-12MM-PANEL-CUT-SCREW&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2025-06-24
+&lt;br&gt;2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SPDT_OFF_ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WITHLOCKING" package="472223010140_WITHLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075340/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472223010140?ae"/>
+<attribute name="PART-NUMBER" value="472223010140"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472223010140"/>
+</technology>
+</technologies>
+</device>
+<device name="_WOLOCKING" package="472223010140_WOLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075341/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472223010140?ae"/>
+<attribute name="PART-NUMBER" value="472223010140"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472223010140"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472131020421" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature	-40 up to +85 °C
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-01-13</description>
+<gates>
+<gate name="G$1" symbol="DPDT_ON-ON_GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="472131020421">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="G1"/>
+<connect gate="G$1" pin="8" pad="G2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686339/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="6.7mm"/>
+<attribute name="BUSHING-LENGTH" value="7.1mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472131020421?ae"/>
+<attribute name="PART-NUMBER" value="472131020421"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472131020421"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472123010111" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-11-11
+&lt;br&gt;2022(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SPDT_OFF_ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="472123010111">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686344/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="10.7mm"/>
+<attribute name="BUSHING-LENGTH" value="9mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472123010111?ae"/>
+<attribute name="PART-NUMBER" value="472123010111"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472123010111"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472121020421" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature	-40 up to +85 °C
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-01-13
+&lt;br&gt;2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SPDT_ON_ON_GND" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="472121020421">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="G1"/>
+<connect gate="G$1" pin="5" pad="G2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686345/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="6.7mm"/>
+<attribute name="BUSHING-LENGTH" value="7.1mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472121020421?ae"/>
+<attribute name="PART-NUMBER" value="472121020421"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472121020421"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472223010110" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Aluminium Alloy
+&lt;BR&gt;Frame Material	PA66
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Silver Alloy
+&lt;BR&gt;Stationary Contact Material	Silver Alloy
+&lt;BR&gt;Terminal Material	Copper Alloy
+&lt;BR&gt;Terminal Plating	Nickel
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	20 mΩ
+&lt;BR&gt;RISO	100 MΩ
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o856100v209%20Model-WA-Switch_model.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o856100v209%20Model-WA-Switch_model.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="www.we-online.com/catalog/WS-TOTV-12MM-PANEL-CUT-OUT-VERTICAL/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS-TOTV-12MM-PANEL-CUT-OUT-VERTICAL&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2025-06-24
+&lt;br&gt;2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SPDT_OFF_ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WITHLOCKING" package="472223010110_WITHLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075343/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472223010110?ae"/>
+<attribute name="PART-NUMBER" value="472223010110"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472223010110"/>
+</technology>
+</technologies>
+</device>
+<device name="_WOLOCKING" package="472223010110_WOLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075342/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472223010110?ae"/>
+<attribute name="PART-NUMBER" value="472223010110"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472223010110"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472133020311" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-11-11
+&lt;br&gt;2022(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="DPDT_OFF-ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="472133020311">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686337/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="7.5mm"/>
+<attribute name="BUSHING-LENGTH" value="7.1mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472133020311?ae"/>
+<attribute name="PART-NUMBER" value="472133020311"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472133020311"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472221010110" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Aluminium Alloy
+&lt;BR&gt;Frame Material	PA66
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Silver Alloy
+&lt;BR&gt;Stationary Contact Material	Silver Alloy
+&lt;BR&gt;Terminal Material	Copper Alloy
+&lt;BR&gt;Terminal Plating	Nickel
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	20 mΩ
+&lt;BR&gt;RISO	100 MΩ
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o856100v209%20Model-WA-Switch_model.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o856100v209%20Model-WA-Switch_model.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="www.we-online.com/catalog/WS-TOTV-12MM-PANEL-CUT-OUT-VERTICAL/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS-TOTV-12MM-PANEL-CUT-OUT-VERTICAL&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2025-06-24
+&lt;br&gt;2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SPDT_ON_ON_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WITHLOCKING" package="472221010110_WITHLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075347/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472221010110?ae"/>
+<attribute name="PART-NUMBER" value="472221010110"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472221010110"/>
+</technology>
+</technologies>
+</device>
+<device name="_WOLOCKING" package="472221010110_WOLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075346/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472221010110?ae"/>
+<attribute name="PART-NUMBER" value="472221010110"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472221010110"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472121020311" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-01-13
+&lt;br&gt;2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SPDT_ON_ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="472121020311">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686346/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="7.3mm"/>
+<attribute name="BUSHING-LENGTH" value="7.1mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472121020311?ae"/>
+<attribute name="PART-NUMBER" value="472121020311"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472121020311"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472131020311" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-11-11
+&lt;br&gt;2022(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="DPDT_ON-ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="472131020311">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686340/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="7.3mm"/>
+<attribute name="BUSHING-LENGTH" value="7.1mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472131020311?ae"/>
+<attribute name="PART-NUMBER" value="472131020311"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472131020311"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="472131010111" prefix="S">
 <description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
 
@@ -1004,13 +2697,166 @@ Created by Ella Wu 2023-02-02
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="ACTUATOR-LENGTH" value="10.7mm"/>
+<attribute name="ACTUATOR-LENGTH" value="10.4mm"/>
 <attribute name="BUSHING-LENGTH" value="9mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472131010111?ae"/>
-<attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="472131010111"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
 <attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
 <attribute name="VALUE" value="472131010111"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472123020311" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Stainless Steel
+&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Copper Alloy
+&lt;BR&gt;Moveable Contact Plating	Silver
+&lt;BR&gt;Stationary Contact Material	Copper Alloy
+&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
+&lt;BR&gt;Terminal Plating	Silver
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;IR	1 A
+&lt;BR&gt;VR	30 V (DC)
+&lt;BR&gt;Contact Resistance Initial	30 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-01-13
+&lt;br&gt;2023(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="SPDT_OFF_ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="472123020311">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36686343/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ACTUATOR-LENGTH" value="7.5mm"/>
+<attribute name="BUSHING-LENGTH" value="7.1mm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472123020311?ae"/>
+<attribute name="PART-NUMBER" value="472123020311"/>
+<attribute name="SCHEMATIC" value="SPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472123020311"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="472233010110" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Actuator Material	Copper Alloy
+&lt;BR&gt;Cover Material	Aluminium Alloy
+&lt;BR&gt;Frame Material	PA66
+&lt;BR&gt;Frame Flammability Rating	UL94 V-0
+&lt;BR&gt;Moveable Contact Material	Silver Alloy
+&lt;BR&gt;Stationary Contact Material	Silver Alloy
+&lt;BR&gt;Terminal Material	Copper Alloy
+&lt;BR&gt;Terminal Plating	Nickel
+
+&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Contact Resistance Initial	20 mΩ
+&lt;BR&gt;RISO	100 MΩ
+
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Electrical Life	10000 Cycles
+&lt;BR&gt;Connection Type	Opposite Side Connection
+&lt;BR&gt;
+
+&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Operating Temperature -40 up to +85 °C 
+&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o856100v209%20Model-WA-Switch_model.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o856100v209%20Model-WA-Switch_model.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="www.we-online.com/catalog/WS-TOTV-12MM-PANEL-CUT-OUT-VERTICAL/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS-TOTV-12MM-PANEL-CUT-OUT-VERTICAL&lt;/a&gt;&lt;p&gt;
+
+Created by Ella 2025-06-24
+&lt;br&gt;2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="DPDT_OFF-ON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WITHLOCKING" package="472233010110_WITHLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075335/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472233010110?ae"/>
+<attribute name="PART-NUMBER" value="472233010110"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472233010110"/>
+</technology>
+</technologies>
+</device>
+<device name="_WOLOCKING" package="472233010110_WOLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075334/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472233010110?ae"/>
+<attribute name="PART-NUMBER" value="472233010110"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472233010110"/>
 </technology>
 </technologies>
 </device>
@@ -1079,8 +2925,8 @@ Created by Ella Wu 2023-02-02
 <attribute name="ACTUATOR-LENGTH" value="7mm"/>
 <attribute name="BUSHING-LENGTH" value="7.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472133020421?ae"/>
-<attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="472133020421"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
 <attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
 <attribute name="VALUE" value="472133020421"/>
 </technology>
@@ -1088,187 +2934,44 @@ Created by Ella Wu 2023-02-02
 </device>
 </devices>
 </deviceset>
-<deviceset name="472121020421" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+<deviceset name="472233010140" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with Screw Terminall&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
 
 &lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
 &lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Cover Material	Aluminium Alloy
+&lt;BR&gt;Frame Material	PA66
 &lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Moveable Contact Material	Silver Alloy
+&lt;BR&gt;Stationary Contact Material	Silver Alloy
 &lt;BR&gt;Terminal Material	Copper Alloy
-&lt;BR&gt;Terminal Plating	Silver
+&lt;BR&gt;Terminal Plating	Nickel
 
 &lt;BR&gt;&lt;BR&gt;
 &lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
+&lt;BR&gt;Contact Resistance Initial	20 mΩ
+&lt;BR&gt;RISO	100 MΩ
 
 &lt;BR&gt;
 &lt;BR&gt;
 &lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Electrical Life	10000 Cycles
 &lt;BR&gt;Connection Type	Opposite Side Connection
 &lt;BR&gt;
-&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;Operating Temperature	-40 up to +85 °C
-&lt;/b&gt;&lt;br&gt;
 
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o860663v209%20MODEL-WA-Switch-SwTOTV.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o860663v209%20MODEL-WA-Switch-SwTOTV.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
 &lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS-TOTV-12MM-PANEL-CUT-SCREW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS-TOTV-12MM-PANEL-CUT-SCREW&lt;/a&gt;&lt;p&gt;
 
-Created by Ella Wu 2023-01-13
-&lt;br&gt;2023(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="SPDT_ON_ON_GND" x="5.08" y="0"/>
-</gates>
-<devices>
-<device name="" package="472121020421">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="G1"/>
-<connect gate="G$1" pin="5" pad="G2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686345/5"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="ACTUATOR-LENGTH" value="6.7mm"/>
-<attribute name="BUSHING-LENGTH" value="7.1mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472121020421?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472121020421"/>
-<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
-<attribute name="VALUE" value="472121020421"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="472123020311" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-
-&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
-&lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
-&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
-&lt;BR&gt;Terminal Plating	Silver
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
-&lt;BR&gt;Connection Type	Opposite Side Connection
-&lt;BR&gt;
-&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;Operating Temperature -40 up to +85 °C 
-&lt;/b&gt;&lt;br&gt;
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu 2023-01-13
-&lt;br&gt;2023(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="SPDT_OFF_ON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="472123020311">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686343/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="ACTUATOR-LENGTH" value="7.5mm"/>
-<attribute name="BUSHING-LENGTH" value="7.1mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472123020311?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472123020311"/>
-<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
-<attribute name="VALUE" value="472123020311"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="472133020311" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-
-&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
-&lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
-&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
-&lt;BR&gt;Terminal Plating	Silver
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
-&lt;BR&gt;Connection Type	Opposite Side Connection
-&lt;BR&gt;
-&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;Operating Temperature -40 up to +85 °C 
-&lt;/b&gt;&lt;br&gt;
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2022-11-11
-&lt;br&gt;2022(C) Würth Elektronik</description>
+Created by Ella 2025-06-24
+&lt;br&gt;2025(C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="DPDT_OFF-ON" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="472133020311">
+<device name="_WITHLOCKING" package="472233010140_WITHLOCKING">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1278,410 +2981,158 @@ Updated by Ella Wu 2022-11-11
 <connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686337/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075333/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="ACTUATOR-LENGTH" value="7.5mm"/>
-<attribute name="BUSHING-LENGTH" value="7.1mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472133020311?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472133020311"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472233010140?ae"/>
+<attribute name="PART-NUMBER" value="472233010140"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
 <attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
-<attribute name="VALUE" value="472133020311"/>
+<attribute name="VALUE" value="472233010140"/>
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="472131020311" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-
-&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
-&lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
-&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
-&lt;BR&gt;Terminal Plating	Silver
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
-&lt;BR&gt;Connection Type	Opposite Side Connection
-&lt;BR&gt;
-&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;Operating Temperature -40 up to +85 °C 
-&lt;/b&gt;&lt;br&gt;
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2022-11-11
-&lt;br&gt;2022(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="DPDT_ON-ON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="472131020311">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
+<device name="_WOLOCKING" package="472233010140_WOLOCKING">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686340/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075332/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="ACTUATOR-LENGTH" value="7.3mm"/>
-<attribute name="BUSHING-LENGTH" value="7.1mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472131020311?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472131020311"/>
-<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
-<attribute name="VALUE" value="472131020311"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472233010140?ae"/>
+<attribute name="PART-NUMBER" value="472233010140"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
+<attribute name="VALUE" value="472233010140"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="472123020421" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+<deviceset name="472231010140" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with Screw Terminall&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
 
 &lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
 &lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Cover Material	Aluminium Alloy
+&lt;BR&gt;Frame Material	PA66
 &lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Moveable Contact Material	Silver Alloy
+&lt;BR&gt;Stationary Contact Material	Silver Alloy
 &lt;BR&gt;Terminal Material	Copper Alloy
-&lt;BR&gt;Terminal Plating	Silver
+&lt;BR&gt;Terminal Plating	Nickel
 
 &lt;BR&gt;&lt;BR&gt;
 &lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
+&lt;BR&gt;Contact Resistance Initial	20 mΩ
+&lt;BR&gt;RISO	100 MΩ
 
 &lt;BR&gt;
 &lt;BR&gt;
 &lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Electrical Life	10000 Cycles
 &lt;BR&gt;Connection Type	Opposite Side Connection
 &lt;BR&gt;
-&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;Operating Temperature	-40 up to +85 °C
-&lt;/b&gt;&lt;br&gt;
 
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o860663v209%20MODEL-WA-Switch-SwTOTV.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o860663v209%20MODEL-WA-Switch-SwTOTV.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
 &lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS-TOTV-12MM-PANEL-CUT-SCREW/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS-TOTV-12MM-PANEL-CUT-SCREW&lt;/a&gt;&lt;p&gt;
 
-Created by Ella Wu 2023-01-13</description>
+Created by Ella 2025-06-24
+&lt;br&gt;2025(C) Würth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="SPDT_OFF_ON_GND" x="0" y="0"/>
+<gate name="G$1" symbol="DPDT_ON-ON_1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="472123020421">
+<device name="_WITHLOCKING" package="472231010140_WITHLOCKING">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="G1"/>
-<connect gate="G$1" pin="5" pad="G2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686342/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075337/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="ACTUATOR-LENGTH" value="7mm"/>
-<attribute name="BUSHING-LENGTH" value="7.1mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472123020421?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472123020421"/>
-<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
-<attribute name="VALUE" value="472123020421"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472231010140?ae"/>
+<attribute name="PART-NUMBER" value="472231010140"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472231010140"/>
+</technology>
+</technologies>
+</device>
+<device name="_WOLOCKING" package="472231010140_WOLOCKING">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075336/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472231010140?ae"/>
+<attribute name="PART-NUMBER" value="472231010140"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472231010140"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="472131020421" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35 mm Panel Cut-Out Right Angle Operation Toggle Switch &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+<deviceset name="472231010110" prefix="S">
+<description>&lt;b&gt;WS-TOTV Ø 12 mm Panel Cut-Out Vertical Operation Toggle Switch with 6.3 mm quick-connect Terminal&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
 
 &lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
 &lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
+&lt;BR&gt;Cover Material	Aluminium Alloy
+&lt;BR&gt;Frame Material	PA66
 &lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
+&lt;BR&gt;Moveable Contact Material	Silver Alloy
+&lt;BR&gt;Stationary Contact Material	Silver Alloy
 &lt;BR&gt;Terminal Material	Copper Alloy
-&lt;BR&gt;Terminal Plating	Silver
+&lt;BR&gt;Terminal Plating	Nickel
 
 &lt;BR&gt;&lt;BR&gt;
 &lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
+&lt;BR&gt;Contact Resistance Initial	20 mΩ
+&lt;BR&gt;RISO	100 MΩ
 
 &lt;BR&gt;
 &lt;BR&gt;
 &lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
+&lt;BR&gt;Electrical Life	10000 Cycles
 &lt;BR&gt;Connection Type	Opposite Side Connection
 &lt;BR&gt;
-&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;Operating Temperature	-40 up to +85 °C
-&lt;/b&gt;&lt;br&gt;
 
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o718996v209%20family-totv-4721xx0x0xxx-new.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_RIGHT_ANGLE_TOGGLE_SWITCH&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu 2023-01-13</description>
-<gates>
-<gate name="G$1" symbol="DPDT_ON-ON_GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="472131020421">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="G1"/>
-<connect gate="G$1" pin="8" pad="G2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686339/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="ACTUATOR-LENGTH" value="6.7mm"/>
-<attribute name="BUSHING-LENGTH" value="7.1mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472131020421?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472131020421"/>
-<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
-<attribute name="VALUE" value="472131020421"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="472123010111" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-
-&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
-&lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
-&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
-&lt;BR&gt;Terminal Plating	Silver
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
-&lt;BR&gt;Connection Type	Opposite Side Connection
-&lt;BR&gt;
 &lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
 &lt;br&gt;Operating Temperature -40 up to +85 °C 
 &lt;/b&gt;&lt;br&gt;
 
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o856100v209%20Model-WA-Switch_model.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o856100v209%20Model-WA-Switch_model.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
 &lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WS-TOTV-12MM-PANEL-CUT-OUT-VERTICAL/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WS-TOTV-12MM-PANEL-CUT-OUT-VERTICAL&lt;/a&gt;&lt;p&gt;
 
-Updated by Ella Wu 2022-11-11
-&lt;br&gt;2022(C) Würth Elektronik</description>
+Created by Ella 2025-06-24
+&lt;br&gt;2025(C) Würth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="SPDT_OFF_ON" x="0" y="0"/>
+<gate name="G$1" symbol="DPDT_ON-ON_1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="472123010111">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686344/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="ACTUATOR-LENGTH" value="10.7mm"/>
-<attribute name="BUSHING-LENGTH" value="9mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472123010111?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472123010111"/>
-<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
-<attribute name="VALUE" value="472123010111"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="472121020311" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-
-&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
-&lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
-&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
-&lt;BR&gt;Terminal Plating	Silver
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
-&lt;BR&gt;Connection Type	Opposite Side Connection
-&lt;BR&gt;
-&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;Operating Temperature -40 up to +85 °C 
-&lt;/b&gt;&lt;br&gt;
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu 2023-01-13
-&lt;br&gt;2023(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="SPDT_ON_ON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="472121020311">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686346/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="ACTUATOR-LENGTH" value="7.3mm"/>
-<attribute name="BUSHING-LENGTH" value="7.1mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472121020311?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472121020311"/>
-<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
-<attribute name="VALUE" value="472121020311"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="472133010111" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-
-&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
-&lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
-&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
-&lt;BR&gt;Terminal Plating	Silver
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
-&lt;BR&gt;Connection Type	Opposite Side Connection
-&lt;BR&gt;
-&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;Operating Temperature -40 up to +85 °C 
-&lt;/b&gt;&lt;br&gt;
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu 2023-01-13
-&lt;br&gt;2023(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="DPDT_OFF-ON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="472133010111">
+<device name="_WITHLOCKING" package="472231010110_WITHLOCKING">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1691,84 +3142,37 @@ Created by Ella Wu 2023-01-13
 <connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686338/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075339/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="ACTUATOR-LENGTH" value="10.7mm"/>
-<attribute name="BUSHING-LENGTH" value="9mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472133010111?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472133010111"/>
-<attribute name="SWITCHING-FUNCTION" value="ON-OFF-ON"/>
-<attribute name="VALUE" value="472133010111"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472231010110?ae"/>
+<attribute name="PART-NUMBER" value="472231010110"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
+<attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
+<attribute name="VALUE" value="472231010110"/>
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="472121010111" prefix="S">
-<description>&lt;b&gt;WS-TOTV Ø 6.35mm Panel Cut-Out Vertical Operation Toggle Switch&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-
-&lt;B&gt;Material Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;Actuator Material	Copper Alloy
-&lt;BR&gt;Cover Material	Stainless Steel
-&lt;BR&gt;Frame Material	DAP
-&lt;BR&gt;Frame Flammability Rating	UL94 V-0
-&lt;BR&gt;Moveable Contact Material	Copper Alloy
-&lt;BR&gt;Moveable Contact Plating	Silver
-&lt;BR&gt;Stationary Contact Material	Copper Alloy
-&lt;BR&gt;Stationary Contact Plating	Silver
-&lt;BR&gt;Terminal Material	Copper Alloy&lt;BR&gt;
-&lt;BR&gt;Terminal Plating	Silver
-
-&lt;BR&gt;&lt;BR&gt;
-&lt;B&gt;Electrical Properties&lt;/B&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1 A
-&lt;BR&gt;VR	30 V (DC)
-&lt;BR&gt;Contact Resistance Initial	30 mΩ
-&lt;BR&gt;RISO	1000 MΩ
-&lt;BR&gt;Withstanding Voltage	500 V (AC)
-
-&lt;BR&gt;
-&lt;BR&gt;
-&lt;b&gt;Mechanical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Electrical Life	50000 Steps
-&lt;BR&gt;Connection Type	Opposite Side Connection
-&lt;BR&gt;
-&lt;BR&gt;&lt;b&gt;General Information&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;Operating Temperature -40 up to +85 °C 
-&lt;/b&gt;&lt;br&gt;
-
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o718996v209%20family-totv-4721xx0x0xxx.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;            
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION"&gt;www.we-online.com/components/products/WS-TOTV_635_CUT_OUT_VERT_OPERATION&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2022-11-11
-&lt;br&gt;2022(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="SPDT_ON_ON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="472121010111">
+<device name="_WOLOCKING" package="472231010110_WOLOCKING">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36686347/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075338/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="ACTUATOR-LENGTH" value="10.4mm"/>
-<attribute name="BUSHING-LENGTH" value="9mm"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472121010111?ae"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="472121010111"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/472231010110?ae"/>
+<attribute name="PART-NUMBER" value="472231010110"/>
+<attribute name="SCHEMATIC" value="DPDT"/>
 <attribute name="SWITCHING-FUNCTION" value="ON-ON"/>
-<attribute name="VALUE" value="472121010111"/>
+<attribute name="VALUE" value="472231010110"/>
 </technology>
 </technologies>
 </device>
