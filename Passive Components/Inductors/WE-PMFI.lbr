@@ -22,25 +22,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -133,10 +133,51 @@ Würth Elektronik eiSos expressly disclaims all implied warranties regarding thi
  &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-02-12&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-07-01&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
+<package name="WE-PMFI_353220" urn="urn:adsk.eagle:footprint:45586179/2">
+<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;353220, SMT, 2pins
+&lt;br&gt;LXWXH=3.5X3.2X2mm</description>
+<smd name="1" x="-1.5" y="0" dx="1" dy="3.5" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1" dy="3.5" layer="1"/>
+<wire x1="-1.75" y1="1.6" x2="1.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="1.75" y1="1.6" x2="1.75" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-1.6" x2="-1.75" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="-1.6" x2="-1.75" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="1.7" x2="0.7" y2="1.7" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="-1.7" x2="0.7" y2="-1.7" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.2" y="1.95"/>
+<vertex x="2.2" y="1.95"/>
+<vertex x="2.2" y="-1.95"/>
+<vertex x="-2.2" y="-1.95"/>
+</polygon>
+<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-PMFI_252012_LP2" urn="urn:adsk.eagle:footprint:49102411/1">
+<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;252012, SMT, 2pins
+&lt;br&gt;LXWXH=2.5X2X1.2mm
+&lt;br&gt;This Land Pattern is compatible with the WE-PMCI series</description>
+<smd name="1" x="-1" y="0" dx="0.8" dy="2.2" layer="1"/>
+<smd name="2" x="1" y="0" dx="0.8" dy="2.2" layer="1"/>
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.6" y="1.3"/>
+<vertex x="1.6" y="1.3"/>
+<vertex x="1.6" y="-1.3"/>
+<vertex x="-1.6" y="-1.3"/>
+</polygon>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
 <package name="WE-PMFI_252012" urn="urn:adsk.eagle:footprint:45586181/2">
 <description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
 &lt;/b&gt;&lt;br&gt;&lt;br&gt;252012, SMT, 2pins
@@ -155,6 +196,47 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-PMFI_201610" urn="urn:adsk.eagle:footprint:45586182/2">
+<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;201610, SMT, 2pins
+&lt;br&gt;LXWXH=2X1.6X1mm</description>
+<smd name="1" x="-0.75" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="2" x="0.75" y="0" dx="1" dy="1.8" layer="1"/>
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.45" y="1.1"/>
+<vertex x="1.45" y="1.1"/>
+<vertex x="1.45" y="-1.1"/>
+<vertex x="-1.45" y="-1.1"/>
+</polygon>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-PMFI_322512_LP2" urn="urn:adsk.eagle:footprint:49102410/1">
+<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;322512, SMT, 2pins
+&lt;br&gt;LXWXH=3.2X2.5X1.2mm
+&lt;br&gt;This Land Pattern is compatible with the WE-PMCI series</description>
+<smd name="1" x="-1.45" y="0" dx="1.2" dy="2.8" layer="1"/>
+<smd name="2" x="1.45" y="0" dx="1.2" dy="2.8" layer="1"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="1.35" x2="0.35" y2="1.35" width="0.2" layer="21"/>
+<wire x1="-0.35" y1="-1.35" x2="0.35" y2="-1.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.25" y="1.55"/>
+<vertex x="2.25" y="1.55"/>
+<vertex x="2.25" y="-1.55"/>
+<vertex x="-2.25" y="-1.55"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
 <package name="WE-PMFI_322512" urn="urn:adsk.eagle:footprint:45586180/2">
 <description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
@@ -177,57 +259,29 @@ Copyright: Würth Elektronik</description>
 <text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WE-PMFI_353220" urn="urn:adsk.eagle:footprint:45586179/2">
-<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
-&lt;/b&gt;&lt;br&gt;&lt;br&gt;353220, SMT, 2pins
-&lt;br&gt;LXWXH=3.5X3.2X2mm</description>
-<smd name="1" x="-1.5" y="0" dx="1" dy="3.5" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="1" dy="3.5" layer="1"/>
-<wire x1="-1.75" y1="1.6" x2="1.75" y2="1.6" width="0.1" layer="51"/>
-<wire x1="1.75" y1="1.6" x2="1.75" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="1.75" y1="-1.6" x2="-1.75" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="-1.6" x2="-1.75" y2="1.6" width="0.1" layer="51"/>
-<wire x1="-0.7" y1="1.7" x2="0.7" y2="1.7" width="0.2" layer="21"/>
-<wire x1="-0.7" y1="-1.7" x2="0.7" y2="-1.7" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-2.2" y="1.95"/>
-<vertex x="2.2" y="1.95"/>
-<vertex x="2.2" y="-1.95"/>
-<vertex x="-2.2" y="-1.95"/>
-</polygon>
-<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="WE-PMFI_201610" urn="urn:adsk.eagle:footprint:45586182/2">
+<package name="WE-PMFI_201610_LP2" urn="urn:adsk.eagle:footprint:49102412/1">
 <description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
 &lt;/b&gt;&lt;br&gt;&lt;br&gt;201610, SMT, 2pins
-&lt;br&gt;LXWXH=2X1.6X1mm</description>
-<smd name="1" x="-0.75" y="0" dx="1" dy="1.8" layer="1"/>
-<smd name="2" x="0.75" y="0" dx="1" dy="1.8" layer="1"/>
+&lt;br&gt;LXWXH=2X1.6X1mm
+&lt;br&gt;This Land Pattern is compatible with the WE-PMCI series</description>
+<smd name="1" x="-0.8" y="0" dx="0.8" dy="1.8" layer="1"/>
+<smd name="2" x="0.8" y="0" dx="0.8" dy="1.8" layer="1"/>
 <wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="51"/>
 <wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.1" layer="51"/>
 <wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.1" layer="51"/>
 <polygon width="0.1" layer="39">
-<vertex x="-1.45" y="1.1"/>
-<vertex x="1.45" y="1.1"/>
-<vertex x="1.45" y="-1.1"/>
-<vertex x="-1.45" y="-1.1"/>
+<vertex x="-1.4" y="1.1"/>
+<vertex x="1.4" y="1.1"/>
+<vertex x="1.4" y="-1.1"/>
+<vertex x="-1.4" y="-1.1"/>
 </polygon>
 <text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="WE-PMFI_252012_74479325207XXX" urn="urn:adsk.eagle:package:45586188/3" type="model">
-<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
-&lt;/b&gt;&lt;br&gt;&lt;br&gt;252012, SMT, 2pins
-&lt;br&gt;LXWXH=2.5X2X1.2mm</description>
-<packageinstances>
-<packageinstance name="WE-PMFI_252012"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PMFI_353220_74479335329XXX" urn="urn:adsk.eagle:package:45586186/3" type="model">
+<package3d name="WE-PMFI_353220" urn="urn:adsk.eagle:package:45586186/4" type="model">
 <description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
 &lt;/b&gt;&lt;br&gt;&lt;br&gt;353220, SMT, 2pins
 &lt;br&gt;LXWXH=3.5X3.2X2mm</description>
@@ -235,7 +289,24 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WE-PMFI_353220"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-PMFI_322512_74479332257XXX" urn="urn:adsk.eagle:package:45586187/3" type="model">
+<package3d name="WE-PMFI_252012" urn="urn:adsk.eagle:package:45586188/4" type="model">
+<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;252012, SMT, 2pins
+&lt;br&gt;LXWXH=2.5X2X1.2mm</description>
+<packageinstances>
+<packageinstance name="WE-PMFI_252012"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PMFI_252012_LP2" urn="urn:adsk.eagle:package:49102414/2" type="model">
+<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;252012, SMT, 2pins
+&lt;br&gt;LXWXH=2.5X2X1.2mm
+&lt;br&gt;This Land Pattern is compatible with the WE-PMCI series</description>
+<packageinstances>
+<packageinstance name="WE-PMFI_252012_LP2"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PMFI_322512" urn="urn:adsk.eagle:package:45586187/4" type="model">
 <description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
 &lt;/b&gt;&lt;br&gt;&lt;br&gt;322512, SMT, 2pins
 &lt;br&gt;LXWXH=3.2X2.5X1.2mm</description>
@@ -243,12 +314,30 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WE-PMFI_322512"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-PMFI_201610_74479320165XXX" urn="urn:adsk.eagle:package:45586189/4" type="model">
+<package3d name="WE-PMFI_322512_LP2" urn="urn:adsk.eagle:package:49102413/2" type="model">
+<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;322512, SMT, 2pins
+&lt;br&gt;LXWXH=3.2X2.5X1.2mm
+&lt;br&gt;This Land Pattern is compatible with the WE-PMCI series</description>
+<packageinstances>
+<packageinstance name="WE-PMFI_322512_LP2"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PMFI_201610" urn="urn:adsk.eagle:package:45586189/5" type="model">
 <description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
 &lt;/b&gt;&lt;br&gt;&lt;br&gt;201610, SMT, 2pins
 &lt;br&gt;LXWXH=2X1.6X1mm</description>
 <packageinstances>
 <packageinstance name="WE-PMFI_201610"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PMFI_201610_LP2" urn="urn:adsk.eagle:package:49102415/2" type="model">
+<description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;201610, SMT, 2pins
+&lt;br&gt;LXWXH=2X1.6X1mm
+&lt;br&gt;This Land Pattern is compatible with the WE-PMCI series</description>
+<packageinstances>
+<packageinstance name="WE-PMFI_201610_LP2"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -265,7 +354,7 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-PMFI_322512" prefix="L">
+<deviceset name="WE-PMFI_353220" prefix="L">
 <description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor&lt;br&gt;
 &lt;br&gt;
 &lt;/b&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
@@ -291,90 +380,100 @@ Copyright: Würth Elektronik</description>
 &lt;img src="https://www.we-online.com/components/media/o843010v209%20Model-WE-PMFI-744793xxxxxxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="www.we-online.com/catalog/WE-PMFI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMFI&lt;/a&gt;&lt;p&gt;
 
-Created by Ella Wu 2025-02-12
-&lt;br&gt;&lt;/b&gt;2025 (C) Wurth Elektronik</description>
+Updated by Ella 2025-07-01
+&lt;br&gt;&lt;/b&gt;2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WE-PMFI_322512">
+<device name="" package="WE-PMFI_353220">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:45586187/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45586186/4"/>
 </package3dinstances>
 <technologies>
-<technology name="_74479332257110">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257110?ae"/>
-<attribute name="FRES" value="405MHz"/>
-<attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="11.4A"/>
-<attribute name="ISAT" value="21.5A"/>
-<attribute name="LENGTH" value="3.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479332257110"/>
-<attribute name="RDC-MAX" value="7.4mOhm"/>
-<attribute name="SIZE" value=" 322512 "/>
+<technology name="_74479335329110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329110?ae"/>
+<attribute name="FRES" value="310MHz"/>
+<attribute name="HEIGHT" value="2mm"/>
+<attribute name="IR" value="16A"/>
+<attribute name="ISAT" value="25A"/>
+<attribute name="L" value="0.1uH"/>
+<attribute name="LENGTH" value="3.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479335329110"/>
+<attribute name="RDC-TYP" value="4.8mOhm"/>
+<attribute name="SIZE" value="353220"/>
 <attribute name="VALUE" value="0.1uH"/>
-<attribute name="WIDTH" value="2.5mm"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
-<technology name="_74479332257147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257147?ae"/>
-<attribute name="FRES" value="126MHz"/>
-<attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="7.9A"/>
-<attribute name="ISAT" value="10.6A"/>
-<attribute name="LENGTH" value="3.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479332257147"/>
-<attribute name="RDC-MAX" value="14.2mOhm"/>
-<attribute name="SIZE" value=" 322512 "/>
+<technology name="_74479335329147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329147?ae"/>
+<attribute name="FRES" value="92MHz"/>
+<attribute name="HEIGHT" value="2mm"/>
+<attribute name="IR" value="9.9A"/>
+<attribute name="ISAT" value="13.2A"/>
+<attribute name="L" value="0.47uH"/>
+<attribute name="LENGTH" value="3.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479335329147"/>
+<attribute name="RDC-TYP" value="12.7mOhm"/>
+<attribute name="SIZE" value="353220"/>
 <attribute name="VALUE" value="0.47uH"/>
-<attribute name="WIDTH" value="2.5mm"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
-<technology name="_74479332257210">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257210?ae"/>
-<attribute name="FRES" value="67MHz"/>
-<attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="5.8A"/>
-<attribute name="ISAT" value="9.15A"/>
-<attribute name="LENGTH" value="3.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479332257210"/>
-<attribute name="RDC-MAX" value="23.3mOhm"/>
-<attribute name="SIZE" value=" 322512 "/>
+<technology name="_74479335329210">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329210?ae"/>
+<attribute name="FRES" value="56MHz"/>
+<attribute name="HEIGHT" value="2mm"/>
+<attribute name="IR" value="7.3A"/>
+<attribute name="ISAT" value="10.8A"/>
+<attribute name="L" value="1uH"/>
+<attribute name="LENGTH" value="3.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479335329210"/>
+<attribute name="RDC-TYP" value="18.4mOhm"/>
+<attribute name="SIZE" value="353220"/>
 <attribute name="VALUE" value="1uH"/>
-<attribute name="WIDTH" value="2.5mm"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
-<technology name="_74479332257222">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257222?ae"/>
-<attribute name="FRES" value="44MHz"/>
-<attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="4.1A"/>
-<attribute name="ISAT" value="5.4A"/>
-<attribute name="LENGTH" value="3.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479332257222"/>
-<attribute name="RDC-MAX" value="49.6mOhm"/>
-<attribute name="SIZE" value=" 322512 "/>
+<technology name="_74479335329222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329222?ae"/>
+<attribute name="FRES" value="31MHz"/>
+<attribute name="HEIGHT" value="2mm"/>
+<attribute name="IR" value="5.8A"/>
+<attribute name="ISAT" value="7.8A"/>
+<attribute name="L" value="2.2uH"/>
+<attribute name="LENGTH" value="3.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479335329222"/>
+<attribute name="RDC-TYP" value="31.6mOhm"/>
+<attribute name="SIZE" value="353220"/>
 <attribute name="VALUE" value="2.2uH"/>
-<attribute name="WIDTH" value="2.5mm"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
-<technology name="_74479332257247">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257247?ae"/>
-<attribute name="FRES" value="25MHz"/>
-<attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="2.7A"/>
-<attribute name="ISAT" value="4A"/>
-<attribute name="LENGTH" value="3.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479332257247"/>
-<attribute name="RDC-MAX" value="107mOhm"/>
-<attribute name="SIZE" value=" 322512 "/>
+<technology name="_74479335329247">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329247?ae"/>
+<attribute name="FRES" value="21MHz"/>
+<attribute name="HEIGHT" value="2mm"/>
+<attribute name="IR" value="3.85A"/>
+<attribute name="ISAT" value="5.6A"/>
+<attribute name="L" value="4.7uH"/>
+<attribute name="LENGTH" value="3.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479335329247"/>
+<attribute name="RDC-TYP" value="63.2mOhm"/>
+<attribute name="SIZE" value="353220"/>
 <attribute name="VALUE" value="4.7uH"/>
-<attribute name="WIDTH" value="2.5mm"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 </technologies>
 </device>
@@ -406,8 +505,8 @@ Created by Ella Wu 2025-02-12
 &lt;img src="https://www.we-online.com/components/media/o843010v209%20Model-WE-PMFI-744793xxxxxxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="www.we-online.com/catalog/WE-PMFI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMFI&lt;/a&gt;&lt;p&gt;
 
-Created by Ella Wu 2025-02-12
-&lt;br&gt;&lt;/b&gt;2025 (C) Wurth Elektronik</description>
+Updated by Ella 2025-07-01
+&lt;br&gt;&lt;/b&gt;2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
@@ -418,7 +517,7 @@ Created by Ella Wu 2025-02-12
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:45586188/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45586188/4"/>
 </package3dinstances>
 <technologies>
 <technology name="_74479325207110">
@@ -427,12 +526,14 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1.2mm"/>
 <attribute name="IR" value="12.3A"/>
 <attribute name="ISAT" value="18.7A"/>
+<attribute name="L" value="0.1uH"/>
 <attribute name="LENGTH" value="2.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479325207110"/>
-<attribute name="RDC-MAX" value="5.6mOhm"/>
-<attribute name="SIZE" value=" 252012 "/>
+<attribute name="RDC-TYP" value="5.6mOhm"/>
+<attribute name="SIZE" value="252012"/>
 <attribute name="VALUE" value="0.1uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="2mm"/>
 </technology>
 <technology name="_74479325207147">
@@ -441,12 +542,14 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1.2mm"/>
 <attribute name="IR" value="9.3A"/>
 <attribute name="ISAT" value="7.9A"/>
+<attribute name="L" value="0.47uH"/>
 <attribute name="LENGTH" value="2.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479325207147"/>
-<attribute name="RDC-MAX" value="11.3mOhm"/>
-<attribute name="SIZE" value=" 252012 "/>
+<attribute name="RDC-TYP" value="11.3mOhm"/>
+<attribute name="SIZE" value="252012"/>
 <attribute name="VALUE" value="0.47uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="2mm"/>
 </technology>
 <technology name="_74479325207210">
@@ -455,12 +558,14 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1.2mm"/>
 <attribute name="IR" value="6.1A"/>
 <attribute name="ISAT" value="6.1A"/>
+<attribute name="L" value="1uH"/>
 <attribute name="LENGTH" value="2.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479325207210"/>
-<attribute name="RDC-MAX" value="23.8mOhm"/>
-<attribute name="SIZE" value=" 252012 "/>
+<attribute name="RDC-TYP" value="23.8mOhm"/>
+<attribute name="SIZE" value="252012"/>
 <attribute name="VALUE" value="1uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="2mm"/>
 </technology>
 <technology name="_74479325207222">
@@ -469,12 +574,14 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1.2mm"/>
 <attribute name="IR" value="4A"/>
 <attribute name="ISAT" value="4.5A"/>
+<attribute name="L" value="2.2uH"/>
 <attribute name="LENGTH" value="2.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479325207222"/>
-<attribute name="RDC-MAX" value="50.1mOhm"/>
-<attribute name="SIZE" value=" 252012 "/>
+<attribute name="RDC-TYP" value="50.1mOhm"/>
+<attribute name="SIZE" value="252012"/>
 <attribute name="VALUE" value="2.2uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="2mm"/>
 </technology>
 <technology name="_74479325207247">
@@ -483,19 +590,112 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1.2mm"/>
 <attribute name="IR" value="2.75A"/>
 <attribute name="ISAT" value="2.7A"/>
+<attribute name="L" value="4.7uH"/>
 <attribute name="LENGTH" value="2.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479325207247"/>
-<attribute name="RDC-MAX" value="114mOhm"/>
-<attribute name="SIZE" value=" 252012 "/>
+<attribute name="RDC-TYP" value="114mOhm"/>
+<attribute name="SIZE" value="252012"/>
 <attribute name="VALUE" value="4.7uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_LP2" package="WE-PMFI_252012_LP2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49102414/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74479325207110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479325207110?ae"/>
+<attribute name="FRES" value="438MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="12.3A"/>
+<attribute name="ISAT" value="18.7A"/>
+<attribute name="L" value="0.1uH"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479325207110"/>
+<attribute name="RDC-TYP" value="5.6mOhm"/>
+<attribute name="SIZE" value="252012"/>
+<attribute name="VALUE" value="0.1uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+<technology name="_74479325207147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479325207147?ae"/>
+<attribute name="FRES" value="97MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="9.3A"/>
+<attribute name="ISAT" value="7.9A"/>
+<attribute name="L" value="0.47uH"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479325207147"/>
+<attribute name="RDC-TYP" value="11.3mOhm"/>
+<attribute name="SIZE" value="252012"/>
+<attribute name="VALUE" value="0.47uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+<technology name="_74479325207210">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479325207210?ae"/>
+<attribute name="FRES" value="58MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="6.1A"/>
+<attribute name="ISAT" value="6.1A"/>
+<attribute name="L" value="1uH"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479325207210"/>
+<attribute name="RDC-TYP" value="23.8mOhm"/>
+<attribute name="SIZE" value="252012"/>
+<attribute name="VALUE" value="1uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+<technology name="_74479325207222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479325207222?ae"/>
+<attribute name="FRES" value="39MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="4A"/>
+<attribute name="ISAT" value="4.5A"/>
+<attribute name="L" value="2.2uH"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479325207222"/>
+<attribute name="RDC-TYP" value="50.1mOhm"/>
+<attribute name="SIZE" value="252012"/>
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2mm"/>
+</technology>
+<technology name="_74479325207247">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479325207247?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="2.75A"/>
+<attribute name="ISAT" value="2.7A"/>
+<attribute name="L" value="4.7uH"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479325207247"/>
+<attribute name="RDC-TYP" value="114mOhm"/>
+<attribute name="SIZE" value="252012"/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="2mm"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WE-PMFI_353220" prefix="L">
+<deviceset name="WE-PMFI_322512" prefix="L">
 <description>&lt;b&gt;WE-PMFI Power Molded Flatwire Inductor&lt;br&gt;
 &lt;br&gt;
 &lt;/b&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
@@ -521,90 +721,191 @@ Created by Ella Wu 2025-02-12
 &lt;img src="https://www.we-online.com/components/media/o843010v209%20Model-WE-PMFI-744793xxxxxxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="www.we-online.com/catalog/WE-PMFI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMFI&lt;/a&gt;&lt;p&gt;
 
-Created by Ella Wu 2025-02-12
-&lt;br&gt;&lt;/b&gt;2025 (C) Wurth Elektronik</description>
+Updated by Ella 2025-07-01
+&lt;br&gt;&lt;/b&gt;2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WE-PMFI_353220">
+<device name="" package="WE-PMFI_322512">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:45586186/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45586187/4"/>
 </package3dinstances>
 <technologies>
-<technology name="_74479335329110">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329110?ae"/>
-<attribute name="FRES" value="310MHz"/>
-<attribute name="HEIGHT" value="2mm"/>
-<attribute name="IR" value="16A"/>
-<attribute name="ISAT" value="25A"/>
-<attribute name="LENGTH" value="3.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479335329110"/>
-<attribute name="RDC-MAX" value="4.8mOhm"/>
-<attribute name="SIZE" value=" 353220 "/>
+<technology name="_74479332257110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257110?ae"/>
+<attribute name="FRES" value="405MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="11.4A"/>
+<attribute name="ISAT" value="21.5A"/>
+<attribute name="L" value="0.1uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257110"/>
+<attribute name="RDC-TYP" value="7.4mOhm"/>
+<attribute name="SIZE" value="322512"/>
 <attribute name="VALUE" value="0.1uH"/>
-<attribute name="WIDTH" value="3.2mm"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
-<technology name="_74479335329147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329147?ae"/>
-<attribute name="FRES" value="92MHz"/>
-<attribute name="HEIGHT" value="2mm"/>
-<attribute name="IR" value="9.9A"/>
-<attribute name="ISAT" value="13.2A"/>
-<attribute name="LENGTH" value="3.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479335329147"/>
-<attribute name="RDC-MAX" value="12.7mOhm"/>
-<attribute name="SIZE" value=" 353220 "/>
+<technology name="_74479332257147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257147?ae"/>
+<attribute name="FRES" value="126MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="7.9A"/>
+<attribute name="ISAT" value="10.6A"/>
+<attribute name="L" value="0.47uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257147"/>
+<attribute name="RDC-TYP" value="14.2mOhm"/>
+<attribute name="SIZE" value="322512"/>
 <attribute name="VALUE" value="0.47uH"/>
-<attribute name="WIDTH" value="3.2mm"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
-<technology name="_74479335329210">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329210?ae"/>
-<attribute name="FRES" value="56MHz"/>
-<attribute name="HEIGHT" value="2mm"/>
-<attribute name="IR" value="7.3A"/>
-<attribute name="ISAT" value="10.8A"/>
-<attribute name="LENGTH" value="3.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479335329210"/>
-<attribute name="RDC-MAX" value="18.4mOhm"/>
-<attribute name="SIZE" value=" 353220 "/>
-<attribute name="VALUE" value="1uH"/>
-<attribute name="WIDTH" value="3.2mm"/>
-</technology>
-<technology name="_74479335329222">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329222?ae"/>
-<attribute name="FRES" value="31MHz"/>
-<attribute name="HEIGHT" value="2mm"/>
+<technology name="_74479332257210">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257210?ae"/>
+<attribute name="FRES" value="67MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
 <attribute name="IR" value="5.8A"/>
-<attribute name="ISAT" value="7.8A"/>
-<attribute name="LENGTH" value="3.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479335329222"/>
-<attribute name="RDC-MAX" value="31.6mOhm"/>
-<attribute name="SIZE" value=" 353220 "/>
-<attribute name="VALUE" value="2.2uH"/>
-<attribute name="WIDTH" value="3.2mm"/>
+<attribute name="ISAT" value="9.15A"/>
+<attribute name="L" value="1uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257210"/>
+<attribute name="RDC-TYP" value="23.3mOhm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="1uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
-<technology name="_74479335329247">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479335329247?ae"/>
-<attribute name="FRES" value="21MHz"/>
-<attribute name="HEIGHT" value="2mm"/>
-<attribute name="IR" value="3.85A"/>
-<attribute name="ISAT" value="5.6A"/>
-<attribute name="LENGTH" value="3.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479335329247"/>
-<attribute name="RDC-MAX" value="63.2mOhm"/>
-<attribute name="SIZE" value=" 353220 "/>
+<technology name="_74479332257222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257222?ae"/>
+<attribute name="FRES" value="44MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="4.1A"/>
+<attribute name="ISAT" value="5.4A"/>
+<attribute name="L" value="2.2uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257222"/>
+<attribute name="RDC-TYP" value="49.6mOhm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+<technology name="_74479332257247">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257247?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="2.7A"/>
+<attribute name="ISAT" value="4A"/>
+<attribute name="L" value="4.7uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257247"/>
+<attribute name="RDC-TYP" value="107mOhm"/>
+<attribute name="SIZE" value="322512"/>
 <attribute name="VALUE" value="4.7uH"/>
-<attribute name="WIDTH" value="3.2mm"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_LP2" package="WE-PMFI_322512_LP2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49102413/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74479332257110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257110?ae"/>
+<attribute name="FRES" value="405MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="11.4A"/>
+<attribute name="ISAT" value="21.5A"/>
+<attribute name="L" value="0.1uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257110"/>
+<attribute name="RDC-TYP" value="7.4mOhm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="0.1uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+<technology name="_74479332257147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257147?ae"/>
+<attribute name="FRES" value="126MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="7.9A"/>
+<attribute name="ISAT" value="10.6A"/>
+<attribute name="L" value="0.47uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257147"/>
+<attribute name="RDC-TYP" value="14.2mOhm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="0.47uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+<technology name="_74479332257210">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257210?ae"/>
+<attribute name="FRES" value="67MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="5.8A"/>
+<attribute name="ISAT" value="9.15A"/>
+<attribute name="L" value="1uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257210"/>
+<attribute name="RDC-TYP" value="23.3mOhm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="1uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+<technology name="_74479332257222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257222?ae"/>
+<attribute name="FRES" value="44MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="4.1A"/>
+<attribute name="ISAT" value="5.4A"/>
+<attribute name="L" value="2.2uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257222"/>
+<attribute name="RDC-TYP" value="49.6mOhm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
+</technology>
+<technology name="_74479332257247">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479332257247?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="IR" value="2.7A"/>
+<attribute name="ISAT" value="4A"/>
+<attribute name="L" value="4.7uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479332257247"/>
+<attribute name="RDC-TYP" value="107mOhm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 </technologies>
 </device>
@@ -636,8 +937,8 @@ Created by Ella Wu 2025-02-12
 &lt;img src="https://www.we-online.com/components/media/o843010v209%20Model-WE-PMFI-744793xxxxxxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="www.we-online.com/catalog/WE-PMFI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMFI&lt;/a&gt;&lt;p&gt;
 
-Created by Ella Wu 2025-02-12
-&lt;br&gt;&lt;/b&gt;2025 (C) Wurth Elektronik</description>
+Updated by Ella 2025-07-01
+&lt;br&gt;&lt;/b&gt;2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
@@ -648,7 +949,7 @@ Created by Ella Wu 2025-02-12
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:45586189/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45586189/5"/>
 </package3dinstances>
 <technologies>
 <technology name="_74479320165110">
@@ -657,12 +958,14 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1mm"/>
 <attribute name="IR" value="10.2A"/>
 <attribute name="ISAT" value="13.7A"/>
+<attribute name="L" value="0.1uH"/>
 <attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479320165110"/>
-<attribute name="RDC-MAX" value="7.2mOhm"/>
-<attribute name="SIZE" value=" 201610 "/>
+<attribute name="RDC-TYP" value="7.2mOhm"/>
+<attribute name="SIZE" value="201610"/>
 <attribute name="VALUE" value="0.1uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_74479320165147">
@@ -671,12 +974,14 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1mm"/>
 <attribute name="IR" value="6.2A"/>
 <attribute name="ISAT" value="7.5A"/>
+<attribute name="L" value="0.47uH"/>
 <attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479320165147"/>
-<attribute name="RDC-MAX" value="18.4mOhm"/>
-<attribute name="SIZE" value=" 201610 "/>
+<attribute name="RDC-TYP" value="18.4mOhm"/>
+<attribute name="SIZE" value="201610"/>
 <attribute name="VALUE" value="0.47uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_74479320165210">
@@ -685,12 +990,14 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1mm"/>
 <attribute name="IR" value="4.7A"/>
 <attribute name="ISAT" value="5.25A"/>
+<attribute name="L" value="1uH"/>
 <attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479320165210"/>
-<attribute name="RDC-MAX" value="31.7mOhm"/>
-<attribute name="SIZE" value=" 201610 "/>
+<attribute name="RDC-TYP" value="31.7mOhm"/>
+<attribute name="SIZE" value="201610"/>
 <attribute name="VALUE" value="1uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_74479320165222">
@@ -699,12 +1006,30 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1mm"/>
 <attribute name="IR" value="2.75A"/>
 <attribute name="ISAT" value="3.9A"/>
+<attribute name="L" value="2.2uH"/>
 <attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479320165222"/>
-<attribute name="RDC-MAX" value="81.9mOhm"/>
-<attribute name="SIZE" value=" 201610 "/>
+<attribute name="RDC-TYP" value="81.9mOhm"/>
+<attribute name="SIZE" value="201610"/>
 <attribute name="VALUE" value="2.2uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="1.6mm"/>
+</technology>
+<technology name="_74479320165233">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479320165233?ae"/>
+<attribute name="FRES" value="35MHz"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="IR" value="2.1A"/>
+<attribute name="ISAT" value="2.25A"/>
+<attribute name="L" value="3.3uH"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479320165233"/>
+<attribute name="RDC-TYP" value="146mOhm"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="3.3uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="1.6mm"/>
 </technology>
 <technology name="_74479320165247">
@@ -713,12 +1038,121 @@ Created by Ella Wu 2025-02-12
 <attribute name="HEIGHT" value="1mm"/>
 <attribute name="IR" value="2.1A"/>
 <attribute name="ISAT" value="2A"/>
+<attribute name="L" value="4.7uH"/>
 <attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
 <attribute name="PART-NUMBER" value="74479320165247"/>
-<attribute name="RDC-MAX" value="195mOhm"/>
-<attribute name="SIZE" value=" 201610 "/>
+<attribute name="RDC-TYP" value="195mOhm"/>
+<attribute name="SIZE" value="201610"/>
 <attribute name="VALUE" value="4.7uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="1.6mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_LP2" package="WE-PMFI_201610_LP2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49102415/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_74479320165110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479320165110?ae"/>
+<attribute name="FRES" value="325MHz"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="IR" value="10.2A"/>
+<attribute name="ISAT" value="13.7A"/>
+<attribute name="L" value="0.1uH"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479320165110"/>
+<attribute name="RDC-TYP" value="7.2mOhm"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="0.1uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="1.6mm"/>
+</technology>
+<technology name="_74479320165147">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479320165147?ae"/>
+<attribute name="FRES" value="100MHz"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="IR" value="6.2A"/>
+<attribute name="ISAT" value="7.5A"/>
+<attribute name="L" value="0.47uH"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479320165147"/>
+<attribute name="RDC-TYP" value="18.4mOhm"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="0.47uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="1.6mm"/>
+</technology>
+<technology name="_74479320165210">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479320165210?ae"/>
+<attribute name="FRES" value="67MHz"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="IR" value="4.7A"/>
+<attribute name="ISAT" value="5.25A"/>
+<attribute name="L" value="1uH"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479320165210"/>
+<attribute name="RDC-TYP" value="31.7mOhm"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="1uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="1.6mm"/>
+</technology>
+<technology name="_74479320165222">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479320165222?ae"/>
+<attribute name="FRES" value="51MHz"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="IR" value="2.75A"/>
+<attribute name="ISAT" value="3.9A"/>
+<attribute name="L" value="2.2uH"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479320165222"/>
+<attribute name="RDC-TYP" value="81.9mOhm"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="1.6mm"/>
+</technology>
+<technology name="_74479320165233">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479320165233?ae"/>
+<attribute name="FRES" value="35MHz"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="IR" value="2.1A"/>
+<attribute name="ISAT" value="2.25A"/>
+<attribute name="L" value="3.3uH"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479320165233"/>
+<attribute name="RDC-TYP" value="146mOhm"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="3.3uH"/>
+<attribute name="VOP" value="48V"/>
+<attribute name="WIDTH" value="1.6mm"/>
+</technology>
+<technology name="_74479320165247">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479320165247?ae"/>
+<attribute name="FRES" value="30MHz"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="IR" value="2.1A"/>
+<attribute name="ISAT" value="2A"/>
+<attribute name="L" value="4.7uH"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMD/SMT Soldering"/>
+<attribute name="PART-NUMBER" value="74479320165247"/>
+<attribute name="RDC-TYP" value="195mOhm"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="VOP" value="48V"/>
 <attribute name="WIDTH" value="1.6mm"/>
 </technology>
 </technologies>
