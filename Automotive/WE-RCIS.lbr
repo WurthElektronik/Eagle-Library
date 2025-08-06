@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -146,11 +146,11 @@ Würth Elektronik eiSos expressly disclaims all implied warranties regarding thi
  &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-04-25&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2025b, 2025-08-06&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-RCIS_7847227010" urn="urn:adsk.eagle:footprint:13134327/1">
+<package name="WE-RCIS_7847227010" urn="urn:adsk.eagle:footprint:13134327/2">
 <description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
 &lt;BR&gt; &lt;/B&gt;7847227010 
 &lt;BR&gt;L X W X H = 15mm X 7.1mm X 7.8mm</description>
@@ -170,35 +170,33 @@ Copyright: Würth Elektronik</description>
 <vertex x="7.7" y="-7.3"/>
 <vertex x="-7.7" y="-7.3"/>
 </polygon>
-<text x="0" y="8.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.8" y="-9.4" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WE-RCIS_7847225100" urn="urn:adsk.eagle:footprint:48039604/1">
+<package name="WE-RCIS_7847229020" urn="urn:adsk.eagle:footprint:13134325/2">
 <description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
-&lt;BR&gt; &lt;/B&gt;7847225100
-&lt;BR&gt;L X W X H = 18.2mm X 5.4mm X 5.8mm</description>
-<smd name="1" x="-7" y="-1.5" dx="3" dy="7" layer="1"/>
-<smd name="2" x="7" y="1.5" dx="3" dy="7" layer="1"/>
-<wire x1="-9.1" y1="2.7" x2="9.1" y2="2.7" width="0.1" layer="51"/>
-<wire x1="9.1" y1="2.7" x2="9.1" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="9.1" y1="-2.7" x2="-9.1" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="-9.1" y1="-2.7" x2="-9.1" y2="2.7" width="0.1" layer="51"/>
-<wire x1="5.2" y1="2.8" x2="-9.2" y2="2.8" width="0.2" layer="21"/>
-<wire x1="-9.2" y1="2.8" x2="-9.2" y2="-2.8" width="0.2" layer="21"/>
-<wire x1="-9.2" y1="-2.8" x2="-8.8" y2="-2.8" width="0.2" layer="21"/>
-<wire x1="-5.2" y1="-2.8" x2="9.2" y2="-2.8" width="0.2" layer="21"/>
-<wire x1="9.2" y1="-2.8" x2="9.2" y2="2.8" width="0.2" layer="21"/>
-<wire x1="9.2" y1="2.8" x2="8.8" y2="2.8" width="0.2" layer="21"/>
+&lt;BR&gt; &lt;/B&gt;7847229020
+&lt;BR&gt;L X W X H = 18.1mm X 9.3mm X 10mm</description>
+<smd name="1" x="-7.75" y="-1.5" dx="3.5" dy="9" layer="1"/>
+<smd name="2" x="7.75" y="1.5" dx="3.5" dy="9" layer="1"/>
+<wire x1="-9.05" y1="4.65" x2="9.05" y2="4.65" width="0.1" layer="51"/>
+<wire x1="9.05" y1="4.65" x2="9.05" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="9.05" y1="-4.65" x2="-9.05" y2="-4.65" width="0.1" layer="51"/>
+<wire x1="-9.05" y1="-4.65" x2="-9.05" y2="4.65" width="0.1" layer="51"/>
+<wire x1="-9.15" y1="3.3" x2="-9.15" y2="4.75" width="0.2" layer="21"/>
+<wire x1="-9.15" y1="4.75" x2="5.6" y2="4.75" width="0.2" layer="21"/>
+<wire x1="9.15" y1="-3.3" x2="9.15" y2="-4.75" width="0.2" layer="21"/>
+<wire x1="9.15" y1="-4.75" x2="-5.6" y2="-4.75" width="0.2" layer="21"/>
 <polygon width="0.1" layer="39">
-<vertex x="-9.4" y="-5.2"/>
-<vertex x="9.4" y="-5.2"/>
-<vertex x="9.4" y="5.2"/>
-<vertex x="-9.4" y="5.2"/>
+<vertex x="-9.65" y="-6.3"/>
+<vertex x="9.65" y="-6.3"/>
+<vertex x="9.65" y="6.3"/>
+<vertex x="-9.65" y="6.3"/>
 </polygon>
-<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.3" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WE-RCIS_7847227027" urn="urn:adsk.eagle:footprint:13134326/2">
+<package name="WE-RCIS_7847227027" urn="urn:adsk.eagle:footprint:13134326/3">
 <description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
 &lt;BR&gt; &lt;/B&gt;7847227027 
 &lt;BR&gt;L X W X H = 14.9mm X 6.5mm X 7mm</description>
@@ -218,56 +216,10 @@ Copyright: Würth Elektronik</description>
 <vertex x="8.15" y="-7.2"/>
 <vertex x="-8.15" y="-7.2"/>
 </polygon>
-<text x="0" y="8.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.8" y="-9.4" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WE-RCIS_7847229020" urn="urn:adsk.eagle:footprint:13134325/1">
-<description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
-&lt;BR&gt; &lt;/B&gt;7847229020
-&lt;BR&gt;L X W X H = 18.1mm X 9.3mm X 10mm</description>
-<smd name="1" x="-7.75" y="-1.5" dx="3.4" dy="9.2" layer="1"/>
-<smd name="2" x="7.75" y="1.5" dx="3.4" dy="9.2" layer="1"/>
-<wire x1="-9.05" y1="4.65" x2="9.05" y2="4.65" width="0.1" layer="51"/>
-<wire x1="9.05" y1="4.65" x2="9.05" y2="-4.65" width="0.1" layer="51"/>
-<wire x1="9.05" y1="-4.65" x2="-9.05" y2="-4.65" width="0.1" layer="51"/>
-<wire x1="-9.05" y1="-4.65" x2="-9.05" y2="4.65" width="0.1" layer="51"/>
-<wire x1="-9.15" y1="3.5" x2="-9.15" y2="4.75" width="0.2" layer="21"/>
-<wire x1="-9.15" y1="4.75" x2="5.6" y2="4.75" width="0.2" layer="21"/>
-<wire x1="9.15" y1="-3.5" x2="9.15" y2="-4.75" width="0.2" layer="21"/>
-<wire x1="9.15" y1="-4.75" x2="-5.6" y2="-4.75" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-9.65" y="-6.3"/>
-<vertex x="9.65" y="-6.3"/>
-<vertex x="9.65" y="6.3"/>
-<vertex x="-9.65" y="6.3"/>
-</polygon>
-<text x="0" y="7.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.6" y="-8.4" size="1.27" layer="25">&gt;VALUE</text>
-</package>
-<package name="WE-RCIS_7847239015" urn="urn:adsk.eagle:footprint:48039603/1">
-<description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
-&lt;BR&gt; &lt;/B&gt;7847239015
-&lt;BR&gt;L X W X H = 22.6mm X 8.2mm X 8.6mm</description>
-<smd name="2" x="10.6" y="-1.5" dx="4" dy="9" layer="1" rot="R180"/>
-<smd name="1" x="-10.6" y="1.5" dx="4" dy="9" layer="1" rot="R180"/>
-<wire x1="11.3" y1="-4.1" x2="-11.3" y2="-4.1" width="0.1" layer="51"/>
-<wire x1="-11.3" y1="-4.1" x2="-11.3" y2="4.1" width="0.1" layer="51"/>
-<wire x1="-11.3" y1="4.1" x2="11.3" y2="4.1" width="0.1" layer="51"/>
-<wire x1="8.3" y1="-4.2" x2="-11.4" y2="-4.2" width="0.2" layer="21"/>
-<wire x1="-8.3" y1="4.2" x2="11.4" y2="4.2" width="0.2" layer="21"/>
-<wire x1="11.3" y1="4.1" x2="11.3" y2="-4.1" width="0.1" layer="51"/>
-<wire x1="-11.4" y1="-4.2" x2="-11.4" y2="-3.3" width="0.2" layer="21"/>
-<wire x1="11.4" y1="4.2" x2="11.4" y2="3.3" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="12.8" y="6.2"/>
-<vertex x="-12.8" y="6.2"/>
-<vertex x="-12.8" y="-6.2"/>
-<vertex x="12.8" y="-6.2"/>
-</polygon>
-<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="WE-RCIS_7847232045" urn="urn:adsk.eagle:footprint:13134324/2">
+<package name="WE-RCIS_7847232045" urn="urn:adsk.eagle:footprint:13134324/3">
 <description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
 &lt;BR&gt; &lt;/B&gt;7847229020
 &lt;BR&gt;L X W X H = 25mm X 11.5mm X 11.85mm</description>
@@ -289,12 +241,12 @@ Copyright: Würth Elektronik</description>
 <vertex x="12.8" y="7.2"/>
 <vertex x="-12.8" y="7.2"/>
 </polygon>
-<text x="0" y="7.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.2" y="-9.4" size="1.27" layer="25">&gt;VALUE</text>
+<text x="0" y="8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.3" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="WE-RCIS_7847227010" urn="urn:adsk.eagle:package:13134332/2" type="model">
+<package3d name="WE-RCIS_7847227010" urn="urn:adsk.eagle:package:13134332/3" type="model">
 <description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
 &lt;BR&gt; &lt;/B&gt;7847227010 
 &lt;BR&gt;L X W X H = 15mm X 7.1mm X 7.8mm</description>
@@ -302,31 +254,7 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WE-RCIS_7847227010"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-RCIS_7847232045" urn="urn:adsk.eagle:package:13134329/3" type="model">
-<description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
-&lt;BR&gt; &lt;/B&gt;7847229020
-&lt;BR&gt;L X W X H = 25mm X 11.5mm X 11.85mm</description>
-<packageinstances>
-<packageinstance name="WE-RCIS_7847232045"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-RCIS_7847227027" urn="urn:adsk.eagle:package:13134331/3" type="model">
-<description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
-&lt;BR&gt; &lt;/B&gt;7847227027 
-&lt;BR&gt;L X W X H = 14.9mm X 6.5mm X 7mm</description>
-<packageinstances>
-<packageinstance name="WE-RCIS_7847227027"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-RCIS_7847225100" urn="urn:adsk.eagle:package:48039606/2" type="model">
-<description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
-&lt;BR&gt; &lt;/B&gt;7847225100
-&lt;BR&gt;L X W X H = 18.2mm X 5.4mm X 5.8mm</description>
-<packageinstances>
-<packageinstance name="WE-RCIS_7847225100"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-RCIS_7847229020" urn="urn:adsk.eagle:package:13134330/2" type="model">
+<package3d name="WE-RCIS_7847229020" urn="urn:adsk.eagle:package:13134330/3" type="model">
 <description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
 &lt;BR&gt; &lt;/B&gt;7847229020
 &lt;BR&gt;L X W X H = 18.1mm X 9.3mm X 10mm</description>
@@ -334,12 +262,20 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WE-RCIS_7847229020"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-RCIS_7847239015" urn="urn:adsk.eagle:package:48039605/2" type="model">
+<package3d name="WE-RCIS_7847227027" urn="urn:adsk.eagle:package:13134331/4" type="model">
 <description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
-&lt;BR&gt; &lt;/B&gt;7847239015
-&lt;BR&gt;L X W X H = 22.6mm X 8.2mm X 8.6mm</description>
+&lt;BR&gt; &lt;/B&gt;7847227027 
+&lt;BR&gt;L X W X H = 14.9mm X 6.5mm X 7mm</description>
 <packageinstances>
-<packageinstance name="WE-RCIS_7847239015"/>
+<packageinstance name="WE-RCIS_7847227027"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-RCIS_7847232045" urn="urn:adsk.eagle:package:13134329/4" type="model">
+<description>&lt;B&gt;WE-RCIS Rod Core Inductor SMT
+&lt;BR&gt; &lt;/B&gt;7847229020
+&lt;BR&gt;L X W X H = 25mm X 11.5mm X 11.85mm</description>
+<packageinstances>
+<packageinstance name="WE-RCIS_7847232045"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -360,7 +296,7 @@ Copyright: Würth Elektronik</description>
 <deviceset name="WE-RCIS" prefix="L">
 <description>&lt;b&gt; WE-RCIS Rod Core Inductor SMT
 &lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;&lt;b&gt;Characteristics
 &lt;br&gt;
 &lt;/b&gt;&lt;/b&gt; 
 &lt;br&gt;High Current capability
@@ -381,11 +317,11 @@ Copyright: Würth Elektronik</description>
 
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o153336v209%20family-we-rcis.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o153336v209%20family-we-rcis.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o153336v209%20Family-RCIS-78472xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o153336v209%20Family-RCIS-78472xxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="www.we-online.com/catalog/WE-RCIS/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-RCIS&lt;/a&gt;&lt;p&gt;
 
-&lt;/b&gt;Updated by Ella 2025-04-25&lt;br&gt;
+&lt;/b&gt;Updated by Ella 2025-08-06&lt;br&gt;
 &lt;/b&gt;2025(C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="WE-RCIS" x="0" y="0"/>
@@ -397,7 +333,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-RCIS/?utm_source=eagle_mod
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13134332/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13134332/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -422,7 +358,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-RCIS/?utm_source=eagle_mod
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13134331/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13134331/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -447,7 +383,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-RCIS/?utm_source=eagle_mod
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13134330/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13134330/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -472,7 +408,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-RCIS/?utm_source=eagle_mod
 <connect gate="G$1" pin="2" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13134329/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13134329/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -488,56 +424,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-RCIS/?utm_source=eagle_mod
 <attribute name="PIN-LENGTH" value="6mm"/>
 <attribute name="RDC" value="3.8mOhm"/>
 <attribute name="VALUE" value="4.45uH"/>
-</technology>
-</technologies>
-</device>
-<device name="_7847239015" package="WE-RCIS_7847239015">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:48039605/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7847239015?ae"/>
-<attribute name="DIAMETER" value="8.2mm"/>
-<attribute name="FRES" value="105MHz"/>
-<attribute name="IR" value="17.5A"/>
-<attribute name="L" value="1.41uH"/>
-<attribute name="LENGTH" value="22.6mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7847239015"/>
-<attribute name="PIN-DIAMETER" value="2mm"/>
-<attribute name="PIN-LENGTH" value="6.4mm"/>
-<attribute name="RDC" value="1.1mOhm"/>
-<attribute name="VALUE" value="1.41uH"/>
-</technology>
-</technologies>
-</device>
-<device name="_7847225100" package="WE-RCIS_7847225100">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:48039606/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7847225100?ae"/>
-<attribute name="DIAMETER" value="4mm"/>
-<attribute name="FRES" value="84MHz"/>
-<attribute name="IR" value="3.25A"/>
-<attribute name="L" value="10.4uH"/>
-<attribute name="LENGTH" value="18.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7847225100"/>
-<attribute name="PIN-DIAMETER" value="0.35mm"/>
-<attribute name="PIN-LENGTH" value="4mm"/>
-<attribute name="RDC" value="33mOhm"/>
-<attribute name="VALUE" value="10.4uH"/>
 </technology>
 </technologies>
 </device>
