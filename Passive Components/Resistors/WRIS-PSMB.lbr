@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -76,8 +76,8 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - Resistors - Metal Plate Resistors - WRIS-PSMB&lt;br&gt;&lt;Hr&gt;
-
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Resistors - Metal Plate Resistors - WRIS-PSMB&lt;br&gt;
+&lt;Hr&gt;
 &lt;BR&gt;
 &lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
 &lt;TR&gt;   
@@ -139,34 +139,40 @@ Fax:+49 (0)7942-945-5000&lt;br&gt;
 &lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
 &lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
 &lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-Eagle Version 9, Library Revision 2019a, 2019-09-18&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-09-24&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WRIS-PSMB_0805_2.0X1.25X0.22X0.47(LXWXHXPW)" urn="urn:adsk.eagle:footprint:13350688/1">
-<smd name="1" x="-0.9" y="0" dx="1" dy="1.36" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="1" dy="1.36" layer="1"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="-0.1" y1="0.725" x2="0.1" y2="0.725" width="0.2" layer="21"/>
-<wire x1="-0.1" y1="-0.725" x2="0.1" y2="-0.725" width="0.2" layer="21"/>
+<package name="WRIS-PSMB_1206_L3.2W1.6H0.28" urn="urn:adsk.eagle:footprint:49836787/1">
+<description>&lt;B&gt;WRIS-PSMB Metal Plate Resistors
+&lt;BR&gt;&lt;/B&gt;
+&lt;BR&gt;Size : 12065, SMT, 2pins
+&lt;BR&gt;LXWXHXFI=3.2X1.6X0.28X0.5</description>
+<smd name="1" x="-1.5" y="0" dx="0.9" dy="1.7" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="0.9" dy="1.7" layer="1"/>
+<text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="0.9" x2="0.75" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-0.75" y1="-0.9" x2="0.76" y2="-0.9" width="0.2" layer="21"/>
 <polygon width="0.1" layer="39">
-<vertex x="-1.6" y="0.88"/>
-<vertex x="1.6" y="0.88"/>
-<vertex x="1.6" y="-0.925"/>
-<vertex x="-1.6" y="-0.925"/>
+<vertex x="-2.15" y="1.1"/>
+<vertex x="2.15" y="1.1"/>
+<vertex x="2.15" y="-1.1"/>
+<vertex x="-2.15" y="-1.1"/>
 </polygon>
-<text x="0" y="1.3" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.1" y="-1.7" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WRIS-PSMB_2512_6.3X3.1X0.35X1.4(LXWXHXPW)" urn="urn:adsk.eagle:footprint:13350689/1">
+<package name="WRIS-PSMB_2512_L6.3W3.1H0.35" urn="urn:adsk.eagle:footprint:13350689/2">
 <smd name="1" x="-2.9" y="0" dx="1.8" dy="3.5" layer="1"/>
 <smd name="2" x="2.9" y="0" dx="1.8" dy="3.5" layer="1"/>
 <wire x1="-3.15" y1="1.55" x2="3.15" y2="1.55" width="0.1" layer="51"/>
@@ -184,25 +190,7 @@ Copyright: Würth Elektronik</description>
 <text x="0" y="2.4" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="-0.1" y="-3.1" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WRIS-PSMB_0805_2.0X1.25X0.22X0.6(LXWXHXPW)" urn="urn:adsk.eagle:footprint:13350687/1">
-<smd name="1" x="-1" y="0" dx="0.7" dy="1.25" layer="1"/>
-<smd name="2" x="1" y="0" dx="0.7" dy="1.25" layer="1"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="-0.3" y1="0.725" x2="0.3" y2="0.725" width="0.2" layer="21"/>
-<wire x1="-0.3" y1="-0.725" x2="0.3" y2="-0.725" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-1.55" y="0.925"/>
-<vertex x="1.55" y="0.925"/>
-<vertex x="1.55" y="-0.925"/>
-<vertex x="-1.55" y="-0.925"/>
-</polygon>
-<text x="0" y="1.3" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.1" y="-1.7" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="WRIS-PSMB_0603_1.6X0.8X0.3X0.3(LXWXHXPW)" urn="urn:adsk.eagle:footprint:13350686/1">
+<package name="WRIS-PSMB_0603_L1.6W0.8H0.3" urn="urn:adsk.eagle:footprint:13350686/2">
 <description>Hight= 0.3mm</description>
 <smd name="1" x="-0.8" y="0" dx="0.6" dy="0.9" layer="1"/>
 <smd name="2" x="0.8" y="0" dx="0.6" dy="0.9" layer="1"/>
@@ -221,7 +209,7 @@ Copyright: Würth Elektronik</description>
 <text x="0" y="1" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.3" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WRIS-PSMB_0603_1.6X0.8X0.35X0.6(LXWXHXPW)" urn="urn:adsk.eagle:footprint:13350685/1">
+<package name="WRIS-PSMB_0603_L1.6W0.8H0.35" urn="urn:adsk.eagle:footprint:13350685/2">
 <description>Hight= 0.35mm</description>
 <smd name="1" x="-0.7" y="0" dx="0.8" dy="0.9" layer="1"/>
 <smd name="2" x="0.7" y="0" dx="0.8" dy="0.9" layer="1"/>
@@ -238,33 +226,55 @@ Copyright: Würth Elektronik</description>
 <text x="0" y="1" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.3" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
+<package name="WRIS-PSMB_0805_L2W1.25H0.22" urn="urn:adsk.eagle:footprint:13350687/2">
+<smd name="1" x="-1" y="0" dx="0.7" dy="1.25" layer="1"/>
+<smd name="2" x="1" y="0" dx="0.7" dy="1.25" layer="1"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="0.725" x2="0.3" y2="0.725" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-0.725" x2="0.3" y2="-0.725" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-1.55" y="0.925"/>
+<vertex x="1.55" y="0.925"/>
+<vertex x="1.55" y="-0.925"/>
+<vertex x="-1.55" y="-0.925"/>
+</polygon>
+<text x="0" y="1.3" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.1" y="-1.7" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
-<package3d name="WRIS-PSMB_0805_2.0X1.25X0.22X0.47(LXWXHXPW)" urn="urn:adsk.eagle:package:13350694/2" type="model">
+<package3d name="WRIS-PSMB_1206_L3.2W1.6H0.28" urn="urn:adsk.eagle:package:49836788/2" type="model">
+<description>WRIS-PSMB Metal Plate Resistors
+
+Size : 12065, SMT, 2pins
+LXWXHXFI=3.2X1.6X0.28X0.5</description>
 <packageinstances>
-<packageinstance name="WRIS-PSMB_0805_2.0X1.25X0.22X0.47(LXWXHXPW)"/>
+<packageinstance name="WRIS-PSMB_1206_L3.2W1.6H0.28"/>
 </packageinstances>
 </package3d>
-<package3d name="WRIS-PSMB_2512_6.3X3.1X0.35X1.4(LXWXHXPW)" urn="urn:adsk.eagle:package:13350695/2" type="model">
+<package3d name="WRIS-PSMB_2512_L6.3W3.1H0.35" urn="urn:adsk.eagle:package:13350695/4" type="model">
 <packageinstances>
-<packageinstance name="WRIS-PSMB_2512_6.3X3.1X0.35X1.4(LXWXHXPW)"/>
+<packageinstance name="WRIS-PSMB_2512_L6.3W3.1H0.35"/>
 </packageinstances>
 </package3d>
-<package3d name="WRIS-PSMB_0603_1.6X0.8X0.3X0.3(LXWXHXPW)" urn="urn:adsk.eagle:package:13350692/2" type="model">
+<package3d name="WRIS-PSMB_0603_L1.6W0.8H0.3" urn="urn:adsk.eagle:package:13350692/4" type="model">
 <description>Hight= 0.3mm</description>
 <packageinstances>
-<packageinstance name="WRIS-PSMB_0603_1.6X0.8X0.3X0.3(LXWXHXPW)"/>
+<packageinstance name="WRIS-PSMB_0603_L1.6W0.8H0.3"/>
 </packageinstances>
 </package3d>
-<package3d name="WRIS-PSMB_0805_2.0X1.25X0.22X0.6(LXWXHXPW)" urn="urn:adsk.eagle:package:13350693/2" type="model">
-<packageinstances>
-<packageinstance name="WRIS-PSMB_0805_2.0X1.25X0.22X0.6(LXWXHXPW)"/>
-</packageinstances>
-</package3d>
-<package3d name="WRIS-PSMB_0603_1.6X0.8X0.35X0.6(LXWXHXPW)" urn="urn:adsk.eagle:package:13350691/2" type="model">
+<package3d name="WRIS-PSMB_0603_L1.6W0.8H0.35" urn="urn:adsk.eagle:package:13350691/4" type="model">
 <description>Hight= 0.35mm</description>
 <packageinstances>
-<packageinstance name="WRIS-PSMB_0603_1.6X0.8X0.35X0.6(LXWXHXPW)"/>
+<packageinstance name="WRIS-PSMB_0603_L1.6W0.8H0.35"/>
+</packageinstances>
+</package3d>
+<package3d name="WRIS-PSMB_0805_L2W1.25H0.22" urn="urn:adsk.eagle:package:13350693/4" type="model">
+<packageinstances>
+<packageinstance name="WRIS-PSMB_0805_L2W1.25H0.22"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -281,134 +291,127 @@ Copyright: Würth Elektronik</description>
 <wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
 <wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
 <text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-5.08" y="-4.572" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-4.318" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="WRIS-PSMB_1206" prefix="R">
+<description>&lt;b&gt; WRIS-PSMB Metal Plate Resistors
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Product series for enhanced current sensing up to 1 W
+&lt;br&gt;Mounting style: SMT-Chip (standard terminal)
+&lt;br&gt;Resistance range: 5 mΩ ‒ 10 mΩ
+&lt;br&gt;Resistance tolerance: ±1%
+&lt;br&gt;Rated Power: 0.33 W ‒ 1 W
+&lt;br&gt;TCR: ±100 ppm/°C
+&lt;br&gt;Operating temperature: -55 °C up to +155 °C
+&lt;br&gt;Sizes: 0603 / 0805 / 2512
+&lt;br&gt;Recommended soldering: Reflow soldering
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Motor control
+&lt;br&gt;Battery pack
+&lt;br&gt;DC/DC converter
+&lt;br&gt;AC adapter
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o135743v209%20WRIS-PSMB_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o135743v209%20WRIS-PSMB_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WRIS-PSMB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WRIS-PSMB&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created by Ella 2025-09-24&lt;br&gt;
+&lt;/b&gt;2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_L3.2W1.6H0.28" package="WRIS-PSMB_1206_L3.2W1.6H0.28">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49836788/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_580060732021">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/580060732021?ae"/>
+<attribute name="HEIGHT" value="0.28mm"/>
+<attribute name="IR" value="10A"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="580060732021"/>
+<attribute name="PRATED" value="1W"/>
+<attribute name="R" value="10 mO"/>
+<attribute name="SIZE" value="1206"/>
+<attribute name="TCR-MAX" value="70ppm/°C"/>
+<attribute name="TCR-MIN" value="-70ppm/°C"/>
+<attribute name="VALUE" value="10 mO"/>
+<attribute name="WIDTH" value="1.6mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="WRIS-PSMB_2512" prefix="R">
 <description>&lt;b&gt; WRIS-PSMB Metal Plate Resistors
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt; Characteristics
 &lt;br&gt;
 &lt;/b&gt;&lt;/b&gt; 
-&lt;br&gt;Metal plate resistors
-&lt;br&gt;Recommended soldering: Reflow
+&lt;br&gt;Product series for enhanced current sensing up to 1 W
+&lt;br&gt;Mounting style: SMT-Chip (standard terminal)
+&lt;br&gt;Resistance range: 5 mΩ ‒ 10 mΩ
+&lt;br&gt;Resistance tolerance: ±1%
+&lt;br&gt;Rated Power: 0.33 W ‒ 1 W
+&lt;br&gt;TCR: ±100 ppm/°C
 &lt;br&gt;Operating temperature: -55 °C up to +155 °C
-&lt;br&gt;Resistance range: 5 mΩ up to 10 mΩ
-&lt;br&gt;Resistance tolerance: ±1 %
-&lt;br&gt;Rated power: 0.33 W up to 1 W
-&lt;br&gt;Enhanced current sensing
+&lt;br&gt;Sizes: 0603 / 0805 / 2512
+&lt;br&gt;Recommended soldering: Reflow soldering
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt; Applications
 &lt;br&gt;
-&lt;br&gt;&lt;/b&gt;DMotor control
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;L X W X H X PW =Length X Width X Height X Pad Width
+&lt;br&gt;&lt;/b&gt;Motor control
+&lt;br&gt;Battery pack
+&lt;br&gt;DC/DC converter
+&lt;br&gt;AC adapter
 &lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o135743v209%20Family_WRIS-PSMB.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o135743v209%20Family_WRIS-PSMB.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WRIS-PSMB"&gt;https://katalog.we-online.com/en/pbs/WRIS-PSMB&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o135743v209%20WRIS-PSMB_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o135743v209%20WRIS-PSMB_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WRIS-PSMB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WRIS-PSMB&lt;/a&gt;&lt;p&gt;
 
-&lt;/b&gt;Created by Yingchun, Shan 2018-11-14&lt;br&gt;
-&lt;/b&gt;2018(C) Wurth Elektronik</description>
+&lt;/b&gt;Updated by Ella 2025-09-24&lt;br&gt;
+&lt;/b&gt;2025(C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_6.3X3.1X0.35X1.4" package="WRIS-PSMB_2512_6.3X3.1X0.35X1.4(LXWXHXPW)">
+<device name="_L6.3W3.1H0.35" package="WRIS-PSMB_2512_L6.3W3.1H0.35">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13350695/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13350695/4"/>
 </package3dinstances>
 <technologies>
 <technology name="_580060763005">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/580060763005.pdf" constant="no"/>
-<attribute name="IR" value="12A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 580060763005 " constant="no"/>
-<attribute name="PRATED" value="1W" constant="no"/>
-<attribute name="TCR" value="±100ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="MB2512R007F101KAATE0000" constant="no"/>
-<attribute name="VALUE" value="7mOhm" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WRIS-PSMB_0805" prefix="R">
-<description>&lt;b&gt; WRIS-PSMB Metal Plate Resistors
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;/b&gt;&lt;/b&gt; 
-&lt;br&gt;Metal plate resistors
-&lt;br&gt;Recommended soldering: Reflow
-&lt;br&gt;Operating temperature: -55 °C up to +155 °C
-&lt;br&gt;Resistance range: 5 mΩ up to 10 mΩ
-&lt;br&gt;Resistance tolerance: ±1 %
-&lt;br&gt;Rated power: 0.33 W up to 1 W
-&lt;br&gt;Enhanced current sensing
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;DMotor control
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;L X W X H X PW =Length X Width X Height X Pad Width
-&lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o135743v209%20Family_WRIS-PSMB.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o135743v209%20Family_WRIS-PSMB.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WRIS-PSMB"&gt;https://katalog.we-online.com/en/pbs/WRIS-PSMB&lt;/a&gt;&lt;p&gt;
-
-&lt;/b&gt;Created by Yingchun, Shan 2018-11-14&lt;br&gt;
-&lt;/b&gt;2018(C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_2.0X1.25X0.22X0.47" package="WRIS-PSMB_0805_2.0X1.25X0.22X0.47(LXWXHXPW)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13350694/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_580060720008">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/580060720008.pdf" constant="no"/>
-<attribute name="IR" value="7.07A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 580060720008 " constant="no"/>
-<attribute name="PRATED" value="0.5W" constant="no"/>
-<attribute name="TCR" value="±100ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="MB0805R010F102KAATP0000" constant="no"/>
-<attribute name="VALUE" value="10mOhm" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_2.0X1.25X0.22X0.6" package="WRIS-PSMB_0805_2.0X1.25X0.22X0.6(LXWXHXPW)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13350693/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_580060720003">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/580060720003.pdf" constant="no"/>
-<attribute name="IR" value="10A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 580060720003 " constant="no"/>
-<attribute name="PRATED" value="0.5W" constant="no"/>
-<attribute name="TCR" value="±100ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="MB0805R005F102KAATP0000" constant="no"/>
-<attribute name="VALUE" value="5mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/580060763005?ae"/>
+<attribute name="HEIGHT" value="0.35mm"/>
+<attribute name="IR" value="12A"/>
+<attribute name="LENGTH" value="6.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="580060763005"/>
+<attribute name="PRATED" value="1W"/>
+<attribute name="R" value="7 mO"/>
+<attribute name="SIZE" value="2512"/>
+<attribute name="TCR-MAX" value="100ppm/°C"/>
+<attribute name="TCR-MIN" value="100ppm/°C"/>
+<attribute name="VALUE" value="7 mO"/>
+<attribute name="WIDTH" value="3.1mm"/>
 </technology>
 </technologies>
 </device>
@@ -420,70 +423,158 @@ Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WRIS-PSMB"&gt;http
 &lt;br&gt;&lt;b&gt; Characteristics
 &lt;br&gt;
 &lt;/b&gt;&lt;/b&gt; 
-&lt;br&gt;Metal plate resistors
-&lt;br&gt;Recommended soldering: Reflow
+&lt;br&gt;Product series for enhanced current sensing up to 1 W
+&lt;br&gt;Mounting style: SMT-Chip (standard terminal)
+&lt;br&gt;Resistance range: 5 mΩ ‒ 10 mΩ
+&lt;br&gt;Resistance tolerance: ±1%
+&lt;br&gt;Rated Power: 0.33 W ‒ 1 W
+&lt;br&gt;TCR: ±100 ppm/°C
 &lt;br&gt;Operating temperature: -55 °C up to +155 °C
-&lt;br&gt;Resistance range: 5 mΩ up to 10 mΩ
-&lt;br&gt;Resistance tolerance: ±1 %
-&lt;br&gt;Rated power: 0.33 W up to 1 W
-&lt;br&gt;Enhanced current sensing
+&lt;br&gt;Sizes: 0603 / 0805 / 2512
+&lt;br&gt;Recommended soldering: Reflow soldering
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt; Applications
 &lt;br&gt;
-&lt;br&gt;&lt;/b&gt;DMotor control
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;L X W X H X PW =Length X Width X Height X Pad Width
+&lt;br&gt;&lt;/b&gt;Motor control
+&lt;br&gt;Battery pack
+&lt;br&gt;DC/DC converter
+&lt;br&gt;AC adapter
 &lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o135743v209%20Family_WRIS-PSMB.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o135743v209%20Family_WRIS-PSMB.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WRIS-PSMB"&gt;https://katalog.we-online.com/en/pbs/WRIS-PSMB&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o135743v209%20WRIS-PSMB_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o135743v209%20WRIS-PSMB_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WRIS-PSMB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WRIS-PSMB&lt;/a&gt;&lt;p&gt;
 
-&lt;/b&gt;Created by Yingchun, Shan 2018-11-14&lt;br&gt;
-&lt;/b&gt;2018(C) Wurth Elektronik</description>
+&lt;/b&gt;Updated by Ella 2025-09-24&lt;br&gt;
+&lt;/b&gt;2025(C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_1.6X0.8X0.3X0.3" package="WRIS-PSMB_0603_1.6X0.8X0.3X0.3(LXWXHXPW)">
+<device name="_L1.6W0.8H0.3" package="WRIS-PSMB_0603_L1.6W0.8H0.3">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13350692/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13350692/4"/>
 </package3dinstances>
 <technologies>
 <technology name="_580060716002">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/580060716002.pdf" constant="no"/>
-<attribute name="IR" value="5.74A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 580060716002 " constant="no"/>
-<attribute name="PRATED" value="0.33W" constant="no"/>
-<attribute name="TCR" value="±100ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="MB0603R010F103KAATP0000" constant="no"/>
-<attribute name="VALUE" value="10mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/580060716002?ae"/>
+<attribute name="HEIGHT" value="0.3mm"/>
+<attribute name="IR" value="5.74A"/>
+<attribute name="LENGTH" value="1.6mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="580060716002"/>
+<attribute name="PRATED" value="0.33W"/>
+<attribute name="R" value="10 mO"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TCR-MAX" value="100ppm/°C"/>
+<attribute name="TCR-MIN" value="-100ppm/°C"/>
+<attribute name="VALUE" value="10 mO"/>
+<attribute name="WIDTH" value="0.8mm"/>
 </technology>
 </technologies>
 </device>
-<device name="_1.6X0.8X0.35X0.6" package="WRIS-PSMB_0603_1.6X0.8X0.35X0.6(LXWXHXPW)">
+<device name="_L1.6W0.8H0.35" package="WRIS-PSMB_0603_L1.6W0.8H0.35">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13350691/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13350691/4"/>
 </package3dinstances>
 <technologies>
 <technology name="_580060716001">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.de/pbs/datasheet/580060716001.pdf" constant="no"/>
-<attribute name="IR" value="8.12A" constant="no"/>
-<attribute name="MOUNT" value="SMT" constant="no"/>
-<attribute name="PART-NUMBER" value=" 580060716001 " constant="no"/>
-<attribute name="PRATED" value="0.33W" constant="no"/>
-<attribute name="TCR" value="±100ppm/ °C" constant="no"/>
-<attribute name="TECHNICAL-REFERENCE" value="MB0603R005F103KAATP0000" constant="no"/>
-<attribute name="VALUE" value="5mOhm" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/580060716001?ae"/>
+<attribute name="HEIGHT" value="0.35mm"/>
+<attribute name="IR" value="8.12A"/>
+<attribute name="LENGTH" value="1.6mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="580060716001"/>
+<attribute name="PRATED" value="0.33W"/>
+<attribute name="R" value="5 mO"/>
+<attribute name="SIZE" value="0603"/>
+<attribute name="TCR-MAX" value="100ppm/°C"/>
+<attribute name="TCR-MIN" value="-100ppm/°C"/>
+<attribute name="VALUE" value="5 mO"/>
+<attribute name="WIDTH" value="0.8mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WRIS-PSMB_0805" prefix="R">
+<description>&lt;b&gt; WRIS-PSMB Metal Plate Resistors
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;/b&gt;&lt;/b&gt; 
+&lt;br&gt;Product series for enhanced current sensing up to 1 W
+&lt;br&gt;Mounting style: SMT-Chip (standard terminal)
+&lt;br&gt;Resistance range: 5 mΩ ‒ 10 mΩ
+&lt;br&gt;Resistance tolerance: ±1%
+&lt;br&gt;Rated Power: 0.33 W ‒ 1 W
+&lt;br&gt;TCR: ±100 ppm/°C
+&lt;br&gt;Operating temperature: -55 °C up to +155 °C
+&lt;br&gt;Sizes: 0603 / 0805 / 2512
+&lt;br&gt;Recommended soldering: Reflow soldering
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Motor control
+&lt;br&gt;Battery pack
+&lt;br&gt;DC/DC converter
+&lt;br&gt;AC adapter
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o135743v209%20WRIS-PSMB_Group.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o135743v209%20WRIS-PSMB_Group.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WRIS-PSMB/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WRIS-PSMB&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella 2025-09-24&lt;br&gt;
+&lt;/b&gt;2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_L2W1.25H0.22" package="WRIS-PSMB_0805_L2W1.25H0.22">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13350693/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_580060720003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/580060720003?ae"/>
+<attribute name="HEIGHT" value="0.22mm"/>
+<attribute name="IR" value="10A"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="580060720003"/>
+<attribute name="PRATED" value="0.5W"/>
+<attribute name="R" value="5 mO"/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="TCR-MAX" value="100ppm/°C"/>
+<attribute name="TCR-MIN" value="-100ppm/°C"/>
+<attribute name="VALUE" value="5 mO"/>
+<attribute name="WIDTH" value="1.25mm"/>
+</technology>
+<technology name="_580060720008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/580060720008?ae"/>
+<attribute name="HEIGHT" value="0.22mm"/>
+<attribute name="IR" value="7.07A"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="580060720008"/>
+<attribute name="PRATED" value="0.5W"/>
+<attribute name="R" value="10 mO"/>
+<attribute name="SIZE" value="0805"/>
+<attribute name="TCR-MAX" value="100ppm/°C"/>
+<attribute name="TCR-MIN" value="-100ppm/°C"/>
+<attribute name="VALUE" value="10 mO"/>
+<attribute name="WIDTH" value="1.25mm"/>
 </technology>
 </technologies>
 </device>
