@@ -134,21 +134,21 @@ Würth Elektronik eiSos expressly disclaims all implied warranties regarding thi
  &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2024a, 2024-06-28&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-12-05&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-STST_74930100" urn="urn:adsk.eagle:footprint:14998826/3">
+<package name="WE-STST_74930000" urn="urn:adsk.eagle:footprint:14998829/4">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
 &lt;/B&gt;&lt;BR&gt;10/100/1000 Base-T, 10/100 Base-T1
 &lt;BR&gt;Max Height = 2.9 mm</description>
-<smd name="1" x="-1.99" y="-1.35" dx="1.2" dy="0.41" layer="1"/>
-<smd name="2" x="-1.99" y="-0.7" dx="1.2" dy="0.41" layer="1"/>
-<smd name="7" x="1.99" y="1.35" dx="1.2" dy="0.41" layer="1"/>
-<smd name="6" x="1.99" y="0.7" dx="1.2" dy="0.41" layer="1"/>
-<smd name="5" x="1.99" y="-1.35" dx="1.2" dy="0.5" layer="1"/>
-<smd name="3" x="-2.29" y="1.35" dx="0.6" dy="0.5" layer="1"/>
-<smd name="4" x="-1.69" y="1.35" dx="0.6" dy="0.5" layer="1"/>
+<smd name="1" x="-1.99" y="-1.35" dx="1.2" dy="0.41" layer="1" cream="no"/>
+<smd name="2" x="-1.99" y="-0.7" dx="1.2" dy="0.41" layer="1" cream="no"/>
+<smd name="7" x="1.99" y="1.35" dx="1.2" dy="0.41" layer="1" cream="no"/>
+<smd name="6" x="1.99" y="0.7" dx="1.2" dy="0.41" layer="1" cream="no"/>
+<smd name="5" x="1.99" y="-1.35" dx="1.2" dy="0.5" layer="1" cream="no"/>
+<smd name="3" x="-2.29" y="1.35" dx="0.6" dy="0.5" layer="1" cream="no"/>
+<smd name="4" x="-1.69" y="1.35" dx="0.6" dy="0.5" layer="1" cream="no"/>
 <wire x1="-2.35" y1="1.61" x2="2.35" y2="1.61" width="0.1" layer="51"/>
 <wire x1="2.35" y1="1.61" x2="2.35" y2="-1.61" width="0.1" layer="51"/>
 <wire x1="2.35" y1="-1.61" x2="-2.35" y2="-1.61" width="0.1" layer="51"/>
@@ -165,9 +165,16 @@ Copyright: Würth Elektronik</description>
 <vertex x="-2.8" y="-1.9"/>
 </polygon>
 <text x="0" y="2.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="-2.3" size="0.254" layer="51" align="bottom-center">Suggested stencil thickness: 0.08mm</text>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="21"/>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="51"/>
+<rectangle x1="-2.59" y1="1.1" x2="-1.39" y2="1.6" layer="31"/>
+<rectangle x1="1.39" y1="1.245" x2="2.59" y2="1.655" layer="31"/>
+<rectangle x1="1.39" y1="0.395" x2="2.59" y2="0.805" layer="31"/>
+<rectangle x1="1.39" y1="-1.6" x2="2.59" y2="-1.1" layer="31"/>
+<rectangle x1="-2.59" y1="-0.805" x2="-1.39" y2="-0.395" layer="31"/>
+<rectangle x1="-2.59" y1="-1.655" x2="-1.39" y2="-1.245" layer="31"/>
 </package>
 <package name="WE-STST_749302010" urn="urn:adsk.eagle:footprint:14998828/4">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
@@ -199,7 +206,48 @@ Copyright: Würth Elektronik</description>
 <circle x="-3" y="-1.7" radius="0.1" width="0.2" layer="21"/>
 <circle x="-3" y="-1.7" radius="0.1" width="0.2" layer="51"/>
 </package>
-<package name="WE-STST_74930000" urn="urn:adsk.eagle:footprint:14998829/3">
+<package name="WE-STST_74930000_PODL" urn="urn:adsk.eagle:footprint:21123187/3">
+<description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
+&lt;br&gt;&lt;/b&gt;This package is suggested for Power over Data Lines (PoDL) and 10Base-T1 applications.
+&lt;br&gt;
+&lt;/B&gt;&lt;BR&gt;10/100/1000 Base-T, 10/100 Base-T1
+&lt;BR&gt;Max Height = 2.9 mm</description>
+<smd name="1" x="-1.89" y="-1.35" dx="1.32" dy="0.41" layer="1" cream="no"/>
+<smd name="2" x="-1.89" y="-0.7" dx="1.32" dy="0.41" layer="1" cream="no"/>
+<smd name="7" x="1.89" y="1.35" dx="1.32" dy="0.41" layer="1" cream="no"/>
+<smd name="6" x="1.89" y="0.7" dx="1.32" dy="0.41" layer="1" cream="no"/>
+<smd name="5" x="1.89" y="-1.35" dx="1.32" dy="0.5" layer="1" cream="no"/>
+<smd name="3" x="-2.3" y="1.35" dx="0.5" dy="0.5" layer="1" cream="no"/>
+<smd name="4" x="-1.48" y="1.35" dx="0.5" dy="0.5" layer="1" cream="no"/>
+<wire x1="-2.35" y1="1.61" x2="2.35" y2="1.61" width="0.1" layer="51"/>
+<wire x1="2.35" y1="1.61" x2="2.35" y2="-1.61" width="0.1" layer="51"/>
+<wire x1="2.35" y1="-1.61" x2="-2.35" y2="-1.61" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="-1.61" x2="-2.35" y2="1.61" width="0.1" layer="51"/>
+<wire x1="-0.93" y1="1.71" x2="0.93" y2="1.71" width="0.2" layer="21"/>
+<wire x1="0.93" y1="-1.71" x2="-0.93" y2="-1.71" width="0.2" layer="21"/>
+<wire x1="2.45" y1="-0.8" x2="2.45" y2="0.195" width="0.2" layer="21"/>
+<wire x1="-2.45" y1="0.8" x2="-2.45" y2="-0.195" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.7" y="1.9"/>
+<vertex x="2.7" y="1.9"/>
+<vertex x="2.7" y="-1.9"/>
+<vertex x="-2.7" y="-1.9"/>
+</polygon>
+<circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="51"/>
+<circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="51"/>
+<text x="0" y="2.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="-2.3" size="0.254" layer="51" align="bottom-center">Suggested stencil thickness: 0.08mm</text>
+<rectangle x1="-2.55" y1="1.1" x2="-2.05" y2="1.6" layer="31"/>
+<rectangle x1="-1.73" y1="1.1" x2="-1.23" y2="1.6" layer="31"/>
+<rectangle x1="1.23" y1="1.245" x2="2.55" y2="1.655" layer="31"/>
+<rectangle x1="1.23" y1="0.395" x2="2.55" y2="0.805" layer="31"/>
+<rectangle x1="-2.55" y1="-1.655" x2="-1.23" y2="-1.245" layer="31" rot="R180"/>
+<rectangle x1="-2.55" y1="-0.805" x2="-1.23" y2="-0.395" layer="31" rot="R180"/>
+<rectangle x1="1.23" y1="-1.6" x2="2.55" y2="-1.1" layer="31"/>
+</package>
+<package name="WE-STST_74930100" urn="urn:adsk.eagle:footprint:14998826/4">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
 &lt;/B&gt;&lt;BR&gt;10/100/1000 Base-T, 10/100 Base-T1
 &lt;BR&gt;Max Height = 2.9 mm</description>
@@ -225,47 +273,17 @@ Copyright: Würth Elektronik</description>
 <vertex x="2.8" y="-1.9"/>
 <vertex x="-2.8" y="-1.9"/>
 </polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.59" y="1.555"/>
-<vertex x="-2.59" y="1.145"/>
-<vertex x="-1.39" y="1.145"/>
-<vertex x="-1.39" y="1.555"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.39" y="1.655"/>
-<vertex x="1.39" y="1.245"/>
-<vertex x="2.59" y="1.245"/>
-<vertex x="2.59" y="1.655"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.39" y="0.805"/>
-<vertex x="1.39" y="0.395"/>
-<vertex x="2.59" y="0.395"/>
-<vertex x="2.59" y="0.805"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.39" y="-1.655"/>
-<vertex x="-1.39" y="-1.245"/>
-<vertex x="-2.59" y="-1.245"/>
-<vertex x="-2.59" y="-1.655"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.39" y="-0.805"/>
-<vertex x="-1.39" y="-0.395"/>
-<vertex x="-2.59" y="-0.395"/>
-<vertex x="-2.59" y="-0.805"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="2.59" y="-1.6"/>
-<vertex x="2.59" y="-1.1"/>
-<vertex x="1.39" y="-1.1"/>
-<vertex x="1.39" y="-1.6"/>
-</polygon>
 <text x="0" y="2.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="-2.3" size="0.254" layer="51" align="bottom-center">Suggested stencil thickness: 0.08mm</text>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="21"/>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="51"/>
+<rectangle x1="-2.59" y1="1.1" x2="-1.39" y2="1.6" layer="31"/>
+<rectangle x1="1.39" y1="1.245" x2="2.59" y2="1.655" layer="31"/>
+<rectangle x1="1.39" y1="0.395" x2="2.59" y2="0.805" layer="31"/>
+<rectangle x1="1.39" y1="-1.6" x2="2.59" y2="-1.1" layer="31"/>
+<rectangle x1="-2.59" y1="-0.805" x2="-1.39" y2="-0.395" layer="31"/>
+<rectangle x1="-2.59" y1="-1.655" x2="-1.39" y2="-1.245" layer="31"/>
 </package>
 <package name="WE-STST_749302011" urn="urn:adsk.eagle:footprint:14998827/4">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
@@ -296,78 +314,49 @@ Copyright: Würth Elektronik</description>
 <circle x="-3" y="-1.7" radius="0.1" width="0.2" layer="21"/>
 <circle x="-3" y="-1.7" radius="0.1" width="0.2" layer="51"/>
 </package>
-<package name="WE-STST_74930100_PODL" urn="urn:adsk.eagle:footprint:21123186/2">
+<package name="WE-STST_74930100_PODL" urn="urn:adsk.eagle:footprint:21123186/3">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
 &lt;br&gt;&lt;/b&gt;This package is suggested for Power over Data Lines (PoDL) and 10Base-T1 applications.
 &lt;br&gt;
 &lt;/B&gt;&lt;BR&gt;10G Base-T, 1000 Base-T1
 &lt;BR&gt;Max Height = 2.9 mm</description>
-<smd name="1" x="-1.99" y="-1.35" dx="1.2" dy="0.41" layer="1"/>
-<smd name="2" x="-1.99" y="-0.7" dx="1.2" dy="0.41" layer="1"/>
-<smd name="7" x="1.99" y="1.35" dx="1.2" dy="0.41" layer="1"/>
-<smd name="6" x="1.99" y="0.7" dx="1.2" dy="0.41" layer="1"/>
-<smd name="5" x="1.99" y="-1.35" dx="1.2" dy="0.5" layer="1"/>
-<smd name="3" x="-2.39" y="1.35" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-1.59" y="1.35" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-1.89" y="-1.35" dx="1.32" dy="0.41" layer="1" cream="no"/>
+<smd name="2" x="-1.89" y="-0.7" dx="1.32" dy="0.41" layer="1" cream="no"/>
+<smd name="7" x="1.89" y="1.35" dx="1.32" dy="0.41" layer="1" cream="no"/>
+<smd name="6" x="1.89" y="0.7" dx="1.32" dy="0.41" layer="1" cream="no"/>
+<smd name="5" x="1.89" y="-1.35" dx="1.32" dy="0.5" layer="1" cream="no"/>
+<smd name="3" x="-2.3" y="1.35" dx="0.5" dy="0.5" layer="1" cream="no"/>
+<smd name="4" x="-1.48" y="1.35" dx="0.5" dy="0.5" layer="1" cream="no"/>
 <wire x1="-2.35" y1="1.61" x2="2.35" y2="1.61" width="0.1" layer="51"/>
 <wire x1="2.35" y1="1.61" x2="2.35" y2="-1.61" width="0.1" layer="51"/>
 <wire x1="2.35" y1="-1.61" x2="-2.35" y2="-1.61" width="0.1" layer="51"/>
 <wire x1="-2.35" y1="-1.61" x2="-2.35" y2="1.61" width="0.1" layer="51"/>
-<wire x1="-1.09" y1="1.71" x2="1.09" y2="1.71" width="0.2" layer="21"/>
-<wire x1="1.09" y1="-1.71" x2="-1.09" y2="-1.71" width="0.2" layer="21"/>
+<wire x1="-0.93" y1="1.71" x2="0.93" y2="1.71" width="0.2" layer="21"/>
+<wire x1="0.93" y1="-1.71" x2="-0.93" y2="-1.71" width="0.2" layer="21"/>
 <wire x1="2.45" y1="-0.8" x2="2.45" y2="0.195" width="0.2" layer="21"/>
 <wire x1="-2.45" y1="0.8" x2="-2.45" y2="-0.195" width="0.2" layer="21"/>
 <polygon width="0.1" layer="39">
-<vertex x="-2.8" y="1.9"/>
-<vertex x="2.8" y="1.9"/>
-<vertex x="2.8" y="-1.8"/>
-<vertex x="2.8" y="-1.9"/>
-<vertex x="-2.8" y="-1.9"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-1.69" y="1.1"/>
-<vertex x="-1.39" y="1.1"/>
-<vertex x="-1.39" y="1.6"/>
-<vertex x="-1.82" y="1.6"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-2.19" y="1.6"/>
-<vertex x="-2.59" y="1.6"/>
-<vertex x="-2.59" y="1.1"/>
-<vertex x="-2.16" y="1.1"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.945" y="1.7"/>
-<vertex x="-1.29" y="1.7"/>
-<vertex x="-1.29" y="1"/>
-<vertex x="-1.765" y="1"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-2.69" y="1.7"/>
-<vertex x="-2.095" y="1.7"/>
-<vertex x="-2.055" y="1"/>
-<vertex x="-2.69" y="1"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.69" y="1.1"/>
-<vertex x="-1.39" y="1.1"/>
-<vertex x="-1.39" y="1.6"/>
-<vertex x="-1.82" y="1.6"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.19" y="1.6"/>
-<vertex x="-2.59" y="1.6"/>
-<vertex x="-2.59" y="1.1"/>
-<vertex x="-2.16" y="1.1"/>
+<vertex x="-2.7" y="1.9"/>
+<vertex x="2.7" y="1.9"/>
+<vertex x="2.7" y="-1.9"/>
+<vertex x="-2.7" y="-1.9"/>
 </polygon>
 <text x="0" y="2.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="-2.3" size="0.254" layer="51" align="bottom-center">Suggested stencil thickness: 0.08mm</text>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="21"/>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="51"/>
+<rectangle x1="-2.55" y1="1.1" x2="-2.05" y2="1.6" layer="31"/>
+<rectangle x1="-1.73" y1="1.1" x2="-1.23" y2="1.6" layer="31"/>
+<rectangle x1="1.23" y1="1.245" x2="2.55" y2="1.655" layer="31"/>
+<rectangle x1="1.23" y1="0.395" x2="2.55" y2="0.805" layer="31"/>
+<rectangle x1="-2.55" y1="-1.655" x2="-1.23" y2="-1.245" layer="31" rot="R180"/>
+<rectangle x1="-2.55" y1="-0.805" x2="-1.23" y2="-0.395" layer="31" rot="R180"/>
+<rectangle x1="1.23" y1="-1.6" x2="2.55" y2="-1.1" layer="31"/>
 </package>
-<package name="WE-STST_74930030" urn="urn:adsk.eagle:footprint:20107881/2">
+<package name="WE-STST_74930130" urn="urn:adsk.eagle:footprint:20107882/2">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
-&lt;/B&gt;&lt;BR&gt; 10/100/1GBase-T
+&lt;/B&gt;&lt;BR&gt;10/100/1G/10GBase-T
 &lt;BR&gt;Max Height = 2.9 mm</description>
 <smd name="1" x="-1.99" y="-1.35" dx="1.2" dy="0.41" layer="1"/>
 <smd name="2" x="-1.99" y="-0.7" dx="1.2" dy="0.41" layer="1"/>
@@ -396,9 +385,9 @@ Copyright: Würth Elektronik</description>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="21"/>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="51"/>
 </package>
-<package name="WE-STST_74930130" urn="urn:adsk.eagle:footprint:20107882/2">
+<package name="WE-STST_74930030" urn="urn:adsk.eagle:footprint:20107881/2">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
-&lt;/B&gt;&lt;BR&gt;10/100/1G/10GBase-T
+&lt;/B&gt;&lt;BR&gt; 10/100/1GBase-T
 &lt;BR&gt;Max Height = 2.9 mm</description>
 <smd name="1" x="-1.99" y="-1.35" dx="1.2" dy="0.41" layer="1"/>
 <smd name="2" x="-1.99" y="-0.7" dx="1.2" dy="0.41" layer="1"/>
@@ -458,104 +447,9 @@ Copyright: Würth Elektronik</description>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="21"/>
 <circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="51"/>
 </package>
-<package name="WE-STST_74930000_PODL" urn="urn:adsk.eagle:footprint:21123187/2">
-<description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
-&lt;br&gt;&lt;/b&gt;This package is suggested for Power over Data Lines (PoDL) and 10Base-T1 applications.
-&lt;br&gt;
-&lt;/B&gt;&lt;BR&gt;10/100/1000 Base-T, 10/100 Base-T1
-&lt;BR&gt;Max Height = 2.9 mm</description>
-<smd name="1" x="-1.99" y="-1.35" dx="1.2" dy="0.41" layer="1" cream="no"/>
-<smd name="2" x="-1.99" y="-0.7" dx="1.2" dy="0.41" layer="1" cream="no"/>
-<smd name="7" x="1.99" y="1.35" dx="1.2" dy="0.41" layer="1" cream="no"/>
-<smd name="6" x="1.99" y="0.7" dx="1.2" dy="0.41" layer="1" cream="no"/>
-<smd name="5" x="1.99" y="-1.35" dx="1.2" dy="0.5" layer="1" cream="no"/>
-<smd name="3" x="-2.39" y="1.35" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-1.59" y="1.35" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
-<wire x1="-2.35" y1="1.61" x2="2.35" y2="1.61" width="0.1" layer="51"/>
-<wire x1="2.35" y1="1.61" x2="2.35" y2="-1.61" width="0.1" layer="51"/>
-<wire x1="2.35" y1="-1.61" x2="-2.35" y2="-1.61" width="0.1" layer="51"/>
-<wire x1="-2.35" y1="-1.61" x2="-2.35" y2="1.61" width="0.1" layer="51"/>
-<wire x1="-1.09" y1="1.71" x2="1.09" y2="1.71" width="0.2" layer="21"/>
-<wire x1="1.09" y1="-1.71" x2="-1.09" y2="-1.71" width="0.2" layer="21"/>
-<wire x1="2.45" y1="-0.8" x2="2.45" y2="0.195" width="0.2" layer="21"/>
-<wire x1="-2.45" y1="0.8" x2="-2.45" y2="-0.195" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-2.8" y="1.9"/>
-<vertex x="2.8" y="1.9"/>
-<vertex x="2.8" y="-1.8"/>
-<vertex x="2.8" y="-1.9"/>
-<vertex x="-2.8" y="-1.9"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-1.69" y="1.1"/>
-<vertex x="-1.39" y="1.1"/>
-<vertex x="-1.39" y="1.6"/>
-<vertex x="-1.82" y="1.6"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-2.19" y="1.6"/>
-<vertex x="-2.59" y="1.6"/>
-<vertex x="-2.59" y="1.1"/>
-<vertex x="-2.16" y="1.1"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.945" y="1.7"/>
-<vertex x="-1.29" y="1.7"/>
-<vertex x="-1.29" y="1"/>
-<vertex x="-1.765" y="1"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-2.69" y="1.7"/>
-<vertex x="-2.095" y="1.7"/>
-<vertex x="-2.055" y="1"/>
-<vertex x="-2.69" y="1"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.59" y="1.555"/>
-<vertex x="-2.59" y="1.145"/>
-<vertex x="-1.39" y="1.145"/>
-<vertex x="-1.39" y="1.555"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.39" y="1.655"/>
-<vertex x="1.39" y="1.245"/>
-<vertex x="2.59" y="1.245"/>
-<vertex x="2.59" y="1.655"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.39" y="0.805"/>
-<vertex x="1.39" y="0.395"/>
-<vertex x="2.59" y="0.395"/>
-<vertex x="2.59" y="0.805"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.39" y="-1.655"/>
-<vertex x="-1.39" y="-1.245"/>
-<vertex x="-2.59" y="-1.245"/>
-<vertex x="-2.59" y="-1.655"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.39" y="-0.805"/>
-<vertex x="-1.39" y="-0.395"/>
-<vertex x="-2.59" y="-0.395"/>
-<vertex x="-2.59" y="-0.805"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="2.59" y="-1.6"/>
-<vertex x="2.59" y="-1.1"/>
-<vertex x="1.39" y="-1.1"/>
-<vertex x="1.39" y="-1.6"/>
-</polygon>
-<circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="21"/>
-<circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="51"/>
-<circle x="-3.2" y="-1.4" radius="0.1" width="0.2" layer="51"/>
-<text x="0" y="2.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="0" y="-2.3" size="0.254" layer="51" align="bottom-center">Suggested stencil thickness: 0.08mm</text>
-</package>
 </packages>
 <packages3d>
-<package3d name="WE-STST_74930000" urn="urn:adsk.eagle:package:14998834/5" type="model">
+<package3d name="WE-STST_74930000" urn="urn:adsk.eagle:package:14998834/6" type="model">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
 &lt;/B&gt;&lt;BR&gt;10/100/1000 Base-T, 10/100 Base-T1
 &lt;BR&gt;Max Height = 2.9 mm</description>
@@ -563,12 +457,14 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WE-STST_74930000"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-STST_74930100" urn="urn:adsk.eagle:package:14998831/5" type="model">
+<package3d name="WE-STST_74930000_PODL" urn="urn:adsk.eagle:package:21123189/4" type="model">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
+&lt;br&gt;&lt;/b&gt;This package is suggested for Power over Data Lines (PoDL) and 10Base-T1 applications.
+&lt;br&gt;
 &lt;/B&gt;&lt;BR&gt;10/100/1000 Base-T, 10/100 Base-T1
 &lt;BR&gt;Max Height = 2.9 mm</description>
 <packageinstances>
-<packageinstance name="WE-STST_74930100"/>
+<packageinstance name="WE-STST_74930000_PODL"/>
 </packageinstances>
 </package3d>
 <package3d name="WE-STST_749302010" urn="urn:adsk.eagle:package:14998833/5" type="model">
@@ -586,7 +482,15 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WE-STST_749302011"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-STST_74930100_PODL" urn="urn:adsk.eagle:package:21123188/3" type="model">
+<package3d name="WE-STST_74930100" urn="urn:adsk.eagle:package:14998831/6" type="model">
+<description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
+&lt;/B&gt;&lt;BR&gt;10/100/1000 Base-T, 10/100 Base-T1
+&lt;BR&gt;Max Height = 2.9 mm</description>
+<packageinstances>
+<packageinstance name="WE-STST_74930100"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-STST_74930100_PODL" urn="urn:adsk.eagle:package:21123188/4" type="model">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
 &lt;br&gt;&lt;/b&gt;This package is suggested for Power over Data Lines (PoDL) and 10Base-T1 applications.
 &lt;br&gt;
@@ -594,14 +498,6 @@ Copyright: Würth Elektronik</description>
 &lt;BR&gt;Max Height = 2.9 mm</description>
 <packageinstances>
 <packageinstance name="WE-STST_74930100_PODL"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-STST_74930030" urn="urn:adsk.eagle:package:20107884/3" type="model">
-<description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
-&lt;/B&gt;&lt;BR&gt; 10/100/1GBase-T
-&lt;BR&gt;Max Height = 2.9 mm</description>
-<packageinstances>
-<packageinstance name="WE-STST_74930030"/>
 </packageinstances>
 </package3d>
 <package3d name="WE-STST_74930130" urn="urn:adsk.eagle:package:20107885/3" type="model">
@@ -612,22 +508,20 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WE-STST_74930130"/>
 </packageinstances>
 </package3d>
+<package3d name="WE-STST_74930030" urn="urn:adsk.eagle:package:20107884/3" type="model">
+<description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
+&lt;/B&gt;&lt;BR&gt; 10/100/1GBase-T
+&lt;BR&gt;Max Height = 2.9 mm</description>
+<packageinstances>
+<packageinstance name="WE-STST_74930030"/>
+</packageinstances>
+</package3d>
 <package3d name="WE-STST_74930120" urn="urn:adsk.eagle:package:20107883/3" type="model">
 <description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
 &lt;/B&gt;&lt;BR&gt;10/100/1G/10GBase-T 
 &lt;BR&gt;Max Height = 2.9 mm</description>
 <packageinstances>
 <packageinstance name="WE-STST_74930120"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-STST_74930000_PODL" urn="urn:adsk.eagle:package:21123189/3" type="model">
-<description>&lt;B&gt;WE-STST Super Tiny Signal Transformer
-&lt;br&gt;&lt;/b&gt;This package is suggested for Power over Data Lines (PoDL) and 10Base-T1 applications.
-&lt;br&gt;
-&lt;/B&gt;&lt;BR&gt;10/100/1000 Base-T, 10/100 Base-T1
-&lt;BR&gt;Max Height = 2.9 mm</description>
-<packageinstances>
-<packageinstance name="WE-STST_74930000_PODL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -700,7 +594,7 @@ Copyright: Würth Elektronik</description>
 &lt;img src="https://www.we-online.com/components/media/o156816v209%20Family_WE-STST.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-STST&lt;/a&gt;&lt;p&gt;
 
-&lt;/b&gt;Updated by Ella Wu  2023-12-25&lt;br&gt;
+&lt;/b&gt;Updated by Ella Wu  2025-12-05&lt;br&gt;
 &lt;/b&gt;2023(C) Wurth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="WE-STST_4532" x="0" y="0"/>
@@ -717,17 +611,24 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_mod
 <connect gate="G$1" pin="7" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14998834/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14998834/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="APPLICATION" value="Ethernet, Single Pair Ethernet"/>
 <attribute name="DATA-RATE" value="10/100/1000 Base-T, 10/100 Base-T1"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74930000.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74930000?ae"/>
+<attribute name="HEIGHT" value="2.9mm"/>
 <attribute name="L" value="350uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
 <attribute name="PART-NUMBER" value=" 74930000 "/>
+<attribute name="SIZE" value=" 4532 "/>
 <attribute name="TURNS-RATIO" value="1:1"/>
-<attribute name="VT" value="1500  V (RMS) "/>
+<attribute name="VALUE" value=" 74930000 "/>
+<attribute name="VT" value="1500VRMS"/>
+<attribute name="WIDTH" value="3.22mm"/>
 </technology>
 </technologies>
 </device>
@@ -746,12 +647,19 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_mod
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749302010.pdf"/>
+<attribute name="APPLICATION" value="Short distance sensing at high frequency"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749302010?ae"/>
+<attribute name="HEIGHT" value="2.9mm"/>
 <attribute name="L" value="300uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
 <attribute name="PART-NUMBER" value=" 749302010 "/>
+<attribute name="SIZE" value=" 4532 "/>
 <attribute name="TURNS-RATIO" value="1:4.5:4.5:1"/>
-<attribute name="VT" value="400  V (RMS) "/>
+<attribute name="VALUE" value=" 749302010 "/>
+<attribute name="VT" value="400VRMS"/>
+<attribute name="WIDTH" value="3.22mm"/>
 </technology>
 </technologies>
 </device>
@@ -770,12 +678,19 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_mod
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/749302011.pdf"/>
+<attribute name="APPLICATION" value="Long distance sensing at low frequency"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/749302011?ae"/>
+<attribute name="HEIGHT" value="2.9mm"/>
 <attribute name="L" value="2000uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
 <attribute name="PART-NUMBER" value=" 749302011 "/>
+<attribute name="SIZE" value=" 4532 "/>
 <attribute name="TURNS-RATIO" value="1:4.5:4.5:1"/>
-<attribute name="VT" value="400  V (RMS) "/>
+<attribute name="VALUE" value=" 749302011 "/>
+<attribute name="VT" value="400VRMS"/>
+<attribute name="WIDTH" value="3.22mm"/>
 </technology>
 </technologies>
 </device>
@@ -790,17 +705,24 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_mod
 <connect gate="G$1" pin="7" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14998831/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14998831/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="APPLICATION" value="Ethernet, Single Pair Ethernet"/>
 <attribute name="DATA-RATE" value="10G Base-T, 1000 Base-T1"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74930100.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74930100?ae"/>
+<attribute name="HEIGHT" value="2.9mm"/>
 <attribute name="L" value="120uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
 <attribute name="PART-NUMBER" value=" 74930100 "/>
+<attribute name="SIZE" value=" 4532 "/>
 <attribute name="TURNS-RATIO" value="1:1"/>
-<attribute name="VT" value="1500  V (RMS) "/>
+<attribute name="VALUE" value=" 74930100 "/>
+<attribute name="VT" value="1500VRMS"/>
+<attribute name="WIDTH" value="3.22mm"/>
 </technology>
 </technologies>
 </device>
@@ -815,17 +737,24 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_mod
 <connect gate="G$1" pin="7" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21123189/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21123189/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="APPLICATION" value="Ethernet, Single Pair Ethernet"/>
 <attribute name="DATA-RATE" value="10/100/1000 Base-T, 10/100 Base-T1"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74930000.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74930000?ae"/>
+<attribute name="HEIGHT" value="2.9mm"/>
 <attribute name="L" value="350uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
 <attribute name="PART-NUMBER" value=" 74930000 "/>
+<attribute name="SIZE" value=" 4532 "/>
 <attribute name="TURNS-RATIO" value="1:1"/>
-<attribute name="VT" value="1500  V (RMS) "/>
+<attribute name="VALUE" value=" 74930000 "/>
+<attribute name="VT" value="1500VRMS"/>
+<attribute name="WIDTH" value="3.22mm"/>
 </technology>
 </technologies>
 </device>
@@ -840,17 +769,24 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_mod
 <connect gate="G$1" pin="7" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21123188/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21123188/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="APPLICATION" value="Ethernet, Single Pair Ethernet"/>
 <attribute name="DATA-RATE" value="10G Base-T, 1000 Base-T1"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74930100.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74930100?ae"/>
+<attribute name="HEIGHT" value="2.9mm"/>
 <attribute name="L" value="120uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
 <attribute name="PART-NUMBER" value=" 74930100 "/>
+<attribute name="SIZE" value=" 4532 "/>
 <attribute name="TURNS-RATIO" value="1:1"/>
-<attribute name="VT" value="1500  V (RMS) "/>
+<attribute name="VALUE" value=" 74930100 "/>
+<attribute name="VT" value="1500VRMS"/>
+<attribute name="WIDTH" value="3.22mm"/>
 </technology>
 </technologies>
 </device>
@@ -869,13 +805,21 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_mod
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="APPLICATION" value="Ethernet, PoE"/>
 <attribute name="DATA-RATE" value="10/100/1GBase-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74930030.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74930030?ae"/>
+<attribute name="HEIGHT" value="2.9mm"/>
 <attribute name="L" value="350uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
 <attribute name="PART-NUMBER" value=" 74930030 "/>
+<attribute name="POE" value="PoE (up to 350 mA)"/>
+<attribute name="SIZE" value=" 4532 "/>
 <attribute name="TURNS-RATIO" value="1:1"/>
-<attribute name="VT" value="1500  V (RMS) "/>
+<attribute name="VALUE" value=" 74930030 "/>
+<attribute name="VT" value="1500VRMS"/>
+<attribute name="WIDTH" value="3.22mm"/>
 </technology>
 </technologies>
 </device>
@@ -894,13 +838,21 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_mod
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="APPLICATION" value="Ethernet, PoE"/>
 <attribute name="DATA-RATE" value="10/100/1G/10GBase-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74930130.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74930130?ae"/>
+<attribute name="HEIGHT" value="2.9mm"/>
 <attribute name="L" value="110uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
 <attribute name="PART-NUMBER" value=" 74930130 "/>
+<attribute name="POE" value="PoE (up to 350 mA)"/>
+<attribute name="SIZE" value=" 4532 "/>
 <attribute name="TURNS-RATIO" value="1:1"/>
-<attribute name="VT" value="1500  V (RMS) "/>
+<attribute name="VALUE" value=" 74930130 "/>
+<attribute name="VT" value="1500VRMS"/>
+<attribute name="WIDTH" value="3.22mm"/>
 </technology>
 </technologies>
 </device>
@@ -919,13 +871,21 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-STST/?utm_source=eagle_mod
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="APPLICATION" value="Ethernet, PoE+"/>
 <attribute name="DATA-RATE" value="10/100/1G/10GBase-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74930120.pdf"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74930120?ae"/>
+<attribute name="HEIGHT" value="2.9mm"/>
 <attribute name="L" value="110uH"/>
+<attribute name="LENGTH" value="4.7mm"/>
 <attribute name="MOUNT" value="SMT"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
 <attribute name="PART-NUMBER" value=" 74930120 "/>
+<attribute name="POE" value="PoE+ (up to 600 mA)"/>
+<attribute name="SIZE" value=" 4532 "/>
 <attribute name="TURNS-RATIO" value="1:1"/>
-<attribute name="VT" value="1500  V (RMS) "/>
+<attribute name="VALUE" value=" 74930120 "/>
+<attribute name="VT" value="1500VRMS"/>
+<attribute name="WIDTH" value="3.22mm"/>
 </technology>
 </technologies>
 </device>
