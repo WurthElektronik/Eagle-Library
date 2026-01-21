@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -78,8 +78,8 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - Power Magnetics - Single Coil Power Inductors - WE-GF&lt;br&gt;&lt;Hr&gt;
-
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Unshielded Power Inductors - WE-GF&lt;br&gt;
+&lt;Hr&gt;
 &lt;BR&gt;
 &lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
 &lt;TR&gt;   
@@ -141,21 +141,25 @@ Fax:+49 (0)7942-945-5000&lt;br&gt;
 &lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
 &lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
 &lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2026a, 2026-01-20&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-GF_1210" urn="urn:adsk.eagle:footprint:13010103/1">
-<description>&lt;br&gt;&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-GF SMD Wire Wound Inductor&lt;br&gt;&lt;/b&gt;
-&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1210</description>
+<package name="WE-GF_3225" urn="urn:adsk.eagle:footprint:13010103/2">
+<description>&lt;b&gt;WE-GF SMT Wire Wound Inductor&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Size: 3225, SMT, 2pins
+&lt;br&gt;LXWXH = 3.2X2.5X2.2mm</description>
 <smd name="1" x="-1.4" y="0" dx="1" dy="1.4" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1" dy="1.4" layer="1"/>
-<text x="-1.7875" y="-2.3625" size="0.6096" layer="27">&gt;VALUE</text>
-<text x="0.0525" y="1.8975" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <polygon width="0.1" layer="39">
 <vertex x="-2.1" y="1.55"/>
 <vertex x="2.1" y="1.55"/>
@@ -173,9 +177,10 @@ Copyright: Würth Elektronik</description>
 <wire x1="-1.7" y1="-1.35" x2="1.7" y2="-1.35" width="0.2" layer="21"/>
 <wire x1="1.7" y1="-1.35" x2="1.7" y2="-1" width="0.2" layer="21"/>
 </package>
-<package name="WE-GF_1812" urn="urn:adsk.eagle:footprint:13010102/1">
-<description>&lt;br&gt;&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-GF SMD Wire Wound Inductor&lt;br&gt;&lt;/b&gt;
-&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1812</description>
+<package name="WE-GF_4532" urn="urn:adsk.eagle:footprint:13010102/2">
+<description>&lt;b&gt;WE-GF SMT Wire Wound Inductor&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Size: 4532, SMT, 2pins
+&lt;br&gt;LXWXH = 4.5X3.2X3.2mm</description>
 <wire x1="-2.25" y1="1.6" x2="-2.25" y2="-1.6" width="0.1" layer="51"/>
 <wire x1="-2.25" y1="-1.6" x2="2.25" y2="-1.6" width="0.1" layer="51"/>
 <wire x1="2.25" y1="-1.6" x2="2.25" y2="1.6" width="0.1" layer="51"/>
@@ -188,702 +193,1090 @@ Copyright: Würth Elektronik</description>
 <wire x1="2.35" y1="-1.7" x2="2.35" y2="-1.1" width="0.2" layer="21"/>
 <smd name="1" x="-1.85" y="0" dx="1.5" dy="1.6" layer="1"/>
 <smd name="2" x="1.85" y="0" dx="1.5" dy="1.6" layer="1"/>
-<text x="-1.6875" y="-2.6775" size="0.6096" layer="27">&gt;VALUE</text>
-<text x="-0.0875" y="2.2425" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
 <polygon width="0.1" layer="39">
 <vertex x="-2.8" y="1.9"/>
 <vertex x="2.8" y="1.9"/>
 <vertex x="2.8" y="-1.9"/>
 <vertex x="-2.8" y="-1.9"/>
 </polygon>
+<text x="0" y="-3.8" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="WE-GF_1812" urn="urn:adsk.eagle:package:13010105/2" type="model">
-<description>&lt;br&gt;&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-GF SMD Wire Wound Inductor&lt;br&gt;&lt;/b&gt;
-&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1812</description>
+<package3d name="WE-GF_3225" urn="urn:adsk.eagle:package:13010106/4" type="model">
+<description>&lt;b&gt;WE-GF SMT Wire Wound Inductor&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Size: 3225, SMT, 2pins
+&lt;br&gt;LXWXH = 3.2X2.5X2.2mm</description>
 <packageinstances>
-<packageinstance name="WE-GF_1812"/>
+<packageinstance name="WE-GF_3225"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-GF_1210" urn="urn:adsk.eagle:package:13010106/2" type="model">
-<description>&lt;br&gt;&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-GF SMD Wire Wound Inductor&lt;br&gt;&lt;/b&gt;
-&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1210</description>
+<package3d name="WE-GF_4532" urn="urn:adsk.eagle:package:13010105/4" type="model">
+<description>&lt;b&gt;WE-GF SMT Wire Wound Inductor&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;Size: 4532, SMT, 2pins
+&lt;br&gt;LXWXH = 4.5X3.2X3.2mm</description>
 <packageinstances>
-<packageinstance name="WE-GF_1210"/>
+<packageinstance name="WE-GF_4532"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="L">
+<symbol name="L_GAP">
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-GF_1210" prefix="L">
-<description>&lt;b&gt;WE-GF SMD Wire Wound Inductor
-&lt;br&gt;
+<deviceset name="WE-GF_3225" prefix="L">
+<description>&lt;b&gt;WE-GF SMT Wire Wound Inductor
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;/b&gt;
 &lt;br&gt;Wire wound on ferrite
 &lt;br&gt;Operating temperature: –40°C to +105°C
-&lt;br&gt;High resistance against dampness
 &lt;br&gt;Recommended soldering profile: Reflow
 &lt;br&gt;5% tolerance is available on request
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt; Applications
 &lt;br&gt;
-&lt;br&gt;&lt;/b&gt; RF circuits like tuner, transponder etc.
+&lt;br&gt;&lt;/b&gt;RF circuits like tuner, transponder etc.
 &lt;br&gt;RF amplifier circuits like antennas amplifier
-&lt;br&gt;Oscillator
+&lt;br&gt;Oscillators
 &lt;br&gt;Filter circuits
 &lt;br&gt;Amplification circuits
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14792v209%20Family_WE-GF_SMD-HF.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o14792v209%20Family_WE-GF_SMD-HF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14792v209%20multi-WE-GF-4532%20-7447660033.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14792v209%20multi-WE-GF-4532%20-7447660033.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 &lt;br&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-GF"&gt;https://katalog.we-online.com/en/pbs/WE-GF&lt;/a&gt;&lt;p&gt;
-&lt;br&gt;Updated by  Yingchun,Shan, 2019-07-04&lt;br&gt;
-&lt;br&gt;2019 (C) Wurth Elektronik</description>
+
+Details see: &lt;a href="www.we-online.com/catalog/WE-GF/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2026-01-20&lt;br&gt;
+2026 (C) Würth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WE-GF_1210">
+<device name="" package="WE-GF_3225">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010106/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010106/4"/>
 </package3dinstances>
 <technologies>
 <technology name="_744764002">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764002.pdf" constant="no"/>
-<attribute name="FRES" value="751MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764002 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.32Ohm" constant="no"/>
-<attribute name="VALUE" value="0.22uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764002?ae"/>
+<attribute name="FRES" value="660MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="1.25A@40K"/>
+<attribute name="L" value="0.22uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764002 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="320mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="0.22uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_7447640027">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7447640027.pdf" constant="no"/>
-<attribute name="FRES" value="676MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 7447640027 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.36Ohm" constant="no"/>
-<attribute name="VALUE" value="0.27uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447640027?ae"/>
+<attribute name="FRES" value="630MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="1.2A@40K"/>
+<attribute name="L" value="0.27uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447640027 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="360mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="0.27uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764003">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764003.pdf" constant="no"/>
-<attribute name="FRES" value="580MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764003 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.45Ohm" constant="no"/>
-<attribute name="VALUE" value="0.39uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764003?ae"/>
+<attribute name="FRES" value="520MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="1.15A@40K"/>
+<attribute name="L" value="0.39uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764003 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="450mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="0.39uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_7447640033">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7447640033.pdf" constant="no"/>
-<attribute name="FRES" value="607MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 7447640033 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.4Ohm" constant="no"/>
-<attribute name="VALUE" value="0.33uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447640033?ae"/>
+<attribute name="FRES" value="580MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="1.15A@40K"/>
+<attribute name="L" value="0.33uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447640033 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="400mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="0.33uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764004">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764004.pdf" constant="no"/>
-<attribute name="FRES" value="526MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764004 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.5Ohm" constant="no"/>
-<attribute name="VALUE" value="0.47uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764004?ae"/>
+<attribute name="FRES" value="480MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="1A@40K"/>
+<attribute name="L" value="0.47uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764004 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="500mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="0.47uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764005">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764005.pdf" constant="no"/>
-<attribute name="FRES" value="499MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764005 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.55Ohm" constant="no"/>
-<attribute name="VALUE" value="0.56uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764005?ae"/>
+<attribute name="FRES" value="420MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="1A@40K"/>
+<attribute name="L" value="0.56uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764005 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="550mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="0.56uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764006">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764006.pdf" constant="no"/>
-<attribute name="FRES" value="423MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764006 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.6Ohm" constant="no"/>
-<attribute name="VALUE" value="0.68uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764006?ae"/>
+<attribute name="FRES" value="400MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.95A@40K"/>
+<attribute name="L" value="0.68uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764006 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="600mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="0.68uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_7447640082">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7447640082.pdf" constant="no"/>
-<attribute name="FRES" value="403MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 7447640082 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.65Ohm" constant="no"/>
-<attribute name="VALUE" value="0.82uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447640082?ae"/>
+<attribute name="FRES" value="370MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.95A@40K"/>
+<attribute name="L" value="0.82uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447640082 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="650mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="0.82uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_74476401">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476401.pdf" constant="no"/>
-<attribute name="FRES" value="380MHz" constant="no"/>
-<attribute name="IR" value="400mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476401 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.7Ohm" constant="no"/>
-<attribute name="VALUE" value="1uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476401?ae"/>
+<attribute name="FRES" value="340MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.9A@40K"/>
+<attribute name="L" value="1uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476401 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="700mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="1uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764012">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764012.pdf" constant="no"/>
-<attribute name="FRES" value="346MHz" constant="no"/>
-<attribute name="IR" value="390mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764012 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.75Ohm" constant="no"/>
-<attribute name="VALUE" value="1.2uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764012?ae"/>
+<attribute name="FRES" value="320MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.9A@40K"/>
+<attribute name="L" value="1.2uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764012 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="750mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="1.2uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764015">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764015.pdf" constant="no"/>
-<attribute name="FRES" value="254MHz" constant="no"/>
-<attribute name="IR" value="370mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764015 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.85Ohm" constant="no"/>
-<attribute name="VALUE" value="1.5uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764015?ae"/>
+<attribute name="FRES" value="250MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.85A@40K"/>
+<attribute name="L" value="1.5uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764015 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="850mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="1.5uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764018">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764018.pdf" constant="no"/>
-<attribute name="FRES" value="187MHz" constant="no"/>
-<attribute name="IR" value="350mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764018 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.9Ohm" constant="no"/>
-<attribute name="VALUE" value="1.8uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764018?ae"/>
+<attribute name="FRES" value="170MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.8A@40K"/>
+<attribute name="L" value="1.8uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764018 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="900mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="1.8uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_74476402">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476402.pdf" constant="no"/>
-<attribute name="FRES" value="138MHz" constant="no"/>
-<attribute name="IR" value="320mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476402 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="1Ohm" constant="no"/>
-<attribute name="VALUE" value="2.2uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476402?ae"/>
+<attribute name="FRES" value="100MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.75A@40K"/>
+<attribute name="L" value="2.2uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476402 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="1000mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764027">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764027.pdf" constant="no"/>
-<attribute name="FRES" value="100MHz" constant="no"/>
-<attribute name="IR" value="290mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764027 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="1.1Ohm" constant="no"/>
-<attribute name="VALUE" value="2.7uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764027?ae"/>
+<attribute name="FRES" value="80MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.75A@40K"/>
+<attribute name="L" value="2.7uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764027 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="1100mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="2.7uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_74476403">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476403.pdf" constant="no"/>
-<attribute name="FRES" value="72MHz" constant="no"/>
-<attribute name="IR" value="260mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476403 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="1.2Ohm" constant="no"/>
-<attribute name="VALUE" value="3.3uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476403?ae"/>
+<attribute name="FRES" value="60MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.7A@40K"/>
+<attribute name="L" value="3.3uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476403 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="1200mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="3.3uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764039">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764039.pdf" constant="no"/>
-<attribute name="FRES" value="66MHz" constant="no"/>
-<attribute name="IR" value="250mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764039 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="1.3Ohm" constant="no"/>
-<attribute name="VALUE" value="3.9uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764039?ae"/>
+<attribute name="FRES" value="50MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.65A@40K"/>
+<attribute name="L" value="3.9uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764039 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="1300mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="3.9uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_74476404">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476404.pdf" constant="no"/>
-<attribute name="FRES" value="58MHz" constant="no"/>
-<attribute name="IR" value="220mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476404 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="1.5Ohm" constant="no"/>
-<attribute name="VALUE" value="4.7uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476404?ae"/>
+<attribute name="FRES" value="45MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.6A@40K"/>
+<attribute name="L" value="4.7uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476404 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="1500mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_74476406">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476406.pdf" constant="no"/>
-<attribute name="FRES" value="48MHz" constant="no"/>
-<attribute name="IR" value="180mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476406 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="1.8Ohm" constant="no"/>
-<attribute name="VALUE" value="6.8uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476406?ae"/>
+<attribute name="FRES" value="38MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.55A@40K"/>
+<attribute name="L" value="6.8uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476406 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="1800mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="6.8uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_74476410">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476410.pdf" constant="no"/>
-<attribute name="FRES" value="40MHz" constant="no"/>
-<attribute name="IR" value="150mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476410 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="2.1Ohm" constant="no"/>
-<attribute name="VALUE" value="10uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476410?ae"/>
+<attribute name="FRES" value="32MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.5A@40K"/>
+<attribute name="L" value="10uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476410 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="2100mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="10uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764112">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764112.pdf" constant="no"/>
-<attribute name="FRES" value="36MHz" constant="no"/>
-<attribute name="IR" value="140mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764112 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="2.5Ohm" constant="no"/>
-<attribute name="VALUE" value="12uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764112?ae"/>
+<attribute name="FRES" value="28MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.45A@40K"/>
+<attribute name="L" value="12uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764112 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="2500mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="12uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764115">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764115.pdf" constant="no"/>
-<attribute name="FRES" value="31MHz" constant="no"/>
-<attribute name="IR" value="130mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764115 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="2.8Ohm" constant="no"/>
-<attribute name="VALUE" value="15uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764115?ae"/>
+<attribute name="FRES" value="26MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.4A@40K"/>
+<attribute name="L" value="15uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764115 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="2800mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="15uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764118">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764118.pdf" constant="no"/>
-<attribute name="FRES" value="28MHz" constant="no"/>
-<attribute name="IR" value="120mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764118 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="3.3Ohm" constant="no"/>
-<attribute name="VALUE" value="18uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764118?ae"/>
+<attribute name="FRES" value="23MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.4A@40K"/>
+<attribute name="L" value="18uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764118 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="3300mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="18uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764122">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764122.pdf" constant="no"/>
-<attribute name="FRES" value="25MHz" constant="no"/>
-<attribute name="IR" value="110mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764122 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="3.7Ohm" constant="no"/>
-<attribute name="VALUE" value="22uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764122?ae"/>
+<attribute name="FRES" value="20MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.35A@40K"/>
+<attribute name="L" value="22uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764122 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="3700mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="22uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764133">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764133.pdf" constant="no"/>
-<attribute name="FRES" value="20MHz" constant="no"/>
-<attribute name="IR" value="70mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764133 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="5.6Ohm" constant="no"/>
-<attribute name="VALUE" value="33uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764133?ae"/>
+<attribute name="FRES" value="17MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.3A@40K"/>
+<attribute name="L" value="33uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764133 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="5600mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="33uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764139">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764139.pdf" constant="no"/>
-<attribute name="FRES" value="19MHz" constant="no"/>
-<attribute name="IR" value="65mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764139 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="6.4Ohm" constant="no"/>
-<attribute name="VALUE" value="39uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764139?ae"/>
+<attribute name="FRES" value="16MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.3A@40K"/>
+<attribute name="L" value="39uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764139 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="6400mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="39uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764147">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764147.pdf" constant="no"/>
-<attribute name="FRES" value="17MHz" constant="no"/>
-<attribute name="IR" value="60mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764147 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="7Ohm" constant="no"/>
-<attribute name="VALUE" value="47uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764147?ae"/>
+<attribute name="FRES" value="15MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.25A@40K"/>
+<attribute name="L" value="47uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764147 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="7000mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="47uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764156">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764156.pdf" constant="no"/>
-<attribute name="FRES" value="16MHz" constant="no"/>
-<attribute name="IR" value="55mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764156 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="8Ohm" constant="no"/>
-<attribute name="VALUE" value="56uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764156?ae"/>
+<attribute name="FRES" value="14MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.25A@40K"/>
+<attribute name="L" value="56uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764156 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="8000mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="56uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_744764168">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744764168.pdf" constant="no"/>
-<attribute name="FRES" value="14MHz" constant="no"/>
-<attribute name="IR" value="50mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744764168 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="9Ohm" constant="no"/>
-<attribute name="VALUE" value="68uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744764168?ae"/>
+<attribute name="FRES" value="12.5MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.2A@40K"/>
+<attribute name="L" value="68uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744764168 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="9000mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="68uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 <technology name="_74476420">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476420.pdf" constant="no"/>
-<attribute name="FRES" value="12MHz" constant="no"/>
-<attribute name="IR" value="40mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476420 " constant="no"/>
-<attribute name="Q" value=" 20 " constant="no"/>
-<attribute name="RDC" value="11Ohm" constant="no"/>
-<attribute name="VALUE" value="100uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476420?ae"/>
+<attribute name="FRES" value="11MHz"/>
+<attribute name="HEIGHT" value="2.2mm"/>
+<attribute name="IRP" value="0.2A@40K"/>
+<attribute name="L" value="100uH"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476420 "/>
+<attribute name="Q" value="20%"/>
+<attribute name="RDC-MAX" value="11000mohm"/>
+<attribute name="SIZE" value="3225"/>
+<attribute name="VALUE" value="100uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WE-GF_1812" prefix="L">
-<description>&lt;b&gt;WE-GF SMD Wire Wound Inductor
-&lt;br&gt;
+<deviceset name="WE-GF_4532" prefix="L">
+<description>&lt;b&gt;WE-GF SMT Wire Wound Inductor
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt;Characteristics&lt;br&gt;&lt;/b&gt;&lt;/b&gt;
 &lt;br&gt;Wire wound on ferrite
 &lt;br&gt;Operating temperature: –40°C to +105°C
-&lt;br&gt;High resistance against dampness
 &lt;br&gt;Recommended soldering profile: Reflow
 &lt;br&gt;5% tolerance is available on request
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt; Applications
 &lt;br&gt;
-&lt;br&gt;&lt;/b&gt; RF circuits like tuner, transponder etc.
+&lt;br&gt;&lt;/b&gt;RF circuits like tuner, transponder etc.
 &lt;br&gt;RF amplifier circuits like antennas amplifier
-&lt;br&gt;Oscillator
+&lt;br&gt;Oscillators
 &lt;br&gt;Filter circuits
 &lt;br&gt;Amplification circuits
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o14792v209%20Family_WE-GF_SMD-HF.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://katalog.we-online.com/media/images/v2/o14792v209%20Family_WE-GF_SMD-HF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14792v209%20multi-WE-GF-4532%20-7447660033.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14792v209%20multi-WE-GF-4532%20-7447660033.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 &lt;br&gt;
-Details see: &lt;a href="https://katalog.we-online.com/en/pbs/WE-GF"&gt;https://katalog.we-online.com/en/pbs/WE-GF&lt;/a&gt;&lt;p&gt;
-&lt;br&gt;Updated by  Yingchun,Shan, 2019-07-04&lt;br&gt;
-&lt;br&gt;2019 (C) Wurth Elektronik</description>
+
+Details see: &lt;a href="www.we-online.com/catalog/WE-GF/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-GF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2026-01-20&lt;br&gt;
+2026 (C) Würth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WE-GF_1812">
+<device name="" package="WE-GF_4532">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010105/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010105/4"/>
 </package3dinstances>
 <technologies>
 <technology name="_744766001">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766001.pdf" constant="no"/>
-<attribute name="FRES" value="907MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766001 " constant="no"/>
-<attribute name="Q" value=" 28 " constant="no"/>
-<attribute name="RDC" value="0.44Ohm" constant="no"/>
-<attribute name="VALUE" value="0.1uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766001?ae"/>
+<attribute name="FRES" value="780MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="2.55A@40K"/>
+<attribute name="L" value="0.1uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766001 "/>
+<attribute name="Q" value="28%"/>
+<attribute name="RDC-MAX" value="440mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="0.1uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_7447660033">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7447660033.pdf" constant="no"/>
-<attribute name="FRES" value="517MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 7447660033 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.4Ohm" constant="no"/>
-<attribute name="VALUE" value="0.33uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447660033?ae"/>
+<attribute name="FRES" value="440MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="1.85A@40K"/>
+<attribute name="L" value="0.33uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447660033 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="400mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="0.33uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_7447660039">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7447660039.pdf" constant="no"/>
-<attribute name="FRES" value="421MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 7447660039 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.45Ohm" constant="no"/>
-<attribute name="VALUE" value="39uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447660039?ae"/>
+<attribute name="FRES" value="390MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="1.8A@40K"/>
+<attribute name="L" value="0.39uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447660039 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="450mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="0.39uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_7447660068">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7447660068.pdf" constant="no"/>
-<attribute name="FRES" value="353MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 7447660068 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.6Ohm" constant="no"/>
-<attribute name="VALUE" value="0.68uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447660068?ae"/>
+<attribute name="FRES" value="310MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="1.65A@40K"/>
+<attribute name="L" value="0.68uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447660068 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="600mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="0.68uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_7447660082">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/7447660082.pdf" constant="no"/>
-<attribute name="FRES" value="330MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 7447660082 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="0.67Ohm" constant="no"/>
-<attribute name="VALUE" value="0.82uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7447660082?ae"/>
+<attribute name="FRES" value="300MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="1.6A@40K"/>
+<attribute name="L" value="0.82uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7447660082 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="670mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="0.82uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476601">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476601.pdf" constant="no"/>
-<attribute name="FRES" value="310MHz" constant="no"/>
-<attribute name="IR" value="450mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476601 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="0.5Ohm" constant="no"/>
-<attribute name="VALUE" value="1uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476601?ae"/>
+<attribute name="FRES" value="275MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="1.5A@40K"/>
+<attribute name="L" value="1uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476601 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="500mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="1uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766012">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766012.pdf" constant="no"/>
-<attribute name="FRES" value="285MHz" constant="no"/>
-<attribute name="IR" value="430mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766012 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="0.55Ohm" constant="no"/>
-<attribute name="VALUE" value="1.2uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766012?ae"/>
+<attribute name="FRES" value="250MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="1.3A@40K"/>
+<attribute name="L" value="1.2uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766012 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="550mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="1.2uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766015">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766015.pdf" constant="no"/>
-<attribute name="FRES" value="215MHz" constant="no"/>
-<attribute name="IR" value="410mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766015 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="0.6Ohm" constant="no"/>
-<attribute name="VALUE" value="1.5uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766015?ae"/>
+<attribute name="FRES" value="230MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="1.3A@40K"/>
+<attribute name="L" value="1.5uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766015 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="600mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="1.5uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766018">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766018.pdf" constant="no"/>
-<attribute name="FRES" value="213MHz" constant="no"/>
-<attribute name="IR" value="390mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766018 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="0.65Ohm" constant="no"/>
-<attribute name="VALUE" value="1.8uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766018?ae"/>
+<attribute name="FRES" value="210MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="1.2A@40K"/>
+<attribute name="L" value="1.8uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766018 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="650mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="1.8uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476602">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476602.pdf" constant="no"/>
-<attribute name="FRES" value="207MHz" constant="no"/>
-<attribute name="IR" value="380mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476602 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="0.7Ohm" constant="no"/>
-<attribute name="VALUE" value="2.2uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476602?ae"/>
+<attribute name="FRES" value="185MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.95A@40K"/>
+<attribute name="L" value="2.2uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476602 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="700mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476603">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476603.pdf" constant="no"/>
-<attribute name="FRES" value="138MHz" constant="no"/>
-<attribute name="IR" value="355mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476603 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="0.8Ohm" constant="no"/>
-<attribute name="VALUE" value="3.3uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476603?ae"/>
+<attribute name="FRES" value="155MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.95A@40K"/>
+<attribute name="L" value="3.3uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476603 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="800mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="3.3uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766039">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766039.pdf" constant="no"/>
-<attribute name="FRES" value="100MHz" constant="no"/>
-<attribute name="IR" value="330mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766039 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="0.9Ohm" constant="no"/>
-<attribute name="VALUE" value="3.9uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766039?ae"/>
+<attribute name="FRES" value="120MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.9A@40K"/>
+<attribute name="L" value="3.9uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766039 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="900mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="3.9uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476604">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476604.pdf" constant="no"/>
-<attribute name="FRES" value="78MHz" constant="no"/>
-<attribute name="IR" value="315mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476604 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="1Ohm" constant="no"/>
-<attribute name="VALUE" value="4.7uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476604?ae"/>
+<attribute name="FRES" value="95MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.8A@40K"/>
+<attribute name="L" value="4.7uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476604 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="1000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766056">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766056.pdf" constant="no"/>
-<attribute name="FRES" value="62MHz" constant="no"/>
-<attribute name="IR" value="300mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766056 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="1.1Ohm" constant="no"/>
-<attribute name="VALUE" value="5.6uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766056?ae"/>
+<attribute name="FRES" value="60MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.75A@40K"/>
+<attribute name="L" value="5.6uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766056 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="1100mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="5.6uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476606">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476606.pdf" constant="no"/>
-<attribute name="FRES" value="46MHz" constant="no"/>
-<attribute name="IR" value="285mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476606 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="1.2Ohm" constant="no"/>
-<attribute name="VALUE" value="6.8uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476606?ae"/>
+<attribute name="FRES" value="35MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.75A@40K"/>
+<attribute name="L" value="6.8uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476606 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="1200mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="6.8uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766082">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766082.pdf" constant="no"/>
-<attribute name="FRES" value="35MHz" constant="no"/>
-<attribute name="IR" value="270mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766082 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="1.4Ohm" constant="no"/>
-<attribute name="VALUE" value="8.2uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766082?ae"/>
+<attribute name="FRES" value="30MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.7A@40K"/>
+<attribute name="L" value="8.2uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766082 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="1400mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="8.2uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476610">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476610.pdf" constant="no"/>
-<attribute name="FRES" value="28MHz" constant="no"/>
-<attribute name="IR" value="250mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476610 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="1.6Ohm" constant="no"/>
-<attribute name="VALUE" value="10uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476610?ae"/>
+<attribute name="FRES" value="25MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.7A@40K"/>
+<attribute name="L" value="10uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476610 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="1600mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="10uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766115">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766115.pdf" constant="no"/>
-<attribute name="FRES" value="25MHz" constant="no"/>
-<attribute name="IR" value="200mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766115 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="2.5Ohm" constant="no"/>
-<attribute name="VALUE" value="15uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766115?ae"/>
+<attribute name="FRES" value="20MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.6A@40K"/>
+<attribute name="L" value="15uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766115 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="2500mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="15uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766118">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766118.pdf" constant="no"/>
-<attribute name="FRES" value="21MHz" constant="no"/>
-<attribute name="IR" value="190mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766118 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="2.8Ohm" constant="no"/>
-<attribute name="VALUE" value="18uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766118?ae"/>
+<attribute name="FRES" value="19MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.6A@40K"/>
+<attribute name="L" value="18uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766118 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="2800mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="18uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766122">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766122.pdf" constant="no"/>
-<attribute name="FRES" value="20MHz" constant="no"/>
-<attribute name="IR" value="180mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766122 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="3.2Ohm" constant="no"/>
-<attribute name="VALUE" value="22uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766122?ae"/>
+<attribute name="FRES" value="18MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.55A@40K"/>
+<attribute name="L" value="22uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766122 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="3200mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="22uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766133">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766133.pdf" constant="no"/>
-<attribute name="FRES" value="16MHz" constant="no"/>
-<attribute name="IR" value="160mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766133 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="4Ohm" constant="no"/>
-<attribute name="VALUE" value="33uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766133?ae"/>
+<attribute name="FRES" value="14MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.55A@40K"/>
+<attribute name="L" value="33uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766133 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="4000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="33uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766147">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766147.pdf" constant="no"/>
-<attribute name="FRES" value="12MHz" constant="no"/>
-<attribute name="IR" value="140mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766147 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="5Ohm" constant="no"/>
-<attribute name="VALUE" value="47uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766147?ae"/>
+<attribute name="FRES" value="12MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.45A@40K"/>
+<attribute name="L" value="47uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766147 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="5000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="47uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766156">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766156.pdf" constant="no"/>
-<attribute name="FRES" value="11MHz" constant="no"/>
-<attribute name="IR" value="135mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766156 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="5.5Ohm" constant="no"/>
-<attribute name="VALUE" value="56uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766156?ae"/>
+<attribute name="FRES" value="11MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.45A@40K"/>
+<attribute name="L" value="56uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766156 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="5500mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="56uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766168">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766168.pdf" constant="no"/>
-<attribute name="FRES" value="10.5MHz" constant="no"/>
-<attribute name="IR" value="130mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766168 " constant="no"/>
-<attribute name="Q" value=" 50 " constant="no"/>
-<attribute name="RDC" value="6Ohm" constant="no"/>
-<attribute name="VALUE" value="68uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766168?ae"/>
+<attribute name="FRES" value="10MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.4A@40K"/>
+<attribute name="L" value="68uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766168 "/>
+<attribute name="Q" value="50%"/>
+<attribute name="RDC-MAX" value="6000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="68uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476620">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476620.pdf" constant="no"/>
-<attribute name="FRES" value="8.9MHz" constant="no"/>
-<attribute name="IR" value="110mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476620 " constant="no"/>
-<attribute name="Q" value=" 40 " constant="no"/>
-<attribute name="RDC" value="8Ohm" constant="no"/>
-<attribute name="VALUE" value="100uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476620?ae"/>
+<attribute name="FRES" value="8.5MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.35A@40K"/>
+<attribute name="L" value="100uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476620 "/>
+<attribute name="Q" value="40%"/>
+<attribute name="RDC-MAX" value="8000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="100uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766215">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766215.pdf" constant="no"/>
-<attribute name="FRES" value="7.8MHz" constant="no"/>
-<attribute name="IR" value="105mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766215 " constant="no"/>
-<attribute name="Q" value=" 40 " constant="no"/>
-<attribute name="RDC" value="9Ohm" constant="no"/>
-<attribute name="VALUE" value="150uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766215?ae"/>
+<attribute name="FRES" value="6MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.3A@40K"/>
+<attribute name="L" value="150uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766215 "/>
+<attribute name="Q" value="40%"/>
+<attribute name="RDC-MAX" value="9000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="150uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766218">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766218.pdf" constant="no"/>
-<attribute name="FRES" value="7.1MHz" constant="no"/>
-<attribute name="IR" value="100mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766218 " constant="no"/>
-<attribute name="Q" value=" 40 " constant="no"/>
-<attribute name="RDC" value="9.5Ohm" constant="no"/>
-<attribute name="VALUE" value="180uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766218?ae"/>
+<attribute name="FRES" value="5.5MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.25A@40K"/>
+<attribute name="L" value="180uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766218 "/>
+<attribute name="Q" value="40%"/>
+<attribute name="RDC-MAX" value="9500mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="180uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766220">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766220.pdf" constant="no"/>
-<attribute name="FRES" value="6.6MHz" constant="no"/>
-<attribute name="IR" value="100mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766220 " constant="no"/>
-<attribute name="Q" value=" 40 " constant="no"/>
-<attribute name="RDC" value="10Ohm" constant="no"/>
-<attribute name="VALUE" value="220uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766220?ae"/>
+<attribute name="FRES" value="5MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.25A@40K"/>
+<attribute name="L" value="220uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766220 "/>
+<attribute name="Q" value="40%"/>
+<attribute name="RDC-MAX" value="10000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="220uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766233">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766233.pdf" constant="no"/>
-<attribute name="FRES" value="5.5MHz" constant="no"/>
-<attribute name="IR" value="85mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766233 " constant="no"/>
-<attribute name="Q" value=" 40 " constant="no"/>
-<attribute name="RDC" value="14Ohm" constant="no"/>
-<attribute name="VALUE" value="330uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766233?ae"/>
+<attribute name="FRES" value="4.5MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.2A@40K"/>
+<attribute name="L" value="330uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766233 "/>
+<attribute name="Q" value="40%"/>
+<attribute name="RDC-MAX" value="14000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="330uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_744766239">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/744766239.pdf" constant="no"/>
-<attribute name="FRES" value="4.8MHz" constant="no"/>
-<attribute name="IR" value="80mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 744766239 " constant="no"/>
-<attribute name="Q" value=" 40 " constant="no"/>
-<attribute name="RDC" value="18Ohm" constant="no"/>
-<attribute name="VALUE" value="390uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/744766239?ae"/>
+<attribute name="FRES" value="3.5MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.2A@40K"/>
+<attribute name="L" value="390uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 744766239 "/>
+<attribute name="Q" value="40%"/>
+<attribute name="RDC-MAX" value="18000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="390uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476624">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476624.pdf" constant="no"/>
-<attribute name="FRES" value="4.6MHz" constant="no"/>
-<attribute name="IR" value="62mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476624 " constant="no"/>
-<attribute name="Q" value=" 40 " constant="no"/>
-<attribute name="RDC" value="26Ohm" constant="no"/>
-<attribute name="VALUE" value="470uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476624?ae"/>
+<attribute name="FRES" value="3.4MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.2A@40K"/>
+<attribute name="L" value="470uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476624 "/>
+<attribute name="Q" value="40%"/>
+<attribute name="RDC-MAX" value="26000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="470uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476625">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476625.pdf" constant="no"/>
-<attribute name="FRES" value="4MHz" constant="no"/>
-<attribute name="IR" value="50mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476625 " constant="no"/>
-<attribute name="Q" value=" 40 " constant="no"/>
-<attribute name="RDC" value="30Ohm" constant="no"/>
-<attribute name="VALUE" value="560uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476625?ae"/>
+<attribute name="FRES" value="3MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.15A@40K"/>
+<attribute name="L" value="560uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476625 "/>
+<attribute name="Q" value="40%"/>
+<attribute name="RDC-MAX" value="30000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="560uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476626">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476626.pdf" constant="no"/>
-<attribute name="FRES" value="3.7MHz" constant="no"/>
-<attribute name="IR" value="50mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476626 " constant="no"/>
-<attribute name="Q" value=" 30 " constant="no"/>
-<attribute name="RDC" value="30Ohm" constant="no"/>
-<attribute name="VALUE" value="680uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476626?ae"/>
+<attribute name="FRES" value="3MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.15A@40K"/>
+<attribute name="L" value="680uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476626 "/>
+<attribute name="Q" value="30%"/>
+<attribute name="RDC-MAX" value="30000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="680uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476628">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476628.pdf" constant="no"/>
-<attribute name="FRES" value="3.6MHz" constant="no"/>
-<attribute name="IR" value="30mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476628 " constant="no"/>
-<attribute name="Q" value=" 25 " constant="no"/>
-<attribute name="RDC" value="45Ohm" constant="no"/>
-<attribute name="VALUE" value="820uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476628?ae"/>
+<attribute name="FRES" value="2.5MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.15A@40K"/>
+<attribute name="L" value="820uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476628 "/>
+<attribute name="Q" value="25%"/>
+<attribute name="RDC-MAX" value="45000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="820uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 <technology name="_74476630">
-<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/pbs/datasheet/74476630.pdf" constant="no"/>
-<attribute name="FRES" value="2.9MHz" constant="no"/>
-<attribute name="IR" value="30mA" constant="no"/>
-<attribute name="PART-NUMBER" value=" 74476630 " constant="no"/>
-<attribute name="Q" value=" 20 " constant="no"/>
-<attribute name="RDC" value="50Ohm" constant="no"/>
-<attribute name="VALUE" value="1000uH" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74476630?ae"/>
+<attribute name="FRES" value="2.5MHz"/>
+<attribute name="HEIGHT" value="3.2mm"/>
+<attribute name="IRP" value="0.1A@40K"/>
+<attribute name="L" value="1000uH"/>
+<attribute name="LENGTH" value="4.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74476630 "/>
+<attribute name="Q" value="20%"/>
+<attribute name="RDC-MAX" value="50000mohm"/>
+<attribute name="SIZE" value="4532"/>
+<attribute name="VALUE" value="1000uH"/>
+<attribute name="WIDTH" value="3.2mm"/>
 </technology>
 </technologies>
 </device>
