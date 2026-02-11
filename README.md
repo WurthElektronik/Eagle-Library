@@ -7,6 +7,7 @@ EAGLE is electronic design automation (EDA) software that lets printed circuit b
 EAGLE works in three stages: Schematic capture, PCB design and Library. In the first stage, the circuit connectivity is designed using the component symbols. In the second stage, the components are positioned on the printed circuit board and then traces between connected components are laid out. In the Library stage, Würth Elektronik has created Eagle libraries for most of our components, which allows Eagle users to easily design schematic and layout and view 3D model before producing PCB.
 
 For how to use models in GitHub repository, you can refer to the help document in this folder.
+
 If you have any advice or questions, please send email to libraries@we-online.com.
 
 **Note: Eagle library in GitHub repository is always the latest.**
