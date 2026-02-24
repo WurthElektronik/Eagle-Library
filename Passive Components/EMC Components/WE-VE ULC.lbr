@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -63,8 +63,6 @@
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -78,8 +76,8 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - EMC Components - ESD Protection - WE-VE ULC&lt;br&gt;&lt;Hr&gt;
-
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - EMC Components - ESD Protection - WE-VE ULC&lt;br&gt;
+&lt;Hr&gt;
 &lt;BR&gt;
 &lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
 &lt;TR&gt;   
@@ -141,68 +139,69 @@ Fax:+49 (0)7942-945-5000&lt;br&gt;
 &lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
 &lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
 &lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-09-26&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2026a, 2026-02-24&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-VE_ULC_0603" urn="urn:adsk.eagle:footprint:13049215/1" locally_modified="yes">
+<package name="WE-VE_ULC_0603" urn="urn:adsk.eagle:footprint:13049215/2">
 <description>&lt;B&gt;WE-VE ULC ESD Suppressor
-&lt;BR&gt;&lt;/B&gt;Size : 0603, SMT, 2pins
-&lt;br&gt;L X W X H = 1.6mm X 0.8mm X 0.9mm</description>
-<smd name="1" x="-0.725" y="0" dx="0.75" dy="0.7" layer="1"/>
-<smd name="2" x="0.725" y="0" dx="0.75" dy="0.7" layer="1"/>
+&lt;BR&gt;&lt;/B&gt;Size : 0603
+&lt;br&gt;L X W X H = 1.6mm X 0.85mm X 0.51mm</description>
+<smd name="1" x="-0.725" y="0" dx="0.75" dy="0.95" layer="1"/>
+<smd name="2" x="0.725" y="0" dx="0.75" dy="0.95" layer="1"/>
 <wire x1="-0.8" y1="-0.425" x2="0.8" y2="-0.425" width="0.1" layer="51"/>
 <wire x1="-0.8" y1="0.425" x2="0.8" y2="0.425" width="0.1" layer="51"/>
 <wire x1="-0.8" y1="0.425" x2="-0.8" y2="-0.425" width="0.1" layer="51"/>
 <wire x1="0.8" y1="0.425" x2="0.8" y2="-0.425" width="0.1" layer="51"/>
-<wire x1="-0.1" y1="0.525" x2="0.1" y2="0.525" width="0.2" layer="21"/>
-<wire x1="0.1" y1="-0.525" x2="-0.1" y2="-0.525" width="0.2" layer="21"/>
-<text x="0" y="0.9" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.3" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="1" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
 <polygon width="0.1" layer="39">
-<vertex x="-1.3" y="0.725"/>
-<vertex x="1.3" y="0.725"/>
-<vertex x="1.3" y="-0.725"/>
-<vertex x="-1.3" y="-0.725"/>
+<vertex x="-1.3" y="0.675"/>
+<vertex x="1.3" y="0.675"/>
+<vertex x="1.3" y="-0.675"/>
+<vertex x="-1.3" y="-0.675"/>
 </polygon>
 </package>
-<package name="WE-VE_ULC_0402" urn="urn:adsk.eagle:footprint:13049216/1" locally_modified="yes">
+<package name="WE-VE_ULC_0402" urn="urn:adsk.eagle:footprint:13049216/2">
 <description>&lt;B&gt;WE-VE ULC ESD Suppressor
-&lt;BR&gt;&lt;/B&gt;Size : 0402, SMT, 2pins
-&lt;br&gt;L X W X H = 1mm X 0.5mm X 0.6mm</description>
+&lt;BR&gt;&lt;/B&gt;Size : 0402
+&lt;br&gt;L X W X H = 1mm X 0.5mm X 0.34mm</description>
 <smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
 <wire x1="-0.5" y1="-0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
-<text x="0" y="0.65" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.05" size="0.4064" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0.7" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.7" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
 <polygon width="0.1" layer="39">
 <vertex x="-1" y="0.5"/>
-<vertex x="0.95" y="0.5"/>
-<vertex x="0.95" y="-0.5"/>
+<vertex x="1" y="0.5"/>
+<vertex x="1" y="-0.5"/>
 <vertex x="-1" y="-0.5"/>
 </polygon>
 </package>
 </packages>
 <packages3d>
-<package3d name="WE-VE_ULC_0603" urn="urn:adsk.eagle:package:13049218/2" type="model">
+<package3d name="WE-VE_ULC_0603" urn="urn:adsk.eagle:package:13049218/4" type="model">
 <description>&lt;B&gt;WE-VE ULC ESD Suppressor
 &lt;BR&gt;&lt;/B&gt;Size : 0603
-&lt;br&gt;L X W X H = 1.6mm X 0.8mm X 0.9mm</description>
+&lt;br&gt;L X W X H = 1.6mm X 0.85mm X 0.51mm</description>
 <packageinstances>
 <packageinstance name="WE-VE_ULC_0603"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-VE_ULC_0402" urn="urn:adsk.eagle:package:13049219/2" type="model">
+<package3d name="WE-VE_ULC_0402" urn="urn:adsk.eagle:package:13049219/4" type="model">
 <description>&lt;B&gt;WE-VE ULC ESD Suppressor
 &lt;BR&gt;&lt;/B&gt;Size : 0402
-&lt;br&gt;L X W X H = 1mm X 0.5mm X 0.6mm</description>
+&lt;br&gt;L X W X H = 1mm X 0.5mm X 0.34mm</description>
 <packageinstances>
 <packageinstance name="WE-VE_ULC_0402"/>
 </packageinstances>
@@ -210,26 +209,26 @@ Copyright: Würth Elektronik</description>
 </packages3d>
 <symbols>
 <symbol name="VARISTOR">
-<wire x1="-2.81" y1="-2.032" x2="-1.54" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="-1.54" y1="-2.032" x2="1.81" y2="1.81" width="0.254" layer="94"/>
+<wire x1="-2.81" y1="-1.81" x2="-1.54" y2="-1.81" width="0.254" layer="94"/>
+<wire x1="-1.54" y1="-1.81" x2="1.81" y2="1.81" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
 <wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
 <text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-2.54" y="-2.54" size="0.6096" layer="94" align="center">V</text>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.794" y="-3.048" size="0.8128" layer="94">V</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-VE_ULC_0402" prefix="D">
+<deviceset name="WE-VE_ULC_0603" prefix="RV">
 <description>&lt;b&gt; WE-VE ULC ESD Suppressor
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt; Characteristics
 &lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Fast response time
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Fast response time
 &lt;br&gt;No leakage current
 &lt;br&gt;Low clamping voltage
 &lt;br&gt;Almost no energy consumption in stand-by mode
@@ -237,7 +236,7 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;Operating temperature: –40 ºC to +85 ºC
 &lt;br&gt;Nickel barrier
 &lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;&lt;b&gt;Applications
 &lt;br&gt;
 &lt;br&gt;&lt;/b&gt;Protection of data lines
 &lt;br&gt;Protection of bus systems
@@ -247,69 +246,12 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;– 15 kV air discharge
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14892v209%20Family_WE-VE_ULC.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o14892v209%20Family_WE-VE_ULC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-VE-ULC"&gt;https://www.we-online.com/catalog/en/WE-VE-ULC&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14892v209%20Family_WE-VE_ULC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14892v209%20Family_WE-VE_ULC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-VE-ULC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-VE-ULC&lt;/a&gt;&lt;p&gt;
 
-Updated by Ella Wu 2021-06-16 &lt;br&gt;
-2021 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-VE_ULC_0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13049219/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_82307050029">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/82307050029.pdf"/>
-<attribute name="ILEAK" value="0.05uA"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 82307050029 "/>
-<attribute name="RISO" value="10  MOhm "/>
-<attribute name="VALUE" value="5V"/>
-<attribute name="VCLAMP" value="17V"/>
-<attribute name="VESD-AIR" value="15kV"/>
-<attribute name="VTRIG-ESD" value="100V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-VE_ULC_0603" prefix="D">
-<description>&lt;b&gt; WE-VE ULC ESD Suppressor
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Fast response time
-&lt;br&gt;No leakage current
-&lt;br&gt;Low clamping voltage
-&lt;br&gt;Almost no energy consumption in stand-by mode
-&lt;br&gt;Excellent absorption for ESD-impulses
-&lt;br&gt;Operating temperature: –40 ºC to +85 ºC
-&lt;br&gt;Nickel barrier
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;Protection of data lines
-&lt;br&gt;Protection of bus systems
-&lt;br&gt;Protection of semiconductors
-&lt;br&gt;ESD protection in accordance with EN 61000-4-2: 
-&lt;br&gt;– 8 kV contact discharge 
-&lt;br&gt;– 15 kV air discharge
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14892v209%20Family_WE-VE_ULC.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o14892v209%20Family_WE-VE_ULC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-VE-ULC"&gt;https://www.we-online.com/catalog/en/WE-VE-ULC&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella Wu 2021-06-16 &lt;br&gt;
-2021 (C) Wurth Elektronik</description>
+Updated by Ella 2026-02-24&lt;br&gt;
+2026 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
 </gates>
@@ -320,30 +262,101 @@ Updated by Ella Wu 2021-06-16 &lt;br&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13049218/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13049218/4"/>
 </package3dinstances>
 <technologies>
 <technology name="_82306050029">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/82306050029.pdf"/>
-<attribute name="ILEAK" value="0.01uA"/>
+<attribute name="CCH" value="0.2pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/82306050029?ae"/>
+<attribute name="HEIGHT" value="0.51mm"/>
+<attribute name="LENGTH" value="1.6mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value=" 82306050029 "/>
-<attribute name="RISO" value="10  MOhm "/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="5V"/>
-<attribute name="VCLAMP" value="30V"/>
-<attribute name="VESD-AIR" value="15kV"/>
+<attribute name="VCH-MAX" value="5V"/>
+<attribute name="VCH-MIN" value="-5V"/>
+<attribute name="VESD-CONTACT" value="8kV"/>
 <attribute name="VTRIG-ESD" value="150V"/>
+<attribute name="WIDTH" value="0.85mm"/>
 </technology>
 <technology name="_82306120029">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/82306120029.pdf"/>
-<attribute name="ILEAK" value="0.01uA"/>
+<attribute name="CCH" value="0.2pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/82306120029?ae"/>
+<attribute name="HEIGHT" value="0.51mm"/>
+<attribute name="LENGTH" value="1.6mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value=" 82306120029 "/>
-<attribute name="RISO" value="10  MOhm "/>
+<attribute name="SIZE" value="0603"/>
 <attribute name="VALUE" value="12V"/>
-<attribute name="VCLAMP" value="30V"/>
-<attribute name="VESD-AIR" value="15kV"/>
+<attribute name="VCH-MAX" value="12V"/>
+<attribute name="VCH-MIN" value="-12V"/>
+<attribute name="VESD-CONTACT" value="8kV"/>
 <attribute name="VTRIG-ESD" value="150V"/>
+<attribute name="WIDTH" value="0.85mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-VE_ULC_0402" prefix="RV">
+<description>&lt;b&gt; WE-VE ULC ESD Suppressor
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Fast response time
+&lt;br&gt;No leakage current
+&lt;br&gt;Low clamping voltage
+&lt;br&gt;Almost no energy consumption in stand-by mode
+&lt;br&gt;Excellent absorption for ESD-impulses
+&lt;br&gt;Operating temperature: –40 ºC to +85 ºC
+&lt;br&gt;Nickel barrier
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Protection of data lines
+&lt;br&gt;Protection of bus systems
+&lt;br&gt;Protection of semiconductors
+&lt;br&gt;ESD protection in accordance with EN 61000-4-2: 
+&lt;br&gt;– 8 kV contact discharge 
+&lt;br&gt;– 15 kV air discharge
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o14892v209%20Family_WE-VE_ULC.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o14892v209%20Family_WE-VE_ULC.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-VE-ULC/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-VE-ULC&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2026-02-24&lt;br&gt;
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-VE_ULC_0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13049219/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_82307050029">
+<attribute name="CCH" value="0.2pF"/>
+<attribute name="CCH-MAX" value="0.8pF"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/82307050029?ae"/>
+<attribute name="HEIGHT" value="0.34mm"/>
+<attribute name="LENGTH" value="1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 82307050029 "/>
+<attribute name="SIZE" value="0402"/>
+<attribute name="VALUE" value="5V"/>
+<attribute name="VCH-MAX" value="5V"/>
+<attribute name="VCH-MIN" value="-5V"/>
+<attribute name="VCLAMP" value="17V"/>
+<attribute name="VESD-CONTACT" value="8kV"/>
+<attribute name="VTRIG-ESD" value="100V"/>
+<attribute name="WIDTH" value="0.5mm"/>
 </technology>
 </technologies>
 </device>
