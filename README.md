@@ -8,6 +8,8 @@ EAGLE works in three stages: Schematic capture, PCB design and Library. In the f
 
 For how to use models in GitHub repository, you can refer to the help document in this folder.
 
+**Please contact libraries@we-online.com if there is any problem.**
+
 **Note: Eagle library in GitHub repository is always the latest.**
 
 ## Component Classification
