@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Automotive - Single Coil Power Inductors - WE-SFIA&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2026a, 2026-02-25&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-SFIA_2013" urn="urn:adsk.eagle:footprint:49061392/2">
+<description>&lt;B&gt;WE-SFIA SMT Flat wire inductor
+&lt;/B&gt;&lt;br&gt;&lt;br&gt;Size:2013, SMT, 2pins
+&lt;br&gt;LXWXH=18.5x10.5x13.3</description>
+<smd name="1" x="-5.205" y="-8.96" dx="3.81" dy="4.7" layer="1"/>
+<smd name="2" x="5.205" y="-8.96" dx="3.81" dy="4.7" layer="1"/>
+<smd name="3" x="0" y="7.36" dx="7.37" dy="4.06" layer="1"/>
+<wire x1="-9.25" y1="5.25" x2="9.25" y2="5.25" width="0.1" layer="51"/>
+<wire x1="9.25" y1="5.25" x2="9.25" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="9.25" y1="-5.25" x2="-9.25" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="-9.25" y1="-5.25" x2="-9.25" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-3.985" y1="5.35" x2="-9.35" y2="5.35" width="0.2" layer="21"/>
+<wire x1="-9.35" y1="5.35" x2="-9.35" y2="-5.35" width="0.2" layer="21"/>
+<wire x1="-9.35" y1="-5.35" x2="9.35" y2="-5.35" width="0.2" layer="21"/>
+<wire x1="9.35" y1="-5.35" x2="9.35" y2="5.35" width="0.2" layer="21"/>
+<wire x1="9.35" y1="5.35" x2="3.985" y2="5.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.55" y="9.69"/>
+<vertex x="-9.55" y="-11.61"/>
+<vertex x="9.55" y="-11.61"/>
+<vertex x="9.55" y="9.69"/>
+</polygon>
+<text x="0" y="10" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-SFIA_2010" urn="urn:adsk.eagle:footprint:49061393/2">
+<description>&lt;B&gt;WE-SFIA SMT Flat wire inductor
+&lt;/B&gt;&lt;br&gt;&lt;br&gt;Size:2010, SMT, 2pins
+&lt;br&gt;LXWXH=18.5x10.5x10.1</description>
+<smd name="1" x="-5.205" y="-8.96" dx="3.81" dy="4.7" layer="1"/>
+<smd name="2" x="5.205" y="-8.96" dx="3.81" dy="4.7" layer="1"/>
+<smd name="3" x="0" y="7.36" dx="7.37" dy="4.06" layer="1"/>
+<wire x1="-9.25" y1="5.25" x2="9.25" y2="5.25" width="0.1" layer="51"/>
+<wire x1="9.25" y1="5.25" x2="9.25" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="9.25" y1="-5.25" x2="-9.25" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="-9.25" y1="-5.25" x2="-9.25" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-3.985" y1="5.35" x2="-9.35" y2="5.35" width="0.2" layer="21"/>
+<wire x1="-9.35" y1="5.35" x2="-9.35" y2="-5.35" width="0.2" layer="21"/>
+<wire x1="-9.35" y1="-5.35" x2="9.35" y2="-5.35" width="0.2" layer="21"/>
+<wire x1="9.35" y1="-5.35" x2="9.35" y2="5.35" width="0.2" layer="21"/>
+<wire x1="9.35" y1="5.35" x2="3.985" y2="5.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.55" y="9.69"/>
+<vertex x="-9.55" y="-11.61"/>
+<vertex x="9.55" y="-11.61"/>
+<vertex x="9.55" y="9.69"/>
+</polygon>
+<text x="0" y="10" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-SFIA_2016" urn="urn:adsk.eagle:footprint:49061391/2">
+<description>&lt;B&gt;WE-SFIA SMT Flat wire inductor
+&lt;/B&gt;&lt;br&gt;&lt;br&gt;Size:2016, SMT, 2pins
+&lt;br&gt;LXWXH=18.5x10.5x16.5</description>
+<smd name="1" x="-5.205" y="-8.96" dx="3.81" dy="4.7" layer="1"/>
+<smd name="2" x="5.205" y="-8.96" dx="3.81" dy="4.7" layer="1"/>
+<smd name="3" x="0" y="7.36" dx="7.37" dy="4.06" layer="1"/>
+<wire x1="-9.25" y1="5.25" x2="9.25" y2="5.25" width="0.1" layer="51"/>
+<wire x1="9.25" y1="5.25" x2="9.25" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="9.25" y1="-5.25" x2="-9.25" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="-9.25" y1="-5.25" x2="-9.25" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-3.985" y1="5.35" x2="-9.35" y2="5.35" width="0.2" layer="21"/>
+<wire x1="-9.35" y1="5.35" x2="-9.35" y2="-5.35" width="0.2" layer="21"/>
+<wire x1="-9.35" y1="-5.35" x2="9.35" y2="-5.35" width="0.2" layer="21"/>
+<wire x1="9.35" y1="-5.35" x2="9.35" y2="5.35" width="0.2" layer="21"/>
+<wire x1="9.35" y1="5.35" x2="3.985" y2="5.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.55" y="9.69"/>
+<vertex x="-9.55" y="-11.61"/>
+<vertex x="9.55" y="-11.61"/>
+<vertex x="9.55" y="9.69"/>
+</polygon>
+<text x="0" y="10" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-SFIA_2013" urn="urn:adsk.eagle:package:49061396/3" type="model">
+<description>&lt;B&gt;WE-SFIA SMT Flat wire inductor
+&lt;/B&gt;&lt;br&gt;&lt;br&gt;Size:2013, SMT, 2pins
+&lt;br&gt;LXWXH=18.5x10.5x13.3</description>
+<packageinstances>
+<packageinstance name="WE-SFIA_2013"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SFIA_2010" urn="urn:adsk.eagle:package:49061397/3" type="model">
+<description>&lt;B&gt;WE-SFIA SMT Flat wire inductor
+&lt;/B&gt;&lt;br&gt;&lt;br&gt;Size:2010, SMT, 2pins
+&lt;br&gt;LXWXH=18.5x10.5x10.1</description>
+<packageinstances>
+<packageinstance name="WE-SFIA_2010"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-SFIA_2016" urn="urn:adsk.eagle:package:49061395/3" type="model">
+<description>&lt;B&gt;WE-SFIA SMT Flat wire inductor
+&lt;/B&gt;&lt;br&gt;&lt;br&gt;Size:2016, SMT, 2pins
+&lt;br&gt;LXWXH=18.5x10.5x16.5</description>
+<packageinstances>
+<packageinstance name="WE-SFIA_2016"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L_GAP">
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-SFIA_2013" prefix="L">
+<description>&lt;b&gt;WE-SFIA SMT Flat wire inductor
+&lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt; heights (2010, 2013, 2016) for maximum design flexibility
+&lt;br&gt;High-current saturation for high ripple applications
+&lt;br&gt;Flat wire construction
+&lt;br&gt;Very low DC resistance for less heat dissipation
+&lt;br&gt;Operating temperature: -40°C to 180°C
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Non-isolated switch mode power supply
+&lt;br&gt;DC-DC converter
+&lt;br&gt;High-current inductor for output filtering
+&lt;br&gt;High-end audio power inductor for automotive audio systems
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o883493v209%20Family-WE-SFIA-784364210033-784364210082-784364210360.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o883493v209%20Family-WE-SFIA-784364210033-784364210082-784364210360.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-SFIA/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-SFIA&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2026-02-25 &lt;br&gt;
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-SFIA_2013">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49061396/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_784364210082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210082?ae"/>
+<attribute name="HEIGHT" value="13.3mm"/>
+<attribute name="IR" value="34.5A@40K"/>
+<attribute name="ISAT" value="130A@30%"/>
+<attribute name="L" value="0.82uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210082"/>
+<attribute name="RDC-MAX" value="2.09mOhm"/>
+<attribute name="RDC-TYP" value="1.9mOhm"/>
+<attribute name="SIZE" value=" 2013 "/>
+<attribute name="VALUE" value="0.82uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+<technology name="_784364210100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210100?ae"/>
+<attribute name="HEIGHT" value="13.3mm"/>
+<attribute name="IR" value="34.5A@40K"/>
+<attribute name="ISAT" value="101A@30%"/>
+<attribute name="L" value="1uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210100"/>
+<attribute name="RDC-MAX" value="2.09mOhm"/>
+<attribute name="RDC-TYP" value="1.9mOhm"/>
+<attribute name="SIZE" value=" 2013 "/>
+<attribute name="VALUE" value="1uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+<technology name="_784364210150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210150?ae"/>
+<attribute name="HEIGHT" value="13.3mm"/>
+<attribute name="IR" value="34.5A@40K"/>
+<attribute name="ISAT" value="71A@30%"/>
+<attribute name="L" value="1.5uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210150"/>
+<attribute name="RDC-MAX" value="2.09mOhm"/>
+<attribute name="RDC-TYP" value="1.9mOhm"/>
+<attribute name="SIZE" value=" 2013 "/>
+<attribute name="VALUE" value="1.5uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+<technology name="_784364210220">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210220?ae"/>
+<attribute name="HEIGHT" value="13.3mm"/>
+<attribute name="IR" value="34.5A@40K"/>
+<attribute name="ISAT" value="51A@30%"/>
+<attribute name="L" value="2.2uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210220"/>
+<attribute name="RDC-MAX" value="2.09mOhm"/>
+<attribute name="RDC-TYP" value="1.9mOhm"/>
+<attribute name="SIZE" value=" 2013 "/>
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-SFIA_2010" prefix="L">
+<description>&lt;b&gt;WE-SFIA SMT Flat wire inductor
+&lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt; heights (2010, 2013, 2016) for maximum design flexibility
+&lt;br&gt;High-current saturation for high ripple applications
+&lt;br&gt;Flat wire construction
+&lt;br&gt;Very low DC resistance for less heat dissipation
+&lt;br&gt;Operating temperature: -40°C to 180°C
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Non-isolated switch mode power supply
+&lt;br&gt;DC-DC converter
+&lt;br&gt;High-current inductor for output filtering
+&lt;br&gt;High-end audio power inductor for automotive audio systems
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o883493v209%20Family-WE-SFIA-784364210033-784364210082-784364210360.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o883493v209%20Family-WE-SFIA-784364210033-784364210082-784364210360.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-SFIA/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-SFIA&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2026-02-25 &lt;br&gt;
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-SFIA_2010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49061397/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_784364210033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210033?ae"/>
+<attribute name="HEIGHT" value="10.1mm"/>
+<attribute name="IR" value="49A@40K"/>
+<attribute name="ISAT" value="158A@30%"/>
+<attribute name="L" value="0.33uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210033"/>
+<attribute name="RDC-MAX" value="1.1mOhm"/>
+<attribute name="RDC-TYP" value="1mOhm"/>
+<attribute name="SIZE" value=" 2010 "/>
+<attribute name="VALUE" value="0.33uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+<technology name="_784364210047">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210047?ae"/>
+<attribute name="HEIGHT" value="10.1mm"/>
+<attribute name="IR" value="49A@40K"/>
+<attribute name="ISAT" value="124A@30%"/>
+<attribute name="L" value="0.47uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210047"/>
+<attribute name="RDC-MAX" value="1.1mOhm"/>
+<attribute name="RDC-TYP" value="1mOhm"/>
+<attribute name="SIZE" value=" 2010 "/>
+<attribute name="VALUE" value="0.47uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+<technology name="_784364210068">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210068?ae"/>
+<attribute name="HEIGHT" value="10.1mm"/>
+<attribute name="IR" value="49A@40K"/>
+<attribute name="ISAT" value="83A@30%"/>
+<attribute name="L" value="0.68uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210068"/>
+<attribute name="RDC-MAX" value="1.1mOhm"/>
+<attribute name="RDC-TYP" value="1mOhm"/>
+<attribute name="SIZE" value=" 2010 "/>
+<attribute name="VALUE" value="0.68uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-SFIA_2016" prefix="L">
+<description>&lt;b&gt;WE-SFIA SMT Flat wire inductor
+&lt;br&gt;
+
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt; heights (2010, 2013, 2016) for maximum design flexibility
+&lt;br&gt;High-current saturation for high ripple applications
+&lt;br&gt;Flat wire construction
+&lt;br&gt;Very low DC resistance for less heat dissipation
+&lt;br&gt;Operating temperature: -40°C to 180°C
+
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Non-isolated switch mode power supply
+&lt;br&gt;DC-DC converter
+&lt;br&gt;High-current inductor for output filtering
+&lt;br&gt;High-end audio power inductor for automotive audio systems
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o883493v209%20Family-WE-SFIA-784364210033-784364210082-784364210360.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o883493v209%20Family-WE-SFIA-784364210033-784364210082-784364210360.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-SFIA/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-SFIA&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2026-02-25 &lt;br&gt;
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-SFIA_2016">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49061395/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_784364210360">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210360?ae"/>
+<attribute name="HEIGHT" value="16.5mm"/>
+<attribute name="IR" value="22.5A@40K"/>
+<attribute name="ISAT" value="44A@30%"/>
+<attribute name="L" value="3.6uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210360"/>
+<attribute name="RDC-MAX" value="3.08mOhm"/>
+<attribute name="RDC-TYP" value="2.8mOhm"/>
+<attribute name="SIZE" value=" 2016 "/>
+<attribute name="VALUE" value="3.6uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+<technology name="_784364210400">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210400?ae"/>
+<attribute name="HEIGHT" value="16.5mm"/>
+<attribute name="IR" value="22.5A@40K"/>
+<attribute name="ISAT" value="40A@30%"/>
+<attribute name="L" value="4uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210400"/>
+<attribute name="RDC-MAX" value="3.08mOhm"/>
+<attribute name="RDC-TYP" value="2.8mOhm"/>
+<attribute name="SIZE" value=" 2016 "/>
+<attribute name="VALUE" value="4uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+<technology name="_784364210470">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/784364210470?ae"/>
+<attribute name="HEIGHT" value="16.5mm"/>
+<attribute name="IR" value="22.5A@40K"/>
+<attribute name="ISAT" value="35A@30%"/>
+<attribute name="L" value="4.7uH"/>
+<attribute name="LENGTH" value="18.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="784364210470"/>
+<attribute name="RDC-MAX" value="3.08mOhm"/>
+<attribute name="RDC-TYP" value="2.8mOhm"/>
+<attribute name="SIZE" value=" 2016 "/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="WIDTH" value="10.5mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
