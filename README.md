@@ -1,46 +1,22 @@
-**Eagle Library for Würth Elektronik Products**
-=
-
+`Eagle PCB Libraries for Würth Elektronik Products`
+=========
 ## Introduction
-EAGLE is electronic design automation (EDA) software that lets printed circuit board (PCB) designers seamlessly connect schematic diagrams, component placement, PCB routing, and comprehensive library content. 
+Welcome to Würth Elektronik Eagle Database Library repository. <br>
+The libraries are created and maintained by Würth Elektronik EDA Team, for any questions and suggestions please feel free to contact EDA team by email: <libraries@we-online.com>
 
-EAGLE works in three stages: Schematic capture, PCB design and Library. In the first stage, the circuit connectivity is designed using the component symbols. In the second stage, the components are positioned on the printed circuit board and then traces between connected components are laid out. In the Library stage, Würth Elektronik has created Eagle libraries for most of our components, which allows Eagle users to easily design schematic and layout and view 3D model before producing PCB.
+## Library Component Coverage
+* Electromechanical Components <br>
+_Assembly, Connectors, REDCUBE Terminals, Switches_
 
-For how to use models in GitHub repository, you can refer to the help document in this folder.
+* Optoelectronic Components <br>
+_7 Segments Display, IC LEDs, Infrared, Laser, LEDs, Optical Sensors, Optocoupler, Ultraviolet_
 
-**Please contact libraries@we-online.com if there is any problem.**
+* Passive Components <br>
+_Capacitors, Crystals & Oscillators, EMC & RFI Components, Inductors, Resistors, Signal & Communications, Transformers_
 
-**Note: Eagle library in GitHub repository is always the latest.**
+* Power Modules (MagI3C Series) <br>
+_Digital Isolator, Isolated Converter, LED Driver, Step Down Converter_
 
-## Component Classification
-* WE - Automotive
-* WE - Digital Isolators
-* WE - Electromechanical Components
-
-  * Assembly
-  * Connectors
-  * REDCUBE Terminals
-  * Switches
-* WE - Optoelectronic Components
-
-  * 7 Segments Display
-  * Infrared
-  * Laser
-  * LEDs
-  * Optocoupler
-  * Ultraviolet
-* WE - Passive Components
-
-  * Capacitors
-  * Crystals & Oscillators
-  * EMC & RFI Components
-  * Inductors
-  * Resistors
-  * Signal & Communications
-  * Transformers
-* WE - Power Modules
-
-  * LED Driver
-  * Step Down Converter
-  * Isolated Converter
-* WE - Sensors
+## More Library Repositories Provided By Würth Elektronik
+**PCB Library**: [Cadence](https://github.com/WurthElektronik/Cadence-Library), [Altium](https://github.com/WurthElektronik/Altium-Library.git), [KiCad](https://github.com/WurthElektronik/KiCad-Library)    <br>
+**Simulation Library**: [ADS](https://github.com/WurthElektronik/ADS-Library), [Ansys](https://github.com/WurthElektronik/Ansys-Library), [IBIS](https://github.com/WurthElektronik/IBIS-Library), [LTspice](https://github.com/WurthElektronik/LTspice-Library), [Pspice](https://github.com/WurthElektronik/Pspice-Library), [Qspice](https://github.com/WurthElektronik/Qspice-Library)
