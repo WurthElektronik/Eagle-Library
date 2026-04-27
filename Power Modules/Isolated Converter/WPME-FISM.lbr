@@ -63,7 +63,7 @@
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - Power Modules(MagI3C Series) - Isolated Converter - MagI³C-FISM &lt;br&gt;
+<description>&lt;BR&gt;Wurth Elektronik - Active Components - Power Modules (MagI³C Series) - Isolated Converter - MagI³C-FISM &lt;br&gt;
 &lt;Hr&gt;
 &lt;BR&gt;
 &lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
@@ -133,105 +133,123 @@ Würth Elektronik eiSos expressly disclaims all implied warranties regarding thi
  &lt;br&gt;
 Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-01-21&lt;br&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2026a, 2026-04-27&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WPME-FISM_SMT-8_L12.75W10.7H6.95" urn="urn:adsk.eagle:footprint:13381249/4">
+<package name="WPME-FISM_SIP-4_L11.5W6H10" urn="urn:adsk.eagle:footprint:13381251/4">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
-&lt;br&gt;LXWXH = 12.75X10.7X6.95mm</description>
-<smd name="8" x="-3.81" y="4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
-<smd name="5" x="3.81" y="4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
-<smd name="1" x="-3.81" y="-4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
-<smd name="2" x="-1.27" y="-4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
-<smd name="4" x="3.81" y="-4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-4.46" y="5.75"/>
-<vertex x="-3.16" y="5.75"/>
-<vertex x="-3.16" y="4.2"/>
-<vertex x="-4.46" y="4.2"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="3.16" y="5.75"/>
-<vertex x="4.46" y="5.75"/>
-<vertex x="4.46" y="4.2"/>
-<vertex x="3.16" y="4.2"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-4.46" y="-4.2"/>
-<vertex x="-3.16" y="-4.2"/>
-<vertex x="-3.16" y="-5.75"/>
-<vertex x="-4.46" y="-5.75"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.92" y="-4.2"/>
-<vertex x="-0.62" y="-4.2"/>
-<vertex x="-0.62" y="-5.75"/>
-<vertex x="-1.92" y="-5.75"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="3.16" y="-4.2"/>
-<vertex x="4.46" y="-4.2"/>
-<vertex x="4.46" y="-5.75"/>
-<vertex x="3.16" y="-5.75"/>
-</polygon>
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+<pad name="1" x="-3.81" y="-1.75" drill="1"/>
+<pad name="2" x="-1.27" y="-1.75" drill="1"/>
+<pad name="3" x="1.27" y="-1.75" drill="1"/>
+<pad name="4" x="3.81" y="-1.75" drill="1"/>
+<wire x1="-5.75" y1="3" x2="5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="3" x2="5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="-3" x2="-5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5.75" y1="-3" x2="-5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="-5.85" y1="3.1" x2="5.85" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="3.1" x2="5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="-3.1" x2="-5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.85" y1="-3.1" x2="-5.85" y2="3.1" width="0.2" layer="21"/>
+<text x="0" y="4.05" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.15" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <polygon width="0.1" layer="39">
-<vertex x="-6.675" y="6.05"/>
-<vertex x="6.675" y="6.05"/>
-<vertex x="6.675" y="-6.05"/>
-<vertex x="-6.675" y="-6.05"/>
+<vertex x="-6.05" y="3.3"/>
+<vertex x="6.05" y="3.3"/>
+<vertex x="6.05" y="-3.3"/>
+<vertex x="-6.05" y="-3.3"/>
 </polygon>
-<wire x1="-6.375" y1="5.55" x2="6.375" y2="5.55" width="0.1" layer="51"/>
-<wire x1="6.375" y1="5.55" x2="6.375" y2="-5.55" width="0.1" layer="51"/>
-<wire x1="6.375" y1="-5.55" x2="-6.375" y2="-5.55" width="0.1" layer="51"/>
-<wire x1="-6.375" y1="-5.55" x2="-6.375" y2="5.55" width="0.1" layer="51"/>
-<wire x1="-4.9" y1="5.65" x2="-6.475" y2="5.65" width="0.2" layer="21"/>
-<wire x1="-6.475" y1="5.65" x2="-6.475" y2="-5.65" width="0.2" layer="21"/>
-<wire x1="-6.475" y1="-5.65" x2="-4.9" y2="-5.65" width="0.2" layer="21"/>
-<wire x1="-2.7" y1="5.65" x2="2.7" y2="5.65" width="0.2" layer="21"/>
-<wire x1="4.9" y1="5.65" x2="6.475" y2="5.65" width="0.2" layer="21"/>
-<wire x1="6.475" y1="5.65" x2="6.475" y2="-5.65" width="0.2" layer="21"/>
-<wire x1="6.475" y1="-5.65" x2="4.9" y2="-5.65" width="0.2" layer="21"/>
-<wire x1="-0.2" y1="-5.65" x2="2.7" y2="-5.65" width="0.2" layer="21"/>
-<wire x1="-2.7" y1="-5.65" x2="-2.4" y2="-5.65" width="0.2" layer="21"/>
-<text x="0" y="6.9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-7.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<circle x="-5.5" y="-6.3" radius="0.2" width="0.4" layer="21"/>
+<circle x="-5" y="-3.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WPME-FISM_SIP-4_1779205311" urn="urn:adsk.eagle:footprint:46635232/1">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="-2.1" drill="1"/>
+<pad name="2" x="-1.27" y="-2.1" drill="1"/>
+<pad name="3" x="1.27" y="-2.1" drill="1"/>
+<pad name="4" x="3.81" y="-2.1" drill="1"/>
+<wire x1="-5.75" y1="3" x2="5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="3" x2="5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="-3" x2="-5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5.75" y1="-3" x2="-5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="-5.85" y1="3.1" x2="5.85" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="3.1" x2="5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="-3.1" x2="4.42" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="3.22" y1="-3.1" x2="1.88" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="0.68" y1="-3.1" x2="-0.66" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-1.86" y1="-3.1" x2="-3.13" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-4.47" y1="-3.1" x2="-5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.85" y1="-3.1" x2="-5.85" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.05" y="3.3"/>
+<vertex x="6.05" y="3.3"/>
+<vertex x="6.05" y="-3.3"/>
+<vertex x="-6.05" y="-3.3"/>
+</polygon>
+<circle x="-5" y="-3.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WPME-FISM_SIP-4_1779205111" urn="urn:adsk.eagle:footprint:45722129/2">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="-2.1" drill="1"/>
+<pad name="2" x="-1.27" y="-2.1" drill="1"/>
+<pad name="3" x="1.27" y="-2.1" drill="1"/>
+<pad name="4" x="3.81" y="-2.1" drill="1"/>
+<wire x1="-5.75" y1="3" x2="5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="3" x2="5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="-3" x2="-5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5.75" y1="-3" x2="-5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="-5.85" y1="3.1" x2="5.85" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="3.1" x2="5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="-3.1" x2="4.42" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="3.22" y1="-3.1" x2="1.88" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="0.68" y1="-3.1" x2="-0.66" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-1.86" y1="-3.1" x2="-3.13" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-4.47" y1="-3.1" x2="-5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.85" y1="-3.1" x2="-5.85" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.05" y="3.3"/>
+<vertex x="6.05" y="3.3"/>
+<vertex x="6.05" y="-3.3"/>
+<vertex x="-6.05" y="-3.3"/>
+</polygon>
+<circle x="-5" y="-3.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WPME-FISM_SIP-4_1779205011" urn="urn:adsk.eagle:footprint:52714022/1">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+<pad name="1" x="-3.81" y="-1.75" drill="1"/>
+<pad name="2" x="-1.27" y="-1.75" drill="1"/>
+<pad name="3" x="1.27" y="-1.75" drill="1"/>
+<pad name="4" x="3.81" y="-1.75" drill="1"/>
+<wire x1="-5.75" y1="3" x2="5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="3" x2="5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="-3" x2="-5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5.75" y1="-3" x2="-5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="-5.85" y1="3.1" x2="5.85" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="3.1" x2="5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="-3.1" x2="-5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.85" y1="-3.1" x2="-5.85" y2="3.1" width="0.2" layer="21"/>
+<text x="0" y="4.05" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.15" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-6.05" y="3.3"/>
+<vertex x="6.05" y="3.3"/>
+<vertex x="6.05" y="-3.3"/>
+<vertex x="-6.05" y="-3.3"/>
+</polygon>
+<circle x="-5" y="-3.8" radius="0.2" width="0.4" layer="21"/>
 </package>
 <package name="WPME-FISM_SMT-8_1769205141" urn="urn:adsk.eagle:footprint:45722131/2">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
-&lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
-<smd name="1" x="-3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="2" x="-1.27" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="4" x="3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="5" x="3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="8" x="-3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
-<wire x1="-6.35" y1="3.8" x2="6.35" y2="3.8" width="0.1" layer="51"/>
-<wire x1="6.35" y1="3.8" x2="6.35" y2="-3.8" width="0.1" layer="51"/>
-<wire x1="6.35" y1="-3.8" x2="-6.35" y2="-3.8" width="0.1" layer="51"/>
-<wire x1="-6.35" y1="-3.8" x2="-6.35" y2="3.8" width="0.1" layer="51"/>
-<wire x1="-6.45" y1="3.85" x2="-6.45" y2="-3.9" width="0.2" layer="21"/>
-<wire x1="-6.45" y1="-3.9" x2="-4.5" y2="-3.9" width="0.2" layer="21"/>
-<wire x1="-6.45" y1="3.9" x2="-4.5" y2="3.9" width="0.2" layer="21"/>
-<wire x1="6.45" y1="-3.85" x2="6.45" y2="3.9" width="0.2" layer="21"/>
-<wire x1="6.45" y1="3.9" x2="4.5" y2="3.9" width="0.2" layer="21"/>
-<wire x1="6.45" y1="-3.9" x2="4.5" y2="-3.9" width="0.2" layer="21"/>
-<wire x1="3.1" y1="3.9" x2="-3.1" y2="3.9" width="0.2" layer="21"/>
-<wire x1="3.1" y1="-3.9" x2="-0.55" y2="-3.9" width="0.2" layer="21"/>
-<wire x1="-2" y1="-3.9" x2="-3.1" y2="-3.9" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.65" y="5.95"/>
-<vertex x="6.65" y="5.95"/>
-<vertex x="6.65" y="-5.95"/>
-<vertex x="-6.65" y="-5.95"/>
-</polygon>
-<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<circle x="-5.5" y="-4.8" radius="0.2" width="0.4" layer="21"/>
-</package>
-<package name="WPME-FISM_SMT-8_1769405141" urn="urn:adsk.eagle:footprint:46635226/1">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
 &lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
@@ -295,7 +313,225 @@ Copyright: Würth Elektronik</description>
 <text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <circle x="-5.5" y="-4.8" radius="0.2" width="0.4" layer="21"/>
 </package>
+<package name="WPME-FISM_SMT-8_L12.75W10.7H6.95" urn="urn:adsk.eagle:footprint:13381249/4">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
+&lt;br&gt;LXWXH = 12.75X10.7X6.95mm</description>
+<smd name="8" x="-3.81" y="4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
+<smd name="5" x="3.81" y="4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
+<smd name="1" x="-3.81" y="-4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
+<smd name="2" x="-1.27" y="-4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
+<smd name="4" x="3.81" y="-4.975" dx="1.5" dy="1.75" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-4.46" y="5.75"/>
+<vertex x="-3.16" y="5.75"/>
+<vertex x="-3.16" y="4.2"/>
+<vertex x="-4.46" y="4.2"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.16" y="5.75"/>
+<vertex x="4.46" y="5.75"/>
+<vertex x="4.46" y="4.2"/>
+<vertex x="3.16" y="4.2"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-4.46" y="-4.2"/>
+<vertex x="-3.16" y="-4.2"/>
+<vertex x="-3.16" y="-5.75"/>
+<vertex x="-4.46" y="-5.75"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.92" y="-4.2"/>
+<vertex x="-0.62" y="-4.2"/>
+<vertex x="-0.62" y="-5.75"/>
+<vertex x="-1.92" y="-5.75"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="3.16" y="-4.2"/>
+<vertex x="4.46" y="-4.2"/>
+<vertex x="4.46" y="-5.75"/>
+<vertex x="3.16" y="-5.75"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-6.675" y="6.05"/>
+<vertex x="6.675" y="6.05"/>
+<vertex x="6.675" y="-6.05"/>
+<vertex x="-6.675" y="-6.05"/>
+</polygon>
+<wire x1="-6.375" y1="5.55" x2="6.375" y2="5.55" width="0.1" layer="51"/>
+<wire x1="6.375" y1="5.55" x2="6.375" y2="-5.55" width="0.1" layer="51"/>
+<wire x1="6.375" y1="-5.55" x2="-6.375" y2="-5.55" width="0.1" layer="51"/>
+<wire x1="-6.375" y1="-5.55" x2="-6.375" y2="5.55" width="0.1" layer="51"/>
+<wire x1="-4.9" y1="5.65" x2="-6.475" y2="5.65" width="0.2" layer="21"/>
+<wire x1="-6.475" y1="5.65" x2="-6.475" y2="-5.65" width="0.2" layer="21"/>
+<wire x1="-6.475" y1="-5.65" x2="-4.9" y2="-5.65" width="0.2" layer="21"/>
+<wire x1="-2.7" y1="5.65" x2="2.7" y2="5.65" width="0.2" layer="21"/>
+<wire x1="4.9" y1="5.65" x2="6.475" y2="5.65" width="0.2" layer="21"/>
+<wire x1="6.475" y1="5.65" x2="6.475" y2="-5.65" width="0.2" layer="21"/>
+<wire x1="6.475" y1="-5.65" x2="4.9" y2="-5.65" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-5.65" x2="2.7" y2="-5.65" width="0.2" layer="21"/>
+<wire x1="-2.7" y1="-5.65" x2="-2.4" y2="-5.65" width="0.2" layer="21"/>
+<text x="0" y="6.9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.5" y="-6.3" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WPME-FISM_SIP-4_1779205211" urn="urn:adsk.eagle:footprint:45722128/2">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="-2.1" drill="1"/>
+<pad name="2" x="-1.27" y="-2.1" drill="1"/>
+<pad name="3" x="1.27" y="-2.1" drill="1"/>
+<pad name="4" x="3.81" y="-2.1" drill="1"/>
+<wire x1="-5.75" y1="3" x2="5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="3" x2="5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="5.75" y1="-3" x2="-5.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="-5.75" y1="-3" x2="-5.75" y2="3" width="0.1" layer="51"/>
+<wire x1="-5.85" y1="3.1" x2="5.85" y2="3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="3.1" x2="5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="5.85" y1="-3.1" x2="4.42" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="3.22" y1="-3.1" x2="1.88" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="0.68" y1="-3.1" x2="-0.66" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-1.86" y1="-3.1" x2="-3.13" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-4.47" y1="-3.1" x2="-5.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-5.85" y1="-3.1" x2="-5.85" y2="3.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.05" y="3.3"/>
+<vertex x="6.05" y="3.3"/>
+<vertex x="6.05" y="-3.3"/>
+<vertex x="-6.05" y="-3.3"/>
+</polygon>
+<circle x="-5" y="-3.8" radius="0.2" width="0.4" layer="21"/>
+</package>
 <package name="WPME-FISM_SMT-8_1769205041" urn="urn:adsk.eagle:footprint:46635229/1">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
+&lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
+<smd name="1" x="-3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="2" x="-1.27" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="4" x="3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="5" x="3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="8" x="-3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
+<wire x1="-6.35" y1="3.8" x2="6.35" y2="3.8" width="0.1" layer="51"/>
+<wire x1="6.35" y1="3.8" x2="6.35" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="6.35" y1="-3.8" x2="-6.35" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-3.8" x2="-6.35" y2="3.8" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="3.85" x2="-6.45" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="-3.9" x2="-4.5" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="3.9" x2="-4.5" y2="3.9" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-3.85" x2="6.45" y2="3.9" width="0.2" layer="21"/>
+<wire x1="6.45" y1="3.9" x2="4.5" y2="3.9" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-3.9" x2="4.5" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="3.1" y1="3.9" x2="-3.1" y2="3.9" width="0.2" layer="21"/>
+<wire x1="3.1" y1="-3.9" x2="-0.55" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-2" y1="-3.9" x2="-3.1" y2="-3.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.65" y="5.95"/>
+<vertex x="6.65" y="5.95"/>
+<vertex x="6.65" y="-5.95"/>
+<vertex x="-6.65" y="-5.95"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.5" y="-4.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WPME-FISM_SMT-8_1769205341" urn="urn:adsk.eagle:footprint:46635228/2">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
+&lt;br&gt;LXWXH = 12.8X11.1X6.9mm</description>
+<smd name="1" x="-3.81" y="-4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="3" x="-1.27" y="-4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="7" x="3.81" y="-4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="8" x="3.81" y="4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="14" x="-3.81" y="4.775" dx="0.75" dy="1.95" layer="1"/>
+<wire x1="-6.4" y1="5.4" x2="6.4" y2="5.4" width="0.1" layer="51"/>
+<wire x1="6.4" y1="5.4" x2="6.4" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="6.4" y1="-5.4" x2="-6.4" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="-6.4" y1="-5.4" x2="-6.4" y2="5.4" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="5.45" x2="-6.5" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-6.5" y1="-5.5" x2="-4.5" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-6.5" y1="5.5" x2="-4.5" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-5.45" x2="6.5" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.5" y1="5.5" x2="4.5" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-5.5" x2="4.5" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="3.1" y1="5.5" x2="-3.1" y2="5.5" width="0.2" layer="21"/>
+<wire x1="3.1" y1="-5.5" x2="-0.55" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-2" y1="-5.5" x2="-3.1" y2="-5.5" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.7" y="5.95"/>
+<vertex x="6.7" y="5.95"/>
+<vertex x="6.7" y="-5.95"/>
+<vertex x="-6.7" y="-5.95"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.5" y="-4.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WPME-FISM_SMT-8_1769405141" urn="urn:adsk.eagle:footprint:46635226/1">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
+&lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
+<smd name="1" x="-3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="2" x="-1.27" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="4" x="3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="5" x="3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="8" x="-3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
+<wire x1="-6.35" y1="3.8" x2="6.35" y2="3.8" width="0.1" layer="51"/>
+<wire x1="6.35" y1="3.8" x2="6.35" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="6.35" y1="-3.8" x2="-6.35" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-3.8" x2="-6.35" y2="3.8" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="3.85" x2="-6.45" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="-3.9" x2="-4.5" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="3.9" x2="-4.5" y2="3.9" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-3.85" x2="6.45" y2="3.9" width="0.2" layer="21"/>
+<wire x1="6.45" y1="3.9" x2="4.5" y2="3.9" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-3.9" x2="4.5" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="3.1" y1="3.9" x2="-3.1" y2="3.9" width="0.2" layer="21"/>
+<wire x1="3.1" y1="-3.9" x2="-0.55" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-2" y1="-3.9" x2="-3.1" y2="-3.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.65" y="5.95"/>
+<vertex x="6.65" y="5.95"/>
+<vertex x="6.65" y="-5.95"/>
+<vertex x="-6.65" y="-5.95"/>
+</polygon>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.5" y="-4.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WPME-FISM_SIP-4_L11.6W7.55H10.16" urn="urn:adsk.eagle:footprint:34692625/4">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.6X7.55X10.16mm</description>
+<wire x1="-5.8" y1="3.775" x2="5.8" y2="3.775" width="0.1" layer="51"/>
+<wire x1="5.8" y1="3.775" x2="5.8" y2="-3.775" width="0.1" layer="51"/>
+<wire x1="5.8" y1="-3.775" x2="-5.8" y2="-3.775" width="0.1" layer="51"/>
+<wire x1="-5.8" y1="-3.775" x2="-5.8" y2="3.775" width="0.1" layer="51"/>
+<wire x1="-5.9" y1="3.875" x2="-5.9" y2="-3.875" width="0.2" layer="21"/>
+<wire x1="-5.9" y1="-3.875" x2="-4.5" y2="-3.875" width="0.2" layer="21"/>
+<wire x1="-3" y1="-3.875" x2="-1.96" y2="-3.875" width="0.2" layer="21"/>
+<wire x1="-0.46" y1="-3.875" x2="0.58" y2="-3.875" width="0.2" layer="21"/>
+<wire x1="2.08" y1="-3.875" x2="3.12" y2="-3.875" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-3.875" x2="5.9" y2="-3.875" width="0.2" layer="21"/>
+<wire x1="5.9" y1="-3.875" x2="5.9" y2="3.875" width="0.2" layer="21"/>
+<wire x1="5.9" y1="3.875" x2="-5.9" y2="3.875" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-6.1" y="4.075"/>
+<vertex x="6.1" y="4.075"/>
+<vertex x="6.1" y="-4.075"/>
+<vertex x="-6.1" y="-4.075"/>
+</polygon>
+<text x="0" y="4.625" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.875" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<pad name="1" x="-3.81" y="-2.875" drill="1"/>
+<pad name="2" x="-1.27" y="-2.875" drill="1"/>
+<pad name="3" x="1.27" y="-2.875" drill="1"/>
+<pad name="4" x="3.81" y="-2.875" drill="1"/>
+<circle x="-5" y="-4.6" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WPME-FISM_SMT-8_1768812141" urn="urn:adsk.eagle:footprint:52714025/1">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
 &lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
@@ -359,47 +595,47 @@ Copyright: Würth Elektronik</description>
 <text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <circle x="-5.5" y="-4.8" radius="0.2" width="0.4" layer="21"/>
 </package>
-<package name="WPME-FISM_SMT-8_1769205341" urn="urn:adsk.eagle:footprint:46635228/1">
+<package name="WPME-FISM_SMT-8_1768812241" urn="urn:adsk.eagle:footprint:52714024/1">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
-&lt;br&gt;LXWXH = 12.8X11.1X6.9mm</description>
+&lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
 <smd name="1" x="-3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="3" x="-1.27" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="7" x="3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="8" x="3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="14" x="-3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
-<wire x1="-6.4" y1="5.4" x2="6.4" y2="5.4" width="0.1" layer="51"/>
-<wire x1="6.4" y1="5.4" x2="6.4" y2="-5.4" width="0.1" layer="51"/>
-<wire x1="6.4" y1="-5.4" x2="-6.4" y2="-5.4" width="0.1" layer="51"/>
-<wire x1="-6.4" y1="-5.4" x2="-6.4" y2="5.4" width="0.1" layer="51"/>
-<wire x1="-6.5" y1="5.45" x2="-6.5" y2="-5.5" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="-5.5" x2="-4.5" y2="-5.5" width="0.2" layer="21"/>
-<wire x1="-6.5" y1="5.5" x2="-4.5" y2="5.5" width="0.2" layer="21"/>
-<wire x1="6.5" y1="-5.45" x2="6.5" y2="5.5" width="0.2" layer="21"/>
-<wire x1="6.5" y1="5.5" x2="4.5" y2="5.5" width="0.2" layer="21"/>
-<wire x1="6.5" y1="-5.5" x2="4.5" y2="-5.5" width="0.2" layer="21"/>
-<wire x1="3.1" y1="5.5" x2="-3.1" y2="5.5" width="0.2" layer="21"/>
-<wire x1="3.1" y1="-5.5" x2="-0.55" y2="-5.5" width="0.2" layer="21"/>
-<wire x1="-2" y1="-5.5" x2="-3.1" y2="-5.5" width="0.2" layer="21"/>
+<smd name="2" x="-1.27" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="4" x="3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="5" x="3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="8" x="-3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
+<wire x1="-6.35" y1="3.8" x2="6.35" y2="3.8" width="0.1" layer="51"/>
+<wire x1="6.35" y1="3.8" x2="6.35" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="6.35" y1="-3.8" x2="-6.35" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-6.35" y1="-3.8" x2="-6.35" y2="3.8" width="0.1" layer="51"/>
+<wire x1="-6.45" y1="3.85" x2="-6.45" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="-3.9" x2="-4.5" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="3.9" x2="-4.5" y2="3.9" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-3.85" x2="6.45" y2="3.9" width="0.2" layer="21"/>
+<wire x1="6.45" y1="3.9" x2="4.5" y2="3.9" width="0.2" layer="21"/>
+<wire x1="6.45" y1="-3.9" x2="4.5" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="3.1" y1="3.9" x2="-3.1" y2="3.9" width="0.2" layer="21"/>
+<wire x1="3.1" y1="-3.9" x2="-0.55" y2="-3.9" width="0.2" layer="21"/>
+<wire x1="-2" y1="-3.9" x2="-3.1" y2="-3.9" width="0.2" layer="21"/>
 <polygon width="0.1" layer="39">
-<vertex x="-6.7" y="5.95"/>
-<vertex x="6.7" y="5.95"/>
-<vertex x="6.7" y="-5.95"/>
-<vertex x="-6.7" y="-5.95"/>
+<vertex x="-6.65" y="5.95"/>
+<vertex x="6.65" y="5.95"/>
+<vertex x="6.65" y="-5.95"/>
+<vertex x="-6.65" y="-5.95"/>
 </polygon>
 <text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <circle x="-5.5" y="-4.8" radius="0.2" width="0.4" layer="21"/>
 </package>
-<package name="WPME-FISM_SMT-8_1769405341" urn="urn:adsk.eagle:footprint:46635227/1">
+<package name="WPME-FISM_SMT-8_1769405341" urn="urn:adsk.eagle:footprint:46635227/2">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
 &lt;br&gt;LXWXH = 12.8X11.1X6.9mm</description>
-<smd name="1" x="-3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="3" x="-1.27" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="7" x="3.81" y="-4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="8" x="3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
-<smd name="14" x="-3.81" y="4.775" dx="0.8" dy="1.95" layer="1"/>
+<smd name="1" x="-3.81" y="-4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="3" x="-1.27" y="-4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="7" x="3.81" y="-4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="8" x="3.81" y="4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="14" x="-3.81" y="4.775" dx="0.75" dy="1.95" layer="1"/>
 <wire x1="-6.4" y1="5.4" x2="6.4" y2="5.4" width="0.1" layer="51"/>
 <wire x1="6.4" y1="5.4" x2="6.4" y2="-5.4" width="0.1" layer="51"/>
 <wire x1="6.4" y1="-5.4" x2="-6.4" y2="-5.4" width="0.1" layer="51"/>
@@ -481,34 +717,39 @@ Copyright: Würth Elektronik</description>
 <pad name="5" x="2.54" y="2.625" drill="1" rot="R180"/>
 <pad name="7" x="7.62" y="2.625" drill="1" rot="R180"/>
 </package>
-<package name="WPME-FISM_SIP-7_1779205241" urn="urn:adsk.eagle:footprint:45722127/3">
+<package name="WPME-FISM_SMT-8_1768812341" urn="urn:adsk.eagle:footprint:52714023/1">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-7, THT, 4pins
-&lt;br&gt;LXWXH = 19.5X6X10mm</description>
-<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<pad name="1" x="-7.62" y="1.8" drill="1"/>
-<pad name="2" x="-5.08" y="1.8" drill="1"/>
-<pad name="5" x="2.54" y="1.8" drill="1"/>
-<pad name="7" x="7.62" y="1.8" drill="1"/>
-<wire x1="9.75" y1="-3" x2="-9.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="-9.75" y1="-3" x2="-9.75" y2="3" width="0.1" layer="51"/>
-<wire x1="-9.75" y1="3" x2="9.75" y2="3" width="0.1" layer="51"/>
-<wire x1="9.75" y1="3" x2="9.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="9.85" y1="-3.1" x2="-9.85" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-9.85" y1="-3.1" x2="-9.85" y2="3.1" width="0.2" layer="21"/>
-<wire x1="-9.85" y1="3.1" x2="9.85" y2="3.1" width="0.2" layer="21"/>
-<wire x1="9.85" y1="3.1" x2="9.85" y2="-3.1" width="0.2" layer="21"/>
+&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
+&lt;br&gt;LXWXH = 12.8X11.1X6.9mm</description>
+<smd name="1" x="-3.81" y="-4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="2" x="-1.27" y="-4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="4" x="3.81" y="-4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="5" x="3.81" y="4.775" dx="0.75" dy="1.95" layer="1"/>
+<smd name="8" x="-3.81" y="4.775" dx="0.75" dy="1.95" layer="1"/>
+<wire x1="-6.4" y1="5.4" x2="6.4" y2="5.4" width="0.1" layer="51"/>
+<wire x1="6.4" y1="5.4" x2="6.4" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="6.4" y1="-5.4" x2="-6.4" y2="-5.4" width="0.1" layer="51"/>
+<wire x1="-6.4" y1="-5.4" x2="-6.4" y2="5.4" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="5.45" x2="-6.5" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-6.5" y1="-5.5" x2="-4.5" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-6.5" y1="5.5" x2="-4.5" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-5.45" x2="6.5" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.5" y1="5.5" x2="4.5" y2="5.5" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-5.5" x2="4.5" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="3.1" y1="5.5" x2="-3.1" y2="5.5" width="0.2" layer="21"/>
+<wire x1="3.1" y1="-5.5" x2="-0.55" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-2" y1="-5.5" x2="-3.1" y2="-5.5" width="0.2" layer="21"/>
 <polygon width="0.1" layer="39">
-<vertex x="10.05" y="-3.3"/>
-<vertex x="-10.05" y="-3.3"/>
-<vertex x="-10.05" y="3.3"/>
-<vertex x="10.05" y="3.3"/>
+<vertex x="-6.7" y="5.95"/>
+<vertex x="6.7" y="5.95"/>
+<vertex x="6.7" y="-5.95"/>
+<vertex x="-6.7" y="-5.95"/>
 </polygon>
-<circle x="-9" y="1.2" radius="0.2" width="0.4" layer="51"/>
-<circle x="-9" y="-3.8" radius="0.2" width="0.4" layer="21"/>
+<text x="0" y="6.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.5" y="-4.8" radius="0.2" width="0.4" layer="21"/>
 </package>
-<package name="WPME-FISM_SIP-7_1779205341" urn="urn:adsk.eagle:footprint:46635230/1">
+<package name="WPME-FISM_SIP-7_1779205241" urn="urn:adsk.eagle:footprint:45722127/3">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SIP-7, THT, 4pins
 &lt;br&gt;LXWXH = 19.5X6X10mm</description>
@@ -562,168 +803,89 @@ Copyright: Würth Elektronik</description>
 <circle x="-9" y="1.2" radius="0.2" width="0.4" layer="51"/>
 <circle x="-9" y="-3.8" radius="0.2" width="0.4" layer="21"/>
 </package>
-<package name="WPME-FISM_SIP-4_L11.5W6H10" urn="urn:adsk.eagle:footprint:13381251/4">
+<package name="WPME-FISM_SIP-7_1779205341" urn="urn:adsk.eagle:footprint:46635230/1">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.5X6X10mm</description>
-<pad name="1" x="-3.81" y="-1.75" drill="1"/>
-<pad name="2" x="-1.27" y="-1.75" drill="1"/>
-<pad name="3" x="1.27" y="-1.75" drill="1"/>
-<pad name="4" x="3.81" y="-1.75" drill="1"/>
-<wire x1="-5.75" y1="3" x2="5.75" y2="3" width="0.1" layer="51"/>
-<wire x1="5.75" y1="3" x2="5.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="5.75" y1="-3" x2="-5.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="-5.75" y1="-3" x2="-5.75" y2="3" width="0.1" layer="51"/>
-<wire x1="-5.85" y1="3.1" x2="5.85" y2="3.1" width="0.2" layer="21"/>
-<wire x1="5.85" y1="3.1" x2="5.85" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="5.85" y1="-3.1" x2="-5.85" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-5.85" y1="-3.1" x2="-5.85" y2="3.1" width="0.2" layer="21"/>
-<text x="0" y="4.05" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.15" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-6.05" y="3.3"/>
-<vertex x="6.05" y="3.3"/>
-<vertex x="6.05" y="-3.3"/>
-<vertex x="-6.05" y="-3.3"/>
-</polygon>
-<circle x="-5" y="-3.8" radius="0.2" width="0.4" layer="21"/>
-</package>
-<package name="WPME-FISM_SIP-4_1779205311" urn="urn:adsk.eagle:footprint:46635232/1">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+&lt;br&gt;&lt;/b&gt;Size : SIP-7, THT, 4pins
+&lt;br&gt;LXWXH = 19.5X6X10mm</description>
 <text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<pad name="1" x="-3.81" y="-2.1" drill="1"/>
-<pad name="2" x="-1.27" y="-2.1" drill="1"/>
-<pad name="3" x="1.27" y="-2.1" drill="1"/>
-<pad name="4" x="3.81" y="-2.1" drill="1"/>
-<wire x1="-5.75" y1="3" x2="5.75" y2="3" width="0.1" layer="51"/>
-<wire x1="5.75" y1="3" x2="5.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="5.75" y1="-3" x2="-5.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="-5.75" y1="-3" x2="-5.75" y2="3" width="0.1" layer="51"/>
-<wire x1="-5.85" y1="3.1" x2="5.85" y2="3.1" width="0.2" layer="21"/>
-<wire x1="5.85" y1="3.1" x2="5.85" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="5.85" y1="-3.1" x2="4.42" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="3.22" y1="-3.1" x2="1.88" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="0.68" y1="-3.1" x2="-0.66" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-1.86" y1="-3.1" x2="-3.13" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-4.47" y1="-3.1" x2="-5.85" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-5.85" y1="-3.1" x2="-5.85" y2="3.1" width="0.2" layer="21"/>
+<pad name="1" x="-7.62" y="1.8" drill="1"/>
+<pad name="2" x="-5.08" y="1.8" drill="1"/>
+<pad name="5" x="2.54" y="1.8" drill="1"/>
+<pad name="7" x="7.62" y="1.8" drill="1"/>
+<wire x1="9.75" y1="-3" x2="-9.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="-9.75" y1="-3" x2="-9.75" y2="3" width="0.1" layer="51"/>
+<wire x1="-9.75" y1="3" x2="9.75" y2="3" width="0.1" layer="51"/>
+<wire x1="9.75" y1="3" x2="9.75" y2="-3" width="0.1" layer="51"/>
+<wire x1="9.85" y1="-3.1" x2="-9.85" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-9.85" y1="-3.1" x2="-9.85" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-9.85" y1="3.1" x2="9.85" y2="3.1" width="0.2" layer="21"/>
+<wire x1="9.85" y1="3.1" x2="9.85" y2="-3.1" width="0.2" layer="21"/>
 <polygon width="0.1" layer="39">
-<vertex x="-6.05" y="3.3"/>
-<vertex x="6.05" y="3.3"/>
-<vertex x="6.05" y="-3.3"/>
-<vertex x="-6.05" y="-3.3"/>
+<vertex x="10.05" y="-3.3"/>
+<vertex x="-10.05" y="-3.3"/>
+<vertex x="-10.05" y="3.3"/>
+<vertex x="10.05" y="3.3"/>
 </polygon>
-<circle x="-5" y="-3.8" radius="0.2" width="0.4" layer="21"/>
-</package>
-<package name="WPME-FISM_SIP-4_L11.6W7.55H10.16" urn="urn:adsk.eagle:footprint:34692625/4">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.6X7.55X10.16mm</description>
-<wire x1="-5.8" y1="3.775" x2="5.8" y2="3.775" width="0.1" layer="51"/>
-<wire x1="5.8" y1="3.775" x2="5.8" y2="-3.775" width="0.1" layer="51"/>
-<wire x1="5.8" y1="-3.775" x2="-5.8" y2="-3.775" width="0.1" layer="51"/>
-<wire x1="-5.8" y1="-3.775" x2="-5.8" y2="3.775" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="3.875" x2="-5.9" y2="-3.875" width="0.2" layer="21"/>
-<wire x1="-5.9" y1="-3.875" x2="-4.5" y2="-3.875" width="0.2" layer="21"/>
-<wire x1="-3" y1="-3.875" x2="-1.96" y2="-3.875" width="0.2" layer="21"/>
-<wire x1="-0.46" y1="-3.875" x2="0.58" y2="-3.875" width="0.2" layer="21"/>
-<wire x1="2.08" y1="-3.875" x2="3.12" y2="-3.875" width="0.2" layer="21"/>
-<wire x1="4.6" y1="-3.875" x2="5.9" y2="-3.875" width="0.2" layer="21"/>
-<wire x1="5.9" y1="-3.875" x2="5.9" y2="3.875" width="0.2" layer="21"/>
-<wire x1="5.9" y1="3.875" x2="-5.9" y2="3.875" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.1" y="4.075"/>
-<vertex x="6.1" y="4.075"/>
-<vertex x="6.1" y="-4.075"/>
-<vertex x="-6.1" y="-4.075"/>
-</polygon>
-<text x="0" y="4.625" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.875" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<pad name="1" x="-3.81" y="-2.875" drill="1"/>
-<pad name="2" x="-1.27" y="-2.875" drill="1"/>
-<pad name="3" x="1.27" y="-2.875" drill="1"/>
-<pad name="4" x="3.81" y="-2.875" drill="1"/>
-<circle x="-5" y="-4.6" radius="0.2" width="0.4" layer="21"/>
-</package>
-<package name="WPME-FISM_SIP-4_1779205111" urn="urn:adsk.eagle:footprint:45722129/2">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.5X6X10mm</description>
-<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<pad name="1" x="-3.81" y="-2.1" drill="1"/>
-<pad name="2" x="-1.27" y="-2.1" drill="1"/>
-<pad name="3" x="1.27" y="-2.1" drill="1"/>
-<pad name="4" x="3.81" y="-2.1" drill="1"/>
-<wire x1="-5.75" y1="3" x2="5.75" y2="3" width="0.1" layer="51"/>
-<wire x1="5.75" y1="3" x2="5.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="5.75" y1="-3" x2="-5.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="-5.75" y1="-3" x2="-5.75" y2="3" width="0.1" layer="51"/>
-<wire x1="-5.85" y1="3.1" x2="5.85" y2="3.1" width="0.2" layer="21"/>
-<wire x1="5.85" y1="3.1" x2="5.85" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="5.85" y1="-3.1" x2="4.42" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="3.22" y1="-3.1" x2="1.88" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="0.68" y1="-3.1" x2="-0.66" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-1.86" y1="-3.1" x2="-3.13" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-4.47" y1="-3.1" x2="-5.85" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-5.85" y1="-3.1" x2="-5.85" y2="3.1" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.05" y="3.3"/>
-<vertex x="6.05" y="3.3"/>
-<vertex x="6.05" y="-3.3"/>
-<vertex x="-6.05" y="-3.3"/>
-</polygon>
-<circle x="-5" y="-3.8" radius="0.2" width="0.4" layer="21"/>
-</package>
-<package name="WPME-FISM_SIP-4_1779205211" urn="urn:adsk.eagle:footprint:45722128/2">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.5X6X10mm</description>
-<text x="0" y="3.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<pad name="1" x="-3.81" y="-2.1" drill="1"/>
-<pad name="2" x="-1.27" y="-2.1" drill="1"/>
-<pad name="3" x="1.27" y="-2.1" drill="1"/>
-<pad name="4" x="3.81" y="-2.1" drill="1"/>
-<wire x1="-5.75" y1="3" x2="5.75" y2="3" width="0.1" layer="51"/>
-<wire x1="5.75" y1="3" x2="5.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="5.75" y1="-3" x2="-5.75" y2="-3" width="0.1" layer="51"/>
-<wire x1="-5.75" y1="-3" x2="-5.75" y2="3" width="0.1" layer="51"/>
-<wire x1="-5.85" y1="3.1" x2="5.85" y2="3.1" width="0.2" layer="21"/>
-<wire x1="5.85" y1="3.1" x2="5.85" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="5.85" y1="-3.1" x2="4.42" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="3.22" y1="-3.1" x2="1.88" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="0.68" y1="-3.1" x2="-0.66" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-1.86" y1="-3.1" x2="-3.13" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-4.47" y1="-3.1" x2="-5.85" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="-5.85" y1="-3.1" x2="-5.85" y2="3.1" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-6.05" y="3.3"/>
-<vertex x="6.05" y="3.3"/>
-<vertex x="6.05" y="-3.3"/>
-<vertex x="-6.05" y="-3.3"/>
-</polygon>
-<circle x="-5" y="-3.8" radius="0.2" width="0.4" layer="21"/>
+<circle x="-9" y="1.2" radius="0.2" width="0.4" layer="51"/>
+<circle x="-9" y="-3.8" radius="0.2" width="0.4" layer="21"/>
 </package>
 </packages>
 <packages3d>
+<package3d name="WPME-FISM_SIP-4_L11.5W6H10" urn="urn:adsk.eagle:package:35949733/4" type="model">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SIP-4_L11.5W6H10"/>
+</packageinstances>
+</package3d>
+<package3d name="WPME-FISM_SIP-4_1779205311" urn="urn:adsk.eagle:package:46635240/2" type="model">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SIP-4_1779205311"/>
+</packageinstances>
+</package3d>
+<package3d name="WPME-FISM_SIP-4_1779205111" urn="urn:adsk.eagle:package:45722134/3" type="model">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SIP-4_1779205111"/>
+</packageinstances>
+</package3d>
+<package3d name="WPME-FISM_SIP-4_1779205011" urn="urn:adsk.eagle:package:52714026/2" type="model">
+<description>MagI³C-FISM Fixed Isolated SIP Module
+Size : SIP-4, THT, 4pins
+LXWXH = 11.5X6X10mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SIP-4_1779205011"/>
+</packageinstances>
+</package3d>
+<package3d name="WPME-FISM_SIP-4_L11.6W7.55H10.16" urn="urn:adsk.eagle:package:35949731/4" type="model">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.6X7.55X10.16mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SIP-4_L11.6W7.55H10.16"/>
+</packageinstances>
+</package3d>
+<package3d name="WPME-FISM_SIP-4_1779205211" urn="urn:adsk.eagle:package:45722133/4" type="model">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
+&lt;br&gt;LXWXH = 11.5X6X10mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SIP-4_1779205211"/>
+</packageinstances>
+</package3d>
 <package3d name="WPME-FISM_SMT-8_1769205141" urn="urn:adsk.eagle:package:45722136/3" type="model">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
 &lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
 <packageinstances>
 <packageinstance name="WPME-FISM_SMT-8_1769205141"/>
-</packageinstances>
-</package3d>
-<package3d name="WPME-FISM_SMT-8_1769205241" urn="urn:adsk.eagle:package:45722135/4" type="model">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
-&lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
-<packageinstances>
-<packageinstance name="WPME-FISM_SMT-8_1769205241"/>
 </packageinstances>
 </package3d>
 <package3d name="WPME-FISM_SMT-8_L12.75W10.7H6.95" urn="urn:adsk.eagle:package:35949735/4" type="model">
@@ -734,12 +896,12 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WPME-FISM_SMT-8_L12.75W10.7H6.95"/>
 </packageinstances>
 </package3d>
-<package3d name="WPME-FISM_SMT-8_1769405141" urn="urn:adsk.eagle:package:46635234/2" type="model">
+<package3d name="WPME-FISM_SMT-8_1769205241" urn="urn:adsk.eagle:package:45722135/4" type="model">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
 &lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
 <packageinstances>
-<packageinstance name="WPME-FISM_SMT-8_1769405141"/>
+<packageinstance name="WPME-FISM_SMT-8_1769205241"/>
 </packageinstances>
 </package3d>
 <package3d name="WPME-FISM_SMT-8_1769205041" urn="urn:adsk.eagle:package:46635237/2" type="model">
@@ -750,6 +912,22 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WPME-FISM_SMT-8_1769205041"/>
 </packageinstances>
 </package3d>
+<package3d name="WPME-FISM_SMT-8_1769205341" urn="urn:adsk.eagle:package:46635236/3" type="model">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
+&lt;br&gt;LXWXH = 12.8X11.1X6.9mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SMT-8_1769205341"/>
+</packageinstances>
+</package3d>
+<package3d name="WPME-FISM_SMT-8_1769405141" urn="urn:adsk.eagle:package:46635234/2" type="model">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
+&lt;br&gt;LXWXH = 12.7X11.05X6.25mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SMT-8_1769405141"/>
+</packageinstances>
+</package3d>
 <package3d name="WPME-FISM_SMT-8_1769405241" urn="urn:adsk.eagle:package:46635233/2" type="model">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
@@ -758,20 +936,36 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WPME-FISM_SMT-8_1769405241"/>
 </packageinstances>
 </package3d>
-<package3d name="WPME-FISM_SMT-8_1769205341" urn="urn:adsk.eagle:package:46635236/2" type="model">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
-&lt;br&gt;LXWXH = 12.8X11.1X6.9mm</description>
+<package3d name="WPME-FISM_SMT-8_1768812141" urn="urn:adsk.eagle:package:52714029/2" type="model">
+<description>MagI³C-FISM Fixed Isolated SIP Module
+Size : SMT-8, THT, 5pins
+LXWXH = 12.7X11.05X6.25mm</description>
 <packageinstances>
-<packageinstance name="WPME-FISM_SMT-8_1769205341"/>
+<packageinstance name="WPME-FISM_SMT-8_1768812141"/>
 </packageinstances>
 </package3d>
-<package3d name="WPME-FISM_SMT-8_1769405341" urn="urn:adsk.eagle:package:46635235/2" type="model">
+<package3d name="WPME-FISM_SMT-8_1768812241" urn="urn:adsk.eagle:package:52714028/2" type="model">
+<description>MagI³C-FISM Fixed Isolated SIP Module
+Size : SMT-8, THT, 5pins
+LXWXH = 12.7X11.05X6.25mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SMT-8_1768812241"/>
+</packageinstances>
+</package3d>
+<package3d name="WPME-FISM_SMT-8_1769405341" urn="urn:adsk.eagle:package:46635235/3" type="model">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SMT-8, THT, 5pins
 &lt;br&gt;LXWXH = 12.8X11.1X6.9mm</description>
 <packageinstances>
 <packageinstance name="WPME-FISM_SMT-8_1769405341"/>
+</packageinstances>
+</package3d>
+<package3d name="WPME-FISM_SMT-8_1768812341" urn="urn:adsk.eagle:package:52714027/2" type="model">
+<description>MagI³C-FISM Fixed Isolated SIP Module
+Size : SMT-8, THT, 5pins
+LXWXH = 12.8X11.1X6.9mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SMT-8_1768812341"/>
 </packageinstances>
 </package3d>
 <package3d name="WPME-FISM_SIP-7_L19.6W7.05H10.2" urn="urn:adsk.eagle:package:35949734/4" type="model">
@@ -790,20 +984,20 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WPME-FISM_SIP-7_L19.65W7.05H10.16"/>
 </packageinstances>
 </package3d>
-<package3d name="WPME-FISM_SIP-7_1779205241" urn="urn:adsk.eagle:package:45722132/5" type="model">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-7, THT, 4pins
-&lt;br&gt;LXWXH = 19.5X6X10mm</description>
-<packageinstances>
-<packageinstance name="WPME-FISM_SIP-7_1779205241"/>
-</packageinstances>
-</package3d>
 <package3d name="WPME-FISM_SIP-7_1779205141" urn="urn:adsk.eagle:package:46635239/2" type="model">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
 &lt;br&gt;&lt;/b&gt;Size : SIP-7, THT, 4pins
 &lt;br&gt;LXWXH = 19.5X6X10mm</description>
 <packageinstances>
 <packageinstance name="WPME-FISM_SIP-7_1779205141"/>
+</packageinstances>
+</package3d>
+<package3d name="WPME-FISM_SIP-7_1779205241" urn="urn:adsk.eagle:package:45722132/5" type="model">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
+&lt;br&gt;&lt;/b&gt;Size : SIP-7, THT, 4pins
+&lt;br&gt;LXWXH = 19.5X6X10mm</description>
+<packageinstances>
+<packageinstance name="WPME-FISM_SIP-7_1779205241"/>
 </packageinstances>
 </package3d>
 <package3d name="WPME-FISM_SIP-7_1779205341" urn="urn:adsk.eagle:package:46635238/2" type="model">
@@ -814,49 +1008,9 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WPME-FISM_SIP-7_1779205341"/>
 </packageinstances>
 </package3d>
-<package3d name="WPME-FISM_SIP-4_L11.5W6H10" urn="urn:adsk.eagle:package:35949733/4" type="model">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.5X6X10mm</description>
-<packageinstances>
-<packageinstance name="WPME-FISM_SIP-4_L11.5W6H10"/>
-</packageinstances>
-</package3d>
-<package3d name="WPME-FISM_SIP-4_1779205311" urn="urn:adsk.eagle:package:46635240/2" type="model">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.5X6X10mm</description>
-<packageinstances>
-<packageinstance name="WPME-FISM_SIP-4_1779205311"/>
-</packageinstances>
-</package3d>
-<package3d name="WPME-FISM_SIP-4_L11.6W7.55H10.16" urn="urn:adsk.eagle:package:35949731/4" type="model">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.6X7.55X10.16mm</description>
-<packageinstances>
-<packageinstance name="WPME-FISM_SIP-4_L11.6W7.55H10.16"/>
-</packageinstances>
-</package3d>
-<package3d name="WPME-FISM_SIP-4_1779205111" urn="urn:adsk.eagle:package:45722134/3" type="model">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.5X6X10mm</description>
-<packageinstances>
-<packageinstance name="WPME-FISM_SIP-4_1779205111"/>
-</packageinstances>
-</package3d>
-<package3d name="WPME-FISM_SIP-4_1779205211" urn="urn:adsk.eagle:package:45722133/4" type="model">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP Module
-&lt;br&gt;&lt;/b&gt;Size : SIP-4, THT, 4pins
-&lt;br&gt;LXWXH = 11.5X6X10mm</description>
-<packageinstances>
-<packageinstance name="WPME-FISM_SIP-4_1779205211"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
-<symbol name="WPME-FISM_SMT-8">
+<symbol name="WPME-FISM_SIP-4">
 <pin name="-VIN" x="-10.16" y="-2.54" visible="pad" length="short" direction="in"/>
 <pin name="+VIN" x="-10.16" y="2.54" visible="pad" length="short" direction="in"/>
 <pin name="-VOUT" x="10.16" y="-2.54" visible="pad" length="short" direction="out" rot="R180"/>
@@ -888,7 +1042,7 @@ Copyright: Würth Elektronik</description>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 </symbol>
-<symbol name="WPME-FISM_SIP-4">
+<symbol name="WPME-FISM_SMT-8">
 <pin name="-VIN" x="-10.16" y="-2.54" visible="pad" length="short" direction="in"/>
 <pin name="+VIN" x="-10.16" y="2.54" visible="pad" length="short" direction="in"/>
 <pin name="-VOUT" x="10.16" y="-2.54" visible="pad" length="short" direction="out" rot="R180"/>
@@ -906,6 +1060,295 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="WPME-FISM_SIP-4" prefix="U">
+<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP / SMT Module&lt;br&gt;
+Unregulated output voltage&lt;br&gt;
+
+&lt;br&gt;Characteristics
+&lt;br&gt;
+&lt;/B&gt;&lt;br&gt;Simple design (no transformer design know how required)
+&lt;br&gt;Leaded through-hole package for easy manufacturing and prototyping
+&lt;br&gt;Stand-alone solution (CIN and COUT integrated, no external components)
+&lt;br&gt;Simple functional isolation for overvoltage protection, avoiding ground loops, ground shift and noise in signal path or sensor systems
+&lt;br&gt;Industrial standard package and pin configuration
+&lt;br&gt;Low conducted and radiated EMI (compliant to EN55022 class B)
+&lt;br&gt;UL60950 certified
+&lt;br&gt;
+
+&lt;br&gt;&lt;b&gt;Applications
+&lt;br&gt;&lt;br&gt;&lt;/B&gt;Data acquisition
+&lt;br&gt;Test and measurement systems
+&lt;br&gt;Interface and microcontroller supply
+&lt;br&gt;Industrial control
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;/b&gt;&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o84919v209%20Family-Magic-FISM-1779205x11-1779205x41-17694051.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o84919v209%20Family-Magic-FISM-1779205x11-1779205x41-17694051.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/MAGIC-FISM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-FISM&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella 2026-04-27
+&lt;br&gt;2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WPME-FISM_SIP-4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_L11.5W6H10" package="WPME-FISM_SIP-4_L11.5W6H10">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35949733/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_177920501">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920501?ae"/>
+<attribute name="HEIGHT" value="10 mm"/>
+<attribute name="LENGTH" value="11.5 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="177920501"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="no "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="2.97 - 3.63Vin, 5Vout"/>
+<attribute name="VIN" value="2.97 - 3.63V"/>
+<attribute name="VISO" value="1000 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="6 mm"/>
+</technology>
+<technology name="_177920511">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920511?ae"/>
+<attribute name="HEIGHT" value="10 mm"/>
+<attribute name="LENGTH" value="11.5 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="177920511"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="no "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
+<attribute name="VIN" value="4.5 - 5.5V"/>
+<attribute name="VISO" value="1000 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="6 mm"/>
+</technology>
+<technology name="_177920521">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920521?ae"/>
+<attribute name="HEIGHT" value="10 mm"/>
+<attribute name="LENGTH" value="11.5 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="177920521"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="no "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
+<attribute name="VIN" value="10.8 - 13.2V"/>
+<attribute name="VISO" value="1000 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="6 mm"/>
+</technology>
+<technology name="_177920531">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920531?ae"/>
+<attribute name="HEIGHT" value="10 mm"/>
+<attribute name="LENGTH" value="11.5 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="177920531"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="no "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
+<attribute name="VIN" value="21.6 - 26.4V"/>
+<attribute name="VISO" value="1000 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="6 mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_1779205311" package="WPME-FISM_SIP-4_1779205311">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46635240/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205311?ae"/>
+<attribute name="HEIGHT" value="10 mm"/>
+<attribute name="LENGTH" value="11.5 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="1779205311"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
+<attribute name="VIN" value="21.6 - 26.4V"/>
+<attribute name="VISO" value="1500 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="6 mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_L11.6W7.55H10.16" package="WPME-FISM_SIP-4_L11.6W7.55H10.16">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35949731/4"/>
+</package3dinstances>
+<technologies>
+<technology name="_1779405111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779405111?ae"/>
+<attribute name="HEIGHT" value="10.16 mm"/>
+<attribute name="LENGTH" value="11.6 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="1779405111"/>
+<attribute name="PO" value="2 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
+<attribute name="VIN" value="4.5 - 5.5V"/>
+<attribute name="VISO" value="1500 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="7.05 mm"/>
+</technology>
+<technology name="_1779405211">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779405211?ae"/>
+<attribute name="HEIGHT" value="10.16 mm"/>
+<attribute name="LENGTH" value="11.6 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="1779405211"/>
+<attribute name="PO" value="2 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
+<attribute name="VIN" value="10.8 - 13.2V"/>
+<attribute name="VISO" value="1500 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="7.05 mm"/>
+</technology>
+<technology name="_1779405311">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779405311?ae"/>
+<attribute name="HEIGHT" value="10.16 mm"/>
+<attribute name="LENGTH" value="11.6 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="1779405311"/>
+<attribute name="PO" value="2 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
+<attribute name="VIN" value="21.6 - 26.4V"/>
+<attribute name="VISO" value="1500 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="7.05 mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_1779205111" package="WPME-FISM_SIP-4_1779205111">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45722134/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205111?ae"/>
+<attribute name="HEIGHT" value="10 mm"/>
+<attribute name="LENGTH" value="11.5 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="1779205111"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
+<attribute name="VIN" value="4.5 - 5.5V"/>
+<attribute name="VISO" value="3000 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="6 mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_1779205211" package="WPME-FISM_SIP-4_1779205211">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45722133/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205211?ae"/>
+<attribute name="HEIGHT" value="10 mm"/>
+<attribute name="LENGTH" value="11.5 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="1779205211"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
+<attribute name="VIN" value="10.8 - 13.2V"/>
+<attribute name="VISO" value="3000 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="6 mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_1779205011" package="WPME-FISM_SIP-4_1779205011">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:52714026/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205011?ae"/>
+<attribute name="HEIGHT" value="10 mm"/>
+<attribute name="LENGTH" value="11.5 mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value="1779205011"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SIP-4"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="2.79 - 3.63Vin, 5Vout"/>
+<attribute name="VIN" value="2.79 - 3.63V"/>
+<attribute name="VISO" value="3000 V"/>
+<attribute name="VOUT" value="5V"/>
+<attribute name="WIDTH" value="6 mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="WPME-FISM_SMT-8" prefix="U">
 <description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP / SMT Module&lt;br&gt;
 Unregulated output voltage&lt;br&gt;
@@ -933,8 +1376,8 @@ Unregulated output voltage&lt;br&gt;
 &lt;img src="https://www.we-online.com/components/media/o84919v209%20Family-Magic-FISM-1779205x11-1779205x41-17694051.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
 Details see: &lt;a href="www.we-online.com/catalog/MAGIC-FISM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-FISM&lt;/a&gt;&lt;p&gt;
 
-Updated by Ella 2025-01-21
-&lt;br&gt;2025 (C) Wurth Elektronik</description>
+Updated by Ella 2026-04-27
+&lt;br&gt;2026 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="WPME-FISM_SMT-8" x="0" y="0"/>
 </gates>
@@ -950,85 +1393,53 @@ Updated by Ella 2025-01-21
 <package3dinstance package3d_urn="urn:adsk.eagle:package:35949735/4"/>
 </package3dinstances>
 <technologies>
-<technology name="_176861512">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/176861512?ae"/>
-<attribute name="HEIGHT" value="6.7mm"/>
-<attribute name="LENGTH" value="12.75mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="176861512"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
-<attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="4.5 - 5.5Vin, 15Vout"/>
-<attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="2000V"/>
-<attribute name="VOUT" value="15V"/>
-<attribute name="WIDTH" value="10.7mm"/>
-</technology>
-<technology name="_176881212">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/176881212?ae"/>
-<attribute name="HEIGHT" value="6.7mm"/>
-<attribute name="LENGTH" value="12.75mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="176881212"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
-<attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="4.5 - 5.5Vin, 12Vout"/>
-<attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="2000V"/>
-<attribute name="VOUT" value="12V"/>
-<attribute name="WIDTH" value="10.7mm"/>
-</technology>
 <technology name="_176920502">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/176920502?ae"/>
-<attribute name="HEIGHT" value="6.7mm"/>
-<attribute name="LENGTH" value="12.75mm"/>
+<attribute name="HEIGHT" value="6.7 mm"/>
+<attribute name="LENGTH" value="12.75 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="176920502"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="no "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="2.97 - 3.63Vin, 5Vout"/>
 <attribute name="VIN" value="2.97 - 3.63V"/>
-<attribute name="VISO" value="2000V"/>
+<attribute name="VISO" value="2000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="10.7mm"/>
+<attribute name="WIDTH" value="10.7 mm"/>
 </technology>
 <technology name="_176920512">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/176920512?ae"/>
-<attribute name="HEIGHT" value="6.7mm"/>
-<attribute name="LENGTH" value="12.75mm"/>
+<attribute name="HEIGHT" value="6.7 mm"/>
+<attribute name="LENGTH" value="12.75 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="176920512"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="no "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
 <attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="2000V"/>
+<attribute name="VISO" value="2000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="10.7mm"/>
+<attribute name="WIDTH" value="10.7 mm"/>
 </technology>
 <technology name="_176920522">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/176920522?ae"/>
-<attribute name="HEIGHT" value="6.7mm"/>
-<attribute name="LENGTH" value="12.75mm"/>
+<attribute name="HEIGHT" value="6.7 mm"/>
+<attribute name="LENGTH" value="12.75 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="176920522"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="no "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
 <attribute name="VIN" value="10.8 - 13.2V"/>
-<attribute name="VISO" value="2000V"/>
+<attribute name="VISO" value="2000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="10.7mm"/>
+<attribute name="WIDTH" value="10.7 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1045,19 +1456,19 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1769205141?ae"/>
-<attribute name="HEIGHT" value="6.25mm"/>
-<attribute name="LENGTH" value="12.7mm"/>
+<attribute name="HEIGHT" value="7.25 mm"/>
+<attribute name="LENGTH" value="13.2 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="1769205141"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
 <attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="4000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.6mm"/>
+<attribute name="WIDTH" value="11.4 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1074,19 +1485,19 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1769205241?ae"/>
-<attribute name="HEIGHT" value="6.25mm"/>
-<attribute name="LENGTH" value="12.7mm"/>
+<attribute name="HEIGHT" value="7.25 mm"/>
+<attribute name="LENGTH" value="13.2 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="1769205241"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
 <attribute name="VIN" value="10.8 - 13.2V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="4000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.6mm"/>
+<attribute name="WIDTH" value="11.4 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1103,19 +1514,19 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1769205041?ae"/>
-<attribute name="HEIGHT" value="6.25mm"/>
-<attribute name="LENGTH" value="12.7mm"/>
+<attribute name="HEIGHT" value="7.25 mm"/>
+<attribute name="LENGTH" value="13.2 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="1769205041"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="2.97 - 3.63Vin, 5Vout"/>
 <attribute name="VIN" value="2.97 - 3.63V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="4000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.6mm"/>
+<attribute name="WIDTH" value="11.4 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1127,24 +1538,24 @@ Updated by Ella 2025-01-21
 <connect gate="G$1" pin="-VOUT" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:46635236/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46635236/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1769205341?ae"/>
-<attribute name="HEIGHT" value="6.9mm"/>
-<attribute name="LENGTH" value="12.8mm"/>
+<attribute name="HEIGHT" value="7.25 mm"/>
+<attribute name="LENGTH" value="13.2 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="1769205341"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
 <attribute name="VIN" value="21.6 - 26.4V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="3000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="11.1mm"/>
+<attribute name="WIDTH" value="11.4 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1161,19 +1572,19 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1769405141?ae"/>
-<attribute name="HEIGHT" value="6.25mm"/>
-<attribute name="LENGTH" value="12.7mm"/>
+<attribute name="HEIGHT" value="7.25 mm"/>
+<attribute name="LENGTH" value="13.2 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="1769405141"/>
-<attribute name="PO" value="2W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="2 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
 <attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="4000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.6mm"/>
+<attribute name="WIDTH" value="11.4 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1190,19 +1601,19 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1769405241?ae"/>
-<attribute name="HEIGHT" value="6.25mm"/>
-<attribute name="LENGTH" value="12.7mm"/>
+<attribute name="HEIGHT" value="7.25 mm"/>
+<attribute name="LENGTH" value="13.2 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="1769405241"/>
-<attribute name="PO" value="2W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="2 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
 <attribute name="VIN" value="10.8 - 13.2V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="4000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.6mm"/>
+<attribute name="WIDTH" value="11.4 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1214,24 +1625,111 @@ Updated by Ella 2025-01-21
 <connect gate="G$1" pin="-VOUT" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:46635235/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46635235/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1769405341?ae"/>
-<attribute name="HEIGHT" value="6.9mm"/>
-<attribute name="LENGTH" value="12.8mm"/>
+<attribute name="HEIGHT" value="7.25 mm"/>
+<attribute name="LENGTH" value="13.2 mm"/>
 <attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="1769405341"/>
-<attribute name="PO" value="2W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="2 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SMT-8"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
 <attribute name="VIN" value="21.6 - 26.4V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="3000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="11.1mm"/>
+<attribute name="WIDTH" value="11.4 mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_1768812141" package="WPME-FISM_SMT-8_1768812141">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="5"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:52714029/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1768812141?ae"/>
+<attribute name="HEIGHT" value="6.25 mm"/>
+<attribute name="LENGTH" value="12.7 mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="1768812141"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SMT-8"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="4.5 - 5.5Vin, 12Vout"/>
+<attribute name="VIN" value="4.5 - 5.5V"/>
+<attribute name="VISO" value="4000 V"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="WIDTH" value="11.05 mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_1768812241" package="WPME-FISM_SMT-8_1768812241">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="5"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:52714028/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1768812241?ae"/>
+<attribute name="HEIGHT" value="6.25 mm"/>
+<attribute name="LENGTH" value="12.7 mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="1768812241"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SMT-8"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="10.8 - 13.2Vin, 12Vout"/>
+<attribute name="VIN" value="10.8 - 13.2V"/>
+<attribute name="VISO" value="4000 V"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="WIDTH" value="11.05 mm"/>
+</technology>
+</technologies>
+</device>
+<device name="_1768812341" package="WPME-FISM_SMT-8_1768812341">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="5"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:52714027/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1768812341?ae"/>
+<attribute name="HEIGHT" value="6.9 mm"/>
+<attribute name="LENGTH" value="12.8 mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="1768812341"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
+<attribute name="SIZE" value="SMT-8"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
+<attribute name="VALUE" value="21.6 - 26.4Vin, 12Vout"/>
+<attribute name="VIN" value="21.6 - 26.4V"/>
+<attribute name="VISO" value="4000 V"/>
+<attribute name="VOUT" value="12V"/>
+<attribute name="WIDTH" value="11.1 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1283,35 +1781,35 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="_177920514">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920514?ae"/>
-<attribute name="HEIGHT" value="10.2mm"/>
-<attribute name="LENGTH" value="19.6mm"/>
+<attribute name="HEIGHT" value="10.2 mm"/>
+<attribute name="LENGTH" value="19.6 mm"/>
 <attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="177920514"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="no "/>
 <attribute name="SIZE" value="SIP-7"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
 <attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="4000V"/>
+<attribute name="VISO" value="4000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.05mm"/>
+<attribute name="WIDTH" value="7.05 mm"/>
 </technology>
 <technology name="_177920524">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920524?ae"/>
-<attribute name="HEIGHT" value="10.2mm"/>
-<attribute name="LENGTH" value="19.6mm"/>
+<attribute name="HEIGHT" value="10.2 mm"/>
+<attribute name="LENGTH" value="19.6 mm"/>
 <attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="177920524"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="no "/>
 <attribute name="SIZE" value="SIP-7"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
 <attribute name="VIN" value="10.8 - 13.2V"/>
-<attribute name="VISO" value="4000V"/>
+<attribute name="VISO" value="4000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.05mm"/>
+<attribute name="WIDTH" value="7.05 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1328,51 +1826,51 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="_1779405141">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779405141?ae"/>
-<attribute name="HEIGHT" value="10.16mm"/>
-<attribute name="LENGTH" value="19.65mm"/>
+<attribute name="HEIGHT" value="10.16 mm"/>
+<attribute name="LENGTH" value="19.65 mm"/>
 <attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="1779405141"/>
-<attribute name="PO" value="2W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="2 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SIP-7"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
 <attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="3000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.05mm"/>
+<attribute name="WIDTH" value="7.05 mm"/>
 </technology>
 <technology name="_1779405241">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779405241?ae"/>
-<attribute name="HEIGHT" value="10.16mm"/>
-<attribute name="LENGTH" value="19.65mm"/>
+<attribute name="HEIGHT" value="10.16 mm"/>
+<attribute name="LENGTH" value="19.65 mm"/>
 <attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="1779405241"/>
-<attribute name="PO" value="2W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="2 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SIP-7"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
 <attribute name="VIN" value="10.8 - 13.2V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="3000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.05mm"/>
+<attribute name="WIDTH" value="7.05 mm"/>
 </technology>
 <technology name="_1779405341">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779405341?ae"/>
-<attribute name="HEIGHT" value="10.16mm"/>
-<attribute name="LENGTH" value="19.65mm"/>
+<attribute name="HEIGHT" value="10.16 mm"/>
+<attribute name="LENGTH" value="19.65 mm"/>
 <attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="1779405341"/>
-<attribute name="PO" value="2W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="2 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SIP-7"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
 <attribute name="VIN" value="21.6 - 26.4V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="3000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.05mm"/>
+<attribute name="WIDTH" value="7.05 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1389,19 +1887,19 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205241?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="19.5mm"/>
+<attribute name="HEIGHT" value="10.2 mm"/>
+<attribute name="LENGTH" value="19.6 mm"/>
 <attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="1779205241"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SIP-7"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
 <attribute name="VIN" value="10.8 - 13.2V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="4000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
+<attribute name="WIDTH" value="7.05 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1418,19 +1916,19 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205141?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="19.5mm"/>
+<attribute name="HEIGHT" value="10.2 mm"/>
+<attribute name="LENGTH" value="19.6 mm"/>
 <attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="1779205141"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SIP-7"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
 <attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="4000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
+<attribute name="WIDTH" value="7.05 mm"/>
 </technology>
 </technologies>
 </device>
@@ -1447,279 +1945,19 @@ Updated by Ella 2025-01-21
 <technologies>
 <technology name="">
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205341?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="19.5mm"/>
+<attribute name="HEIGHT" value="10.2 mm"/>
+<attribute name="LENGTH" value="19.6 mm"/>
 <attribute name="MOUNT" value="THT"/>
 <attribute name="PART-NUMBER" value="1779205341"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
+<attribute name="PO" value="1 W"/>
+<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous "/>
 <attribute name="SIZE" value="SIP-7"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
+<attribute name="TYPE-OF-INSULATION" value="Functional "/>
 <attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
 <attribute name="VIN" value="21.6 - 26.4V"/>
-<attribute name="VISO" value="3000V"/>
+<attribute name="VISO" value="3000 V"/>
 <attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WPME-FISM_SIP-4" prefix="U">
-<description>&lt;b&gt;MagI³C-FISM Fixed Isolated SIP / SMT Module&lt;br&gt;
-Unregulated output voltage&lt;br&gt;
-
-&lt;br&gt;Characteristics
-&lt;br&gt;
-&lt;/B&gt;&lt;br&gt;Simple design (no transformer design know how required)
-&lt;br&gt;Leaded through-hole package for easy manufacturing and prototyping
-&lt;br&gt;Stand-alone solution (CIN and COUT integrated, no external components)
-&lt;br&gt;Simple functional isolation for overvoltage protection, avoiding ground loops, ground shift and noise in signal path or sensor systems
-&lt;br&gt;Industrial standard package and pin configuration
-&lt;br&gt;Low conducted and radiated EMI (compliant to EN55022 class B)
-&lt;br&gt;UL60950 certified
-&lt;br&gt;
-
-&lt;br&gt;&lt;b&gt;Applications
-&lt;br&gt;&lt;br&gt;&lt;/B&gt;Data acquisition
-&lt;br&gt;Test and measurement systems
-&lt;br&gt;Interface and microcontroller supply
-&lt;br&gt;Industrial control
-&lt;br&gt;
-&lt;br&gt;
-
-&lt;/b&gt;&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o84919v209%20Family-Magic-FISM-1779205x11-1779205x41-17694051.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o84919v209%20Family-Magic-FISM-1779205x11-1779205x41-17694051.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/MAGIC-FISM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/MAGIC-FISM&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella 2025-01-21
-&lt;br&gt;2025 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WPME-FISM_SIP-4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_L11.5W6H10" package="WPME-FISM_SIP-4_L11.5W6H10">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="2"/>
-<connect gate="G$1" pin="+VOUT" pad="4"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35949733/4"/>
-</package3dinstances>
-<technologies>
-<technology name="_177920501">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920501?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="11.5mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="177920501"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="2.97 - 3.63Vin, 5Vout"/>
-<attribute name="VIN" value="2.97 - 3.63V"/>
-<attribute name="VISO" value="1000V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
-</technology>
-<technology name="_177920511">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920511?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="11.5mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="177920511"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
-<attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="1000V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
-</technology>
-<technology name="_177920521">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920521?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="11.5mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="177920521"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
-<attribute name="VIN" value="10.8 - 13.2V"/>
-<attribute name="VISO" value="1000V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
-</technology>
-<technology name="_177920531">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/177920531?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="11.5mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="177920531"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="no"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
-<attribute name="VIN" value="21.6 - 26.4V"/>
-<attribute name="VISO" value="1000V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
-</technology>
-</technologies>
-</device>
-<device name="_1779205311" package="WPME-FISM_SIP-4_1779205311">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="2"/>
-<connect gate="G$1" pin="+VOUT" pad="4"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:46635240/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205311?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="11.5mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="1779205311"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
-<attribute name="VIN" value="21.6 - 26.4V"/>
-<attribute name="VISO" value="1500V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
-</technology>
-</technologies>
-</device>
-<device name="_L11.6W7.55H10.16" package="WPME-FISM_SIP-4_L11.6W7.55H10.16">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="2"/>
-<connect gate="G$1" pin="+VOUT" pad="4"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35949731/4"/>
-</package3dinstances>
-<technologies>
-<technology name="_1779405111">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779405111?ae"/>
-<attribute name="HEIGHT" value="10.16mm"/>
-<attribute name="LENGTH" value="11.6mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="1779405111"/>
-<attribute name="PO" value="2W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
-<attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="1500V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.55mm"/>
-</technology>
-<technology name="_1779405211">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779405211?ae"/>
-<attribute name="HEIGHT" value="10.16mm"/>
-<attribute name="LENGTH" value="11.6mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="1779405211"/>
-<attribute name="PO" value="2W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
-<attribute name="VIN" value="10.8 - 13.2V"/>
-<attribute name="VISO" value="1500V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.55mm"/>
-</technology>
-<technology name="_1779405311">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779405311?ae"/>
-<attribute name="HEIGHT" value="10.16mm"/>
-<attribute name="LENGTH" value="11.6mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="1779405311"/>
-<attribute name="PO" value="2W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="21.6 - 26.4Vin, 5Vout"/>
-<attribute name="VIN" value="21.6 - 26.4V"/>
-<attribute name="VISO" value="1500V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="7.55mm"/>
-</technology>
-</technologies>
-</device>
-<device name="_1779205111" package="WPME-FISM_SIP-4_1779205111">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="2"/>
-<connect gate="G$1" pin="+VOUT" pad="4"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:45722134/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205111?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="11.5mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="1779205111"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="4.5 - 5.5Vin, 5Vout"/>
-<attribute name="VIN" value="4.5 - 5.5V"/>
-<attribute name="VISO" value="1500V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
-</technology>
-</technologies>
-</device>
-<device name="_1779205211" package="WPME-FISM_SIP-4_1779205211">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="2"/>
-<connect gate="G$1" pin="+VOUT" pad="4"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:45722133/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/1779205211?ae"/>
-<attribute name="HEIGHT" value="10mm"/>
-<attribute name="LENGTH" value="11.5mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value="1779205211"/>
-<attribute name="PO" value="1W"/>
-<attribute name="SHORT-CIRCUIT-PROTECTION" value="continuous"/>
-<attribute name="SIZE" value="SIP-4"/>
-<attribute name="TYPE-OF-INSULATION" value="Functional"/>
-<attribute name="VALUE" value="10.8 - 13.2Vin, 5Vout"/>
-<attribute name="VIN" value="10.8 - 13.2V"/>
-<attribute name="VISO" value="1500V"/>
-<attribute name="VOUT" value="5V"/>
-<attribute name="WIDTH" value="6mm"/>
+<attribute name="WIDTH" value="7.05 mm"/>
 </technology>
 </technologies>
 </device>
