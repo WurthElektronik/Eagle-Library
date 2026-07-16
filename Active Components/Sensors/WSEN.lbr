@@ -1,0 +1,2716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="tprint" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="bPrint" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="tstop1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="Kontur-BT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="fp4" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="fp5" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="fp6" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="fp7" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="test" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="Mis_case" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="print" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="115_Route3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="_Bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="no"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="Dim_front" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="tTestdril" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="bTestdril" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="Camera" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="misc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="misc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="158" name="158bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="159" name="159bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="160" name="FAB" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="Schematicdocumentation" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="Netlinks" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="252" name="RM45" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Würth Elektronik - Active Components - Sensors
+
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, 
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. 
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. 
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. 
+
+Please contact us for more information: libraries@we-online.com 
+
+Würth Elektronik eiSos GmbH &amp; Co. KG
+EMC &amp; Inductive Solutions
+www.we-online.com
+
+Fusion360, Library Revision 2026a, 2026-07-14
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-PDXS_VERTICAL" urn="urn:adsk.eagle:footprint:53248450/1">
+<description>WSEN-PDXS Differential Pressure Sensor
+
+Vertical-straight nozzles, SMT, 8pins
+LXWXH=13.31mmX8mmX7.55mm</description>
+<wire x1="-6.655" y1="-4" x2="-6.655" y2="4" width="0.1" layer="51"/>
+<wire x1="-6.655" y1="4" x2="6.655" y2="4" width="0.1" layer="51"/>
+<wire x1="6.655" y1="4" x2="6.655" y2="-4" width="0.1" layer="51"/>
+<wire x1="-6.655" y1="-4" x2="6.655" y2="-4" width="0.1" layer="51"/>
+<wire x1="-6.755" y1="3.15" x2="-6.755" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-6.755" y1="4.1" x2="6.755" y2="4.1" width="0.2" layer="21"/>
+<wire x1="6.755" y1="4.1" x2="6.755" y2="3.15" width="0.2" layer="21"/>
+<wire x1="6.755" y1="-3.15" x2="6.755" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="6.755" y1="-4.1" x2="-6.755" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="-6.755" y1="-4.1" x2="-6.755" y2="-3.15" width="0.2" layer="21"/>
+<smd name="2" x="-5.63" y="0.76" dx="2.1" dy="1" layer="1"/>
+<smd name="1" x="-5.63" y="2.285" dx="2.1" dy="1" layer="1"/>
+<smd name="3" x="-5.63" y="-0.76" dx="2.1" dy="1" layer="1"/>
+<smd name="4" x="-5.63" y="-2.285" dx="2.1" dy="1" layer="1"/>
+<smd name="7" x="5.63" y="0.76" dx="2.1" dy="1" layer="1"/>
+<smd name="8" x="5.63" y="2.285" dx="2.1" dy="1" layer="1"/>
+<smd name="6" x="5.63" y="-0.76" dx="2.1" dy="1" layer="1"/>
+<smd name="5" x="5.63" y="-2.285" dx="2.1" dy="1" layer="1"/>
+<rectangle x1="-7" y1="-4.3" x2="7" y2="4.3" layer="39"/>
+<rectangle x1="-4.4" y1="-4.3" x2="4.4" y2="4.3" layer="41"/>
+<rectangle x1="-6.658" y1="1.779" x2="-4.608" y2="2.779" layer="51"/>
+<rectangle x1="-6.653" y1="0.26" x2="-4.603" y2="1.26" layer="51"/>
+<rectangle x1="-6.658" y1="-1.264" x2="-4.608" y2="-0.264" layer="51"/>
+<rectangle x1="-6.658" y1="-2.778" x2="-4.608" y2="-1.778" layer="51"/>
+<rectangle x1="4.607" y1="1.779" x2="6.657" y2="2.779" layer="51"/>
+<rectangle x1="4.607" y1="0.255" x2="6.657" y2="1.255" layer="51"/>
+<rectangle x1="4.607" y1="-1.259" x2="6.657" y2="-0.259" layer="51"/>
+<rectangle x1="4.607" y1="-2.783" x2="6.657" y2="-1.783" layer="51"/>
+<rectangle x1="-4.4" y1="-4.3" x2="4.4" y2="4.3" layer="43"/>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-3.5" y="1.5" radius="1.1" width="0.1" layer="51"/>
+<circle x="3.5" y="-1.5" radius="1.1" width="0.1" layer="51"/>
+<circle x="-7.2" y="2.285" radius="0.127" width="0.254" layer="21"/>
+</package>
+<package name="WSEN-PADS_2511020213301" urn="urn:adsk.eagle:footprint:53248451/1">
+<description>WSEN-PADS Absolute Pressure Sensor
+
+SMT, 10pins
+LXWXH=2mmX2mmX0.8mm</description>
+<text x="0" y="1.5" size="0.6096" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-2.85" y="-2.85" size="0.254" layer="48">recommendation to avoid 
+mechanical stress:
+no vias, drills</text>
+<smd name="4" x="0" y="-0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<smd name="5" x="0.5" y="-0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-0.5" y="-0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<smd name="6" x="0.7625" y="-0.25" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="7" x="0.7625" y="0.25" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.7625" y="0.25" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.7625" y="-0.25" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="9" x="0" y="0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<smd name="8" x="0.5" y="0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<smd name="10" x="-0.5" y="0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.1" layer="51"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.1" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="1.2" x2="1.1" y2="1.2" width="0.2" layer="21"/>
+<wire x1="1.1" y1="-1.2" x2="-1.1" y2="-1.2" width="0.2" layer="21"/>
+<circle x="-1.27" y="0.508" radius="0.05" width="0.1" layer="21"/>
+<rectangle x1="-1" y1="0.025" x2="-0.525" y2="0.475" layer="29"/>
+<rectangle x1="-1" y1="-0.475" x2="-0.525" y2="-0.025" layer="29"/>
+<rectangle x1="0.525" y1="0.025" x2="1" y2="0.475" layer="29"/>
+<rectangle x1="0.525" y1="-0.475" x2="1" y2="-0.025" layer="29"/>
+<rectangle x1="-0.725" y1="0.525" x2="-0.275" y2="1" layer="29"/>
+<rectangle x1="-0.225" y1="0.525" x2="0.225" y2="1" layer="29"/>
+<rectangle x1="0.275" y1="0.525" x2="0.725" y2="1" layer="29"/>
+<rectangle x1="-0.725" y1="-1" x2="-0.275" y2="-0.525" layer="29"/>
+<rectangle x1="-0.225" y1="-1" x2="0.225" y2="-0.525" layer="29"/>
+<rectangle x1="0.275" y1="-1" x2="0.725" y2="-0.525" layer="29"/>
+<rectangle x1="0.3425" y1="-0.93" x2="0.6575" y2="-0.595" layer="31"/>
+<rectangle x1="-0.1575" y1="-0.93" x2="0.1575" y2="-0.595" layer="31"/>
+<rectangle x1="-0.6575" y1="-0.93" x2="-0.3425" y2="-0.595" layer="31"/>
+<rectangle x1="-0.6575" y1="0.595" x2="-0.3425" y2="0.93" layer="31"/>
+<rectangle x1="-0.1575" y1="0.595" x2="0.1575" y2="0.93" layer="31"/>
+<rectangle x1="0.3425" y1="0.595" x2="0.6575" y2="0.93" layer="31"/>
+<rectangle x1="-0.93" y1="0.0925" x2="-0.595" y2="0.4075" layer="31"/>
+<rectangle x1="0.595" y1="0.0925" x2="0.93" y2="0.4075" layer="31"/>
+<rectangle x1="0.595" y1="-0.4075" x2="0.93" y2="-0.0925" layer="31"/>
+<rectangle x1="-0.93" y1="-0.4075" x2="-0.595" y2="-0.0925" layer="31"/>
+<rectangle x1="-0.55" y1="-0.55" x2="0.55" y2="0.55" layer="41"/>
+<rectangle x1="-3" y1="-3" x2="3" y2="3" layer="39"/>
+</package>
+<package name="WSEN-ISDS_2536030320001" urn="urn:adsk.eagle:footprint:53248448/1">
+<description>WSEN-ISDS 6-axis Inertial Sensor
+
+SMT, 14pins
+LXWXH=3mmX2.5mmX0.86MM</description>
+<smd name="1" x="-1.1625" y="0.75" dx="0.35" dy="0.575" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="2" x="-1.1625" y="0.25" dx="0.35" dy="0.575" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="3" x="-1.1625" y="-0.25" dx="0.35" dy="0.575" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="4" x="-1.1625" y="-0.75" dx="0.35" dy="0.575" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="5" x="-0.5" y="-0.9125" dx="0.35" dy="0.575" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="6" x="0" y="-0.9125" dx="0.35" dy="0.575" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="7" x="0.5" y="-0.9125" dx="0.35" dy="0.575" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="8" x="1.1625" y="-0.75" dx="0.35" dy="0.575" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="9" x="1.1625" y="-0.25" dx="0.35" dy="0.575" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="10" x="1.1625" y="0.25" dx="0.35" dy="0.575" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="11" x="1.1625" y="0.75" dx="0.35" dy="0.575" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="12" x="0.5" y="0.9125" dx="0.35" dy="0.575" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="13" x="0" y="0.9125" dx="0.35" dy="0.575" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="14" x="-0.5" y="0.9125" dx="0.35" dy="0.575" layer="1" rot="R180" stop="no" cream="no"/>
+<wire x1="-1.6014" y1="-1.4474" x2="1.593" y2="-1.4474" width="0.2" layer="21"/>
+<wire x1="1.593" y1="1.4474" x2="-1.6014" y2="1.4474" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-1.25" x2="1.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="1.5" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="-1.5" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="1.25" x2="-1.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="3.75" x2="4.5" y2="3.75" width="0.1" layer="51"/>
+<wire x1="4.5" y1="3.75" x2="4.5" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-3.75" x2="-4.5" y2="-3.75" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-3.75" x2="-4.5" y2="3.75" width="0.1" layer="51"/>
+<text x="0" y="2" size="1.27" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="1.27" layer="27" ratio="10" align="bottom-center">&gt;VALUE</text>
+<text x="-4.45" y="-3.7" size="0.254" layer="51">recommendation to avoid 
+mechanical stress:
+no vias, drills</text>
+<circle x="-2" y="1" radius="0.125" width="0.25" layer="21"/>
+<rectangle x1="-4.5" y1="-3.75" x2="4.5" y2="3.75" layer="39"/>
+<rectangle x1="-1.5" y1="0.525" x2="-0.825" y2="0.975" layer="29"/>
+<rectangle x1="-1.419" y1="0.593" x2="-0.906" y2="0.907" layer="31"/>
+<rectangle x1="-1.5" y1="0.025" x2="-0.825" y2="0.475" layer="29"/>
+<rectangle x1="-1.419" y1="0.093" x2="-0.906" y2="0.407" layer="31"/>
+<rectangle x1="-1.5" y1="-0.475" x2="-0.825" y2="-0.025" layer="29"/>
+<rectangle x1="-1.419" y1="-0.407" x2="-0.906" y2="-0.093" layer="31"/>
+<rectangle x1="-1.5" y1="-0.975" x2="-0.825" y2="-0.525" layer="29"/>
+<rectangle x1="-1.419" y1="-0.907" x2="-0.906" y2="-0.593" layer="31"/>
+<rectangle x1="0.825" y1="0.525" x2="1.5" y2="0.975" layer="29"/>
+<rectangle x1="0.906" y1="0.593" x2="1.419" y2="0.907" layer="31"/>
+<rectangle x1="0.825" y1="0.025" x2="1.5" y2="0.475" layer="29"/>
+<rectangle x1="0.906" y1="0.093" x2="1.419" y2="0.407" layer="31"/>
+<rectangle x1="0.825" y1="-0.475" x2="1.5" y2="-0.025" layer="29"/>
+<rectangle x1="0.906" y1="-0.407" x2="1.419" y2="-0.093" layer="31"/>
+<rectangle x1="0.825" y1="-0.975" x2="1.5" y2="-0.525" layer="29"/>
+<rectangle x1="0.906" y1="-0.907" x2="1.419" y2="-0.593" layer="31"/>
+<rectangle x1="-0.3375" y1="0.6875" x2="0.3375" y2="1.1375" layer="29" rot="R270"/>
+<rectangle x1="-0.2565" y1="0.7555" x2="0.2565" y2="1.0695" layer="31" rot="R90"/>
+<rectangle x1="-0.8375" y1="0.6875" x2="-0.1625" y2="1.1375" layer="29" rot="R90"/>
+<rectangle x1="-0.7565" y1="0.7555" x2="-0.2435" y2="1.0695" layer="31" rot="R90"/>
+<rectangle x1="0.1625" y1="0.6875" x2="0.8375" y2="1.1375" layer="29" rot="R270"/>
+<rectangle x1="0.2435" y1="0.7555" x2="0.7565" y2="1.0695" layer="31" rot="R90"/>
+<rectangle x1="-0.3375" y1="-1.1375" x2="0.3375" y2="-0.6875" layer="29" rot="R270"/>
+<rectangle x1="-0.2565" y1="-1.0695" x2="0.2565" y2="-0.7555" layer="31" rot="R90"/>
+<rectangle x1="-0.8375" y1="-1.1375" x2="-0.1625" y2="-0.6875" layer="29" rot="R90"/>
+<rectangle x1="-0.7565" y1="-1.0695" x2="-0.2435" y2="-0.7555" layer="31" rot="R90"/>
+<rectangle x1="0.1625" y1="-1.1375" x2="0.8375" y2="-0.6875" layer="29" rot="R270"/>
+<rectangle x1="0.2435" y1="-1.0695" x2="0.7565" y2="-0.7555" layer="31" rot="R90"/>
+<rectangle x1="-0.85" y1="-0.6" x2="0.85" y2="0.6" layer="41"/>
+</package>
+<package name="WE-RCDS_791002002" urn="urn:adsk.eagle:footprint:42188482/4">
+<description>WE RCDS Residual Current Detection Sensor 
+
+Vertical, THT 
+LXWXH=39.8X13.2X44.9mm</description>
+<pad name="1" x="-12.5" y="2.6" drill="1.9"/>
+<pad name="2" x="-8.7" y="2.6" drill="1.9"/>
+<pad name="3" x="-4.9" y="2.6" drill="1.9"/>
+<pad name="4" x="8.7" y="2.6" drill="1.9"/>
+<pad name="5" x="12.5" y="2.6" drill="1.9"/>
+<hole x="-17.5" y="4.1" drill="2.1"/>
+<hole x="-17.5" y="-4.1" drill="2.1"/>
+<hole x="17.5" y="4.1" drill="2.1"/>
+<hole x="17.5" y="-4.1" drill="2.1"/>
+<wire x1="-19.9" y1="6.6" x2="19.9" y2="6.6" width="0.1" layer="51"/>
+<wire x1="19.9" y1="6.6" x2="19.9" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="19.9" y1="-6.6" x2="-19.9" y2="-6.6" width="0.1" layer="51"/>
+<wire x1="-19.9" y1="-6.6" x2="-19.9" y2="6.6" width="0.1" layer="51"/>
+<wire x1="-20" y1="6.7" x2="20" y2="6.7" width="0.2" layer="21"/>
+<wire x1="20" y1="6.7" x2="20" y2="-6.7" width="0.2" layer="21"/>
+<wire x1="20" y1="-6.7" x2="-20" y2="-6.7" width="0.2" layer="21"/>
+<wire x1="-20" y1="-6.7" x2="-20" y2="6.7" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-20.2" y="-6.9"/>
+<vertex x="20.2" y="-6.9"/>
+<vertex x="20.2" y="6.9"/>
+<vertex x="-20.2" y="6.9"/>
+</polygon>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-PDXS_HORIZONTAL" urn="urn:adsk.eagle:footprint:53248447/1">
+<description>WSEN-PDXS Differential Pressure Sensor
+
+Horizontal-barbed nozzles, SMT, 8pins
+LXWXH=13.31mmX11.6mmX4.56mm</description>
+<wire x1="-6.655" y1="-4" x2="-6.655" y2="4" width="0.1" layer="51"/>
+<wire x1="-6.655" y1="4" x2="6.655" y2="4" width="0.1" layer="51"/>
+<wire x1="6.655" y1="4" x2="6.655" y2="-4" width="0.1" layer="51"/>
+<wire x1="-6.655" y1="-4" x2="6.655" y2="-4" width="0.1" layer="51"/>
+<wire x1="-6.755" y1="3.15" x2="-6.755" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-6.755" y1="4.1" x2="6.755" y2="4.1" width="0.2" layer="21"/>
+<wire x1="6.755" y1="4.1" x2="6.755" y2="3.15" width="0.2" layer="21"/>
+<wire x1="6.755" y1="-3.15" x2="6.755" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="6.755" y1="-4.1" x2="-4.6" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-4.1" x2="-6.755" y2="-4.1" width="0.2" layer="21"/>
+<wire x1="-6.755" y1="-4.1" x2="-6.755" y2="-3.15" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-4.1" x2="-4.6" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-5.5" x2="-4.85" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-4.85" y1="-5.5" x2="-4.625" y2="-7.7" width="0.2" layer="21"/>
+<wire x1="-2.4" y1="-4.1" x2="-2.4" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-2.4" y1="-5.5" x2="-2.15" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-5.5" x2="-2.375" y2="-7.7" width="0.2" layer="21"/>
+<wire x1="-4.625" y1="-7.7" x2="-2.375" y2="-7.7" width="0.2" layer="21"/>
+<wire x1="-4.6" y1="-5.5" x2="-2.4" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="2.4" y1="-4.1" x2="2.4" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="2.4" y1="-5.5" x2="2.15" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="2.15" y1="-5.5" x2="2.375" y2="-7.7" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-4.1" x2="4.6" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="4.6" y1="-5.5" x2="4.85" y2="-5.5" width="0.2" layer="21"/>
+<wire x1="4.85" y1="-5.5" x2="4.625" y2="-7.7" width="0.2" layer="21"/>
+<wire x1="2.375" y1="-7.7" x2="4.625" y2="-7.7" width="0.2" layer="21"/>
+<wire x1="2.4" y1="-5.5" x2="4.6" y2="-5.5" width="0.2" layer="21"/>
+<smd name="2" x="-5.63" y="0.76" dx="2.1" dy="1" layer="1"/>
+<smd name="1" x="-5.63" y="2.285" dx="2.1" dy="1" layer="1"/>
+<smd name="3" x="-5.63" y="-0.76" dx="2.1" dy="1" layer="1"/>
+<smd name="4" x="-5.63" y="-2.285" dx="2.1" dy="1" layer="1"/>
+<smd name="7" x="5.63" y="0.76" dx="2.1" dy="1" layer="1"/>
+<smd name="8" x="5.63" y="2.285" dx="2.1" dy="1" layer="1"/>
+<smd name="6" x="5.63" y="-0.76" dx="2.1" dy="1" layer="1"/>
+<smd name="5" x="5.63" y="-2.285" dx="2.1" dy="1" layer="1"/>
+<circle x="-7.2" y="2.285" radius="0.127" width="0.254" layer="21"/>
+<circle x="-3.35635" y="-2.285" radius="0.5" width="0.127" layer="48"/>
+<rectangle x1="-7" y1="-7.9" x2="7" y2="4.3" layer="39"/>
+<rectangle x1="-4.4" y1="-4.3" x2="4.4" y2="4.3" layer="41"/>
+<rectangle x1="-6.658" y1="1.779" x2="-4.608" y2="2.779" layer="51"/>
+<rectangle x1="-6.653" y1="0.26" x2="-4.603" y2="1.26" layer="51"/>
+<rectangle x1="-6.658" y1="-1.264" x2="-4.608" y2="-0.264" layer="51"/>
+<rectangle x1="-6.658" y1="-2.778" x2="-4.608" y2="-1.778" layer="51"/>
+<rectangle x1="4.607" y1="1.779" x2="6.657" y2="2.779" layer="51"/>
+<rectangle x1="4.607" y1="0.255" x2="6.657" y2="1.255" layer="51"/>
+<rectangle x1="4.607" y1="-1.259" x2="6.657" y2="-0.259" layer="51"/>
+<rectangle x1="4.607" y1="-2.783" x2="6.657" y2="-1.783" layer="51"/>
+<rectangle x1="-4.4" y1="-4.3" x2="4.4" y2="4.3" layer="41"/>
+<text x="-7" y="5" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WSEN-ACCE_250028161540X" urn="urn:adsk.eagle:footprint:53248441/1">
+<description>WSEN-ACCE Pressure Adapter
+
+250028161540x</description>
+<text x="0" y="14.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-14.7" size="1.27" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<text x="-9" y="-9" size="1.27" layer="48" rot="R90">Pressure adapter</text>
+<text x="10" y="-9" size="1.27" layer="48" rot="R90">Pressure adapter</text>
+<hole x="0" y="11" drill="3"/>
+<hole x="0" y="-11" drill="3"/>
+<wire x1="-3" y1="13" x2="-2" y2="14" width="0.2" layer="21" curve="-90"/>
+<wire x1="-2" y1="14" x2="2" y2="14" width="0.2" layer="21"/>
+<wire x1="2" y1="14" x2="3" y2="13" width="0.2" layer="21" curve="-90"/>
+<wire x1="3" y1="13" x2="3" y2="11" width="0.2" layer="21"/>
+<wire x1="3" y1="11" x2="4" y2="10" width="0.2" layer="21" curve="90"/>
+<wire x1="4" y1="10" x2="7" y2="10" width="0.2" layer="21"/>
+<wire x1="7" y1="10" x2="8" y2="9" width="0.2" layer="21" curve="-90"/>
+<wire x1="8" y1="9" x2="8" y2="-9" width="0.2" layer="21"/>
+<wire x1="8" y1="-9" x2="7" y2="-10" width="0.2" layer="21" curve="-90"/>
+<wire x1="7" y1="-10" x2="4" y2="-10" width="0.2" layer="21"/>
+<wire x1="4" y1="-10" x2="3" y2="-11" width="0.2" layer="21" curve="90"/>
+<wire x1="3" y1="-11" x2="3" y2="-13" width="0.2" layer="21"/>
+<wire x1="3" y1="-13" x2="2" y2="-14" width="0.2" layer="21" curve="-90"/>
+<wire x1="2" y1="-14" x2="-2" y2="-14" width="0.2" layer="21"/>
+<wire x1="-2" y1="-14" x2="-3" y2="-13" width="0.2" layer="21" curve="-90"/>
+<wire x1="-3" y1="-13" x2="-3" y2="-11" width="0.2" layer="21"/>
+<wire x1="-3" y1="-11" x2="-4" y2="-10" width="0.2" layer="21" curve="90"/>
+<wire x1="-4" y1="-10" x2="-7" y2="-10" width="0.2" layer="21"/>
+<wire x1="-7" y1="-10" x2="-8" y2="-9" width="0.2" layer="21" curve="-90"/>
+<wire x1="-8" y1="-9" x2="-8" y2="9" width="0.2" layer="21"/>
+<wire x1="-8" y1="9" x2="-7" y2="10" width="0.2" layer="21" curve="-90"/>
+<wire x1="-7" y1="10" x2="-4" y2="10" width="0.2" layer="21"/>
+<wire x1="-4" y1="10" x2="-3" y2="11" width="0.2" layer="21" curve="90"/>
+<wire x1="-3" y1="11" x2="-3" y2="13" width="0.2" layer="21"/>
+<circle x="3.5" y="3.5" radius="2.4" width="0.1" layer="21"/>
+<circle x="-3.5" y="-3.5" radius="2.1" width="0.1" layer="21"/>
+<circle x="3.5" y="3.5" radius="2.1" width="0.1" layer="21"/>
+<circle x="-3.5" y="-3.5" radius="2.4" width="0.1" layer="21"/>
+<rectangle x1="-9" y1="-15" x2="9" y2="15" layer="39"/>
+</package>
+<package name="WE-RCDS_791002004" urn="urn:adsk.eagle:footprint:42188481/4">
+<description>WE RCDS Residual Current Detection Sensor 
+
+Horizontal, THT 
+LXWXH=30.6X49X16.3mm</description>
+<pad name="1" x="10" y="-23.54" drill="0.8"/>
+<pad name="2" x="8" y="-23.54" drill="0.8"/>
+<pad name="3" x="10" y="-25.54" drill="0.8"/>
+<pad name="4" x="8" y="-25.54" drill="0.8"/>
+<pad name="5" x="10" y="-27.54" drill="0.8"/>
+<pad name="6" x="8" y="-27.54" drill="0.8"/>
+<pad name="7" x="10" y="-29.54" drill="0.8"/>
+<pad name="8" x="8" y="-29.54" drill="0.8"/>
+<pad name="9" x="14.68" y="-11.26" drill="2.7"/>
+<pad name="15" x="-14.68" y="-11.26" drill="2.7"/>
+<pad name="13" x="-12.53" y="13.67" drill="2.7" rot="R180"/>
+<pad name="11" x="12.53" y="13.67" drill="2.7" rot="R180"/>
+<pad name="10" x="3.08" y="-3.08" drill="2.7" rot="R180"/>
+<pad name="12" x="3.08" y="3.08" drill="2.7" rot="R180"/>
+<pad name="14" x="-3.08" y="3.08" drill="2.7" rot="R180"/>
+<pad name="16" x="-3.08" y="-3.08" drill="2.7" rot="R180"/>
+<polygon width="0.1" layer="46" pour="solid">
+<vertex x="-0.529290625" y="-0.5"/>
+<vertex x="-0.5" y="-0.529290625"/>
+<vertex x="-0.5" y="-6"/>
+<vertex x="0.5" y="-6"/>
+<vertex x="0.5" y="-0.529290625"/>
+<vertex x="0.529290625" y="-0.5"/>
+<vertex x="6" y="-0.5"/>
+<vertex x="6" y="0.5"/>
+<vertex x="0.529290625" y="0.5"/>
+<vertex x="0.5" y="0.529290625"/>
+<vertex x="0.5" y="6"/>
+<vertex x="-0.5" y="6"/>
+<vertex x="-0.5" y="0.529290625"/>
+<vertex x="-0.529290625" y="0.5"/>
+<vertex x="-6" y="0.5"/>
+<vertex x="-6" y="-0.5"/>
+</polygon>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-17.5" y="-32.3"/>
+<vertex x="17.5" y="-32.3"/>
+<vertex x="17.5" y="17.5"/>
+<vertex x="-17.5" y="17.5"/>
+</polygon>
+<hole x="0" y="7.5" drill="1.5"/>
+<hole x="-7.5" y="0" drill="1.5"/>
+<hole x="7.5" y="0" drill="1.5"/>
+<wire x1="-15.4" y1="-13.76" x2="-15.4" y2="-32.1" width="0.2" layer="21"/>
+<wire x1="-15.4" y1="-32.1" x2="15.4" y2="-32.1" width="0.2" layer="21"/>
+<wire x1="-15.3" y1="-13.68" x2="-15.3" y2="-32" width="0.1" layer="51"/>
+<wire x1="-15.3" y1="-32" x2="15.3" y2="-32" width="0.1" layer="51"/>
+<wire x1="15.3" y1="-32" x2="15.3" y2="-13.68" width="0.1" layer="51"/>
+<wire x1="-16.2" y1="-9.28" x2="-14.865" y2="-8.25" width="0.1" layer="51"/>
+<wire x1="-10.69" y1="15.36" x2="-9.54" y2="14.09" width="0.1" layer="51"/>
+<wire x1="-14.375" y1="11.98" x2="-13.205" y2="10.71" width="0.1" layer="51"/>
+<wire x1="-14.375" y1="11.98" x2="-10.69" y2="15.36" width="0.1" layer="51" curve="-180"/>
+<wire x1="-16.2" y1="-9.28" x2="-15.3" y2="-13.68" width="0.1" layer="51" curve="128.340419"/>
+<wire x1="-9.54" y1="14.09" x2="9.54" y2="14.09" width="0.1" layer="51" curve="-68.201966"/>
+<wire x1="-13.205" y1="10.71" x2="-14.865" y2="-8.25" width="0.1" layer="51" curve="68.074056"/>
+<wire x1="16.2" y1="-9.28" x2="14.865" y2="-8.25" width="0.1" layer="51"/>
+<wire x1="10.69" y1="15.36" x2="9.54" y2="14.09" width="0.1" layer="51"/>
+<wire x1="14.375" y1="11.98" x2="13.205" y2="10.71" width="0.1" layer="51"/>
+<wire x1="14.375" y1="11.98" x2="10.69" y2="15.36" width="0.1" layer="51" curve="180"/>
+<wire x1="16.2" y1="-9.28" x2="15.3" y2="-13.68" width="0.1" layer="51" curve="-128.340419"/>
+<wire x1="13.205" y1="10.71" x2="14.865" y2="-8.25" width="0.1" layer="51" curve="-68.074056"/>
+<wire x1="-10.665" y1="15.48" x2="-9.515" y2="14.21" width="0.2" layer="21"/>
+<wire x1="-14.5" y1="11.975" x2="-13.33" y2="10.705" width="0.2" layer="21"/>
+<wire x1="-16.335" y1="-9.25" x2="-15" y2="-8.22" width="0.2" layer="21"/>
+<wire x1="-9.515" y1="14.21" x2="9.515" y2="14.21" width="0.2" layer="21" curve="-67.686752"/>
+<wire x1="-13.33" y1="10.705" x2="-15" y2="-8.22" width="0.2" layer="21" curve="67.529911"/>
+<wire x1="-10.665" y1="15.48" x2="-14.5" y2="11.975" width="0.2" layer="21" curve="176.568764"/>
+<wire x1="-16.335" y1="-9.25" x2="-15.4" y2="-13.76" width="0.2" layer="21" curve="124.561553"/>
+<wire x1="15.4" y1="-13.76" x2="15.4" y2="-32.1" width="0.2" layer="21"/>
+<wire x1="10.665" y1="15.48" x2="9.515" y2="14.21" width="0.2" layer="21"/>
+<wire x1="14.5" y1="11.975" x2="13.33" y2="10.705" width="0.2" layer="21"/>
+<wire x1="16.335" y1="-9.25" x2="15" y2="-8.22" width="0.2" layer="21"/>
+<wire x1="13.33" y1="10.705" x2="15" y2="-8.22" width="0.2" layer="21" curve="-67.529911"/>
+<wire x1="10.665" y1="15.48" x2="14.5" y2="11.975" width="0.2" layer="21" curve="-176.568764"/>
+<wire x1="16.335" y1="-9.25" x2="15.4" y2="-13.76" width="0.2" layer="21" curve="-124.561553"/>
+<text x="0" y="18" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-34" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0" size="1.016" layer="46" align="center">Cutout Area</text>
+<text x="0" y="0" size="1.016" layer="51" align="center">Cutout Area</text>
+</package>
+<package name="WSEN-TIDS_2521020222501" urn="urn:adsk.eagle:footprint:53248449/1">
+<description>WSEN-TIDS Temperature Sensor IC
+
+SMT, 6pins
+LXWXH=2mmX2mmX0.55mm</description>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="1.1" x2="1.1" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.1" y1="-1.1" x2="-1.1" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.1" layer="51"/>
+<smd name="Z1" x="0" y="0" dx="0.65" dy="1.45" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.89" y="0.65" dx="0.7" dy="0.27" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.89" y="0" dx="0.7" dy="0.27" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-0.89" y="-0.65" dx="0.7" dy="0.27" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.89" y="-0.65" dx="0.7" dy="0.27" layer="1" stop="no" cream="no"/>
+<smd name="5" x="0.89" y="0" dx="0.7" dy="0.27" layer="1" stop="no" cream="no"/>
+<smd name="6" x="0.89" y="0.65" dx="0.7" dy="0.27" layer="1" stop="no" cream="no"/>
+<text x="0" y="1.5" size="0.7" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-2.65" y="-2.85" size="0.254" layer="51">recommendation to avoid 
+mechanical stress:
+no vias, drills</text>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-1.3" y="-1.3"/>
+<vertex x="1.3" y="-1.3"/>
+<vertex x="1.3" y="1.3"/>
+<vertex x="-1.3" y="1.3"/>
+</polygon>
+<circle x="-1.5" y="0.7" radius="0.05" width="0.1" layer="21"/>
+<rectangle x1="-1.29" y1="-0.185" x2="-0.49" y2="0.185" layer="29"/>
+<rectangle x1="-0.375" y1="-0.775" x2="0.375" y2="0.775" layer="29"/>
+<rectangle x1="-1.29" y1="0.465" x2="-0.49" y2="0.835" layer="29"/>
+<rectangle x1="-1.29" y1="-0.835" x2="-0.49" y2="-0.465" layer="29"/>
+<rectangle x1="0.49" y1="-0.185" x2="1.29" y2="0.185" layer="29" rot="R180"/>
+<rectangle x1="0.49" y1="-0.835" x2="1.29" y2="-0.465" layer="29" rot="R180"/>
+<rectangle x1="0.49" y1="0.465" x2="1.29" y2="0.835" layer="29" rot="R180"/>
+<rectangle x1="-1.215" y1="0.525" x2="-0.565" y2="0.775" layer="31"/>
+<rectangle x1="-1.215" y1="-0.125" x2="-0.565" y2="0.125" layer="31"/>
+<rectangle x1="-1.215" y1="-0.775" x2="-0.565" y2="-0.525" layer="31"/>
+<rectangle x1="0.565" y1="-0.775" x2="1.215" y2="-0.525" layer="31" rot="R180"/>
+<rectangle x1="0.565" y1="-0.125" x2="1.215" y2="0.125" layer="31" rot="R180"/>
+<rectangle x1="0.565" y1="0.525" x2="1.215" y2="0.775" layer="31" rot="R180"/>
+<rectangle x1="-3" y1="-3" x2="3" y2="3" layer="39"/>
+<rectangle x1="-0.3" y1="0.15" x2="0.3" y2="0.7" layer="31"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="-0.15" layer="31"/>
+</package>
+<package name="WSEN-ACCE_2500060600000_GLUE" urn="urn:adsk.eagle:footprint:53248442/1">
+<description>WSEN-ACCE Filter Cap
+
+Filter Cap - pin holes use for adjusment only
+Protection cap for WSEN-HIDS, 5.28 mm spacing
+LXWXH=6mmX6mmX3.4mm</description>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<text x="-3.5" y="0" size="0.5" layer="48" rot="R90" align="bottom-center">Filter Cap</text>
+<text x="3.5" y="0" size="0.5" layer="48" rot="R270" align="bottom-center">Filter Cap</text>
+<rectangle x1="-3.2" y1="-3.2" x2="3.2" y2="3.2" layer="39"/>
+<hole x="-2.64" y="-2.64" drill="1"/>
+<hole x="-2.64" y="2.64" drill="1"/>
+<hole x="2.64" y="2.64" drill="1"/>
+<hole x="2.64" y="-2.64" drill="1"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="1" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-1" width="1" layer="51"/>
+<wire x1="-2.5" y1="-1" x2="-2.5" y2="1" width="1" layer="51"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="2.5" width="1" layer="51"/>
+<wire x1="-2.7" y1="0" x2="-2.5" y2="1" width="1" layer="51" curve="-21.801409"/>
+<wire x1="-2.7" y1="0" x2="-2.5" y2="-1" width="1" layer="51" curve="21.801409"/>
+<wire x1="2.7" y1="0" x2="2.5" y2="-1" width="1" layer="51" curve="-21.801409"/>
+<wire x1="2.7" y1="0" x2="2.5" y2="1" width="1" layer="51" curve="21.801409"/>
+<wire x1="0" y1="2.7" x2="1" y2="2.5" width="1" layer="51" curve="-21.801409"/>
+<wire x1="0" y1="2.7" x2="-1" y2="2.5" width="1" layer="51" curve="21.801409"/>
+<wire x1="0" y1="-2.7" x2="-1" y2="-2.5" width="1" layer="51" curve="-21.801409"/>
+<wire x1="0" y1="-2.7" x2="1" y2="-2.5" width="1" layer="51" curve="21.801409"/>
+<wire x1="-3.1" y1="2.1" x2="-3.1" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-3.1" x2="2.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="3.1" y1="-2.1" x2="3.1" y2="2.1" width="0.2" layer="21"/>
+<wire x1="2.1" y1="3.1" x2="-2.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-1.9" y1="1.9" x2="-1.9" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="-1.9" y1="-1.9" x2="1.9" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="1.9" y1="-1.9" x2="1.9" y2="1.9" width="0.2" layer="21"/>
+<wire x1="1.9" y1="1.9" x2="-1.9" y2="1.9" width="0.2" layer="21"/>
+</package>
+<package name="WSEN-ACCE_2500060600000_PRESSFIT" urn="urn:adsk.eagle:footprint:53248443/1">
+<description>WSEN-ACCE Filter Cap
+
+Filter Cap - pin holes for clipping the filter cap on the pcb
+Protection cap for WSEN-HIDS, 5.1 mm ± 0.05 mm spacing
+LXWXH=6mmX6mmX3.4mm</description>
+<rectangle x1="-3.2" y1="-3.2" x2="3.2" y2="3.2" layer="39"/>
+<hole x="-2.55" y="-2.55" drill="1"/>
+<hole x="-2.55" y="2.55" drill="1"/>
+<hole x="2.55" y="2.55" drill="1"/>
+<hole x="2.55" y="-2.55" drill="1"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="1" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-1" width="1" layer="51"/>
+<wire x1="-2.5" y1="-1" x2="-2.5" y2="1" width="1" layer="51"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="2.5" width="1" layer="51"/>
+<wire x1="-2.7" y1="0" x2="-2.5" y2="1" width="1" layer="51" curve="-21.801409"/>
+<wire x1="-2.7" y1="0" x2="-2.5" y2="-1" width="1" layer="51" curve="21.801409"/>
+<wire x1="2.7" y1="0" x2="2.5" y2="-1" width="1" layer="51" curve="-21.801409"/>
+<wire x1="2.7" y1="0" x2="2.5" y2="1" width="1" layer="51" curve="21.801409"/>
+<wire x1="0" y1="2.7" x2="1" y2="2.5" width="1" layer="51" curve="-21.801409"/>
+<wire x1="0" y1="2.7" x2="-1" y2="2.5" width="1" layer="51" curve="21.801409"/>
+<wire x1="0" y1="-2.7" x2="-1" y2="-2.5" width="1" layer="51" curve="-21.801409"/>
+<wire x1="0" y1="-2.7" x2="1" y2="-2.5" width="1" layer="51" curve="21.801409"/>
+<text x="-3.5" y="0" size="0.5" layer="48" rot="R90" align="bottom-center">Filter Cap</text>
+<text x="3.5" y="0" size="0.5" layer="48" rot="R270" align="bottom-center">Filter Cap</text>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WSEN-HIDS_2525020210002_FILTERCAP_PRESSFIT" urn="urn:adsk.eagle:footprint:53248445/1">
+<description>WSEN-HIDS Humidity Sensor with integrated Temperature Sensor
+2525020210002, SMT, 4pins
+LXWXH=1.5mmX1.5mmX0.54mm
+
+WSEN-ACCE Filter Cap
+2500060600000, Protection cap for WSEN-HIDS, 5.1 mm ± 0.05 mm
+Use this footprint to use the holes for pressing fit the pins of filter cap into the PCB.
+LXWXH=6mmX6mmX3.4mm</description>
+<smd name="1" x="-0.7" y="0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<smd name="2" x="-0.7" y="-0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<smd name="3" x="0.7" y="-0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<smd name="4" x="0.7" y="0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.1" layer="51"/>
+<wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="2.25" y1="2.25" x2="-2.25" y2="2.25" width="0.15" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="2.179290625" width="0" layer="51"/>
+<wire x1="2.25" y1="2.179290625" x2="2.179290625" y2="2.25" width="0" layer="51"/>
+<wire x1="-2.179290625" y1="2.25" x2="-2.25" y2="2.179290625" width="0" layer="51"/>
+<wire x1="-2.25" y1="2.179290625" x2="-2.25" y2="1.6" width="0" layer="51"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="1.6" width="0.15" layer="51"/>
+<wire x1="-2.25" y1="1.6" x2="-2.25" y2="-2.25" width="0.15" layer="51"/>
+<wire x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" width="0.15" layer="51"/>
+<wire x1="2.25" y1="2.25" x2="2.25" y2="1.6" width="0.15" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="-2.25" width="0.15" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="1" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="1" width="1" layer="51"/>
+<wire x1="2.5" y1="1" x2="2.5" y2="-1" width="1" layer="51"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="-2.5" width="1" layer="51"/>
+<wire x1="2.7" y1="0" x2="2.5" y2="-1" width="1" layer="51" curve="-21.801409"/>
+<wire x1="2.7" y1="0" x2="2.5" y2="1" width="1" layer="51" curve="21.801409"/>
+<wire x1="-2.7" y1="0" x2="-2.5" y2="1" width="1" layer="51" curve="-21.801409"/>
+<wire x1="-2.7" y1="0" x2="-2.5" y2="-1" width="1" layer="51" curve="21.801409"/>
+<wire x1="0" y1="-2.7" x2="-1" y2="-2.5" width="1" layer="51" curve="-21.801409"/>
+<wire x1="0" y1="-2.7" x2="1" y2="-2.5" width="1" layer="51" curve="21.801409"/>
+<wire x1="0" y1="2.7" x2="1" y2="2.5" width="1" layer="51" curve="-21.801409"/>
+<wire x1="0" y1="2.7" x2="-1" y2="2.5" width="1" layer="51" curve="21.801409"/>
+<wire x1="-0.8" y1="0.85" x2="0.8" y2="0.85" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="-0.85" x2="0.8" y2="-0.85" width="0.2" layer="21"/>
+<circle x="-1.24" y="0.53" radius="0.074328125" width="0.15" layer="21"/>
+<rectangle x1="-2.25" y1="-2.25" x2="2.25" y2="2.25" layer="39"/>
+<rectangle x1="-0.75" y1="0.55" x2="0.75" y2="0.75" layer="41"/>
+<rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="-0.55" layer="41"/>
+<rectangle x1="-0.55" y1="-0.45" x2="0.55" y2="0.45" layer="41" rot="R90"/>
+<rectangle x1="-0.75" y1="-0.25" x2="-0.45" y2="0.25" layer="41"/>
+<rectangle x1="0.45" y1="-0.25" x2="0.75" y2="0.25" layer="41"/>
+<rectangle x1="-0.94" y1="0.26" x2="-0.46" y2="0.54" layer="31"/>
+<rectangle x1="-0.94" y1="-0.54" x2="-0.46" y2="-0.26" layer="31"/>
+<rectangle x1="0.46" y1="-0.54" x2="0.94" y2="-0.26" layer="31"/>
+<rectangle x1="0.46" y1="0.26" x2="0.94" y2="0.54" layer="31"/>
+<rectangle x1="-3.2" y1="-3.2" x2="3.2" y2="3.2" layer="39" rot="R180"/>
+<text x="-1.985" y="-2.05" size="0.15" layer="48">Restricted Area
+recommendation to avoid 
+mechanical stress:
+no vias, drills</text>
+<text x="0" y="-4" size="0.55" layer="48" rot="R180" align="bottom-center">cut out milling</text>
+<text x="0" y="4" size="0.55" layer="48" align="bottom-center">cut out milling</text>
+<text x="3.5" y="0" size="0.5" layer="48" rot="R270" align="bottom-center">Filter Cap</text>
+<text x="-3.5" y="0" size="0.5" layer="48" rot="R90" align="bottom-center">Filter Cap</text>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<hole x="2.55" y="2.55" drill="1"/>
+<hole x="2.55" y="-2.55" drill="1"/>
+<hole x="-2.55" y="-2.55" drill="1"/>
+<hole x="-2.55" y="2.55" drill="1"/>
+<polygon width="0.1524" layer="46" pour="solid">
+<vertex x="3.5146" y="2.935646875"/>
+<vertex x="3.5262" y="2.907640625"/>
+<vertex x="3.5262" y="2.403740625"/>
+<vertex x="3.539509375" y="2.26861875"/>
+<vertex x="3.577828125" y="2.14229375"/>
+<vertex x="3.6400625" y="2.02585625"/>
+<vertex x="3.7238125" y="1.9238125"/>
+<vertex x="3.82585625" y="1.8400625"/>
+<vertex x="3.94229375" y="1.777828125"/>
+<vertex x="4.06861875" y="1.739509375"/>
+<vertex x="4.2" y="1.72656875"/>
+<vertex x="4.33138125" y="1.739509375"/>
+<vertex x="4.45770625" y="1.777828125"/>
+<vertex x="4.57414375" y="1.8400625"/>
+<vertex x="4.6761875" y="1.9238125"/>
+<vertex x="4.7599375" y="2.02585625"/>
+<vertex x="4.822171875" y="2.14229375"/>
+<vertex x="4.860490625" y="2.26861875"/>
+<vertex x="4.8738" y="2.403740625"/>
+<vertex x="4.8738" y="3.477909375"/>
+<vertex x="3.477909375" y="4.8738"/>
+<vertex x="-3.4800375" y="4.8738"/>
+<vertex x="-4.8738" y="3.4800375"/>
+<vertex x="-4.8738" y="2.403740625"/>
+<vertex x="-4.860490625" y="2.26861875"/>
+<vertex x="-4.822171875" y="2.14229375"/>
+<vertex x="-4.7599375" y="2.02585625"/>
+<vertex x="-4.6761875" y="1.9238125"/>
+<vertex x="-4.57414375" y="1.8400625"/>
+<vertex x="-4.45770625" y="1.777828125"/>
+<vertex x="-4.33138125" y="1.739509375"/>
+<vertex x="-4.2" y="1.72656875"/>
+<vertex x="-4.06861875" y="1.739509375"/>
+<vertex x="-3.94229375" y="1.777828125"/>
+<vertex x="-3.82585625" y="1.8400625"/>
+<vertex x="-3.7238125" y="1.9238125"/>
+<vertex x="-3.6400625" y="2.02585625"/>
+<vertex x="-3.577828125" y="2.14229375"/>
+<vertex x="-3.539509375" y="2.26861875"/>
+<vertex x="-3.5262" y="2.403740625"/>
+<vertex x="-3.5262" y="2.906140625"/>
+<vertex x="-3.5146" y="2.934146875"/>
+<vertex x="-2.934146875" y="3.5146"/>
+<vertex x="-2.906140625" y="3.5262"/>
+<vertex x="2.907640625" y="3.5262"/>
+<vertex x="2.935646875" y="3.5146"/>
+</polygon>
+<polygon width="0.1524" layer="46" pour="solid">
+<vertex x="-2.907640625" y="-3.5262"/>
+<vertex x="-2.935646875" y="-3.5146"/>
+<vertex x="-3.5146" y="-2.935646875"/>
+<vertex x="-3.5262" y="-2.907640625"/>
+<vertex x="-3.5262" y="-2.403740625"/>
+<vertex x="-3.539509375" y="-2.26861875"/>
+<vertex x="-3.577828125" y="-2.14229375"/>
+<vertex x="-3.6400625" y="-2.02585625"/>
+<vertex x="-3.7238125" y="-1.9238125"/>
+<vertex x="-3.82585625" y="-1.8400625"/>
+<vertex x="-3.94229375" y="-1.777828125"/>
+<vertex x="-4.06861875" y="-1.739509375"/>
+<vertex x="-4.2" y="-1.72656875"/>
+<vertex x="-4.33138125" y="-1.739509375"/>
+<vertex x="-4.45770625" y="-1.777828125"/>
+<vertex x="-4.57414375" y="-1.8400625"/>
+<vertex x="-4.6761875" y="-1.9238125"/>
+<vertex x="-4.7599375" y="-2.02585625"/>
+<vertex x="-4.822171875" y="-2.14229375"/>
+<vertex x="-4.860490625" y="-2.26861875"/>
+<vertex x="-4.8738" y="-2.403740625"/>
+<vertex x="-4.8738" y="-3.477909375"/>
+<vertex x="-3.477909375" y="-4.8738"/>
+<vertex x="3.4800375" y="-4.8738"/>
+<vertex x="4.8738" y="-3.4800375"/>
+<vertex x="4.8738" y="-2.403740625"/>
+<vertex x="4.860490625" y="-2.26861875"/>
+<vertex x="4.822171875" y="-2.14229375"/>
+<vertex x="4.7599375" y="-2.02585625"/>
+<vertex x="4.6761875" y="-1.9238125"/>
+<vertex x="4.57414375" y="-1.8400625"/>
+<vertex x="4.45770625" y="-1.777828125"/>
+<vertex x="4.33138125" y="-1.739509375"/>
+<vertex x="4.2" y="-1.72656875"/>
+<vertex x="4.06861875" y="-1.739509375"/>
+<vertex x="3.94229375" y="-1.777828125"/>
+<vertex x="3.82585625" y="-1.8400625"/>
+<vertex x="3.7238125" y="-1.9238125"/>
+<vertex x="3.6400625" y="-2.02585625"/>
+<vertex x="3.577828125" y="-2.14229375"/>
+<vertex x="3.539509375" y="-2.26861875"/>
+<vertex x="3.5262" y="-2.403740625"/>
+<vertex x="3.5262" y="-2.906140625"/>
+<vertex x="3.5146" y="-2.934146875"/>
+<vertex x="2.934146875" y="-3.5146"/>
+<vertex x="2.906140625" y="-3.5262"/>
+</polygon>
+</package>
+<package name="WSEN-HIDS_2525020210002" urn="urn:adsk.eagle:footprint:53248446/1">
+<description>WSEN-HIDS Humidity Sensor with integrated Temperature Sensor
+
+SMT, 4pins
+LXWXH=1.5mmX1.5mmX0.54mm
+</description>
+<smd name="1" x="-0.7" y="0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<smd name="2" x="-0.7" y="-0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<smd name="3" x="0.7" y="-0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<smd name="4" x="0.7" y="0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.1" layer="51"/>
+<wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.85" x2="0.8" y2="0.85" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="-0.85" x2="0.8" y2="-0.85" width="0.2" layer="21"/>
+<wire x1="2.25" y1="2.25" x2="-2.25" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="-2.25" y2="-2.179290625" width="0" layer="51"/>
+<wire x1="-2.25" y1="-2.179290625" x2="-2.179290625" y2="-2.25" width="0" layer="51"/>
+<wire x1="-2.179290625" y1="-2.25" x2="2.179290625" y2="-2.25" width="0" layer="51"/>
+<wire x1="2.179290625" y1="-2.25" x2="2.25" y2="-2.179290625" width="0" layer="51"/>
+<wire x1="2.25" y1="-2.179290625" x2="2.25" y2="-1.6" width="0" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="2.179290625" width="0" layer="51"/>
+<wire x1="2.25" y1="2.179290625" x2="2.179290625" y2="2.25" width="0" layer="51"/>
+<wire x1="2.179290625" y1="2.25" x2="-2.179290625" y2="2.25" width="0" layer="51"/>
+<wire x1="-2.179290625" y1="2.25" x2="-2.25" y2="2.179290625" width="0" layer="51"/>
+<wire x1="-2.25" y1="2.179290625" x2="-2.25" y2="1.6" width="0" layer="51"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="1.6" x2="-2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="-2.25" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="2.25" y1="2.25" x2="2.25" y2="1.6" width="0.1" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="2.25" y1="-1.6" x2="2.25" y2="-2.25" width="0.1" layer="51"/>
+<circle x="-1.24" y="0.53" radius="0.074328125" width="0.15" layer="21"/>
+<text x="0" y="1.1" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-2.2" y="-2.2" size="0.15" layer="48">Restricted Area
+recommendation to avoid 
+mechanical stress:
+no vias, drills</text>
+<text x="0" y="-2.5" size="0.55" layer="48" rot="R180" align="bottom-center">cut out milling</text>
+<text x="0" y="2.5" size="0.55" layer="48" align="bottom-center">cut out milling</text>
+<rectangle x1="-2.25" y1="-2.25" x2="2.25" y2="2.25" layer="39"/>
+<rectangle x1="-0.75" y1="0.55" x2="0.75" y2="0.75" layer="41"/>
+<rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="-0.55" layer="41"/>
+<rectangle x1="-0.55" y1="-0.45" x2="0.55" y2="0.45" layer="41" rot="R90"/>
+<rectangle x1="-0.75" y1="-0.25" x2="-0.45" y2="0.25" layer="41"/>
+<rectangle x1="0.45" y1="-0.25" x2="0.75" y2="0.25" layer="41"/>
+<rectangle x1="-0.94" y1="0.26" x2="-0.46" y2="0.54" layer="31"/>
+<rectangle x1="-0.94" y1="-0.54" x2="-0.46" y2="-0.26" layer="31"/>
+<rectangle x1="0.46" y1="-0.54" x2="0.94" y2="-0.26" layer="31"/>
+<rectangle x1="0.46" y1="0.26" x2="0.94" y2="0.54" layer="31"/>
+<polygon width="0.1524" layer="46" pour="solid">
+<vertex x="2.3146" y="2.2931625"/>
+<vertex x="2.3262" y="2.26515625"/>
+<vertex x="2.3262" y="1.603984375"/>
+<vertex x="2.341334375" y="1.460003125"/>
+<vertex x="2.384834375" y="1.32611875"/>
+<vertex x="2.455228125" y="1.204190625"/>
+<vertex x="2.54941875" y="1.09958125"/>
+<vertex x="2.663303125" y="1.016840625"/>
+<vertex x="2.791909375" y="0.959578125"/>
+<vertex x="2.929615625" y="0.930309375"/>
+<vertex x="3.070384375" y="0.930309375"/>
+<vertex x="3.208090625" y="0.959578125"/>
+<vertex x="3.336696875" y="1.016840625"/>
+<vertex x="3.45058125" y="1.09958125"/>
+<vertex x="3.544771875" y="1.204190625"/>
+<vertex x="3.615165625" y="1.32611875"/>
+<vertex x="3.658665625" y="1.460003125"/>
+<vertex x="3.6738" y="1.603984375"/>
+<vertex x="3.6738" y="2.7992"/>
+<vertex x="2.7992" y="3.6738"/>
+<vertex x="-2.7992" y="3.6738"/>
+<vertex x="-3.6738" y="2.7992"/>
+<vertex x="-3.6738" y="1.603984375"/>
+<vertex x="-3.658665625" y="1.460003125"/>
+<vertex x="-3.615165625" y="1.32611875"/>
+<vertex x="-3.544771875" y="1.204190625"/>
+<vertex x="-3.45058125" y="1.09958125"/>
+<vertex x="-3.336696875" y="1.016840625"/>
+<vertex x="-3.208090625" y="0.959578125"/>
+<vertex x="-3.070384375" y="0.930309375"/>
+<vertex x="-2.929615625" y="0.930309375"/>
+<vertex x="-2.791909375" y="0.959578125"/>
+<vertex x="-2.663303125" y="1.016840625"/>
+<vertex x="-2.54941875" y="1.09958125"/>
+<vertex x="-2.455228125" y="1.204190625"/>
+<vertex x="-2.384834375" y="1.32611875"/>
+<vertex x="-2.341334375" y="1.460003125"/>
+<vertex x="-2.3262" y="1.603984375"/>
+<vertex x="-2.3262" y="2.26515625"/>
+<vertex x="-2.3146" y="2.2931625"/>
+<vertex x="-2.2931625" y="2.3146"/>
+<vertex x="-2.26515625" y="2.3262"/>
+<vertex x="2.26515625" y="2.3262"/>
+<vertex x="2.2931625" y="2.3146"/>
+</polygon>
+<polygon width="0.1524" layer="46" pour="solid">
+<vertex x="2.2931625" y="-2.3146"/>
+<vertex x="2.26515625" y="-2.3262"/>
+<vertex x="-2.26515625" y="-2.3262"/>
+<vertex x="-2.2931625" y="-2.3146"/>
+<vertex x="-2.3146" y="-2.2931625"/>
+<vertex x="-2.3262" y="-2.26515625"/>
+<vertex x="-2.3262" y="-1.603984375"/>
+<vertex x="-2.341334375" y="-1.460003125"/>
+<vertex x="-2.384834375" y="-1.32611875"/>
+<vertex x="-2.455228125" y="-1.204190625"/>
+<vertex x="-2.54941875" y="-1.09958125"/>
+<vertex x="-2.663303125" y="-1.016840625"/>
+<vertex x="-2.791909375" y="-0.959578125"/>
+<vertex x="-2.929615625" y="-0.930309375"/>
+<vertex x="-3.070384375" y="-0.930309375"/>
+<vertex x="-3.208090625" y="-0.959578125"/>
+<vertex x="-3.336696875" y="-1.016840625"/>
+<vertex x="-3.45058125" y="-1.09958125"/>
+<vertex x="-3.544771875" y="-1.204190625"/>
+<vertex x="-3.615165625" y="-1.32611875"/>
+<vertex x="-3.658665625" y="-1.460003125"/>
+<vertex x="-3.6738" y="-1.603984375"/>
+<vertex x="-3.6738" y="-2.7992"/>
+<vertex x="-2.7992" y="-3.6738"/>
+<vertex x="2.7992" y="-3.6738"/>
+<vertex x="3.6738" y="-2.7992"/>
+<vertex x="3.6738" y="-1.603984375"/>
+<vertex x="3.658665625" y="-1.460003125"/>
+<vertex x="3.615165625" y="-1.32611875"/>
+<vertex x="3.544771875" y="-1.204190625"/>
+<vertex x="3.45058125" y="-1.09958125"/>
+<vertex x="3.336696875" y="-1.016840625"/>
+<vertex x="3.208090625" y="-0.959578125"/>
+<vertex x="3.070384375" y="-0.930309375"/>
+<vertex x="2.929615625" y="-0.930309375"/>
+<vertex x="2.791909375" y="-0.959578125"/>
+<vertex x="2.663303125" y="-1.016840625"/>
+<vertex x="2.54941875" y="-1.09958125"/>
+<vertex x="2.455228125" y="-1.204190625"/>
+<vertex x="2.384834375" y="-1.32611875"/>
+<vertex x="2.341334375" y="-1.460003125"/>
+<vertex x="2.3262" y="-1.603984375"/>
+<vertex x="2.3262" y="-2.26515625"/>
+<vertex x="2.3146" y="-2.2931625"/>
+</polygon>
+</package>
+<package name="WSEN-HIDS_2525020210002_FILTERCAP_GLUE" urn="urn:adsk.eagle:footprint:53248444/1">
+<description>WSEN-HIDS Humidity Sensor with integrated Temperature Sensor
+2525020210002, SMT, 4pins
+LXWXH=1.5mmX1.5mmX0.54mm
+
+WSEN-ACCE Filter Cap
+2500060600000, Protection cap for WSEN-HIDS, 5.28 mm spacing
+Use this footprint, if the holes for the pins of the filter cap are used only for adjustment.
+LXWXH=6mmX6mmX3.4mm
+</description>
+<smd name="1" x="-0.7" y="0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<smd name="2" x="-0.7" y="-0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<smd name="3" x="0.7" y="-0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<smd name="4" x="0.7" y="0.4" dx="0.5" dy="0.3" layer="1" cream="no"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.1" layer="51"/>
+<wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="2.25" y1="2.25" x2="-2.25" y2="2.25" width="0.15" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="2.179290625" width="0" layer="51"/>
+<wire x1="2.25" y1="2.179290625" x2="2.179290625" y2="2.25" width="0" layer="51"/>
+<wire x1="-2.179290625" y1="2.25" x2="-2.25" y2="2.179290625" width="0" layer="51"/>
+<wire x1="-2.25" y1="2.179290625" x2="-2.25" y2="1.6" width="0" layer="51"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="1.6" width="0.15" layer="51"/>
+<wire x1="-2.25" y1="1.6" x2="-2.25" y2="-2.25" width="0.15" layer="51"/>
+<wire x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" width="0.15" layer="51"/>
+<wire x1="2.25" y1="2.25" x2="2.25" y2="1.6" width="0.15" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="-2.25" width="0.15" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="1" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="1" width="1" layer="51"/>
+<wire x1="2.5" y1="1" x2="2.5" y2="-1" width="1" layer="51"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="-2.5" width="1" layer="51"/>
+<wire x1="2.7" y1="0" x2="2.5" y2="-1" width="1" layer="51" curve="-21.801409"/>
+<wire x1="2.7" y1="0" x2="2.5" y2="1" width="1" layer="51" curve="21.801409"/>
+<wire x1="-2.7" y1="0" x2="-2.5" y2="1" width="1" layer="51" curve="-21.801409"/>
+<wire x1="-2.7" y1="0" x2="-2.5" y2="-1" width="1" layer="51" curve="21.801409"/>
+<wire x1="0" y1="-2.7" x2="-1" y2="-2.5" width="1" layer="51" curve="-21.801409"/>
+<wire x1="0" y1="-2.7" x2="1" y2="-2.5" width="1" layer="51" curve="21.801409"/>
+<wire x1="0" y1="2.7" x2="1" y2="2.5" width="1" layer="51" curve="-21.801409"/>
+<wire x1="0" y1="2.7" x2="-1" y2="2.5" width="1" layer="51" curve="21.801409"/>
+<wire x1="-3.1" y1="2.1" x2="-3.1" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="3.1" y1="-2.1" x2="3.1" y2="2.1" width="0.2" layer="21"/>
+<wire x1="2.1" y1="3.1" x2="-2.1" y2="3.1" width="0.2" layer="21"/>
+<wire x1="-1.9" y1="1.9" x2="-1.9" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="-1.9" y1="-1.9" x2="1.9" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="1.9" y1="-1.9" x2="1.9" y2="1.9" width="0.2" layer="21"/>
+<wire x1="1.9" y1="1.9" x2="-1.9" y2="1.9" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-3.1" x2="-2.1" y2="-3.1" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="0.85" x2="0.8" y2="0.85" width="0.2" layer="21"/>
+<wire x1="-0.8" y1="-0.85" x2="0.8" y2="-0.85" width="0.2" layer="21"/>
+<circle x="-1.24" y="0.53" radius="0.074328125" width="0.15" layer="21"/>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-1.985" y="-2.05" size="0.15" layer="48">Restricted Area
+recommendation to avoid 
+mechanical stress:
+no vias, drills</text>
+<text x="0" y="-4" size="0.55" layer="48" rot="R180" align="bottom-center">cut out milling</text>
+<text x="0" y="4" size="0.55" layer="48" align="bottom-center">cut out milling</text>
+<text x="3.5" y="0" size="0.5" layer="48" rot="R270" align="bottom-center">Filter Cap</text>
+<text x="-3.5" y="0" size="0.5" layer="48" rot="R90" align="bottom-center">Filter Cap</text>
+<rectangle x1="-2.25" y1="-2.25" x2="2.25" y2="2.25" layer="39"/>
+<rectangle x1="-0.75" y1="0.55" x2="0.75" y2="0.75" layer="41"/>
+<rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="-0.55" layer="41"/>
+<rectangle x1="-0.55" y1="-0.45" x2="0.55" y2="0.45" layer="41" rot="R90"/>
+<rectangle x1="-0.75" y1="-0.25" x2="-0.45" y2="0.25" layer="41"/>
+<rectangle x1="0.45" y1="-0.25" x2="0.75" y2="0.25" layer="41"/>
+<rectangle x1="-0.94" y1="0.26" x2="-0.46" y2="0.54" layer="31"/>
+<rectangle x1="-0.94" y1="-0.54" x2="-0.46" y2="-0.26" layer="31"/>
+<rectangle x1="0.46" y1="-0.54" x2="0.94" y2="-0.26" layer="31"/>
+<rectangle x1="0.46" y1="0.26" x2="0.94" y2="0.54" layer="31"/>
+<rectangle x1="-3.2" y1="-3.2" x2="3.2" y2="3.2" layer="39" rot="R180"/>
+<hole x="2.64" y="2.64" drill="1"/>
+<hole x="2.64" y="-2.64" drill="1"/>
+<hole x="-2.64" y="-2.64" drill="1"/>
+<hole x="-2.64" y="2.64" drill="1"/>
+<polygon width="0.1524" layer="46" pour="solid">
+<vertex x="3.5146" y="2.935646875"/>
+<vertex x="3.5262" y="2.907640625"/>
+<vertex x="3.5262" y="2.403740625"/>
+<vertex x="3.539509375" y="2.26861875"/>
+<vertex x="3.577828125" y="2.14229375"/>
+<vertex x="3.6400625" y="2.02585625"/>
+<vertex x="3.7238125" y="1.9238125"/>
+<vertex x="3.82585625" y="1.8400625"/>
+<vertex x="3.94229375" y="1.777828125"/>
+<vertex x="4.06861875" y="1.739509375"/>
+<vertex x="4.2" y="1.72656875"/>
+<vertex x="4.33138125" y="1.739509375"/>
+<vertex x="4.45770625" y="1.777828125"/>
+<vertex x="4.57414375" y="1.8400625"/>
+<vertex x="4.6761875" y="1.9238125"/>
+<vertex x="4.7599375" y="2.02585625"/>
+<vertex x="4.822171875" y="2.14229375"/>
+<vertex x="4.860490625" y="2.26861875"/>
+<vertex x="4.8738" y="2.403740625"/>
+<vertex x="4.8738" y="3.477909375"/>
+<vertex x="3.477909375" y="4.8738"/>
+<vertex x="-3.4800375" y="4.8738"/>
+<vertex x="-4.8738" y="3.4800375"/>
+<vertex x="-4.8738" y="2.403740625"/>
+<vertex x="-4.860490625" y="2.26861875"/>
+<vertex x="-4.822171875" y="2.14229375"/>
+<vertex x="-4.7599375" y="2.02585625"/>
+<vertex x="-4.6761875" y="1.9238125"/>
+<vertex x="-4.57414375" y="1.8400625"/>
+<vertex x="-4.45770625" y="1.777828125"/>
+<vertex x="-4.33138125" y="1.739509375"/>
+<vertex x="-4.2" y="1.72656875"/>
+<vertex x="-4.06861875" y="1.739509375"/>
+<vertex x="-3.94229375" y="1.777828125"/>
+<vertex x="-3.82585625" y="1.8400625"/>
+<vertex x="-3.7238125" y="1.9238125"/>
+<vertex x="-3.6400625" y="2.02585625"/>
+<vertex x="-3.577828125" y="2.14229375"/>
+<vertex x="-3.539509375" y="2.26861875"/>
+<vertex x="-3.5262" y="2.403740625"/>
+<vertex x="-3.5262" y="2.906140625"/>
+<vertex x="-3.5146" y="2.934146875"/>
+<vertex x="-2.934146875" y="3.5146"/>
+<vertex x="-2.906140625" y="3.5262"/>
+<vertex x="2.907640625" y="3.5262"/>
+<vertex x="2.935646875" y="3.5146"/>
+</polygon>
+<polygon width="0.1524" layer="46" pour="solid">
+<vertex x="-2.907640625" y="-3.5262"/>
+<vertex x="-2.935646875" y="-3.5146"/>
+<vertex x="-3.5146" y="-2.935646875"/>
+<vertex x="-3.5262" y="-2.907640625"/>
+<vertex x="-3.5262" y="-2.403740625"/>
+<vertex x="-3.539509375" y="-2.26861875"/>
+<vertex x="-3.577828125" y="-2.14229375"/>
+<vertex x="-3.6400625" y="-2.02585625"/>
+<vertex x="-3.7238125" y="-1.9238125"/>
+<vertex x="-3.82585625" y="-1.8400625"/>
+<vertex x="-3.94229375" y="-1.777828125"/>
+<vertex x="-4.06861875" y="-1.739509375"/>
+<vertex x="-4.2" y="-1.72656875"/>
+<vertex x="-4.33138125" y="-1.739509375"/>
+<vertex x="-4.45770625" y="-1.777828125"/>
+<vertex x="-4.57414375" y="-1.8400625"/>
+<vertex x="-4.6761875" y="-1.9238125"/>
+<vertex x="-4.7599375" y="-2.02585625"/>
+<vertex x="-4.822171875" y="-2.14229375"/>
+<vertex x="-4.860490625" y="-2.26861875"/>
+<vertex x="-4.8738" y="-2.403740625"/>
+<vertex x="-4.8738" y="-3.477909375"/>
+<vertex x="-3.477909375" y="-4.8738"/>
+<vertex x="3.4800375" y="-4.8738"/>
+<vertex x="4.8738" y="-3.4800375"/>
+<vertex x="4.8738" y="-2.403740625"/>
+<vertex x="4.860490625" y="-2.26861875"/>
+<vertex x="4.822171875" y="-2.14229375"/>
+<vertex x="4.7599375" y="-2.02585625"/>
+<vertex x="4.6761875" y="-1.9238125"/>
+<vertex x="4.57414375" y="-1.8400625"/>
+<vertex x="4.45770625" y="-1.777828125"/>
+<vertex x="4.33138125" y="-1.739509375"/>
+<vertex x="4.2" y="-1.72656875"/>
+<vertex x="4.06861875" y="-1.739509375"/>
+<vertex x="3.94229375" y="-1.777828125"/>
+<vertex x="3.82585625" y="-1.8400625"/>
+<vertex x="3.7238125" y="-1.9238125"/>
+<vertex x="3.6400625" y="-2.02585625"/>
+<vertex x="3.577828125" y="-2.14229375"/>
+<vertex x="3.539509375" y="-2.26861875"/>
+<vertex x="3.5262" y="-2.403740625"/>
+<vertex x="3.5262" y="-2.906140625"/>
+<vertex x="3.5146" y="-2.934146875"/>
+<vertex x="2.934146875" y="-3.5146"/>
+<vertex x="2.906140625" y="-3.5262"/>
+</polygon>
+</package>
+<package name="WSEN-ITDS_2533020201601" urn="urn:adsk.eagle:footprint:53248452/1">
+<description>WSEN-ITDS 3 Axis Acceleration Sensor
+
+SMT, 12pins
+LXWXH=2mmX2mmX0.7mm</description>
+<text x="0" y="1.5" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-2.85" y="-2.85" size="0.254" layer="48">recommendation to avoid 
+mechanical stress:
+no vias, drills</text>
+<smd name="1" x="-0.7625" y="0.75" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.7625" y="0.25" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-0.7625" y="-0.25" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-0.7625" y="-0.75" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="5" x="-0.25" y="-0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<smd name="6" x="0.25" y="-0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<smd name="7" x="0.7625" y="-0.75" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="10" x="0.7625" y="0.75" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="9" x="0.7625" y="0.25" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="8" x="0.7625" y="-0.25" dx="0.375" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="12" x="-0.25" y="0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<smd name="11" x="0.25" y="0.7625" dx="0.35" dy="0.375" layer="1" stop="no" cream="no"/>
+<circle x="-1.2" y="0.8" radius="0.05" width="0.1" layer="21"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.1" layer="51"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.1" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="-1.1" y1="1.2" x2="1.1" y2="1.2" width="0.2" layer="21"/>
+<wire x1="1.1" y1="-1.2" x2="-1.1" y2="-1.2" width="0.2" layer="21"/>
+<rectangle x1="-1" y1="0.525" x2="-0.525" y2="0.975" layer="29"/>
+<rectangle x1="-1" y1="0.025" x2="-0.525" y2="0.475" layer="29"/>
+<rectangle x1="-1" y1="-0.475" x2="-0.525" y2="-0.025" layer="29"/>
+<rectangle x1="-1" y1="-0.975" x2="-0.525" y2="-0.525" layer="29"/>
+<rectangle x1="0.525" y1="-0.975" x2="1" y2="-0.525" layer="29"/>
+<rectangle x1="0.525" y1="-0.475" x2="1" y2="-0.025" layer="29"/>
+<rectangle x1="0.525" y1="0.025" x2="1" y2="0.475" layer="29"/>
+<rectangle x1="0.525" y1="0.525" x2="1" y2="0.975" layer="29"/>
+<rectangle x1="-0.475" y1="0.525" x2="-0.025" y2="1" layer="29"/>
+<rectangle x1="0.025" y1="0.525" x2="0.475" y2="1" layer="29"/>
+<rectangle x1="-0.475" y1="-1" x2="-0.025" y2="-0.525" layer="29"/>
+<rectangle x1="0.025" y1="-1" x2="0.475" y2="-0.525" layer="29"/>
+<rectangle x1="-0.93" y1="0.5925" x2="-0.595" y2="0.9075" layer="31"/>
+<rectangle x1="-0.93" y1="0.0925" x2="-0.595" y2="0.4075" layer="31"/>
+<rectangle x1="-0.93" y1="-0.4075" x2="-0.595" y2="-0.0925" layer="31"/>
+<rectangle x1="-0.93" y1="-0.9075" x2="-0.595" y2="-0.5925" layer="31"/>
+<rectangle x1="0.595" y1="-0.9075" x2="0.93" y2="-0.5925" layer="31"/>
+<rectangle x1="0.595" y1="-0.4075" x2="0.93" y2="-0.0925" layer="31"/>
+<rectangle x1="0.595" y1="0.0925" x2="0.93" y2="0.4075" layer="31"/>
+<rectangle x1="0.595" y1="0.5925" x2="0.93" y2="0.9075" layer="31"/>
+<rectangle x1="-0.4075" y1="0.595" x2="-0.0925" y2="0.93" layer="31"/>
+<rectangle x1="0.0925" y1="0.595" x2="0.4075" y2="0.93" layer="31"/>
+<rectangle x1="-0.4075" y1="-0.93" x2="-0.0925" y2="-0.595" layer="31"/>
+<rectangle x1="0.0925" y1="-0.93" x2="0.4075" y2="-0.595" layer="31"/>
+<rectangle x1="-3" y1="-3" x2="3" y2="3" layer="39"/>
+<rectangle x1="-0.55" y1="-0.55" x2="0.55" y2="0.55" layer="41"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="25131308XXXXX" urn="urn:adsk.eagle:package:53248479/1" type="model">
+<description>WSEN-PDXS Differential Pressure Sensor
+
+Vertical-straight nozzles, SMT, 8pins
+LXWXH=13.31mmX8mmX7.55mm</description>
+<packageinstances>
+<packageinstance name="WE-PDXS_VERTICAL"/>
+</packageinstances>
+</package3d>
+<package3d name="2511020213301" urn="urn:adsk.eagle:package:53248465/1" type="model">
+<description>WSEN-PADS Absolute Pressure Sensor
+
+SMT, 10pins
+LXWXH=2mmX2mmX0.8mm</description>
+<packageinstances>
+<packageinstance name="WSEN-PADS_2511020213301"/>
+</packageinstances>
+</package3d>
+<package3d name="25360303200011" urn="urn:adsk.eagle:package:53248467/1" type="model">
+<description>WSEN-ISDS 6-axis Inertial Sensor
+
+SMT, 14pins
+LXWXH=3mmX2.5mmX0.86MM</description>
+<packageinstances>
+<packageinstance name="WSEN-ISDS_2536030320001"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-RCDS_791002002" urn="urn:adsk.eagle:package:42188486/5" type="model">
+<description>WE RCDS Residual Current Detection Sensor 
+
+Vertical, THT 
+LXWXH=39.8X13.2X44.9mm</description>
+<packageinstances>
+<packageinstance name="WE-RCDS_791002002"/>
+</packageinstances>
+</package3d>
+<package3d name="2513130810102" urn="urn:adsk.eagle:package:53248480/1" type="model">
+<description>WSEN-PDXS Differential Pressure Sensor
+
+Horizontal-barbed nozzles, SMT, 8pins
+LXWXH=13.31mmX11.6mmX4.56mm</description>
+<packageinstances>
+<packageinstance name="WE-PDXS_HORIZONTAL"/>
+</packageinstances>
+</package3d>
+<package3d name="250028165401" urn="urn:adsk.eagle:package:53248474/1" type="model">
+<description>WSEN-ACCE Pressure Adapter
+
+250028161540x</description>
+<packageinstances>
+<packageinstance name="WSEN-ACCE_250028161540X"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-RCDS_791002004" urn="urn:adsk.eagle:package:42188485/5" type="model">
+<description>WE RCDS Residual Current Detection Sensor 
+
+Horizontal, THT 
+LXWXH=30.6X49X16.3mm</description>
+<packageinstances>
+<packageinstance name="WE-RCDS_791002004"/>
+</packageinstances>
+</package3d>
+<package3d name="2521020222501" urn="urn:adsk.eagle:package:53248464/1" type="model">
+<description>WSEN-TIDS Temperature Sensor IC
+
+SMT, 6pins
+LXWXH=2mmX2mmX0.55mm</description>
+<packageinstances>
+<packageinstance name="WSEN-TIDS_2521020222501"/>
+</packageinstances>
+</package3d>
+<package3d name="2500060600000_PRESS" urn="urn:adsk.eagle:package:53248476/1" type="model">
+<description>WSEN-ACCE Filter Cap
+
+Filter Cap - pin holes for clipping the filter cap on the pcb
+Protection cap for WSEN-HIDS, 5.1 mm ± 0.05 mm spacing
+LXWXH=6mmX6mmX3.4mm</description>
+<packageinstances>
+<packageinstance name="WSEN-ACCE_2500060600000_PRESSFIT"/>
+</packageinstances>
+</package3d>
+<package3d name="2500060600000_GLUE" urn="urn:adsk.eagle:package:53248477/1" type="model">
+<description>WSEN-ACCE Filter Cap
+
+Filter Cap - pin holes use for adjusment only
+Protection cap for WSEN-HIDS, 5.28 mm spacing
+LXWXH=6mmX6mmX3.4mm</description>
+<packageinstances>
+<packageinstance name="WSEN-ACCE_2500060600000_GLUE"/>
+</packageinstances>
+</package3d>
+<package3d name="2525020210002" urn="urn:adsk.eagle:package:53248473/1" type="model">
+<description>WSEN-HIDS Humidity Sensor with integrated Temperature Sensor
+
+SMT, 4pins
+LXWXH=1.5mmX1.5mmX0.54mm
+</description>
+<packageinstances>
+<packageinstance name="WSEN-HIDS_2525020210002"/>
+</packageinstances>
+</package3d>
+<package3d name="2525020210002_FILTER-CAP_PRESSFIT" urn="urn:adsk.eagle:package:53248469/1" type="model">
+<description>WSEN-HIDS Humidity Sensor with integrated Temperature Sensor
+2525020210002, SMT, 4pins
+LXWXH=1.5mmX1.5mmX0.54mm
+
+WSEN-ACCE Filter Cap
+2500060600000, Protection cap for WSEN-HIDS, 5.1 mm ± 0.05 mm
+Use this footprint to use the holes for pressing fit the pins of filter cap into the PCB.
+LXWXH=6mmX6mmX3.4mm</description>
+<packageinstances>
+<packageinstance name="WSEN-HIDS_2525020210002_FILTERCAP_PRESSFIT"/>
+</packageinstances>
+</package3d>
+<package3d name="2525020210002_FILTER-CAP_GLUE" urn="urn:adsk.eagle:package:53248471/1" type="model">
+<description>WSEN-HIDS Humidity Sensor with integrated Temperature Sensor
+2525020210002, SMT, 4pins
+LXWXH=1.5mmX1.5mmX0.54mm
+
+WSEN-ACCE Filter Cap
+2500060600000, Protection cap for WSEN-HIDS, 5.28 mm spacing
+Use this footprint, if the holes for the pins of the filter cap are used only for adjustment.
+LXWXH=6mmX6mmX3.4mm
+</description>
+<packageinstances>
+<packageinstance name="WSEN-HIDS_2525020210002_FILTERCAP_GLUE"/>
+</packageinstances>
+</package3d>
+<package3d name="2533020201601" urn="urn:adsk.eagle:package:53248466/1" type="model">
+<description>WSEN-ITDS 3 Axis Acceleration Sensor
+
+SMT, 12pins
+LXWXH=2mmX2mmX0.7mm</description>
+<packageinstances>
+<packageinstance name="WSEN-ITDS_2533020201601"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WSEN-PDMS" urn="urn:adsk.eagle:symbol:53248453/1">
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="in" function="clk"/>
+<pin name="2" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="3" x="-7.62" y="0" visible="pad" length="short" direction="pwr"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="out"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="7" x="7.62" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="6" x="7.62" y="0" visible="pad" length="short" direction="nc" rot="R180"/>
+<pin name="5" x="7.62" y="-2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="0.8128" layer="97" align="center-left">SCL</text>
+<text x="-4.572" y="2.54" size="0.8128" layer="97" align="center-left">SDA/MISO</text>
+<text x="-4.572" y="0" size="0.8128" layer="97" align="center-left">GND</text>
+<text x="-4.572" y="-2.54" size="0.8128" layer="97" align="center-left">VOUT</text>
+<text x="4.572" y="-2.54" size="0.8128" layer="97" align="center-right">VDD</text>
+<text x="4.572" y="0" size="0.8128" layer="97" align="center-right">NC</text>
+<text x="4.572" y="2.54" size="0.8128" layer="97" align="center-right">RSVD</text>
+<text x="4.572" y="5.08" size="0.8128" layer="97" align="center-right">RSVD</text>
+<text x="0" y="8.382" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="WSEN-PDUS" urn="urn:adsk.eagle:symbol:53248456/1">
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="in" function="clk"/>
+<pin name="2" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="3" x="-7.62" y="0" visible="pad" length="short" direction="pwr"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="out"/>
+<pin name="8" x="7.62" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="7" x="7.62" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="6" x="7.62" y="0" visible="pad" length="short" direction="nc" rot="R180"/>
+<pin name="5" x="7.62" y="-2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="0.8128" layer="95" align="center-left">SCL</text>
+<text x="-4.572" y="2.54" size="0.8128" layer="95" align="center-left">SDA</text>
+<text x="-4.572" y="0" size="0.8128" layer="95" align="center-left">GND</text>
+<text x="-4.572" y="-2.54" size="0.8128" layer="95" align="center-left">VOUT</text>
+<text x="4.572" y="-2.54" size="0.8128" layer="95" align="center-right">VDD</text>
+<text x="4.572" y="0" size="0.8128" layer="95" align="center-right">NC</text>
+<text x="4.572" y="2.54" size="0.8128" layer="95" align="center-right">RSVD</text>
+<text x="4.572" y="5.08" size="0.8128" layer="95" align="center-right">RSVD</text>
+<text x="0" y="8.382" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="WSEN-PADS_2511020213301" urn="urn:adsk.eagle:symbol:53248460/1">
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="VDD_IO" x="-7.62" y="5.08" visible="pad" length="short" direction="pwr"/>
+<pin name="SCL" x="-7.62" y="2.54" visible="pad" length="short" direction="in" function="clk"/>
+<pin name="RSVD" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="SDA" x="-7.62" y="-2.54" visible="pad" length="short"/>
+<pin name="SAO" x="-7.62" y="-5.08" visible="pad" length="short"/>
+<pin name="CS" x="7.62" y="-5.08" visible="pad" length="short" direction="in" rot="R180"/>
+<pin name="INT" x="7.62" y="-2.54" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="GND@1" x="7.62" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="GND@2" x="7.62" y="2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD" x="7.62" y="5.08" visible="pad" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="8.382" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-4.572" y="5.08" size="0.8128" layer="95" align="center-left">VDD_IO</text>
+<text x="-2.54" y="2.54" size="0.8128" layer="95" align="center-left">SCL</text>
+<text x="-4.572" y="0" size="0.8128" layer="95" align="center-left">RSVD</text>
+<text x="-4.572" y="-2.54" size="0.8128" layer="95" align="center-left">SDA</text>
+<text x="-4.572" y="-5.08" size="0.8128" layer="95" align="center-left">SAO</text>
+<text x="4.572" y="-5.08" size="0.8128" layer="95" align="center-right">CS</text>
+<text x="4.572" y="-2.54" size="0.8128" layer="95" align="center-right">INT</text>
+<text x="4.572" y="0" size="0.8128" layer="95" align="center-right">GND</text>
+<text x="4.572" y="2.54" size="0.8128" layer="95" align="center-right">GND</text>
+<text x="4.572" y="5.08" size="0.8128" layer="95" align="center-right">VDD</text>
+</symbol>
+<symbol name="WSEN-ISDS_2536030320001" urn="urn:adsk.eagle:symbol:53248458/1">
+<pin name="SA0" x="-10.16" y="7.62" visible="pad" length="short"/>
+<pin name="RSVD@3" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="RSVD@4" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="INT_0" x="-10.16" y="0" visible="pad" length="short" direction="out"/>
+<pin name="VDD_IO" x="-10.16" y="-2.54" visible="pad" length="short" direction="pwr"/>
+<pin name="GND_2" x="-10.16" y="-7.62" visible="pad" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-5.08" visible="pad" length="short" direction="pwr"/>
+<pin name="VDD" x="10.16" y="-7.62" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="INT_1" x="10.16" y="-5.08" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="RSVD@1" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="RSVD@0" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="CS" x="10.16" y="2.54" visible="pad" length="short" direction="in" rot="R180"/>
+<pin name="SCL" x="10.16" y="5.08" visible="pad" length="short" direction="in" rot="R180"/>
+<pin name="SDA" x="10.16" y="7.62" visible="pad" length="short" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
+<text x="0" y="10.668" size="1.778" layer="95" ratio="6" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.778" layer="96" ratio="6" align="bottom-center">&gt;VALUE</text>
+<text x="-6.858" y="7.62" size="1.27" layer="97" align="center-left">SAO</text>
+<text x="-6.858" y="0" size="1.27" layer="97" align="center-left">INT_0</text>
+<text x="-6.858" y="-2.54" size="1.27" layer="97" align="center-left">VDD_IO</text>
+<text x="-6.858" y="-5.08" size="1.27" layer="97" align="center-left">GND</text>
+<text x="-6.858" y="-7.62" size="1.27" layer="97" align="center-left">GND</text>
+<text x="6.858" y="-7.62" size="1.27" layer="97" rot="MR0" align="center-left">VDD</text>
+<text x="6.858" y="-5.08" size="1.27" layer="97" rot="MR0" align="center-left">INT_1</text>
+<text x="6.858" y="-2.54" size="1.27" layer="97" rot="MR0" align="center-left">RSVD</text>
+<text x="6.858" y="0" size="1.27" layer="97" rot="MR0" align="center-left">RSVD</text>
+<text x="6.858" y="2.54" size="1.27" layer="97" rot="MR0" align="center-left">CS</text>
+<text x="6.858" y="5.08" size="1.27" layer="97" rot="MR0" align="center-left">SCL</text>
+<text x="6.858" y="7.62" size="1.27" layer="97" rot="MR0" align="center-left">SDA</text>
+<text x="-6.858" y="2.54" size="1.27" layer="97" align="center-left">RSVD</text>
+<text x="-6.858" y="5.08" size="1.27" layer="97" align="center-left">RSVD</text>
+</symbol>
+<symbol name="791002002" urn="urn:adsk.eagle:symbol:53248463/1">
+<pin name="1" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="8.382" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="6.858" y="0" size="1.27" layer="97" rot="MR0" align="center-left">TEST-IN</text>
+<text x="6.858" y="5.08" size="1.27" layer="97" rot="MR180" align="center-right">VDD</text>
+<text x="6.858" y="2.54" size="1.27" layer="97" rot="MR180" align="center-right">TRIP</text>
+<text x="6.858" y="-2.54" size="1.27" layer="97" rot="MR0" align="center-left">HEART BEAT</text>
+<text x="6.858" y="-5.08" size="1.27" layer="97" rot="MR0" align="center-left">GND</text>
+</symbol>
+<symbol name="WSEN-ACCE_250028161540X" urn="urn:adsk.eagle:symbol:53248454/1">
+<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.382" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<circle x="-2.54" y="-1.27" radius="1.27" width="0.254" layer="94"/>
+<circle x="2.54" y="1.27" radius="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="1.778" width="0.254" layer="94"/>
+<circle x="2.54" y="1.27" radius="1.778" width="0.254" layer="94"/>
+<circle x="7.62" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-7.62" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="5.715" x2="6.985" y2="5.715" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="-5.715" x2="6.985" y2="-5.715" width="0.254" layer="94"/>
+<wire x1="6.985" y1="-5.715" x2="6.985" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="6.985" y1="-3.175" x2="8.255" y2="-1.905" width="0.254" layer="94" curve="-90"/>
+<wire x1="8.255" y1="-1.905" x2="9.525" y2="-0.635" width="0.254" layer="94" curve="90"/>
+<wire x1="9.525" y1="-0.635" x2="9.525" y2="0.635" width="0.254" layer="94"/>
+<wire x1="8.255" y1="1.905" x2="6.985" y2="3.175" width="0.254" layer="94" curve="-90"/>
+<wire x1="6.985" y1="3.175" x2="6.985" y2="5.715" width="0.254" layer="94"/>
+<wire x1="8.255" y1="1.905" x2="9.525" y2="0.635" width="0.254" layer="94" curve="-90"/>
+<wire x1="-6.985" y1="5.715" x2="-6.985" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="3.175" x2="-8.255" y2="1.905" width="0.254" layer="94" curve="-90"/>
+<wire x1="-8.255" y1="1.905" x2="-9.525" y2="0.635" width="0.254" layer="94" curve="90"/>
+<wire x1="-9.525" y1="0.635" x2="-9.525" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="-8.255" y1="-1.905" x2="-6.985" y2="-3.175" width="0.254" layer="94" curve="-90"/>
+<wire x1="-6.985" y1="-3.175" x2="-6.985" y2="-5.715" width="0.254" layer="94"/>
+<wire x1="-8.255" y1="-1.905" x2="-9.525" y2="-0.635" width="0.254" layer="94" curve="-90"/>
+</symbol>
+<symbol name="791002004" urn="urn:adsk.eagle:symbol:53248462/1">
+<pin name="1" x="12.7" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="12.7" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="12.7" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="12.7" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="12.7" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="12.7" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="12.7" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="12.7" y="-10.16" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="9" x="-12.7" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-12.7" y="-10.16" visible="pad" length="short" direction="pas"/>
+<pin name="11" x="-12.7" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="12" x="-12.7" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="13" x="-12.7" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="14" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="15" x="-12.7" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="16" x="-12.7" y="-2.54" visible="pad" length="short" direction="pas"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<text x="9.398" y="0" size="1.27" layer="97" rot="MR0" align="center-left">TRIP-OUT2</text>
+<text x="9.398" y="2.54" size="1.27" layer="97" rot="MR180" align="center-right">TRIP-OUT1</text>
+<text x="0" y="10.922" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="9.398" y="-5.08" size="1.27" layer="97" rot="MR0" align="center-left">PWM</text>
+<text x="9.398" y="7.62" size="1.27" layer="97" rot="MR180" align="center-right">Error</text>
+<text x="9.398" y="-2.54" size="1.27" layer="97" rot="MR0" align="center-left">NC</text>
+<text x="9.398" y="5.08" size="1.27" layer="97" rot="MR180" align="center-right">TEST-IN</text>
+<text x="9.398" y="-7.62" size="1.27" layer="97" rot="MR0" align="center-left">VDD</text>
+<text x="9.398" y="-10.16" size="1.27" layer="97" rot="MR0" align="center-left">GND</text>
+<text x="-7.62" y="-5.08" size="1.27" layer="97" rot="R270" align="bottom-right">AC Primary</text>
+</symbol>
+<symbol name="WSEN-TIDS_2521020222501" urn="urn:adsk.eagle:symbol:53248459/1">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="SCL" x="-7.62" y="2.54" visible="off" length="short"/>
+<pin name="INT" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="VDD" x="-7.62" y="-2.54" visible="pad" length="short" direction="pwr"/>
+<pin name="SAO" x="7.62" y="-2.54" visible="pad" length="short" rot="R180"/>
+<pin name="GND" x="7.62" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="SDA" x="7.62" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="P$1" x="2.54" y="7.62" visible="pad" length="short" rot="R270"/>
+<text x="-5.08" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-4.572" y="2.54" size="0.8128" layer="97" align="center-left">SCL</text>
+<text x="-4.572" y="0" size="0.8128" layer="97" align="center-left">INT</text>
+<text x="-4.572" y="-2.54" size="0.8128" layer="97" align="center-left">VDD</text>
+<text x="4.572" y="-2.54" size="0.8128" layer="97" align="center-right">SAO</text>
+<text x="4.572" y="0" size="0.8128" layer="97" align="center-right">GND</text>
+<text x="4.572" y="2.54" size="0.8128" layer="97" align="center-right">SDA</text>
+<text x="2.794" y="3.81" size="0.762" layer="95" rot="R90">T</text>
+</symbol>
+<symbol name="WSEN-ACCE_2500060600000" urn="urn:adsk.eagle:symbol:53248455/1">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="45"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94" curve="45"/>
+<wire x1="-1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94" curve="45"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94" curve="45"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-2.032" x2="2.032" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-2.032" x2="2.032" y2="2.032" width="0.254" layer="94"/>
+<wire x1="2.032" y1="2.032" x2="-2.032" y2="2.032" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="2.032" x2="-2.032" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="2.54" x2="-2.54" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.286" x2="-2.286" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="2.54" x2="-2.54" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.794" x2="-2.794" y2="2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="2.54" y1="2.794" x2="2.286" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.286" y1="2.54" x2="2.54" y2="2.286" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.286" x2="2.794" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.794" y1="2.54" x2="2.54" y2="2.794" width="0.254" layer="94" curve="90"/>
+<wire x1="2.794" y1="-2.54" x2="2.54" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.286" x2="2.286" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.54" x2="2.54" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.794" x2="2.794" y2="-2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="-2.54" y1="-2.794" x2="-2.286" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-2.54" x2="-2.54" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.286" x2="-2.794" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="-2.54" x2="-2.54" y2="-2.794" width="0.254" layer="94" curve="90"/>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<circle x="0" y="0" radius="1.626390625" width="0.254" layer="94"/>
+</symbol>
+<symbol name="WSEN-HIDS_2525020210002" urn="urn:adsk.eagle:symbol:53248457/1">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="VDD" x="7.62" y="-2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="SCL" x="-7.62" y="-2.54" visible="pad" length="short"/>
+<pin name="SDA" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="GND" x="7.62" y="2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<text x="0" y="5.842" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="4.572" y="-2.54" size="1.27" layer="97" rot="R180" align="center-left">VDD</text>
+<text x="-4.572" y="-2.54" size="1.27" layer="97" align="center-left">SCL</text>
+<text x="-4.572" y="2.54" size="1.27" layer="97" align="center-left">SDA</text>
+<text x="4.572" y="2.54" size="1.27" layer="97" rot="R180" align="center-left">GND</text>
+</symbol>
+<symbol name="WSEN-ITDS_2533020201601" urn="urn:adsk.eagle:symbol:53248461/1">
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<pin name="SCL" x="-7.62" y="7.62" visible="pad" length="short" direction="in" function="clk"/>
+<pin name="CS" x="-7.62" y="5.08" visible="pad" length="short" direction="in"/>
+<pin name="SAO" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="SDA" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="NC" x="-7.62" y="-2.54" visible="pad" length="short" direction="nc"/>
+<pin name="GND@1" x="-7.62" y="-5.08" visible="pad" length="short" direction="pwr"/>
+<pin name="RSVD" x="7.62" y="-5.08" visible="pad" length="short" rot="R180"/>
+<pin name="GND@2" x="7.62" y="-2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD" x="7.62" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD_IO" x="7.62" y="2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="INT_1" x="7.62" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="INT_0" x="7.62" y="7.62" visible="pad" length="short" direction="out" rot="R180"/>
+<text x="0" y="10.922" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-2.54" y="7.62" size="0.8128" layer="95" align="center-left">SCL</text>
+<text x="-4.318" y="5.08" size="0.8128" layer="95" align="center-left">CS</text>
+<text x="-4.318" y="2.54" size="0.8128" layer="95" align="center-left">SAO</text>
+<text x="-4.318" y="0" size="0.8128" layer="95" align="center-left">SDA</text>
+<text x="-4.318" y="-2.54" size="0.8128" layer="95" align="center-left">NC</text>
+<text x="-4.318" y="-5.08" size="0.8128" layer="95" align="center-left">GND</text>
+<text x="4.572" y="-5.08" size="0.8128" layer="95" align="center-right">RSVD</text>
+<text x="4.572" y="0" size="0.8128" layer="95" align="center-right">VDD</text>
+<text x="4.572" y="2.54" size="0.8128" layer="95" align="center-right">VDD_IO</text>
+<text x="4.572" y="5.08" size="0.8128" layer="95" align="center-right">INT_1</text>
+<text x="4.572" y="7.62" size="0.8128" layer="95" align="center-right">INT_0</text>
+<text x="4.572" y="-2.54" size="0.8128" layer="95" align="center-right">GND</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WSEN-PDMS_2513130810305" urn="urn:adsk.eagle:component:53248490/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810001
+
+5 V, ±0.1kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDMS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_VERTICAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="7.55mm"/>
+<attribute name="PART-NUMBER" value="2513130810305"/>
+<attribute name="VALUE" value="2513130810305"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810305?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDUS_2513130810201" urn="urn:adsk.eagle:component:53248502/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810201
+
+5 V, ±10kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDUS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_VERTICAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="7.55mm"/>
+<attribute name="PART-NUMBER" value="2513130810201"/>
+<attribute name="VALUE" value="2513130810201"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810201?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDMS_2513130810405" urn="urn:adsk.eagle:component:53248491/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810001
+
+5 V, ±0.1kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDMS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_VERTICAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="7.55mm"/>
+<attribute name="PART-NUMBER" value="2513130810405"/>
+<attribute name="VALUE" value="2513130810405"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810405?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PADS_25110202133011" urn="urn:adsk.eagle:component:53249566/1" prefix="IC">
+<description>WSEN-PADS - 2511020213301
+
+Absolute Pressure Sensor
+
+Details see: https://www.we-online.com/katalog/en/WSEN-PADS</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PADS_2511020213301" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSEN-PADS_2511020213301">
+<connects>
+<connect gate="G$1" pin="CS" pad="6"/>
+<connect gate="G$1" pin="GND@1" pad="8"/>
+<connect gate="G$1" pin="GND@2" pad="9"/>
+<connect gate="G$1" pin="INT" pad="7"/>
+<connect gate="G$1" pin="RSVD" pad="3"/>
+<connect gate="G$1" pin="SAO" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="2"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="10"/>
+<connect gate="G$1" pin="VDD_IO" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248465/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="PART-NUMBER" value="25110202133011"/>
+<attribute name="VALUE" value="25110202133011"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/25110202133011?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PADS_2511020213301" urn="urn:adsk.eagle:component:53248508/1" prefix="IC">
+<description>WSEN-PADS - 2511020213301
+
+Absolute Pressure Sensor
+
+Details see: https://www.we-online.com/katalog/en/WSEN-PADS</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PADS_2511020213301" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSEN-PADS_2511020213301">
+<connects>
+<connect gate="G$1" pin="CS" pad="6"/>
+<connect gate="G$1" pin="GND@1" pad="8"/>
+<connect gate="G$1" pin="GND@2" pad="9"/>
+<connect gate="G$1" pin="INT" pad="7"/>
+<connect gate="G$1" pin="RSVD" pad="3"/>
+<connect gate="G$1" pin="SAO" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="2"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="10"/>
+<connect gate="G$1" pin="VDD_IO" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248465/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="PART-NUMBER" value="2511020213301"/>
+<attribute name="VALUE" value="2511020213301"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2511020213301?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDUS_2513130810001" urn="urn:adsk.eagle:component:53248504/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810001
+
+5 V, ±0.1kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDUS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_VERTICAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="7.55mm"/>
+<attribute name="PART-NUMBER" value="2513130810001"/>
+<attribute name="VALUE" value="2513130810001"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810001?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDUS_2513130815401" urn="urn:adsk.eagle:component:53248499/2" prefix="IC">
+<description>WSEN-PDUS - 2513130815401
+
+5 V, 0 kPa to 1500 kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDUS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_VERTICAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="7.55mm"/>
+<attribute name="PART-NUMBER" value="2513130815401"/>
+<attribute name="VALUE" value="2513130815401"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130815401?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDUS_2513130810101" urn="urn:adsk.eagle:component:53248503/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810101
+
+5 V, ±1kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDUS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_VERTICAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="7.55mm"/>
+<attribute name="PART-NUMBER" value="2513130810101"/>
+<attribute name="VALUE" value="2513130810101"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810101?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDUS_2513130810401" urn="urn:adsk.eagle:component:53248500/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810401
+
+5 V, -100 kPa to 1000 kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDUS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_VERTICAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="7.55mm"/>
+<attribute name="PART-NUMBER" value="2513130810401"/>
+<attribute name="VALUE" value="2513130810401"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810401?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDUS_2513130810301" urn="urn:adsk.eagle:component:53248501/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810301
+
+5 V, 0 kPa to 100 kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDUS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_VERTICAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="7.55mm"/>
+<attribute name="PART-NUMBER" value="2513130810301"/>
+<attribute name="VALUE" value="2513130810301"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810301?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDUS_2513130810402" urn="urn:adsk.eagle:component:53248497/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810402
+
+3.3 V, -100 kPa to 1000 kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDUS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_VERTICAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248479/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="7.55mm"/>
+<attribute name="PART-NUMBER" value="2513130810402"/>
+<attribute name="VALUE" value="2513130810402"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810402?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-ISDS_25360303200011" urn="urn:adsk.eagle:component:53249564/1" prefix="IC">
+<description>WSEN-ISDS 6 Axis IMU (Inertial Measurement Unit)
+3-Axis Acceleration Sensor and 3-axis Gyroscope Sensor
+
+Details see: www.we-online.com/en/components/products/WSEN-ISDS</description>
+<gates>
+<gate name="G$1" symbol="WSEN-ISDS_2536030320001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSEN-ISDS_2536030320001">
+<connects>
+<connect gate="G$1" pin="CS" pad="12"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="GND_2" pad="7"/>
+<connect gate="G$1" pin="INT_0" pad="4"/>
+<connect gate="G$1" pin="INT_1" pad="9"/>
+<connect gate="G$1" pin="RSVD@0" pad="11"/>
+<connect gate="G$1" pin="RSVD@1" pad="10"/>
+<connect gate="G$1" pin="RSVD@3" pad="2"/>
+<connect gate="G$1" pin="RSVD@4" pad="3"/>
+<connect gate="G$1" pin="SA0" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="13"/>
+<connect gate="G$1" pin="SDA" pad="14"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDD_IO" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248467/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="0.86mm"/>
+<attribute name="PART-NUMBER" value="25360303200011"/>
+<attribute name="VALUE" value="25360303200011"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/25360303200011?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-RCDS_791002002" urn="urn:adsk.eagle:component:53248493/1" prefix="IC">
+<description>WE-RCDS Residual Current Detection Sensor
+
+for fault current detection in EV-charging applications 
+
+Characteristics 
+Compact design for PCB board mounting 
+DC 6mA residual direct current detecting RDC-M-Module for mode 3 EV charging 
+System fault indication 
+Supply voltage drop monitoring 
+Module Software certified according to ANSI/UL 1998, Class 1 
+Relevant EMC tests according to IEC 62955: 2018 and EN 60730-1 
+
+Applications 
+DC- Residual current detection sensor for stationary EV charging devices
+To meet IEC 61851-1 (ensure the disconnection of the supply in case of DC fault)
+If the Residual Current Detection Sensor WE-RCDS is to be used in combination with a residual current device RCD type A, this offer is directed exclusively at customers who are authorized to use the patent EP 2 571 128 B3 (valid in Austria, Switzerland/Liechtenstein, Germany, Spain, France, Great Britain and Norway) and the parallel property rights CN 103 001 175 B, US 9,397,494 B2 and DE 10 2011 082 941 A1 or who do not offer, manufacture and distribute within the scope of these property rights.
+
+Details see:  www.we-online.com/en/components/products/WE-RCDS
+
+Created by Ella 2024-03-18
+2024 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="791002002" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-RCDS_791002002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42188486/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="44.9mm"/>
+<attribute name="PART-NUMBER" value="791002002"/>
+<attribute name="VALUE" value="791002002"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/791002002?ae"/>
+<attribute name="VERSION" value="Vertical"/>
+<attribute name="TYPE" value="Cable Through Hole"/>
+<attribute name="I-RESIDUAL" value="6 mA DC"/>
+<attribute name="IP" value="80 / 40 A max."/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-ISDS_2536030320001" urn="urn:adsk.eagle:component:53248506/1" prefix="IC">
+<description>WSEN-ISDS 6 Axis IMU (Inertial Measurement Unit)
+3-Axis Acceleration Sensor and 3-axis Gyroscope Sensor
+
+Details see: www.we-online.com/en/components/products/WSEN-ISDS</description>
+<gates>
+<gate name="G$1" symbol="WSEN-ISDS_2536030320001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSEN-ISDS_2536030320001">
+<connects>
+<connect gate="G$1" pin="CS" pad="12"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="GND_2" pad="7"/>
+<connect gate="G$1" pin="INT_0" pad="4"/>
+<connect gate="G$1" pin="INT_1" pad="9"/>
+<connect gate="G$1" pin="RSVD@0" pad="11"/>
+<connect gate="G$1" pin="RSVD@1" pad="10"/>
+<connect gate="G$1" pin="RSVD@3" pad="2"/>
+<connect gate="G$1" pin="RSVD@4" pad="3"/>
+<connect gate="G$1" pin="SA0" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="13"/>
+<connect gate="G$1" pin="SDA" pad="14"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDD_IO" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248467/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="0.86mm"/>
+<attribute name="PART-NUMBER" value="2536030320001"/>
+<attribute name="VALUE" value="2536030320001"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2536030320001?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDMS_2513130810105" urn="urn:adsk.eagle:component:53248488/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810102
+
+3.3 V, ±1kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDMS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_HORIZONTAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248480/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="4.56mm"/>
+<attribute name="PART-NUMBER" value="2513130810105"/>
+<attribute name="VALUE" value="2513130810105"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810105?ae"/>
+<attribute name="VERSION" value="Horizontal"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDMS_2513130835205" urn="urn:adsk.eagle:component:53248492/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810102
+
+3.3 V, ±1kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDMS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_HORIZONTAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248480/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="4.56mm"/>
+<attribute name="PART-NUMBER" value="2513130835205"/>
+<attribute name="VALUE" value="2513130835205"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130835205?ae"/>
+<attribute name="VERSION" value="Horizontal"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDUS_2513130810102" urn="urn:adsk.eagle:component:53248498/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810102
+
+3.3 V, ±1kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDUS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_HORIZONTAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248480/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="4.56mm"/>
+<attribute name="PART-NUMBER" value="2513130810102"/>
+<attribute name="VALUE" value="2513130810102"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810102?ae"/>
+<attribute name="VERSION" value="Horizontal"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-PDMS_2513130810205" urn="urn:adsk.eagle:component:53248489/2" prefix="IC">
+<description>WSEN-PDUS - 2513130810102
+
+3.3 V, ±1kPa Differential Pressure Sensor
+
+Details see: https://www.we-online.com/catalog/en/WSEN-PDUS/</description>
+<gates>
+<gate name="G$1" symbol="WSEN-PDMS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDXS_HORIZONTAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248480/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="4.56mm"/>
+<attribute name="PART-NUMBER" value="2513130810205"/>
+<attribute name="VALUE" value="2513130810205"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2513130810205?ae"/>
+<attribute name="VERSION" value="Horizontal"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-ACCE_250028161540X" urn="urn:adsk.eagle:component:53248495/1" prefix="ADAPTER">
+<description>WSEN-ACCE Pressure Adapter
+250028161540x
+</description>
+<gates>
+<gate name="G$1" symbol="WSEN-ACCE_250028161540X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSEN-ACCE_250028161540X">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248474/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="27.8mm"/>
+<attribute name="PART-NUMBER" value="250028161540X"/>
+<attribute name="VALUE" value="250028161540X"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-RCDS_791002004" urn="urn:adsk.eagle:component:53248494/1" prefix="IC">
+<description>WE-RCDS Residual Current Detection Sensor
+
+for fault current detection in EV-charging applications 
+
+Characteristics 
+Compact design for PCB board mounting 
+DC 6mA residual direct current detecting RDC-M-Module for mode 3 EV charging 
+System fault indication 
+Supply voltage drop monitoring 
+Module Software certified according to ANSI/UL 1998, Class 1 
+Relevant EMC tests according to IEC 62955: 2018 and EN 60730-1 
+
+Applications 
+DC- Residual current detection sensor for stationary EV charging devices
+To meet IEC 61851-1 (ensure the disconnection of the supply in case of DC fault)
+If the Residual Current Detection Sensor WE-RCDS is to be used in combination with a residual current device RCD type A, this offer is directed exclusively at customers who are authorized to use the patent EP 2 571 128 B3 (valid in Austria, Switzerland/Liechtenstein, Germany, Spain, France, Great Britain and Norway) and the parallel property rights CN 103 001 175 B, US 9,397,494 B2 and DE 10 2011 082 941 A1 or who do not offer, manufacture and distribute within the scope of these property rights.
+
+Details see:  www.we-online.com/en/components/products/WE-RCDS
+
+Created by Ella 2024-03-18
+2024 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="791002004" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-RCDS_791002004">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42188485/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="16.3mm"/>
+<attribute name="PART-NUMBER" value="791002004"/>
+<attribute name="VALUE" value="791002004"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/791002004?ae"/>
+<attribute name="VERSION" value="Horizontal"/>
+<attribute name="TYPE" value="3-phase primary conductor"/>
+<attribute name="I-RESIDUAL" value="6 mA DC"/>
+<attribute name="IP" value="40 A max."/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-TIDS_2521020222501" urn="urn:adsk.eagle:component:53248507/2" prefix="IC">
+<description>WSEN-TIDS Temperature Sensor IC
+
+Details see: www.we-online.com/en/components/products/WSEN-TIDS</description>
+<gates>
+<gate name="G$1" symbol="WSEN-TIDS_2521020222501" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSEN-TIDS_2521020222501">
+<connects>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="INT" pad="2"/>
+<connect gate="G$1" pin="P$1" pad="Z1"/>
+<connect gate="G$1" pin="SAO" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248464/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="0.55mm"/>
+<attribute name="PART-NUMBER" value="2521020222501"/>
+<attribute name="VALUE" value="2521020222501"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2521020222501?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-ACCE_2500060600000" urn="urn:adsk.eagle:component:53248496/1" prefix="FC">
+<description>WSEN-ACCE filter cap
+
+Protection cap for WSEN-HIDS
+
+Details see: www.we-online.com/en/components/products/WSEN-HIDS</description>
+<gates>
+<gate name="G$1" symbol="WSEN-ACCE_2500060600000" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="PRESSFIT" package="WSEN-ACCE_2500060600000_PRESSFIT">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248476/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="1.9mm"/>
+<attribute name="NR" value="2500060600000" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="GLUE" package="WSEN-ACCE_2500060600000_GLUE">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248477/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="1.9mm"/>
+<attribute name="PART-NUMBER" value="2500060600000"/>
+<attribute name="VALUE" value="2500060600000"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2500060600000?ae"/>
+<attribute name="HEIGH" value="1.9mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-HIDS_2525020210002" urn="urn:adsk.eagle:component:53248505/2" prefix="IC">
+<description>WSEN-HIDS Humidity Sensor with integrated Temperature Sensor
+
+Details see: www.we-online.com/en/components/products/WSEN-HIDS
+</description>
+<gates>
+<gate name="G$1" symbol="WSEN-HIDS_2525020210002" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSEN-HIDS_2525020210002">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="2"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248473/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="0.54mm"/>
+<attribute name="PART-NUMBER" value="2525020210002"/>
+<attribute name="VALUE" value="2525020210002"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2525020210002?ae"/>
+<attribute name="PROTECTION-CAP" value=" 2500060600000 "/>
+</technology>
+</technologies>
+</device>
+<device name="_FILTERCAP_PRESSFIT" package="WSEN-HIDS_2525020210002_FILTERCAP_PRESSFIT">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="2"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248469/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="1.9mm"/>
+<attribute name="PART-NUMBER" value="2525020210002"/>
+<attribute name="VALUE" value="2525020210002&amp;2500060600000"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2525020210002?ae"/>
+<attribute name="PROTECTION-CAP" value=" 2500060600000 "/>
+<attribute name="COMMENT" value="Article numbers for HIDS and filter cap"/>
+</technology>
+</technologies>
+</device>
+<device name="_FILTERCAP_GLUE" package="WSEN-HIDS_2525020210002_FILTERCAP_GLUE">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="2"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248471/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="1.9mm"/>
+<attribute name="PART-NUMBER" value="2525020210002"/>
+<attribute name="VALUE" value="2525020210002&amp;2500060600000"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2525020210002?ae"/>
+<attribute name="PROTECTION-CAP" value=" 2500060600000 "/>
+<attribute name="COMMENT" value="Article numbers for HIDS and filter cap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-ITDS_25330202016011" urn="urn:adsk.eagle:component:53249565/1" prefix="IC">
+<description>WSEN-ITDS 3 Axis Acceleration Sensor
+
+Details see: www.we-online.com/en/components/products/WSEN-ITDS</description>
+<gates>
+<gate name="G$1" symbol="WSEN-ITDS_2533020201601" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSEN-ITDS_2533020201601">
+<connects>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="6"/>
+<connect gate="G$1" pin="GND@2" pad="8"/>
+<connect gate="G$1" pin="INT_0" pad="12"/>
+<connect gate="G$1" pin="INT_1" pad="11"/>
+<connect gate="G$1" pin="NC" pad="5"/>
+<connect gate="G$1" pin="RSVD" pad="7"/>
+<connect gate="G$1" pin="SAO" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="9"/>
+<connect gate="G$1" pin="VDD_IO" pad="10"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248466/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="0.7mm"/>
+<attribute name="PART-NUMBER" value="25330202016011"/>
+<attribute name="VALUE" value="25330202016011"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/25330202016011?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSEN-ITDS_2533020201601" urn="urn:adsk.eagle:component:53248509/1" prefix="IC">
+<description>WSEN-ITDS 3 Axis Acceleration Sensor
+
+Details see: www.we-online.com/en/components/products/WSEN-ITDS</description>
+<gates>
+<gate name="G$1" symbol="WSEN-ITDS_2533020201601" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSEN-ITDS_2533020201601">
+<connects>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="6"/>
+<connect gate="G$1" pin="GND@2" pad="8"/>
+<connect gate="G$1" pin="INT_0" pad="12"/>
+<connect gate="G$1" pin="INT_1" pad="11"/>
+<connect gate="G$1" pin="NC" pad="5"/>
+<connect gate="G$1" pin="RSVD" pad="7"/>
+<connect gate="G$1" pin="SAO" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="9"/>
+<connect gate="G$1" pin="VDD_IO" pad="10"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53248466/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="HEIGHT" value="0.7mm"/>
+<attribute name="PART-NUMBER" value="2533020201601"/>
+<attribute name="VALUE" value="2533020201601"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/2533020201601?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
