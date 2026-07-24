@@ -77,7 +77,7 @@ Würth Elektronik eiSos GmbH &amp; Co. KG
 EMC &amp; Inductive Solutions
 www.we-online.com
 
-Fusion360, Library Revision 2026a, 2026-07-01
+Fusion360, Library Revision 2026b, 2026-07-21
 Copyright: Würth Elektronik</description>
 <packages>
 <package name="7499111221A" urn="urn:adsk.eagle:footprint:12863473/2" locally_modified="yes">
@@ -544,7 +544,7 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <circle x="-4.5" y="-5.7" radius="0.1" width="0.4" layer="21"/>
 </package>
-<package name="74991104403" urn="urn:adsk.eagle:footprint:26674985/2" locally_modified="yes">
+<package name="74991104403" urn="urn:adsk.eagle:footprint:26674985/6" locally_modified="yes">
 <description>WE-RJ45 LAN Transformer
 1000BASE-T, Ports:1, Tab:Down</description>
 <pad name="1" x="-5.715" y="8.89" drill="0.9"/>
@@ -575,19 +575,22 @@ Copyright: Würth Elektronik</description>
 <wire x1="-8.05" y1="1.55" x2="-8.05" y2="-10.85" width="0.2" layer="21"/>
 <wire x1="-8.05" y1="-10.85" x2="8.05" y2="-10.85" width="0.2" layer="21"/>
 <wire x1="8.05" y1="-10.85" x2="8.05" y2="1.55" width="0.2" layer="21"/>
-<polygon width="0.15" layer="39" pour="solid">
-<vertex x="-9.35" y="-11.05"/>
-<vertex x="9.35" y="-11.05"/>
-<vertex x="9.35" y="10.9"/>
-<vertex x="-9.35" y="10.9"/>
+<polygon width="0.1524" layer="39" pour="solid">
+<vertex x="-9.3488" y="-11.0488"/>
+<vertex x="9.3488" y="-11.0488"/>
+<vertex x="9.3488" y="10.8988"/>
+<vertex x="-9.3488" y="10.8988"/>
 </polygon>
 <text x="0" y="11.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-13" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="-6.9" y="8.4" size="1.016" layer="21" align="bottom-right">1</text>
 <text x="-5.6" y="5.9" size="1.016" layer="21" align="bottom-right">2</text>
 <text x="5.7" y="8.4" size="1.016" layer="21">9</text>
 <text x="6.6" y="6" size="0.8128" layer="21">10</text>
 <circle x="-9" y="8.89" radius="0.3" width="0.6" layer="21"/>
+<text x="0" y="-9.2" size="1.27" layer="48" align="center">Keep-Out Area</text>
+<rectangle x1="-7.005" y1="-10.75" x2="7.005" y2="-8.05" layer="43"/>
+<rectangle x1="-7.005" y1="-10.75" x2="7.005" y2="-8.05" layer="41"/>
 </package>
 <package name="7499111615" urn="urn:adsk.eagle:footprint:18117668/3" locally_modified="yes">
 <description>WE-RJ45 LAN Transformer
@@ -820,36 +823,24 @@ Copyright: Würth Elektronik</description>
 <pad name="10" x="-5.715" y="8.89" drill="0.9"/>
 <hole x="-5.715" y="0" drill="3.25"/>
 <hole x="5.715" y="0" drill="3.25"/>
-<wire x1="-7.875" y1="-10.7" x2="7.875" y2="-10.7" width="0.1" layer="51"/>
-<wire x1="7.875" y1="-10.7" x2="7.875" y2="10.8" width="0.1" layer="51"/>
-<wire x1="7.875" y1="10.8" x2="-7.875" y2="10.8" width="0.1" layer="51"/>
-<wire x1="-7.875" y1="10.8" x2="-7.875" y2="-10.7" width="0.1" layer="51"/>
-<wire x1="-7.975" y1="4.55" x2="-7.975" y2="10.9" width="0.2" layer="21"/>
-<wire x1="-7.975" y1="10.9" x2="7.975" y2="10.9" width="0.2" layer="21"/>
-<wire x1="7.975" y1="10.9" x2="7.975" y2="4.55" width="0.2" layer="21"/>
-<wire x1="-7.975" y1="1.55" x2="-7.975" y2="-10.8" width="0.2" layer="21"/>
-<wire x1="-7.975" y1="-10.8" x2="7.975" y2="-10.8" width="0.2" layer="21"/>
-<wire x1="7.975" y1="-10.8" x2="7.975" y2="1.55" width="0.2" layer="21"/>
+<wire x1="-7.875" y1="-10.8" x2="7.875" y2="-10.8" width="0.1" layer="51"/>
+<wire x1="7.875" y1="-10.8" x2="7.875" y2="10.7" width="0.1" layer="51"/>
+<wire x1="7.875" y1="10.7" x2="-7.875" y2="10.7" width="0.1" layer="51"/>
+<wire x1="-7.875" y1="10.7" x2="-7.875" y2="-10.8" width="0.1" layer="51"/>
+<wire x1="-7.975" y1="4.55" x2="-7.975" y2="10.8" width="0.2" layer="21"/>
+<wire x1="-7.975" y1="10.8" x2="7.975" y2="10.8" width="0.2" layer="21"/>
+<wire x1="7.975" y1="10.8" x2="7.975" y2="4.55" width="0.2" layer="21"/>
+<wire x1="-7.975" y1="1.55" x2="-7.975" y2="-10.9" width="0.2" layer="21"/>
+<wire x1="-7.975" y1="-10.9" x2="7.975" y2="-10.9" width="0.2" layer="21"/>
+<wire x1="7.975" y1="-10.9" x2="7.975" y2="1.55" width="0.2" layer="21"/>
 <polygon width="0.15" layer="39" pour="solid">
-<vertex x="-9.275" y="-11"/>
-<vertex x="9.275" y="-11"/>
-<vertex x="9.275" y="11.1"/>
-<vertex x="-9.275" y="11.1"/>
-</polygon>
-<polygon width="0.1" layer="41" pour="solid">
-<vertex x="-7.005" y="-10.8"/>
-<vertex x="7.005" y="-10.8"/>
-<vertex x="7.005" y="-7.3"/>
-<vertex x="-7.005" y="-7.3"/>
-</polygon>
-<polygon width="0.1" layer="43" pour="solid">
-<vertex x="-7.005" y="-10.8"/>
-<vertex x="7.005" y="-10.8"/>
-<vertex x="7.005" y="-7.3"/>
-<vertex x="-7.005" y="-7.3"/>
+<vertex x="-9.275" y="-11.025"/>
+<vertex x="9.275" y="-11.025"/>
+<vertex x="9.275" y="10.925"/>
+<vertex x="-9.275" y="10.925"/>
 </polygon>
 <text x="0" y="11.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-13" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="-6.6" y="8.4" size="0.8128" layer="21" align="bottom-right">10</text>
 <text x="-5.6" y="5.9" size="1.016" layer="21" align="bottom-right">9</text>
 <text x="5.7" y="8.4" size="1.016" layer="21">2</text>
@@ -860,6 +851,8 @@ Copyright: Würth Elektronik</description>
 <text x="-5.3" y="-3" size="1.016" layer="21">13</text>
 <text x="-5.4" y="-5" size="1.016" layer="21">14</text>
 <circle x="9.11" y="6.35" radius="0.3" width="0.6" layer="21"/>
+<rectangle x1="-7.005" y1="-10.8" x2="7.005" y2="-7.3" layer="41"/>
+<rectangle x1="-7.005" y1="-10.8" x2="7.005" y2="-7.3" layer="43"/>
 </package>
 <package name="7499211125" urn="urn:adsk.eagle:footprint:12863486/2" locally_modified="yes">
 <description>WE-RJ45 LAN Transformer
@@ -1715,6 +1708,9 @@ Copyright: Würth Elektronik</description>
 <text x="3.2" y="-6.3" size="1.016" layer="21">13</text>
 <text x="5.7" y="-6.3" size="1.016" layer="21">14</text>
 <circle x="-8.7" y="9.1" radius="0.2" width="0.4" layer="21"/>
+<rectangle x1="-7.005" y1="-10.75" x2="7.005" y2="-8.05" layer="41"/>
+<rectangle x1="-7.005" y1="-10.75" x2="7.005" y2="-8.05" layer="43"/>
+<text x="0" y="-9.2" size="1.27" layer="48" align="center">Keep-Out Area</text>
 </package>
 <package name="7499010001A" urn="urn:adsk.eagle:footprint:12863443/2" locally_modified="yes">
 <description>WE-RJ45 LAN Transformer
@@ -1754,59 +1750,59 @@ Copyright: Würth Elektronik</description>
 <package name="7499031120A" urn="urn:adsk.eagle:footprint:12863464/2" locally_modified="yes">
 <description>WE-RJ45 LAN Transformer
 10/100BASE-T, Ports:1x4, Tab:Down</description>
-<pad name="C11" x="10.92" y="-2.29" drill="0.89" rot="R180"/>
-<pad name="C12" x="13.46" y="-2.29" drill="0.89" rot="R180"/>
-<pad name="D10" x="17.02" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="D9" x="14.48" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="C9" x="0.51" y="-2.29" drill="0.89" rot="R180"/>
-<pad name="C10" x="3.05" y="-2.29" drill="0.89" rot="R180"/>
-<pad name="D12" x="27.42" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="D11" x="24.88" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="B9" x="-13.46" y="-2.29" drill="0.89" rot="R180"/>
-<pad name="B10" x="-10.92" y="-2.29" drill="0.89" rot="R180"/>
-<pad name="A12" x="-14.48" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="A11" x="-17.02" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="A9" x="-27.42" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="A10" x="-24.88" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="B12" x="-0.51" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="B11" x="-3.05" y="-4.06" drill="0.89" rot="R180"/>
-<pad name="Z1" x="-29.455" y="3.05" drill="1.63"/>
-<pad name="Z5" x="29.455" y="3.05" drill="1.63"/>
-<pad name="Z2" x="-13.97" y="10.24" drill="1.63"/>
-<pad name="Z3" x="0" y="10.24" drill="1.63"/>
-<pad name="Z4" x="13.97" y="10.24" drill="1.63"/>
-<pad name="C1" x="2.54" y="6.35" drill="0.9"/>
-<pad name="A1" x="-25.4" y="6.35" drill="0.9"/>
-<pad name="A2" x="-24.13" y="8.89" drill="0.9"/>
-<pad name="A3" x="-22.86" y="6.35" drill="0.9"/>
-<pad name="A4" x="-21.59" y="8.89" drill="0.9"/>
-<pad name="A5" x="-20.32" y="6.35" drill="0.9"/>
-<pad name="A6" x="-19.05" y="8.89" drill="0.9"/>
-<pad name="A7" x="-17.78" y="6.35" drill="0.9"/>
-<pad name="A8" x="-16.51" y="8.89" drill="0.9"/>
-<pad name="B2" x="-10.16" y="8.89" drill="0.9"/>
-<pad name="B1" x="-11.43" y="6.35" drill="0.9"/>
-<pad name="B3" x="-8.89" y="6.35" drill="0.9"/>
-<pad name="B4" x="-7.62" y="8.89" drill="0.9"/>
-<pad name="B5" x="-6.35" y="6.35" drill="0.9"/>
-<pad name="B6" x="-5.08" y="8.89" drill="0.9"/>
-<pad name="B7" x="-3.81" y="6.35" drill="0.9"/>
-<pad name="B8" x="-2.54" y="8.89" drill="0.9"/>
-<pad name="C2" x="3.81" y="8.89" drill="0.9"/>
-<pad name="C3" x="5.08" y="6.35" drill="0.9"/>
-<pad name="C4" x="6.35" y="8.89" drill="0.9"/>
-<pad name="C5" x="7.62" y="6.35" drill="0.9"/>
-<pad name="C6" x="8.89" y="8.89" drill="0.9"/>
-<pad name="C7" x="10.16" y="6.35" drill="0.9"/>
-<pad name="C8" x="11.43" y="8.89" drill="0.9"/>
-<pad name="D1" x="16.51" y="6.35" drill="0.9"/>
-<pad name="D2" x="17.78" y="8.89" drill="0.9"/>
-<pad name="D3" x="19.05" y="6.35" drill="0.9"/>
-<pad name="D4" x="20.32" y="8.89" drill="0.9"/>
-<pad name="D5" x="21.59" y="6.35" drill="0.9"/>
-<pad name="D6" x="22.86" y="8.89" drill="0.9"/>
-<pad name="D7" x="24.13" y="6.35" drill="0.9"/>
-<pad name="D8" x="25.4" y="8.89" drill="0.9"/>
+<pad name="C11" x="10.92" y="-2.29" drill="1.03" rot="R180"/>
+<pad name="C12" x="13.46" y="-2.29" drill="1.03" rot="R180"/>
+<pad name="D10" x="17.02" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="D9" x="14.48" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="C9" x="0.515" y="-2.29" drill="1.03" rot="R180"/>
+<pad name="C10" x="3.06" y="-2.29" drill="1.03" rot="R180"/>
+<pad name="D12" x="27.42" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="D11" x="24.88" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="B9" x="-13.46" y="-2.29" drill="1.03" rot="R180"/>
+<pad name="B10" x="-10.92" y="-2.29" drill="1.03" rot="R180"/>
+<pad name="A12" x="-14.48" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="A11" x="-17.02" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="A9" x="-27.42" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="A10" x="-24.88" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="B12" x="-0.515" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="B11" x="-3.06" y="-4.08" drill="1.03" rot="R180"/>
+<pad name="S1" x="-29.455" y="3.05" drill="1.6"/>
+<pad name="S5" x="29.455" y="3.05" drill="1.6"/>
+<pad name="S2" x="-13.97" y="10.35" drill="1.6"/>
+<pad name="S3" x="0" y="10.35" drill="1.6"/>
+<pad name="S4" x="13.97" y="10.35" drill="1.6"/>
+<pad name="C1" x="2.54" y="6.35" drill="0.89"/>
+<pad name="A1" x="-25.4" y="6.35" drill="0.89"/>
+<pad name="A2" x="-24.13" y="8.89" drill="0.89"/>
+<pad name="A3" x="-22.86" y="6.35" drill="0.89"/>
+<pad name="A4" x="-21.59" y="8.89" drill="0.89"/>
+<pad name="A5" x="-20.32" y="6.35" drill="0.89"/>
+<pad name="A6" x="-19.05" y="8.89" drill="0.89"/>
+<pad name="A7" x="-17.78" y="6.35" drill="0.89"/>
+<pad name="A8" x="-16.51" y="8.89" drill="0.89"/>
+<pad name="B2" x="-10.16" y="8.89" drill="0.89"/>
+<pad name="B1" x="-11.43" y="6.35" drill="0.89"/>
+<pad name="B3" x="-8.89" y="6.35" drill="0.89"/>
+<pad name="B4" x="-7.62" y="8.89" drill="0.89"/>
+<pad name="B5" x="-6.35" y="6.35" drill="0.89"/>
+<pad name="B6" x="-5.08" y="8.89" drill="0.89"/>
+<pad name="B7" x="-3.81" y="6.35" drill="0.89"/>
+<pad name="B8" x="-2.54" y="8.89" drill="0.89"/>
+<pad name="C2" x="3.81" y="8.89" drill="0.89"/>
+<pad name="C3" x="5.08" y="6.35" drill="0.89"/>
+<pad name="C4" x="6.35" y="8.89" drill="0.89"/>
+<pad name="C5" x="7.62" y="6.35" drill="0.89"/>
+<pad name="C6" x="8.89" y="8.89" drill="0.89"/>
+<pad name="C7" x="10.16" y="6.35" drill="0.89"/>
+<pad name="C8" x="11.43" y="8.89" drill="0.89"/>
+<pad name="D1" x="16.51" y="6.35" drill="0.89"/>
+<pad name="D2" x="17.78" y="8.89" drill="0.89"/>
+<pad name="D3" x="19.05" y="6.35" drill="0.89"/>
+<pad name="D4" x="20.32" y="8.89" drill="0.89"/>
+<pad name="D5" x="21.59" y="6.35" drill="0.89"/>
+<pad name="D6" x="22.86" y="8.89" drill="0.89"/>
+<pad name="D7" x="24.13" y="6.35" drill="0.89"/>
+<pad name="D8" x="25.4" y="8.89" drill="0.89"/>
 <text x="0" y="12.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="-3.9" y="-13.2698" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-28.065" y="-6.115" size="0.635" layer="21" rot="R180" align="top-right">A9</text>
@@ -2564,6 +2560,13 @@ Copyright: Würth Elektronik</description>
 <text x="3.45" y="-6.7" size="0.8128" layer="21">11</text>
 <text x="6.05" y="-6.7" size="0.8128" layer="21">12</text>
 <circle x="-6.13" y="5.1" radius="0.2" width="0.4" layer="21"/>
+<rectangle x1="-7.005" y1="-10.75" x2="7.005" y2="-8.05" layer="41"/>
+<rectangle x1="-7.005" y1="-10.75" x2="7.005" y2="-8.05" layer="43"/>
+<text x="0" y="-9.3" size="1.27" layer="48" align="center">Keep-Out Area</text>
+<rectangle x1="-7.95" y1="0" x2="-6.875" y2="2" layer="41"/>
+<rectangle x1="-7.95" y1="0" x2="-6.875" y2="2" layer="43"/>
+<rectangle x1="6.875" y1="0" x2="7.95" y2="2" layer="41" rot="R180"/>
+<rectangle x1="6.875" y1="0" x2="7.95" y2="2" layer="43" rot="R180"/>
 </package>
 <package name="7499021125" urn="urn:adsk.eagle:footprint:12863462/1" locally_modified="yes">
 <description>WE-RJ45 LAN Transformer
@@ -3856,8 +3859,8 @@ Copyright: Würth Elektronik</description>
 <pad name="14" x="-6.785" y="-4.57" drill="1.2"/>
 <pad name="12" x="6.785" y="-4.57" drill="1.2"/>
 <pad name="11" x="6.785" y="-2.54" drill="1.2"/>
-<pad name="S2" x="7.77" y="3.05" drill="1.6"/>
-<pad name="S1" x="-7.77" y="3.05" drill="1.6"/>
+<pad name="S2" x="7.8" y="3.05" drill="1.6"/>
+<pad name="S1" x="-7.8" y="3.05" drill="1.6"/>
 <pad name="3" x="3.175" y="6.35" drill="0.9"/>
 <pad name="4" x="1.905" y="8.89" drill="0.9"/>
 <pad name="5" x="0.635" y="6.35" drill="0.9"/>
@@ -3869,46 +3872,36 @@ Copyright: Würth Elektronik</description>
 <pad name="1" x="5.715" y="6.35" drill="0.9"/>
 <hole x="-5.715" y="0" drill="3.25"/>
 <hole x="5.715" y="0" drill="3.25"/>
-<wire x1="-7.875" y1="-10.7" x2="7.875" y2="-10.7" width="0.1" layer="51"/>
-<wire x1="7.875" y1="-10.7" x2="7.875" y2="10.8" width="0.1" layer="51"/>
-<wire x1="7.875" y1="10.8" x2="-7.875" y2="10.8" width="0.1" layer="51"/>
-<wire x1="-7.875" y1="10.8" x2="-7.875" y2="-10.7" width="0.1" layer="51"/>
-<wire x1="-7.975" y1="4.55" x2="-7.975" y2="10.9" width="0.2" layer="21"/>
-<wire x1="-7.975" y1="10.9" x2="7.975" y2="10.9" width="0.2" layer="21"/>
-<wire x1="7.975" y1="10.9" x2="7.975" y2="4.55" width="0.2" layer="21"/>
-<wire x1="-7.975" y1="1.55" x2="-7.975" y2="-10.8" width="0.2" layer="21"/>
-<wire x1="-7.975" y1="-10.8" x2="7.975" y2="-10.8" width="0.2" layer="21"/>
-<wire x1="7.975" y1="-10.8" x2="7.975" y2="1.55" width="0.2" layer="21"/>
-<polygon width="0.15" layer="39" pour="solid">
-<vertex x="-9.275" y="-11"/>
-<vertex x="9.275" y="-11"/>
-<vertex x="9.275" y="11.1"/>
-<vertex x="-9.275" y="11.1"/>
-</polygon>
-<polygon width="0.1" layer="41" pour="solid">
-<vertex x="-7.005" y="-10.8"/>
-<vertex x="7.005" y="-10.8"/>
-<vertex x="7.005" y="-7.3"/>
-<vertex x="-7.005" y="-7.3"/>
-</polygon>
-<polygon width="0.1" layer="43" pour="solid">
-<vertex x="-7.005" y="-10.8"/>
-<vertex x="7.005" y="-10.8"/>
-<vertex x="7.005" y="-7.3"/>
-<vertex x="-7.005" y="-7.3"/>
-</polygon>
-<text x="0" y="11.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-13" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-6.6" y="8.4" size="0.8128" layer="21" align="bottom-right">10</text>
 <text x="-5.6" y="5.9" size="1.016" layer="21" align="bottom-right">9</text>
 <text x="5.7" y="8.4" size="1.016" layer="21">2</text>
-<text x="-0.15" y="-9.45" size="1.016" layer="51" align="bottom-center">Keep-Out Area</text>
 <text x="5.3" y="-3" size="1.016" layer="21" align="bottom-right">11</text>
 <text x="5.3" y="-5" size="1.016" layer="21" align="bottom-right">12</text>
 <text x="-5.3" y="-3" size="1.016" layer="21">13</text>
 <text x="-5.4" y="-5" size="1.016" layer="21">14</text>
 <text x="6.9" y="6" size="1.016" layer="21">1</text>
 <circle x="9.11" y="6.35" radius="0.3" width="0.6" layer="21"/>
+<wire x1="-7.875" y1="-10.8" x2="7.875" y2="-10.8" width="0.1" layer="51"/>
+<wire x1="7.875" y1="-10.8" x2="7.875" y2="10.7" width="0.1" layer="51"/>
+<wire x1="7.875" y1="10.7" x2="-7.875" y2="10.7" width="0.1" layer="51"/>
+<wire x1="-7.875" y1="10.7" x2="-7.875" y2="-10.8" width="0.1" layer="51"/>
+<wire x1="-7.975" y1="4.55" x2="-7.975" y2="10.8" width="0.2" layer="21"/>
+<wire x1="-7.975" y1="10.8" x2="7.975" y2="10.8" width="0.2" layer="21"/>
+<wire x1="7.975" y1="10.8" x2="7.975" y2="4.55" width="0.2" layer="21"/>
+<wire x1="-7.975" y1="1.55" x2="-7.975" y2="-10.9" width="0.2" layer="21"/>
+<wire x1="-7.975" y1="-10.9" x2="7.975" y2="-10.9" width="0.2" layer="21"/>
+<wire x1="7.975" y1="-10.9" x2="7.975" y2="1.55" width="0.2" layer="21"/>
+<polygon width="0.1524" layer="39" pour="solid">
+<vertex x="-9.2738" y="-11.0238"/>
+<vertex x="9.2738" y="-11.0238"/>
+<vertex x="9.2738" y="10.9238"/>
+<vertex x="-9.2738" y="10.9238"/>
+</polygon>
+<text x="0" y="11.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="-0.15" y="-9.45" size="1.016" layer="51" align="bottom-center">Keep-Out Area</text>
+<rectangle x1="-7.005" y1="-10.8" x2="7.005" y2="-7.3" layer="41"/>
+<rectangle x1="-7.005" y1="-10.8" x2="7.005" y2="-7.3" layer="43"/>
 </package>
 <package name="7499111614A" urn="urn:adsk.eagle:footprint:12863476/2" locally_modified="yes">
 <description>WE-RJ45 LAN Transformer
@@ -5898,10 +5891,9 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="7499011222A"/>
 </packageinstances>
 </package3d>
-<package3d name="74991104403" urn="urn:adsk.eagle:package:26674991/4" type="model">
+<package3d name="74991104403" urn="urn:adsk.eagle:package:26674991/8" locally_modified="yes" type="model">
 <description>WE-RJ45 LAN Transformer
-
-1000 Base-T</description>
+1000BASE-T, Ports:1, Tab:Down</description>
 <packageinstances>
 <packageinstance name="74991104403"/>
 </packageinstances>
@@ -5922,10 +5914,9 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="7499111615"/>
 </packageinstances>
 </package3d>
-<package3d name="74991104404" urn="urn:adsk.eagle:package:26674990/4" type="model">
+<package3d name="74991104404" urn="urn:adsk.eagle:package:26674990/8" locally_modified="yes" type="model">
 <description>WE-RJ45 LAN Transformer
-
-1000 Base-T</description>
+1000BASE-T, Ports:1, Tab:Up</description>
 <packageinstances>
 <packageinstance name="74991104404"/>
 </packageinstances>
@@ -6058,10 +6049,9 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="7497111611A"/>
 </packageinstances>
 </package3d>
-<package3d name="74991114411" urn="urn:adsk.eagle:package:27280046/3" type="model">
+<package3d name="74991114411" urn="urn:adsk.eagle:package:27280046/7" locally_modified="yes" type="model">
 <description>WE-RJ45 LAN Transformer
-
-1000 Base-T</description>
+1000BASE-T, Ports:1, Tab:Down</description>
 <packageinstances>
 <packageinstance name="74991114411"/>
 </packageinstances>
@@ -6074,7 +6064,7 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="7499010001A"/>
 </packageinstances>
 </package3d>
-<package3d name="7499031120A" urn="urn:adsk.eagle:package:12863536/5" type="model">
+<package3d name="7499031120A" urn="urn:adsk.eagle:package:12863536/5" locally_modified="yes" type="model">
 <description>WE-RJ45 LAN Transformer
 
 10/100 Base-T</description>
@@ -6162,8 +6152,9 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="7499410221"/>
 </packageinstances>
 </package3d>
-<package3d name="74980111212" urn="urn:adsk.eagle:package:30734208/5" type="model">
-<description>WE-RJ45 LAN Through Hole Reflow</description>
+<package3d name="74980111212" urn="urn:adsk.eagle:package:30734208/9" locally_modified="yes" type="model">
+<description>WE-RJ45 LAN Through Hole Reflow
+10/100BASE-TX, Ports:1, Tab:Down</description>
 <packageinstances>
 <packageinstance name="74980111212"/>
 </packageinstances>
@@ -6352,10 +6343,9 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="7499211121A"/>
 </packageinstances>
 </package3d>
-<package3d name="74991114412" urn="urn:adsk.eagle:package:27280027/3" type="model">
+<package3d name="74991114412" urn="urn:adsk.eagle:package:27280027/7" locally_modified="yes" type="model">
 <description>WE-RJ45 LAN Transformer
-
-1000 Base-T</description>
+1000BASE-T, Ports:1, Tab:Up</description>
 <packageinstances>
 <packageinstance name="74991114412"/>
 </packageinstances>
@@ -10988,7 +10978,6 @@ Updated by Ella Wu 2023-03-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499111221A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11001,6 +10990,7 @@ Updated by Ella Wu 2023-03-27
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499111221A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499111221A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11057,7 +11047,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499210001A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="No LED"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11070,6 +11059,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499210001A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499210001A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11136,7 +11126,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74981104400?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow - green/yellow"/>
 <attribute name="MOUNT" value="THR"/>
@@ -11149,6 +11138,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74981104400"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74981104400?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11212,7 +11202,6 @@ Updated by Ella Wu 2025-03-18
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498210220A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-green"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -11225,6 +11214,7 @@ Updated by Ella Wu 2025-03-18
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498210220A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498210220A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11290,7 +11280,6 @@ Updated by Ella Wu 2022-01-18
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499111615?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/orange-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11303,6 +11292,7 @@ Updated by Ella Wu 2022-01-18
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499111615"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499111615?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11375,7 +11365,6 @@ Created by Ella Wu 2020-10-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990214400?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11388,6 +11377,7 @@ Created by Ella Wu 2020-10-27
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990214400"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990214400?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11448,7 +11438,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499011222A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11461,6 +11450,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499011222A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499011222A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11519,7 +11509,6 @@ Updated by Ella Wu 2025-08-28
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498011001A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -11532,6 +11521,7 @@ Updated by Ella Wu 2025-08-28
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498011001A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498011001A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11541,30 +11531,21 @@ Updated by Ella Wu 2025-08-28
 <description>WE-RJ45 LAN Transformer
 
 Characteristics 
-
 RJ45 Connector with integrated transformer / common mode choke
-
 Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
-
 Available in SMD, THT and THT with USB
-
 Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
 
 Applications 
-
 Suitable for industrial temperatures from –40 °C up to +85 °C
-
 Compatible to Industrial Ethernet systems like EtherCAT or Profinet
-
 Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
-
 Hubs, Routers, Switches, IP cameras, IoT applications
 
 Details see: www.we-online.com/components/products/WE-LAN-RJ45
 
-Created by Ella Wu 2021-09-06 
-
-2021 (C) Würth Elektronik</description>
+Updated by Ella Wu 2026-07-21
+2026 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="74991104403" x="0" y="0"/>
 </gates>
@@ -11588,12 +11569,11 @@ Created by Ella Wu 2021-09-06
 <connect gate="G$1" pin="SHIELD2" pad="S2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26674991/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26674991/8"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74991104403?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11606,6 +11586,7 @@ Created by Ella Wu 2021-09-06
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74991104403"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74991104403?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11665,7 +11646,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498011122AR?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -11678,6 +11658,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498011122AR"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498011122AR?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11740,7 +11721,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499110123?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11753,6 +11733,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499110123"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499110123?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11818,7 +11799,6 @@ Updated by Ella 2025-03-11
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7497011611A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/orange-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11831,6 +11811,7 @@ Updated by Ella 2025-03-11
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="USB 2.0"/>
 <attribute name="VALUE" value="7497011611A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7497011611A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11840,30 +11821,21 @@ Updated by Ella 2025-03-11
 <description>WE-RJ45 LAN Transformer
 
 Characteristics 
-
 RJ45 Connector with integrated transformer / common mode choke
-
 Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
-
 Available in SMD, THT and THT with USB
-
 Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
 
 Applications 
-
 Suitable for industrial temperatures from –40 °C up to +85 °C
-
 Compatible to Industrial Ethernet systems like EtherCAT or Profinet
-
 Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
-
 Hubs, Routers, Switches, IP cameras, IoT applications
 
 Details see: www.we-online.com/components/products/WE-LAN-RJ45
 
-Created by Ella Wu 2021-09-06 
-
-2021 (C) Würth Elektronik</description>
+Updated by Ella Wu 2026-07-21
+2026 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="74991104404" x="0" y="0"/>
 </gates>
@@ -11887,12 +11859,11 @@ Created by Ella Wu 2021-09-06
 <connect gate="G$1" pin="SHIELD2" pad="S2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26674990/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26674990/8"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74991104404?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11905,6 +11876,7 @@ Created by Ella Wu 2021-09-06
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74991104404"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74991104404?ae"/>
 </technology>
 </technologies>
 </device>
@@ -11967,7 +11939,6 @@ Created by Ella Wu 2020-10-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74991114410?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -11980,6 +11951,7 @@ Created by Ella Wu 2020-10-27
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74991114410"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74991114410?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12040,7 +12012,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499211125?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12053,6 +12024,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499211125"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499211125?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12119,7 +12091,6 @@ Updated By Ella Wu  2019-11-06
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100/1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74981102100?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THR"/>
@@ -12132,6 +12103,7 @@ Updated By Ella Wu  2019-11-06
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74981102100"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74981102100?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12194,7 +12166,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499210121A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12207,6 +12178,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499210121A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499210121A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12267,7 +12239,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990111215A?ae"/>
 <attribute name="IMPROVED-CMRR" value="Yes"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12280,6 +12251,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990111215A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990111215A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12348,7 +12320,6 @@ Updated by Ella Wu 2023-03-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499511420?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12361,6 +12332,7 @@ Updated by Ella Wu 2023-03-27
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499511420"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499511420?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12429,7 +12401,6 @@ Updated by Ella Wu 2023-03-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499511440?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow - green/yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12442,6 +12413,7 @@ Updated by Ella Wu 2023-03-27
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499511440"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499511440?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12496,7 +12468,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499011001A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="No LED"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12509,6 +12480,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499011001A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499011001A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12570,7 +12542,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499211123A?ae"/>
 <attribute name="IMPROVED-CMRR" value="Yes"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12583,6 +12554,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499211123A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499211123A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12643,7 +12615,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990101241?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12656,6 +12627,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990101241"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990101241?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12665,29 +12637,21 @@ Updated by Ella Wu 2019-08-05
 <description>WE-RJ45 LAN Transformer
 
 Characteristics 
-
 RJ45 Connector with integrated transformer / common mode choke
-
 Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
-
 Available in SMD, THT and THT with USB
-
 Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
 
 Applications 
-
 Suitable for industrial temperatures from –40 °C up to +85 °C
-
 Compatible to Industrial Ethernet systems like EtherCAT or Profinet
-
 Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
-
 Hubs, Routers, Switches, IP cameras, IoT applications
 
 Details see: www.we-online.com/components/products/WE-LAN-RJ45
-Created by Ella Wu 2021-09-06 
 
-2021 (C) Würth Elektronik</description>
+Updated by Ella Wu 2026-07-21
+2026 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="74991114411" x="0" y="0"/>
 </gates>
@@ -12711,12 +12675,11 @@ Created by Ella Wu 2021-09-06
 <connect gate="G$1" pin="SHIELD2" pad="S2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27280046/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27280046/7"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74991114411?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12729,6 +12692,7 @@ Created by Ella Wu 2021-09-06
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74991114411"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74991114411?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12789,7 +12753,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990101212?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12802,6 +12765,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990101212"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990101212?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12870,7 +12834,6 @@ Updated by Ella Wu 2023-03-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499511611A?ae"/>
 <attribute name="IMPROVED-CMRR" value="Yes"/>
 <attribute name="LED" value="green/orange-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12883,6 +12846,7 @@ Updated by Ella Wu 2023-03-27
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499511611A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499511611A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -12970,11 +12934,11 @@ Updated by Ella Wu 2019-08-05
 <connect gate="G$1" pin="D7" pad="D7"/>
 <connect gate="G$1" pin="D8" pad="D8"/>
 <connect gate="G$1" pin="D9" pad="D9"/>
-<connect gate="G$1" pin="SHIELD1" pad="Z1"/>
-<connect gate="G$1" pin="SHIELD2" pad="Z2"/>
-<connect gate="G$1" pin="SHIELD3" pad="Z3"/>
-<connect gate="G$1" pin="SHIELD4" pad="Z4"/>
-<connect gate="G$1" pin="SHIELD5" pad="Z5"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+<connect gate="G$1" pin="SHIELD3" pad="S3"/>
+<connect gate="G$1" pin="SHIELD4" pad="S4"/>
+<connect gate="G$1" pin="SHIELD5" pad="S5"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:12863536/5"/>
@@ -12982,7 +12946,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499031120A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -12995,6 +12958,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499031120A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499031120A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13076,7 +13040,6 @@ Updated by Ella Wu 2025-03-18
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7497111611A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/orange-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13089,6 +13052,7 @@ Updated by Ella Wu 2025-03-18
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="USB 2.0"/>
 <attribute name="VALUE" value="7497111611A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7497111611A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13151,7 +13115,6 @@ Updated by Ella Wu 2024-09-20
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499210123A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13164,6 +13127,7 @@ Updated by Ella Wu 2024-09-20
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499210123A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499210123A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13220,7 +13184,6 @@ Updated by Ella Wu 2024-03-22
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499010001A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13233,6 +13196,7 @@ Updated by Ella Wu 2024-03-22
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499010001A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499010001A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13291,7 +13255,6 @@ Updated by Ella Wu 2025-08-28
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498011008?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -13304,6 +13267,7 @@ Updated by Ella Wu 2025-08-28
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498011008"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498011008?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13369,7 +13333,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74982104400?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow - green/yellow"/>
 <attribute name="MOUNT" value="THR"/>
@@ -13382,6 +13345,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74982104400"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74982104400?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13438,7 +13402,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499010003A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13451,6 +13414,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499010003A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499010003A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13511,7 +13475,6 @@ Updated by Ella Wu 2021-09-17
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990111217?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13524,6 +13487,7 @@ Updated by Ella Wu 2021-09-17
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990111217"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990111217?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13586,7 +13550,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499110124?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13599,6 +13562,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499110124"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499110124?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13656,7 +13620,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499211002A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="No LED"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13669,6 +13632,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499211002A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499211002A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13757,7 +13721,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7497110616?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13770,6 +13733,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="USB 3.0"/>
 <attribute name="VALUE" value="7497110616"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7497110616?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13831,7 +13795,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499211122A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13844,6 +13807,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499211122A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499211122A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -13906,7 +13870,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499110122?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -13919,43 +13882,39 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499110122"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499110122?ae"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="WE-RJ45_74980111212" prefix="T">
-<description>WE-RJ45 LAN Through Hole Reflow
-
-Characteristics 
-
-RJ45 designed to use for Pin-in-Paste soldering
-
-High mechanical stability through THT pins
-
-High Temperature LEDs
-
-Extra high standoff for a good thermal airflow
-
-Power over Ethernet up to 30 W
-
-Compliant with standard: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at
-
-Applications 
-
+<description>WE-RJ45 LAN Transformer
+ 
+Characteristics
+ 
+RJ45 Connector with integrated transformer / common mode choke
+ 
+Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+ 
+Available in SMD, THT and THT with USB
+ 
+Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+ 
+Applications
+ 
 Suitable for industrial temperatures from –40 °C up to +85 °C
-
+ 
 Compatible to Industrial Ethernet systems like EtherCAT or Profinet
-
+ 
 Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
-
+ 
 Hubs, Routers, Switches, IP cameras, IoT applications
-
-Details see: www.we-online.com/components/products/WE-LAN-RJ45_THR
-
-Created by Ella Wu 2022-12-16 
-
-2022 (C) Würth Elektronik</description>
+ 
+Details see: www.we-online.com/components/products/WE-LAN-RJ45
+ 
+Updated by Ella Wu 2026-07-21
+2026 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="74980111212" x="0" y="0"/>
 </gates>
@@ -13978,12 +13937,11 @@ Created by Ella Wu 2022-12-16
 <connect gate="G$1" pin="TD-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30734208/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30734208/9"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74980111212?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THR"/>
@@ -13996,6 +13954,7 @@ Created by Ella Wu 2022-12-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74980111212"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74980111212?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14056,7 +14015,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499010121A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -14069,6 +14027,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499010121A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499010121A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14142,7 +14101,6 @@ Updated by Ella Wu 2020-11-13
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499021125?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -14155,6 +14113,7 @@ Updated by Ella Wu 2020-11-13
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499021125"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499021125?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14216,7 +14175,6 @@ Created By Ella Wu  2021-09-06
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74981104402?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -14229,6 +14187,7 @@ Created By Ella Wu  2021-09-06
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74981104402"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74981104402?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14289,7 +14248,6 @@ Updated by Ella Wu 2024-03-22
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499011441A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow - green/yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -14302,6 +14260,7 @@ Updated by Ella Wu 2024-03-22
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499011441A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499011441A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14359,7 +14318,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498010210A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -14372,6 +14330,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498010210A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498010210A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14430,7 +14389,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498111001A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="No LED"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -14443,6 +14401,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498111001A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498111001A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14503,7 +14462,6 @@ Updated by Ella Wu 2024-09-20
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499010126A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -14516,6 +14474,7 @@ Updated by Ella Wu 2024-09-20
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499010126A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499010126A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14577,7 +14536,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499410221?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -14590,6 +14548,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499410221"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499410221?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14652,7 +14611,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498111120AR?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -14665,6 +14623,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498111120AR"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498111120AR?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14726,7 +14685,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499410213?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -14739,6 +14697,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499410213"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499410213?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14815,7 +14774,6 @@ Created by Ella Wu 2021-09-06
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74991204400?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -14828,6 +14786,7 @@ Created by Ella Wu 2021-09-06
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74991204400"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74991204400?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14888,7 +14847,6 @@ Updated by Ella Wu 2025-04-25
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498210003?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -14901,6 +14859,7 @@ Updated by Ella Wu 2025-04-25
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498210003"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498210003?ae"/>
 </technology>
 </technologies>
 </device>
@@ -14963,7 +14922,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499111446?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow - green/yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -14976,6 +14934,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499111446"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499111446?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15036,7 +14995,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499011121A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15049,6 +15007,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499011121A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499011121A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15107,7 +15066,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499111001A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="No LED"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15120,6 +15078,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499111001A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499111001A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15180,7 +15139,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499010211A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15193,6 +15151,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499010211A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499010211A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15258,7 +15217,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499021002A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15271,6 +15229,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499021002A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499021002A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15325,7 +15284,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990100011A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="No LED"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15338,6 +15296,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990100011A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990100011A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15398,7 +15357,6 @@ Created by Ella Wu 2020-10-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499011448?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15411,6 +15369,7 @@ Created by Ella Wu 2020-10-27
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499011448"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499011448?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15467,7 +15426,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498111124?ae"/>
 <attribute name="IMPROVED-CMRR" value="-"/>
 <attribute name="LED" value="No LED"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15477,9 +15435,10 @@ Updated by Ella Wu 2023-08-16
 <attribute name="POE" value="non-PoE"/>
 <attribute name="PORTS" value=" 1 "/>
 <attribute name="SHIELD-TABS" value="-"/>
-<attribute name="TAB" value="-"/>
+<attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499010004A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498111124?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15555,7 +15514,6 @@ Created by Ella Wu 2021-09-06
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74991214400?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15568,6 +15526,7 @@ Created by Ella Wu 2021-09-06
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74991214400"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74991214400?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15632,7 +15591,6 @@ Updated by Ella Wu 2023-03-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499511002A?ae"/>
 <attribute name="IMPROVED-CMRR" value="Yes"/>
 <attribute name="LED" value="No LED"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15645,6 +15603,7 @@ Updated by Ella Wu 2023-03-27
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499511002A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499511002A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15701,7 +15660,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990100040?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="No LED"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15714,6 +15672,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990100040"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990100040?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15776,7 +15735,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499211121A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15789,6 +15747,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499211121A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499211121A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15851,7 +15810,6 @@ Updated by Ella Wu 2023-03-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499411122A?ae"/>
 <attribute name="IMPROVED-CMRR" value="Yes"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15864,6 +15822,7 @@ Updated by Ella Wu 2023-03-27
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499411122A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499411122A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -15873,30 +15832,21 @@ Updated by Ella Wu 2023-03-27
 <description>WE-RJ45 LAN Transformer
 
 Characteristics 
-
 RJ45 Connector with integrated transformer / common mode choke
-
 Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
-
 Available in SMD, THT and THT with USB
-
 Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
 
 Applications 
-
 Suitable for industrial temperatures from –40 °C up to +85 °C
-
 Compatible to Industrial Ethernet systems like EtherCAT or Profinet
-
 Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
-
 Hubs, Routers, Switches, IP cameras, IoT applications
 
 Details see: www.we-online.com/components/products/WE-LAN-RJ45
 
-Created by Ella Wu 2021-09-06 
-
-2021 (C) Würth Elektronik</description>
+Updated by Ella Wu 2026-07-21
+2026 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="74991104412" x="0" y="0"/>
 </gates>
@@ -15920,12 +15870,11 @@ Created by Ella Wu 2021-09-06
 <connect gate="G$1" pin="SHIELD2" pad="S2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27280027/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27280027/7"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74991114412?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -15938,6 +15887,7 @@ Created by Ella Wu 2021-09-06
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74991114412"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74991114412?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16002,7 +15952,6 @@ Updated by Ella Wu 2023-03-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499111614A?ae"/>
 <attribute name="IMPROVED-CMRR" value="Yes"/>
 <attribute name="LED" value="green/orange-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -16015,6 +15964,7 @@ Updated by Ella Wu 2023-03-27
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499111614A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499111614A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16071,7 +16021,6 @@ Updated by Ella Wu 2024-03-22
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990110030?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="THT"/>
@@ -16084,6 +16033,7 @@ Updated by Ella Wu 2024-03-22
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990110030"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990110030?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16150,7 +16100,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499051002?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="THT"/>
@@ -16163,6 +16112,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up/Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499051002"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499051002?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16221,7 +16171,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498011211?ae"/>
 <attribute name="IMPROVED-CMRR" value="Yes"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -16234,6 +16183,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498011211"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498011211?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16312,7 +16262,6 @@ Updated by Ella 2025-03-11
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499151120?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -16325,6 +16274,7 @@ Updated by Ella 2025-03-11
 <attribute name="TAB" value="Up/Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499151120"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499151120?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16388,7 +16338,6 @@ Updated By Ella Wu  2019-11-06
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74980101200?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THR"/>
@@ -16401,6 +16350,7 @@ Updated By Ella Wu  2019-11-06
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74980101200"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74980101200?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16467,7 +16417,6 @@ Created by Ella Wu 2022-12-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498111123?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THR"/>
@@ -16480,6 +16429,7 @@ Created by Ella Wu 2022-12-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498111123"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498111123?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16548,7 +16498,6 @@ Updated by Ella Wu 2021-06-08
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499311614?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/orange-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -16561,6 +16510,7 @@ Updated by Ella Wu 2021-06-08
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499311614"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499311614?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16621,7 +16571,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990101210?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -16634,6 +16583,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990101210"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990101210?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16698,7 +16648,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74980104400?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow - green/yellow"/>
 <attribute name="MOUNT" value="THR"/>
@@ -16711,6 +16660,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74980104400"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74980104400?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16761,7 +16711,6 @@ Updated by Ella Wu 2026-07-01
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74980111211?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -16774,6 +16723,7 @@ Updated by Ella Wu 2026-07-01
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74980111211"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74980111211?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16834,7 +16784,6 @@ Updated By Ella Wu  2019-11-06
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74980100000?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="THR"/>
@@ -16847,6 +16796,7 @@ Updated By Ella Wu  2019-11-06
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74980100000"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74980100000?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16907,7 +16857,6 @@ Updated by Ella Wu 2024-03-22
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990112116A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -16920,6 +16869,7 @@ Updated by Ella Wu 2024-03-22
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990112116A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990112116A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -16980,7 +16930,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499010441?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow - green/yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -16993,6 +16942,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499010441"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499010441?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17055,7 +17005,6 @@ Updated by Ella Wu 2024-09-20
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499110120A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -17068,6 +17017,7 @@ Updated by Ella Wu 2024-09-20
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499110120A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499110120A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17144,7 +17094,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499121211?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -17157,6 +17106,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499121211"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499121211?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17219,7 +17169,6 @@ Created by Ella Wu 2020-10-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74991104402?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -17232,6 +17181,7 @@ Created by Ella Wu 2020-10-27
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74991104402"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74991104402?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17298,7 +17248,6 @@ Created by Ella Wu 2022-12-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498111124?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THR"/>
@@ -17311,6 +17260,7 @@ Created by Ella Wu 2022-12-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498111124"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498111124?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17373,7 +17323,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499111121A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -17386,6 +17335,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499111121A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499111121A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17444,7 +17394,6 @@ Updated by Ella Wu 2025-08-28
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498210002?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="SMT"/>
@@ -17457,6 +17406,7 @@ Updated by Ella Wu 2025-08-28
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7498210002"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7498210002?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17517,7 +17467,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74990111211?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -17530,6 +17479,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74990111211"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74990111211?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17590,7 +17540,6 @@ Updated by Ella Wu 2023-03-27
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499111000A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="THT"/>
@@ -17603,6 +17552,7 @@ Updated by Ella Wu 2023-03-27
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499111000A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499111000A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17665,7 +17615,6 @@ Updated by Ella Wu 2019-08-05
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="1000BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499111447?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow - green/yellow"/>
 <attribute name="MOUNT" value="THT"/>
@@ -17678,6 +17627,7 @@ Updated by Ella Wu 2019-08-05
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499111447"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499111447?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17740,7 +17690,6 @@ Updated by Ella Wu 2024-03-22
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499210124A?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow-green"/>
 <attribute name="MOUNT" value="THT"/>
@@ -17753,6 +17702,7 @@ Updated by Ella Wu 2024-03-22
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="7499210124A"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7499210124A?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17812,7 +17762,6 @@ Created by Ella Wu 2022-12-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74980100001?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="-"/>
 <attribute name="MOUNT" value="THR"/>
@@ -17825,6 +17774,7 @@ Created by Ella Wu 2022-12-16
 <attribute name="TAB" value="Down"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74980100001"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74980100001?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17890,7 +17840,6 @@ Updated By Ella Wu  2019-11-06
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="10/100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74984104401?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="yellow/green-yellow/green"/>
 <attribute name="MOUNT" value="THR"/>
@@ -17903,6 +17852,7 @@ Updated By Ella Wu  2019-11-06
 <attribute name="TAB" value="Vertical"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74984104401"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74984104401?ae"/>
 </technology>
 </technologies>
 </device>
@@ -17968,7 +17918,6 @@ Updated by Ella Wu 2023-08-16
 <technologies>
 <technology name="">
 <attribute name="DATA-RATE" value="100BASE-TX"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74984104400?ae"/>
 <attribute name="IMPROVED-CMRR" value="No"/>
 <attribute name="LED" value="green/yellow - green/yellow"/>
 <attribute name="MOUNT" value="THR"/>
@@ -17981,6 +17930,7 @@ Updated by Ella Wu 2023-08-16
 <attribute name="TAB" value="Up"/>
 <attribute name="USB" value="No"/>
 <attribute name="VALUE" value="74984104400"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74984104400?ae"/>
 </technology>
 </technologies>
 </device>
