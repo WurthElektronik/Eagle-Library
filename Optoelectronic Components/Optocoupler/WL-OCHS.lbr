@@ -1,0 +1,1905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Würth Elektronik - Optoelectronic Components - Optocoupler - WL-OCHS Optocoupler High Speed
+
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, 
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. 
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. 
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. 
+
+Please contact us for more information: libraries@we-online.com 
+
+Würth Elektronik eiSos GmbH &amp; Co. KG
+EMC &amp; Inductive Solutions
+www.we-online.com
+
+Fusion360, Library Revision 2026a, 2026-08-06
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WL-OCHS_SOP5-SL-TYPE" urn="urn:adsk.eagle:footprint:49062171/1" locally_modified="yes">
+<description>WL-OCHS Optocoupler High Speed
+
+Size: SOP-5 SL-Type, SMT, 5pins
+LXWXH=4.55X4.1X2.1mm</description>
+<wire x1="-2.05" y1="2.275" x2="-0.2" y2="2.275" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="2.275" x2="0.2" y2="2.275" width="0.1" layer="51"/>
+<wire x1="0.2" y1="2.275" x2="2.05" y2="2.275" width="0.1" layer="51"/>
+<wire x1="2.05" y1="2.275" x2="2.05" y2="-2.275" width="0.1" layer="51"/>
+<wire x1="2.05" y1="-2.275" x2="-2.05" y2="-2.275" width="0.1" layer="51"/>
+<wire x1="-2.05" y1="-2.275" x2="-2.05" y2="2.275" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="2.375" x2="-1.97" y2="2.375" width="0.2" layer="21"/>
+<wire x1="1.97" y1="2.375" x2="2.15" y2="2.375" width="0.2" layer="21"/>
+<wire x1="2.15" y1="2.375" x2="2.15" y2="-2.375" width="0.2" layer="21"/>
+<wire x1="2.15" y1="-2.375" x2="1.97" y2="-2.375" width="0.2" layer="21"/>
+<wire x1="-1.97" y1="-2.375" x2="-2.15" y2="-2.375" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-2.375" x2="-2.15" y2="2.375" width="0.2" layer="21"/>
+<wire x1="0.2" y1="2.275" x2="0.2" y2="3.5" width="0.1" layer="51"/>
+<wire x1="0.2" y1="3.5" x2="-0.2" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="3.5" x2="-0.2" y2="2.275" width="0.1" layer="51"/>
+<wire x1="1.47" y1="2.275" x2="1.47" y2="3.5" width="0.1" layer="51"/>
+<wire x1="1.47" y1="3.5" x2="1.07" y2="3.5" width="0.1" layer="51"/>
+<wire x1="1.07" y1="3.5" x2="1.07" y2="2.275" width="0.1" layer="51"/>
+<wire x1="-1.07" y1="2.275" x2="-1.07" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-1.07" y1="3.5" x2="-1.47" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-1.47" y1="3.5" x2="-1.47" y2="2.275" width="0.1" layer="51"/>
+<wire x1="-1.47" y1="-2.275" x2="-1.47" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-1.47" y1="-3.5" x2="-1.07" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-1.07" y1="-3.5" x2="-1.07" y2="-2.275" width="0.1" layer="51"/>
+<wire x1="1.07" y1="-2.275" x2="1.07" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="1.07" y1="-3.5" x2="1.47" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="1.47" y1="-3.5" x2="1.47" y2="-2.275" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.35" y="3.99"/>
+<vertex x="2.35" y="3.99"/>
+<vertex x="2.35" y="-3.99"/>
+<vertex x="-2.35" y="-3.99"/>
+</polygon>
+<text x="0" y="4.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<smd name="4" x="1.27" y="3.09" dx="0.8" dy="1.4" layer="1"/>
+<smd name="5" x="0" y="3.09" dx="0.8" dy="1.4" layer="1"/>
+<smd name="6" x="-1.27" y="3.09" dx="0.8" dy="1.4" layer="1"/>
+<smd name="1" x="-1.27" y="-3.09" dx="0.8" dy="1.4" layer="1"/>
+<smd name="3" x="1.27" y="-3.09" dx="0.8" dy="1.4" layer="1"/>
+<circle x="-1.5" y="-1.7" radius="0.2" width="0.4" layer="51"/>
+<circle x="-2.2" y="-3" radius="0.1" width="0.4" layer="21"/>
+</package>
+<package name="WL-OCHS_SOP8-SL-TYPE" urn="urn:adsk.eagle:footprint:49062170/1" locally_modified="yes">
+<description>WL-OCHS Optocoupler High Speed
+
+Size: SOP-8 SL-Type, SMT, 8pins
+LXWXH=4.05X5.08X3.18mm</description>
+<wire x1="-2.54" y1="2.025" x2="-0.835" y2="2.025" width="0.1" layer="51"/>
+<wire x1="-0.835" y1="2.025" x2="-0.435" y2="2.025" width="0.1" layer="51"/>
+<wire x1="-0.435" y1="2.025" x2="2.54" y2="2.025" width="0.1" layer="51"/>
+<wire x1="2.54" y1="2.025" x2="2.54" y2="-2.025" width="0.1" layer="51"/>
+<wire x1="2.54" y1="-2.025" x2="-2.54" y2="-2.025" width="0.1" layer="51"/>
+<wire x1="-2.54" y1="-2.025" x2="-2.54" y2="2.025" width="0.1" layer="51"/>
+<wire x1="2.64" y1="2.125" x2="2.64" y2="-2.125" width="0.2" layer="21"/>
+<wire x1="-2.64" y1="-2.125" x2="-2.64" y2="2.125" width="0.2" layer="21"/>
+<wire x1="-0.435" y1="2.025" x2="-0.435" y2="3" width="0.1" layer="51"/>
+<wire x1="-0.435" y1="3" x2="-0.835" y2="3" width="0.1" layer="51"/>
+<wire x1="-0.835" y1="3" x2="-0.835" y2="2.025" width="0.1" layer="51"/>
+<wire x1="0.835" y1="2.025" x2="0.835" y2="3" width="0.1" layer="51"/>
+<wire x1="0.835" y1="3" x2="0.435" y2="3" width="0.1" layer="51"/>
+<wire x1="0.435" y1="3" x2="0.435" y2="2.025" width="0.1" layer="51"/>
+<wire x1="2.105" y1="2.025" x2="2.105" y2="3" width="0.1" layer="51"/>
+<wire x1="2.105" y1="3" x2="1.705" y2="3" width="0.1" layer="51"/>
+<wire x1="1.705" y1="3" x2="1.705" y2="2.025" width="0.1" layer="51"/>
+<wire x1="-1.705" y1="2.025" x2="-1.705" y2="3" width="0.1" layer="51"/>
+<wire x1="-1.705" y1="3" x2="-2.105" y2="3" width="0.1" layer="51"/>
+<wire x1="-2.105" y1="3" x2="-2.105" y2="2.025" width="0.1" layer="51"/>
+<wire x1="0.435" y1="-2.025" x2="0.435" y2="-3" width="0.1" layer="51"/>
+<wire x1="0.435" y1="-3" x2="0.835" y2="-3" width="0.1" layer="51"/>
+<wire x1="0.835" y1="-3" x2="0.835" y2="-2.025" width="0.1" layer="51"/>
+<wire x1="-0.835" y1="-2.025" x2="-0.835" y2="-3" width="0.1" layer="51"/>
+<wire x1="-0.835" y1="-3" x2="-0.435" y2="-3" width="0.1" layer="51"/>
+<wire x1="-0.435" y1="-3" x2="-0.435" y2="-2.025" width="0.1" layer="51"/>
+<wire x1="-2.105" y1="-2.025" x2="-2.105" y2="-3" width="0.1" layer="51"/>
+<wire x1="-2.105" y1="-3" x2="-1.705" y2="-3" width="0.1" layer="51"/>
+<wire x1="-1.705" y1="-3" x2="-1.705" y2="-2.025" width="0.1" layer="51"/>
+<wire x1="1.705" y1="-2.025" x2="1.705" y2="-3" width="0.1" layer="51"/>
+<wire x1="1.705" y1="-3" x2="2.105" y2="-3" width="0.1" layer="51"/>
+<wire x1="2.105" y1="-3" x2="2.105" y2="-2.025" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.84" y="3.505"/>
+<vertex x="2.84" y="3.505"/>
+<vertex x="2.84" y="-3.505"/>
+<vertex x="-2.84" y="-3.505"/>
+</polygon>
+<text x="0" y="4" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<smd name="1" x="-1.905" y="-2.705" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="-0.635" y="-2.705" dx="0.8" dy="1.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.705" dx="0.8" dy="1.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.705" dx="0.8" dy="1.2" layer="1"/>
+<smd name="5" x="1.905" y="2.705" dx="0.8" dy="1.2" layer="1"/>
+<smd name="6" x="0.635" y="2.705" dx="0.8" dy="1.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.705" dx="0.8" dy="1.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.705" dx="0.8" dy="1.2" layer="1"/>
+<circle x="-2" y="-1.5" radius="0.2" width="0.4" layer="51"/>
+<circle x="-2.8" y="-3.09" radius="0.1" width="0.4" layer="21"/>
+</package>
+<package name="WL-OCHS_DIP8_STANDARD" urn="urn:adsk.eagle:footprint:49062172/1" locally_modified="yes">
+<description>WL-OCHS Optocoupler High Speed
+
+Size: DIP-8 STANDARD, THT, 8pins
+LXWXH=6.5X9.68X3.5mm</description>
+<pad name="1" x="-3.81" y="-4.75" drill="1"/>
+<pad name="2" x="-1.27" y="-4.75" drill="1"/>
+<pad name="3" x="1.27" y="-4.75" drill="1"/>
+<pad name="4" x="3.81" y="-4.75" drill="1"/>
+<pad name="5" x="3.81" y="4.75" drill="1" rot="R180"/>
+<pad name="6" x="1.27" y="4.75" drill="1" rot="R180"/>
+<pad name="7" x="-1.27" y="4.75" drill="1" rot="R180"/>
+<pad name="8" x="-3.81" y="4.75" drill="1" rot="R180"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.18" y="5.7"/>
+<vertex x="5.18" y="5.7"/>
+<vertex x="5.18" y="-5.7"/>
+<vertex x="-5.18" y="-5.7"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.2" y="-4.2" radius="0.1" width="0.4" layer="21"/>
+<wire x1="-4.84" y1="3.25" x2="4.84" y2="3.25" width="0.1" layer="51"/>
+<wire x1="4.84" y1="3.25" x2="4.84" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="4.84" y1="-3.25" x2="-4.84" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="-4.84" y1="-3.25" x2="-4.84" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-4.94" y1="3.35" x2="4.94" y2="3.35" width="0.2" layer="21"/>
+<wire x1="4.94" y1="3.35" x2="4.94" y2="-3.35" width="0.2" layer="21"/>
+<wire x1="4.94" y1="-3.35" x2="-4.94" y2="-3.35" width="0.2" layer="21"/>
+<wire x1="-4.94" y1="-3.35" x2="-4.94" y2="3.35" width="0.2" layer="21"/>
+<circle x="-4" y="-2" radius="0.2" width="0.4" layer="51"/>
+</package>
+<package name="WL-OCHS_DIP8_SL-TYPE" urn="urn:adsk.eagle:footprint:49062173/1" locally_modified="yes">
+<description>WL-OCHS Optocoupler High Speed
+
+Size: DIP-8 SL-Type, SMT, 8pins
+LXWXH=8.57X9.68X4.46mm</description>
+<wire x1="-4.84" y1="3.25" x2="4.84" y2="3.25" width="0.1" layer="51"/>
+<wire x1="4.84" y1="3.25" x2="4.84" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="4.84" y1="-3.25" x2="-4.84" y2="-3.25" width="0.1" layer="51"/>
+<wire x1="-4.84" y1="-3.25" x2="-4.84" y2="3.25" width="0.1" layer="51"/>
+<wire x1="-4.94" y1="3.35" x2="4.94" y2="3.35" width="0.2" layer="21"/>
+<wire x1="4.94" y1="3.35" x2="4.94" y2="-3.35" width="0.2" layer="21"/>
+<wire x1="4.94" y1="-3.35" x2="-4.94" y2="-3.35" width="0.2" layer="21"/>
+<wire x1="-4.94" y1="-3.35" x2="-4.94" y2="3.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.18" y="5.6"/>
+<vertex x="5.18" y="5.6"/>
+<vertex x="5.18" y="-5.6"/>
+<vertex x="-5.14" y="-5.6"/>
+</polygon>
+<text x="0" y="6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<smd name="1" x="-3.81" y="-4.61" dx="1.5" dy="1.6" layer="1"/>
+<smd name="2" x="-1.27" y="-4.61" dx="1.5" dy="1.6" layer="1"/>
+<smd name="3" x="1.27" y="-4.61" dx="1.5" dy="1.6" layer="1"/>
+<smd name="4" x="3.81" y="-4.61" dx="1.5" dy="1.6" layer="1"/>
+<smd name="5" x="3.81" y="4.61" dx="1.5" dy="1.6" layer="1"/>
+<smd name="6" x="1.27" y="4.61" dx="1.5" dy="1.6" layer="1"/>
+<smd name="7" x="-1.27" y="4.61" dx="1.5" dy="1.6" layer="1"/>
+<smd name="8" x="-3.81" y="4.61" dx="1.5" dy="1.6" layer="1"/>
+<circle x="-4" y="-2" radius="0.2" width="0.4" layer="51"/>
+<circle x="-5.2" y="-5" radius="0.1" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WL-OCHS_SOP5-SL-TYPE" urn="urn:adsk.eagle:package:49062183/3" type="model">
+<description> WL-OCPT Optocoupler Phototransistor
+
+Size : DIP 8 SL-Type, SMT, 8pins</description>
+<packageinstances>
+<packageinstance name="WL-OCHS_SOP5-SL-TYPE"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-OCHS_SOP8-SL-TYPE" urn="urn:adsk.eagle:package:49062182/3" type="model">
+<description> WL-OCPT Optocoupler Phototransistor
+
+Size : DIP 8 SL-Type, SMT, 8pins</description>
+<packageinstances>
+<packageinstance name="WL-OCHS_SOP8-SL-TYPE"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-OCHS_DIP8_STANDARD" urn="urn:adsk.eagle:package:49062184/3" type="model">
+<description> WL-OCPT Optocoupler Phototransistor
+
+Size : DIP 8 STANDARD, THT, 8pins</description>
+<packageinstances>
+<packageinstance name="WL-OCHS_DIP8_STANDARD"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-OCHS_DIP8_SL-TYPE" urn="urn:adsk.eagle:package:49062185/3" type="model">
+<description> WL-OCPT Optocoupler Phototransistor
+
+Size : DIP 8 SL-Type, SMT, 8pins</description>
+<packageinstances>
+<packageinstance name="WL-OCHS_DIP8_SL-TYPE"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WL-OCHS_SOP5_1436X1155110" urn="urn:adsk.eagle:symbol:49062178/1">
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="-7.62" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-6.35" x2="7.62" y2="-5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="0" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-2.794" y1="-0.254" x2="-1.016" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-1.27" x2="-0.254" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.27" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="7.62" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.398" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="-6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<text x="10.16" y="3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">VCC</text>
+<text x="10.16" y="-1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO</text>
+<text x="10.16" y="-6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">GND</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.778" y="1.27"/>
+<vertex x="-1.016" y="1.524"/>
+<vertex x="-1.27" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="0.254"/>
+<vertex x="-0.254" y="0.508"/>
+<vertex x="-0.508" y="-0.254"/>
+</polygon>
+<circle x="5.588" y="0" radius="0.381" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="WL-OCHS_SOP8_14363X285210" urn="urn:adsk.eagle:symbol:49062175/1">
+<wire x1="-3.81" y1="6.35" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-6.35" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="6.35" x2="-5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-6.35" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="8.89" x2="-7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-8.89" x2="7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-8.89" x2="7.62" y2="-7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="8.89" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-2.794" y1="5.334" x2="-1.016" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="6.35" x2="-0.254" y2="4.572" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="7.62" x2="-1.27" y2="-7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.27" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-6.35" x2="-6.35" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-6.35" x2="-6.35" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="-5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="-6.35" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="6.096" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="-5.334" x2="-1.016" y2="-3.556" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-6.35" x2="-0.254" y2="-4.572" width="0.1524" layer="94"/>
+<pin name="1" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="10.16" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.938" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<text x="10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">VCC</text>
+<text x="10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO1</text>
+<text x="10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">GND</text>
+<text x="-10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<text x="10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO2</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.778" y="3.81"/>
+<vertex x="-1.016" y="3.556"/>
+<vertex x="-1.27" y="4.318"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="4.826"/>
+<vertex x="-0.254" y="4.572"/>
+<vertex x="-0.508" y="5.334"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.778" y="-3.81"/>
+<vertex x="-1.016" y="-3.556"/>
+<vertex x="-1.27" y="-4.318"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="-4.826"/>
+<vertex x="-0.254" y="-4.572"/>
+<vertex x="-0.508" y="-5.334"/>
+</polygon>
+<circle x="5.588" y="2.54" radius="0.381" width="0.1524" layer="94"/>
+<circle x="5.588" y="-2.54" radius="0.381" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="WL-OCHS_SOP5_1435X1155110" urn="urn:adsk.eagle:symbol:49062179/1">
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="-7.62" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-6.35" x2="7.62" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="4.52" y1="-0.84" x2="4.52" y2="-1.84" width="0.254" layer="94"/>
+<wire x1="4.52" y1="-1.84" x2="4.52" y2="-3.34" width="0.254" layer="94"/>
+<wire x1="4.52" y1="-3.34" x2="4.52" y2="-4.24" width="0.254" layer="94"/>
+<wire x1="4.52" y1="-1.84" x2="6.985" y2="0" width="0.2" layer="94"/>
+<wire x1="4.52" y1="-3.34" x2="6.985" y2="-5.08" width="0.2" layer="94"/>
+<wire x1="6.985" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="4.572" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="-0.254" x2="-1.016" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-1.27" x2="-0.254" y2="0.508" width="0.1524" layer="94"/>
+<pin name="1" x="-10.16" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="7.62" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.398" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="-6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<text x="10.16" y="3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">VCC</text>
+<text x="10.16" y="-1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO</text>
+<text x="10.16" y="-6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">GND</text>
+<polygon width="0.1524" layer="94">
+<vertex x="5.818" y="-3.894"/>
+<vertex x="5.491" y="-4.367"/>
+<vertex x="6.2894" y="-4.5956"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.778" y="1.27"/>
+<vertex x="-1.016" y="1.524"/>
+<vertex x="-1.27" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="0.254"/>
+<vertex x="-0.254" y="0.508"/>
+<vertex x="-0.508" y="-0.254"/>
+</polygon>
+</symbol>
+<symbol name="WL-OCHS_SOP8_14353X285110" urn="urn:adsk.eagle:symbol:49062176/1">
+<wire x1="-7.62" y1="8.89" x2="-7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-8.89" x2="7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-8.89" x2="7.62" y2="-7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="8.89" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.27" y1="2.794" x2="-0.254" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="5.08" x2="0.762" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="5.08" x2="-0.254" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="5.08" x2="0.762" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.794" x2="-0.254" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="2.794" x2="0.762" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="2.794" x2="-0.254" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="5.08" x2="-0.254" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="7.62" x2="1.524" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="4.5212" y1="1.7" x2="4.5212" y2="0.6858" width="0.254" layer="94"/>
+<wire x1="4.5212" y1="0.6858" x2="4.5212" y2="-0.6858" width="0.254" layer="94"/>
+<wire x1="4.5212" y1="-0.6858" x2="4.5212" y2="-1.7" width="0.254" layer="94"/>
+<wire x1="4.5212" y1="0.6858" x2="6.985" y2="2.032" width="0.2" layer="94"/>
+<wire x1="4.5212" y1="-0.6858" x2="6.985" y2="-2.032" width="0.2" layer="94"/>
+<wire x1="6.985" y1="2.032" x2="6.985" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="-2.032" x2="6.985" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.2512" y1="-3.38" x2="3.2512" y2="-4.3942" width="0.254" layer="94"/>
+<wire x1="3.2512" y1="-4.3942" x2="3.2512" y2="-5.7658" width="0.254" layer="94"/>
+<wire x1="3.2512" y1="-5.7658" x2="3.2512" y2="-6.78" width="0.254" layer="94"/>
+<wire x1="3.2512" y1="-4.3942" x2="5.715" y2="-3.048" width="0.2" layer="94"/>
+<wire x1="1.524" y1="-5.08" x2="3.302" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="3.2512" y1="-5.7658" x2="5.715" y2="-7.112" width="0.2" layer="94"/>
+<wire x1="5.715" y1="-3.048" x2="5.715" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="-2.54" x2="6.985" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="-7.112" x2="5.715" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="-7.62" x2="6.985" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="-2.54" x2="6.985" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="2.794" x2="-0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="0" x2="1.524" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="0" x2="4.572" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-3.81" x2="1.524" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-1.524" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-1.524" x2="1.524" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-1.524" x2="2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.508" y1="-3.81" x2="1.524" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-3.81" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-3.81" x2="1.524" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-1.524" x2="1.524" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-3.81" x2="1.524" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="0" x2="1.524" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="-4.826" x2="-1.524" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.842" x2="-0.762" y2="-4.064" width="0.1524" layer="94"/>
+<wire x1="-6.604" y1="-6.35" x2="-5.588" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="-4.064" x2="-4.572" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-4.064" x2="-5.588" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="-4.064" x2="-4.572" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="-6.604" y1="-6.35" x2="-5.588" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="-6.35" x2="-4.572" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="-6.35" x2="-5.588" y2="-4.064" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="-4.064" x2="-5.588" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="-6.35" x2="-5.588" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-4.572" y1="6.35" x2="-5.588" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="4.064" x2="-6.604" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-4.826" y1="4.064" x2="-5.588" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="4.064" x2="-6.604" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-4.572" y1="6.35" x2="-5.588" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="6.35" x2="-6.604" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="6.35" x2="-5.588" y2="4.064" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="4.064" x2="-5.588" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="6.35" x2="-5.588" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-4.318" y1="4.826" x2="-2.54" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="5.842" x2="-1.778" y2="4.064" width="0.1524" layer="94"/>
+<pin name="1" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="10.16" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.938" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<text x="10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">VCC</text>
+<text x="10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO1</text>
+<text x="10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO2</text>
+<text x="10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">GND</text>
+<text x="-10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<polygon width="0.1524" layer="94">
+<vertex x="5.969" y="-1.143"/>
+<vertex x="6.35" y="-1.651"/>
+<vertex x="5.715" y="-1.651"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="4.699" y="-6.223"/>
+<vertex x="5.08" y="-6.731"/>
+<vertex x="4.445" y="-6.731"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.286" y="-3.302"/>
+<vertex x="-1.524" y="-3.048"/>
+<vertex x="-1.778" y="-3.81"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.524" y="-4.318"/>
+<vertex x="-0.762" y="-4.064"/>
+<vertex x="-1.016" y="-4.826"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="3.302"/>
+<vertex x="-2.54" y="3.048"/>
+<vertex x="-2.794" y="3.81"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.54" y="4.318"/>
+<vertex x="-1.778" y="4.064"/>
+<vertex x="-2.032" y="4.826"/>
+</polygon>
+<circle x="6.985" y="-7.62" radius="0.127" width="0.508" layer="94"/>
+<circle x="1.524" y="7.62" radius="0.127" width="0.508" layer="94"/>
+</symbol>
+<symbol name="WL-OCPT_DIP8_14313X18X1X0" urn="urn:adsk.eagle:symbol:49062181/1" locally_modified="yes">
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="8.89" x2="-7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-8.89" x2="7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-8.89" x2="7.62" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="8.89" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="1.27" y1="3.81" x2="2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="6.35" x2="2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="3.81" y2="6.35" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="4.52" y1="-3.38" x2="4.52" y2="-4.38" width="0.254" layer="94"/>
+<wire x1="4.52" y1="-4.38" x2="4.52" y2="-5.88" width="0.254" layer="94"/>
+<wire x1="4.52" y1="-5.88" x2="4.52" y2="-6.78" width="0.254" layer="94"/>
+<wire x1="4.52" y1="-4.38" x2="6.985" y2="-2.54" width="0.2" layer="94"/>
+<wire x1="4.52" y1="-5.88" x2="6.985" y2="-7.62" width="0.2" layer="94"/>
+<wire x1="6.985" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="4.572" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="2.286" x2="-1.016" y2="4.064" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.27" x2="-0.254" y2="3.048" width="0.1524" layer="94"/>
+<pin name="1" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="10.16" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.938" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">NC</text>
+<text x="-10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<text x="-10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">NC</text>
+<text x="10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">VCC</text>
+<text x="10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">VB</text>
+<text x="10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO</text>
+<text x="10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">GND</text>
+<polygon width="0.1524" layer="94">
+<vertex x="5.818" y="-6.434"/>
+<vertex x="5.491" y="-6.907"/>
+<vertex x="6.2894" y="-7.1356"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.778" y="3.81"/>
+<vertex x="-1.016" y="4.064"/>
+<vertex x="-1.27" y="3.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="2.794"/>
+<vertex x="-0.254" y="3.048"/>
+<vertex x="-0.508" y="2.286"/>
+</polygon>
+<circle x="2.54" y="2.54" radius="0.127" width="0.508" layer="94"/>
+</symbol>
+<symbol name="WL-OCHS_SOP8_143501185110" urn="urn:adsk.eagle:symbol:49062174/1">
+<pin name="1" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="10.16" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.938" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">NC</text>
+<text x="-10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<text x="10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">VCC</text>
+<text x="10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO</text>
+<text x="10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">GND</text>
+<text x="-10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">NC</text>
+<text x="10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">VB</text>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="8.89" x2="-7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-8.89" x2="7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-8.89" x2="7.62" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="8.89" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="1.27" y1="3.81" x2="2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="6.35" x2="2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="3.81" y2="6.35" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="4.52" y1="-3.38" x2="4.52" y2="-4.38" width="0.254" layer="94"/>
+<wire x1="4.52" y1="-4.38" x2="4.52" y2="-5.88" width="0.254" layer="94"/>
+<wire x1="4.52" y1="-5.88" x2="4.52" y2="-6.78" width="0.254" layer="94"/>
+<wire x1="4.52" y1="-4.38" x2="6.985" y2="-2.54" width="0.2" layer="94"/>
+<wire x1="4.52" y1="-5.88" x2="6.985" y2="-7.62" width="0.2" layer="94"/>
+<wire x1="6.985" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="4.572" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="2.286" x2="-1.016" y2="4.064" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.27" x2="-0.254" y2="3.048" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="5.818" y="-6.434"/>
+<vertex x="5.491" y="-6.907"/>
+<vertex x="6.2894" y="-7.1356"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.778" y="3.81"/>
+<vertex x="-1.016" y="4.064"/>
+<vertex x="-1.27" y="3.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="2.794"/>
+<vertex x="-0.254" y="3.048"/>
+<vertex x="-0.508" y="2.286"/>
+</polygon>
+<circle x="2.54" y="2.54" radius="0.127" width="0.508" layer="94"/>
+</symbol>
+<symbol name="WL-OCHS_SOP8_1436X1185210" urn="urn:adsk.eagle:symbol:49062177/1">
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="8.89" x2="-7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-8.89" x2="7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-8.89" x2="7.62" y2="-7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="8.89" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="6.604" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="0.254" x2="-1.016" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.27" x2="-0.254" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="7.62" x2="-1.27" y2="-7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.27" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="4.318" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="4.318" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-1.27" x2="4.318" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<pin name="1" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="10.16" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.938" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">NC</text>
+<text x="-10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<text x="-10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">NC</text>
+<text x="10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">VCC</text>
+<text x="10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">VE</text>
+<text x="10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO</text>
+<text x="10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">GND</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.778" y="-1.27"/>
+<vertex x="-1.016" y="-1.524"/>
+<vertex x="-1.27" y="-0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="-0.254"/>
+<vertex x="-0.254" y="-0.508"/>
+<vertex x="-0.508" y="0.254"/>
+</polygon>
+<circle x="6.096" y="-2.54" radius="0.381" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="WL-OCPT_DIP8_14313718X2X0" urn="urn:adsk.eagle:symbol:49062180/1" locally_modified="yes">
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="8.89" x2="-7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-8.89" x2="7.62" y2="-8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-8.89" x2="7.62" y2="-7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="8.89" x2="7.62" y2="8.89" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="6.604" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.794" y1="0.254" x2="-1.016" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.27" x2="-0.254" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="7.62" x2="-1.27" y2="-7.62" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.27" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="4.318" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="4.318" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-1.27" x2="4.318" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<pin name="1" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="10.16" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="8" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="10.16" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.938" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">NC</text>
+<text x="-10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">A</text>
+<text x="-10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">K</text>
+<text x="-10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">NC</text>
+<text x="10.16" y="6.35" size="1.27" layer="94" ratio="4" rot="R180" align="center">VCC</text>
+<text x="10.16" y="1.27" size="1.27" layer="94" ratio="4" rot="R180" align="center">VE</text>
+<text x="10.16" y="-3.81" size="1.27" layer="94" ratio="4" rot="R180" align="center">VO</text>
+<text x="10.16" y="-8.89" size="1.27" layer="94" ratio="4" rot="R180" align="center">GND</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.778" y="-1.27"/>
+<vertex x="-1.016" y="-1.524"/>
+<vertex x="-1.27" y="-0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.016" y="-0.254"/>
+<vertex x="-0.254" y="-0.508"/>
+<vertex x="-0.508" y="0.254"/>
+</polygon>
+<circle x="6.096" y="-2.54" radius="0.381" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="143601155210" urn="urn:adsk.eagle:component:49062187/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-5
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-5
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP5_1436X1155110" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP5-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062183/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="5 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143601155210?ae"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="ITH-TYP" value="2.5 mA"/>
+<attribute name="LENGTH" value="4.55mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143601155210"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +85 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP5"/>
+<attribute name="TPLH" value="41 nsV"/>
+<attribute name="VALUE" value="143601155210"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="4.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143611155210" urn="urn:adsk.eagle:component:49062186/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-5
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-5
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP5_1436X1155110" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP5-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062183/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="20 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143611155210?ae"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="ITH-TYP" value="2.5 mA"/>
+<attribute name="LENGTH" value="4.55mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143611155210"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +85 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP5"/>
+<attribute name="TPLH" value="41 nsV"/>
+<attribute name="VALUE" value="143611155210"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="4.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143501185110" urn="urn:adsk.eagle:component:49062196/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP8_143501185110" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP8-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062182/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="5 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143501185110?ae"/>
+<attribute name="HEIGHT" value="3.18mm"/>
+<attribute name="LENGTH" value="4.05mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143501185110"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +110 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP8"/>
+<attribute name="TPLH" value="150 nsV"/>
+<attribute name="VALUE" value="143501185110"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="5.08mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143531285110" urn="urn:adsk.eagle:component:49062194/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP8_14353X285110" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP8-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062182/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="1 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143531285110?ae"/>
+<attribute name="HEIGHT" value="3.18mm"/>
+<attribute name="LENGTH" value="4.05mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143531285110"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +110 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP8"/>
+<attribute name="TPLH" value="600 nsV"/>
+<attribute name="VALUE" value="143531285110"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="5.08mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143630285210" urn="urn:adsk.eagle:component:49062191/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP8_14363X285210" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP8-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062182/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="5 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143630285210?ae"/>
+<attribute name="HEIGHT" value="3.18mm"/>
+<attribute name="ITH-TYP" value="2.4 mA"/>
+<attribute name="LENGTH" value="4.05mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143630285210"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +85 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP8"/>
+<attribute name="TPLH" value="48 nsV"/>
+<attribute name="VALUE" value="143630285210"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="5.08mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143136180100" urn="urn:adsk.eagle:component:49062200/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS DIP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-DIP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCPT_DIP8_14313X18X1X0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_DIP8_STANDARD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062184/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="1 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143136180100?ae"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="LENGTH" value="6.5mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="MPN" value="143136180100"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +110 °C"/>
+<attribute name="PACKAGE-TYPE" value="DIP 8, Standard"/>
+<attribute name="TPLH" value="600 nsV"/>
+<attribute name="VALUE" value="143136180100"/>
+<attribute name="VISO" value="5000 V (RMS)"/>
+<attribute name="WIDTH" value="9.68mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143501155110" urn="urn:adsk.eagle:component:49062189/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-5
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-5
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP5_1435X1155110" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP5-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062183/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="5 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143501155110?ae"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.55mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143501155110"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +110 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP5"/>
+<attribute name="TPLH" value="150 nsV"/>
+<attribute name="VALUE" value="143501155110"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="4.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143137180200" urn="urn:adsk.eagle:component:49062198/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS DIP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-DIP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCPT_DIP8_14313718X2X0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_DIP8_STANDARD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062184/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="5 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143137180200?ae"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="ITH-TYP" value="3 mA"/>
+<attribute name="LENGTH" value="6.5mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="MPN" value="143137180200"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +85 °C"/>
+<attribute name="PACKAGE-TYPE" value="DIP 8, Standard"/>
+<attribute name="TPLH" value="41 nsV"/>
+<attribute name="VALUE" value="143137180200"/>
+<attribute name="VISO" value="5000 V (RMS)"/>
+<attribute name="WIDTH" value="9.68mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143511155110" urn="urn:adsk.eagle:component:49062188/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-5
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-5
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP5_1435X1155110" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP5-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062183/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="15 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143511155110?ae"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.55mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143511155110"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +110 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP5"/>
+<attribute name="TPLH" value="150 nsV"/>
+<attribute name="VALUE" value="143511155110"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="4.1mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143601185210" urn="urn:adsk.eagle:component:49062193/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP8_1436X1185210" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP8-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062182/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="5 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143601185210?ae"/>
+<attribute name="HEIGHT" value="3.18mm"/>
+<attribute name="ITH-TYP" value="3 mA"/>
+<attribute name="LENGTH" value="4.05mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143601185210"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP8"/>
+<attribute name="TPLH" value="41 nsV"/>
+<attribute name="VALUE" value="143601185210"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="5.08mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143530285110" urn="urn:adsk.eagle:component:49062195/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP8_14353X285110" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP8-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062182/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="1 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143530285110?ae"/>
+<attribute name="HEIGHT" value="3.18mm"/>
+<attribute name="LENGTH" value="4.05mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143530285110"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +110 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP8"/>
+<attribute name="TPLH" value="600 nsV"/>
+<attribute name="VALUE" value="143530285110"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="5.08mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143631285210" urn="urn:adsk.eagle:component:49062190/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP8_14363X285210" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP8-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062182/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="10 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143631285210?ae"/>
+<attribute name="HEIGHT" value="3.18mm"/>
+<attribute name="ITH-TYP" value="2.4 mA"/>
+<attribute name="LENGTH" value="4.05mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143631285210"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +85 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP8"/>
+<attribute name="TPLH" value="48 nsV"/>
+<attribute name="VALUE" value="143631285210"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="5.08mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143135180100" urn="urn:adsk.eagle:component:49062202/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS DIP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-DIP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCPT_DIP8_14313X18X1X0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_DIP8_STANDARD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062184/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="1 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143135180100?ae"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="LENGTH" value="6.5mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="MPN" value="143135180100"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +110 °C"/>
+<attribute name="PACKAGE-TYPE" value="DIP 8, Standard"/>
+<attribute name="TPLH" value="1300 nsV"/>
+<attribute name="VALUE" value="143135180100"/>
+<attribute name="VISO" value="5000 V (RMS)"/>
+<attribute name="WIDTH" value="9.68mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143611185210" urn="urn:adsk.eagle:component:49062192/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS SOP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-SOP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCHS_SOP8_1436X1185210" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_SOP8-SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062182/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="20 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143611185210?ae"/>
+<attribute name="HEIGHT" value="3.18mm"/>
+<attribute name="ITH-TYP" value="3 mA"/>
+<attribute name="LENGTH" value="4.05mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143611185210"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C"/>
+<attribute name="PACKAGE-TYPE" value="SOP8"/>
+<attribute name="TPLH" value="41 nsV"/>
+<attribute name="VALUE" value="143611185210"/>
+<attribute name="VISO" value="3750 V (RMS)"/>
+<attribute name="WIDTH" value="5.08mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143136183110" urn="urn:adsk.eagle:component:49062199/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS DIP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-DIP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCPT_DIP8_14313X18X1X0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_DIP8_SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062185/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="1 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143136183110?ae"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="LENGTH" value="8.57mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143136183110"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +110 °C"/>
+<attribute name="PACKAGE-TYPE" value="DIP 8, SL-Type"/>
+<attribute name="TPLH" value="600 nsV"/>
+<attribute name="VALUE" value="143136183110"/>
+<attribute name="VISO" value="5000 V (RMS)"/>
+<attribute name="WIDTH" value="9.68mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143135183110" urn="urn:adsk.eagle:component:49062201/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS DIP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-DIP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCPT_DIP8_14313X18X1X0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_DIP8_SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062185/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="1 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143135183110?ae"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="LENGTH" value="8.57mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143135183110"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +110 °C"/>
+<attribute name="PACKAGE-TYPE" value="DIP 8, SL-Type"/>
+<attribute name="TPLH" value="1300 nsV"/>
+<attribute name="VALUE" value="143135183110"/>
+<attribute name="VISO" value="5000 V (RMS)"/>
+<attribute name="WIDTH" value="9.68mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="143137183210" urn="urn:adsk.eagle:component:49062197/1" locally_modified="yes" prefix="Q">
+<description>WL-OCHS DIP-8
+
+Characteristics
+Very high transmission speed - MHz to Mbit/s range
+Precise shifting without much delay thanks to fast switching times
+High insulation voltage VISO = 3750 &amp; 5000 VRMS
+High immunity to interference (EMC)
+
+Applications
+High-speed digital signal transmission
+Interface isolation (e.g., UART, SPI, RS-232, RS-485)
+Switching power supplies and power electronics
+Industrial controls and automation
+Microcontroller and embedded systems
+
+Details see: www.we-online.com/en/components/products/WL-OCHS-DIP-8
+ 
+Created by Ella 2026-08-06
+2026(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCPT_DIP8_14313718X2X0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCHS_DIP8_SL-TYPE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49062185/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Optocoupler"/>
+<attribute name="CMTILH" value="5 kV/µsmA"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/143137183210?ae"/>
+<attribute name="HEIGHT" value="3.5mm"/>
+<attribute name="ITH-TYP" value="3 mA"/>
+<attribute name="LENGTH" value="8.57mm"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="MPN" value="143137183210"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +85 °C"/>
+<attribute name="PACKAGE-TYPE" value="DIP 8, SL-Type"/>
+<attribute name="TPLH" value="41 nsV"/>
+<attribute name="VALUE" value="143137183210"/>
+<attribute name="VISO" value="5000 V (RMS)"/>
+<attribute name="WIDTH" value="9.68mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
