@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -62,10 +62,10 @@
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -74,109 +74,55 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Power Magnetics - Single Coil Power Inductors - WE-PMCI&lt;br&gt;
-&lt;Hr&gt;
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
+<description>Würth Elektronik - Passive Components - Power Magnetics - Shielded Power Inductors - WE-PMCI
 
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, 
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. 
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. 
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. 
 
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
+Please contact us for more information: libraries@we-online.com 
 
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
-Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
-Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
-Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
- &lt;br&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-03-12&lt;br&gt;
-&lt;HR&gt;
+Würth Elektronik eiSos GmbH &amp; Co. KG
+EMC &amp; Inductive Solutions
+www.we-online.com
+
+Fusion360, Library Revision 2026a, 2026-09-17
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-PMCI_201210" urn="urn:adsk.eagle:footprint:13010231/3">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+<package name="WE-PMCI_252012" urn="urn:adsk.eagle:footprint:13010227/4">
+<description>WE-PMCI Power Molded Chip Inductor
 
-&lt;br&gt;Size: 201210, SMT, 2pins
-&lt;br&gt;LxWxHxFI=2x1.2x1x0.5mm</description>
-<smd name="1" x="-0.75" y="0" dx="1.45" dy="0.7" layer="1" rot="R90"/>
-<smd name="2" x="0.75" y="0" dx="1.45" dy="0.7" layer="1" rot="R90"/>
-<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.1" layer="51"/>
-<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.1" layer="51"/>
-<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.1" layer="51"/>
-<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.1" layer="51"/>
-<text x="0" y="1.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-1.3" y="0.925"/>
-<vertex x="1.3" y="0.925"/>
-<vertex x="1.3" y="-0.925"/>
-<vertex x="-1.3" y="-0.925"/>
+Size: 252012, SMT, 2pins
+
+LxWxHxFI=2.5x2x1.2x0.6mm</description>
+<smd name="1" x="-1" y="0" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="1" y="0" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.1" x2="0.3" y2="1.1" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.1" x2="0.3" y2="-1.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-1.6" y="-1.3"/>
+<vertex x="1.6" y="-1.3"/>
+<vertex x="1.6" y="1.3"/>
+<vertex x="-1.6" y="1.3"/>
 </polygon>
+<text x="0" y="1.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WE-PMCI_322515" urn="urn:adsk.eagle:footprint:13010224/3">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+<package name="WE-PMCI_322512" urn="urn:adsk.eagle:footprint:13010225/4">
+<description>WE-PMCI Power Molded Chip Inductor
 
-&lt;br&gt;Size: 322515, SMT, 2pins
-&lt;br&gt;LxWxHxFI=3.2x2.5x1.5x0.6mm</description>
+Size: 322512, SMT, 2pins
+
+LxWxHxFI=3.2x2.5x1.2x0.6mm</description>
 <smd name="1" x="-1.45" y="0" dx="2.8" dy="1.2" layer="1" rot="R90"/>
 <smd name="2" x="1.45" y="0" dx="2.8" dy="1.2" layer="1" rot="R90"/>
 <wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
@@ -185,42 +131,21 @@ Copyright: Würth Elektronik</description>
 <wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
 <wire x1="-0.55" y1="1.35" x2="0.55" y2="1.35" width="0.2" layer="21"/>
 <wire x1="-0.55" y1="-1.35" x2="0.55" y2="-1.35" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-2.25" y="1.6"/>
-<vertex x="2.25" y="1.6"/>
-<vertex x="2.25" y="-1.6"/>
+<polygon width="0.1" layer="39" pour="solid">
 <vertex x="-2.25" y="-1.6"/>
+<vertex x="2.25" y="-1.6"/>
+<vertex x="2.25" y="1.6"/>
+<vertex x="-2.25" y="1.6"/>
 </polygon>
 <text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.2" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="WE-PMCI_322512" urn="urn:adsk.eagle:footprint:13010225/3">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+<package name="WE-PMCI_160808" urn="urn:adsk.eagle:footprint:13010232/5">
+<description>WE-PMCI Power Molded Chip Inductor
 
-&lt;br&gt;Size: 322512, SMT, 2pins
-&lt;br&gt;LxWxHxFI=3.2x2.5x1.2x0.6mm</description>
-<smd name="1" x="-1.45" y="0" dx="2.8" dy="1.2" layer="1" rot="R90"/>
-<smd name="2" x="1.45" y="0" dx="2.8" dy="1.2" layer="1" rot="R90"/>
-<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-0.55" y1="1.35" x2="0.55" y2="1.35" width="0.2" layer="21"/>
-<wire x1="-0.55" y1="-1.35" x2="0.55" y2="-1.35" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-2.25" y="1.6"/>
-<vertex x="2.25" y="1.6"/>
-<vertex x="2.25" y="-1.6"/>
-<vertex x="-2.25" y="-1.6"/>
-</polygon>
-<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.2" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="WE-PMCI_160808" urn="urn:adsk.eagle:footprint:13010232/4">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+Size: 160808, SMT, 2pins
 
-&lt;br&gt;Size: 160808, SMT, 2pins
-&lt;br&gt;LxWxHxFI=1.6x0.8x0.8x0.3mm</description>
+LxWxHxFI=1.6x0.8x0.8x0.3mm</description>
 <smd name="1" x="-0.7" y="0" dx="0.6" dy="0.8" layer="1"/>
 <smd name="2" x="0.7" y="0" dx="0.6" dy="0.8" layer="1"/>
 <wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
@@ -229,62 +154,19 @@ Copyright: Würth Elektronik</description>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
 <text x="0" y="1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-1.2" y="0.6"/>
-<vertex x="1.2" y="0.6"/>
-<vertex x="1.2" y="-0.6"/>
+<polygon width="0.1" layer="39" pour="solid">
 <vertex x="-1.2" y="-0.6"/>
+<vertex x="1.2" y="-0.6"/>
+<vertex x="1.2" y="0.6"/>
+<vertex x="-1.2" y="0.6"/>
 </polygon>
 </package>
-<package name="WE-PMCI_252012" urn="urn:adsk.eagle:footprint:13010227/3">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+<package name="WE-PMCI_201610" urn="urn:adsk.eagle:footprint:13010230/4">
+<description>WE-PMCI Power Molded Chip Inductor
 
-&lt;br&gt;Size: 252012, SMT, 2pins
-&lt;br&gt;LxWxHxFI=2.5x2x1.2x0.6mm</description>
-<smd name="1" x="-1" y="0" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="1" y="0" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.1" layer="51"/>
-<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.1" layer="51"/>
-<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1" layer="51"/>
-<wire x1="-0.3" y1="1.1" x2="0.3" y2="1.1" width="0.2" layer="21"/>
-<wire x1="-0.3" y1="-1.1" x2="0.3" y2="-1.1" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-1.6" y="1.3"/>
-<vertex x="1.6" y="1.3"/>
-<vertex x="1.6" y="-1.3"/>
-<vertex x="-1.6" y="-1.3"/>
-</polygon>
-<text x="0" y="1.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="WE-PMCI_252010" urn="urn:adsk.eagle:footprint:13010228/3">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+Size: 201610, SMT, 2pins
 
-&lt;br&gt;Size: 252010, SMT, 2pins
-&lt;br&gt;LxWxHxFI=2.5x2x1x0.6mm</description>
-<smd name="1" x="-1" y="0" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="1" y="0" dx="2.2" dy="0.8" layer="1" rot="R90"/>
-<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.1" layer="51"/>
-<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.1" layer="51"/>
-<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1" layer="51"/>
-<wire x1="-0.3" y1="1.1" x2="0.3" y2="1.1" width="0.2" layer="21"/>
-<wire x1="-0.3" y1="-1.1" x2="0.3" y2="-1.1" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-1.6" y="1.3"/>
-<vertex x="1.6" y="1.3"/>
-<vertex x="1.6" y="-1.3"/>
-<vertex x="-1.6" y="-1.3"/>
-</polygon>
-<text x="0" y="1.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="WE-PMCI_201610" urn="urn:adsk.eagle:footprint:13010230/3">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
-
-&lt;br&gt;Size: 201610, SMT, 2pins
-&lt;br&gt;LxWxHxFI=2x1.6x1x0.5mm</description>
+LxWxHxFI=2x1.6x1x0.5mm</description>
 <smd name="1" x="-0.8" y="0" dx="1.8" dy="0.8" layer="1" rot="R90"/>
 <smd name="2" x="0.8" y="0" dx="1.8" dy="0.8" layer="1" rot="R90"/>
 <wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="51"/>
@@ -293,18 +175,19 @@ Copyright: Würth Elektronik</description>
 <wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.1" layer="51"/>
 <text x="0" y="1.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-1.4" y="1.1"/>
-<vertex x="1.4" y="1.1"/>
-<vertex x="1.4" y="-1.1"/>
+<polygon width="0.1" layer="39" pour="solid">
 <vertex x="-1.4" y="-1.1"/>
+<vertex x="1.4" y="-1.1"/>
+<vertex x="1.4" y="1.1"/>
+<vertex x="-1.4" y="1.1"/>
 </polygon>
 </package>
-<package name="WE-PMCI_322510" urn="urn:adsk.eagle:footprint:13010226/3">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+<package name="WE-PMCI_322510" urn="urn:adsk.eagle:footprint:13010226/4">
+<description>WE-PMCI Power Molded Chip Inductor
 
-&lt;br&gt;Size: 322510, SMT, 2pins
-&lt;br&gt;LxWxHxFI=3.2x2.5x1x0.6mm</description>
+Size: 322510, SMT, 2pins
+
+LxWxHxFI=3.2x2.5x1x0.6mm</description>
 <smd name="1" x="-1.45" y="0" dx="2.8" dy="1.2" layer="1" rot="R90"/>
 <smd name="2" x="1.45" y="0" dx="2.8" dy="1.2" layer="1" rot="R90"/>
 <wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
@@ -315,90 +198,165 @@ Copyright: Würth Elektronik</description>
 <wire x1="-0.55" y1="-1.35" x2="0.55" y2="-1.35" width="0.2" layer="21"/>
 <text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.2" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-2.25" y="1.6"/>
-<vertex x="2.25" y="1.6"/>
-<vertex x="2.25" y="-1.6"/>
+<polygon width="0.1" layer="39" pour="solid">
 <vertex x="-2.25" y="-1.6"/>
+<vertex x="2.25" y="-1.6"/>
+<vertex x="2.25" y="1.6"/>
+<vertex x="-2.25" y="1.6"/>
 </polygon>
+</package>
+<package name="WE-PMCI_252010" urn="urn:adsk.eagle:footprint:13010228/4">
+<description>WE-PMCI Power Molded Chip Inductor
+
+Size: 252010, SMT, 2pins
+
+LxWxHxFI=2.5x2x1x0.6mm</description>
+<smd name="1" x="-1" y="0" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="1" y="0" dx="2.2" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.1" x2="0.3" y2="1.1" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.1" x2="0.3" y2="-1.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-1.6" y="-1.3"/>
+<vertex x="1.6" y="-1.3"/>
+<vertex x="1.6" y="1.3"/>
+<vertex x="-1.6" y="1.3"/>
+</polygon>
+<text x="0" y="1.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-PMCI_201210" urn="urn:adsk.eagle:footprint:13010231/4">
+<description>WE-PMCI Power Molded Chip Inductor
+
+Size: 201210, SMT, 2pins
+
+LxWxHxFI=2x1.2x1x0.5mm</description>
+<smd name="1" x="-0.75" y="0" dx="1.45" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="0.75" y="0" dx="1.45" dy="0.7" layer="1" rot="R90"/>
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.1" layer="51"/>
+<text x="0" y="1.2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-1.3" y="-0.925"/>
+<vertex x="1.3" y="-0.925"/>
+<vertex x="1.3" y="0.925"/>
+<vertex x="-1.3" y="0.925"/>
+</polygon>
+</package>
+<package name="WE-PMCI_322515" urn="urn:adsk.eagle:footprint:13010224/4">
+<description>WE-PMCI Power Molded Chip Inductor
+
+Size: 322515, SMT, 2pins
+
+LxWxHxFI=3.2x2.5x1.5x0.6mm</description>
+<smd name="1" x="-1.45" y="0" dx="2.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="1.45" y="0" dx="2.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-0.55" y1="1.35" x2="0.55" y2="1.35" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="-1.35" x2="0.55" y2="-1.35" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-2.25" y="-1.6"/>
+<vertex x="2.25" y="-1.6"/>
+<vertex x="2.25" y="1.6"/>
+<vertex x="-2.25" y="1.6"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.2" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="WE-PMCI_201210" urn="urn:adsk.eagle:package:13010241/7" type="model">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+<package3d name="WE-PMCI_252012" urn="urn:adsk.eagle:package:13010237/7" type="model">
+<description>WE-PMCI Power Molded Chip Inductor
 
-&lt;br&gt;Size: 201210, SMT, 2pins
-&lt;br&gt;LxWxHxFI=2x1.2x1x0.5mm</description>
-<packageinstances>
-<packageinstance name="WE-PMCI_201210"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PMCI_252012" urn="urn:adsk.eagle:package:13010237/6" type="model">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+Size: 252012, SMT, 2pins
 
-&lt;br&gt;Size: 252012, SMT, 2pins
-&lt;br&gt;LxWxHxFI=2.5x2x1.2x0.6mm</description>
+LxWxHxFI=2.5x2x1.2x0.6mm</description>
 <packageinstances>
 <packageinstance name="WE-PMCI_252012"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-PMCI_322515" urn="urn:adsk.eagle:package:13010234/6" type="model">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+<package3d name="WE-PMCI_322512" urn="urn:adsk.eagle:package:13010235/7" type="model">
+<description>WE-PMCI Power Molded Chip Inductor
 
-&lt;br&gt;Size: 322515, SMT, 2pins
-&lt;br&gt;LxWxHxFI=3.2x2.5x1.5x0.6mm</description>
-<packageinstances>
-<packageinstance name="WE-PMCI_322515"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PMCI_322512" urn="urn:adsk.eagle:package:13010235/6" type="model">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+Size: 322512, SMT, 2pins
 
-&lt;br&gt;Size: 322512, SMT, 2pins
-&lt;br&gt;LxWxHxFI=3.2x2.5x1.2x0.6mm</description>
+LxWxHxFI=3.2x2.5x1.2x0.6mm</description>
 <packageinstances>
 <packageinstance name="WE-PMCI_322512"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-PMCI_252010" urn="urn:adsk.eagle:package:13010238/6" type="model">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+<package3d name="WE-PMCI_160808" urn="urn:adsk.eagle:package:13010242/9" type="model">
+<description>WE-PMCI Power Molded Chip Inductor
 
-&lt;br&gt;Size: 252010, SMT, 2pins
-&lt;br&gt;LxWxHxFI=2.5x2x1x0.6mm</description>
-<packageinstances>
-<packageinstance name="WE-PMCI_252010"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PMCI_160808" urn="urn:adsk.eagle:package:13010242/8" type="model">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+Size: 160808, SMT, 2pins
 
-&lt;br&gt;Size: 160808, SMT, 2pins
-&lt;br&gt;LxWxHxFI=1.6x0.8x0.8x0.3mm</description>
+LxWxHxFI=1.6x0.8x0.8x0.3mm</description>
 <packageinstances>
 <packageinstance name="WE-PMCI_160808"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-PMCI_322510" urn="urn:adsk.eagle:package:13010236/6" type="model">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+<package3d name="WE-PMCI_201610" urn="urn:adsk.eagle:package:13010240/7" type="model">
+<description>WE-PMCI Power Molded Chip Inductor
 
-&lt;br&gt;Size: 322510, SMT, 2pins
-&lt;br&gt;LxWxHxFI=3.2x2.5x1x0.6mm</description>
-<packageinstances>
-<packageinstance name="WE-PMCI_322510"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PMCI_201610" urn="urn:adsk.eagle:package:13010240/6" type="model">
-<description>&lt;b&gt; WE-PMCI Power Molded Chip Inductor&lt;br&gt;&lt;/b&gt;
+Size: 201610, SMT, 2pins
 
-&lt;br&gt;Size: 201610, SMT, 2pins
-&lt;br&gt;LxWxHxFI=2x1.6x1x0.5mm</description>
+LxWxHxFI=2x1.6x1x0.5mm</description>
 <packageinstances>
 <packageinstance name="WE-PMCI_201610"/>
 </packageinstances>
 </package3d>
+<package3d name="WE-PMCI_322510" urn="urn:adsk.eagle:package:13010236/7" type="model">
+<description>WE-PMCI Power Molded Chip Inductor
+
+Size: 322510, SMT, 2pins
+
+LxWxHxFI=3.2x2.5x1x0.6mm</description>
+<packageinstances>
+<packageinstance name="WE-PMCI_322510"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PMCI_252010" urn="urn:adsk.eagle:package:13010238/7" type="model">
+<description>WE-PMCI Power Molded Chip Inductor
+
+Size: 252010, SMT, 2pins
+
+LxWxHxFI=2.5x2x1x0.6mm</description>
+<packageinstances>
+<packageinstance name="WE-PMCI_252010"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PMCI_201210" urn="urn:adsk.eagle:package:13010241/8" type="model">
+<description>WE-PMCI Power Molded Chip Inductor
+
+Size: 201210, SMT, 2pins
+
+LxWxHxFI=2x1.2x1x0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-PMCI_201210"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PMCI_322515" urn="urn:adsk.eagle:package:13010234/7" type="model">
+<description>WE-PMCI Power Molded Chip Inductor
+
+Size: 322515, SMT, 2pins
+
+LxWxHxFI=3.2x2.5x1.5x0.6mm</description>
+<packageinstances>
+<packageinstance name="WE-PMCI_322515"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="L">
+<symbol name="L" urn="urn:adsk.eagle:symbol:14283809/2">
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -410,362 +368,28 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-PMCI_201210" prefix="L">
-<description>&lt;b&gt;WE-PMCI Power Molded Chip Inductor&lt;br&gt;
+<deviceset name="WE-PMCI_252012" urn="urn:adsk.eagle:component:14283814/8" prefix="L">
+<description>WE-PMCI Power Molded Chip Inductor
 Shielded
 
-&lt;/b&gt;&lt;P&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
-&lt;br&gt;Very compact design
-&lt;br&gt;High efficiency due to low total losses
-&lt;br&gt;High rated current values, up to 9.05 And high saturation currents
-&lt;br&gt;Low RDC-values, starting at 21 mΩ
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Side termination for best soldering result
-&lt;br&gt;Operating temperature: –40 °C to +125 °C
-&lt;br&gt;Recommended soldering profile: Reflow
+Characteristics
+Very compact design
+High efficiency due to low total losses
+High rated current values, up to 9.05 And high saturation currents
+Low RDC-values, starting at 21 mΩ
+Magnetically shielded construction
+Side termination for best soldering result
+Operating temperature: –40 °C to +125 °C
+Recommended soldering profile: Reflow
 
-&lt;P&gt;&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
-&lt;br&gt;DC/DC converters especially at high switching frequencies &gt; 1 MHz
-&lt;br&gt;High current power supply, Battery powered devices
-&lt;br&gt;Powerable electronic devices with very low profile
-&lt;br&gt;Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMCI&lt;/a&gt;&lt;p&gt;
+Applications
+DC/DC converters especially at high switching frequencies &gt; 1 MHz
+High current power supply, Battery powered devices
+Powerable electronic devices with very low profile
+Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
 
- Updated by Ella 2025-03-12
-&lt;br&gt;2025 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-PMCI_201210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010241/7"/>
-</package3dinstances>
-<technologies>
-<technology name="_74479275147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479275147?ae"/>
-<attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="120MHz"/>
-<attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="4.3A"/>
-<attribute name="ISAT1" value="2.55A@10%"/>
-<attribute name="ISAT2" value="5.15A@30%"/>
-<attribute name="L" value="0.47uH"/>
-<attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479275147"/>
-<attribute name="RDC-MAX" value="44mOhm"/>
-<attribute name="SIZE" value="201210"/>
-<attribute name="VALUE" value="0.47uH"/>
-<attribute name="WIDTH" value="1.25mm"/>
-</technology>
-<technology name="_74479275210">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479275210?ae"/>
-<attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="120MHz"/>
-<attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="3.3A"/>
-<attribute name="ISAT1" value="1.55A@10%"/>
-<attribute name="ISAT2" value="3.45A@30%"/>
-<attribute name="L" value="1uH"/>
-<attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479275210"/>
-<attribute name="RDC-MAX" value="75mOhm"/>
-<attribute name="SIZE" value="201210"/>
-<attribute name="VALUE" value="1uH"/>
-<attribute name="WIDTH" value="1.25mm"/>
-</technology>
-<technology name="_74479275222">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479275222?ae"/>
-<attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="45MHz"/>
-<attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="2A"/>
-<attribute name="ISAT1" value="1.2A@10%"/>
-<attribute name="ISAT2" value="2.4A@30%"/>
-<attribute name="L" value="2.2uH"/>
-<attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479275222"/>
-<attribute name="RDC-MAX" value="190mOhm"/>
-<attribute name="SIZE" value="201210"/>
-<attribute name="VALUE" value="2.2uH"/>
-<attribute name="WIDTH" value="1.25mm"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-PMCI_322515" prefix="L">
-<description>&lt;b&gt;WE-PMCI Power Molded Chip Inductor&lt;br&gt;
-Shielded
-
-&lt;/b&gt;&lt;P&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
-&lt;br&gt;Very compact design
-&lt;br&gt;High efficiency due to low total losses
-&lt;br&gt;High rated current values, up to 9.05 And high saturation currents
-&lt;br&gt;Low RDC-values, starting at 21 mΩ
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Side termination for best soldering result
-&lt;br&gt;Operating temperature: –40 °C to +125 °C
-&lt;br&gt;Recommended soldering profile: Reflow
-
-&lt;P&gt;&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
-&lt;br&gt;DC/DC converters especially at high switching frequencies &gt; 1 MHz
-&lt;br&gt;High current power supply, Battery powered devices
-&lt;br&gt;Powerable electronic devices with very low profile
-&lt;br&gt;Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMCI&lt;/a&gt;&lt;p&gt;
-
- Updated by Ella 2025-03-12
-&lt;br&gt;2025 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-PMCI_322515">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010234/6"/>
-</package3dinstances>
-<technologies>
-<technology name="_74479290125">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479290125?ae"/>
-<attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="150MHz"/>
-<attribute name="HEIGHT" value="1.5mm"/>
-<attribute name="IR" value="9.05A"/>
-<attribute name="ISAT1" value="8.5A@10%"/>
-<attribute name="ISAT2" value="15.65A@30%"/>
-<attribute name="L" value="0.25uH"/>
-<attribute name="LENGTH" value="3.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479290125"/>
-<attribute name="RDC-MAX" value="31mOhm"/>
-<attribute name="SIZE" value="322515"/>
-<attribute name="VALUE" value="0.25uH"/>
-<attribute name="WIDTH" value="2.5mm"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-PMCI_160808" prefix="L">
-<description>&lt;b&gt;WE-PMCI Power Molded Chip Inductor&lt;br&gt;
-Shielded
-
-&lt;/b&gt;&lt;P&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
-&lt;br&gt;Very compact design
-&lt;br&gt;High efficiency due to low total losses
-&lt;br&gt;High rated current values, up to 9.05 And high saturation currents
-&lt;br&gt;Low RDC-values, starting at 21 mΩ
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Side termination for best soldering result
-&lt;br&gt;Operating temperature: –40 °C to +125 °C
-&lt;br&gt;Recommended soldering profile: Reflow
-
-&lt;P&gt;&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
-&lt;br&gt;DC/DC converters especially at high switching frequencies &gt; 1 MHz
-&lt;br&gt;High current power supply, Battery powered devices
-&lt;br&gt;Powerable electronic devices with very low profile
-&lt;br&gt;Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMCI&lt;/a&gt;&lt;p&gt;
-
- Updated by Ella 2025-03-12
-&lt;br&gt;2025 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-PMCI_160808">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010242/8"/>
-</package3dinstances>
-<technologies>
-<technology name="_74479262147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479262147?ae"/>
-<attribute name="FI" value="0.3mm"/>
-<attribute name="FRES" value="120MHz"/>
-<attribute name="HEIGHT" value="0.8mm"/>
-<attribute name="IR" value="3.95A"/>
-<attribute name="ISAT1" value="1.5A@10%"/>
-<attribute name="ISAT2" value="3.35A@30%"/>
-<attribute name="L" value="0.47uH"/>
-<attribute name="LENGTH" value="1.6mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479262147"/>
-<attribute name="RDC-MAX" value="75mOhm"/>
-<attribute name="SIZE" value="160808"/>
-<attribute name="VALUE" value="0.47uH"/>
-<attribute name="WIDTH" value="0.8mm"/>
-</technology>
-<technology name="_74479262210">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479262210?ae"/>
-<attribute name="FI" value="0.3mm"/>
-<attribute name="FRES" value="90MHz"/>
-<attribute name="HEIGHT" value="0.8mm"/>
-<attribute name="IR" value="2.6A"/>
-<attribute name="ISAT1" value="1.2A@10%"/>
-<attribute name="ISAT2" value="2.6A@30%"/>
-<attribute name="L" value="1uH"/>
-<attribute name="LENGTH" value="1.6mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479262210"/>
-<attribute name="RDC-MAX" value="115mOhm"/>
-<attribute name="SIZE" value="160808"/>
-<attribute name="VALUE" value="1uH"/>
-<attribute name="WIDTH" value="0.8mm"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-PMCI_322512" prefix="L">
-<description>&lt;b&gt;WE-PMCI Power Molded Chip Inductor&lt;br&gt;
-Shielded
-
-&lt;/b&gt;&lt;P&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
-&lt;br&gt;Very compact design
-&lt;br&gt;High efficiency due to low total losses
-&lt;br&gt;High rated current values, up to 9.05 And high saturation currents
-&lt;br&gt;Low RDC-values, starting at 21 mΩ
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Side termination for best soldering result
-&lt;br&gt;Operating temperature: –40 °C to +125 °C
-&lt;br&gt;Recommended soldering profile: Reflow
-
-&lt;P&gt;&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
-&lt;br&gt;DC/DC converters especially at high switching frequencies &gt; 1 MHz
-&lt;br&gt;High current power supply, Battery powered devices
-&lt;br&gt;Powerable electronic devices with very low profile
-&lt;br&gt;Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMCI&lt;/a&gt;&lt;p&gt;
-
- Updated by Ella 2025-03-12
-&lt;br&gt;2025 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-PMCI_322512">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010235/6"/>
-</package3dinstances>
-<technologies>
-<technology name="_74479299147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479299147?ae"/>
-<attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="90MHz"/>
-<attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="7.1A"/>
-<attribute name="ISAT1" value="5.15A@10%"/>
-<attribute name="ISAT2" value="9.95A@30%"/>
-<attribute name="L" value="0.47uH"/>
-<attribute name="LENGTH" value="3.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479299147"/>
-<attribute name="RDC-MAX" value="22mOhm"/>
-<attribute name="SIZE" value="322512"/>
-<attribute name="VALUE" value="0.47uH"/>
-<attribute name="WIDTH" value="2.5mm"/>
-</technology>
-<technology name="_74479299210">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479299210?ae"/>
-<attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="60MHz"/>
-<attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="6.2A"/>
-<attribute name="ISAT1" value="3.25A@10%"/>
-<attribute name="ISAT2" value="6.95A@30%"/>
-<attribute name="L" value="1uH"/>
-<attribute name="LENGTH" value="3.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479299210"/>
-<attribute name="RDC-MAX" value="35mOhm"/>
-<attribute name="SIZE" value="322512"/>
-<attribute name="VALUE" value="1uH"/>
-<attribute name="WIDTH" value="2.5mm"/>
-</technology>
-<technology name="_74479299222">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479299222?ae"/>
-<attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="35MHz"/>
-<attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="3.65A"/>
-<attribute name="ISAT1" value="2.25A@10%"/>
-<attribute name="ISAT2" value="4.8A@30%"/>
-<attribute name="L" value="2.2uH"/>
-<attribute name="LENGTH" value="3.2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479299222"/>
-<attribute name="RDC-MAX" value="75mOhm"/>
-<attribute name="SIZE" value="322512"/>
-<attribute name="VALUE" value="2.2uH"/>
-<attribute name="WIDTH" value="2.5mm"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-PMCI_252012" prefix="L">
-<description>&lt;b&gt;WE-PMCI Power Molded Chip Inductor&lt;br&gt;
-Shielded
-
-&lt;/b&gt;&lt;P&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
-&lt;br&gt;Very compact design
-&lt;br&gt;High efficiency due to low total losses
-&lt;br&gt;High rated current values, up to 9.05 And high saturation currents
-&lt;br&gt;Low RDC-values, starting at 21 mΩ
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Side termination for best soldering result
-&lt;br&gt;Operating temperature: –40 °C to +125 °C
-&lt;br&gt;Recommended soldering profile: Reflow
-
-&lt;P&gt;&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
-&lt;br&gt;DC/DC converters especially at high switching frequencies &gt; 1 MHz
-&lt;br&gt;High current power supply, Battery powered devices
-&lt;br&gt;Powerable electronic devices with very low profile
-&lt;br&gt;Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMCI&lt;/a&gt;&lt;p&gt;
-
- Updated by Ella 2025-03-12
-&lt;br&gt;2025 (C) Würth Elektronik</description>
+Updated by Ella 2026-09-17
+2026 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
@@ -776,203 +400,303 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_mod
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010237/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010237/7"/>
 </package3dinstances>
 <technologies>
 <technology name="_74479288147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479288147?ae"/>
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="140MHz"/>
 <attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="6.8A"/>
-<attribute name="ISAT1" value="3.75A@10%"/>
-<attribute name="ISAT2" value="7.9A@30%"/>
-<attribute name="L" value="0.47uH"/>
 <attribute name="LENGTH" value="2.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479288147"/>
-<attribute name="RDC-MAX" value="22mOhm"/>
 <attribute name="SIZE" value="252012"/>
-<attribute name="VALUE" value="0.47uH"/>
+<attribute name="VALUE" value="0.47 uH"/>
 <attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479288147"/>
+<attribute name="INDUCTANCE" value="0.47 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="6.8 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="3.75 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="7.9 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="22 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="140 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479288147?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 <technology name="_74479288210">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479288210?ae"/>
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="80MHz"/>
 <attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="4.6A"/>
-<attribute name="ISAT1" value="1.75A@10%"/>
-<attribute name="ISAT2" value="4.1A@30%"/>
-<attribute name="L" value="1uH"/>
 <attribute name="LENGTH" value="2.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479288210"/>
-<attribute name="RDC-MAX" value="44mOhm"/>
 <attribute name="SIZE" value="252012"/>
-<attribute name="VALUE" value="1uH"/>
+<attribute name="VALUE" value="1 uH"/>
 <attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479288210"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="4.6 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.75 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="4.1 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="44 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="80 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479288210?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 <technology name="_74479288215">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479288215?ae"/>
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="70MHz"/>
 <attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="3.2A"/>
-<attribute name="ISAT1" value="1.35A@10%"/>
-<attribute name="ISAT2" value="3.05A@30%"/>
-<attribute name="L" value="1.5uH"/>
 <attribute name="LENGTH" value="2.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479288215"/>
-<attribute name="RDC-MAX" value="77mOhm"/>
 <attribute name="SIZE" value="252012"/>
-<attribute name="VALUE" value="1.5uH"/>
+<attribute name="VALUE" value="1.5 uH"/>
 <attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479288215"/>
+<attribute name="INDUCTANCE" value="1.5 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3.5 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.6 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="3.5 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="63 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="60 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479288215?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 <technology name="_74479288222">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479288222?ae"/>
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="50MHz"/>
 <attribute name="HEIGHT" value="1.2mm"/>
-<attribute name="IR" value="3A"/>
-<attribute name="ISAT1" value="1.4A@10%"/>
-<attribute name="ISAT2" value="3.25A@30%"/>
-<attribute name="L" value="2.2uH"/>
 <attribute name="LENGTH" value="2.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479288222"/>
-<attribute name="RDC-MAX" value="89mOhm"/>
 <attribute name="SIZE" value="252012"/>
-<attribute name="VALUE" value="2.2uH"/>
+<attribute name="VALUE" value="2.2 uH"/>
 <attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479288222"/>
+<attribute name="INDUCTANCE" value="2.2 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.4 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="3.25 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="89 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="50 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479288222?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479288247">
+<attribute name="FI" value="0.6mm"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="252012"/>
+<attribute name="VALUE" value="4.7 uH"/>
+<attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479288247"/>
+<attribute name="INDUCTANCE" value="4.7 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="2A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="0.9@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="2@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="180 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="35 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479288247?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WE-PMCI_252010" prefix="L">
-<description>&lt;b&gt;WE-PMCI Power Molded Chip Inductor&lt;br&gt;
+<deviceset name="WE-PMCI_322512" urn="urn:adsk.eagle:component:14283816/8" prefix="L">
+<description>WE-PMCI Power Molded Chip Inductor
 Shielded
 
-&lt;/b&gt;&lt;P&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
-&lt;br&gt;Very compact design
-&lt;br&gt;High efficiency due to low total losses
-&lt;br&gt;High rated current values, up to 9.05 And high saturation currents
-&lt;br&gt;Low RDC-values, starting at 21 mΩ
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Side termination for best soldering result
-&lt;br&gt;Operating temperature: –40 °C to +125 °C
-&lt;br&gt;Recommended soldering profile: Reflow
+Characteristics
+Very compact design
+High efficiency due to low total losses
+High rated current values, up to 9.05 And high saturation currents
+Low RDC-values, starting at 21 mΩ
+Magnetically shielded construction
+Side termination for best soldering result
+Operating temperature: –40 °C to +125 °C
+Recommended soldering profile: Reflow
 
-&lt;P&gt;&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
-&lt;br&gt;DC/DC converters especially at high switching frequencies &gt; 1 MHz
-&lt;br&gt;High current power supply, Battery powered devices
-&lt;br&gt;Powerable electronic devices with very low profile
-&lt;br&gt;Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMCI&lt;/a&gt;&lt;p&gt;
+Applications
+DC/DC converters especially at high switching frequencies &gt; 1 MHz
+High current power supply, Battery powered devices
+Powerable electronic devices with very low profile
+Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
 
- Updated by Ella 2025-03-12
-&lt;br&gt;2025 (C) Würth Elektronik</description>
+Updated by Ella 2025-03-12
+2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WE-PMCI_252010">
+<device name="" package="WE-PMCI_322512">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010238/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010235/7"/>
 </package3dinstances>
 <technologies>
-<technology name="_74479287147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479287147?ae"/>
+<technology name="_74479299147">
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="150MHz"/>
-<attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="7.35A"/>
-<attribute name="ISAT1" value="3.6A@10%"/>
-<attribute name="ISAT2" value="7.4A@30%"/>
-<attribute name="L" value="0.47uH"/>
-<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479287147"/>
-<attribute name="RDC-MAX" value="29mOhm"/>
-<attribute name="SIZE" value="252010"/>
-<attribute name="VALUE" value="0.47uH"/>
-<attribute name="WIDTH" value="2mm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="0.47 uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
+<attribute name="MPN" value="74479299147"/>
+<attribute name="INDUCTANCE" value="0.47 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="7.1 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="5.15 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="9.95 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="22 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="90 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479299147?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
-<technology name="_74479287210">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479287210?ae"/>
+<technology name="_74479299210">
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="85MHz"/>
-<attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="4.9A"/>
-<attribute name="ISAT1" value="2.4A@10%"/>
-<attribute name="ISAT2" value="5.1A@30%"/>
-<attribute name="L" value="1uH"/>
-<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479287210"/>
-<attribute name="RDC-MAX" value="52mOhm"/>
-<attribute name="SIZE" value="252010"/>
-<attribute name="VALUE" value="1uH"/>
-<attribute name="WIDTH" value="2mm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="1 uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
+<attribute name="MPN" value="74479299210"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="6.2 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="3.25 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="6.95 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="35 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="60 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479299210?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
-<technology name="_74479287222">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479287222?ae"/>
+<technology name="_74479299222">
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="40MHz"/>
-<attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="3.15A"/>
-<attribute name="ISAT1" value="1.5A@10%"/>
-<attribute name="ISAT2" value="3.1A@30%"/>
-<attribute name="L" value="2.2uH"/>
-<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="HEIGHT" value="1.2mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479287222"/>
-<attribute name="RDC-MAX" value="110mOhm"/>
-<attribute name="SIZE" value="252010"/>
-<attribute name="VALUE" value="2.2uH"/>
-<attribute name="WIDTH" value="2mm"/>
+<attribute name="SIZE" value="322512"/>
+<attribute name="VALUE" value="2.2 uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
+<attribute name="MPN" value="74479299222"/>
+<attribute name="INDUCTANCE" value="2.2 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3.65 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="2.25 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="4.8 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="75 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="35 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479299222?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WE-PMCI_201610" prefix="L">
-<description>&lt;b&gt;WE-PMCI Power Molded Chip Inductor&lt;br&gt;
+<deviceset name="WE-PMCI_160808" urn="urn:adsk.eagle:component:14283815/9" prefix="L">
+<description>WE-PMCI Power Molded Chip Inductor
 Shielded
 
-&lt;/b&gt;&lt;P&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
-&lt;br&gt;Very compact design
-&lt;br&gt;High efficiency due to low total losses
-&lt;br&gt;High rated current values, up to 9.05 And high saturation currents
-&lt;br&gt;Low RDC-values, starting at 21 mΩ
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Side termination for best soldering result
-&lt;br&gt;Operating temperature: –40 °C to +125 °C
-&lt;br&gt;Recommended soldering profile: Reflow
+Characteristics
+Very compact design
+High efficiency due to low total losses
+High rated current values, up to 9.05 And high saturation currents
+Low RDC-values, starting at 21 mΩ
+Magnetically shielded construction
+Side termination for best soldering result
+Operating temperature: –40 °C to +125 °C
+Recommended soldering profile: Reflow
 
-&lt;P&gt;&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
-&lt;br&gt;DC/DC converters especially at high switching frequencies &gt; 1 MHz
-&lt;br&gt;High current power supply, Battery powered devices
-&lt;br&gt;Powerable electronic devices with very low profile
-&lt;br&gt;Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMCI&lt;/a&gt;&lt;p&gt;
+Applications
+DC/DC converters especially at high switching frequencies &gt; 1 MHz
+High current power supply, Battery powered devices
+Powerable electronic devices with very low profile
+Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
 
- Updated by Ella 2025-03-12
-&lt;br&gt;2025 (C) Würth Elektronik</description>
+Updated by Ella 2025-03-12
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PMCI_160808">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010242/9"/>
+</package3dinstances>
+<technologies>
+<technology name="_74479262147">
+<attribute name="FI" value="0.3mm"/>
+<attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="1.6mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="160808"/>
+<attribute name="VALUE" value="0.47 uH"/>
+<attribute name="WIDTH" value="0.8mm"/>
+<attribute name="MPN" value="74479262147"/>
+<attribute name="INDUCTANCE" value="0.47 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3.95 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.5 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="3.35 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="75 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="120 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479262147?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479262210">
+<attribute name="FI" value="0.3mm"/>
+<attribute name="HEIGHT" value="0.8mm"/>
+<attribute name="LENGTH" value="1.6mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="160808"/>
+<attribute name="VALUE" value="1 uH"/>
+<attribute name="WIDTH" value="0.8mm"/>
+<attribute name="MPN" value="74479262210"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="2.6 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.2 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="2.6 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="115 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="90 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479262210?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PMCI_201610" urn="urn:adsk.eagle:component:14283812/8" prefix="L">
+<description>WE-PMCI Power Molded Chip Inductor
+Shielded
+
+Characteristics
+Very compact design
+High efficiency due to low total losses
+High rated current values, up to 9.05 And high saturation currents
+Low RDC-values, starting at 21 mΩ
+Magnetically shielded construction
+Side termination for best soldering result
+Operating temperature: –40 °C to +125 °C
+Recommended soldering profile: Reflow
+
+Applications
+DC/DC converters especially at high switching frequencies &gt; 1 MHz
+High current power supply, Battery powered devices
+Powerable electronic devices with very low profile
+Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
+
+Updated by Ella 2026-09-17
+2026 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
@@ -983,176 +707,187 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_mod
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010240/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010240/7"/>
 </package3dinstances>
 <technologies>
 <technology name="_74479276124">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479276124?ae"/>
 <attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="280MHz"/>
 <attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="6.9A"/>
-<attribute name="ISAT1" value="2.8A@10%"/>
-<attribute name="ISAT2" value="6.7A@30%"/>
-<attribute name="L" value="0.24uH"/>
 <attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479276124"/>
-<attribute name="RDC-MAX" value="21mOhm"/>
 <attribute name="SIZE" value="201610"/>
-<attribute name="VALUE" value="0.24uH"/>
+<attribute name="VALUE" value="0.24 uH"/>
 <attribute name="WIDTH" value="1.6mm"/>
+<attribute name="MPN" value="74479276124"/>
+<attribute name="INDUCTANCE" value="0.24 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="6.9 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="2.8 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="6.7 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="21 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="280 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479276124?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 <technology name="_74479276147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479276147?ae"/>
 <attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="165MHz"/>
 <attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="5.4A"/>
-<attribute name="ISAT1" value="2.95A@10%"/>
-<attribute name="ISAT2" value="6.3A@30%"/>
-<attribute name="L" value="0.47uH"/>
 <attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479276147"/>
-<attribute name="RDC-MAX" value="30mOhm"/>
 <attribute name="SIZE" value="201610"/>
-<attribute name="VALUE" value="0.47uH"/>
+<attribute name="VALUE" value="0.47 uH"/>
 <attribute name="WIDTH" value="1.6mm"/>
-</technology>
-<technology name="_74479276147C">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479276147C?ae"/>
-<attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="165MHz"/>
-<attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="5.4A"/>
-<attribute name="ISAT1" value="2.95A@10%"/>
-<attribute name="ISAT2" value="6.3A@30%"/>
-<attribute name="L" value="0.47uH"/>
-<attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479276147C"/>
-<attribute name="RDC-MAX" value="30mOhm"/>
-<attribute name="SIZE" value=" 201610 "/>
-<attribute name="VALUE" value="0.47uH"/>
-<attribute name="WIDTH" value="1.6mm"/>
+<attribute name="MPN" value="74479276147"/>
+<attribute name="INDUCTANCE" value="0.47 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="5.4 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="2.95 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="6.3 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="30 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="165 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479276147?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 <technology name="_74479276168">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479276168?ae"/>
 <attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="130MHz"/>
 <attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="3.8A"/>
-<attribute name="ISAT1" value="1.8A@10%"/>
-<attribute name="ISAT2" value="4A@30%"/>
-<attribute name="L" value="0.68uH"/>
 <attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479276168"/>
-<attribute name="RDC-MAX" value="49mOhm"/>
 <attribute name="SIZE" value="201610"/>
-<attribute name="VALUE" value="0.68uH"/>
+<attribute name="VALUE" value="0.68 uH"/>
 <attribute name="WIDTH" value="1.6mm"/>
+<attribute name="MPN" value="74479276168"/>
+<attribute name="INDUCTANCE" value="0.68 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3.8 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.8 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="4 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="49 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="130 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479276168?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 <technology name="_74479276210">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479276210?ae"/>
 <attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="95MHz"/>
 <attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="3.15A"/>
-<attribute name="ISAT1" value="1.95A@10%"/>
-<attribute name="ISAT2" value="4.25A@30%"/>
-<attribute name="L" value="1uH"/>
 <attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479276210"/>
-<attribute name="RDC-MAX" value="60mOhm"/>
 <attribute name="SIZE" value="201610"/>
-<attribute name="VALUE" value="1uH"/>
+<attribute name="VALUE" value="1 uH"/>
 <attribute name="WIDTH" value="1.6mm"/>
-</technology>
-<technology name="_74479276210C">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479276210C?ae"/>
-<attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="95MHz"/>
-<attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="3.15A"/>
-<attribute name="ISAT1" value="1.95A@10%"/>
-<attribute name="ISAT2" value="4.25A@30%"/>
-<attribute name="L" value="1uH"/>
-<attribute name="LENGTH" value="2mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479276210C"/>
-<attribute name="RDC-MAX" value="60mOhm"/>
-<attribute name="SIZE" value=" 201610 "/>
-<attribute name="VALUE" value="1uH"/>
-<attribute name="WIDTH" value="1.6mm"/>
+<attribute name="MPN" value="74479276210"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3.15 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.95 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="4.25 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="60 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="95 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479276210?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 <technology name="_74479276222">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479276222?ae"/>
 <attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="60MHz"/>
 <attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="2.1A"/>
-<attribute name="ISAT1" value="1.25A@10%"/>
-<attribute name="ISAT2" value="2.8A@30%"/>
-<attribute name="L" value="2.2uH"/>
 <attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479276222"/>
-<attribute name="RDC-MAX" value="140mOhm"/>
 <attribute name="SIZE" value="201610"/>
-<attribute name="VALUE" value="2.2uH"/>
+<attribute name="VALUE" value="2.2 uH"/>
 <attribute name="WIDTH" value="1.6mm"/>
+<attribute name="MPN" value="74479276222"/>
+<attribute name="INDUCTANCE" value="2.2 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="2.1 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.25 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="2.8 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="140 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="60 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479276222?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
-<technology name="_74479276222C">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479276222C?ae"/>
+<technology name="_74479276110">
 <attribute name="FI" value="0.5mm"/>
-<attribute name="FRES" value="60MHz"/>
 <attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="2.1A"/>
-<attribute name="ISAT1" value="1.25A@10%"/>
-<attribute name="ISAT2" value="2.8A@30%"/>
-<attribute name="L" value="2.2uH"/>
 <attribute name="LENGTH" value="2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479276222C"/>
-<attribute name="RDC-MAX" value="140mOhm"/>
-<attribute name="SIZE" value=" 201610 "/>
-<attribute name="VALUE" value="2.2uH"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="0.1 uH"/>
 <attribute name="WIDTH" value="1.6mm"/>
+<attribute name="MPN" value="74479276110"/>
+<attribute name="INDUCTANCE" value="0.1 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="12A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="5.8@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="11.5@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="11 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="460 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479276110?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479276215">
+<attribute name="FI" value="0.5mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="1.5 uH"/>
+<attribute name="WIDTH" value="1.6mm"/>
+<attribute name="MPN" value="74479276215"/>
+<attribute name="INDUCTANCE" value="1.5 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="2.6A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.3@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="2.7@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="99 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="85 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479276215?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479276247">
+<attribute name="FI" value="0.5mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="201610"/>
+<attribute name="VALUE" value="4.7 uH"/>
+<attribute name="WIDTH" value="1.6mm"/>
+<attribute name="MPN" value="74479276247"/>
+<attribute name="INDUCTANCE" value="4.7 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="1.5A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="0.8@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="1.7@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="288 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="48 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479276247?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WE-PMCI_322510" prefix="L">
-<description>&lt;b&gt;WE-PMCI Power Molded Chip Inductor&lt;br&gt;
+<deviceset name="WE-PMCI_322510" urn="urn:adsk.eagle:component:14283817/8" prefix="L">
+<description>WE-PMCI Power Molded Chip Inductor
 Shielded
 
-&lt;/b&gt;&lt;P&gt;&lt;B&gt;Characteristics&lt;/B&gt;&lt;br&gt;
-&lt;br&gt;Very compact design
-&lt;br&gt;High efficiency due to low total losses
-&lt;br&gt;High rated current values, up to 9.05 And high saturation currents
-&lt;br&gt;Low RDC-values, starting at 21 mΩ
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Side termination for best soldering result
-&lt;br&gt;Operating temperature: –40 °C to +125 °C
-&lt;br&gt;Recommended soldering profile: Reflow
+Characteristics
+Very compact design
+High efficiency due to low total losses
+High rated current values, up to 9.05 And high saturation currents
+Low RDC-values, starting at 21 mΩ
+Magnetically shielded construction
+Side termination for best soldering result
+Operating temperature: –40 °C to +125 °C
+Recommended soldering profile: Reflow
 
-&lt;P&gt;&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
-&lt;br&gt;DC/DC converters especially at high switching frequencies &gt; 1 MHz
-&lt;br&gt;High current power supply, Battery powered devices
-&lt;br&gt;Powerable electronic devices with very low profile
-&lt;br&gt;Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o55384v209%20Family-PMCI-744792XXXXX.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-PMCI&lt;/a&gt;&lt;p&gt;
+Applications
+DC/DC converters especially at high switching frequencies &gt; 1 MHz
+High current power supply, Battery powered devices
+Powerable electronic devices with very low profile
+Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
 
- Updated by Ella 2025-03-12
-&lt;br&gt;2025 (C) Würth Elektronik</description>
+Updated by Ella 2025-03-12
+2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
@@ -1163,59 +898,353 @@ Details see: &lt;a href="www.we-online.com/catalog/WE-PMCI/?utm_source=eagle_mod
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13010236/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010236/7"/>
 </package3dinstances>
 <technologies>
 <technology name="_74479298147">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479298147?ae"/>
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="90MHz"/>
 <attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="7.3A"/>
-<attribute name="ISAT1" value="2.8A@10%"/>
-<attribute name="ISAT2" value="5.9A@30%"/>
-<attribute name="L" value="0.47uH"/>
 <attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479298147"/>
-<attribute name="RDC-MAX" value="22mOhm"/>
 <attribute name="SIZE" value="322510"/>
-<attribute name="VALUE" value="0.47uH"/>
+<attribute name="VALUE" value="0.47 uH"/>
 <attribute name="WIDTH" value="2.5mm"/>
+<attribute name="MPN" value="74479298147"/>
+<attribute name="INDUCTANCE" value="0.47 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="7.3 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="2.8 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.9 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="22 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="90 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479298147?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 <technology name="_74479298210">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479298210?ae"/>
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="60MHz"/>
 <attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="4.95A"/>
-<attribute name="ISAT1" value="2.7A@10%"/>
-<attribute name="ISAT2" value="5.5A@30%"/>
-<attribute name="L" value="1uH"/>
 <attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479298210"/>
-<attribute name="RDC-MAX" value="49mOhm"/>
 <attribute name="SIZE" value="322510"/>
-<attribute name="VALUE" value="1uH"/>
+<attribute name="VALUE" value="1 uH"/>
 <attribute name="WIDTH" value="2.5mm"/>
+<attribute name="MPN" value="74479298210"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="4.95 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="2.7 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.5 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="49 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="60 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479298210?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 <technology name="_74479298222">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74479298222?ae"/>
 <attribute name="FI" value="0.6mm"/>
-<attribute name="FRES" value="35MHz"/>
 <attribute name="HEIGHT" value="1mm"/>
-<attribute name="IR" value="3.35A"/>
-<attribute name="ISAT1" value="1.65A@10%"/>
-<attribute name="ISAT2" value="3.95A@30%"/>
-<attribute name="L" value="2.2uH"/>
 <attribute name="LENGTH" value="3.2mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="74479298222"/>
-<attribute name="RDC-MAX" value="93mOhm"/>
 <attribute name="SIZE" value="322510"/>
-<attribute name="VALUE" value="2.2uH"/>
+<attribute name="VALUE" value="2.2 uH"/>
 <attribute name="WIDTH" value="2.5mm"/>
+<attribute name="MPN" value="74479298222"/>
+<attribute name="INDUCTANCE" value="2.2 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3.35 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.65 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="3.95 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="93 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="35 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479298222?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PMCI_252010" urn="urn:adsk.eagle:component:14283811/8" prefix="L">
+<description>WE-PMCI Power Molded Chip Inductor
+Shielded
+
+Characteristics
+Very compact design
+High efficiency due to low total losses
+High rated current values, up to 9.05 And high saturation currents
+Low RDC-values, starting at 21 mΩ
+Magnetically shielded construction
+Side termination for best soldering result
+Operating temperature: –40 °C to +125 °C
+Recommended soldering profile: Reflow
+
+Applications
+DC/DC converters especially at high switching frequencies &gt; 1 MHz
+High current power supply, Battery powered devices
+Powerable electronic devices with very low profile
+Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
+
+Updated by Ella 2026-09-17
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PMCI_252010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010238/7"/>
+</package3dinstances>
+<technologies>
+<technology name="_74479287147">
+<attribute name="FI" value="0.6mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="252010"/>
+<attribute name="VALUE" value="0.47 uH"/>
+<attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479287147"/>
+<attribute name="INDUCTANCE" value="0.47 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="7.35 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="3.6 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="7.4 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="29 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="150 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479287147?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479287210">
+<attribute name="FI" value="0.6mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="252010"/>
+<attribute name="VALUE" value="1 uH"/>
+<attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479287210"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="4.9 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="2.4 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.1 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="52 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="85 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479287210?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479287222">
+<attribute name="FI" value="0.6mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="252010"/>
+<attribute name="VALUE" value="2.2 uH"/>
+<attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479287222"/>
+<attribute name="INDUCTANCE" value="2.2 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3.15 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.5 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="3.1 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="110 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="40 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479287222?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479287215">
+<attribute name="FI" value="0.6mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="252010"/>
+<attribute name="VALUE" value="1.5 uH"/>
+<attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479287215"/>
+<attribute name="INDUCTANCE" value="1.5 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3.4A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.6@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="3.4@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="72 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="60 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479287215?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479287247">
+<attribute name="FI" value="0.6mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="252010"/>
+<attribute name="VALUE" value="4.7 uH"/>
+<attribute name="WIDTH" value="2mm"/>
+<attribute name="MPN" value="74479287247"/>
+<attribute name="INDUCTANCE" value="4.7 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="1.8A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="0.9@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="2@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="240 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="35 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479287247?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PMCI_201210" urn="urn:adsk.eagle:component:14283813/8" prefix="L">
+<description>WE-PMCI Power Molded Chip Inductor
+Shielded
+
+Characteristics
+Very compact design
+High efficiency due to low total losses
+High rated current values, up to 9.05 And high saturation currents
+Low RDC-values, starting at 21 mΩ
+Magnetically shielded construction
+Side termination for best soldering result
+Operating temperature: –40 °C to +125 °C
+Recommended soldering profile: Reflow
+
+Applications
+DC/DC converters especially at high switching frequencies &gt; 1 MHz
+High current power supply, Battery powered devices
+Powerable electronic devices with very low profile
+Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
+
+Updated by Ella 2025-03-12
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PMCI_201210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010241/8"/>
+</package3dinstances>
+<technologies>
+<technology name="_74479275147">
+<attribute name="FI" value="0.5mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="201210"/>
+<attribute name="VALUE" value="0.47 uH"/>
+<attribute name="WIDTH" value="1.25mm"/>
+<attribute name="MPN" value="74479275147"/>
+<attribute name="INDUCTANCE" value="0.47 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="4.3 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="2.55 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.15 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="44 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="120 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479275147?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479275210">
+<attribute name="FI" value="0.5mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="201210"/>
+<attribute name="VALUE" value="1 uH"/>
+<attribute name="WIDTH" value="1.25mm"/>
+<attribute name="MPN" value="74479275210"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="3.3 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.55 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="3.45 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="75 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="120 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479275210?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+<technology name="_74479275222">
+<attribute name="FI" value="0.5mm"/>
+<attribute name="HEIGHT" value="1mm"/>
+<attribute name="LENGTH" value="2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="201210"/>
+<attribute name="VALUE" value="2.2 uH"/>
+<attribute name="WIDTH" value="1.25mm"/>
+<attribute name="MPN" value="74479275222"/>
+<attribute name="INDUCTANCE" value="2.2 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="2 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="1.2 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="2.4 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="190 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="45 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479275222?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PMCI_322515" urn="urn:adsk.eagle:component:47382167/3" prefix="L">
+<description>WE-PMCI Power Molded Chip Inductor
+Shielded
+
+Characteristics
+Very compact design
+High efficiency due to low total losses
+High rated current values, up to 9.05 And high saturation currents
+Low RDC-values, starting at 21 mΩ
+Magnetically shielded construction
+Side termination for best soldering result
+Operating temperature: –40 °C to +125 °C
+Recommended soldering profile: Reflow
+
+Applications
+DC/DC converters especially at high switching frequencies &gt; 1 MHz
+High current power supply, Battery powered devices
+Powerable electronic devices with very low profile
+Portable devices like Smart Phones, Tablets, Notebooks and Digital Cameras
+
+Updated by Ella 2025-03-12
+2025 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PMCI_322515">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13010234/7"/>
+</package3dinstances>
+<technologies>
+<technology name="_74479290125">
+<attribute name="FI" value="0.6mm"/>
+<attribute name="HEIGHT" value="1.5mm"/>
+<attribute name="LENGTH" value="3.2mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="322515"/>
+<attribute name="VALUE" value="0.25 uH"/>
+<attribute name="WIDTH" value="2.5mm"/>
+<attribute name="MPN" value="74479290125"/>
+<attribute name="INDUCTANCE" value="0.25 uH"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="9.05 A@40K"/>
+<attribute name="SATURATION_CURRENT_1" value="8.5 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="15.65 A@30%"/>
+<attribute name="DC_RESISTANCE_MAX" value="31 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="150 MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74479290125?ae"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 </technology>
 </technologies>
 </device>

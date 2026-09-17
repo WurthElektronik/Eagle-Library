@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -47,7 +47,7 @@
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -59,181 +59,31 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - EMC Components - Ferrites For PCB Assembly - WE-PBF&lt;br&gt;&lt;Hr&gt;
+<description>Würth Elektronik - Passive Components - EMC Components - Ferrites For PCB Assembly - WE-PBF
 
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, 
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. 
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. 
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. 
 
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+Please contact us for more information: libraries@we-online.com 
 
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
+Würth Elektronik eiSos GmbH &amp; Co. KG
+EMC &amp; Inductive Solutions
+www.we-online.com
 
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2021a, 2021-08-17&lt;br&gt;
-&lt;HR&gt;
+Fusion360, Library Revision 2026a, 2026-09-17
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-PBF_4030_5X3X3.1(LXWXH)" urn="urn:adsk.eagle:footprint:7784258/4">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 4030, SMT, 2pins
-&lt;br&gt;L X W X H X FI=5mmX3mmX3.1mmX1.5mm</description>
-<wire x1="-2.5" y1="1.5" x2="-2.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="2.5" y1="1.5" x2="2.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-2.6" y1="1.6" x2="2.6" y2="1.6" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="-1.6" x2="2.6" y2="-1.6" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="1.035" x2="-2.6" y2="1.6" width="0.2" layer="21"/>
-<wire x1="2.6" y1="1.035" x2="2.6" y2="1.6" width="0.2" layer="21"/>
-<wire x1="2.6" y1="-1.035" x2="2.6" y2="-1.6" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="-1.035" x2="-2.6" y2="-1.6" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="2.5" y1="-1.5" x2="-2.5" y2="-1.5" width="0.1" layer="51"/>
-<smd name="1" x="-1.8" y="0" dx="3" dy="1.47" layer="1"/>
-<smd name="2" x="1.8" y="0" dx="3" dy="1.47" layer="1"/>
-<text x="0" y="2.1" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-2.2" y="-3" size="0.8128" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-3.5" y="1.8"/>
-<vertex x="3.5" y="1.8"/>
-<vertex x="3.5" y="-1.8"/>
-<vertex x="-3.5" y="-1.8"/>
-</polygon>
-</package>
-<package name="WE-PBF_4030_4X3X2.5(LXWXH)" urn="urn:adsk.eagle:footprint:7784255/4">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 4030, SMT, 2pins
-&lt;br&gt;L X W X H X FI=4mmX3mmX2.5mmX1.3mm</description>
-<smd name="1" x="-2.675" y="0" dx="3.25" dy="4.1" layer="1"/>
-<smd name="2" x="2.675" y="0" dx="3.25" dy="4.1" layer="1"/>
-<wire x1="-2.45" y1="1.5" x2="2.45" y2="1.5" width="0.1" layer="51"/>
-<wire x1="2.45" y1="1.5" x2="2.45" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="2.45" y1="-1.5" x2="-2.45" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-2.45" y1="-1.5" x2="-2.45" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-0.75" y1="1.6" x2="0.75" y2="1.6" width="0.2" layer="21"/>
-<wire x1="-0.75" y1="-1.6" x2="0.75" y2="-1.6" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-4.5" y="2.25"/>
-<vertex x="4.5" y="2.25"/>
-<vertex x="4.5" y="-2.25"/>
-<vertex x="-4.5" y="-2.25"/>
-</polygon>
-<text x="0" y="2.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.6" y="-3.9" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WE-PBF_8530" urn="urn:adsk.eagle:footprint:7784295/4">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 8530, SMT, 2pins
-&lt;br&gt;L X W X H X FI=8.5mmX3mmX2.55mmX1.45mm</description>
-<wire x1="-4.85" y1="1.6" x2="4.85" y2="1.6" width="0.127" layer="21"/>
-<wire x1="-4.85" y1="-1.6" x2="4.85" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-4.85" y1="1.035" x2="-4.85" y2="1.6" width="0.127" layer="21"/>
-<wire x1="4.85" y1="1.035" x2="4.85" y2="1.6" width="0.127" layer="21"/>
-<wire x1="4.85" y1="-1.035" x2="4.85" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-4.85" y1="-1.035" x2="-4.85" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-4.75" y1="1.5" x2="4.75" y2="1.5" width="0.1" layer="51"/>
-<wire x1="4.75" y1="1.5" x2="4.75" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="4.75" y1="-1.5" x2="-4.75" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-4.75" y1="-1.5" x2="-4.75" y2="1.5" width="0.1" layer="51"/>
-<smd name="1" x="-4" y="0" dx="3" dy="1.47" layer="1"/>
-<smd name="2" x="4" y="0" dx="3" dy="1.47" layer="1"/>
-<text x="0.19" y="2.18" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.41" y="-3.38" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-5.7" y="1.8"/>
-<vertex x="5.7" y="1.8"/>
-<vertex x="5.7" y="-1.8"/>
-<vertex x="-5.7" y="-1.8"/>
-</polygon>
-</package>
-<package name="WE-PBF_3029" urn="urn:adsk.eagle:footprint:7784275/4">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 3029, SMT, 2pins
-&lt;br&gt;L X W X H X FI=3.1mmX2.9mmX2.41mmX0.8mm</description>
-<smd name="1" x="-1.8" y="0" dx="1.6" dy="1.2" layer="1"/>
-<smd name="2" x="1.8" y="0" dx="1.6" dy="1.2" layer="1"/>
-<wire x1="-1.55" y1="1.45" x2="1.55" y2="1.45" width="0.1" layer="51"/>
-<wire x1="1.55" y1="1.45" x2="1.55" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="1.55" y1="-1.45" x2="-1.55" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="-1.55" y1="-1.45" x2="-1.55" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-1.65" y1="0.9" x2="-1.65" y2="1.55" width="0.2" layer="21"/>
-<wire x1="-1.65" y1="1.55" x2="1.65" y2="1.55" width="0.2" layer="21"/>
-<wire x1="1.65" y1="1.55" x2="1.65" y2="0.9" width="0.2" layer="21"/>
-<wire x1="-1.65" y1="-0.9" x2="-1.65" y2="-1.55" width="0.2" layer="21"/>
-<wire x1="-1.65" y1="-1.55" x2="1.65" y2="-1.55" width="0.2" layer="21"/>
-<wire x1="1.65" y1="-1.55" x2="1.65" y2="-0.9" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-2.8" y="1.75"/>
-<vertex x="2.8" y="1.75"/>
-<vertex x="2.8" y="-1.75"/>
-<vertex x="-2.8" y="-1.75"/>
-</polygon>
-<text x="-0.1" y="2" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-2.3" y="-2.9" size="0.8128" layer="27">&gt;VALUE</text>
-</package>
-<package name="WE-PBF_7847" urn="urn:adsk.eagle:footprint:7784315/4">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 7847, SMT, 2pins
-&lt;br&gt;L X W X H X FI=7.8mmX4.75mmX3mmX1.45mm</description>
+<package name="WE-PBF_7847" urn="urn:adsk.eagle:footprint:7784315/5">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+
+Size: 7847, SMT, 2pins
+LXWXHXFI=8.8mmX4.75mmX3.55mmX1.45mm</description>
 <wire x1="-4.5" y1="2.475" x2="4.5" y2="2.475" width="0.2" layer="21"/>
 <wire x1="-4.5" y1="-2.475" x2="4.5" y2="-2.475" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="1.035" x2="-4.5" y2="2.475" width="0.2" layer="21"/>
@@ -246,60 +96,163 @@ Copyright: Würth Elektronik</description>
 <wire x1="-4.4" y1="-2.375" x2="-4.4" y2="2.375" width="0.1" layer="51"/>
 <smd name="1" x="-3.65" y="0" dx="3" dy="1.47" layer="1"/>
 <smd name="2" x="3.65" y="0" dx="3" dy="1.47" layer="1"/>
-<text x="-0.1" y="2.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.2" y="-4.18" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.127" layer="39">
-<vertex x="-5.4" y="2.525"/>
-<vertex x="5.4" y="2.525"/>
-<vertex x="5.4" y="-2.525"/>
-<vertex x="-5.4" y="-2.525"/>
+<text x="0" y="2.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.18" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.127" layer="39" pour="solid">
+<vertex x="-5.2865" y="-2.6115"/>
+<vertex x="5.2865" y="-2.6115"/>
+<vertex x="5.2865" y="2.6115"/>
+<vertex x="-5.2865" y="2.6115"/>
+</polygon>
+</package>
+<package name="WE-PBF_3029" urn="urn:adsk.eagle:footprint:7784275/5">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+
+Size: 3029, SMT, 2pins
+LXWXHXFI=3.1mmX2.9mmX2.41mmX0.8mm</description>
+<smd name="1" x="-1.55" y="0" dx="1.6" dy="1.2" layer="1"/>
+<smd name="2" x="1.55" y="0" dx="1.6" dy="1.2" layer="1"/>
+<wire x1="-1.55" y1="1.45" x2="1.55" y2="1.45" width="0.1" layer="51"/>
+<wire x1="1.55" y1="1.45" x2="1.55" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="1.55" y1="-1.45" x2="-1.55" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="-1.45" x2="-1.55" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-1.65" y1="0.9" x2="-1.65" y2="1.55" width="0.2" layer="21"/>
+<wire x1="-1.65" y1="1.55" x2="1.65" y2="1.55" width="0.2" layer="21"/>
+<wire x1="1.65" y1="1.55" x2="1.65" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-1.65" y1="-0.9" x2="-1.65" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="-1.65" y1="-1.55" x2="1.65" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="1.65" y1="-1.55" x2="1.65" y2="-0.9" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-2.5" y="-1.7"/>
+<vertex x="2.5" y="-1.7"/>
+<vertex x="2.5" y="1.7"/>
+<vertex x="-2.5" y="1.7"/>
+</polygon>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-PBF_4030_L4.9W3H2.5" urn="urn:adsk.eagle:footprint:7784255/5">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+
+Size: 4030, SMT, 2pins
+LXWXHXFI=4.9mmX3mmX2.5mmX1.3mm</description>
+<smd name="1" x="-2.675" y="0" dx="3.25" dy="4.1" layer="1"/>
+<smd name="2" x="2.675" y="0" dx="3.25" dy="4.1" layer="1"/>
+<wire x1="-2.45" y1="1.5" x2="2.45" y2="1.5" width="0.1" layer="51"/>
+<wire x1="2.45" y1="1.5" x2="2.45" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="2.45" y1="-1.5" x2="-2.45" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="-1.5" x2="-2.45" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="1.6" x2="0.75" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-0.75" y1="-1.6" x2="0.75" y2="-1.6" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-4.45" y="-2.2"/>
+<vertex x="4.45" y="-2.2"/>
+<vertex x="4.45" y="2.2"/>
+<vertex x="-4.45" y="2.2"/>
+</polygon>
+<text x="0" y="2.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-PBF_4030_L5W3H2.55" urn="urn:adsk.eagle:footprint:7784258/5">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+Size: 4030, SMT, 2pins
+LXWXHXFI=5mmX3mmX2.55mmX1.5mm</description>
+<wire x1="-2.5" y1="1.5" x2="-2.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="1.6" x2="2.6" y2="1.6" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-1.6" x2="2.6" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="1.035" x2="-2.6" y2="1.6" width="0.2" layer="21"/>
+<wire x1="2.6" y1="1.035" x2="2.6" y2="1.6" width="0.2" layer="21"/>
+<wire x1="2.6" y1="-1.035" x2="2.6" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-1.035" x2="-2.6" y2="-1.6" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-1.5" x2="-2.5" y2="-1.5" width="0.1" layer="51"/>
+<smd name="1" x="-1.8" y="0" dx="3" dy="1.47" layer="1"/>
+<smd name="2" x="1.8" y="0" dx="3" dy="1.47" layer="1"/>
+<text x="0" y="2.1" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-3.45" y="-1.75"/>
+<vertex x="3.45" y="-1.75"/>
+<vertex x="3.45" y="1.75"/>
+<vertex x="-3.45" y="1.75"/>
+</polygon>
+</package>
+<package name="WE-PBF_8530" urn="urn:adsk.eagle:footprint:7784295/5">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+
+Size: 8530, SMT, 2pins
+LXWXHXFI=9.5mmX3mmX2.55mmX1.45mm</description>
+<wire x1="-4.85" y1="1.6" x2="4.85" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-4.85" y1="-1.6" x2="4.85" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-4.85" y1="1.035" x2="-4.85" y2="1.6" width="0.127" layer="21"/>
+<wire x1="4.85" y1="1.035" x2="4.85" y2="1.6" width="0.127" layer="21"/>
+<wire x1="4.85" y1="-1.035" x2="4.85" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-4.85" y1="-1.035" x2="-4.85" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-4.75" y1="1.5" x2="4.75" y2="1.5" width="0.1" layer="51"/>
+<wire x1="4.75" y1="1.5" x2="4.75" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="4.75" y1="-1.5" x2="-4.75" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-4.75" y1="-1.5" x2="-4.75" y2="1.5" width="0.1" layer="51"/>
+<smd name="1" x="-4" y="0" dx="3" dy="1.47" layer="1"/>
+<smd name="2" x="4" y="0" dx="3" dy="1.47" layer="1"/>
+<text x="0" y="2.18" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.38" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-5.65" y="-1.75"/>
+<vertex x="5.65" y="-1.75"/>
+<vertex x="5.65" y="1.75"/>
+<vertex x="-5.65" y="1.75"/>
 </polygon>
 </package>
 </packages>
 <packages3d>
-<package3d name="WE-PBF_4030_4X3X2.5(LXWXH)" urn="urn:adsk.eagle:package:7784336/5" type="model">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 4030, SMT, 2pins
-&lt;br&gt;L X W X H X FI=4mmX3mmX2.5mmX1.3mm</description>
-<packageinstances>
-<packageinstance name="WE-PBF_4030_4X3X2.5(LXWXH)"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PBF_4030_5X3X3.1(LXWXH)" urn="urn:adsk.eagle:package:7784339/5" type="model">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 4030, SMT, 2pins
-&lt;br&gt;L X W X H X FI=5mmX3mmX3.1mmX1.5mm</description>
-<packageinstances>
-<packageinstance name="WE-PBF_4030_5X3X3.1(LXWXH)"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PBF_3029" urn="urn:adsk.eagle:package:7784356/5" type="model">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 3029, SMT, 2pins
-&lt;br&gt;L X W X H X FI=3.1mmX2.9mmX2.41mmX0.8mm</description>
-<packageinstances>
-<packageinstance name="WE-PBF_3029"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PBF_8530" urn="urn:adsk.eagle:package:7784366/5" type="model">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 8530, SMT, 2pins
-&lt;br&gt;L X W X H X FI=8.5mmX3mmX2.55mmX1.45mm</description>
-<packageinstances>
-<packageinstance name="WE-PBF_8530"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PBF_7847" urn="urn:adsk.eagle:package:7784386/5" type="model">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;/b&gt; Size: 7847, SMT, 2pins
-&lt;br&gt;L X W X H X FI=7.8mmX4.75mmX3mmX1.45mm</description>
+<package3d name="WE-PBF_7847" urn="urn:adsk.eagle:package:7784386/6" type="model">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+
+Size: 7847, SMT, 2pins
+LXWXHXFI=8.8mmX4.75mmX3.55mmX1.45mm</description>
 <packageinstances>
 <packageinstance name="WE-PBF_7847"/>
 </packageinstances>
 </package3d>
+<package3d name="WE-PBF_3029" urn="urn:adsk.eagle:package:7784356/6" type="model">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+
+Size: 3029, SMT, 2pins
+LXWXHXFI=3.1mmX2.9mmX2.41mmX0.8mm</description>
+<packageinstances>
+<packageinstance name="WE-PBF_3029"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PBF_4030_L5W3H2.55" urn="urn:adsk.eagle:package:7784339/6" type="model">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+Size: 4030, SMT, 2pins
+LXWXHXFI=5mmX3mmX2.55mmX1.5mm</description>
+<packageinstances>
+<packageinstance name="WE-PBF_4030_L5W3H2.55"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PBF_4030_L4.9W3H2.5" urn="urn:adsk.eagle:package:7784336/6" type="model">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+
+Size: 4030, SMT, 2pins
+LXWXHXFI=4.9mmX3mmX2.5mmX1.3mm</description>
+<packageinstances>
+<packageinstance name="WE-PBF_4030_L4.9W3H2.5"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PBF_8530" urn="urn:adsk.eagle:package:7784366/6" type="model">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+
+Size: 8530, SMT, 2pins
+LXWXHXFI=9.5mmX3mmX2.55mmX1.45mm</description>
+<packageinstances>
+<packageinstance name="WE-PBF_8530"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="L">
+<symbol name="L" urn="urn:adsk.eagle:symbol:14283185/1">
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -311,232 +264,24 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-PBF_4030" prefix="L">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flat wire
-&lt;br&gt; Suitable for applications with high currents up to 6 A
-&lt;br&gt; Glued version: High mechanical stability
-&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt; Voltage supply for high load current
-&lt;br&gt; Glued version: Especially for applications with permanent vibrations
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14824v209%20Family_WE-PBF.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o14824v209%20Family_WE-PBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;br&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-PBF"&gt;https://www.we-online.com/catalog/en/WE-PBF&lt;/a&gt;&lt;p&gt;
+<deviceset name="WE-PBF_7847" urn="urn:adsk.eagle:component:14283186/3" prefix="FB">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+Wired SMT Ferrite
 
+Characteristics
+Flat wire
+Suitable for applications with high currents up to 18 A
+Glued version: High mechanical stability
+Operating temperature: –55 ºC to +125 ºC
 
-Updated  by Ella Wu 2021-08-17&lt;br&gt;
-20121 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_5X3X3.1(LXWXH)" package="WE-PBF_4030_5X3X3.1(LXWXH)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7784339/5"/>
-</package3dinstances>
-<technologies>
-<technology name="_7427930">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427930.pdf"/>
-<attribute name="HEIGHT" value="2.55mm"/>
-<attribute name="IR" value="16A"/>
-<attribute name="LENGTH" value="5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7427930 "/>
-<attribute name="RDC-MAX" value="0.6mOhm"/>
-<attribute name="VALUE" value="42Ohm @100 MHz"/>
-<attribute name="WIDTH" value="3mm"/>
-<attribute name="Z" value="28Ohm @25 MHz"/>
-</technology>
-<technology name="_74279390">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279390.pdf"/>
-<attribute name="HEIGHT" value="2.55mm"/>
-<attribute name="IR" value="16A"/>
-<attribute name="LENGTH" value="4mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 74279390 "/>
-<attribute name="RDC-MAX" value="0.6mOhm"/>
-<attribute name="VALUE" value="42Ohm @100 MHz"/>
-<attribute name="WIDTH" value="3mm"/>
-<attribute name="Z" value="28Ohm @25 MHz"/>
-</technology>
-</technologies>
-</device>
-<device name="_4X3X2.5(LXWXH)" package="WE-PBF_4030_4X3X2.5(LXWXH)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7784336/5"/>
-</package3dinstances>
-<technologies>
-<technology name="_7427934">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427934.pdf"/>
-<attribute name="HEIGHT" value="2.5mm"/>
-<attribute name="IR" value="15A"/>
-<attribute name="LENGTH" value="4.8mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7427934 "/>
-<attribute name="RDC-MAX" value="0.6mOhm"/>
-<attribute name="VALUE" value="42Ohm @100 MHz"/>
-<attribute name="WIDTH" value="3mm"/>
-<attribute name="Z" value="28Ohm @25 MHz"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-PBF_3029" prefix="L">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flat wire
-&lt;br&gt; Suitable for applications with high currents up to 6 A
-&lt;br&gt; Glued version: High mechanical stability
-&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt; Voltage supply for high load current
-&lt;br&gt; Glued version: Especially for applications with permanent vibrations
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14824v209%20Family_WE-PBF.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o14824v209%20Family_WE-PBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;br&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-PBF"&gt;https://www.we-online.com/catalog/en/WE-PBF&lt;/a&gt;&lt;p&gt;
+Applications
+Voltage supply for high load current
+Glued version is specially designed for applications with permanent vibrations.
 
+Details see: www.we-online.com/components/products/WE-PBF
 
-Updated  by Ella Wu 2021-08-17&lt;br&gt;
-20121 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-PBF_3029">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7784356/5"/>
-</package3dinstances>
-<technologies>
-<technology name="_7427933">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427933.pdf"/>
-<attribute name="HEIGHT" value="2.41mm"/>
-<attribute name="IR" value="14A"/>
-<attribute name="LENGTH" value="3.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7427933 "/>
-<attribute name="RDC-MAX" value="0.6mOhm"/>
-<attribute name="VALUE" value="39Ohm @100 MHz"/>
-<attribute name="WIDTH" value="2.9mm"/>
-<attribute name="Z" value="23Ohm @25 MHz"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-PBF_8530" prefix="L">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flat wire
-&lt;br&gt; Suitable for applications with high currents up to 6 A
-&lt;br&gt; Glued version: High mechanical stability
-&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt; Voltage supply for high load current
-&lt;br&gt; Glued version: Especially for applications with permanent vibrations
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14824v209%20Family_WE-PBF.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o14824v209%20Family_WE-PBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;br&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-PBF"&gt;https://www.we-online.com/catalog/en/WE-PBF&lt;/a&gt;&lt;p&gt;
-
-
-Updated  by Ella Wu 2021-08-17&lt;br&gt;
-20121 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="L" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-PBF_8530">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7784366/5"/>
-</package3dinstances>
-<technologies>
-<technology name="_7427931">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427931.pdf"/>
-<attribute name="HEIGHT" value="2.55mm"/>
-<attribute name="IR" value="17A"/>
-<attribute name="LENGTH" value="8.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7427931 "/>
-<attribute name="RDC-MAX" value="0.9mOhm"/>
-<attribute name="VALUE" value="91Ohm @100 MHz"/>
-<attribute name="WIDTH" value="3mm"/>
-<attribute name="Z" value="58Ohm @25 MHz"/>
-</technology>
-<technology name="_74279391">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279391.pdf"/>
-<attribute name="HEIGHT" value="2.55mm"/>
-<attribute name="IR" value="17A"/>
-<attribute name="LENGTH" value="8.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 74279391 "/>
-<attribute name="RDC-MAX" value="0.9mOhm"/>
-<attribute name="VALUE" value="91Ohm @100 MHz"/>
-<attribute name="WIDTH" value="3mm"/>
-<attribute name="Z" value="58Ohm @25 MHz"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-PBF_7847">
-<description>&lt;b&gt;WE-PBF Flat Wire High Current SMT Ferrite Bead
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Flat wire
-&lt;br&gt; Suitable for applications with high currents up to 6 A
-&lt;br&gt; Glued version: High mechanical stability
-&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt; Voltage supply for high load current
-&lt;br&gt; Glued version: Especially for applications with permanent vibrations
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14824v209%20Family_WE-PBF.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o14824v209%20Family_WE-PBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-&lt;br&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-PBF"&gt;https://www.we-online.com/catalog/en/WE-PBF&lt;/a&gt;&lt;p&gt;
-
-
-Updated  by Ella Wu 2021-08-17&lt;br&gt;
-20121 (C) Wurth Elektronik</description>
+Updated by Ella 2021-08-17
+2021 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
@@ -547,32 +292,252 @@ Updated  by Ella Wu 2021-08-17&lt;br&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7784386/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784386/6"/>
 </package3dinstances>
 <technologies>
 <technology name="_7427932">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427932.pdf"/>
-<attribute name="HEIGHT" value="3mm"/>
-<attribute name="IR" value="18A"/>
-<attribute name="LENGTH" value="7.8mm"/>
+<attribute name="HEIGHT" value="3 mm"/>
+<attribute name="LENGTH" value="7.8 mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 7427932 "/>
-<attribute name="RDC-MAX" value="0.9mOhm"/>
-<attribute name="VALUE" value="98Ohm @100 MHz"/>
-<attribute name="WIDTH" value="4.75mm"/>
-<attribute name="Z" value="65Ohm @25 MHz"/>
+<attribute name="VALUE" value="98 ohm@100MHz"/>
+<attribute name="WIDTH" value="4.75 mm"/>
+<attribute name="CATEGORY" value="Ferrite Bead"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7427932"/>
+<attribute name="IMPEDANCE_1" value="98 ohm@100MHz"/>
+<attribute name="RATED_CURRENT" value="18 A"/>
+<attribute name="DC_RESISTANCE_MAX" value="0.9 mohm"/>
+<attribute name="IMPEDANCE_2" value="65 ohm@25MHz"/>
+<attribute name="VERSION" value="Not Glued"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7427932?ae"/>
 </technology>
 <technology name="_74279392">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279392.pdf"/>
-<attribute name="HEIGHT" value="3mm"/>
-<attribute name="IR" value="18A"/>
-<attribute name="LENGTH" value="7.8mm"/>
+<attribute name="HEIGHT" value="3 mm"/>
+<attribute name="LENGTH" value="7.8 mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value=" 74279392 "/>
-<attribute name="RDC-MAX" value="0.9mOhm"/>
-<attribute name="VALUE" value="98Ohm @100 MHz"/>
-<attribute name="WIDTH" value="4.75mm"/>
-<attribute name="Z" value="65Ohm @25 MHz"/>
+<attribute name="VALUE" value="98 ohm@100MHz"/>
+<attribute name="WIDTH" value="4.75 mm"/>
+<attribute name="CATEGORY" value="Ferrite Bead"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74279392"/>
+<attribute name="IMPEDANCE_1" value="98 ohm@100MHz"/>
+<attribute name="RATED_CURRENT" value="18 A"/>
+<attribute name="DC_RESISTANCE_MAX" value="0.9 mohm"/>
+<attribute name="IMPEDANCE_2" value="65 ohm@25MHz"/>
+<attribute name="VERSION" value="Glued"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74279392?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PBF_3029" urn="urn:adsk.eagle:component:14283188/3" prefix="FB">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+Wired SMT Ferrite
+
+Characteristics
+Flat wire
+Suitable for applications with high currents up to 18 A
+Glued version: High mechanical stability
+Operating temperature: –55 ºC to +125 ºC
+
+Applications
+Voltage supply for high load current
+Glued version is specially designed for applications with permanent vibrations.
+
+Details see: www.we-online.com/components/products/WE-PBF
+
+Updated by Ella 2026-09-17
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PBF_3029">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784356/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_7427933">
+<attribute name="HEIGHT" value="2.41 mm"/>
+<attribute name="LENGTH" value="3.1 mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="VALUE" value="39 ohm@100MHz"/>
+<attribute name="WIDTH" value="2.9 mm"/>
+<attribute name="CATEGORY" value="Ferrite Bead"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7427933"/>
+<attribute name="IMPEDANCE_1" value="39 ohm@100MHz"/>
+<attribute name="RATED_CURRENT" value="14 A"/>
+<attribute name="DC_RESISTANCE_MAX" value="0.6 mohm"/>
+<attribute name="IMPEDANCE_2" value="23 ohm@25MHz"/>
+<attribute name="VERSION" value="Not Glued"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7427933?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PBF_4030" urn="urn:adsk.eagle:component:14283187/3" prefix="FB">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+Wired SMT Ferrite
+
+Characteristics
+Flat wire
+Suitable for applications with high currents up to 18 A
+Glued version: High mechanical stability
+Operating temperature: –55 ºC to +125 ºC
+
+Applications
+Voltage supply for high load current
+Glued version is specially designed for applications with permanent vibrations.
+
+Details see: www.we-online.com/components/products/WE-PBF
+
+Updated by Ella 2021-08-17
+2021 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_5X3X3.1(LXWXH)" package="WE-PBF_4030_L5W3H2.55">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784339/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_7427930">
+<attribute name="HEIGHT" value="2.55 mm"/>
+<attribute name="LENGTH" value="5 mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="VALUE" value="42 ohm@100MHz"/>
+<attribute name="WIDTH" value="3 mm"/>
+<attribute name="CATEGORY" value="Ferrite Bead"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7427930"/>
+<attribute name="IMPEDANCE_1" value="42 ohm@100MHz"/>
+<attribute name="RATED_CURRENT" value="16 A"/>
+<attribute name="DC_RESISTANCE_MAX" value="0.6 mohm"/>
+<attribute name="IMPEDANCE_2" value="28 ohm@25MHz"/>
+<attribute name="VERSION" value="Not Glued"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7427930?ae"/>
+</technology>
+<technology name="_74279390">
+<attribute name="HEIGHT" value="2.55 mm"/>
+<attribute name="LENGTH" value="4 mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="VALUE" value="42 ohm@100MHz"/>
+<attribute name="WIDTH" value="3 mm"/>
+<attribute name="CATEGORY" value="Ferrite Bead"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74279390"/>
+<attribute name="IMPEDANCE_1" value="42 ohm@100MHz"/>
+<attribute name="RATED_CURRENT" value="16 A"/>
+<attribute name="DC_RESISTANCE_MAX" value="0.6 mohm"/>
+<attribute name="IMPEDANCE_2" value="28 ohm@25MHz"/>
+<attribute name="VERSION" value="Glued"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74279390?ae"/>
+</technology>
+</technologies>
+</device>
+<device name="_4X3X2.5(LXWXH)" package="WE-PBF_4030_L4.9W3H2.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784336/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_7427934">
+<attribute name="HEIGHT" value="2.5 mm"/>
+<attribute name="LENGTH" value="4.8 mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="VALUE" value="42 ohm@100MHz"/>
+<attribute name="WIDTH" value="3 mm"/>
+<attribute name="CATEGORY" value="Ferrite Bead"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7427934"/>
+<attribute name="IMPEDANCE_1" value="42 ohm@100MHz"/>
+<attribute name="RATED_CURRENT" value="15 A"/>
+<attribute name="DC_RESISTANCE_MAX" value="0.6 mohm"/>
+<attribute name="IMPEDANCE_2" value="28 ohm@25MHz"/>
+<attribute name="VERSION" value="Not Glued"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7427934?ae"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-PBF_8530" urn="urn:adsk.eagle:component:14283189/3" prefix="FB">
+<description>WE-PBF Flat Wire High Current SMT Ferrite Bead
+Wired SMT Ferrite
+
+Characteristics
+Flat wire
+Suitable for applications with high currents up to 18 A
+Glued version: High mechanical stability
+Operating temperature: –55 ºC to +125 ºC
+
+Applications
+Voltage supply for high load current
+Glued version is specially designed for applications with permanent vibrations.
+
+Details see: www.we-online.com/components/products/WE-PBF
+
+Updated by Ella 2021-08-17
+2021 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PBF_8530">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784366/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_7427931">
+<attribute name="HEIGHT" value="2.55 mm"/>
+<attribute name="LENGTH" value="8.5 mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="VALUE" value="91 ohm@100MHz"/>
+<attribute name="WIDTH" value="3 mm"/>
+<attribute name="CATEGORY" value="Ferrite Bead"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7427931"/>
+<attribute name="IMPEDANCE_1" value="91 ohm@100MHz"/>
+<attribute name="RATED_CURRENT" value="17 A"/>
+<attribute name="DC_RESISTANCE_MAX" value="0.9 mohm"/>
+<attribute name="IMPEDANCE_2" value="58 ohm@25MHz"/>
+<attribute name="VERSION" value="Not Glued"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7427931?ae"/>
+</technology>
+<technology name="_74279391">
+<attribute name="HEIGHT" value="2.55 mm"/>
+<attribute name="LENGTH" value="8.5 mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="VALUE" value="91 ohm@100MHz"/>
+<attribute name="WIDTH" value="3 mm"/>
+<attribute name="CATEGORY" value="Ferrite Bead"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74279391"/>
+<attribute name="IMPEDANCE_1" value="91 ohm@100MHz"/>
+<attribute name="RATED_CURRENT" value="17 A"/>
+<attribute name="DC_RESISTANCE_MAX" value="0.9 mohm"/>
+<attribute name="IMPEDANCE_2" value="58 ohm@25MHz"/>
+<attribute name="VERSION" value="Glued"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74279391?ae"/>
 </technology>
 </technologies>
 </device>
