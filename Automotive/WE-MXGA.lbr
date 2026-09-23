@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -47,7 +61,7 @@
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -59,88 +73,79 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="257" name="Route17" color="7" fill="1" visible="no" active="yes"/>
+<layer number="258" name="Route18" color="7" fill="1" visible="no" active="yes"/>
+<layer number="259" name="Route19" color="7" fill="1" visible="no" active="yes"/>
+<layer number="260" name="Route20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="261" name="Route21" color="7" fill="1" visible="no" active="yes"/>
+<layer number="262" name="Route22" color="7" fill="1" visible="no" active="yes"/>
+<layer number="263" name="Route23" color="7" fill="1" visible="no" active="yes"/>
+<layer number="264" name="Route24" color="7" fill="1" visible="no" active="yes"/>
+<layer number="265" name="Route25" color="7" fill="1" visible="no" active="yes"/>
+<layer number="266" name="Route26" color="7" fill="1" visible="no" active="yes"/>
+<layer number="267" name="Route27" color="7" fill="1" visible="no" active="yes"/>
+<layer number="268" name="Route28" color="7" fill="1" visible="no" active="yes"/>
+<layer number="269" name="Route29" color="7" fill="1" visible="no" active="yes"/>
+<layer number="270" name="Route30" color="7" fill="1" visible="no" active="yes"/>
+<layer number="271" name="Route31" color="7" fill="1" visible="no" active="yes"/>
+<layer number="272" name="Route32" color="7" fill="1" visible="no" active="yes"/>
+<layer number="273" name="Route33" color="7" fill="1" visible="no" active="yes"/>
+<layer number="274" name="Route34" color="7" fill="1" visible="no" active="yes"/>
+<layer number="275" name="Route35" color="7" fill="1" visible="no" active="yes"/>
+<layer number="276" name="Route36" color="7" fill="1" visible="no" active="yes"/>
+<layer number="277" name="Route37" color="7" fill="1" visible="no" active="yes"/>
+<layer number="278" name="Route38" color="7" fill="1" visible="no" active="yes"/>
+<layer number="279" name="Route39" color="7" fill="1" visible="no" active="yes"/>
+<layer number="280" name="Route40" color="7" fill="1" visible="no" active="yes"/>
+<layer number="281" name="Route41" color="7" fill="1" visible="no" active="yes"/>
+<layer number="282" name="Route42" color="7" fill="1" visible="no" active="yes"/>
+<layer number="283" name="Route43" color="7" fill="1" visible="no" active="yes"/>
+<layer number="284" name="Route44" color="7" fill="1" visible="no" active="yes"/>
+<layer number="285" name="Route45" color="7" fill="1" visible="no" active="yes"/>
+<layer number="286" name="Route46" color="7" fill="1" visible="no" active="yes"/>
+<layer number="287" name="Route47" color="7" fill="1" visible="no" active="yes"/>
+<layer number="288" name="Route48" color="7" fill="1" visible="no" active="yes"/>
+<layer number="289" name="Route49" color="7" fill="1" visible="no" active="no"/>
+<layer number="290" name="Route50" color="7" fill="1" visible="no" active="no"/>
+<layer number="291" name="Route51" color="7" fill="1" visible="no" active="no"/>
+<layer number="292" name="Route52" color="7" fill="1" visible="no" active="no"/>
+<layer number="293" name="Route53" color="7" fill="1" visible="no" active="no"/>
+<layer number="294" name="Route54" color="7" fill="1" visible="no" active="no"/>
+<layer number="295" name="Route55" color="7" fill="1" visible="no" active="yes"/>
+<layer number="296" name="Route56" color="7" fill="1" visible="no" active="yes"/>
+<layer number="297" name="Route57" color="7" fill="1" visible="no" active="yes"/>
+<layer number="298" name="Route58" color="7" fill="1" visible="no" active="yes"/>
+<layer number="299" name="Route59" color="7" fill="1" visible="no" active="yes"/>
+<layer number="300" name="Route60" color="7" fill="1" visible="no" active="yes"/>
+<layer number="301" name="Route61" color="7" fill="1" visible="no" active="yes"/>
+<layer number="302" name="Route62" color="7" fill="1" visible="no" active="yes"/>
+<layer number="303" name="Route63" color="7" fill="1" visible="no" active="yes"/>
+<layer number="304" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;BR&gt;Wurth Elektronik - Automotive - Single Coil Power Inductors - WE-MXGA&lt;br&gt;
-&lt;Hr&gt;
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
+<description>Würth Elektronik - Automotive - Single Coil Power Inductors - WE-MXGA
 
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, 
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. 
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. 
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. 
 
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
+Please contact us for more information: libraries@we-online.com 
 
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
-Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
-Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
-Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
- &lt;br&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2025a, 2025-09-03&lt;br&gt;
-&lt;HR&gt;
+Würth Elektronik eiSos GmbH &amp; Co. KG
+EMC &amp; Inductive Solutions
+www.we-online.com
+
+Fusion360, Library Revision 2026a, 2026-09-22
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-MXGA_4020" urn="urn:adsk.eagle:footprint:46679804/1">
-<description>&lt;b&gt;WE-MXGA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
-&lt;br&gt;Size:4020,SMT,2pins
-&lt;br&gt;LXWXH=4.1X4.1X2.1mm</description>
+<package name="WE-MXGA_4030" urn="urn:adsk.eagle:footprint:53544493/1">
+<description>WE-MXGA SMT Power Inductor
+
+Size:4030,SMT,2pins 
+LXWXH=4.1X4.1X3.1mm</description>
 <smd name="1" x="-1.185" y="0" dx="3.7" dy="0.98" layer="1" rot="R90"/>
 <smd name="2" x="1.185" y="0" dx="3.7" dy="0.98" layer="1" rot="R90"/>
 <wire x1="-2.05" y1="2.05" x2="2.05" y2="2.05" width="0.1" layer="51"/>
@@ -153,45 +158,22 @@ Copyright: Würth Elektronik</description>
 <wire x1="-2.15" y1="-2.15" x2="-2.15" y2="2.15" width="0.2" layer="21"/>
 <text x="0" y="2.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-2.35" y="2.35"/>
-<vertex x="2.35" y="2.35"/>
-<vertex x="2.35" y="-2.35"/>
-<vertex x="-2.35" y="-2.35"/>
-</polygon>
 <circle x="-2.8" y="2" radius="0.1" width="0.3" layer="21"/>
 <rectangle x1="-0.695" y1="-1.85" x2="0.695" y2="1.85" layer="41"/>
 <rectangle x1="-0.695" y1="-1.85" x2="0.695" y2="1.85" layer="43"/>
-</package>
-<package name="WE-MXGA_5030" urn="urn:adsk.eagle:footprint:46679802/1">
-<description>&lt;b&gt;WE-MXGA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
-&lt;br&gt;Size:5030,SMT,2pins
-&lt;br&gt;LXWXH=5.4X5.4X3.1mm</description>
-<smd name="1" x="-1.95" y="0" dx="1.7" dy="5.6" layer="1"/>
-<smd name="2" x="1.95" y="0" dx="1.7" dy="5.6" layer="1"/>
-<wire x1="-2.7" y1="2.7" x2="2.7" y2="2.7" width="0.1" layer="51"/>
-<wire x1="2.7" y1="2.7" x2="2.7" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="2.7" y1="-2.7" x2="-2.7" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="-2.7" y1="-2.7" x2="-2.7" y2="2.7" width="0.1" layer="51"/>
-<wire x1="-0.7" y1="2.8" x2="0.7" y2="2.8" width="0.2" layer="21"/>
-<wire x1="-0.7" y1="-2.8" x2="0.7" y2="-2.8" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-3" y="3"/>
-<vertex x="3" y="3"/>
-<vertex x="3" y="-3"/>
-<vertex x="-3" y="-3"/>
+<polygon width="0.1524" layer="39" pour="solid">
+<vertex x="-2.2738" y="-2.2738"/>
+<vertex x="2.2738" y="-2.2738"/>
+<vertex x="2.2738" y="2.2738"/>
+<vertex x="-2.2738" y="2.2738"/>
 </polygon>
-<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<circle x="-3.5" y="2.5" radius="0.1" width="0.4" layer="21"/>
-<rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="41"/>
-<rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="43"/>
 </package>
-<package name="WE-MXGA_4020_IPC-7351" urn="urn:adsk.eagle:footprint:46679803/1">
-<description>&lt;b&gt;WE-MXGA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
-&lt;br&gt;Size:4020,SMT,2pins
-&lt;br&gt;LXWXH=4.1X4.1X2.1mm
-&lt;br&gt;This Land pattern is based on the IPC-7351 Standard</description>
+<package name="WE-MXGA_4030_IPC-7351" urn="urn:adsk.eagle:footprint:53544492/1">
+<description>WE-MXGA SMT Power Inductor
+
+Size:4030,SMT,2pins 
+LXWXH=4.1X4.1X3.1mm
+This Land pattern is based on the IPC-7351 Standard</description>
 <smd name="1" x="-1.55" y="0" dx="4.3" dy="1.9" layer="1" rot="R90"/>
 <smd name="2" x="1.55" y="0" dx="4.3" dy="1.9" layer="1" rot="R90"/>
 <wire x1="-2.05" y1="2.05" x2="2.05" y2="2.05" width="0.1" layer="51"/>
@@ -202,46 +184,154 @@ Copyright: Würth Elektronik</description>
 <wire x1="0.3" y1="-2.15" x2="-0.3" y2="-2.15" width="0.2" layer="21"/>
 <text x="0" y="2.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-2.7" y="2.35"/>
-<vertex x="2.7" y="2.35"/>
-<vertex x="2.7" y="-2.35"/>
-<vertex x="-2.7" y="-2.35"/>
+<circle x="-3" y="2" radius="0.1" width="0.3" layer="21"/>
+<rectangle x1="-0.6" y1="-2.15" x2="0.6" y2="2.15" layer="41"/>
+<rectangle x1="-0.6" y1="-2.15" x2="0.6" y2="2.15" layer="43"/>
+<polygon width="0.1524" layer="39" pour="solid">
+<vertex x="-2.6238" y="-2.2738"/>
+<vertex x="2.6238" y="-2.2738"/>
+<vertex x="2.6238" y="2.2738"/>
+<vertex x="-2.6238" y="2.2738"/>
+</polygon>
+</package>
+<package name="WE-MXGA_5030" urn="urn:adsk.eagle:footprint:46679802/2">
+<description>WE-MXGA SMT Power Inductor
+
+Size:5030,SMT,2pins
+
+LXWXH=5.4X5.4X3.1mm</description>
+<smd name="1" x="-1.95" y="0" dx="1.7" dy="5.6" layer="1"/>
+<smd name="2" x="1.95" y="0" dx="1.7" dy="5.6" layer="1"/>
+<wire x1="-2.7" y1="2.7" x2="2.7" y2="2.7" width="0.1" layer="51"/>
+<wire x1="2.7" y1="2.7" x2="2.7" y2="-2.7" width="0.1" layer="51"/>
+<wire x1="2.7" y1="-2.7" x2="-2.7" y2="-2.7" width="0.1" layer="51"/>
+<wire x1="-2.7" y1="-2.7" x2="-2.7" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="2.8" x2="0.7" y2="2.8" width="0.2" layer="21"/>
+<wire x1="-0.7" y1="-2.8" x2="0.7" y2="-2.8" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-2.95" y="-2.95"/>
+<vertex x="2.95" y="-2.95"/>
+<vertex x="2.95" y="2.95"/>
+<vertex x="-2.95" y="2.95"/>
+</polygon>
+<text x="0" y="3.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-3.5" y="2.5" radius="0.1" width="0.4" layer="21"/>
+<rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="41"/>
+<rectangle x1="-1.1" y1="-2.8" x2="1.1" y2="2.8" layer="43"/>
+</package>
+<package name="WE-MXGA_4020_IPC-7351" urn="urn:adsk.eagle:footprint:46679803/2">
+<description>WE-MXGA SMT Power Inductor
+
+Size:4020,SMT,2pins
+
+LXWXH=4.1X4.1X2.1mm
+
+This Land pattern is based on the IPC-7351 Standard</description>
+<smd name="1" x="-1.55" y="0" dx="4.3" dy="1.9" layer="1" rot="R90"/>
+<smd name="2" x="1.55" y="0" dx="4.3" dy="1.9" layer="1" rot="R90"/>
+<wire x1="-2.05" y1="2.05" x2="2.05" y2="2.05" width="0.1" layer="51"/>
+<wire x1="2.05" y1="2.05" x2="2.05" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="2.05" y1="-2.05" x2="-2.05" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="-2.05" y1="-2.05" x2="-2.05" y2="2.05" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="2.15" x2="0.3" y2="2.15" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-2.15" x2="-0.3" y2="-2.15" width="0.2" layer="21"/>
+<text x="0" y="2.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-2.65" y="-2.3"/>
+<vertex x="2.65" y="-2.3"/>
+<vertex x="2.65" y="2.3"/>
+<vertex x="-2.65" y="2.3"/>
 </polygon>
 <circle x="-3" y="2" radius="0.1" width="0.3" layer="21"/>
 <rectangle x1="-0.6" y1="-2.15" x2="0.6" y2="2.15" layer="41"/>
 <rectangle x1="-0.6" y1="-2.15" x2="0.6" y2="2.15" layer="43"/>
 </package>
+<package name="WE-MXGA_4020" urn="urn:adsk.eagle:footprint:46679804/2">
+<description>WE-MXGA SMT Power Inductor
+
+Size:4020,SMT,2pins
+
+LXWXH=4.1X4.1X2.1mm</description>
+<smd name="1" x="-1.185" y="0" dx="3.7" dy="0.98" layer="1" rot="R90"/>
+<smd name="2" x="1.185" y="0" dx="3.7" dy="0.98" layer="1" rot="R90"/>
+<wire x1="-2.05" y1="2.05" x2="2.05" y2="2.05" width="0.1" layer="51"/>
+<wire x1="2.05" y1="2.05" x2="2.05" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="2.05" y1="-2.05" x2="-2.05" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="-2.05" y1="-2.05" x2="-2.05" y2="2.05" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="2.15" x2="2.15" y2="2.15" width="0.2" layer="21"/>
+<wire x1="2.15" y1="2.15" x2="2.15" y2="-2.15" width="0.2" layer="21"/>
+<wire x1="2.15" y1="-2.15" x2="-2.15" y2="-2.15" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="-2.15" x2="-2.15" y2="2.15" width="0.2" layer="21"/>
+<text x="0" y="2.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-2.3" y="-2.3"/>
+<vertex x="2.3" y="-2.3"/>
+<vertex x="2.3" y="2.3"/>
+<vertex x="-2.3" y="2.3"/>
+</polygon>
+<circle x="-2.8" y="2" radius="0.1" width="0.3" layer="21"/>
+<rectangle x1="-0.695" y1="-1.85" x2="0.695" y2="1.85" layer="41"/>
+<rectangle x1="-0.695" y1="-1.85" x2="0.695" y2="1.85" layer="43"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="WE-MXGA_4020" urn="urn:adsk.eagle:package:46679808/2" type="model">
-<description>&lt;b&gt;WE-MXGA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
-&lt;br&gt;Size:4020,SMT,2pins
-&lt;br&gt;LXWXH=4.1X4.1X2.1mm</description>
+<package3d name="WE-MXGA_4030" urn="urn:adsk.eagle:package:53544495/1" type="model">
+<description>WE-MXGA SMT Power Inductor
+
+Size:4030,SMT,2pins 
+LXWXH=4.1X4.1X3.1mm</description>
 <packageinstances>
-<packageinstance name="WE-MXGA_4020"/>
+<packageinstance name="WE-MXGA_4030"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-MXGA_5030" urn="urn:adsk.eagle:package:46679806/2" type="model">
-<description>&lt;b&gt;WE-MXGA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
-&lt;br&gt;Size:5030,SMT,2pins
-&lt;br&gt;LXWXH=5.4X5.4X3.1mm</description>
+<package3d name="WE-MXGA_4030_IPC-7351" urn="urn:adsk.eagle:package:53544494/1" type="model">
+<description>WE-MXGA SMT Power Inductor
+
+Size:4030,SMT,2pins 
+LXWXH=4.1X4.1X3.1mm
+This Land pattern is based on the IPC-7351 Standard</description>
+<packageinstances>
+<packageinstance name="WE-MXGA_4030_IPC-7351"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-MXGA_5030" urn="urn:adsk.eagle:package:46679806/3" type="model">
+<description>WE-MXGA SMT Power Inductor
+
+Size:5030,SMT,2pins
+
+LXWXH=5.4X5.4X3.1mm</description>
 <packageinstances>
 <packageinstance name="WE-MXGA_5030"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-MXGA_4020_IPC-7351" urn="urn:adsk.eagle:package:46679807/2" type="model">
-<description>&lt;b&gt;WE-MXGA SMT Power Inductor&lt;br&gt;&lt;/b&gt;
-&lt;br&gt;Size:4020,SMT,2pins
-&lt;br&gt;LXWXH=4.1X4.1X2.1mm
-&lt;br&gt;This Land pattern is based on the IPC-7351 Standard</description>
+<package3d name="WE-MXGA_4020_IPC-7351" urn="urn:adsk.eagle:package:46679807/3" type="model">
+<description>WE-MXGA SMT Power Inductor
+
+Size:4020,SMT,2pins
+
+LXWXH=4.1X4.1X2.1mm
+
+This Land pattern is based on the IPC-7351 Standard</description>
 <packageinstances>
 <packageinstance name="WE-MXGA_4020_IPC-7351"/>
 </packageinstances>
 </package3d>
+<package3d name="WE-MXGA_4020" urn="urn:adsk.eagle:package:46679808/3" type="model">
+<description>WE-MXGA SMT Power Inductor
+
+Size:4020,SMT,2pins
+
+LXWXH=4.1X4.1X2.1mm</description>
+<packageinstances>
+<packageinstance name="WE-MXGA_4020"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="L_GAP_POINT">
+<symbol name="L_GAP_POINT" urn="urn:adsk.eagle:symbol:46679805/2">
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -250,41 +340,453 @@ Copyright: Würth Elektronik</description>
 <wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="0" y="3.81" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <circle x="-5.842" y="0.508" radius="0.127" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-MXGA_5030" prefix="L">
-<description>&lt;b&gt;WE-MXGA SMT Power Inductor&lt;br&gt;
+<deviceset name="WE-MXGA_4030" urn="urn:adsk.eagle:component:53544501/1">
+<description>WE-MXGA SMT Power Inductor
 
-&lt;br&gt;Characteristics 
-&lt;br&gt;&lt;br&gt;&lt;/b&gt;Innovative iron alloy material
-&lt;br&gt;Ultra-low RDC and AC losses
-&lt;br&gt;High efficiency and current capability
-&lt;br&gt;Optimized for high switching frequencies beyond 1 MHz
-&lt;br&gt;Compact design
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Operating temperature: -40 °C to 125°C
+Characteristics
+Innovative iron alloy material
+Ultra low RDC and AC losses
+High efficiency and current capability
+Optimized for high switching frequencies beyond 1 MHz
+Magnetically shielded construction
+Compact design
+Operating temperature: -40 ºC up to 125 ºC
 
-&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
-&lt;/b&gt;&lt;br&gt;&lt;br&gt;DC/DC-converter for high current power supplies
-&lt;br&gt;DC/DC-converter for Field Programmable Gate Array (FPGA)
-&lt;br&gt;POL-converters
-&lt;br&gt;Portable power like PDA, digital camera
-&lt;br&gt;Mainboards/graphic cards
-&lt;br&gt;Battery powered devices
-&lt;br&gt;Wireless communication devices
-&lt;br&gt;Power supplies for smartphones, tablet PCs and other mobile devices
-&lt;br&gt;High frequency applications (GaN and SiC)
+Applications
+Body electronics &amp; lighting
+Infotainment systems
+DC/DC-converter 48 V / 12 V
+POL-converter
+DC/DC converter for field programmable gate array
+BMS (battery management system)
 
-&lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o864782v209%20FAMILY-WE-MXGA.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o864782v209%20FAMILY-WE-MXGA.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-MXGA/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-MXGA&lt;/a&gt;&lt;p&gt;
+Details see: www.we-online.com/components/products/WE-MXGA
 
-Created by Ella 2025-09-03 &lt;br&gt;
+Created by Ella 2026-09-22
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-MXGA_4030">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53544495/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value=""/>
+<attribute name="DATASHEET" value=""/>
+<attribute name="MANUFACTURER" value=""/>
+<attribute name="MPN" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="_IPC-7351" package="WE-MXGA_4030_IPC-7351">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:53544494/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_78438440300004">
+<attribute name="VALUE" value="0.04 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440300004?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440300004"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.04 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="20.8 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="44.3 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="0.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="0.6 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="630 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="37.2 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_78438440300010">
+<attribute name="VALUE" value="0.1 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440300010?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440300010"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.1 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="14.7 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="29.6 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="1.1 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="1.3 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="293 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="30.3 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_78438440300016">
+<attribute name="VALUE" value="0.16 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440300016?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440300016"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.16 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="12.7 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="27 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="1.2 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="1.4 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="214 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="28.7 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_78438440300033">
+<attribute name="VALUE" value="0.33 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440300033?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440300033"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.33 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="9.2 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="18.8 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="2 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="2.3 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="117 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="24.5 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_78438440300040">
+<attribute name="VALUE" value="0.4 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440300040?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440300040"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.4 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="9.1 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="18.5 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="2.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="2.9 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="113 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="23 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_78438440300062">
+<attribute name="VALUE" value="0.62 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440300062?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440300062"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.62 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="7.1 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="14.3 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="4.3 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="4.9 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="79 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="15.2 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030010">
+<attribute name="VALUE" value="1 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030010?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030010"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="5.6 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="11.4 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="6.3 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="7.2 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="60 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="13 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030012">
+<attribute name="VALUE" value="1.2 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030012?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030012"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1.2 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="5.1 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="10.1 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="8.4 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="9.3 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="57 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="12.5 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030015">
+<attribute name="VALUE" value="1.5 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030015?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030015"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1.5 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="4.7 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="9.4 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="8.8 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="10.5 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="47 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="10.8 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030018">
+<attribute name="VALUE" value="1.8 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030018?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030018"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1.8 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="4.4 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="8.9 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="9.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="11.4 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="40 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="10.4 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030022">
+<attribute name="VALUE" value="2.2 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030022?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030022"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="2.2 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="4 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="7.8 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="12.3 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="14.8 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="37 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="9 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030033">
+<attribute name="VALUE" value="3.3 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030033?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030033"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="3.3 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="3.3 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="6.6 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="16.4 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="19.7 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="30 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="7.6 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030039">
+<attribute name="VALUE" value="3.9 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030039?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030039"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="3.9 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="3.2 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="6.4 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="21.7 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="26 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="25 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="6.6 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030047">
+<attribute name="VALUE" value="4.7 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030047?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030047"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="4.7 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="3 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="6 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="24.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="29.4 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="23 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="7 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030056">
+<attribute name="VALUE" value="5.6 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030056?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030056"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="5.6 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="2.7 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.5 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="27.3 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="32.8 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="20 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="6.1 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030068">
+<attribute name="VALUE" value="6.8 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030068?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030068"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="6.8 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="2.5 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.1 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="32.6 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="39.2 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="17 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="5.3 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030082">
+<attribute name="VALUE" value="8.2 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030082?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030082"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="8.2 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="2.3 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="4.6 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="43.2 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="51.8 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="16 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="4.6 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7843844030100">
+<attribute name="VALUE" value="10 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844030100?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844030100"/>
+<attribute name="HEIGHT" value="3.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4030 "/>
+<attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="10 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="1.9 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="4.1 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="57.8 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="69.4 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="16 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="4.1 A@40K"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-MXGA_5030" urn="urn:adsk.eagle:component:46679809/3" prefix="L">
+<description>WE-MXGA SMT Power Inductor
+
+Characteristics
+Innovative iron alloy material
+Ultra low RDC and AC losses
+High efficiency and current capability
+Optimized for high switching frequencies beyond 1 MHz
+Magnetically shielded construction
+Compact design
+Operating temperature: -40 ºC up to 125 ºC
+
+Applications
+Body electronics &amp; lighting
+Infotainment systems
+DC/DC-converter 48 V / 12 V
+POL-converter
+DC/DC converter for field programmable gate array
+BMS (battery management system)
+
+Details see: www.we-online.com/components/products/WE-MXGA
+
+Created by Ella 2025-09-03
 2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
@@ -296,314 +798,356 @@ Created by Ella 2025-09-03 &lt;br&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:46679806/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46679806/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_78438450300022">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438450300022?ae"/>
-<attribute name="FRES" value="155MHz"/>
+<attribute name="VALUE" value="0.22 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438450300022?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438450300022"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="28.1A@40K"/>
-<attribute name="ISAT1" value="11.8A@10%"/>
-<attribute name="ISAT2" value="25.4A@30%"/>
-<attribute name="L" value="0.22uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="78438450300022"/>
-<attribute name="RDC-MAX" value="1.7mohm"/>
-<attribute name="RDC-TYP" value="1.5mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="0.22uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.22 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="11.8 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="25.4 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="1.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="1.7 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="155 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="28.1 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_78438450300047">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438450300047?ae"/>
-<attribute name="FRES" value="84MHz"/>
+<attribute name="VALUE" value="0.47 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438450300047?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438450300047"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="23A@40K"/>
-<attribute name="ISAT1" value="9.4A@10%"/>
-<attribute name="ISAT2" value="20A@30%"/>
-<attribute name="L" value="0.47uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="78438450300047"/>
-<attribute name="RDC-MAX" value="2.8mohm"/>
-<attribute name="RDC-TYP" value="2.4mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="0.47uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.47 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="9.4 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="20 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="2.4 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="2.8 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="84 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="23 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_78438450300060">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438450300060?ae"/>
-<attribute name="FRES" value="73MHz"/>
+<attribute name="VALUE" value="0.6 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438450300060?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438450300060"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="21.5A@40K"/>
-<attribute name="ISAT1" value="9.5A@10%"/>
-<attribute name="ISAT2" value="21.2A@30%"/>
-<attribute name="L" value="0.6uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="78438450300060"/>
-<attribute name="RDC-MAX" value="3.2mohm"/>
-<attribute name="RDC-TYP" value="2.8mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="0.6uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.6 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="9.5 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="21.2 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="2.8 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="3.2 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="73 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="21.5 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_78438450300082">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438450300082?ae"/>
-<attribute name="FRES" value="55MHz"/>
+<attribute name="VALUE" value="0.82 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438450300082?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438450300082"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="19A@40K"/>
-<attribute name="ISAT1" value="8.1A@10%"/>
-<attribute name="ISAT2" value="16.7A@30%"/>
-<attribute name="L" value="0.82uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="78438450300082"/>
-<attribute name="RDC-MAX" value="4mohm"/>
-<attribute name="RDC-TYP" value="3.5mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="0.82uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.82 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="8.1 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="16.7 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="3.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="4 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="55 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="19 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030010">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030010?ae"/>
-<attribute name="FRES" value="52MHz"/>
+<attribute name="VALUE" value="1 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030010?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030010"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="15.8A@40K"/>
-<attribute name="ISAT1" value="7A@10%"/>
-<attribute name="ISAT2" value="14.3A@30%"/>
-<attribute name="L" value="1uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030010"/>
-<attribute name="RDC-MAX" value="5.8mohm"/>
-<attribute name="RDC-TYP" value="5.2mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="1uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="7 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="14.3 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="5.2 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="5.8 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="52 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="15.8 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030012">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030012?ae"/>
-<attribute name="FRES" value="43MHz"/>
+<attribute name="VALUE" value="1.2 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030012?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030012"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="17.2A@40K"/>
-<attribute name="ISAT1" value="6.8A@10%"/>
-<attribute name="ISAT2" value="14.3A@30%"/>
-<attribute name="L" value="1.2uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030012"/>
-<attribute name="RDC-MAX" value="5.2mohm"/>
-<attribute name="RDC-TYP" value="4.5mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="1.2uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1.2 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="6.8 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="14.3 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="4.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="5.2 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="43 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="17.2 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030015">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030015?ae"/>
-<attribute name="FRES" value="36MHz"/>
+<attribute name="VALUE" value="1.5 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030015?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030015"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="14.9A@40K"/>
-<attribute name="ISAT1" value="6A@10%"/>
-<attribute name="ISAT2" value="12.3A@30%"/>
-<attribute name="L" value="1.5uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030015"/>
-<attribute name="RDC-MAX" value="6.3mohm"/>
-<attribute name="RDC-TYP" value="5.5mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="1.5uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1.5 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="6 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="12.3 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="5.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="6.3 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="36 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="14.9 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030022">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030022?ae"/>
-<attribute name="FRES" value="35MHz"/>
+<attribute name="VALUE" value="2.2 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030022?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030022"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="12.4A@40K"/>
-<attribute name="ISAT1" value="5.2A@10%"/>
-<attribute name="ISAT2" value="10.5A@30%"/>
-<attribute name="L" value="2.2uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030022"/>
-<attribute name="RDC-MAX" value="9.3mohm"/>
-<attribute name="RDC-TYP" value="8.1mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="2.2uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="2.2 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="5.2 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="10.5 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="8.1 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="9.3 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="35 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="12.4 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030033">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030033?ae"/>
-<attribute name="FRES" value="25MHz"/>
+<attribute name="VALUE" value="3.3 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030033?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030033"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="10A@40K"/>
-<attribute name="ISAT1" value="4A@10%"/>
-<attribute name="ISAT2" value="8.2A@30%"/>
-<attribute name="L" value="3.3uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030033"/>
-<attribute name="RDC-MAX" value="14.8mohm"/>
-<attribute name="RDC-TYP" value="12.9mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="3.3uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="3.3 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="4 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="8.2 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="12.9 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="14.8 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="25 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="10 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030047">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030047?ae"/>
-<attribute name="FRES" value="21MHz"/>
+<attribute name="VALUE" value="4.7 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030047?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030047"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="8.2A@40K"/>
-<attribute name="ISAT1" value="3.7A@10%"/>
-<attribute name="ISAT2" value="7.7A@30%"/>
-<attribute name="L" value="4.7uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030047"/>
-<attribute name="RDC-MAX" value="24.5mohm"/>
-<attribute name="RDC-TYP" value="22.5mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="4.7uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="4.7 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="3.7 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="7.7 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="22.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="24.5 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="21 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="8.2 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030056">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030056?ae"/>
-<attribute name="FRES" value="19MHz"/>
+<attribute name="VALUE" value="5.6 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030056?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030056"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="7.1A@40K"/>
-<attribute name="ISAT1" value="3.3A@10%"/>
-<attribute name="ISAT2" value="6.8A@30%"/>
-<attribute name="L" value="5.6uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030056"/>
-<attribute name="RDC-MAX" value="27mohm"/>
-<attribute name="RDC-TYP" value="24.5mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="5.6uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="5.6 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="3.3 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="6.8 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="24.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="27 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="19 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="7.1 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030068">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030068?ae"/>
-<attribute name="FRES" value="18MHz"/>
+<attribute name="VALUE" value="6.8 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030068?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030068"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="6.5A@40K"/>
-<attribute name="ISAT1" value="3.2A@10%"/>
-<attribute name="ISAT2" value="6.8A@30%"/>
-<attribute name="L" value="6.8uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030068"/>
-<attribute name="RDC-MAX" value="31.7mohm"/>
-<attribute name="RDC-TYP" value="28.3mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="6.8uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="6.8 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="3.2 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="6.8 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="28.3 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="31.7 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="18 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="6.5 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030082">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030082?ae"/>
-<attribute name="FRES" value="15MHz"/>
+<attribute name="VALUE" value="8.2 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030082?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030082"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="6.1A@40K"/>
-<attribute name="ISAT1" value="2.6A@10%"/>
-<attribute name="ISAT2" value="5.9A@30%"/>
-<attribute name="L" value="8.2uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030082"/>
-<attribute name="RDC-MAX" value="39mohm"/>
-<attribute name="RDC-TYP" value="34mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="8.2uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="8.2 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="2.6 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.9 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="34 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="39 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="15 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="6.1 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030100">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030100?ae"/>
-<attribute name="FRES" value="12MHz"/>
+<attribute name="VALUE" value="10 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030100?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030100"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="5.5A@40K"/>
-<attribute name="ISAT1" value="2.5A@10%"/>
-<attribute name="ISAT2" value="5.4A@30%"/>
-<attribute name="L" value="10uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030100"/>
-<attribute name="RDC-MAX" value="47.7mohm"/>
-<attribute name="RDC-TYP" value="41.5mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="10uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="10 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="2.5 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.4 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="41.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="47.7 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="12 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="5.5 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030120">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030120?ae"/>
-<attribute name="FRES" value="11MHz"/>
+<attribute name="VALUE" value="12 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030120?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030120"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="5A@40K"/>
-<attribute name="ISAT1" value="2.1A@10%"/>
-<attribute name="ISAT2" value="4.9A@30%"/>
-<attribute name="L" value="12uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030120"/>
-<attribute name="RDC-MAX" value="57mohm"/>
-<attribute name="RDC-TYP" value="52.3mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="12uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="12 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="2.1 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="4.9 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="52.3 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="57 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="11 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="5 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843845030150">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843845030150?ae"/>
-<attribute name="FRES" value="10MHz"/>
+<attribute name="VALUE" value="15 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843845030150?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843845030150"/>
 <attribute name="HEIGHT" value="3.1mm"/>
-<attribute name="IRP" value="4.5A@40K"/>
-<attribute name="ISAT1" value="1.9A@10%"/>
-<attribute name="ISAT2" value="4.3A@30%"/>
-<attribute name="L" value="15uH"/>
 <attribute name="LENGTH" value="5.4mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843845030150"/>
-<attribute name="RDC-MAX" value="74.4mohm"/>
-<attribute name="RDC-TYP" value="64.5mohm"/>
-<attribute name="SIZE" value=" 5030 "/>
-<attribute name="VALUE" value="15uH"/>
+<attribute name="SIZE" value="5030"/>
 <attribute name="WIDTH" value="5.4mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="15 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="1.9 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="4.3 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="64.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="74.4 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="10 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="4.5 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WE-MXGA_4020" prefix="L">
-<description>&lt;b&gt;WE-MXGA SMT Power Inductor&lt;br&gt;
+<deviceset name="WE-MXGA_4020" urn="urn:adsk.eagle:component:46679810/3" prefix="L">
+<description>WE-MXGA SMT Power Inductor
 
-&lt;br&gt;Characteristics 
-&lt;br&gt;&lt;br&gt;&lt;/b&gt;Innovative iron alloy material
-&lt;br&gt;Ultra-low RDC and AC losses
-&lt;br&gt;High efficiency and current capability
-&lt;br&gt;Optimized for high switching frequencies beyond 1 MHz
-&lt;br&gt;Compact design
-&lt;br&gt;Magnetically shielded construction
-&lt;br&gt;Operating temperature: -40 °C to 125°C
+Characteristics
+Innovative iron alloy material
+Ultra low RDC and AC losses
+High efficiency and current capability
+Optimized for high switching frequencies beyond 1 MHz
+Magnetically shielded construction
+Compact design
+Operating temperature: -40 ºC up to 125 ºC
 
-&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
-&lt;/b&gt;&lt;br&gt;&lt;br&gt;DC/DC-converter for high current power supplies
-&lt;br&gt;DC/DC-converter for Field Programmable Gate Array (FPGA)
-&lt;br&gt;POL-converters
-&lt;br&gt;Portable power like PDA, digital camera
-&lt;br&gt;Mainboards/graphic cards
-&lt;br&gt;Battery powered devices
-&lt;br&gt;Wireless communication devices
-&lt;br&gt;Power supplies for smartphones, tablet PCs and other mobile devices
-&lt;br&gt;High frequency applications (GaN and SiC)
+Applications
+Body electronics &amp; lighting
+Infotainment systems
+DC/DC-converter 48 V / 12 V
+POL-converter
+DC/DC converter for field programmable gate array
+BMS (battery management system)
 
-&lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o864782v209%20FAMILY-WE-MXGA.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o864782v209%20FAMILY-WE-MXGA.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-MXGA/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-MXGA&lt;/a&gt;&lt;p&gt;
+Details see: www.we-online.com/components/products/WE-MXGA
 
-Created by Ella 2025-09-03 &lt;br&gt;
+Created by Ella 2025-09-03
 2025 (C) Würth Elektronik</description>
 <gates>
 <gate name="G$1" symbol="L_GAP_POINT" x="0" y="0"/>
@@ -615,195 +1159,195 @@ Created by Ella 2025-09-03 &lt;br&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:46679808/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46679808/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_78438440200016">
+<attribute name="VALUE" value="0.16uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438440200016?ae"/>
 <attribute name="FRES" value="197MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="24.2A@40K"/>
 <attribute name="ISAT1" value="12A@10%"/>
 <attribute name="ISAT2" value="27.9A@30%"/>
 <attribute name="L" value="0.16uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="78438440200016"/>
 <attribute name="RDC-MAX" value="1.7mohm"/>
 <attribute name="RDC-TYP" value="1.5mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.16uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_78438440200030">
+<attribute name="VALUE" value="0.3uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438440200030?ae"/>
 <attribute name="FRES" value="135MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="23.2A@40K"/>
 <attribute name="ISAT1" value="8.4A@10%"/>
 <attribute name="ISAT2" value="17.6A@30%"/>
 <attribute name="L" value="0.3uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="78438440200030"/>
 <attribute name="RDC-MAX" value="2.3mohm"/>
 <attribute name="RDC-TYP" value="2mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.3uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_78438440200040">
+<attribute name="VALUE" value="0.4uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438440200040?ae"/>
 <attribute name="FRES" value="122MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="16.9A@40K"/>
 <attribute name="ISAT1" value="7.3A@10%"/>
 <attribute name="ISAT2" value="14.8A@30%"/>
 <attribute name="L" value="0.4uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="78438440200040"/>
 <attribute name="RDC-MAX" value="4.4mohm"/>
 <attribute name="RDC-TYP" value="3.8mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.4uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_78438440200065">
+<attribute name="VALUE" value="0.65uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438440200065?ae"/>
 <attribute name="FRES" value="80MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="15.2A@40K"/>
 <attribute name="ISAT1" value="6.2A@10%"/>
 <attribute name="ISAT2" value="12.6A@30%"/>
 <attribute name="L" value="0.65uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="78438440200065"/>
 <attribute name="RDC-MAX" value="5.5mohm"/>
 <attribute name="RDC-TYP" value="4.8mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.65uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_7843844020010">
+<attribute name="VALUE" value="1uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020010?ae"/>
 <attribute name="FRES" value="59MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="12.1A@40K"/>
 <attribute name="ISAT1" value="4.9A@10%"/>
 <attribute name="ISAT2" value="9.8A@30%"/>
 <attribute name="L" value="1uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="7843844020010"/>
 <attribute name="RDC-MAX" value="7.9mohm"/>
 <attribute name="RDC-TYP" value="6.9mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_7843844020012">
+<attribute name="VALUE" value="1.2uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020012?ae"/>
 <attribute name="FRES" value="53MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="11A@40K"/>
 <attribute name="ISAT1" value="4.3A@10%"/>
 <attribute name="ISAT2" value="8.8A@30%"/>
 <attribute name="L" value="1.2uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="7843844020012"/>
 <attribute name="RDC-MAX" value="9.8mohm"/>
 <attribute name="RDC-TYP" value="8.4mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1.2uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_7843844020015">
+<attribute name="VALUE" value="1.5uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020015?ae"/>
 <attribute name="FRES" value="50MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="10.3A@40K"/>
 <attribute name="ISAT1" value="4.1A@10%"/>
 <attribute name="ISAT2" value="8.4A@30%"/>
 <attribute name="L" value="1.5uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="7843844020015"/>
 <attribute name="RDC-MAX" value="11.5mohm"/>
 <attribute name="RDC-TYP" value="10mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1.5uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_7843844020018">
+<attribute name="VALUE" value="1.8uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020018?ae"/>
 <attribute name="FRES" value="42MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="9.5A@40K"/>
 <attribute name="ISAT1" value="3.6A@10%"/>
 <attribute name="ISAT2" value="7.1A@30%"/>
 <attribute name="L" value="1.8uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="7843844020018"/>
 <attribute name="RDC-MAX" value="13.6mohm"/>
 <attribute name="RDC-TYP" value="11.9mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1.8uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_7843844020022">
+<attribute name="VALUE" value="2.2uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020022?ae"/>
 <attribute name="FRES" value="37MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="7.8A@40K"/>
 <attribute name="ISAT1" value="2.9A@10%"/>
 <attribute name="ISAT2" value="5.8A@30%"/>
 <attribute name="L" value="2.2uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="7843844020022"/>
 <attribute name="RDC-MAX" value="17.9mohm"/>
 <attribute name="RDC-TYP" value="15.6mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="2.2uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_7843844020033">
+<attribute name="VALUE" value="3.3uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020033?ae"/>
 <attribute name="FRES" value="29MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="6.1A@40K"/>
 <attribute name="ISAT1" value="2.6A@10%"/>
 <attribute name="ISAT2" value="5.3A@30%"/>
 <attribute name="L" value="3.3uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="7843844020033"/>
 <attribute name="RDC-MAX" value="30.6mohm"/>
 <attribute name="RDC-TYP" value="26.6mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="3.3uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 <technology name="_7843844020047">
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="HEIGHT" value="2.1mm"/>
+<attribute name="LENGTH" value="4.1mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value=" 4020 "/>
+<attribute name="WIDTH" value="4.1mm"/>
 <attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020047?ae"/>
 <attribute name="FRES" value="25MHz"/>
-<attribute name="HEIGHT" value="2.1mm"/>
 <attribute name="IRP" value="5.2A@40K"/>
 <attribute name="ISAT1" value="2.8A@10%"/>
 <attribute name="ISAT2" value="5.7A@30%"/>
 <attribute name="L" value="4.7uH"/>
-<attribute name="LENGTH" value="4.1mm"/>
-<attribute name="MOUNT" value="SMT"/>
 <attribute name="PART-NUMBER" value="7843844020047"/>
 <attribute name="RDC-MAX" value="46.4mohm"/>
 <attribute name="RDC-TYP" value="40.3mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="4.7uH"/>
-<attribute name="WIDTH" value="4.1mm"/>
 </technology>
 </technologies>
 </device>
@@ -813,195 +1357,228 @@ Created by Ella 2025-09-03 &lt;br&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:46679807/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46679807/3"/>
 </package3dinstances>
 <technologies>
 <technology name="_78438440200016">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438440200016?ae"/>
-<attribute name="FRES" value="197MHz"/>
+<attribute name="VALUE" value="0.16 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440200016?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440200016"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="24.2A@40K"/>
-<attribute name="ISAT1" value="12A@10%"/>
-<attribute name="ISAT2" value="27.9A@30%"/>
-<attribute name="L" value="0.16uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="78438440200016"/>
-<attribute name="RDC-MAX" value="1.7mohm"/>
-<attribute name="RDC-TYP" value="1.5mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.16uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.16 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="12 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="27.9 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="1.5 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="1.7 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="197 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="24.2 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_78438440200030">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438440200030?ae"/>
-<attribute name="FRES" value="135MHz"/>
+<attribute name="VALUE" value="0.3 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440200030?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440200030"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="23.2A@40K"/>
-<attribute name="ISAT1" value="8.4A@10%"/>
-<attribute name="ISAT2" value="17.6A@30%"/>
-<attribute name="L" value="0.3uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="78438440200030"/>
-<attribute name="RDC-MAX" value="2.3mohm"/>
-<attribute name="RDC-TYP" value="2mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.3uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.3 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="8.4 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="17.6 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="2 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="2.3 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="135 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="23.2 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_78438440200040">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438440200040?ae"/>
-<attribute name="FRES" value="122MHz"/>
+<attribute name="VALUE" value="0.4 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440200040?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440200040"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="16.9A@40K"/>
-<attribute name="ISAT1" value="7.3A@10%"/>
-<attribute name="ISAT2" value="14.8A@30%"/>
-<attribute name="L" value="0.4uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="78438440200040"/>
-<attribute name="RDC-MAX" value="4.4mohm"/>
-<attribute name="RDC-TYP" value="3.8mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.4uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.4 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="7.3 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="14.8 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="3.8 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="4.4 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="122 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="16.9 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_78438440200065">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/78438440200065?ae"/>
-<attribute name="FRES" value="80MHz"/>
+<attribute name="VALUE" value="0.65 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/78438440200065?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="78438440200065"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="15.2A@40K"/>
-<attribute name="ISAT1" value="6.2A@10%"/>
-<attribute name="ISAT2" value="12.6A@30%"/>
-<attribute name="L" value="0.65uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="78438440200065"/>
-<attribute name="RDC-MAX" value="5.5mohm"/>
-<attribute name="RDC-TYP" value="4.8mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="0.65uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="0.65 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="6.2 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="12.6 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="4.8 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="5.5 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="80 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="15.2 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843844020010">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020010?ae"/>
-<attribute name="FRES" value="59MHz"/>
+<attribute name="VALUE" value="1 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844020010?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844020010"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="12.1A@40K"/>
-<attribute name="ISAT1" value="4.9A@10%"/>
-<attribute name="ISAT2" value="9.8A@30%"/>
-<attribute name="L" value="1uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843844020010"/>
-<attribute name="RDC-MAX" value="7.9mohm"/>
-<attribute name="RDC-TYP" value="6.9mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="4.9 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="9.8 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="6.9 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="7.9 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="59 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="12.1 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843844020012">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020012?ae"/>
-<attribute name="FRES" value="53MHz"/>
+<attribute name="VALUE" value="1.2 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844020012?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844020012"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="11A@40K"/>
-<attribute name="ISAT1" value="4.3A@10%"/>
-<attribute name="ISAT2" value="8.8A@30%"/>
-<attribute name="L" value="1.2uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843844020012"/>
-<attribute name="RDC-MAX" value="9.8mohm"/>
-<attribute name="RDC-TYP" value="8.4mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1.2uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1.2 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="4.3 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="8.8 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="8.4 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="9.8 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="53 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="11 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843844020015">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020015?ae"/>
-<attribute name="FRES" value="50MHz"/>
+<attribute name="VALUE" value="1.5 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844020015?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844020015"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="10.3A@40K"/>
-<attribute name="ISAT1" value="4.1A@10%"/>
-<attribute name="ISAT2" value="8.4A@30%"/>
-<attribute name="L" value="1.5uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843844020015"/>
-<attribute name="RDC-MAX" value="11.5mohm"/>
-<attribute name="RDC-TYP" value="10mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1.5uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1.5 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="4.1 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="8.4 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="10 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="11.5 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="50 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="10.3 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843844020018">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020018?ae"/>
-<attribute name="FRES" value="42MHz"/>
+<attribute name="VALUE" value="1.8 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844020018?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844020018"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="9.5A@40K"/>
-<attribute name="ISAT1" value="3.6A@10%"/>
-<attribute name="ISAT2" value="7.1A@30%"/>
-<attribute name="L" value="1.8uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843844020018"/>
-<attribute name="RDC-MAX" value="13.6mohm"/>
-<attribute name="RDC-TYP" value="11.9mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="1.8uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="1.8 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="3.6 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="7.1 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="11.9 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="13.6 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="42 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="9.5 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843844020022">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020022?ae"/>
-<attribute name="FRES" value="37MHz"/>
+<attribute name="VALUE" value="2.2 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844020022?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844020022"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="7.8A@40K"/>
-<attribute name="ISAT1" value="2.9A@10%"/>
-<attribute name="ISAT2" value="5.8A@30%"/>
-<attribute name="L" value="2.2uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843844020022"/>
-<attribute name="RDC-MAX" value="17.9mohm"/>
-<attribute name="RDC-TYP" value="15.6mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="2.2uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="2.2 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="2.9 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.8 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="15.6 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="17.9 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="37 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="7.8 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843844020033">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020033?ae"/>
-<attribute name="FRES" value="29MHz"/>
+<attribute name="VALUE" value="3.3 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844020033?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844020033"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="6.1A@40K"/>
-<attribute name="ISAT1" value="2.6A@10%"/>
-<attribute name="ISAT2" value="5.3A@30%"/>
-<attribute name="L" value="3.3uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843844020033"/>
-<attribute name="RDC-MAX" value="30.6mohm"/>
-<attribute name="RDC-TYP" value="26.6mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="3.3uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="3.3 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="2.6 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.3 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="26.6 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="30.6 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="29 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="6.1 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 <technology name="_7843844020047">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7843844020047?ae"/>
-<attribute name="FRES" value="25MHz"/>
+<attribute name="VALUE" value="4.7 uH"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7843844020047?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7843844020047"/>
 <attribute name="HEIGHT" value="2.1mm"/>
-<attribute name="IRP" value="5.2A@40K"/>
-<attribute name="ISAT1" value="2.8A@10%"/>
-<attribute name="ISAT2" value="5.7A@30%"/>
-<attribute name="L" value="4.7uH"/>
 <attribute name="LENGTH" value="4.1mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="PART-NUMBER" value="7843844020047"/>
-<attribute name="RDC-MAX" value="46.4mohm"/>
-<attribute name="RDC-TYP" value="40.3mohm"/>
-<attribute name="SIZE" value=" 4020 "/>
-<attribute name="VALUE" value="4.7uH"/>
+<attribute name="SIZE" value="4020"/>
 <attribute name="WIDTH" value="4.1mm"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="4.7 uH"/>
+<attribute name="SATURATION_CURRENT_1" value="2.8 A@10%"/>
+<attribute name="SATURATION_CURRENT_2" value="5.7 A@30%"/>
+<attribute name="DC_RESISTANCE_TYP" value="40.3 mohm"/>
+<attribute name="DC_RESISTANCE_MAX" value="46.4 mohm"/>
+<attribute name="SELF_RESONANT_FREQUENCY" value="25 MHz"/>
+<attribute name="PERFORMANCE_RATED_CURRENT" value="5.2 A@40K"/>
+<attribute name="PREFIX" value="L"/>
 </technology>
 </technologies>
 </device>
