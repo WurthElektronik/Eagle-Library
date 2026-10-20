@@ -76,7 +76,7 @@
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <library>
-<description>Würth Elektronik  - Passive Components - Power Magnetics - Shielded Power Inductors - WE-HCFT
+<description>Würth Elektronik  - Passive Components - Power Magnetics - Coupled Power Inductors - WE-DD
 
 Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, 
 Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. 
@@ -93,16 +93,42 @@ Autodesk Fusion and EAGLE 9.X compatible Library Files
 Library Revision 2026a, 2026-10-20
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-DD_1260" urn="urn:adsk.eagle:footprint:12984073/3">
+<package name="WE-DD_7355" urn="urn:adsk.eagle:footprint:48969893/2">
 <description>WE-DD SMT Shielded Coupled Inductor
 
-Size: 1260, SMT, 4pins
+Size: 7355, SMT, 4pins
 
-LXWXH=12.5X12.5X6.5mm</description>
-<smd name="1" x="1.75" y="4.975" dx="3.85" dy="2.5" layer="1" rot="R270"/>
-<smd name="4" x="1.75" y="-4.975" dx="3.85" dy="2.5" layer="1" rot="R270"/>
-<smd name="2" x="-1.75" y="4.975" dx="3.85" dy="2.5" layer="1" rot="R270"/>
-<smd name="3" x="-1.75" y="-4.975" dx="3.85" dy="2.5" layer="1" rot="R270"/>
+LXWXH=7.3X7.3X5.8mm</description>
+<smd name="1" x="-0.9" y="2.65" dx="1" dy="2.2" layer="1"/>
+<smd name="2" x="-0.9" y="-2.65" dx="1" dy="2.2" layer="1"/>
+<smd name="3" x="0.9" y="-2.65" dx="1" dy="2.2" layer="1"/>
+<smd name="4" x="0.9" y="2.65" dx="1" dy="2.2" layer="1"/>
+<wire x1="-3.65" y1="-3.65" x2="-3.65" y2="3.65" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="3.65" x2="3.65" y2="3.65" width="0.1" layer="51"/>
+<wire x1="3.65" y1="3.65" x2="3.65" y2="-3.65" width="0.1" layer="51"/>
+<wire x1="3.65" y1="-3.65" x2="-3.65" y2="-3.65" width="0.1" layer="51"/>
+<wire x1="3.75" y1="3.75" x2="3.75" y2="-3.75" width="0.2" layer="21"/>
+<wire x1="3.75" y1="-3.75" x2="1.7" y2="-3.75" width="0.2" layer="21"/>
+<wire x1="3.75" y1="3.75" x2="1.7" y2="3.75" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="3.75" x2="-3.75" y2="3.75" width="0.2" layer="21"/>
+<wire x1="-3.75" y1="3.75" x2="-3.75" y2="-3.75" width="0.2" layer="21"/>
+<wire x1="-3.75" y1="-3.75" x2="-1.7" y2="-3.75" width="0.2" layer="21"/>
+<circle x="-3.4" y="4.5" radius="0.2" width="0.4" layer="21"/>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="4.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-3.9" y="-3.9"/>
+<vertex x="3.9" y="-3.9"/>
+<vertex x="3.9" y="3.9"/>
+<vertex x="-3.9" y="3.9"/>
+</polygon>
+</package>
+<package name="WE-DD_1210" urn="urn:adsk.eagle:footprint:12984074/3">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Size: 1210, SMT, 4pins
+
+LXWXH=12.5X12.5X10.5mm</description>
 <wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.1" layer="51"/>
 <wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.1" layer="51"/>
 <wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.1" layer="51"/>
@@ -114,6 +140,10 @@ LXWXH=12.5X12.5X6.5mm</description>
 <wire x1="-6.35" y1="6.35" x2="-6.35" y2="-6.35" width="0.2" layer="21"/>
 <wire x1="-6.35" y1="-6.35" x2="-3.3" y2="-6.35" width="0.2" layer="21"/>
 <circle x="4" y="7" radius="0.2" width="0.4" layer="21"/>
+<smd name="1" x="1.75" y="4.975" dx="2.5" dy="3.85" layer="1"/>
+<smd name="4" x="1.75" y="-4.975" dx="2.5" dy="3.85" layer="1"/>
+<smd name="2" x="-1.75" y="4.975" dx="2.5" dy="3.85" layer="1"/>
+<smd name="3" x="-1.75" y="-4.975" dx="2.5" dy="3.85" layer="1"/>
 <text x="0" y="-9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="7.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <polygon width="0.1" layer="39" pour="solid">
@@ -155,66 +185,6 @@ LXWXH=7.3X7.3X4mm</description>
 <vertex x="-3.9" y="3.9"/>
 </polygon>
 </package>
-<package name="WE-DD_7345" urn="urn:adsk.eagle:footprint:12984071/3">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Size: 7345, SMT, 4pins
-
-LXWXH=7.3X7.3X4.8mm</description>
-<smd name="1" x="-0.9" y="2.65" dx="1" dy="2.2" layer="1"/>
-<smd name="2" x="-0.9" y="-2.65" dx="1" dy="2.2" layer="1"/>
-<smd name="3" x="0.9" y="-2.65" dx="1" dy="2.2" layer="1"/>
-<smd name="4" x="0.9" y="2.65" dx="1" dy="2.2" layer="1"/>
-<wire x1="-3.65" y1="-3.65" x2="-3.65" y2="3.65" width="0.1" layer="51"/>
-<wire x1="-3.65" y1="3.65" x2="3.65" y2="3.65" width="0.1" layer="51"/>
-<wire x1="3.65" y1="3.65" x2="3.65" y2="-3.65" width="0.1" layer="51"/>
-<wire x1="3.65" y1="-3.65" x2="-3.65" y2="-3.65" width="0.1" layer="51"/>
-<wire x1="3.75" y1="3.75" x2="3.75" y2="-3.75" width="0.2" layer="21"/>
-<wire x1="3.75" y1="-3.75" x2="1.7" y2="-3.75" width="0.2" layer="21"/>
-<wire x1="3.75" y1="3.75" x2="1.7" y2="3.75" width="0.2" layer="21"/>
-<wire x1="-1.7" y1="3.75" x2="-3.75" y2="3.75" width="0.2" layer="21"/>
-<wire x1="-3.75" y1="3.75" x2="-3.75" y2="-3.75" width="0.2" layer="21"/>
-<wire x1="-3.75" y1="-3.75" x2="-1.7" y2="-3.75" width="0.2" layer="21"/>
-<circle x="-3.4" y="4.5" radius="0.2" width="0.4" layer="21"/>
-<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="0" y="4.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<polygon width="0.1" layer="39" pour="solid">
-<vertex x="-3.9" y="-3.9"/>
-<vertex x="3.9" y="-3.9"/>
-<vertex x="3.9" y="3.9"/>
-<vertex x="-3.9" y="3.9"/>
-</polygon>
-</package>
-<package name="WE-DD_7355" urn="urn:adsk.eagle:footprint:48969893/2">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Size: 7355, SMT, 4pins
-
-LXWXH=7.3X7.3X5.8mm</description>
-<smd name="1" x="-0.9" y="2.65" dx="1" dy="2.2" layer="1"/>
-<smd name="2" x="-0.9" y="-2.65" dx="1" dy="2.2" layer="1"/>
-<smd name="3" x="0.9" y="-2.65" dx="1" dy="2.2" layer="1"/>
-<smd name="4" x="0.9" y="2.65" dx="1" dy="2.2" layer="1"/>
-<wire x1="-3.65" y1="-3.65" x2="-3.65" y2="3.65" width="0.1" layer="51"/>
-<wire x1="-3.65" y1="3.65" x2="3.65" y2="3.65" width="0.1" layer="51"/>
-<wire x1="3.65" y1="3.65" x2="3.65" y2="-3.65" width="0.1" layer="51"/>
-<wire x1="3.65" y1="-3.65" x2="-3.65" y2="-3.65" width="0.1" layer="51"/>
-<wire x1="3.75" y1="3.75" x2="3.75" y2="-3.75" width="0.2" layer="21"/>
-<wire x1="3.75" y1="-3.75" x2="1.7" y2="-3.75" width="0.2" layer="21"/>
-<wire x1="3.75" y1="3.75" x2="1.7" y2="3.75" width="0.2" layer="21"/>
-<wire x1="-1.7" y1="3.75" x2="-3.75" y2="3.75" width="0.2" layer="21"/>
-<wire x1="-3.75" y1="3.75" x2="-3.75" y2="-3.75" width="0.2" layer="21"/>
-<wire x1="-3.75" y1="-3.75" x2="-1.7" y2="-3.75" width="0.2" layer="21"/>
-<circle x="-3.4" y="4.5" radius="0.2" width="0.4" layer="21"/>
-<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<text x="0" y="4.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<polygon width="0.1" layer="39" pour="solid">
-<vertex x="-3.9" y="-3.9"/>
-<vertex x="3.9" y="-3.9"/>
-<vertex x="3.9" y="3.9"/>
-<vertex x="-3.9" y="3.9"/>
-</polygon>
-</package>
 <package name="WE-DD_1280" urn="urn:adsk.eagle:footprint:12984070/3">
 <description>WE-DD SMT Shielded Coupled Inductor
 
@@ -247,12 +217,16 @@ LXWXH=12.5X12.5X8.5mm</description>
 <rectangle x1="-6.25" y1="-3.05" x2="6.25" y2="3.05" layer="41"/>
 <rectangle x1="-6.25" y1="-3.05" x2="6.25" y2="3.05" layer="43"/>
 </package>
-<package name="WE-DD_1210" urn="urn:adsk.eagle:footprint:12984074/3">
+<package name="WE-DD_1260" urn="urn:adsk.eagle:footprint:12984073/3">
 <description>WE-DD SMT Shielded Coupled Inductor
 
-Size: 1210, SMT, 4pins
+Size: 1260, SMT, 4pins
 
-LXWXH=12.5X12.5X10.5mm</description>
+LXWXH=12.5X12.5X6.5mm</description>
+<smd name="1" x="1.75" y="4.975" dx="3.85" dy="2.5" layer="1" rot="R270"/>
+<smd name="4" x="1.75" y="-4.975" dx="3.85" dy="2.5" layer="1" rot="R270"/>
+<smd name="2" x="-1.75" y="4.975" dx="3.85" dy="2.5" layer="1" rot="R270"/>
+<smd name="3" x="-1.75" y="-4.975" dx="3.85" dy="2.5" layer="1" rot="R270"/>
 <wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.1" layer="51"/>
 <wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.1" layer="51"/>
 <wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.1" layer="51"/>
@@ -264,10 +238,6 @@ LXWXH=12.5X12.5X10.5mm</description>
 <wire x1="-6.35" y1="6.35" x2="-6.35" y2="-6.35" width="0.2" layer="21"/>
 <wire x1="-6.35" y1="-6.35" x2="-3.3" y2="-6.35" width="0.2" layer="21"/>
 <circle x="4" y="7" radius="0.2" width="0.4" layer="21"/>
-<smd name="1" x="1.75" y="4.975" dx="2.5" dy="3.85" layer="1"/>
-<smd name="4" x="1.75" y="-4.975" dx="2.5" dy="3.85" layer="1"/>
-<smd name="2" x="-1.75" y="4.975" dx="2.5" dy="3.85" layer="1"/>
-<smd name="3" x="-1.75" y="-4.975" dx="2.5" dy="3.85" layer="1"/>
 <text x="0" y="-9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="7.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <polygon width="0.1" layer="39" pour="solid">
@@ -279,38 +249,38 @@ LXWXH=12.5X12.5X10.5mm</description>
 <rectangle x1="-6.25" y1="-3.05" x2="6.25" y2="3.05" layer="41"/>
 <rectangle x1="-6.25" y1="-3.05" x2="6.25" y2="3.05" layer="43"/>
 </package>
-</packages>
-<packages3d>
-<package3d name="WE-DD_1260" urn="urn:adsk.eagle:package:12984081/5" type="model">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Size: 1260, SMT, 4pins
-
-LXWXH=12.5X12.5X6.5mm</description>
-<packageinstances>
-<packageinstance name="WE-DD_1260"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-DD_7332" urn="urn:adsk.eagle:package:12984080/5" type="model">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Size: 7332, SMT, 4pins
-
-LXWXH=7.3X7.3X4mm</description>
-<packageinstances>
-<packageinstance name="WE-DD_7332"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-DD_7345" urn="urn:adsk.eagle:package:12984079/5" type="model">
+<package name="WE-DD_7345" urn="urn:adsk.eagle:footprint:12984071/3">
 <description>WE-DD SMT Shielded Coupled Inductor
 
 Size: 7345, SMT, 4pins
 
 LXWXH=7.3X7.3X4.8mm</description>
-<packageinstances>
-<packageinstance name="WE-DD_7345"/>
-</packageinstances>
-</package3d>
+<smd name="1" x="-0.9" y="2.65" dx="1" dy="2.2" layer="1"/>
+<smd name="2" x="-0.9" y="-2.65" dx="1" dy="2.2" layer="1"/>
+<smd name="3" x="0.9" y="-2.65" dx="1" dy="2.2" layer="1"/>
+<smd name="4" x="0.9" y="2.65" dx="1" dy="2.2" layer="1"/>
+<wire x1="-3.65" y1="-3.65" x2="-3.65" y2="3.65" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="3.65" x2="3.65" y2="3.65" width="0.1" layer="51"/>
+<wire x1="3.65" y1="3.65" x2="3.65" y2="-3.65" width="0.1" layer="51"/>
+<wire x1="3.65" y1="-3.65" x2="-3.65" y2="-3.65" width="0.1" layer="51"/>
+<wire x1="3.75" y1="3.75" x2="3.75" y2="-3.75" width="0.2" layer="21"/>
+<wire x1="3.75" y1="-3.75" x2="1.7" y2="-3.75" width="0.2" layer="21"/>
+<wire x1="3.75" y1="3.75" x2="1.7" y2="3.75" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="3.75" x2="-3.75" y2="3.75" width="0.2" layer="21"/>
+<wire x1="-3.75" y1="3.75" x2="-3.75" y2="-3.75" width="0.2" layer="21"/>
+<wire x1="-3.75" y1="-3.75" x2="-1.7" y2="-3.75" width="0.2" layer="21"/>
+<circle x="-3.4" y="4.5" radius="0.2" width="0.4" layer="21"/>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="4.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39" pour="solid">
+<vertex x="-3.9" y="-3.9"/>
+<vertex x="3.9" y="-3.9"/>
+<vertex x="3.9" y="3.9"/>
+<vertex x="-3.9" y="3.9"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
 <package3d name="WE-DD_7355" urn="urn:adsk.eagle:package:48969895/3" type="model">
 <description>WE-DD SMT Shielded Coupled Inductor
 
@@ -319,16 +289,6 @@ Size: 7355, SMT, 4pins
 LXWXH=7.3X7.3X5.8mm</description>
 <packageinstances>
 <packageinstance name="WE-DD_7355"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-DD_1280" urn="urn:adsk.eagle:package:12984078/5" type="model">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Size: 1280, SMT, 4pins
-
-LXWXH=12.5X12.5X8.5mm</description>
-<packageinstances>
-<packageinstance name="WE-DD_1280"/>
 </packageinstances>
 </package3d>
 <package3d name="WE-DD_1210" urn="urn:adsk.eagle:package:12984082/5" type="model">
@@ -341,8 +301,67 @@ LXWXH=12.5X12.5X10.5mm</description>
 <packageinstance name="WE-DD_1210"/>
 </packageinstances>
 </package3d>
+<package3d name="WE-DD_7332" urn="urn:adsk.eagle:package:12984080/5" type="model">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Size: 7332, SMT, 4pins
+
+LXWXH=7.3X7.3X4mm</description>
+<packageinstances>
+<packageinstance name="WE-DD_7332"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-DD_1280" urn="urn:adsk.eagle:package:12984078/5" type="model">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Size: 1280, SMT, 4pins
+
+LXWXH=12.5X12.5X8.5mm</description>
+<packageinstances>
+<packageinstance name="WE-DD_1280"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-DD_1260" urn="urn:adsk.eagle:package:12984081/5" type="model">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Size: 1260, SMT, 4pins
+
+LXWXH=12.5X12.5X6.5mm</description>
+<packageinstances>
+<packageinstance name="WE-DD_1260"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-DD_7345" urn="urn:adsk.eagle:package:12984079/5" type="model">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Size: 7345, SMT, 4pins
+
+LXWXH=7.3X7.3X4.8mm</description>
+<packageinstances>
+<packageinstance name="WE-DD_7345"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
+<symbol name="WE-DD_CROSSED" urn="urn:adsk.eagle:symbol:48969894/1">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="0" x2="4.445" y2="0" width="0.254" layer="94"/>
+<circle x="-5.588" y="1.778" radius="0.127" width="0.254" layer="94"/>
+<circle x="-5.588" y="-1.778" radius="0.127" width="0.254" layer="94"/>
+</symbol>
 <symbol name="WE-DD" urn="urn:adsk.eagle:symbol:14283402/2">
 <pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
 <pin name="3" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
@@ -363,28 +382,9 @@ LXWXH=12.5X12.5X10.5mm</description>
 <circle x="-5.3" y="0.7" radius="0.1" width="0.254" layer="94"/>
 <circle x="-5.3" y="-0.6" radius="0.1" width="0.254" layer="94"/>
 </symbol>
-<symbol name="WE-DD_CROSSED" urn="urn:adsk.eagle:symbol:48969894/1">
-<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="3" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
-<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-4.445" y1="0" x2="4.445" y2="0" width="0.254" layer="94"/>
-<circle x="-5.588" y="1.778" radius="0.127" width="0.254" layer="94"/>
-<circle x="-5.588" y="-1.778" radius="0.127" width="0.254" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-DD_1260_CROSSED" urn="urn:adsk.eagle:component:14283404/3" prefix="L">
+<deviceset name="WE-DD_7355_CROSSED" urn="urn:adsk.eagle:component:48969896/2" prefix="L">
 <description>WE-DD SMT Shielded Coupled Inductor
 
 Characteristics
@@ -405,10 +405,10 @@ Details see: www.we-online.com/components/products/WE-DD
 Updated by Ella 2025-06-11
 2025(C) Würth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="WE-DD" x="0" y="0"/>
+<gate name="G$1" symbol="WE-DD_CROSSED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WE-DD_1260">
+<device name="" package="WE-DD_7355">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -416,182 +416,38 @@ Updated by Ella 2025-06-11
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12984081/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48969895/3"/>
 </package3dinstances>
 <technologies>
-<technology name="_744871004">
+<technology name="_744879221">
 <attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="6.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="HEIGHT" value="5.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 crossed"/>
-<attribute name="VALUE" value="4.7uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="SIZE" value="7355 crossed"/>
+<attribute name="VALUE" value="220uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
 <attribute name="CATEGORY" value="Coupled Inductors"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744871004"/>
-<attribute name="INDUCTANCE-1" value="4.7uH"/>
-<attribute name="INDUCTANCE-2" value="4.7uH"/>
-<attribute name="RATED-CURRENT-1" value="3A"/>
-<attribute name="RATED-CURRENT-2" value="3A"/>
-<attribute name="SATURATION-CURRENT" value="8A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.023ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.023ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.028ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.028ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871004?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744871006">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="6.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 crossed"/>
-<attribute name="VALUE" value="6.8uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744871006"/>
-<attribute name="INDUCTANCE-1" value="6.8uH"/>
-<attribute name="INDUCTANCE-2" value="6.8uH"/>
-<attribute name="RATED-CURRENT-1" value="2.8A"/>
-<attribute name="RATED-CURRENT-2" value="2.8A"/>
-<attribute name="SATURATION-CURRENT" value="6.5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.035ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.035ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.04ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.04ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871006?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744871100">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="6.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 crossed"/>
-<attribute name="VALUE" value="10uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744871100"/>
-<attribute name="INDUCTANCE-1" value="10uH"/>
-<attribute name="INDUCTANCE-2" value="10uH"/>
-<attribute name="RATED-CURRENT-1" value="2A"/>
-<attribute name="RATED-CURRENT-2" value="2A"/>
-<attribute name="SATURATION-CURRENT" value="5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.044ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.044ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.05ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.05ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871100?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744871101">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="6.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 crossed"/>
-<attribute name="VALUE" value="100uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744871101"/>
-<attribute name="INDUCTANCE-1" value="100uH"/>
-<attribute name="INDUCTANCE-2" value="100uH"/>
-<attribute name="RATED-CURRENT-1" value="1.5A"/>
-<attribute name="RATED-CURRENT-2" value="1.5A"/>
-<attribute name="SATURATION-CURRENT" value="1.8A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.293ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.293ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.36ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.36ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="4MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871101?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744871220">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="6.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 crossed"/>
-<attribute name="VALUE" value="22uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744871220"/>
-<attribute name="INDUCTANCE-1" value="22uH"/>
-<attribute name="INDUCTANCE-2" value="22uH"/>
-<attribute name="RATED-CURRENT-1" value="1.85A"/>
-<attribute name="RATED-CURRENT-2" value="1.85A"/>
-<attribute name="SATURATION-CURRENT" value="3A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.067ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.067ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.09ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.09ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="14MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871220?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744871330">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="6.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 crossed"/>
-<attribute name="VALUE" value="33uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744871330"/>
-<attribute name="INDUCTANCE-1" value="33uH"/>
-<attribute name="INDUCTANCE-2" value="33uH"/>
-<attribute name="RATED-CURRENT-1" value="1.2A"/>
-<attribute name="RATED-CURRENT-2" value="1.2A"/>
-<attribute name="SATURATION-CURRENT" value="2.8A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.125ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.125ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.17ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.17ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="6MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871330?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744871470">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="6.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 crossed"/>
-<attribute name="VALUE" value="47uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744871470"/>
-<attribute name="INDUCTANCE-1" value="47uH"/>
-<attribute name="INDUCTANCE-2" value="47uH"/>
-<attribute name="RATED-CURRENT-1" value="1.1A"/>
-<attribute name="RATED-CURRENT-2" value="1.1A"/>
-<attribute name="SATURATION-CURRENT" value="2.4A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.145ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.145ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.18ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.18ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="5MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871470?ae"/>
+<attribute name="MPN" value="744879221"/>
+<attribute name="INDUCTANCE-1" value="220uH"/>
+<attribute name="INDUCTANCE-2" value="220uH"/>
+<attribute name="RATED-CURRENT-1" value="0.44A"/>
+<attribute name="RATED-CURRENT-2" value="0.44A"/>
+<attribute name="SATURATION-CURRENT" value="0.7A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="1.94ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="1.94ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="2.3ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="2.3ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="3.2MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744879221?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="WE-DD_1260_STRAIGHT" urn="urn:adsk.eagle:component:14283406/3" prefix="L">
+<deviceset name="WE-DD_1210_CROSSED" urn="urn:adsk.eagle:component:14283409/3" prefix="L">
 <description>WE-DD SMT Shielded Coupled Inductor
 
 Characteristics
@@ -615,231 +471,207 @@ Updated by Ella 2025-06-11
 <gate name="G$1" symbol="WE-DD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WE-DD_1260">
+<device name="" package="WE-DD_1210">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="4"/>
-<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12984081/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12984082/5"/>
 </package3dinstances>
 <technologies>
-<technology name="_744874001">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="6.5mm"/>
+<technology name="_7448709022">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="10.5mm"/>
 <attribute name="LENGTH" value="12.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 straight"/>
-<attribute name="VALUE" value="1.5uH"/>
+<attribute name="SIZE" value="1210 crossed"/>
+<attribute name="VALUE" value="2.2uH"/>
 <attribute name="WIDTH" value="12.5mm"/>
 <attribute name="CATEGORY" value="Coupled Inductors"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744874001"/>
-<attribute name="INDUCTANCE-1" value="1.5uH"/>
-<attribute name="INDUCTANCE-2" value="1.5uH"/>
-<attribute name="RATED-CURRENT-1" value="5.85A"/>
-<attribute name="RATED-CURRENT-2" value="5.85A"/>
-<attribute name="SATURATION-CURRENT" value="14A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.012ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.012ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.016ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.016ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="70MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874001?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744874002">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="6.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 straight"/>
-<attribute name="VALUE" value="2.4uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744874002"/>
-<attribute name="INDUCTANCE-1" value="2.4uH"/>
-<attribute name="INDUCTANCE-2" value="2.4uH"/>
-<attribute name="RATED-CURRENT-1" value="5.5A"/>
-<attribute name="RATED-CURRENT-2" value="5.5A"/>
-<attribute name="SATURATION-CURRENT" value="11.5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.013ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.013ohm"/>
+<attribute name="MPN" value="7448709022"/>
+<attribute name="INDUCTANCE-1" value="2.2uH"/>
+<attribute name="INDUCTANCE-2" value="2.2uH"/>
+<attribute name="RATED-CURRENT-1" value="4.1A"/>
+<attribute name="RATED-CURRENT-2" value="4.1A"/>
+<attribute name="SATURATION-CURRENT" value="19A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.015ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.015ohm"/>
 <attribute name="DC-RESISTANCE-1-MAX" value="0.017ohm"/>
 <attribute name="DC-RESISTANCE-2-MAX" value="0.017ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="54MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874002?ae"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="45MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709022?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
-<technology name="_744874003">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="6.5mm"/>
+<technology name="_7448709033">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="10.5mm"/>
 <attribute name="LENGTH" value="12.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 straight"/>
+<attribute name="SIZE" value="1210 crossed"/>
 <attribute name="VALUE" value="3.3uH"/>
 <attribute name="WIDTH" value="12.5mm"/>
 <attribute name="CATEGORY" value="Coupled Inductors"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744874003"/>
+<attribute name="MPN" value="7448709033"/>
 <attribute name="INDUCTANCE-1" value="3.3uH"/>
 <attribute name="INDUCTANCE-2" value="3.3uH"/>
-<attribute name="RATED-CURRENT-1" value="4.91A"/>
-<attribute name="RATED-CURRENT-2" value="4.91A"/>
-<attribute name="SATURATION-CURRENT" value="8.9A"/>
+<attribute name="RATED-CURRENT-1" value="3.7A"/>
+<attribute name="RATED-CURRENT-2" value="3.7A"/>
+<attribute name="SATURATION-CURRENT" value="15.5A"/>
 <attribute name="DC-RESISTANCE-1-TYP" value="0.017ohm"/>
 <attribute name="DC-RESISTANCE-2-TYP" value="0.017ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.021ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.021ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="45MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874003?ae"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.02ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.02ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="35MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709033?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
-<technology name="_744874004">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="6.5mm"/>
+<technology name="_7448709047">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="10.5mm"/>
 <attribute name="LENGTH" value="12.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 straight"/>
+<attribute name="SIZE" value="1210 crossed"/>
 <attribute name="VALUE" value="4.7uH"/>
 <attribute name="WIDTH" value="12.5mm"/>
 <attribute name="CATEGORY" value="Coupled Inductors"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744874004"/>
+<attribute name="MPN" value="7448709047"/>
 <attribute name="INDUCTANCE-1" value="4.7uH"/>
 <attribute name="INDUCTANCE-2" value="4.7uH"/>
-<attribute name="RATED-CURRENT-1" value="4.22A"/>
-<attribute name="RATED-CURRENT-2" value="4.22A"/>
-<attribute name="SATURATION-CURRENT" value="8A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.023ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.023ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.028ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.028ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="39MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874004?ae"/>
+<attribute name="RATED-CURRENT-1" value="3.6A"/>
+<attribute name="RATED-CURRENT-2" value="3.6A"/>
+<attribute name="SATURATION-CURRENT" value="13A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.019ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.019ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.023ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.023ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="30MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709047?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
-<technology name="_744874006">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="6.5mm"/>
+<technology name="_7448709068">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="10.5mm"/>
 <attribute name="LENGTH" value="12.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 straight"/>
+<attribute name="SIZE" value="1210 crossed"/>
 <attribute name="VALUE" value="6.8uH"/>
 <attribute name="WIDTH" value="12.5mm"/>
 <attribute name="CATEGORY" value="Coupled Inductors"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744874006"/>
+<attribute name="MPN" value="7448709068"/>
 <attribute name="INDUCTANCE-1" value="6.8uH"/>
 <attribute name="INDUCTANCE-2" value="6.8uH"/>
-<attribute name="RATED-CURRENT-1" value="3.9A"/>
-<attribute name="RATED-CURRENT-2" value="3.9A"/>
-<attribute name="SATURATION-CURRENT" value="6.8A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.027ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.027ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.032ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.032ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="33MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874006?ae"/>
+<attribute name="RATED-CURRENT-1" value="3.3A"/>
+<attribute name="RATED-CURRENT-2" value="3.3A"/>
+<attribute name="SATURATION-CURRENT" value="11.5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.026ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.026ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.031ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.031ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="23MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709068?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
-<technology name="_744874100">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="6.5mm"/>
+<technology name="_7448709100">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="10.5mm"/>
 <attribute name="LENGTH" value="12.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 straight"/>
+<attribute name="SIZE" value="1210 crossed"/>
 <attribute name="VALUE" value="10uH"/>
 <attribute name="WIDTH" value="12.5mm"/>
 <attribute name="CATEGORY" value="Coupled Inductors"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744874100"/>
+<attribute name="MPN" value="7448709100"/>
 <attribute name="INDUCTANCE-1" value="10uH"/>
 <attribute name="INDUCTANCE-2" value="10uH"/>
-<attribute name="RATED-CURRENT-1" value="3.28A"/>
-<attribute name="RATED-CURRENT-2" value="3.28A"/>
-<attribute name="SATURATION-CURRENT" value="5.25A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.038ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.038ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.044ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.044ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="24MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874100?ae"/>
+<attribute name="RATED-CURRENT-1" value="3.2A"/>
+<attribute name="RATED-CURRENT-2" value="3.2A"/>
+<attribute name="SATURATION-CURRENT" value="8A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.033ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.033ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.04ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.04ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709100?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
-<technology name="_744874101">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="6.5mm"/>
+<technology name="_7448709220">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="10.5mm"/>
 <attribute name="LENGTH" value="12.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 straight"/>
-<attribute name="VALUE" value="100uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744874101"/>
-<attribute name="INDUCTANCE-1" value="100uH"/>
-<attribute name="INDUCTANCE-2" value="100uH"/>
-<attribute name="RATED-CURRENT-1" value="1.2A"/>
-<attribute name="RATED-CURRENT-2" value="1.2A"/>
-<attribute name="SATURATION-CURRENT" value="1.7A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.285ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.285ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.32ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.32ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="6MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874101?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744874220">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="6.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 straight"/>
+<attribute name="SIZE" value="1210 crossed"/>
 <attribute name="VALUE" value="22uH"/>
 <attribute name="WIDTH" value="12.5mm"/>
 <attribute name="CATEGORY" value="Coupled Inductors"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744874220"/>
+<attribute name="MPN" value="7448709220"/>
 <attribute name="INDUCTANCE-1" value="22uH"/>
 <attribute name="INDUCTANCE-2" value="22uH"/>
-<attribute name="RATED-CURRENT-1" value="2.47A"/>
-<attribute name="RATED-CURRENT-2" value="2.47A"/>
-<attribute name="SATURATION-CURRENT" value="3.3A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.067ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.067ohm"/>
+<attribute name="RATED-CURRENT-1" value="3.5A"/>
+<attribute name="RATED-CURRENT-2" value="3.5A"/>
+<attribute name="SATURATION-CURRENT" value="5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.064ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.064ohm"/>
 <attribute name="DC-RESISTANCE-1-MAX" value="0.08ohm"/>
 <attribute name="DC-RESISTANCE-2-MAX" value="0.08ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="15.5MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874220?ae"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="10MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709220?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
-<technology name="_744874470">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="6.5mm"/>
+<technology name="_7448709330">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="10.5mm"/>
 <attribute name="LENGTH" value="12.5mm"/>
 <attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1260 straight"/>
+<attribute name="SIZE" value="1210 crossed"/>
+<attribute name="VALUE" value="33uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="7448709330"/>
+<attribute name="INDUCTANCE-1" value="33uH"/>
+<attribute name="INDUCTANCE-2" value="33uH"/>
+<attribute name="RATED-CURRENT-1" value="2A"/>
+<attribute name="RATED-CURRENT-2" value="2A"/>
+<attribute name="SATURATION-CURRENT" value="4.4A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.08ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.08ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.1ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.1ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="6MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709330?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_7448709470">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="10.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1210 crossed"/>
 <attribute name="VALUE" value="47uH"/>
 <attribute name="WIDTH" value="12.5mm"/>
 <attribute name="CATEGORY" value="Coupled Inductors"/>
 <attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744874470"/>
+<attribute name="MPN" value="7448709470"/>
 <attribute name="INDUCTANCE-1" value="47uH"/>
 <attribute name="INDUCTANCE-2" value="47uH"/>
-<attribute name="RATED-CURRENT-1" value="1.8A"/>
-<attribute name="RATED-CURRENT-2" value="1.8A"/>
-<attribute name="SATURATION-CURRENT" value="2.75A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.13ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.13ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.15ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.15ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="11MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874470?ae"/>
+<attribute name="RATED-CURRENT-1" value="1.9A"/>
+<attribute name="RATED-CURRENT-2" value="1.9A"/>
+<attribute name="SATURATION-CURRENT" value="3.6A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.106ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.106ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.13ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.13ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="4MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709470?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
 </technologies>
@@ -1143,993 +975,6 @@ Updated by Ella 2025-06-11
 <attribute name="DC-RESISTANCE-2-MAX" value="0.75ohm"/>
 <attribute name="SELF-RESONANT-FREQUENCY" value="8MHz"/>
 <attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744878470?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-DD_7345_STRAIGHT" urn="urn:adsk.eagle:component:14283405/3" prefix="L">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Characteristics
-1:1 transformer
-Double inductor with two identical windings
-5 different sizes available
-Operating temperature: –40 ºC to +125 ºC
-Recommended solder profile: Reflow
-Custom designs on request
-
-Applications
-For SEPIC and CUK topologies
-Flyback applications
-Switching regulators with second, unregulated output voltage
-
-Details see: www.we-online.com/components/products/WE-DD
-
-Updated by Ella 2025-06-11
-2025(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WE-DD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-DD_7345">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="4"/>
-<connect gate="G$1" pin="3" pad="2"/>
-<connect gate="G$1" pin="4" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12984079/5"/>
-</package3dinstances>
-<technologies>
-<technology name="_744877001">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="1.8uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877001"/>
-<attribute name="INDUCTANCE-1" value="1.8uH"/>
-<attribute name="INDUCTANCE-2" value="1.8uH"/>
-<attribute name="RATED-CURRENT-1" value="4.7A"/>
-<attribute name="RATED-CURRENT-2" value="4.7A"/>
-<attribute name="SATURATION-CURRENT" value="6.5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.025ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.025ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.034ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.034ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="58MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877001?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877002">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="2.4uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877002"/>
-<attribute name="INDUCTANCE-1" value="2.4uH"/>
-<attribute name="INDUCTANCE-2" value="2.4uH"/>
-<attribute name="RATED-CURRENT-1" value="4.2A"/>
-<attribute name="RATED-CURRENT-2" value="4.2A"/>
-<attribute name="SATURATION-CURRENT" value="5.6A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.031ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.031ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.042ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.042ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="50MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877002?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877003">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="3.3uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877003"/>
-<attribute name="INDUCTANCE-1" value="3.3uH"/>
-<attribute name="INDUCTANCE-2" value="3.3uH"/>
-<attribute name="RATED-CURRENT-1" value="3.7A"/>
-<attribute name="RATED-CURRENT-2" value="3.7A"/>
-<attribute name="SATURATION-CURRENT" value="5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.04ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.04ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.052ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.052ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="46MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877003?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877004">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="4.7uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877004"/>
-<attribute name="INDUCTANCE-1" value="4.7uH"/>
-<attribute name="INDUCTANCE-2" value="4.7uH"/>
-<attribute name="RATED-CURRENT-1" value="2.55A"/>
-<attribute name="RATED-CURRENT-2" value="2.55A"/>
-<attribute name="SATURATION-CURRENT" value="4A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.052ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.052ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.064ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.064ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="42MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877004?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877005">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="5.6uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877005"/>
-<attribute name="INDUCTANCE-1" value="5.6uH"/>
-<attribute name="INDUCTANCE-2" value="5.6uH"/>
-<attribute name="RATED-CURRENT-1" value="1.9A"/>
-<attribute name="RATED-CURRENT-2" value="1.9A"/>
-<attribute name="SATURATION-CURRENT" value="3.5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.08ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.08ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.095ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.095ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="23MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877005?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877006">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="6.8uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877006"/>
-<attribute name="INDUCTANCE-1" value="6.8uH"/>
-<attribute name="INDUCTANCE-2" value="6.8uH"/>
-<attribute name="RATED-CURRENT-1" value="1.8A"/>
-<attribute name="RATED-CURRENT-2" value="1.8A"/>
-<attribute name="SATURATION-CURRENT" value="3.2A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.085ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.085ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.102ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.102ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877006?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877008">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="8.2uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877008"/>
-<attribute name="INDUCTANCE-1" value="8.2uH"/>
-<attribute name="INDUCTANCE-2" value="8.2uH"/>
-<attribute name="RATED-CURRENT-1" value="1.7A"/>
-<attribute name="RATED-CURRENT-2" value="1.7A"/>
-<attribute name="SATURATION-CURRENT" value="2.9A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.091ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.091ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.11ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.11ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="17MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877008?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877100">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="10uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877100"/>
-<attribute name="INDUCTANCE-1" value="10uH"/>
-<attribute name="INDUCTANCE-2" value="10uH"/>
-<attribute name="RATED-CURRENT-1" value="1.1A"/>
-<attribute name="RATED-CURRENT-2" value="1.1A"/>
-<attribute name="SATURATION-CURRENT" value="2.8A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.11ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.11ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.12ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.12ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="27MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877100?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877101">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="100uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877101"/>
-<attribute name="INDUCTANCE-1" value="100uH"/>
-<attribute name="INDUCTANCE-2" value="100uH"/>
-<attribute name="RATED-CURRENT-1" value="0.65A"/>
-<attribute name="RATED-CURRENT-2" value="0.65A"/>
-<attribute name="SATURATION-CURRENT" value="0.9A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="1.029ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="1.029ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="1.3ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="1.3ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="4MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877101?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877220">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="22uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877220"/>
-<attribute name="INDUCTANCE-1" value="22uH"/>
-<attribute name="INDUCTANCE-2" value="22uH"/>
-<attribute name="RATED-CURRENT-1" value="0.8A"/>
-<attribute name="RATED-CURRENT-2" value="0.8A"/>
-<attribute name="SATURATION-CURRENT" value="1.8A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.215ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.215ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.26ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.26ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="16MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877220?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744877330">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 straight"/>
-<attribute name="VALUE" value="33uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744877330"/>
-<attribute name="INDUCTANCE-1" value="33uH"/>
-<attribute name="INDUCTANCE-2" value="33uH"/>
-<attribute name="RATED-CURRENT-1" value="0.7A"/>
-<attribute name="RATED-CURRENT-2" value="0.7A"/>
-<attribute name="SATURATION-CURRENT" value="1.5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.4ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.4ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.5ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.5ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="8MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877330?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-DD_7355_CROSSED" urn="urn:adsk.eagle:component:48969896/2" prefix="L">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Characteristics
-1:1 transformer
-Double inductor with two identical windings
-5 different sizes available
-Operating temperature: –40 ºC to +125 ºC
-Recommended solder profile: Reflow
-Custom designs on request
-
-Applications
-For SEPIC and CUK topologies
-Flyback applications
-Switching regulators with second, unregulated output voltage
-
-Details see: www.we-online.com/components/products/WE-DD
-
-Updated by Ella 2025-06-11
-2025(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WE-DD_CROSSED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-DD_7355">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:48969895/3"/>
-</package3dinstances>
-<technologies>
-<technology name="_744879221">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="5.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7355 crossed"/>
-<attribute name="VALUE" value="220uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744879221"/>
-<attribute name="INDUCTANCE-1" value="220uH"/>
-<attribute name="INDUCTANCE-2" value="220uH"/>
-<attribute name="RATED-CURRENT-1" value="0.44A"/>
-<attribute name="RATED-CURRENT-2" value="0.44A"/>
-<attribute name="SATURATION-CURRENT" value="0.7A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="1.94ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="1.94ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="2.3ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="2.3ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="3.2MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744879221?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-DD_7345_CROSSED" urn="urn:adsk.eagle:component:48969897/2" prefix="L">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Characteristics
-1:1 transformer
-Double inductor with two identical windings
-5 different sizes available
-Operating temperature: –40 ºC to +125 ºC
-Recommended solder profile: Reflow
-Custom designs on request
-
-Applications
-For SEPIC and CUK topologies
-Flyback applications
-Switching regulators with second, unregulated output voltage
-
-Details see: www.we-online.com/components/products/WE-DD
-
-Updated by Ella 2025-06-11
-2025(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WE-DD_CROSSED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-DD_7345">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12984079/5"/>
-</package3dinstances>
-<technologies>
-<technology name="_744875221">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="4.8mm"/>
-<attribute name="LENGTH" value="7.3mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="7345 crossed"/>
-<attribute name="VALUE" value="220uH"/>
-<attribute name="WIDTH" value="7.3mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744875221"/>
-<attribute name="INDUCTANCE-1" value="220uH"/>
-<attribute name="INDUCTANCE-2" value="220uH"/>
-<attribute name="RATED-CURRENT-1" value="0.46A"/>
-<attribute name="RATED-CURRENT-2" value="0.46A"/>
-<attribute name="SATURATION-CURRENT" value="0.58A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="1.94ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="1.94ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="2.32ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="2.32ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="4.1MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744875221?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-DD_1280_STRAIGHT" urn="urn:adsk.eagle:component:14283403/3" prefix="L">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Characteristics
-1:1 transformer
-Double inductor with two identical windings
-5 different sizes available
-Operating temperature: –40 ºC to +125 ºC
-Recommended solder profile: Reflow
-Custom designs on request
-
-Applications
-For SEPIC and CUK topologies
-Flyback applications
-Switching regulators with second, unregulated output voltage
-
-Details see: www.we-online.com/components/products/WE-DD
-
-Updated by Ella 2025-06-11
-2025(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WE-DD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-DD_1280">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="4"/>
-<connect gate="G$1" pin="4" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12984078/5"/>
-</package3dinstances>
-<technologies>
-<technology name="_744873001">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="1.5uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873001"/>
-<attribute name="INDUCTANCE-1" value="1.5uH"/>
-<attribute name="INDUCTANCE-2" value="1.5uH"/>
-<attribute name="RATED-CURRENT-1" value="6.25A"/>
-<attribute name="RATED-CURRENT-2" value="6.25A"/>
-<attribute name="SATURATION-CURRENT" value="18A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.011ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.011ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.015ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.015ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="75MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873001?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873002">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="2.4uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873002"/>
-<attribute name="INDUCTANCE-1" value="2.4uH"/>
-<attribute name="INDUCTANCE-2" value="2.4uH"/>
-<attribute name="RATED-CURRENT-1" value="6A"/>
-<attribute name="RATED-CURRENT-2" value="6A"/>
-<attribute name="SATURATION-CURRENT" value="14A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.012ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.012ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.016ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.016ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="54MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873002?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873003">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="3.3uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873003"/>
-<attribute name="INDUCTANCE-1" value="3.3uH"/>
-<attribute name="INDUCTANCE-2" value="3.3uH"/>
-<attribute name="RATED-CURRENT-1" value="5.14A"/>
-<attribute name="RATED-CURRENT-2" value="5.14A"/>
-<attribute name="SATURATION-CURRENT" value="11A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.017ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.017ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.022ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.022ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="41MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873003?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873004">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="4.7uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873004"/>
-<attribute name="INDUCTANCE-1" value="4.7uH"/>
-<attribute name="INDUCTANCE-2" value="4.7uH"/>
-<attribute name="RATED-CURRENT-1" value="4.87A"/>
-<attribute name="RATED-CURRENT-2" value="4.87A"/>
-<attribute name="SATURATION-CURRENT" value="10A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.019ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.019ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.024ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.024ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="32MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873004?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873100">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="10uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873100"/>
-<attribute name="INDUCTANCE-1" value="10uH"/>
-<attribute name="INDUCTANCE-2" value="10uH"/>
-<attribute name="RATED-CURRENT-1" value="4.2A"/>
-<attribute name="RATED-CURRENT-2" value="4.2A"/>
-<attribute name="SATURATION-CURRENT" value="7.5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.031ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.031ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.042ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.042ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873100?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873101">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="100uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873101"/>
-<attribute name="INDUCTANCE-1" value="100uH"/>
-<attribute name="INDUCTANCE-2" value="100uH"/>
-<attribute name="RATED-CURRENT-1" value="1.38A"/>
-<attribute name="RATED-CURRENT-2" value="1.38A"/>
-<attribute name="SATURATION-CURRENT" value="2.2A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.235ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.235ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.255ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.255ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="4.4MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873101?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873150">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="15uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873150"/>
-<attribute name="INDUCTANCE-1" value="15uH"/>
-<attribute name="INDUCTANCE-2" value="15uH"/>
-<attribute name="RATED-CURRENT-1" value="3.3A"/>
-<attribute name="RATED-CURRENT-2" value="3.3A"/>
-<attribute name="SATURATION-CURRENT" value="6.1A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.041ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.041ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.055ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.055ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="14MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873150?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873220">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="22uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873220"/>
-<attribute name="INDUCTANCE-1" value="22uH"/>
-<attribute name="INDUCTANCE-2" value="22uH"/>
-<attribute name="RATED-CURRENT-1" value="2.79A"/>
-<attribute name="RATED-CURRENT-2" value="2.79A"/>
-<attribute name="SATURATION-CURRENT" value="5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.058ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.058ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.07ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.07ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="11.5MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873220?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873221">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="220uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873221"/>
-<attribute name="INDUCTANCE-1" value="220uH"/>
-<attribute name="INDUCTANCE-2" value="220uH"/>
-<attribute name="RATED-CURRENT-1" value="0.91A"/>
-<attribute name="RATED-CURRENT-2" value="0.91A"/>
-<attribute name="SATURATION-CURRENT" value="1.6A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.54ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.54ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.58ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.58ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="2.8MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873221?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873330">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="33uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873330"/>
-<attribute name="INDUCTANCE-1" value="33uH"/>
-<attribute name="INDUCTANCE-2" value="33uH"/>
-<attribute name="RATED-CURRENT-1" value="2.25A"/>
-<attribute name="RATED-CURRENT-2" value="2.25A"/>
-<attribute name="SATURATION-CURRENT" value="3.9A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.087ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.087ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.105ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.105ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="8.9MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873330?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873470">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="47uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873470"/>
-<attribute name="INDUCTANCE-1" value="47uH"/>
-<attribute name="INDUCTANCE-2" value="47uH"/>
-<attribute name="RATED-CURRENT-1" value="2.02A"/>
-<attribute name="RATED-CURRENT-2" value="2.02A"/>
-<attribute name="SATURATION-CURRENT" value="3.1A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.11ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.11ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.12ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.12ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="7.8MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873470?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_744873680">
-<attribute name="TYPE" value="Straight"/>
-<attribute name="HEIGHT" value="8.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1280 straight"/>
-<attribute name="VALUE" value="68uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="744873680"/>
-<attribute name="INDUCTANCE-1" value="68uH"/>
-<attribute name="INDUCTANCE-2" value="68uH"/>
-<attribute name="RATED-CURRENT-1" value="1.66A"/>
-<attribute name="RATED-CURRENT-2" value="1.66A"/>
-<attribute name="SATURATION-CURRENT" value="2.8A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.163ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.163ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.18ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.18ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="5.5MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873680?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WE-DD_1210_CROSSED" urn="urn:adsk.eagle:component:14283409/3" prefix="L">
-<description>WE-DD SMT Shielded Coupled Inductor
-
-Characteristics
-1:1 transformer
-Double inductor with two identical windings
-5 different sizes available
-Operating temperature: –40 ºC to +125 ºC
-Recommended solder profile: Reflow
-Custom designs on request
-
-Applications
-For SEPIC and CUK topologies
-Flyback applications
-Switching regulators with second, unregulated output voltage
-
-Details see: www.we-online.com/components/products/WE-DD
-
-Updated by Ella 2025-06-11
-2025(C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WE-DD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-DD_1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12984082/5"/>
-</package3dinstances>
-<technologies>
-<technology name="_7448709022">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="10.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1210 crossed"/>
-<attribute name="VALUE" value="2.2uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="7448709022"/>
-<attribute name="INDUCTANCE-1" value="2.2uH"/>
-<attribute name="INDUCTANCE-2" value="2.2uH"/>
-<attribute name="RATED-CURRENT-1" value="4.1A"/>
-<attribute name="RATED-CURRENT-2" value="4.1A"/>
-<attribute name="SATURATION-CURRENT" value="19A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.015ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.015ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.017ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.017ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="45MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709022?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_7448709033">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="10.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1210 crossed"/>
-<attribute name="VALUE" value="3.3uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="7448709033"/>
-<attribute name="INDUCTANCE-1" value="3.3uH"/>
-<attribute name="INDUCTANCE-2" value="3.3uH"/>
-<attribute name="RATED-CURRENT-1" value="3.7A"/>
-<attribute name="RATED-CURRENT-2" value="3.7A"/>
-<attribute name="SATURATION-CURRENT" value="15.5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.017ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.017ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.02ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.02ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="35MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709033?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_7448709047">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="10.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1210 crossed"/>
-<attribute name="VALUE" value="4.7uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="7448709047"/>
-<attribute name="INDUCTANCE-1" value="4.7uH"/>
-<attribute name="INDUCTANCE-2" value="4.7uH"/>
-<attribute name="RATED-CURRENT-1" value="3.6A"/>
-<attribute name="RATED-CURRENT-2" value="3.6A"/>
-<attribute name="SATURATION-CURRENT" value="13A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.019ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.019ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.023ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.023ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="30MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709047?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_7448709068">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="10.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1210 crossed"/>
-<attribute name="VALUE" value="6.8uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="7448709068"/>
-<attribute name="INDUCTANCE-1" value="6.8uH"/>
-<attribute name="INDUCTANCE-2" value="6.8uH"/>
-<attribute name="RATED-CURRENT-1" value="3.3A"/>
-<attribute name="RATED-CURRENT-2" value="3.3A"/>
-<attribute name="SATURATION-CURRENT" value="11.5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.026ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.026ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.031ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.031ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="23MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709068?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_7448709100">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="10.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1210 crossed"/>
-<attribute name="VALUE" value="10uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="7448709100"/>
-<attribute name="INDUCTANCE-1" value="10uH"/>
-<attribute name="INDUCTANCE-2" value="10uH"/>
-<attribute name="RATED-CURRENT-1" value="3.2A"/>
-<attribute name="RATED-CURRENT-2" value="3.2A"/>
-<attribute name="SATURATION-CURRENT" value="8A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.033ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.033ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.04ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.04ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709100?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_7448709220">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="10.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1210 crossed"/>
-<attribute name="VALUE" value="22uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="7448709220"/>
-<attribute name="INDUCTANCE-1" value="22uH"/>
-<attribute name="INDUCTANCE-2" value="22uH"/>
-<attribute name="RATED-CURRENT-1" value="3.5A"/>
-<attribute name="RATED-CURRENT-2" value="3.5A"/>
-<attribute name="SATURATION-CURRENT" value="5A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.064ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.064ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.08ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.08ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="10MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709220?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_7448709330">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="10.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1210 crossed"/>
-<attribute name="VALUE" value="33uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="7448709330"/>
-<attribute name="INDUCTANCE-1" value="33uH"/>
-<attribute name="INDUCTANCE-2" value="33uH"/>
-<attribute name="RATED-CURRENT-1" value="2A"/>
-<attribute name="RATED-CURRENT-2" value="2A"/>
-<attribute name="SATURATION-CURRENT" value="4.4A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.08ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.08ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.1ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.1ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="6MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709330?ae"/>
-<attribute name="PREFIX" value="L"/>
-</technology>
-<technology name="_7448709470">
-<attribute name="TYPE" value="Crossed"/>
-<attribute name="HEIGHT" value="10.5mm"/>
-<attribute name="LENGTH" value="12.5mm"/>
-<attribute name="MOUNT" value="SMT"/>
-<attribute name="SIZE" value="1210 crossed"/>
-<attribute name="VALUE" value="47uH"/>
-<attribute name="WIDTH" value="12.5mm"/>
-<attribute name="CATEGORY" value="Coupled Inductors"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik"/>
-<attribute name="MPN" value="7448709470"/>
-<attribute name="INDUCTANCE-1" value="47uH"/>
-<attribute name="INDUCTANCE-2" value="47uH"/>
-<attribute name="RATED-CURRENT-1" value="1.9A"/>
-<attribute name="RATED-CURRENT-2" value="1.9A"/>
-<attribute name="SATURATION-CURRENT" value="3.6A"/>
-<attribute name="DC-RESISTANCE-1-TYP" value="0.106ohm"/>
-<attribute name="DC-RESISTANCE-2-TYP" value="0.106ohm"/>
-<attribute name="DC-RESISTANCE-1-MAX" value="0.13ohm"/>
-<attribute name="DC-RESISTANCE-2-MAX" value="0.13ohm"/>
-<attribute name="SELF-RESONANT-FREQUENCY" value="4MHz"/>
-<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/7448709470?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
 </technologies>
@@ -2481,6 +1326,1161 @@ Updated by Ella 2025-06-11
 <attribute name="DC-RESISTANCE-2-MAX" value="0.215ohm"/>
 <attribute name="SELF-RESONANT-FREQUENCY" value="3.7MHz"/>
 <attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744870680?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-DD_1260_CROSSED" urn="urn:adsk.eagle:component:14283404/3" prefix="L">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Characteristics
+1:1 transformer
+Double inductor with two identical windings
+5 different sizes available
+Operating temperature: –40 ºC to +125 ºC
+Recommended solder profile: Reflow
+Custom designs on request
+
+Applications
+For SEPIC and CUK topologies
+Flyback applications
+Switching regulators with second, unregulated output voltage
+
+Details see: www.we-online.com/components/products/WE-DD
+
+Updated by Ella 2025-06-11
+2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-DD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-DD_1260">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12984081/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_744871004">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 crossed"/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744871004"/>
+<attribute name="INDUCTANCE-1" value="4.7uH"/>
+<attribute name="INDUCTANCE-2" value="4.7uH"/>
+<attribute name="RATED-CURRENT-1" value="3A"/>
+<attribute name="RATED-CURRENT-2" value="3A"/>
+<attribute name="SATURATION-CURRENT" value="8A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.023ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.023ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.028ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.028ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871004?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744871006">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 crossed"/>
+<attribute name="VALUE" value="6.8uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744871006"/>
+<attribute name="INDUCTANCE-1" value="6.8uH"/>
+<attribute name="INDUCTANCE-2" value="6.8uH"/>
+<attribute name="RATED-CURRENT-1" value="2.8A"/>
+<attribute name="RATED-CURRENT-2" value="2.8A"/>
+<attribute name="SATURATION-CURRENT" value="6.5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.035ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.035ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.04ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.04ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871006?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744871100">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 crossed"/>
+<attribute name="VALUE" value="10uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744871100"/>
+<attribute name="INDUCTANCE-1" value="10uH"/>
+<attribute name="INDUCTANCE-2" value="10uH"/>
+<attribute name="RATED-CURRENT-1" value="2A"/>
+<attribute name="RATED-CURRENT-2" value="2A"/>
+<attribute name="SATURATION-CURRENT" value="5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.044ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.044ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.05ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.05ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871100?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744871101">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 crossed"/>
+<attribute name="VALUE" value="100uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744871101"/>
+<attribute name="INDUCTANCE-1" value="100uH"/>
+<attribute name="INDUCTANCE-2" value="100uH"/>
+<attribute name="RATED-CURRENT-1" value="1.5A"/>
+<attribute name="RATED-CURRENT-2" value="1.5A"/>
+<attribute name="SATURATION-CURRENT" value="1.8A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.293ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.293ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.36ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.36ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="4MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871101?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744871220">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 crossed"/>
+<attribute name="VALUE" value="22uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744871220"/>
+<attribute name="INDUCTANCE-1" value="22uH"/>
+<attribute name="INDUCTANCE-2" value="22uH"/>
+<attribute name="RATED-CURRENT-1" value="1.85A"/>
+<attribute name="RATED-CURRENT-2" value="1.85A"/>
+<attribute name="SATURATION-CURRENT" value="3A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.067ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.067ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.09ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.09ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="14MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871220?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744871330">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 crossed"/>
+<attribute name="VALUE" value="33uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744871330"/>
+<attribute name="INDUCTANCE-1" value="33uH"/>
+<attribute name="INDUCTANCE-2" value="33uH"/>
+<attribute name="RATED-CURRENT-1" value="1.2A"/>
+<attribute name="RATED-CURRENT-2" value="1.2A"/>
+<attribute name="SATURATION-CURRENT" value="2.8A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.125ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.125ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.17ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.17ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="6MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871330?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744871470">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 crossed"/>
+<attribute name="VALUE" value="47uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744871470"/>
+<attribute name="INDUCTANCE-1" value="47uH"/>
+<attribute name="INDUCTANCE-2" value="47uH"/>
+<attribute name="RATED-CURRENT-1" value="1.1A"/>
+<attribute name="RATED-CURRENT-2" value="1.1A"/>
+<attribute name="SATURATION-CURRENT" value="2.4A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.145ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.145ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.18ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.18ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="5MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744871470?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-DD_1280_STRAIGHT" urn="urn:adsk.eagle:component:14283403/3" prefix="L">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Characteristics
+1:1 transformer
+Double inductor with two identical windings
+5 different sizes available
+Operating temperature: –40 ºC to +125 ºC
+Recommended solder profile: Reflow
+Custom designs on request
+
+Applications
+For SEPIC and CUK topologies
+Flyback applications
+Switching regulators with second, unregulated output voltage
+
+Details see: www.we-online.com/components/products/WE-DD
+
+Updated by Ella 2025-06-11
+2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-DD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-DD_1280">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12984078/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_744873001">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="1.5uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873001"/>
+<attribute name="INDUCTANCE-1" value="1.5uH"/>
+<attribute name="INDUCTANCE-2" value="1.5uH"/>
+<attribute name="RATED-CURRENT-1" value="6.25A"/>
+<attribute name="RATED-CURRENT-2" value="6.25A"/>
+<attribute name="SATURATION-CURRENT" value="18A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.011ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.011ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.015ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.015ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="75MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873001?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873002">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="2.4uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873002"/>
+<attribute name="INDUCTANCE-1" value="2.4uH"/>
+<attribute name="INDUCTANCE-2" value="2.4uH"/>
+<attribute name="RATED-CURRENT-1" value="6A"/>
+<attribute name="RATED-CURRENT-2" value="6A"/>
+<attribute name="SATURATION-CURRENT" value="14A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.012ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.012ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.016ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.016ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="54MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873002?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873003">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="3.3uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873003"/>
+<attribute name="INDUCTANCE-1" value="3.3uH"/>
+<attribute name="INDUCTANCE-2" value="3.3uH"/>
+<attribute name="RATED-CURRENT-1" value="5.14A"/>
+<attribute name="RATED-CURRENT-2" value="5.14A"/>
+<attribute name="SATURATION-CURRENT" value="11A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.017ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.017ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.022ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.022ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="41MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873003?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873004">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873004"/>
+<attribute name="INDUCTANCE-1" value="4.7uH"/>
+<attribute name="INDUCTANCE-2" value="4.7uH"/>
+<attribute name="RATED-CURRENT-1" value="4.87A"/>
+<attribute name="RATED-CURRENT-2" value="4.87A"/>
+<attribute name="SATURATION-CURRENT" value="10A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.019ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.019ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.024ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.024ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="32MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873004?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873100">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="10uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873100"/>
+<attribute name="INDUCTANCE-1" value="10uH"/>
+<attribute name="INDUCTANCE-2" value="10uH"/>
+<attribute name="RATED-CURRENT-1" value="4.2A"/>
+<attribute name="RATED-CURRENT-2" value="4.2A"/>
+<attribute name="SATURATION-CURRENT" value="7.5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.031ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.031ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.042ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.042ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873100?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873101">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="100uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873101"/>
+<attribute name="INDUCTANCE-1" value="100uH"/>
+<attribute name="INDUCTANCE-2" value="100uH"/>
+<attribute name="RATED-CURRENT-1" value="1.38A"/>
+<attribute name="RATED-CURRENT-2" value="1.38A"/>
+<attribute name="SATURATION-CURRENT" value="2.2A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.235ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.235ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.255ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.255ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="4.4MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873101?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873150">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="15uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873150"/>
+<attribute name="INDUCTANCE-1" value="15uH"/>
+<attribute name="INDUCTANCE-2" value="15uH"/>
+<attribute name="RATED-CURRENT-1" value="3.3A"/>
+<attribute name="RATED-CURRENT-2" value="3.3A"/>
+<attribute name="SATURATION-CURRENT" value="6.1A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.041ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.041ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.055ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.055ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="14MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873150?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873220">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="22uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873220"/>
+<attribute name="INDUCTANCE-1" value="22uH"/>
+<attribute name="INDUCTANCE-2" value="22uH"/>
+<attribute name="RATED-CURRENT-1" value="2.79A"/>
+<attribute name="RATED-CURRENT-2" value="2.79A"/>
+<attribute name="SATURATION-CURRENT" value="5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.058ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.058ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.07ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.07ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="11.5MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873220?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873221">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="220uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873221"/>
+<attribute name="INDUCTANCE-1" value="220uH"/>
+<attribute name="INDUCTANCE-2" value="220uH"/>
+<attribute name="RATED-CURRENT-1" value="0.91A"/>
+<attribute name="RATED-CURRENT-2" value="0.91A"/>
+<attribute name="SATURATION-CURRENT" value="1.6A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.54ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.54ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.58ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.58ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="2.8MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873221?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873330">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="33uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873330"/>
+<attribute name="INDUCTANCE-1" value="33uH"/>
+<attribute name="INDUCTANCE-2" value="33uH"/>
+<attribute name="RATED-CURRENT-1" value="2.25A"/>
+<attribute name="RATED-CURRENT-2" value="2.25A"/>
+<attribute name="SATURATION-CURRENT" value="3.9A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.087ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.087ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.105ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.105ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="8.9MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873330?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873470">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="47uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873470"/>
+<attribute name="INDUCTANCE-1" value="47uH"/>
+<attribute name="INDUCTANCE-2" value="47uH"/>
+<attribute name="RATED-CURRENT-1" value="2.02A"/>
+<attribute name="RATED-CURRENT-2" value="2.02A"/>
+<attribute name="SATURATION-CURRENT" value="3.1A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.11ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.11ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.12ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.12ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="7.8MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873470?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744873680">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="8.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1280 straight"/>
+<attribute name="VALUE" value="68uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744873680"/>
+<attribute name="INDUCTANCE-1" value="68uH"/>
+<attribute name="INDUCTANCE-2" value="68uH"/>
+<attribute name="RATED-CURRENT-1" value="1.66A"/>
+<attribute name="RATED-CURRENT-2" value="1.66A"/>
+<attribute name="SATURATION-CURRENT" value="2.8A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.163ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.163ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.18ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.18ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="5.5MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744873680?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-DD_1260_STRAIGHT" urn="urn:adsk.eagle:component:14283406/3" prefix="L">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Characteristics
+1:1 transformer
+Double inductor with two identical windings
+5 different sizes available
+Operating temperature: –40 ºC to +125 ºC
+Recommended solder profile: Reflow
+Custom designs on request
+
+Applications
+For SEPIC and CUK topologies
+Flyback applications
+Switching regulators with second, unregulated output voltage
+
+Details see: www.we-online.com/components/products/WE-DD
+
+Updated by Ella 2025-06-11
+2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-DD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-DD_1260">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12984081/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_744874001">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 straight"/>
+<attribute name="VALUE" value="1.5uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744874001"/>
+<attribute name="INDUCTANCE-1" value="1.5uH"/>
+<attribute name="INDUCTANCE-2" value="1.5uH"/>
+<attribute name="RATED-CURRENT-1" value="5.85A"/>
+<attribute name="RATED-CURRENT-2" value="5.85A"/>
+<attribute name="SATURATION-CURRENT" value="14A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.012ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.012ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.016ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.016ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="70MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874001?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744874002">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 straight"/>
+<attribute name="VALUE" value="2.4uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744874002"/>
+<attribute name="INDUCTANCE-1" value="2.4uH"/>
+<attribute name="INDUCTANCE-2" value="2.4uH"/>
+<attribute name="RATED-CURRENT-1" value="5.5A"/>
+<attribute name="RATED-CURRENT-2" value="5.5A"/>
+<attribute name="SATURATION-CURRENT" value="11.5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.013ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.013ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.017ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.017ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="54MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874002?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744874003">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 straight"/>
+<attribute name="VALUE" value="3.3uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744874003"/>
+<attribute name="INDUCTANCE-1" value="3.3uH"/>
+<attribute name="INDUCTANCE-2" value="3.3uH"/>
+<attribute name="RATED-CURRENT-1" value="4.91A"/>
+<attribute name="RATED-CURRENT-2" value="4.91A"/>
+<attribute name="SATURATION-CURRENT" value="8.9A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.017ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.017ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.021ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.021ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="45MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874003?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744874004">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 straight"/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744874004"/>
+<attribute name="INDUCTANCE-1" value="4.7uH"/>
+<attribute name="INDUCTANCE-2" value="4.7uH"/>
+<attribute name="RATED-CURRENT-1" value="4.22A"/>
+<attribute name="RATED-CURRENT-2" value="4.22A"/>
+<attribute name="SATURATION-CURRENT" value="8A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.023ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.023ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.028ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.028ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="39MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874004?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744874006">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 straight"/>
+<attribute name="VALUE" value="6.8uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744874006"/>
+<attribute name="INDUCTANCE-1" value="6.8uH"/>
+<attribute name="INDUCTANCE-2" value="6.8uH"/>
+<attribute name="RATED-CURRENT-1" value="3.9A"/>
+<attribute name="RATED-CURRENT-2" value="3.9A"/>
+<attribute name="SATURATION-CURRENT" value="6.8A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.027ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.027ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.032ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.032ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="33MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874006?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744874100">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 straight"/>
+<attribute name="VALUE" value="10uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744874100"/>
+<attribute name="INDUCTANCE-1" value="10uH"/>
+<attribute name="INDUCTANCE-2" value="10uH"/>
+<attribute name="RATED-CURRENT-1" value="3.28A"/>
+<attribute name="RATED-CURRENT-2" value="3.28A"/>
+<attribute name="SATURATION-CURRENT" value="5.25A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.038ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.038ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.044ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.044ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="24MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874100?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744874101">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 straight"/>
+<attribute name="VALUE" value="100uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744874101"/>
+<attribute name="INDUCTANCE-1" value="100uH"/>
+<attribute name="INDUCTANCE-2" value="100uH"/>
+<attribute name="RATED-CURRENT-1" value="1.2A"/>
+<attribute name="RATED-CURRENT-2" value="1.2A"/>
+<attribute name="SATURATION-CURRENT" value="1.7A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.285ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.285ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.32ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.32ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="6MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874101?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744874220">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 straight"/>
+<attribute name="VALUE" value="22uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744874220"/>
+<attribute name="INDUCTANCE-1" value="22uH"/>
+<attribute name="INDUCTANCE-2" value="22uH"/>
+<attribute name="RATED-CURRENT-1" value="2.47A"/>
+<attribute name="RATED-CURRENT-2" value="2.47A"/>
+<attribute name="SATURATION-CURRENT" value="3.3A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.067ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.067ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.08ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.08ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="15.5MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874220?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744874470">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="6.5mm"/>
+<attribute name="LENGTH" value="12.5mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="1260 straight"/>
+<attribute name="VALUE" value="47uH"/>
+<attribute name="WIDTH" value="12.5mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744874470"/>
+<attribute name="INDUCTANCE-1" value="47uH"/>
+<attribute name="INDUCTANCE-2" value="47uH"/>
+<attribute name="RATED-CURRENT-1" value="1.8A"/>
+<attribute name="RATED-CURRENT-2" value="1.8A"/>
+<attribute name="SATURATION-CURRENT" value="2.75A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.13ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.13ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.15ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.15ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="11MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744874470?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-DD_7345_STRAIGHT" urn="urn:adsk.eagle:component:14283405/3" prefix="L">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Characteristics
+1:1 transformer
+Double inductor with two identical windings
+5 different sizes available
+Operating temperature: –40 ºC to +125 ºC
+Recommended solder profile: Reflow
+Custom designs on request
+
+Applications
+For SEPIC and CUK topologies
+Flyback applications
+Switching regulators with second, unregulated output voltage
+
+Details see: www.we-online.com/components/products/WE-DD
+
+Updated by Ella 2025-06-11
+2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-DD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-DD_7345">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12984079/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_744877001">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="1.8uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877001"/>
+<attribute name="INDUCTANCE-1" value="1.8uH"/>
+<attribute name="INDUCTANCE-2" value="1.8uH"/>
+<attribute name="RATED-CURRENT-1" value="4.7A"/>
+<attribute name="RATED-CURRENT-2" value="4.7A"/>
+<attribute name="SATURATION-CURRENT" value="6.5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.025ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.025ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.034ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.034ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="58MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877001?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877002">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="2.4uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877002"/>
+<attribute name="INDUCTANCE-1" value="2.4uH"/>
+<attribute name="INDUCTANCE-2" value="2.4uH"/>
+<attribute name="RATED-CURRENT-1" value="4.2A"/>
+<attribute name="RATED-CURRENT-2" value="4.2A"/>
+<attribute name="SATURATION-CURRENT" value="5.6A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.031ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.031ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.042ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.042ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="50MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877002?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877003">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="3.3uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877003"/>
+<attribute name="INDUCTANCE-1" value="3.3uH"/>
+<attribute name="INDUCTANCE-2" value="3.3uH"/>
+<attribute name="RATED-CURRENT-1" value="3.7A"/>
+<attribute name="RATED-CURRENT-2" value="3.7A"/>
+<attribute name="SATURATION-CURRENT" value="5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.04ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.04ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.052ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.052ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="46MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877003?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877004">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="4.7uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877004"/>
+<attribute name="INDUCTANCE-1" value="4.7uH"/>
+<attribute name="INDUCTANCE-2" value="4.7uH"/>
+<attribute name="RATED-CURRENT-1" value="2.55A"/>
+<attribute name="RATED-CURRENT-2" value="2.55A"/>
+<attribute name="SATURATION-CURRENT" value="4A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.052ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.052ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.064ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.064ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="42MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877004?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877005">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="5.6uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877005"/>
+<attribute name="INDUCTANCE-1" value="5.6uH"/>
+<attribute name="INDUCTANCE-2" value="5.6uH"/>
+<attribute name="RATED-CURRENT-1" value="1.9A"/>
+<attribute name="RATED-CURRENT-2" value="1.9A"/>
+<attribute name="SATURATION-CURRENT" value="3.5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.08ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.08ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.095ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.095ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="23MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877005?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877006">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="6.8uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877006"/>
+<attribute name="INDUCTANCE-1" value="6.8uH"/>
+<attribute name="INDUCTANCE-2" value="6.8uH"/>
+<attribute name="RATED-CURRENT-1" value="1.8A"/>
+<attribute name="RATED-CURRENT-2" value="1.8A"/>
+<attribute name="SATURATION-CURRENT" value="3.2A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.085ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.085ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.102ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.102ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="20MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877006?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877008">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="8.2uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877008"/>
+<attribute name="INDUCTANCE-1" value="8.2uH"/>
+<attribute name="INDUCTANCE-2" value="8.2uH"/>
+<attribute name="RATED-CURRENT-1" value="1.7A"/>
+<attribute name="RATED-CURRENT-2" value="1.7A"/>
+<attribute name="SATURATION-CURRENT" value="2.9A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.091ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.091ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.11ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.11ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="17MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877008?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877100">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="10uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877100"/>
+<attribute name="INDUCTANCE-1" value="10uH"/>
+<attribute name="INDUCTANCE-2" value="10uH"/>
+<attribute name="RATED-CURRENT-1" value="1.1A"/>
+<attribute name="RATED-CURRENT-2" value="1.1A"/>
+<attribute name="SATURATION-CURRENT" value="2.8A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.11ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.11ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.12ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.12ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="27MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877100?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877101">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="100uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877101"/>
+<attribute name="INDUCTANCE-1" value="100uH"/>
+<attribute name="INDUCTANCE-2" value="100uH"/>
+<attribute name="RATED-CURRENT-1" value="0.65A"/>
+<attribute name="RATED-CURRENT-2" value="0.65A"/>
+<attribute name="SATURATION-CURRENT" value="0.9A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="1.029ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="1.029ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="1.3ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="1.3ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="4MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877101?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877220">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="22uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877220"/>
+<attribute name="INDUCTANCE-1" value="22uH"/>
+<attribute name="INDUCTANCE-2" value="22uH"/>
+<attribute name="RATED-CURRENT-1" value="0.8A"/>
+<attribute name="RATED-CURRENT-2" value="0.8A"/>
+<attribute name="SATURATION-CURRENT" value="1.8A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.215ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.215ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.26ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.26ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="16MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877220?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+<technology name="_744877330">
+<attribute name="TYPE" value="Straight"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 straight"/>
+<attribute name="VALUE" value="33uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744877330"/>
+<attribute name="INDUCTANCE-1" value="33uH"/>
+<attribute name="INDUCTANCE-2" value="33uH"/>
+<attribute name="RATED-CURRENT-1" value="0.7A"/>
+<attribute name="RATED-CURRENT-2" value="0.7A"/>
+<attribute name="SATURATION-CURRENT" value="1.5A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="0.4ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="0.4ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="0.5ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="0.5ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="8MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744877330?ae"/>
+<attribute name="PREFIX" value="L"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-DD_7345_CROSSED" urn="urn:adsk.eagle:component:48969897/2" prefix="L">
+<description>WE-DD SMT Shielded Coupled Inductor
+
+Characteristics
+1:1 transformer
+Double inductor with two identical windings
+5 different sizes available
+Operating temperature: –40 ºC to +125 ºC
+Recommended solder profile: Reflow
+Custom designs on request
+
+Applications
+For SEPIC and CUK topologies
+Flyback applications
+Switching regulators with second, unregulated output voltage
+
+Details see: www.we-online.com/components/products/WE-DD
+
+Updated by Ella 2025-06-11
+2025(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-DD_CROSSED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-DD_7345">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12984079/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_744875221">
+<attribute name="TYPE" value="Crossed"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="LENGTH" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="SIZE" value="7345 crossed"/>
+<attribute name="VALUE" value="220uH"/>
+<attribute name="WIDTH" value="7.3mm"/>
+<attribute name="CATEGORY" value="Coupled Inductors"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="744875221"/>
+<attribute name="INDUCTANCE-1" value="220uH"/>
+<attribute name="INDUCTANCE-2" value="220uH"/>
+<attribute name="RATED-CURRENT-1" value="0.46A"/>
+<attribute name="RATED-CURRENT-2" value="0.46A"/>
+<attribute name="SATURATION-CURRENT" value="0.58A"/>
+<attribute name="DC-RESISTANCE-1-TYP" value="1.94ohm"/>
+<attribute name="DC-RESISTANCE-2-TYP" value="1.94ohm"/>
+<attribute name="DC-RESISTANCE-1-MAX" value="2.32ohm"/>
+<attribute name="DC-RESISTANCE-2-MAX" value="2.32ohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="4.1MHz"/>
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/744875221?ae"/>
 <attribute name="PREFIX" value="L"/>
 </technology>
 </technologies>

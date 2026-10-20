@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="255" name="Undefined" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Würth Elektronik  - Passive Components - Power Magnetics - Inductors for Multiphase Converters - WE-HCIM
+
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, 
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. 
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. 
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. 
+
+Please contact us for more information: libraries@we-online.com 
+
+Würth Elektronik eiSos GmbH &amp; Co. KG
+EMC &amp; Inductive Solutions
+www.we-online.com
+
+Autodesk Fusion and EAGLE 9.X compatible Library Files
+Library Revision 2026a, 2026-10-20
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-HCIM_110407" urn="urn:adsk.eagle:footprint:54432686/1">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 110407 SMT, 2pins
+LXWXH=11mmX4mmX7.3mm</description>
+<wire x1="-5.5" y1="2" x2="5.5" y2="2" width="0.1" layer="51"/>
+<wire x1="5.5" y1="2" x2="5.5" y2="-2" width="0.1" layer="51"/>
+<wire x1="5.5" y1="-2" x2="-5.5" y2="-2" width="0.1" layer="51"/>
+<wire x1="-5.5" y1="-2" x2="-5.5" y2="2" width="0.1" layer="51"/>
+<wire x1="0.35" y1="2.1" x2="-0.35" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-0.35" y1="-2.1" x2="0.35" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="3.5" y1="2.1" x2="2.8" y2="2.1" width="0.2" layer="21"/>
+<wire x1="2.8" y1="-2.1" x2="3.5" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-2.8" y1="2.1" x2="-3.5" y2="2.1" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="-2.1" x2="-2.8" y2="-2.1" width="0.2" layer="21"/>
+<rectangle x1="-5.8" y1="-2.3" x2="5.8" y2="2.3" layer="39"/>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<smd name="1" x="-4.725" y="0" dx="1.85" dy="4.3" layer="1"/>
+<smd name="2" x="-1.575" y="0" dx="1.85" dy="4.3" layer="1"/>
+<smd name="3" x="1.575" y="0" dx="1.85" dy="4.3" layer="1"/>
+<smd name="4" x="4.725" y="0" dx="1.85" dy="4.3" layer="1"/>
+<circle x="-4.8" y="3" radius="0.2" width="0.4064" layer="21"/>
+</package>
+<package name="WE-HCIM_100706" urn="urn:adsk.eagle:footprint:54432688/1">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 100706 SMT, 2pins
+LXWXH=9.7mmX7mmX5.7mm</description>
+<wire x1="-4.85" y1="3.5" x2="4.85" y2="3.5" width="0.1" layer="51"/>
+<wire x1="4.85" y1="3.5" x2="4.85" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="4.85" y1="-3.5" x2="-4.85" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-4.85" y1="-3.5" x2="-4.85" y2="3.5" width="0.1" layer="51"/>
+<wire x1="0.5" y1="3.6" x2="-0.5" y2="3.6" width="0.2" layer="21"/>
+<wire x1="0.5" y1="-3.6" x2="-0.5" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="-4.95" y1="-3.6" x2="-4.95" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-4.95" y1="3.6" x2="-4.8" y2="3.6" width="0.2" layer="21"/>
+<wire x1="-4.95" y1="-3.6" x2="-4.8" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="5" y1="3.6" x2="5" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="5" y1="-3.6" x2="4.8" y2="-3.6" width="0.2" layer="21"/>
+<wire x1="5" y1="3.6" x2="4.8" y2="3.6" width="0.2" layer="21"/>
+<rectangle x1="-5.15" y1="-3.825" x2="5.15" y2="3.825" layer="39"/>
+<text x="0" y="4.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<smd name="1" x="-2.65" y="-2.1625" dx="3.7" dy="3.025" layer="1"/>
+<smd name="3" x="2.65" y="-2.1625" dx="3.7" dy="3.025" layer="1"/>
+<smd name="2" x="-2.65" y="2.1625" dx="3.7" dy="3.025" layer="1"/>
+<smd name="4" x="2.65" y="2.1625" dx="3.7" dy="3.025" layer="1"/>
+<circle x="-5.8" y="-3.5" radius="0.2" width="0.4064" layer="21"/>
+</package>
+<package name="WE-HCIM_100806" urn="urn:adsk.eagle:footprint:54432687/1">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 100806 SMT, 2pins
+LXWXH=9.8mmX7.8mmX5.8mm</description>
+<wire x1="-4.9" y1="3.9" x2="4.9" y2="3.9" width="0.1" layer="51"/>
+<wire x1="4.9" y1="3.9" x2="4.9" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="4.9" y1="-3.9" x2="-4.9" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="-4.9" y1="-3.9" x2="-4.9" y2="3.9" width="0.1" layer="51"/>
+<wire x1="0.15" y1="4" x2="-0.15" y2="4" width="0.2" layer="21"/>
+<wire x1="-5" y1="-0.7" x2="-5" y2="0.7" width="0.2" layer="21"/>
+<wire x1="5" y1="0.7" x2="5" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="3" y1="4" x2="2.4" y2="4" width="0.2" layer="21"/>
+<wire x1="-2.4" y1="4" x2="-3" y2="4" width="0.2" layer="21"/>
+<wire x1="-0.15" y1="-4" x2="0.15" y2="-4" width="0.2" layer="21"/>
+<wire x1="-3" y1="-4" x2="-2.4" y2="-4" width="0.2" layer="21"/>
+<wire x1="2.4" y1="-4" x2="3" y2="-4" width="0.2" layer="21"/>
+<rectangle x1="-5.25" y1="-4.25" x2="5.25" y2="4.25" layer="39"/>
+<text x="0" y="4.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<smd name="1" x="-4.15" y="2.575" dx="1.6" dy="3.05" layer="1"/>
+<smd name="2" x="-1.25" y="2.575" dx="1.6" dy="3.05" layer="1"/>
+<smd name="5" x="-4.15" y="-2.575" dx="1.6" dy="3.05" layer="1"/>
+<smd name="6" x="-1.25" y="-2.575" dx="1.6" dy="3.05" layer="1"/>
+<smd name="3" x="1.25" y="2.575" dx="1.6" dy="3.05" layer="1"/>
+<smd name="7" x="1.25" y="-2.575" dx="1.6" dy="3.05" layer="1"/>
+<smd name="4" x="4.15" y="2.575" dx="1.6" dy="3.05" layer="1"/>
+<smd name="8" x="4.15" y="-2.575" dx="1.6" dy="3.05" layer="1"/>
+<circle x="-5.8" y="3.5" radius="0.2" width="0.4064" layer="21"/>
+</package>
+<package name="WE-HCIM_100605" urn="urn:adsk.eagle:footprint:54432689/1">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 100605 SMT, 2pins
+LXWXH=9.8mmX5.8mmX4.8mm</description>
+<smd name="1" x="-2.3" y="-2.15" dx="3.1" dy="1.8" layer="1"/>
+<smd name="3" x="2.3" y="-2.15" dx="3.1" dy="1.8" layer="1"/>
+<smd name="2" x="-2.3" y="2.15" dx="3.1" dy="1.8" layer="1"/>
+<smd name="4" x="2.3" y="2.15" dx="3.1" dy="1.8" layer="1"/>
+<wire x1="-4.9" y1="2.9" x2="4.9" y2="2.9" width="0.1" layer="51"/>
+<wire x1="4.9" y1="2.9" x2="4.9" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="4.9" y1="-2.9" x2="-4.9" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="-4.9" y1="-2.9" x2="-4.9" y2="2.9" width="0.1" layer="51"/>
+<wire x1="0.45" y1="3" x2="-0.45" y2="3" width="0.2" layer="21"/>
+<wire x1="0.45" y1="-3" x2="-0.45" y2="-3" width="0.2" layer="21"/>
+<wire x1="-5" y1="-3" x2="-5" y2="3" width="0.2" layer="21"/>
+<wire x1="-5" y1="3" x2="-4.15" y2="3" width="0.2" layer="21"/>
+<wire x1="-5" y1="-3" x2="-4.15" y2="-3" width="0.2" layer="21"/>
+<wire x1="5" y1="3" x2="5" y2="-3" width="0.2" layer="21"/>
+<wire x1="5" y1="-3" x2="4.15" y2="-3" width="0.2" layer="21"/>
+<wire x1="5" y1="3" x2="4.15" y2="3" width="0.2" layer="21"/>
+<rectangle x1="-5.15" y1="-3.25" x2="5.15" y2="3.25" layer="39"/>
+<text x="0" y="3.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.8" y="-2.5" radius="0.2" width="0.4064" layer="21"/>
+</package>
+<package name="WE-HCIM_050406" urn="urn:adsk.eagle:footprint:54432692/1">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 050406 SMT, 2pins
+LXWXH=4.8mmX3.8mmX5.8mm</description>
+<smd name="1" x="-1.75" y="0" dx="1.5" dy="3.4" layer="1"/>
+<smd name="2" x="1.75" y="0" dx="1.5" dy="3.4" layer="1"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.1" layer="51"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0.2" layer="21"/>
+<wire x1="2.5" y1="-2" x2="-2.5" y2="-2" width="0.2" layer="21"/>
+<rectangle x1="-2.65" y1="-2.15" x2="2.65" y2="2.15" layer="39"/>
+<text x="0" y="2.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-HCIM_070506" urn="urn:adsk.eagle:footprint:54432691/1">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 070506 SMT, 2pins
+LXWXH=7.1mmX4.7mmX5.8mm</description>
+<smd name="1" x="-2.525" y="0" dx="2.45" dy="3.5" layer="1"/>
+<smd name="2" x="2.525" y="0" dx="2.45" dy="3.5" layer="1"/>
+<wire x1="-3.55" y1="2.35" x2="3.55" y2="2.35" width="0.1" layer="51"/>
+<wire x1="3.55" y1="2.35" x2="3.55" y2="-2.35" width="0.1" layer="51"/>
+<wire x1="3.55" y1="-2.35" x2="-3.55" y2="-2.35" width="0.1" layer="51"/>
+<wire x1="-3.55" y1="-2.35" x2="-3.55" y2="2.35" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="2.45" x2="3.65" y2="2.45" width="0.2" layer="21"/>
+<wire x1="3.65" y1="2.45" x2="3.65" y2="2.05" width="0.2" layer="21"/>
+<wire x1="3.65" y1="-2.05" x2="3.65" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="3.65" y1="-2.45" x2="-3.65" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="-3.65" y1="-2.45" x2="-3.65" y2="-2.05" width="0.2" layer="21"/>
+<wire x1="-3.65" y1="2.05" x2="-3.65" y2="2.45" width="0.2" layer="21"/>
+<rectangle x1="-3.9" y1="-2.6" x2="3.9" y2="2.6" layer="39"/>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.3" size="1.27" layer="25" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-HCIM_080506" urn="urn:adsk.eagle:footprint:54432690/1">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 080506 SMT, 2pins
+LXWXH=7.8mmX4.8mmX5.8mm</description>
+<smd name="1" x="-2.575" y="1.45" dx="3.05" dy="1.6" layer="1"/>
+<smd name="3" x="2.575" y="1.45" dx="3.05" dy="1.6" layer="1"/>
+<smd name="2" x="-2.575" y="-1.45" dx="3.05" dy="1.6" layer="1"/>
+<smd name="4" x="2.575" y="-1.45" dx="3.05" dy="1.6" layer="1"/>
+<wire x1="-3.9" y1="2.4" x2="3.9" y2="2.4" width="0.1" layer="51"/>
+<wire x1="3.9" y1="2.4" x2="3.9" y2="-2.4" width="0.1" layer="51"/>
+<wire x1="3.9" y1="-2.4" x2="-3.9" y2="-2.4" width="0.1" layer="51"/>
+<wire x1="-3.9" y1="-2.4" x2="-3.9" y2="2.4" width="0.1" layer="51"/>
+<wire x1="0.85" y1="2.5" x2="-0.85" y2="2.5" width="0.2" layer="21"/>
+<wire x1="0.85" y1="-2.5" x2="-0.85" y2="-2.5" width="0.2" layer="21"/>
+<rectangle x1="-4.25" y1="-2.65" x2="4.25" y2="2.65" layer="39"/>
+<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-4.8" y="1.5" radius="0.2" width="0.4064" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-HCIM_110407" urn="urn:adsk.eagle:package:54432697/1" type="model">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 110407 SMT, 2pins
+LXWXH=11mmX4mmX7.3mm</description>
+<packageinstances>
+<packageinstance name="WE-HCIM_110407"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCIM_100706" urn="urn:adsk.eagle:package:54432699/1" type="model">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 100706 SMT, 2pins
+LXWXH=9.7mmX7mmX5.7mm</description>
+<packageinstances>
+<packageinstance name="WE-HCIM_100706"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCIM_100806" urn="urn:adsk.eagle:package:54432698/1" type="model">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 100806 SMT, 2pins
+LXWXH=9.8mmX7.8mmX5.8mm</description>
+<packageinstances>
+<packageinstance name="WE-HCIM_100806"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCIM_100605" urn="urn:adsk.eagle:package:54432700/1" type="model">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 100605 SMT, 2pins
+LXWXH=9.8mmX5.8mmX4.8mm</description>
+<packageinstances>
+<packageinstance name="WE-HCIM_100605"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCIM_050406" urn="urn:adsk.eagle:package:54432705/1" type="model">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 050406 SMT, 2pins
+LXWXH=4.8mmX3.8mmX5.8mm</description>
+<packageinstances>
+<packageinstance name="WE-HCIM_050406"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCIM_070506" urn="urn:adsk.eagle:package:54432703/1" type="model">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 070506 SMT, 2pins
+LXWXH=7.1mmX4.7mmX5.8mm</description>
+<packageinstances>
+<packageinstance name="WE-HCIM_070506"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-HCIM_080506" urn="urn:adsk.eagle:package:54432702/1" type="model">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+Size: 080506 SMT, 2pins
+LXWXH=7.8mmX4.8mmX5.8mm</description>
+<packageinstances>
+<packageinstance name="WE-HCIM_080506"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="COUPLED_2COILS" urn="urn:adsk.eagle:symbol:54432694/1">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="0" x2="4.445" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="UNCOUPLED_2COILS" urn="urn:adsk.eagle:symbol:54432693/1">
+<pin name="1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="1.905" x2="-0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-0.635" x2="-0.635" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-0.635" x2="0.635" y2="-0.635" width="0.254" layer="94"/>
+</symbol>
+<symbol name="UNCOUPLED_4COILS" urn="urn:adsk.eagle:symbol:54432695/1">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="5.842" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="4.445" x2="-0.635" y2="4.445" width="0.254" layer="94"/>
+<wire x1="4.445" y1="4.445" x2="0.635" y2="4.445" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="4.445" y1="1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="-0.635" x2="-0.635" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-0.635" x2="0.635" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="-3.175" x2="-0.635" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-3.175" x2="0.635" y2="-3.175" width="0.254" layer="94"/>
+</symbol>
+<symbol name="L_GAP" urn="urn:adsk.eagle:symbol:54432696/1">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-HCIM_110407" urn="urn:adsk.eagle:component:54432711/1" prefix="L">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+
+Characteristics
+Low inductance: &lt;100 nH
+Low DC resistance of &lt;0.3 mΩ
+High saturation current of 67–130 A
+High-frequency capability: self-resonant frequency up to 300 MHz
+Core material: iron alloy
+High efficiency for demanding, high-current applications
+Flexible design options: suitable for single, double, 2×2 matrix, and TLVR topologies
+Operating temperature up to 155 °C
+
+Applications
+Multiphase VRM for CPUs/GPUs/AI accelerators
+Data center servers and high-performance computing (HPC) platforms
+AI chip Power Delivery Networks (PDN)
+High Power ASIC applications
+Laptop/notebook power supplies
+Power modules for high-end semiconductor/chipset manufacturers
+5 G PMUs due to its ability to operate at very high frequencies
+
+Details see: www.we-online.com/components/products/WE-HCIM
+
+Created by Ella 2026-10-20
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="COUPLED_2COILS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCIM_110407">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:54432697/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_74432110407085">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432110407085?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432110407085"/>
+<attribute name="VALUE" value="85nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="85nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="54A@40K"/>
+<attribute name="SATURATION-CURRENT" value="110A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.14mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="326MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="COUPLING-COEFFICIENT" value="0.94"/>
+<attribute name="SIZE" value="110407"/>
+<attribute name="LENGTH" value="11mm"/>
+<attribute name="WIDTH" value="4mm"/>
+<attribute name="HEIGHT" value="7.3mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HCIM_100706" urn="urn:adsk.eagle:component:54432713/1" prefix="L">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+
+Characteristics
+Low inductance: &lt;100 nH
+Low DC resistance of &lt;0.3 mΩ
+High saturation current of 67–130 A
+High-frequency capability: self-resonant frequency up to 300 MHz
+Core material: iron alloy
+High efficiency for demanding, high-current applications
+Flexible design options: suitable for single, double, 2×2 matrix, and TLVR topologies
+Operating temperature up to 155 °C
+
+Applications
+Multiphase VRM for CPUs/GPUs/AI accelerators
+Data center servers and high-performance computing (HPC) platforms
+AI chip Power Delivery Networks (PDN)
+High Power ASIC applications
+Laptop/notebook power supplies
+Power modules for high-end semiconductor/chipset manufacturers
+5 G PMUs due to its ability to operate at very high frequencies
+
+Details see: www.we-online.com/components/products/WE-HCIM
+
+Created by Ella 2026-10-20
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="UNCOUPLED_2COILS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCIM_100706">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:54432699/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_74432100706060">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432100706060?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432100706060"/>
+<attribute name="VALUE" value="60nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="60nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="44A@40K"/>
+<attribute name="SATURATION-CURRENT" value="125A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.12mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="344MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="COUPLING-COEFFICIENT" value="0.1"/>
+<attribute name="SIZE" value="100706"/>
+<attribute name="LENGTH" value="9.7mm"/>
+<attribute name="WIDTH" value="7mm"/>
+<attribute name="HEIGHT" value="5.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+<technology name="_74432100706085">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432100706085?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432100706085"/>
+<attribute name="VALUE" value="85nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="85nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="41A@40K"/>
+<attribute name="SATURATION-CURRENT" value="89A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.14mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="260MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="COUPLING-COEFFICIENT" value="0.1"/>
+<attribute name="SIZE" value="100706"/>
+<attribute name="LENGTH" value="9.7mm"/>
+<attribute name="WIDTH" value="7mm"/>
+<attribute name="HEIGHT" value="5.7mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HCIM_100806" urn="urn:adsk.eagle:component:54432712/1" prefix="L">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+
+Characteristics
+Low inductance: &lt;100 nH
+Low DC resistance of &lt;0.3 mΩ
+High saturation current of 67–130 A
+High-frequency capability: self-resonant frequency up to 300 MHz
+Core material: iron alloy
+High efficiency for demanding, high-current applications
+Flexible design options: suitable for single, double, 2×2 matrix, and TLVR topologies
+Operating temperature up to 155 °C
+
+Applications
+Multiphase VRM for CPUs/GPUs/AI accelerators
+Data center servers and high-performance computing (HPC) platforms
+AI chip Power Delivery Networks (PDN)
+High Power ASIC applications
+Laptop/notebook power supplies
+Power modules for high-end semiconductor/chipset manufacturers
+5 G PMUs due to its ability to operate at very high frequencies
+
+Details see: www.we-online.com/components/products/WE-HCIM
+
+Created by Ella 2026-10-20
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="UNCOUPLED_4COILS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCIM_100806">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:54432698/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_74432100806030">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432100806030?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432100806030"/>
+<attribute name="VALUE" value="30nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="30nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="32A@40K"/>
+<attribute name="SATURATION-CURRENT" value="115A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.24mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="442MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="COUPLING-COEFFICIENT" value="0.1"/>
+<attribute name="SIZE" value="100806"/>
+<attribute name="LENGTH" value="9.8mm"/>
+<attribute name="WIDTH" value="7.8mm"/>
+<attribute name="HEIGHT" value="5.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+<technology name="_74432100806085">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432100806085?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432100806085"/>
+<attribute name="VALUE" value="85nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="85nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="32A@40K"/>
+<attribute name="SATURATION-CURRENT" value="80A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.24mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="252MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="COUPLING-COEFFICIENT" value="0.1"/>
+<attribute name="SIZE" value="100806"/>
+<attribute name="LENGTH" value="9.8mm"/>
+<attribute name="WIDTH" value="7.8mm"/>
+<attribute name="HEIGHT" value="5.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HCIM_100605" urn="urn:adsk.eagle:component:54432714/1" prefix="L">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+
+Characteristics
+Low inductance: &lt;100 nH
+Low DC resistance of &lt;0.3 mΩ
+High saturation current of 67–130 A
+High-frequency capability: self-resonant frequency up to 300 MHz
+Core material: iron alloy
+High efficiency for demanding, high-current applications
+Flexible design options: suitable for single, double, 2×2 matrix, and TLVR topologies
+Operating temperature up to 155 °C
+
+Applications
+Multiphase VRM for CPUs/GPUs/AI accelerators
+Data center servers and high-performance computing (HPC) platforms
+AI chip Power Delivery Networks (PDN)
+High Power ASIC applications
+Laptop/notebook power supplies
+Power modules for high-end semiconductor/chipset manufacturers
+5 G PMUs due to its ability to operate at very high frequencies
+
+Details see: www.we-online.com/components/products/WE-HCIM
+
+Created by Ella 2026-10-20
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="UNCOUPLED_2COILS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCIM_100605">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:54432700/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_74432100605080">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432100605080?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432100605080"/>
+<attribute name="VALUE" value="80nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="80nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="35A@40K"/>
+<attribute name="SATURATION-CURRENT" value="75A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.21mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="252MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="COUPLING-COEFFICIENT" value="0.1"/>
+<attribute name="SIZE" value="100605"/>
+<attribute name="LENGTH" value="9.8mm"/>
+<attribute name="WIDTH" value="5.8mm"/>
+<attribute name="HEIGHT" value="4.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HCIM_050406" urn="urn:adsk.eagle:component:54432717/1" prefix="L">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+
+Characteristics
+Low inductance: &lt;100 nH
+Low DC resistance of &lt;0.3 mΩ
+High saturation current of 67–130 A
+High-frequency capability: self-resonant frequency up to 300 MHz
+Core material: iron alloy
+High efficiency for demanding, high-current applications
+Flexible design options: suitable for single, double, 2×2 matrix, and TLVR topologies
+Operating temperature up to 155 °C
+
+Applications
+Multiphase VRM for CPUs/GPUs/AI accelerators
+Data center servers and high-performance computing (HPC) platforms
+AI chip Power Delivery Networks (PDN)
+High Power ASIC applications
+Laptop/notebook power supplies
+Power modules for high-end semiconductor/chipset manufacturers
+5 G PMUs due to its ability to operate at very high frequencies
+
+Details see: www.we-online.com/components/products/WE-HCIM
+
+Created by Ella 2026-10-20
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCIM_050406">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:54432705/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_74432050406060">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432050406060?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432050406060"/>
+<attribute name="VALUE" value="60nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="60nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="65A@40K"/>
+<attribute name="SATURATION-CURRENT" value="79A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.23mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="361MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="SIZE" value="050406"/>
+<attribute name="LENGTH" value="4.8mm"/>
+<attribute name="WIDTH" value="3.8mm"/>
+<attribute name="HEIGHT" value="5.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+<technology name="_74432050406085">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432050406085?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432050406085"/>
+<attribute name="VALUE" value="85nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="85nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="65A@40K"/>
+<attribute name="SATURATION-CURRENT" value="68A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.23mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="335MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="SIZE" value="050406"/>
+<attribute name="LENGTH" value="4.8mm"/>
+<attribute name="WIDTH" value="3.8mm"/>
+<attribute name="HEIGHT" value="5.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HCIM_070506" urn="urn:adsk.eagle:component:54432716/1" prefix="L">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+
+Characteristics
+Low inductance: &lt;100 nH
+Low DC resistance of &lt;0.3 mΩ
+High saturation current of 67–130 A
+High-frequency capability: self-resonant frequency up to 300 MHz
+Core material: iron alloy
+High efficiency for demanding, high-current applications
+Flexible design options: suitable for single, double, 2×2 matrix, and TLVR topologies
+Operating temperature up to 155 °C
+
+Applications
+Multiphase VRM for CPUs/GPUs/AI accelerators
+Data center servers and high-performance computing (HPC) platforms
+AI chip Power Delivery Networks (PDN)
+High Power ASIC applications
+Laptop/notebook power supplies
+Power modules for high-end semiconductor/chipset manufacturers
+5 G PMUs due to its ability to operate at very high frequencies
+
+Details see: www.we-online.com/components/products/WE-HCIM
+
+Created by Ella 2026-10-20
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L_GAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCIM_070506">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:54432703/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_74432070506060">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432070506060?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432070506060"/>
+<attribute name="VALUE" value="60nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="60nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="80A@40K"/>
+<attribute name="SATURATION-CURRENT" value="103A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.12mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="385MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="SIZE" value="070506"/>
+<attribute name="LENGTH" value="7.1mm"/>
+<attribute name="WIDTH" value="4.7mm"/>
+<attribute name="HEIGHT" value="5.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+<technology name="_74432070506085">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432070506085?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432070506085"/>
+<attribute name="VALUE" value="85nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="85nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="74A@40K"/>
+<attribute name="SATURATION-CURRENT" value="82A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.14mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="355MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="SIZE" value="070506"/>
+<attribute name="LENGTH" value="7.1mm"/>
+<attribute name="WIDTH" value="4.7mm"/>
+<attribute name="HEIGHT" value="5.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-HCIM_080506" urn="urn:adsk.eagle:component:54432715/1" prefix="L">
+<description>WE-HCIM High-Current Molded Inductor for Multiphase Applications
+
+Characteristics
+Low inductance: &lt;100 nH
+Low DC resistance of &lt;0.3 mΩ
+High saturation current of 67–130 A
+High-frequency capability: self-resonant frequency up to 300 MHz
+Core material: iron alloy
+High efficiency for demanding, high-current applications
+Flexible design options: suitable for single, double, 2×2 matrix, and TLVR topologies
+Operating temperature up to 155 °C
+
+Applications
+Multiphase VRM for CPUs/GPUs/AI accelerators
+Data center servers and high-performance computing (HPC) platforms
+AI chip Power Delivery Networks (PDN)
+High Power ASIC applications
+Laptop/notebook power supplies
+Power modules for high-end semiconductor/chipset manufacturers
+5 G PMUs due to its ability to operate at very high frequencies
+
+Details see: www.we-online.com/components/products/WE-HCIM
+
+Created by Ella 2026-10-20
+2026 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="UNCOUPLED_2COILS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-HCIM_080506">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:54432702/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_74432080506085">
+<attribute name="DATASHEET" value="https://www.we-online.com/redexpert/spec/74432080506085?ae"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MPN" value="74432080506085"/>
+<attribute name="VALUE" value="85nH"/>
+<attribute name="CATEGORY" value="Inductors"/>
+<attribute name="INDUCTANCE" value="85nH"/>
+<attribute name="PERFORMANCE-RATED-CURRENT" value="33A@40K"/>
+<attribute name="SATURATION-CURRENT" value="67A@30%"/>
+<attribute name="DC-RESISTANCE-TYP" value="0.24mohm"/>
+<attribute name="SELF-RESONANT-FREQUENCY" value="299MHz"/>
+<attribute name="OPERATING-VOLTAGE" value="60V"/>
+<attribute name="COUPLING-COEFFICIENT" value="0.1"/>
+<attribute name="SIZE" value="080506"/>
+<attribute name="LENGTH" value="7.8mm"/>
+<attribute name="WIDTH" value="4.8mm"/>
+<attribute name="HEIGHT" value="5.8mm"/>
+<attribute name="MOUNT" value="SMT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
